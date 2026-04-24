@@ -1,5 +1,5 @@
 import {graphics,constants} from './variables.mjs'
-import {} from './functions.mjs'
+import {findName} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 import {transitionManager} from './../JS/transitionManager.mjs'
 import {city} from './city.mjs'
@@ -10,8 +10,9 @@ export class operation{
         this.nextMap=this.map
         this.cities=[]
         this.units=[]
-        this.scene=`mapAll`
+        this.scene=`main`
         this.view={scale:1}
+        this.turn={main:0,time:0,total:0}
         this.initial()
         this.loadMap(this.map)
         this.initialComponents()
@@ -102,7 +103,9 @@ export class operation{
     }
     loadMap(map){
         types.city=types.map[map].city
+        types.connect=types.map[map].connect
         types.team=types.map[map].team
+        types.player=types.map[map].player
         types.unit=types.map[map].unit
 
         //graphics.load.water=Array.from(graphics.load.water[options.size==2?1:0].bytes).map(byte=>byte.toString(2).padStart(8,`0`))
@@ -113,15 +116,33 @@ export class operation{
     initialComponents(){
         types.city.forEach(data=>this.cities.push(new city(this,data)))
         types.unit.forEach(data=>this.units.push(new unit(this,data)))
+        types.connect.forEach(data=>{
+            let cit=data.name.map(name=>this.cities[findName(name,this.cities)])
+            cit[0].connect.main.push(cit[1])
+            cit[1].connect.main.push(cit[0])
+            cit[0].connect.primary.push(cit[1])
+        })
     }
     display(layer){
+        let img
         switch(this.scene){
-            case `mapAll`:
-                let img=graphics.load.map[this.map][0]
+            case `main`:
+                img=graphics.load.map[this.map][0]
                 this.view.scale=layer.width/img.width
                 layer.push()
                 layer.scale(this.view.scale)
                 layer.image(img,img.width/2,img.height/2,img.width,img.height)
+                this.cities.forEach(city=>city.display(layer,`road`))
+                this.cities.forEach(city=>city.display(layer,this.scene))
+                layer.pop()
+            break
+            case `mapAll`:
+                img=graphics.load.map[this.map][0]
+                this.view.scale=layer.width/img.width
+                layer.push()
+                layer.scale(this.view.scale)
+                layer.image(img,img.width/2,img.height/2,img.width,img.height)
+                this.cities.forEach(city=>city.display(layer,`road`))
                 this.cities.forEach(city=>city.display(layer,this.scene))
                 this.units.forEach(unit=>unit.display(layer,`under`))
                 this.units.forEach(unit=>unit.display(layer,this.scene))
@@ -132,11 +153,16 @@ export class operation{
         this.transitionManager.display(layer)
     }
     update(layer,mouse){
+        let rel
         switch(this.scene){
             case `mapAll`:
-                let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+                rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
                 this.cities.forEach(city=>city.update(layer,this.scene,rel))
                 this.units.forEach(unit=>unit.update(layer,this.scene,rel))
+            break
+            case `main`:
+                rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+                this.cities.forEach(city=>city.update(layer,this.scene,rel))
             break
         }
     }

@@ -5,7 +5,7 @@ export class unit{
         this.operation=operation
         this.position={x:data.pos[0],y:data.pos[1]}
         this.level=data.level
-        this.types=data.types.map(type=>findName(type,types.unitType))
+        this.type=data.type.map(type=>findName(type,types.unitType))
         this.team=typeof data.team==`number`?data.team:findName(data.team,types.team)
         this.desc=data.desc
         this.name=data.name
@@ -22,7 +22,11 @@ export class unit{
         this.player=types.team[this.team].player
 
         this.fade={main:1,trigger:true,hover:0,hoverTrigger:false}
+
         this.contain={units:[],trigger:true}
+        this.order={type:-1,pos:[],state:0}
+        this.hist=[]
+
         this.initialGraphics()
         this.initialElements(data.elements)
     }
@@ -34,22 +38,13 @@ export class unit{
     }
     initialElements(elements){
         for(let a=0,la=elements.length;a<la;a++){
-            if(typeof elements[a]==`string`||typeof elements[a].types==`string`){
-                if(typeof elements[a]==`string`){
-                    this.contain.units.push(new unit(this.operation,{
-                        level:3,types:types.elementType[findName(elements[a],types.elementType)].unitType,team:this.team,
-                        desc:``,name:``,designation:``,commander:``,icon:this.icon,
-                        pos:[0,0],
-                        elements:[],
-                    }))
-                }else{
-                    this.contain.units.push(new unit(this.operation,{
-                        level:3,types:types.elementType[findName(elements[a].types,types.elementType)].unitType,team:elements[a].team,
-                        desc:``,name:``,designation:``,commander:``,icon:this.icon,
-                        pos:[0,0],
-                        elements:[],
-                    }))
-                }
+            if(typeof elements[a].type==`string`){
+                this.contain.units.push(new unit(this.operation,{
+                    level:elements[a].level,type:types.elementType[findName(elements[a].type,types.elementType)].unitType,team:elements[a].team,
+                    desc:``,name:elements[a].name,designation:elements[a].designation,commander:elements[a].commander,icon:this.icon,
+                    pos:[0,0],
+                    elements:[],
+                }))
             }else{
                 this.operation.units.push(new unit(this.operation,elements[a]))
                 this.contain.units.push(last(this.operation.units))
@@ -126,7 +121,8 @@ export class unit{
         switch(scene){
             case `under`:
                 if(this.contain.trigger){
-                    layer.fill(...[[0,100,255],[225,0,0],[0,225,0]][this.player],0.25)
+                    layer.fill(...types.player[this.player].color,0.25)
+                    layer.noStroke()
                     layer.ellipse(this.position.x,this.position.y,this.radius*2,this.radius*2)
                 }
             break
@@ -149,9 +145,9 @@ export class unit{
 
                 layer.noFill()
                 layer.stroke(40,fade)
-                for(let a=0,la=this.types.length;a<la;a++){
+                for(let a=0,la=this.type.length;a<la;a++){
                     layer.strokeWeight(25/this.size)
-                    switch(this.types[a]){
+                    switch(this.type[a]){
                         case 0:
                             layer.line(-8,-5,8,5)
                             layer.line(-8,5,8,-5)
@@ -185,6 +181,16 @@ export class unit{
                             layer.line(-6.5,1,-5.25,1)
                             layer.line(-6.5,1,-6.5,-1)
                         break
+                        /*case 8:
+                            layer.line(-6.5,-1,-5.25,-1)
+                            layer.line(-6.5,0,-5.5,0)
+                            layer.line(-6.5,1,-6.5,-1)
+                        break*/
+                        //frontier
+                        /*case 8:
+                            layer.arc(-5.5,0,2,2.5,90,270)
+                        break*/
+                        //coast
                     }
                 }
                 if(this.img.length>1){
@@ -206,13 +212,14 @@ export class unit{
                 layer.text(this.symbol,0,-4)
                 layer.stroke(0,fade)
                 layer.fill(255,fade)
-                layer.textSize(1.5)
+                layer.textSize(this.designation.length>=24?1.25:1.5)
                 layer.strokeWeight(0.15)
-                layer.text(this.designation,-5,-3.5)
+                layer.text(this.designation,this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?-3:-3.5)
                 layer.textSize(this.name.length>=5?4:5)
                 layer.strokeWeight(this.name.length>=5?0.4:0.5)
                 layer.text(this.name,0,0.25)
-                layer.textSize(2.25)
+                layer.textSize(this.commander.length>=10?2:2.25)
+                layer.strokeWeight(this.commander.length>=10?0.4:0.45)
                 layer.text(this.commander,0,3.5)
             break
         }
@@ -221,27 +228,42 @@ export class unit{
         switch(scene){
             case `main`: case `mapAll`:
                 if(this.fade.hover>0){
-                    layer.push()
-                    layer.translate(this.position.x,this.position.y)
-                    layer.fill(255,this.fade.hover)
-                    layer.stroke(0,this.fade.hover)
-                    layer.strokeWeight(4)
-                    layer.textSize(40)
-                    layer.text(this.desc,0,-this.height*1.25-30)
-                    layer.scale(this.size/4)
-                    this.displaySub(layer,scene,this.fade.hover)
-                    layer.pop()
-                    if(this.level!=3){
-                        let totalWidth=(this.contain.units.length-1)*10+this.contain.units.reduce((acc,unit)=>acc+unit.width,0)
-                        let totalHeight=this.contain.units.reduce((acc,unit)=>max(acc,unit.height),0)
+                    if(this.level==3){
+                        layer.push()
+                        layer.translate(this.position.x,this.position.y)
+                        layer.fill(255,this.fade.hover)
+                        layer.stroke(0,this.fade.hover)
+                        layer.strokeWeight(4)
+                        layer.textSize(40)
+                        layer.text(this.desc,0,-this.height*1.25-30)
+                        layer.scale(this.size/4)
+                        this.displaySub(layer,scene,this.fade.hover)
+                        layer.pop()
+                    }else{
+                        let totalWidth=(this.contain.units.length-1)*10+this.contain.units.reduce((acc,unit)=>acc+unit.width*1.25,0)
+                        let totalHeight=this.contain.units.reduce((acc,unit)=>max(acc,unit.height*1.25),0)
                         let tick=0
+                        let base={
+                            x:constrain(this.position.x,totalWidth+20,layer.width/this.operation.view.scale-totalWidth-20),
+                            y:constrain(this.position.y,this.height*1.25+60,layer.height/this.operation.view.scale-totalHeight*2-this.height-60)
+                        }
+                        layer.push()
+                        layer.translate(base.x,base.y)
+                        layer.fill(255,this.fade.hover)
+                        layer.stroke(0,this.fade.hover)
+                        layer.strokeWeight(4)
+                        layer.textSize(40)
+                        layer.text(this.desc,0,-this.height*1.25-30)
+                        layer.scale(this.size/4)
+                        this.displaySub(layer,scene,this.fade.hover)
+                        layer.pop()
                         this.contain.units.forEach(unit=>{
                             layer.push()
-                            layer.translate(this.position.x-totalWidth+unit.width+tick*2,this.position.y+this.height*1.25+totalHeight+20)
-                            layer.scale(unit.size/5)
+                            layer.translate(base.x+(-totalWidth*0.5+unit.width*0.625+tick)*2,base.y+this.height*1.25+totalHeight+20)
+                            layer.scale(unit.size/4)
                             unit.displaySub(layer,scene,this.fade.hover)
                             layer.pop()
-                            tick+=unit.width+10
+                            tick+=unit.width*1.25+10
                         })
                     }
                 }

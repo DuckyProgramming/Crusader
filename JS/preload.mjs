@@ -10,7 +10,7 @@ export function preload(){
                 icons.push(unit.icon)
             }
             unit.elements.forEach(element=>{
-                if(typeof element!=`string`&&element.icon!=``&&!icons.includes(element.icon)){
+                if(typeof element.type!=`string`&&element.icon!=``&&!icons.includes(element.icon)){
                     icons.push(element.icon)
                 }
             })
@@ -18,6 +18,7 @@ export function preload(){
         icons.forEach(icon=>graphics.load.unit.push({name:icon,img:loadImage(`${root}Assets/unit/${icon}.png`)}))
     })
     graphics.load.city.push(loadImage(`${root}Assets/city/city.png`))
+    graphics.load.city.push(loadImage(`${root}Assets/city/source.png`))
     /*graphics.load.water=[loadBytes(`${root}Assets/data/water.bin`),loadBytes(`${root}Assets/data/water2.bin`)]*/
 }
 window.preload=preload
