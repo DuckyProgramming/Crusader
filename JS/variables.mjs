@@ -5,24 +5,24 @@ export var types={
     player:[],
     unit:[],
     elementType:[
-        {name:`Infantry`,unitType:[`Infantry`],damage:[],armor:0,health:0,speed:0},//0
-        {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorcycle Bersaglieri`,unitType:['Infantry',`Motorcycle`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],damage:[],armor:0,health:0,speed:0},
-        {name:`Light Tank`,unitType:[`Tank`,`Light`],damage:[],armor:0,health:0,speed:0},
-        {name:`Medium Tank`,unitType:[`Tank`],damage:[],armor:0,health:0,speed:0},//10
-        {name:`Armored Car`,unitType:[`Tank`,`Recon`],damage:[],armor:0,health:0,speed:0},
-        {name:`Light Artillery`,unitType:[`Light`,`Artillery`],damage:[],armor:0,health:0,speed:0},
-        {name:`Artillery`,unitType:[`Artillery`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Light Artillery`,unitType:[`Light`,`Artillery`,`Motorized`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],damage:[],armor:0,health:0,speed:0},
-        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],damage:[],armor:0,health:0,speed:0},
-        {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],damage:[],armor:0,health:0,speed:0},
+        {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:1000,speed:1,artillery:false},//0
+        {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:1000,speed:0.9,artillery:false},
+        {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:1000,speed:2.5,artillery:false},
+        {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:100,health:0,morale:1,num:1000,speed:2.25,artillery:false},
+        {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:1000,speed:2.5,artillery:false},
+        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:1000,speed:2.5,artillery:false},
+        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:1000,speed:3,artillery:false},
+        {name:`Motorcycle Bersaglieri`,unitType:['Infantry',`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:1000,speed:3,artillery:false},
+        {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:800,speed:3,artillery:false},
+        {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:50,morale:0.4,num:50,speed:2,artillery:false},
+        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:1,health:50,morale:0.5,num:50,speed:1.5,artillery:false},//10
+        {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.4,num:50,speed:3,artillery:false},
+        {name:`Light Artillery`,unitType:[`Light`,`Artillery`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.6,num:40,speed:0.6,artillery:true},
+        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[4,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.6,artillery:true},
+        {name:`Motorized Light Artillery`,unitType:[`Light`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.6,num:40,speed:1.8,artillery:true},
+        {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[4,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.8,artillery:true},
+        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[8,8],armor:0.1,health:80,morale:1,num:800,speed:0.8,artillery:false},
+        {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[8,8],armor:0.1,health:80,morale:1,num:800,speed:2,artillery:false},
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -49,7 +49,7 @@ export var types={
                 {name:`Gambut`,owner:1,type:0,pos:[1554,434]},
                 {name:`Knightsbridge`,owner:2,type:0,pos:[480,441]},
                 {name:`El Duda`,owner:1,type:0,pos:[1072,461]},
-                {name:`Rotonda Mteifel`,owner:2,type:0,pos:[86,464]},
+                {name:`Rotonda Mteifel`,owner:2,type:1,pos:[86,464]},
                 {name:`El Adem`,owner:2,type:0,pos:[827,474]},
                 {name:`Zaafran`,owner:1,type:0,pos:[1243,482]},
                 {name:`Bir el Harmat`,owner:2,type:0,pos:[378,564]},
@@ -71,7 +71,7 @@ export var types={
                 {name:`Bir Ghirba`,owner:2,type:0,pos:[2104,1017]},
                 {name:`Retma`,owner:2,type:0,pos:[660,1038]},
                 {name:`Halfaya Pass`,owner:2,type:0,pos:[2405,1069]},
-                {name:`Buq Buq`,owner:0,type:1,pos:[2896,1077]},
+                {name:`Buq Buq`,owner:0,type:1,pos:[2896,1027]},
                 {name:`Bir Bu Deheua`,owner:2,type:0,pos:[1895,1124]},
                 {name:`Libyan Omar`,owner:2,type:0,pos:[2023,1136]},
                 {name:`Gabr Saleh`,owner:2,type:0,pos:[1386,1151]},
@@ -132,7 +132,7 @@ export var types={
                 {name:[`Fort Capuzzo`,`Sollum`]},
                 {name:[`Fort Capuzzo`,`Bir Ghirba`]},
                 {name:[`Halfaya Pass`,`Sollum`]},
-                {name:[`Halfaya Pass`,`Buq Buq`]},
+                {name:[`Buq Buq`,`Halfaya Pass`]},
                 {name:[`Sofafi`,`Buq Buq`]},
                 {name:[`Sofafi`,`Bir Habata`]},
                 {name:[`Bir el Khireigat`,`Bir Habata`]},
@@ -180,8 +180,8 @@ export var types={
                             desc:`4th Armoured Brigade`,name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
                             pos:[2380,1420],
                             elements:[
-                                {level:3,type:`Light Tank`,team:`British`,name:`3`,designation:`Royal Tank\nRegiment`,commander:``},
-                                {level:3,type:`Light Tank`,team:`British`,name:`5`,designation:`Royal Tank\nRegiment`,commander:``},
+                                {level:3,type:`Light Tank`,team:`British`,name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
+                                {level:3,type:`Light Tank`,team:`British`,name:`5`,designation:`Royal Tank\nRegiment`,commander:`Carver`},
                                 {level:3,type:`Light Tank`,team:`British`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
                                 {level:3,type:`Motorized Infantry`,team:`British`,name:`2`,designation:`Scots\nGuards`,commander:``},
                                 {level:3,type:`Motorized Artillery`,team:`British`,name:`2`,designation:`Royal\nHorse`,commander:``},
@@ -191,9 +191,9 @@ export var types={
                             desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
                             pos:[2485,1420],
                             elements:[
-                                {level:3,type:`Medium Tank`,team:`British`,name:`2`,designation:`Royal Tank\nRegiment`,commander:``},
-                                {level:3,type:`Medium Tank`,team:`British`,name:`6`,designation:`Royal Tank\nRegiment`,commander:``},
-                                {level:3,type:`Medium Tank`,team:`British`,name:`7`,designation:`Queen's\nHussars`,commander:``},
+                                {level:3,type:`Medium Tank`,team:`British`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
+                                {level:3,type:`Medium Tank`,team:`British`,name:`6`,designation:`Royal Tank\nRegiment`,commander:`Lister`},
+                                {level:3,type:`Medium Tank`,team:`British`,name:`7`,designation:`Queen's\nHussars`,commander:`Byass`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
@@ -207,10 +207,10 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Tank`,`Recon`],team:`British`,
-                            desc:`1st King's Dragoon Guards`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:``,icon:`7a`,
+                            desc:`1st King's Dragoon Guards`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:`McCorquodale`,icon:`7a`,
                             pos:[1950,1282],
                             elements:[
-                                {level:3,type:`Armored Car`,team:`British`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:``},
+                                {level:3,type:`Armored Car`,team:`British`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:`McCorquodale`},
                             ],
                         },
                     ],
@@ -224,18 +224,18 @@ export var types={
                             desc:`1st South African Infantry Brigade`,name:`1`,designation:``,commander:`Pienaar`,icon:`1sa`,
                             pos:[2535,1520],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Duke of\nEdinburgh`,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Royal\nNatal`,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Gwillam`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
                                 {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Transvaal\nScottish`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`South African`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`South African`,name:`3`,designation:``,commander:`Whyte`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Motorized`],team:`South African`,
                             desc:`5th South African Infantry Brigade`,name:`5`,designation:``,commander:`Armstrong`,icon:`1sa`,
                             pos:[2640,1520],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`Botha`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`Irish`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Irish`,commander:`Dobbs`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`2`,designation:`Botha`,commander:`Boerstra`},
                                 {level:3,type:`Motorized Infantry`,team:`South African`,name:`3`,designation:`Transvaal\nScottish`,commander:``},
                                 {level:3,type:`Motorized Artillery`,team:`South African`,name:`4`,designation:``,commander:``},
                             ],
@@ -244,7 +244,7 @@ export var types={
                 },{
                     level:0,type:[`Infantry`,`Motorized`],team:`New Zealand`,
                     desc:`2nd New Zealand Division`,name:`2`,designation:``,commander:`Freyberg`,icon:`2nz`,
-                    pos:[2800,1150],
+                    pos:[2750,1150],
                     elements:[
                         {
                             level:1,type:[`Infantry`,`Motorized`],team:`New Zealand`,
@@ -262,7 +262,7 @@ export var types={
                             elements:[
                                 {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`21`,designation:``,commander:`Fitzpatrick`},
                                 {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`22`,designation:``,commander:`Andrew`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`23`,designation:``,commander:`Romans`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`23`,designation:``,commander:`Leckie`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Motorized`],team:`New Zealand`,
@@ -291,7 +291,7 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`,`Motorized`],team:`Māori`,
-                            desc:`28th New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
+                            desc:`28th 'Māori' New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
                             pos:[2635,1305],
                             elements:[
                                 {level:3,type:`Motorized Infantry`,team:`Māori`,name:`28`,designation:``,commander:`Dittmer`},
@@ -318,7 +318,7 @@ export var types={
                             pos:[850,265],
                             elements:[
                                 {level:3,type:`Infantry`,team:`British`,name:`1`,designation:`Durham\nLight`,commander:``},
-                                {level:3,type:`Infantry`,team:`British`,name:`1`,designation:`Essex`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,name:`1`,designation:`Essex`,commander:`Nichols`},
                                 {level:3,type:`Infantry`,team:`British`,name:`4`,designation:`Border`,commander:``},
                             ],
                         },{
@@ -436,9 +436,9 @@ export var types={
                     pos:[1386,1151],
                     elements:[
                         {level:3,type:`Medium Tank`,team:`Italian`,name:`52`,designation:``,commander:``},
-                        {level:3,type:`Motorized Militia`,team:`Italian`,name:`1`,designation:`Giovani\nFascisti`,commander:``},
-                        {level:3,type:`Motorized Militia`,team:`Italian`,name:`2`,designation:`Giovani\nFascisti`,commander:``},
-                        {level:3,type:`Motorcycle Police`,team:`Italian`,name:`P`,designation:`Romolo\nGessi`,commander:``},
+                        {level:3,type:`Motorized Militia`,team:`Italian`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                        {level:3,type:`Motorized Militia`,team:`Italian`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                        {level:3,type:`Motorcycle Police`,team:`Italian`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
                         {level:3,type:`Motorized Light Artillery`,team:`Italian`,name:`RB`,designation:`Volanti`,commander:``},
                     ],
                 },{
@@ -547,7 +547,7 @@ export var types={
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
-                            desc:`7th Bersaglieri Regiment`,name:`7`,designation:`Bersaglieri`,commander:`Adolfato`,icon:`trento`,
+                            desc:`7th Bersaglieri Regiment`,name:`7`,designation:`Bersaglieri`,commander:`Scirocco`,icon:`trento`,
                             pos:[480,441],
                             elements:[
                                 {level:3,type:`Motorized Bersaglieri`,team:`Italian`,name:`10`,designation:``,commander:``},
@@ -560,8 +560,8 @@ export var types={
         },
     ],
 }
-export var dev={}
+export var dev={slow:true}
 export var options={}
-export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[]}}
-export var constants={trig:[[],[]],init:false}
+export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
+export var constants={trig:[[],[]],init:false,turnTime:150,artilleryRange:250}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}

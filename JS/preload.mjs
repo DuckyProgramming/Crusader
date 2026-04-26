@@ -19,7 +19,8 @@ export function preload(){
     })
     graphics.load.city.push(loadImage(`${root}Assets/city/city.png`))
     graphics.load.city.push(loadImage(`${root}Assets/city/source.png`))
-    /*graphics.load.water=[loadBytes(`${root}Assets/data/water.bin`),loadBytes(`${root}Assets/data/water2.bin`)]*/
+    graphics.load.water=loadBytes(`${root}Assets/data/water.bin`)
+    graphics.load.fortifications=loadBytes(`${root}Assets/data/fortifications.bin`)
 }
 window.preload=preload
 window.graphics=graphics

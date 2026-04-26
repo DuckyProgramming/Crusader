@@ -1,5 +1,5 @@
 import {graphics} from './variables.mjs'
-import {smoothAnim} from './functions.mjs'
+import {smoothAnim,distPos} from './functions.mjs'
 export class city{
     constructor(operation,data){
         this.operation=operation
@@ -7,8 +7,9 @@ export class city{
         this.name=data.name
         this.owner=data.owner
         this.type=data.type
-        this.fade={main:1,trigger:true}
+        this.fade={main:1,trigger:true,reveal:0,revealTrigger:false}
         this.connect={main:[],primary:[]}
+        this.supply={owner:-1}
     }
     /*save(){
         let composite={
@@ -47,13 +48,34 @@ export class city{
     loadBar(){
         this.fortified.unit=this.fortified.unit==-1?-1:this.operation.units[findId(this.fortified.unit,this.operation.units)]
     }*/
+    tickSupply(){
+        this.supply.owner=this.owner
+        this.owner=-1
+        if(this.type==1){
+        }
+    }
+    near(dist,player){
+        return this.operation.units.some(unit=>unit.player==player&&distPos(this,unit)<dist)
+    }
     display(layer,scene){
         switch(scene){
             case `road`:
                 if(this.fade.main>0){
                     layer.stroke(100,0.5)
                     layer.strokeWeight(5*this.fade.main)
-                    this.connect.primary.forEach(connect=>layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y))
+                    layer.noFill()
+                    this.connect.primary.forEach(connect=>{
+                        if(this.name==`Buq Buq`){
+                            layer.bezier(
+                                this.position.x,this.position.y,
+                                this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+50,
+                                this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+50,
+                                connect.position.x,connect.position.y
+                            )
+                        }else{
+                            layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                        }
+                    })
                 }
             break
             case `main`: case `mapAll`:
@@ -62,8 +84,12 @@ export class city{
                     layer.translate(this.position.x,this.position.y)
                     let img=graphics.load.city[this.type]
                     layer.noStroke()
-                    layer.fill(...(this.owner==-1?[244,239,196]:types.player[this.owner].color))
+                    layer.fill(244,239,196,this.fade)
                     layer.ellipse(0,0,img.width*0.16*this.fade.main)
+                    if(this.owner>=0){
+                        layer.fill(...types.player[this.owner].color,this.fade.reveal)
+                        layer.ellipse(0,0,img.width*0.16*this.fade.main)
+                    }
                     layer.image(img,0,0,img.width*0.4*this.fade.main,img.height*0.4*this.fade.main)
                     layer.fill(0)
                     layer.textSize(img.height*0.2*this.fade.main)
@@ -77,6 +103,8 @@ export class city{
         switch(scene){
             case 'main':
                 this.fade.main=smoothAnim(this.fade.main,this.fade.trigger,0,1,15)
+
+                this.fade.reveal=smoothAnim(this.fade.reveal,this.fade.revealTrigger,0,1,15)
             break
             case `mapAll`:
                 this.fade.main=1

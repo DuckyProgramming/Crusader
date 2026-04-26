@@ -1,5 +1,5 @@
-import {graphics,constants} from './variables.mjs'
-import {findName} from './functions.mjs'
+import {graphics,constants,dev} from './variables.mjs'
+import {findName,smoothAnim,inPointBox,boxify} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 import {transitionManager} from './../JS/transitionManager.mjs'
 import {city} from './city.mjs'
@@ -12,7 +12,8 @@ export class operation{
         this.units=[]
         this.scene=`main`
         this.view={scale:1}
-        this.turn={main:0,time:0,total:0}
+        this.turn={main:0,time:0,total:0,prep:true}
+        this.anim={main:0,prep:0}
         this.initial()
         this.loadMap(this.map)
         this.initialComponents()
@@ -134,7 +135,33 @@ export class operation{
                 layer.image(img,img.width/2,img.height/2,img.width,img.height)
                 this.cities.forEach(city=>city.display(layer,`road`))
                 this.cities.forEach(city=>city.display(layer,this.scene))
+                
+                this.units.forEach(unit=>unit.display(layer,`underOrder`))
+                this.units.forEach(unit=>unit.display(layer,`under`))
+                this.units.filter(unit=>unit.player!=this.turn.main).forEach(unit=>unit.display(layer,this.scene))
+                this.units.forEach(unit=>unit.displayInfo(layer,`order`))
+                this.units.filter(unit=>unit.player==this.turn.main).forEach(unit=>unit.display(layer,this.scene))
+                this.units.forEach(unit=>unit.displayInfo(layer,`stat`))
+                this.units.forEach(unit=>unit.displayInfo(layer,this.scene))
+                this.units.forEach(unit=>unit.displayInfo(layer,`logs`))
                 layer.pop()
+                if(this.anim.prep>0){
+                    layer.noStroke()
+                    layer.fill(150,this.anim.prep)
+                    layer.rect(layer.width/2,layer.height/2,800,120,20)
+                    layer.fill(0,this.anim.prep)
+                    layer.textSize(80)
+                    layer.text(`${types.player[this.turn.main].name} Turn Begin`,layer.width/2,layer.height/2+4)
+                }
+                if(this.anim.main>0){
+                    layer.noStroke()
+                    layer.fill(150,this.anim.main)
+                    layer.rect(layer.width-100,100,120,120,20)
+                    layer.fill(0,this.anim.main)
+                    layer.textSize(40)
+                    layer.text(`End`,layer.width-100,80+2)
+                    layer.text(`Turn`,layer.width-100,120+2)
+                }
             break
             case `mapAll`:
                 img=graphics.load.map[this.map][0]
@@ -154,22 +181,117 @@ export class operation{
     }
     update(layer,mouse){
         let rel
+        rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
         switch(this.scene){
             case `mapAll`:
-                rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
                 this.cities.forEach(city=>city.update(layer,this.scene,rel))
                 this.units.forEach(unit=>unit.update(layer,this.scene,rel))
             break
             case `main`:
-                rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+                this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&this.turn.time==0,0,1,5)
+                this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep,0,1,5)
+
                 this.cities.forEach(city=>city.update(layer,this.scene,rel))
+                this.units.forEach(unit=>unit.update(layer,this.scene,rel))
+                while(this.turn.time>0){
+                    this.units.forEach(unit=>unit.operate(layer,this.scene,rel))
+                    this.turn.time--
+                    if(this.turn.time<=0){
+                        this.units.forEach(unit=>unit.order.position={x:unit.position.x,y:unit.position.y})
+                    }else if(dev.slow){
+                        break
+                    }
+                }
             break
         }
     }
     onClick(layer,mouse){
+        let rel
+        rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        switch(this.scene){
+            case `main`:
+                if(this.turn.time<=0){
+                    if(this.turn.prep){
+                        this.turn.prep=false
+                        this.units.forEach(unit=>{
+                            unit.fade.trigger=(unit.player==this.turn.main||unit.near(160,this.turn.main))&&unit.active
+                            unit.order.trigger=false
+                            if(unit.player==this.turn.main){
+                                unit.fade.statTrigger=true
+                                if(unit.logs.main.length>0){
+                                    unit.logs.trigger=true
+                                }
+                            }
+                        })
+                        this.cities.forEach(city=>city.fade.revealTrigger=city.owner==this.turn.main||city.near(160,this.turn.main))
+                    }else{
+                        if(inPointBox(mouse,boxify(layer.width-100,100,120,120))){
+                            this.turn.main++
+                            this.units.forEach(unit=>{
+                                unit.fade.trigger=false
+                                unit.fade.statTrigger=false
+                            })
+                            this.cities.forEach(city=>city.fade.revealTrigger=false)
+                            if(this.turn.main>=types.player.length){
+                                this.turn.time=constants.turnTime
+                                this.turn.main=0
+                                this.units.forEach(unit=>{
+                                    unit.fade.trigger=dev.slow
+                                    unit.fade.statTrigger=dev.slow
+                                })
+                            }else{
+                                this.turn.prep=true
+                            }
+                        }
+                        this.units.forEach(unit=>unit.onClick(layer,this.scene,rel))
+                    }
+                }
+            break
+        }
     }
     onDrag(layer,mouse,previous,button){
     }
     onKey(layer,key){
+        switch(this.scene){
+            case `main`:
+                if(this.turn.time<=0){
+                    if(this.turn.prep){
+                        if(key==`Enter`){
+                            this.turn.prep=false
+                            this.units.forEach(unit=>{
+                                unit.fade.trigger=(unit.player==this.turn.main||unit.near(160,this.turn.main))&&unit.active
+                                unit.order.trigger=false
+                                if(unit.player==this.turn.main){
+                                    unit.fade.statTrigger=true
+                                    if(unit.logs.main.length>0){
+                                        unit.logs.trigger=true
+                                    }
+                                }
+                            })
+                            this.cities.forEach(city=>city.fade.revealTrigger=city.owner==this.turn.main||city.near(160,this.turn.main))
+                        }
+                    }else{
+                        if(key==`Enter`){
+                            this.turn.main++
+                            this.units.forEach(unit=>{
+                                unit.fade.trigger=false
+                                unit.fade.statTrigger=false
+                            })
+                            this.cities.forEach(city=>city.fade.revealTrigger=false)
+                            if(this.turn.main>=types.player.length){
+                                this.turn.time=constants.turnTime
+                                this.turn.main=0
+                                this.units.forEach(unit=>{
+                                    unit.fade.trigger=dev.slow
+                                    unit.fade.statTrigger=dev.slow
+                                })
+                            }else{
+                                this.turn.prep=true
+                            }
+                        }
+                    }
+                }
+            break
+        }
     }
 }
