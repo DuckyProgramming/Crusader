@@ -366,8 +366,16 @@ export class operation{
                                                 result.contain.units.push(element)
                                                 result.calculateElements()
                                                 result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                                result.parent=this.select.unit.parent
                                                 this.units.push(result)
                                                 this.select.unit.active=false
+                                                if(this.select.unit.parent!=-1){
+                                                    this.select.unit.parent.contain.units.splice(
+                                                        this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                                        1
+                                                    )
+                                                    this.select.unit.parent.contain.units.push(result)
+                                                }
                                                 this.select.unit.contain.units=[]
                                                 this.select.unit.order.trigger=false
                                                 this.select.unit=result
@@ -390,8 +398,12 @@ export class operation{
                                                         result.contain.units.push(element)
                                                         result.calculateElements()
                                                         result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                                        result.parent=this.select.unit.parent
                                                         this.units.push(result)
                                                         this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
+                                                        if(this.select.unit.parent!=-1){
+                                                            this.select.unit.parent.contain.units.push(result)
+                                                        }
                                                         break
                                                     }
                                                 }
@@ -404,6 +416,7 @@ export class operation{
                                     if(absorb.length>0){
                                         if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
                                             if(this.select.unit.level==3){
+                                                let target=absorb[this.select.unit.order.absorb%absorb.length]
                                                 let element=this.select.unit.contain.units[0]
                                                 let typing=element.type.map(type=>types.unitType[type].name)
                                                 absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
@@ -418,21 +431,42 @@ export class operation{
                                                     icon:element.icon,elements:[],
                                                 })
                                                 result.contain.units.push(element)
-                                                result.contain.units.push(absorb[this.select.unit.order.absorb%absorb.length].contain.units[0])
-                                                absorb[this.select.unit.order.absorb%absorb.length].active=false
-                                                absorb[this.select.unit.order.absorb%absorb.length].contain.units=[]
+                                                result.contain.units.push(target.contain.units[0])
+                                                target.active=false
+                                                target.contain.units=[]
                                                 result.calculateElements()
                                                 result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                                result.parent=this.select.unit.parent
                                                 this.units.push(result)
                                                 this.select.unit.active=false
+                                                if(this.select.unit.parent!=-1){
+                                                    this.select.unit.parent.contain.units.splice(
+                                                        this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                                        1
+                                                    )
+                                                    this.select.unit.parent.contain.units.push(result)
+                                                }
                                                 this.select.unit.contain.units=[]
                                                 this.select.unit.order.trigger=false
                                                 this.select.unit=result
                                                 this.select.unit.order.trigger=true
+                                                if(target.parent!=-1){
+                                                    target.parent.contain.units.splice(
+                                                        target.parent.contain.units.indexOf(target),
+                                                        1
+                                                    )
+                                                }
                                             }else{
-                                                this.select.unit.contain.units.push(absorb[this.select.unit.order.absorb%absorb.length].contain.units[0])
-                                                absorb[this.select.unit.order.absorb%absorb.length].active=false
-                                                absorb[this.select.unit.order.absorb%absorb.length].contain.units=[]
+                                                let target=absorb[this.select.unit.order.absorb%absorb.length]
+                                                this.select.unit.contain.units.push(target.contain.units[0])
+                                                target.active=false
+                                                target.contain.units=[]
+                                                if(target.parent!=-1){
+                                                    target.parent.contain.units.splice(
+                                                        target.parent.contain.units.indexOf(target),
+                                                        1
+                                                    )
+                                                }
                                                 this.select.unit.calculateElements()
                                             }
                                         }
@@ -501,8 +535,16 @@ export class operation{
                                             result.contain.units.push(element)
                                             result.calculateElements()
                                             result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                            result.parent=this.select.unit.parent
                                             this.units.push(result)
                                             this.select.unit.active=false
+                                            if(this.select.unit.parent!=-1){
+                                                this.select.unit.parent.contain.units.splice(
+                                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                                    1
+                                                )
+                                                this.select.unit.parent.contain.units.push(result)
+                                            }
                                             this.select.unit.contain.units=[]
                                             this.select.unit.order.trigger=false
                                             this.select.unit=result
@@ -525,8 +567,12 @@ export class operation{
                                                     result.contain.units.push(element)
                                                     result.calculateElements()
                                                     result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                                    result.parent=this.select.unit.parent
                                                     this.units.push(result)
                                                     this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
+                                                    if(this.select.unit.parent!=-1){
+                                                        this.select.unit.parent.contain.units.push(result)
+                                                    }
                                                     break
                                                 }
                                             }
@@ -539,6 +585,7 @@ export class operation{
                                 if(absorb.length>0){
                                     if(key==`Shift`){
                                         if(this.select.unit.level==3){
+                                            let target=absorb[this.select.unit.order.absorb%absorb.length]
                                             let element=this.select.unit.contain.units[0]
                                             let typing=element.type.map(type=>types.unitType[type].name)
                                             absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
@@ -549,26 +596,47 @@ export class operation{
                                             let result=new unit(this,{
                                                 pos:[this.select.unit.position.x,this.select.unit.position.y],
                                                 level:[1,2,1][element.player],type:typing,team:element.team,
-                                                desc:`${[`Battle Group`,`Kampfgruppe`,`Column`][element.player]} ${element.commander}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
+                                                desc:`${[`Battle Group`,`Kampfgruppe`,`Column`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                 icon:element.icon,elements:[],
                                             })
                                             result.contain.units.push(element)
-                                            result.contain.units.push(absorb[this.select.unit.order.absorb%absorb.length].contain.units[0])
-                                            absorb[this.select.unit.order.absorb%absorb.length].active=false
-                                            absorb[this.select.unit.order.absorb%absorb.length].contain.units=[]
+                                            result.contain.units.push(target.contain.units[0])
+                                            target.active=false
+                                            target.contain.units=[]
                                             result.calculateElements()
                                             result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                            result.parent=this.select.unit.parent
                                             this.units.push(result)
                                             this.select.unit.active=false
+                                            if(this.select.unit.parent!=-1){
+                                                this.select.unit.parent.contain.units.splice(
+                                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                                    1
+                                                )
+                                                this.select.unit.parent.contain.units.push(result)
+                                            }
                                             this.select.unit.contain.units=[]
                                             this.select.unit.order.trigger=false
                                             this.select.unit=result
                                             this.select.unit.order.trigger=true
+                                            if(target.parent!=-1){
+                                                target.parent.contain.units.splice(
+                                                    target.parent.contain.units.indexOf(target),
+                                                    1
+                                                )
+                                            }
                                         }else{
-                                            this.select.unit.contain.units.push(absorb[this.select.unit.order.absorb%absorb.length].contain.units[0])
-                                            absorb[this.select.unit.order.absorb%absorb.length].active=false
-                                            absorb[this.select.unit.order.absorb%absorb.length].contain.units=[]
-                                            this.select.unit.calculateElements()
+                                            let target=absorb[this.select.unit.order.absorb%absorb.length]
+                                                this.select.unit.contain.units.push(target.contain.units[0])
+                                                target.active=false
+                                                target.contain.units=[]
+                                                if(target.parent!=-1){
+                                                    target.parent.contain.units.splice(
+                                                        target.parent.contain.units.indexOf(target),
+                                                        1
+                                                    )
+                                                }
+                                                this.select.unit.calculateElements()
                                         }
                                     }
                                     if(key==`#`){

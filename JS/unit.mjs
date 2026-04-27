@@ -87,8 +87,8 @@ export class unit{
                 artillery:false,
             }
             this.radius=45
+            this.order.artillery=false
         }
-        this.order.artillery=this.contain.stats.artillery
     }
     save(){
         this.battle.enemies=[]
@@ -230,6 +230,7 @@ export class unit{
             artillery:this.contain.units.some(unit=>types.elementType[unit.elementType].artillery),
         }
         this.updateStrength()
+        this.order.artillery=this.contain.stats.artillery
     }
     updateStrength(type=-1){
         let len=max(1,this.contain.units.length)
