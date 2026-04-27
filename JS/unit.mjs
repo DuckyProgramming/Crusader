@@ -45,7 +45,7 @@ export class unit{
             detach:0,absorb:0
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
-        this.contain={units:[],stats:{},trigger:true}
+        this.contain={units:[],stats:{},trigger:true,temp:false}
         this.logs={main:[],trigger:false}
         this.base={position:{x:this.position.x,y:this.position.y}}
         this.hist=elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total+1)
@@ -173,6 +173,11 @@ export class unit{
             return sub
         })
     }
+    reform(data){
+        let result=new unit(this.operation,data)
+        result.id=this.id
+        return result
+    }
     startTick(){
         this.fade.trigger=dev.slow
         this.fade.statTrigger=dev.slow
@@ -199,11 +204,16 @@ export class unit{
             pix>=0&&floor(pix/8)<graphics.load.water.length&&
             graphics.load.water[floor(pix/8)][pix%8]==0
         ){
-            this.contain.units.forEach(unit=>{
-                unit.strength.life=max(0,unit.strength.life-20)
-                unit.strength.morale=max(0,unit.strength.morale-20)
-                unit.strength.supply=max(0,unit.strength.supply-20)
-            })
+            if(this.contain.trigger){
+                this.contain.units.forEach(unit=>{
+                    unit.strength.life=max(0,unit.strength.life-20*random(1,constants.battleVariance))
+                    unit.strength.morale=max(0,unit.strength.morale-20*random(1,constants.battleVariance))
+                    unit.strength.supply=max(0,unit.strength.supply-20*random(1,constants.battleVariance))
+                })
+            }else{
+                this.active=false
+                this.destroy()
+            }
         }
         this.updateStrength()
         this.hist.push({active:this.active,position:{x:this.position.x,y:this.position.y},strength:{life:this.strength.life,morale:this.strength.morale,supply:this.strength.supply}})
@@ -214,14 +224,22 @@ export class unit{
     getParentEffectiveness(){
         return this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
     }
+    destroy(){
+        if(this.parent!=-1&&this.parent.contain.units.includes(this)){
+            this.parent.contain.units.splice(
+                this.parent.contain.units.indexOf(this),
+                1
+            )
+        }
+    }
     calculateElements(){
         let len=max(1,this.contain.units.length)
         this.contain.stats={
             damage:[
                 this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0)/len,
                 this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)/len,
-                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0)/len,
-                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)/len
+                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0),
+                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)
             ],
             armor:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].armor,0)/len,
             health:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].health,0),
@@ -236,32 +254,41 @@ export class unit{
         let len=max(1,this.contain.units.length)
         if(this.contain.trigger){
             this.contain.units=this.contain.units.filter(unit=>unit.strength.life>0)
-            switch(type){
-                case -1:
-                    this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
-                    this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
-                    this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
-                    this.strength.num=[
-                        this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                        this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                        this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                    ]
-                break
-                case 0:
-                    this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
-                    this.strength.num=[
-                        this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                        this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                        this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                    ]
-                break
-                case 1:
-                    this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
-                break
-                case 2:
-                    this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
-                break
+            if(this.contain.units.length==0){
+                this.active=false
+                this.destroy()
+            }else{
+                switch(type){
+                    case -1:
+                        this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
+                        this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
+                        this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
+                        this.strength.num=[
+                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
+                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
+                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
+                        ]
+                    break
+                    case 0:
+                        this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
+                        this.strength.num=[
+                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
+                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
+                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
+                        ]
+                    break
+                    case 1:
+                        this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
+                    break
+                    case 2:
+                        this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
+                    break
+                }
             }
+        }else{
+            this.strength.life=this.strength.base.life
+            this.strength.morale=this.strength.base.morale
+            this.strength.supply=this.strength.base.supply
         }
     }
     display(layer,scene){
@@ -506,7 +533,8 @@ export class unit{
                         layer.rect(pos+(max(0,this.strength.supply)/this.strength.base.supply)*40-40,9,(max(0,this.strength.supply)/this.strength.base.supply)*80,2+min((max(0,this.strength.supply)/this.strength.base.supply)*60,3)*2,4)
                         layer.fill(0,this.fade.stat*this.fade.hover)
                         layer.textSize(10)
-                        layer.text(this.strength.num.filter(num=>num>0).join(`/`),pos,-8.25)
+                        let filtered=this.strength.num.filter(num=>num>0)
+                        layer.text(filtered.length>0?filtered.join(`/`):`0`,pos,-8.25)
                         layer.text(ceil(this.strength.morale),pos,0.75)
                         layer.text(ceil(this.strength.supply),pos,9.75)
                         layer.pop()
@@ -518,8 +546,9 @@ export class unit{
     update(layer,scene,mouse){
         switch(scene){
             case `main`:
-                this.fade.hoverTrigger=inPointBox(mouse,this)&&this.fade.trigger&&!this.fade.hide&&this.active
-                if(this.fade.hoverTrigger){
+                let mouseIn=inPointBox(mouse,this)
+                this.fade.hoverTrigger=mouseIn&&this.fade.trigger&&!this.fade.hide&&this.active
+                if(mouseIn){
                     this.logs.trigger=false
                 }
                 this.fade.main=smoothAnim(this.fade.main,this.fade.trigger&&!this.fade.hide&&this.active,0,1,5)
@@ -566,8 +595,8 @@ export class unit{
                                 this.logs.main.push(`Fired artillery`)
                             }
                             this.operation.units.forEach(target=>{
-                                if(target.active&&distPos(target,this.order)<20+target.radius){
-                                    let damage=map(
+                                if(target.active&&distPos(target,this.order)<20+target.radius&&target.contain.trigger){
+                                    let damage=0.5*map(
                                             target.contain.stats.armor,0,1,
                                             this.contain.stats.damage[2],this.contain.stats.damage[3]
                                         )
@@ -590,21 +619,31 @@ export class unit{
                                         )
                                     })
                                     target.battle.injure=true
-                                    this.contain.units.forEach(unit=>{
-                                        if(types.elementType[unit.elementType].artillery){
-                                            unit.strength.supply=max(0,
-                                                unit.strength.supply-
-                                                6
-                                            )
-                                        }
-                                    })
                                     target.updateStrength()
-                                    this.updateStrength(2)
                                     if(!target.logs.main.includes(`Hit by artillery`)){
                                         target.logs.main.push(`Hit by artillery`)
                                     }
+                                    if(target.strength.life<=0||target.strength.morale<=0||!target.active){
+                                        target.active=false
+                                        target.destroy()
+                                        if(!target.logs.main.includes(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)){
+                                            target.logs.main.push(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)
+                                        }
+                                        if(!this.logs.main.includes(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)){
+                                            this.logs.main.push(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)
+                                        }
+                                    }
                                 }
                             })
+                            this.contain.units.forEach(unit=>{
+                                if(types.elementType[unit.elementType].artillery){
+                                    unit.strength.supply=max(0,
+                                        unit.strength.supply-
+                                        6
+                                    )
+                                }
+                            })
+                            this.updateStrength(2)
                         }
                     }else if(!this.order.defense){
                         if(!this.logs.main.includes(`Moved`)){
@@ -627,11 +666,12 @@ export class unit{
                                 if(target.active&&types.player[this.player].side!=types.player[target.player].side&&distPos({position:moving},target)<this.radius+target.radius){
                                     if(!target.contain.trigger&&this.contain.trigger){
                                         target.active=false
-                                        if(!target.logs.main.includes(`Captured by the ${this.desc}`)){
-                                            target.logs.main.push(`Captured by the ${this.desc}`)
+                                        target.destroy()
+                                        if(!target.logs.main.includes(`Captured by ${this.contain.temp?``:`the `}${this.desc}`)){
+                                            target.logs.main.push(`Captured by ${this.contain.temp?``:`the `}${this.desc}`)
                                         }
-                                        if(!this.logs.main.includes(`Captured the ${target.desc} Headquarters`)){
-                                            this.logs.main.push(`Captured the ${target.desc} Headquarters`)
+                                        if(!this.logs.main.includes(`Captured ${target.contain.temp?``:`the `}${target.desc} Headquarters`)){
+                                            this.logs.main.push(`Captured ${target.contain.temp?``:`the `}${target.desc} Headquarters`)
                                         }
                                     }else if(this.contain.trigger){
                                         hit=true
@@ -652,6 +692,15 @@ export class unit{
                                                     break
                                                 }
                                             }
+                                        }
+                                        let first=false
+                                        if(!target.battle.enemies.includes(this)){
+                                            target.battle.enemies.push(this)
+                                            first=true
+                                        }
+                                        if(!this.battle.enemies.includes(target)){
+                                            this.battle.enemies.push(target)
+                                            first=true
                                         }
                                         let damage=[
                                             map(
@@ -696,7 +745,7 @@ export class unit{
                                             )
                                             unit.strength.supply=max(0,
                                                 unit.strength.supply-
-                                                30/constants.turnTime
+                                                30/constants.turnTime/(target.battle.enemies.indexOf(this)*2+1)
                                             )
                                         })
                                         this.contain.units.forEach(unit=>{
@@ -710,7 +759,7 @@ export class unit{
                                             )
                                             unit.strength.supply=max(0,
                                                 unit.strength.supply-
-                                                15/constants.turnTime
+                                                15/constants.turnTime/(this.battle.enemies.indexOf(target)*2+1)
                                             )
                                         })
                                         target.updateStrength()
@@ -719,87 +768,78 @@ export class unit{
                                         this.battle.injure=true
                                         target.battle.active=true
                                         this.battle.active=true
-                                        if(target.strength.life<=0||target.strength.morale<=0){
+                                        if(target.strength.life<=0||target.strength.morale<=0||!target.active){
                                             target.active=false
-                                            if(!target.logs.main.includes(`Destroyed by the ${this.desc}`)){
-                                                target.logs.main.push(`Destroyed by the ${this.desc}`)
+                                            target.destroy()
+                                            if(!target.logs.main.includes(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)){
+                                                target.logs.main.push(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)
                                             }
-                                            if(!this.logs.main.includes(`Destroyed the ${target.desc}`)){
-                                                this.logs.main.push(`Destroyed the ${target.desc}`)
+                                            if(!this.logs.main.includes(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)){
+                                                this.logs.main.push(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)
                                             }
-                                        }else if(this.strength.life<=0||this.strength.morale<=0){
+                                        }else if(this.strength.life<=0||this.strength.morale<=0||!this.active){
                                             this.active=false
-                                            if(!this.logs.main.includes(`Destroyed by the ${target.desc}`)){
-                                                this.logs.main.push(`Destroyed by the ${target.desc}`)
+                                            this.destroy()
+                                            if(!this.logs.main.includes(`Destroyed by ${target.contain.temp?``:`the `}${target.desc}`)){
+                                                this.logs.main.push(`Destroyed by ${target.contain.temp?``:`the `}${target.desc}`)
                                             }
-                                            if(!target.logs.main.includes(`Destroyed the ${this.desc}`)){
-                                                target.logs.main.push(`Destroyed the ${this.desc}`)
+                                            if(!target.logs.main.includes(`Destroyed ${this.contain.temp?``:`the `}${this.desc}`)){
+                                                target.logs.main.push(`Destroyed ${this.contain.temp?``:`the `}${this.desc}`)
                                             }
-                                        }else{
-                                            let first=false
-                                            if(!target.battle.enemies.includes(this)){
-                                                target.battle.enemies.push(this)
-                                                first=true
+                                        }else if(first){
+                                            target.battle.damage+=damage[0]
+                                            this.battle.damage+=damage[1]
+                                            let breakers=[]
+                                            if(
+                                                target.battle.damage>
+                                                0.05*random(1,constants.breakVariance)*
+                                                target.strength.life/
+                                                target.strength.base.life*
+                                                target.strength.morale/
+                                                target.strength.base.morale*
+                                                (target.order.defense?1.5:1)
+                                            ){
+                                                breakers.push(0)
                                             }
-                                            if(!this.battle.enemies.includes(target)){
-                                                this.battle.enemies.push(target)
-                                                first=true
+                                            if(
+                                                this.battle.damage>
+                                                0.05*random(1,constants.breakVariance)*
+                                                this.strength.life/
+                                                this.strength.base.life*
+                                                this.strength.morale/
+                                                this.strength.base.morale*
+                                                (this.order.defense?1.5:1)
+                                            ){
+                                                breakers.push(1)
                                             }
-                                            if(first){
-                                                target.battle.damage+=damage[0]
-                                                this.battle.damage+=damage[1]
-                                                let breakers=[]
-                                                if(
-                                                    target.battle.damage>
-                                                    0.05*random(1,constants.breakVariance)*
-                                                    target.strength.life/
-                                                    target.strength.base.life*
-                                                    target.strength.morale/
-                                                    target.strength.base.morale*
-                                                    (target.order.defense?1.5:1)
-                                                ){
-                                                    breakers.push(0)
+                                            if(breakers.length>0){
+                                                let breaker=randin(breakers)
+                                                switch(breaker){
+                                                    case 0:
+                                                        target.battle.broken=true
+                                                        if(!target.logs.main.includes(`Defeated by ${this.contain.temp?``:`the `}${this.desc}`)){
+                                                            target.logs.main.push(`Defeated by ${this.contain.temp?``:`the `}${this.desc}`)
+                                                        }
+                                                        if(!this.logs.main.includes(`Defeated ${target.contain.temp?``:`the `}${target.desc}`)){
+                                                            this.logs.main.push(`Defeated ${target.contain.temp?``:`the `}${target.desc}`)
+                                                        }
+                                                    break
+                                                    case 1:
+                                                        this.battle.broken=true
+                                                        if(!this.logs.main.includes(`Defeated by ${target.contain.temp?``:`the `}${target.desc}`)){
+                                                            this.logs.main.push(`Defeated by ${target.contain.temp?``:`the `}${target.desc}`)
+                                                        }
+                                                        if(!target.logs.main.includes(`Defeated ${this.contain.temp?``:`the `}${this.desc}`)){
+                                                            target.logs.main.push(`Defeated ${this.contain.temp?``:`the `}${this.desc}`)
+                                                        }
+                                                    break
                                                 }
-                                                if(
-                                                    this.battle.damage>
-                                                    0.05*random(1,constants.breakVariance)*
-                                                    this.strength.life/
-                                                    this.strength.base.life*
-                                                    this.strength.morale/
-                                                    this.strength.base.morale*
-                                                    (this.order.defense?1.5:1)
-                                                ){
-                                                    breakers.push(1)
+                                            }else{
+                                                if(!this.logs.main.includes(`Battled ${target.contain.temp?``:`the `}${target.desc}`)){
+                                                    this.logs.main.push(`Battled ${target.contain.temp?``:`the `}${target.desc}`)
                                                 }
-                                                if(breakers.length>0){
-                                                    let breaker=randin(breakers)
-                                                    switch(breaker){
-                                                        case 0:
-                                                            target.battle.broken=true
-                                                            if(!target.logs.main.includes(`Defeated by the ${this.desc}`)){
-                                                                target.logs.main.push(`Defeated by the ${this.desc}`)
-                                                            }
-                                                            if(!this.logs.main.includes(`Defeated the ${target.desc}`)){
-                                                                this.logs.main.push(`Defeated the ${target.desc}`)
-                                                            }
-                                                        break
-                                                        case 1:
-                                                            this.battle.broken=true
-                                                            if(!this.logs.main.includes(`Defeated by the ${target.desc}`)){
-                                                                this.logs.main.push(`Defeated by the ${target.desc}`)
-                                                            }
-                                                            if(!target.logs.main.includes(`Defeated the ${this.desc}`)){
-                                                                target.logs.main.push(`Defeated the ${this.desc}`)
-                                                            }
-                                                        break
-                                                    }
-                                                }else{
-                                                    if(!this.logs.main.includes(`Battled the ${target.desc}`)){
-                                                        this.logs.main.push(`Battled the ${target.desc}`)
-                                                    }
-                                                    if(!target.logs.main.includes(`Battled the ${this.desc}`)){
-                                                        target.logs.main.push(`Battled the ${this.desc}`)
-                                                    }
+                                                if(!target.logs.main.includes(`Battled ${this.contain.temp?``:`the `}${this.desc}`)){
+                                                    target.logs.main.push(`Battled ${this.contain.temp?``:`the `}${this.desc}`)
                                                 }
                                             }
                                         }
@@ -816,6 +856,16 @@ export class unit{
                                                     damage[0]*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.5:1)
                                                 )
                                                 target.updateStrength(0)
+                                                if(target.strength.life<=0||target.strength.morale<=0||!target.active){
+                                                    target.active=false
+                                                    target.destroy()
+                                                    if(!target.logs.main.includes(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)){
+                                                        target.logs.main.push(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)
+                                                    }
+                                                    if(!this.logs.main.includes(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)){
+                                                        this.logs.main.push(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)
+                                                    }
+                                                }
                                             }else{
                                                 this.position.x=moving.x
                                                 this.position.y=moving.y
@@ -836,6 +886,9 @@ export class unit{
                                         hit=true
                                         if(!this.logs.main.includes(`Collided with ${target.desc}`)){
                                             this.logs.main.push(`Collided with ${target.desc}`)
+                                        }
+                                        if(!target.logs.main.includes(`Collided with ${this.desc}`)){
+                                            target.logs.main.push(`Collided with ${this.desc}`)
                                         }
                                     }
                                 })

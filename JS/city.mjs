@@ -33,21 +33,16 @@ export class city{
         if(this.owner!=-1&&!this.supply.connect.some((conn,index)=>conn==1&&types.player[index].side==types.player[this.owner].side)){
             this.owner=-1
         }
-        if(this.owner==-1||!this.nearSide(60,types.player[this.owner].side)){
-            types.player.forEach((player,index)=>{
-                if(this.near(40,index)&&this.supply.connect[index]==1){
-                    this.owner=index
-                }
-            })
-        }
         if(this.owner!=-1){
             this.operation.units.forEach(unit=>{
-                if(distPos(unit,this)<60){
-                    if(types.player[unit.player].side==types.player[this.owner].side){
-                        unit.strength.supply=min(
-                            unit.strength.supply+[15,10][types.player[unit.player].side],
-                            unit.strength.base.supply
-                        )
+                if(distPos(unit,this)<100){
+                    if(types.player[unit.player].side==types.player[this.owner].side&&unit.contain.trigger){
+                        unit.contain.units.forEach(cont=>{
+                            cont.strength.supply=min(
+                                cont.strength.supply+[15,10][types.player[cont.player].side],
+                                cont.strength.base.supply
+                            )
+                        })
                     }
                 }
             })
@@ -116,6 +111,23 @@ export class city{
                 this.fade.main=1
                 if(mouse%60==0){
                     this.owner=this.hist[floor(mouse/60)].owner
+                }
+            break
+        }
+    }
+    operate(layer,scene,mouse){
+        switch(scene){
+            case `main`:
+                if(this.owner==-1||!this.nearSide(100,types.player[this.owner].side)){
+                    types.player.forEach((player,index)=>{
+                        if(this.near(60,index)){
+                            if(this.supply.connect[index]==1||this.type==1){
+                                this.owner=index
+                            }else{
+                                this.owner=-1
+                            }
+                        }
+                    })
                 }
             break
         }

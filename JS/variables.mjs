@@ -165,7 +165,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
-                {name:`Italian`,term:`italy`,player:2,quality:0.85},
+                {name:`Italian`,term:`italy`,player:2,quality:0.8},
             ],player:[
                 {name:`British`,color:[0,100,250],side:0},
                 {name:`German`,color:[150,50,0],side:1},
@@ -207,7 +207,7 @@ export var types={
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, The Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
                                 {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`60th (North Midland) Field Regiment, Royal Artillery`,name:`60`,designation:`North\nMidland`,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`60th (North Midland) Field Regiment, Royal Artillery`,name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
                             ],
                         },{
                             level:3,type:[`Tank`,`Recon`],team:`British`,
@@ -424,7 +424,7 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`German`,
-                            desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`IR 255`,commander:`Hollmann`,icon:`90l`,
+                            desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hollmann`,icon:`90l`,
                             pos:[900,385],
                             elements:[
                                 {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`IR 255`,commander:`Hollmann`},
@@ -462,18 +462,18 @@ export var types={
                             desc:`65th Motorized Infantry Regiment`,name:`65`,designation:`Trieste`,commander:`Quirico`,icon:`trieste`,
                             pos:[946,961],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`1st Battalion, 65th Motorized Infantry Regiment`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`2nd Battalion, 65th Motorized Infantry Regiment`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 65th Motorized Infantry Regiment`,name:`M`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`1st Battalion, 65th Motorized Infantry Regiment`,name:`1`,designation:`65`,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`2nd Battalion, 65th Motorized Infantry Regiment`,name:`2`,designation:`65`,commander:``},
+                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 65th Motorized Infantry Regiment`,name:`M`,designation:`65`,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
                             desc:`66th Motorized Infantry Regiment`,name:`66`,designation:`Trieste`,commander:`Zanetti`,icon:`trieste`,
                             pos:[191,795],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`1st Battalion, 66th Motorized Infantry Regiment`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`2nd Battalion, 66th Motorized Infantry Regiment`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 66th Motorized Infantry Regiment`,name:`M`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`1st Battalion, 66th Motorized Infantry Regiment`,name:`1`,designation:`66`,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`2nd Battalion, 66th Motorized Infantry Regiment`,name:`2`,designation:`66`,commander:``},
+                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 66th Motorized Infantry Regiment`,name:`M`,designation:`66`,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
@@ -504,18 +504,18 @@ export var types={
                             desc:`15th Infantry Regiment`,name:`15`,designation:`Savona`,commander:`Russo`,icon:`savona`,
                             pos:[2014,1167],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 15th Infantry Regiment`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 15th Infantry Regiment`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`3rd Battalion, 15th Infantry Regiment`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 15th Infantry Regiment`,name:`1`,designation:`15`,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 15th Infantry Regiment`,name:`2`,designation:`15`,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`3rd Battalion, 15th Infantry Regiment`,name:`3`,designation:`15`,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`],team:`Italian`,
                             desc:`16th Infantry Regiment`,name:`16`,designation:`Savona`,commander:`Garrone`,icon:`savona`,
                             pos:[2254,671],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 16th Infantry Regiment`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 16th Infantry Regiment`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`3rd Battalion, 16th Infantry Regiment`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 16th Infantry Regiment`,name:`1`,designation:`16`,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 16th Infantry Regiment`,name:`2`,designation:`16`,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`3rd Battalion, 16th Infantry Regiment`,name:`3`,designation:`16`,commander:``},
                             ],
                         },{
                             level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -543,18 +543,18 @@ export var types={
                             desc:`61st Infantry Regiment`,name:`61`,designation:`Sicilia`,commander:`Menzio`,icon:`trento`,
                             pos:[655,125],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 61st Infantry Regiment`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 61st Infantry Regiment`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 61st Infantry Regiment`,name:`M`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 61st Infantry Regiment`,name:`1`,designation:`61`,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 61st Infantry Regiment`,name:`2`,designation:`61`,commander:``},
+                                {level:3,type:`Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 61st Infantry Regiment`,name:`M`,designation:`61`,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`],team:`Italian`,
                             desc:`62nd Infantry Regiment`,name:`62`,designation:`Sicilia`,commander:`Gatti`,icon:`trento`,
                             pos:[730,300],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 62nd Infantry Regiment`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 62nd Infantry Regiment`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 62nd Infantry Regiment`,name:`M`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 62nd Infantry Regiment`,name:`1`,designation:`62`,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 62nd Infantry Regiment`,name:`2`,designation:`62`,commander:``},
+                                {level:3,type:`Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 62nd Infantry Regiment`,name:`M`,designation:`62`,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorized`],team:`Italian`,

@@ -310,8 +310,8 @@ export class operation{
                 this.cities.forEach(city=>city.update(layer,this.scene,rel))
                 this.units.forEach(unit=>unit.update(layer,this.scene,rel))
                 while(this.turn.time>0){
+                    this.cities.forEach(city=>city.operate(layer,this.scene,rel))
                     this.units.forEach(unit=>unit.operate(layer,this.scene,rel))
-                    this.units.forEach(unit=>unit.update(layer,this.scene,rel))
                     this.turn.time--
                     if(this.turn.time<=0){
                         this.endTick()
@@ -401,6 +401,7 @@ export class operation{
                                                         result.parent=this.select.unit.parent
                                                         this.units.push(result)
                                                         this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
+                                                        this.select.unit.calculateElements()
                                                         if(this.select.unit.parent!=-1){
                                                             this.select.unit.parent.contain.units.push(result)
                                                         }
@@ -430,6 +431,7 @@ export class operation{
                                                     desc:`${[`Battle Group`,`Kampfgruppe`,`Column`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                     icon:element.icon,elements:[],
                                                 })
+                                                result.contain.temp=true
                                                 result.contain.units.push(element)
                                                 result.contain.units.push(target.contain.units[0])
                                                 target.active=false
@@ -459,6 +461,7 @@ export class operation{
                                             }else{
                                                 let target=absorb[this.select.unit.order.absorb%absorb.length]
                                                 this.select.unit.contain.units.push(target.contain.units[0])
+                                                this.select.unit.calculateElements()
                                                 target.active=false
                                                 target.contain.units=[]
                                                 if(target.parent!=-1){
@@ -570,6 +573,7 @@ export class operation{
                                                     result.parent=this.select.unit.parent
                                                     this.units.push(result)
                                                     this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
+                                                    this.select.unit.calculateElements()
                                                     if(this.select.unit.parent!=-1){
                                                         this.select.unit.parent.contain.units.push(result)
                                                     }
@@ -599,6 +603,7 @@ export class operation{
                                                 desc:`${[`Battle Group`,`Kampfgruppe`,`Column`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                 icon:element.icon,elements:[],
                                             })
+                                            result.contain.temp=true
                                             result.contain.units.push(element)
                                             result.contain.units.push(target.contain.units[0])
                                             target.active=false
@@ -628,6 +633,7 @@ export class operation{
                                         }else{
                                             let target=absorb[this.select.unit.order.absorb%absorb.length]
                                                 this.select.unit.contain.units.push(target.contain.units[0])
+                                                this.select.unit.calculateElements()
                                                 target.active=false
                                                 target.contain.units=[]
                                                 if(target.parent!=-1){
@@ -643,6 +649,9 @@ export class operation{
                                         this.select.unit.order.absorb++
                                     }
                                 }
+                            }
+                            if(key==`Backspace`){
+                                this.units.forEach(unit=>unit.order.trigger=false)
                             }
                         }else{
                             if(key==`Enter`){

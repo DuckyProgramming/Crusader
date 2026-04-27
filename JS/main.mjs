@@ -1,5 +1,5 @@
 import {dev,graphics,constants,inputs,types} from './variables.mjs'
-import {see} from './functions.mjs'
+import {see,battalions} from './functions.mjs'
 import {setupGraphics,displayMain} from './graphics.mjs'
 import {operation} from './operation.mjs'
 var current
@@ -42,5 +42,7 @@ window.mouseDragged=mouseDragged
 window.keyPressed=keyPressed
 
 window.types=types
+window.inputs=inputs
 window.dev=dev
 window.see=see
+window.battalions=battalions
