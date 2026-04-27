@@ -1,5 +1,5 @@
-import {graphics} from './variables.mjs'
-import {smoothAnim,distPos} from './functions.mjs'
+import {graphics,types} from './variables.mjs'
+import {smoothAnim,distPos,elementArray} from './functions.mjs'
 export class city{
     constructor(operation,data){
         this.operation=operation
@@ -9,53 +9,56 @@ export class city{
         this.type=data.type
         this.fade={main:1,trigger:true,reveal:0,revealTrigger:false}
         this.connect={main:[],primary:[]}
-        this.supply={owner:-1}
+        this.supply={connect:elementArray(0,types.player.length)}
+        this.hist=[{owner:this.owner}]
+        /*
+        0 - fail
+        1 - success
+        */
     }
-    /*save(){
+    save(){
         let composite={
-            id:this.id,
-            name:this.name,
-            type:this.type,
-            position:this.position,
-            rule:this.rule,
-            owner:this.owner,
-            fortified:{
-                trigger:this.fortified.trigger,
-                unit:this.fortified.unit==-1?-1:this.fortified.unit.id,
-                sieged:this.fortified.sieged,
-                siegeActive:this.fortified.siegeActive,
-                taken:this.fortified.taken,
-            },
             fade:this.fade,
-            index:this.index,
-            remove:this.remove,
+            supply:this.supply,
+            hist:this.hist,
         }
         return composite
     }
     load(composite){
-        this.id=composite.id
-        this.name=composite.name
-        this.type=composite.type
-        this.position=composite.position
-        this.rule=composite.rule
-        this.owner=composite.owner
-        this.fortified=composite.fortified
-        this.sieged=composite.sieged
         this.fade=composite.fade
-        this.index=composite.index
-        this.remove=composite.remove
+        this.supply=composite.supply
+        this.hist=composite.hist
     }
-    loadBar(){
-        this.fortified.unit=this.fortified.unit==-1?-1:this.operation.units[findId(this.fortified.unit,this.operation.units)]
-    }*/
-    tickSupply(){
-        this.supply.owner=this.owner
-        this.owner=-1
-        if(this.type==1){
+    endTick(){
+        if(this.owner!=-1&&!this.supply.connect.some((conn,index)=>conn==1&&types.player[index].side==types.player[this.owner].side)){
+            this.owner=-1
         }
+        if(this.owner==-1||!this.nearSide(60,types.player[this.owner].side)){
+            types.player.forEach((player,index)=>{
+                if(this.near(40,index)&&this.supply.connect[index]==1){
+                    this.owner=index
+                }
+            })
+        }
+        if(this.owner!=-1){
+            this.operation.units.forEach(unit=>{
+                if(distPos(unit,this)<60){
+                    if(types.player[unit.player].side==types.player[this.owner].side){
+                        unit.strength.supply=min(
+                            unit.strength.supply+[15,10][types.player[unit.player].side],
+                            unit.strength.base.supply
+                        )
+                    }
+                }
+            })
+        }
+        this.hist.push({owner:this.owner})
     }
     near(dist,player){
-        return this.operation.units.some(unit=>unit.player==player&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist)
+    }
+    nearSide(dist,side){
+        return this.operation.units.some(unit=>unit.active&&types.player[unit.player].side==side&&distPos(this,unit)<dist)
     }
     display(layer,scene){
         switch(scene){
@@ -78,7 +81,7 @@ export class city{
                     })
                 }
             break
-            case `main`: case `mapAll`:
+            case `main`: case `mapAll`: case `hist`:
                 if(this.fade.main>0){
                     layer.push()
                     layer.translate(this.position.x,this.position.y)
@@ -109,8 +112,13 @@ export class city{
             case `mapAll`:
                 this.fade.main=1
             break
+            case `hist`:
+                this.fade.main=1
+                if(mouse%60==0){
+                    this.owner=this.hist[floor(mouse/60)].owner
+                }
+            break
         }
     }
-    onClick(layer,mouse,scene,rel){
-    }
+    onClick(layer,mouse,scene,rel){}
 }

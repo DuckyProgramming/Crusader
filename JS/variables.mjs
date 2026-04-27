@@ -3,12 +3,13 @@ export var types={
     connect:[],
     team:[],
     player:[],
+    side:[],
     unit:[],
     elementType:[
         {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:1000,speed:1,artillery:false},//0
         {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:1000,speed:0.9,artillery:false},
         {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:1000,speed:2.5,artillery:false},
-        {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:100,health:0,morale:1,num:1000,speed:2.25,artillery:false},
+        {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:1000,speed:2.25,artillery:false},
         {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:1000,speed:2.5,artillery:false},
         {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:1000,speed:2.5,artillery:false},
         {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:1000,speed:3,artillery:false},
@@ -17,12 +18,12 @@ export var types={
         {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:50,morale:0.4,num:50,speed:2,artillery:false},
         {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:1,health:50,morale:0.5,num:50,speed:1.5,artillery:false},//10
         {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.4,num:50,speed:3,artillery:false},
-        {name:`Light Artillery`,unitType:[`Light`,`Artillery`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.6,num:40,speed:0.6,artillery:true},
-        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[4,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.6,artillery:true},
+        {name:`Light Artillery`,unitType:[`Light`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:40,speed:0.6,artillery:true},
+        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.6,artillery:true},
         {name:`Motorized Light Artillery`,unitType:[`Light`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.6,num:40,speed:1.8,artillery:true},
-        {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[4,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.8,artillery:true},
-        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[8,8],armor:0.1,health:80,morale:1,num:800,speed:0.8,artillery:false},
-        {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[8,8],armor:0.1,health:80,morale:1,num:800,speed:2,artillery:false},
+        {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.8,artillery:true},
+        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:600,speed:0.8,artillery:false},
+        {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:600,speed:2,artillery:false},
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -33,10 +34,10 @@ export var types={
         {name:`Recon`},
         {name:`Light`},
     ],unitLevel:[
-        {name:`Division`,symbol:`XX`,size:60},
-        {name:`Brigade`,symbol:`X`,size:45},
-        {name:`Regiment`,symbol:`III`,size:45},
-        {name:`Battalion`,symbol:`II`,size:35},
+        {name:`Division`,symbol:`XX`,size:[60,60,60]},
+        {name:`Brigade`,symbol:`X`,size:[45,52,45]},
+        {name:`Regiment`,symbol:`III`,size:[45,45,45]},
+        {name:`Battalion`,symbol:`II`,size:[35,35,35]},
     ],map:[
         {
             name:[`Operation Crusader`,`Base`],
@@ -164,11 +165,14 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
-                {name:`Italian`,term:`italy`,player:2,quality:0.8},
+                {name:`Italian`,term:`italy`,player:2,quality:0.85},
             ],player:[
                 {name:`British`,color:[0,100,250],side:0},
                 {name:`German`,color:[150,50,0],side:1},
                 {name:`Italian`,color:[0,200,0],side:1},
+            ],side:[
+                {name:`Allied`},
+                {name:`Axis`},
             ],unit:[
                 {
                     level:0,type:[`Tank`],team:`British`,
@@ -180,37 +184,37 @@ export var types={
                             desc:`4th Armoured Brigade`,name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
                             pos:[2380,1420],
                             elements:[
-                                {level:3,type:`Light Tank`,team:`British`,name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
-                                {level:3,type:`Light Tank`,team:`British`,name:`5`,designation:`Royal Tank\nRegiment`,commander:`Carver`},
-                                {level:3,type:`Light Tank`,team:`British`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
-                                {level:3,type:`Motorized Infantry`,team:`British`,name:`2`,designation:`Scots\nGuards`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`British`,name:`2`,designation:`Royal\nHorse`,commander:``},
+                                {level:3,type:`Light Tank`,team:`British`,desc:`3rd Royal Tank Regiment`,name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
+                                {level:3,type:`Light Tank`,team:`British`,desc:`5th Royal Tank Regiment`,name:`5`,designation:`Royal Tank\nRegiment`,commander:`Carver`},
+                                {level:3,type:`Light Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
+                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`2nd Regiment, Royal Horse Artillery`,name:`2`,designation:`Royal\nHorse`,commander:``},
                             ],
                         },{
                             level:1,type:[`Tank`],team:`British`,
                             desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
                             pos:[2485,1420],
                             elements:[
-                                {level:3,type:`Medium Tank`,team:`British`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
-                                {level:3,type:`Medium Tank`,team:`British`,name:`6`,designation:`Royal Tank\nRegiment`,commander:`Lister`},
-                                {level:3,type:`Medium Tank`,team:`British`,name:`7`,designation:`Queen's\nHussars`,commander:`Byass`},
+                                {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
+                                {level:3,type:`Medium Tank`,team:`British`,desc:`6th Royal Tank Regiment`,name:`6`,designation:`Royal Tank\nRegiment`,commander:`Lister`},
+                                {level:3,type:`Medium Tank`,team:`British`,desc:`7th Queen's Own Hussars`,name:`7`,designation:`Queen's\nHussars`,commander:`Byass`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
                             desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7a`,
                             pos:[2590,1420],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`British`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
-                                {level:3,type:`Motorized Infantry`,team:`British`,name:`2`,designation:`The Rifle\nBrigade`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`British`,name:`3`,designation:`Royal\nHorse`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`British`,name:`60`,designation:`North\nMidland`,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
+                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, The Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
+                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`60th (North Midland) Field Regiment, Royal Artillery`,name:`60`,designation:`North\nMidland`,commander:``},
                             ],
                         },{
                             level:3,type:[`Tank`,`Recon`],team:`British`,
                             desc:`1st King's Dragoon Guards`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:`McCorquodale`,icon:`7a`,
                             pos:[1950,1282],
                             elements:[
-                                {level:3,type:`Armored Car`,team:`British`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:`McCorquodale`},
+                                {level:3,type:`Armored Car`,team:`British`,desc:`1st King's Dragoon Guards`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:`McCorquodale`},
                             ],
                         },
                     ],
@@ -224,77 +228,77 @@ export var types={
                             desc:`1st South African Infantry Brigade`,name:`1`,designation:``,commander:`Pienaar`,icon:`1sa`,
                             pos:[2535,1520],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Gwillam`},
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Transvaal\nScottish`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`South African`,name:`3`,designation:``,commander:`Whyte`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Duke of Edinburgh's Own Rifles`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Gwillam`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Royal Natal Carabineers`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Transvaal Scottish Regiment`,name:`1`,designation:`Transvaal\nScottish`,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`South African`,desc:`3rd South African Field Artillery Regiment`,name:`3`,designation:``,commander:`Whyte`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Motorized`],team:`South African`,
                             desc:`5th South African Infantry Brigade`,name:`5`,designation:``,commander:`Armstrong`,icon:`1sa`,
                             pos:[2640,1520],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`1`,designation:`Irish`,commander:`Dobbs`},
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`2`,designation:`Botha`,commander:`Boerstra`},
-                                {level:3,type:`Motorized Infantry`,team:`South African`,name:`3`,designation:`Transvaal\nScottish`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`South African`,name:`4`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, South African Irish Regiment`,name:`1`,designation:`Irish`,commander:`Dobbs`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, General Botha Regiment`,name:`2`,designation:`Botha`,commander:`Boerstra`},
+                                {level:3,type:`Motorized Infantry`,team:`South African`,desc:`3rd Battalion, Transvaal Scottish Regiment`,name:`3`,designation:`Transvaal\nScottish`,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`South African`,desc:`4th South African Field Artillery Regiment`,name:`4`,designation:``,commander:`Harpur`},
                             ],
                         },
                     ],
                 },{
                     level:0,type:[`Infantry`,`Motorized`],team:`New Zealand`,
                     desc:`2nd New Zealand Division`,name:`2`,designation:``,commander:`Freyberg`,icon:`2nz`,
-                    pos:[2750,1150],
+                    pos:[2725,1150],
                     elements:[
                         {
                             level:1,type:[`Infantry`,`Motorized`],team:`New Zealand`,
                             desc:`4th New Zealand Infantry Brigade`,name:`4`,designation:``,commander:`Inglis`,icon:`2nz`,
-                            pos:[2535,1105],
+                            pos:[2510,1105],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`18`,designation:``,commander:`Peart`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`19`,designation:``,commander:`Hartnell`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`20`,designation:``,commander:`Kippenberger`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`18th New Zealand Infantry Battalion`,name:`18`,designation:``,commander:`Peart`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`19th New Zealand Infantry Battalion`,name:`19`,designation:``,commander:`Hartnell`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`20th New Zealand Infantry Battalion`,name:`20`,designation:``,commander:`Kippenberger`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Motorized`],team:`New Zealand`,
                             desc:`5th New Zealand Infantry Brigade`,name:`5`,designation:``,commander:`Hargest`,icon:`2nz`,
-                            pos:[2535,1210],
+                            pos:[2510,1210],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`21`,designation:``,commander:`Fitzpatrick`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`22`,designation:``,commander:`Andrew`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`23`,designation:``,commander:`Leckie`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`21st New Zealand Infantry Battalion`,name:`21`,designation:``,commander:`Fitzpatrick`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`22nd New Zealand Infantry Battalion`,name:`22`,designation:``,commander:`Andrew`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`23rd New Zealand Infantry Battalion`,name:`23`,designation:``,commander:`Leckie`},
                             ],
                         },{
                             level:1,type:[`Infantry`,`Motorized`],team:`New Zealand`,
                             desc:`6th New Zealand Infantry Brigade`,name:`6`,designation:``,commander:`Barrowclough`,icon:`2nz`,
-                            pos:[2535,1315],
+                            pos:[2510,1315],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`24`,designation:``,commander:`Shuttleworth`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`25`,designation:``,commander:`Burton`},
-                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,name:`26`,designation:``,commander:`Satterthwaite`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`24th New Zealand Infantry Battalion`,name:`24`,designation:``,commander:`Shuttleworth`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`25th New Zealand Infantry Battalion`,name:`25`,designation:``,commander:`Burton`},
+                                {level:3,type:`Motorized Infantry`,team:`New Zealand`,desc:`26th New Zealand Infantry Battalion`,name:`26`,designation:``,commander:`Satterthwaite`},
                             ],
                         },{
                             level:1,type:[`Artillery`,`Motorized`],team:`New Zealand`,
                             desc:`2nd New Zealand Field Brigade`,name:`2`,designation:``,commander:`Miles`,icon:`2nz`,
-                            pos:[2645,1210],
+                            pos:[2620,1210],
                             elements:[
-                                {level:3,type:`Motorized Artillery`,team:`New Zealand`,name:`4`,designation:``,commander:`Duff`},
-                                {level:3,type:`Motorized Artillery`,team:`New Zealand`,name:`5`,designation:``,commander:`Fraser`},
-                                {level:3,type:`Motorized Artillery`,team:`New Zealand`,name:`6`,designation:``,commander:`Weir`},
+                                {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`4th New Zealand Field Regiment`,name:`4`,designation:``,commander:`Duff`},
+                                {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`5th New Zealand Field Regiment`,name:`5`,designation:``,commander:`Fraser`},
+                                {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`6th New Zealand Field Regiment`,name:`6`,designation:``,commander:`Weir`},
                             ],
                         },{
                             level:3,type:[`Infantry`,'Machine Gun'],team:`New Zealand`,
                             desc:`27th New Zealand Machine Gun Battalion`,name:`27`,designation:``,commander:`Gwilliam`,icon:`2nz`,
-                            pos:[2635,1115],
+                            pos:[2610,1115],
                             elements:[
-                                {level:3,type:`Motorized Machine Gun`,team:`New Zealand`,name:`27`,designation:``,commander:`Gwilliam`},
+                                {level:3,type:`Motorized Machine Gun`,team:`New Zealand`,desc:`27th New Zealand Machine Gun Battalion`,name:`27`,designation:``,commander:`Gwilliam`},
                             ],
                         },{
                             level:3,type:[`Infantry`,`Motorized`],team:`Māori`,
                             desc:`28th 'Māori' New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
-                            pos:[2635,1305],
+                            pos:[2610,1305],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`Māori`,name:`28`,designation:``,commander:`Dittmer`},
+                                {level:3,type:`Motorized Infantry`,team:`Māori`,desc:`28th 'Māori' New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`},
                             ],
                         },
                     ],
@@ -308,31 +312,31 @@ export var types={
                             desc:`14th Infantry Brigade`,name:`14`,designation:``,commander:`Chappell`,icon:`70`,
                             pos:[965,250],
                             elements:[
-                                {level:3,type:`Infantry`,team:`British`,name:`1`,designation:`Bedford &\nHertford`,commander:``},
-                                {level:3,type:`Infantry`,team:`British`,name:`2`,designation:`Black\nWatch`,commander:``},
-                                {level:3,type:`Infantry`,team:`British`,name:`2`,designation:`York &\nLancaster`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Befordshire and Hertfordshire Regiment`,name:`1`,designation:`Bedford &\nHertford`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, Black Watch`,name:`2`,designation:`Black\nWatch`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, York and Lancaster Regiment`,name:`2`,designation:`York &\nLancaster`,commander:``},
                             ],
                         },{
                             level:1,type:[`Infantry`],team:`British`,
                             desc:`23rd Infantry Brigade`,name:`23`,designation:``,commander:`Cox`,icon:`70`,
                             pos:[850,265],
                             elements:[
-                                {level:3,type:`Infantry`,team:`British`,name:`1`,designation:`Durham\nLight`,commander:``},
-                                {level:3,type:`Infantry`,team:`British`,name:`1`,designation:`Essex`,commander:`Nichols`},
-                                {level:3,type:`Infantry`,team:`British`,name:`4`,designation:`Border`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Durham Light Infantry`,name:`1`,designation:`Durham\nLight`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Essex Regiment`,name:`1`,designation:`Essex`,commander:`Nichols`},
+                                {level:3,type:`Infantry`,team:`British`,desc:`4th Battalion, Border Regiment`,name:`4`,designation:`Border`,commander:``},
                             ],
                         },{
                             level:1,type:[`Infantry`],team:`Polish`,
                             desc:`Polish Independent Carpathian Brigade`,name:`C`,designation:``,commander:`Kopański`,icon:`70`,
                             pos:[765,150],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Polish`,name:`1`,designation:``,commander:`Kopeć`},
-                                {level:3,type:`Infantry`,team:`Polish`,name:`2`,designation:``,commander:`Brzósko`},
-                                {level:3,type:`Infantry`,team:`Polish`,name:`3`,designation:``,commander:`Sokol`},
-                                {level:3,type:`Infantry`,team:`Czechoslovak`,name:`11`,designation:``,commander:`Klapálek`},
-                                {level:3,type:`Infantry`,team:`Australian`,name:`2/13`,designation:``,commander:`Turner`},
-                                {level:3,type:`Machine Gun`,team:`Polish`,name:`C`,designation:``,commander:`Bobiński`},
-                                {level:3,type:`Artillery`,team:`Polish`,name:`C`,designation:``,commander:`Gliwicz`},
+                                {level:3,type:`Infantry`,team:`Polish`,desc:`1st Carpathian Rifle Battalion`,name:`1`,designation:``,commander:`Kopeć`},
+                                {level:3,type:`Infantry`,team:`Polish`,desc:`2nd Carpathian Rifle Battalion`,name:`2`,designation:``,commander:`Brzósko`},
+                                {level:3,type:`Infantry`,team:`Polish`,desc:`3rd Carpathian Rifle Battalion`,name:`3`,designation:``,commander:`Sokol`},
+                                {level:3,type:`Infantry`,team:`Czechoslovak`,desc:`11th Czechoslovak Infantry Battalion`,name:`11`,designation:``,commander:`Klapálek`},
+                                {level:3,type:`Infantry`,team:`Australian`,desc:`2/13th Australian Infantry Battalion`,name:`2/13`,designation:``,commander:`Turner`},
+                                {level:3,type:`Machine Gun`,team:`Polish`,desc:`Carpathian Machine Gun Battalion`,name:`C`,designation:``,commander:`Bobiński`},
+                                {level:3,type:`Artillery`,team:`Polish`,desc:`Carpathian Artillery Regiment`,name:`C`,designation:``,commander:`Gliwicz`},
                             ],
                         },
                     ],
@@ -341,7 +345,7 @@ export var types={
                     desc:`300th Oasis Battalion`,name:`300`,designation:`Oasis`,commander:`Ennecerus`,icon:``,
                     pos:[2405,1069],
                     elements:[
-                        {level:3,type:`Infantry`,team:`German`,name:`300`,designation:`Oasis`,commander:`Ennecerus`},
+                        {level:3,type:`Infantry`,team:`German`,desc:`300th Oasis Battalion`,name:`300`,designation:`Oasis`,commander:`Ennecerus`},
                     ],
                 },{
                     level:0,type:[`Tank`],team:`German`,
@@ -353,45 +357,52 @@ export var types={
                             desc:`8th Panzer Regiment`,name:`8`,designation:``,commander:`Cramer`,icon:`15pz`,
                             pos:[1432,570],
                             elements:[
-                                {level:3,type:`Medium Tank`,team:`German`,name:`1`,designation:``,commander:`Fenski`},
-                                {level:3,type:`Medium Tank`,team:`German`,name:`2`,designation:``,commander:`Wahl`},
+                                {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:``,commander:`Fenski`},
+                                {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:``,commander:`Wahl`},
                             ],
                         },{
-                            level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                            desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Geißler`,icon:`15pz`,
-                            pos:[1634,628],
+                            level:1,type:[`Infantry`,`Motorized`],team:`German`,
+                            desc:`15th Infantry Brigade`,name:`15`,designation:``,commander:`Menny`,icon:`15pz`,
+                            pos:[1584,520],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`German`,name:`1`,designation:``,commander:`Zintel`},
-                                {level:3,type:`Motorized Machine Gun`,team:`German`,name:`2`,designation:``,commander:`Warrelmann`},
+                                {
+                                    level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                                    desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Marcks`,icon:`15pz`,
+                                    pos:[1634,628],
+                                    elements:[
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:``,commander:`Zintel`},
+                                        {level:3,type:`Motorized Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
+                                    ],
+                                },{
+                                    level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                                    desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
+                                    pos:[1533,599],
+                                    elements:[
+                                        {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Ehle`}, 
+                                    ],
+                                },
                             ],
                         },{
                             level:2,type:[`Artillery`,`Motorized`],team:`German`,
                             desc:`33rd Artillery Regiment`,name:`33`,designation:``,commander:`Crasemann`,icon:`15pz`,
                             pos:[1393,382],
                             elements:[
-                                {level:3,type:`Motorized Artillery`,team:`German`,name:`1`,designation:``,commander:`Mayer`},
-                                {level:3,type:`Motorized Artillery`,team:`German`,name:`2`,designation:``,commander:`Mesmer`},
-                                {level:3,type:`Motorized Artillery`,team:`German`,name:`3`,designation:``,commander:`Bickel`},
-                            ],
-                        },{
-                            level:3,type:[`Infantry`,`Motorcycle`],team:`German`,
-                            desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Ehle`,icon:`15pz`,
-                            pos:[1533,599],
-                            elements:[
-                               {level:3,type:`Motorcycle Infantry`,team:`German`,name:`15`,designation:``,commander:`Ehle`}, 
+                                {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`},
+                                {level:3,type:`Motorized Artillery`,team:`German`,desc:`2nd Battalion, 33rd Artillery Regiment`,name:`2`,designation:``,commander:`Mesmer`},
+                                {level:3,type:`Motorized Artillery`,team:`German`,desc:`3rd Battalion, 33rd Artillery Regiment`,name:`3`,designation:``,commander:`Bickel`},
                             ],
                         },{
                             level:3,type:[`Tank`,`Recon`],team:`German`,
                             desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Heraucourt`,icon:`15pz`,
                             pos:[1737,1251],
                             elements:[
-                                {level:3,type:`Armored Car`,team:`German`,name:`33`,designation:``,commander:`Heraucourt`}, 
+                                {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Heraucourt`}, 
                             ],
                         },
                     ],
                 },{
                     level:0,type:[`Infantry`],team:`German`,
-                    desc:`Special Purpose Division 'Afrika'`,name:`A`,designation:``,commander:`Sümmermann`,icon:`90l`,
+                    desc:`Division z.b.V. 'Afrika'`,name:`A`,designation:`z.b.V.`,commander:`Sümmermann`,icon:`90l`,
                     pos:[1072,461],
                     elements:[
                         {
@@ -399,24 +410,24 @@ export var types={
                             desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
                             pos:[1141,566],
                             elements:[
-                                {level:3,type:`Infantry`,team:`German`,name:`1`,designation:``,commander:`Harder`},
-                                {level:3,type:`Infantry`,team:`German`,name:`2`,designation:``,commander:`Ryll`},
-                                {level:3,type:`Artillery`,team:`German`,name:`361`,designation:`Afrika`,commander:`Schilling`},
+                                {level:3,type:`Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:``,commander:`Harder`},
+                                {level:3,type:`Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:``,commander:`Ryll`},
+                                {level:3,type:`Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Artillery`,`Machine Gun`],team:`German`,
                             desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
                             pos:[1050,325],
                             elements:[
-                                {level:3,type:`Infantry`,team:`German`,name:`288`,designation:``,commander:`Daumiller`},
-                                {level:3,type:`Mixed Support`,team:`German`,name:`288`,designation:``,commander:`Borhardt`},
+                                {level:3,type:`Infantry`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`288`,designation:``,commander:`Daumiller`},
+                                {level:3,type:`Mixed Support`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`288`,designation:``,commander:`Borhardt`},
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`German`,
-                            desc:`3rd Battalion / 255th Infantry Regiment`,name:`3`,designation:`IR 255`,commander:`Hollmann`,icon:`90l`,
+                            desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`IR 255`,commander:`Hollmann`,icon:`90l`,
                             pos:[900,385],
                             elements:[
-                                {level:3,type:`Infantry`,team:`German`,name:`3`,designation:`IR 255`,commander:`Hollmann`},
+                                {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`IR 255`,commander:`Hollmann`},
                             ],
                         },
                     ],
@@ -425,21 +436,21 @@ export var types={
                     desc:`8th Army Artillery Group`,name:`8`,designation:`Army`,commander:`Bersano`,icon:``,
                     pos:[827,474],
                     elements:[
-                        {level:3,type:`Light Artillery`,team:`Italian`,name:`52`,designation:``,commander:``},
-                        {level:3,type:`Artillery`,team:`Italian`,name:`33`,designation:``,commander:``},
-                        {level:3,type:`Artillery`,team:`Italian`,name:`131`,designation:``,commander:``},
-                        {level:3,type:`Artillery`,team:`Italian`,name:`147`,designation:``,commander:``},
+                        {level:3,type:`Light Artillery`,team:`Italian`,desc:`52nd Group, 8th Army Artillery Group`,name:`52`,designation:``,commander:``},
+                        {level:3,type:`Artillery`,team:`Italian`,desc:`33rd Group, 8th Army Artillery Group`,name:`33`,designation:``,commander:``},
+                        {level:3,type:`Artillery`,team:`Italian`,desc:`131st Group, 8th Army Artillery Group`,name:`131`,designation:``,commander:``},
+                        {level:3,type:`Artillery`,team:`Italian`,desc:`147th Group, 8th Army Artillery Group`,name:`147`,designation:``,commander:``},
                     ],
                 },{
                     level:1,type:[`Infantry`,`Tank`],team:`Italian`,
                     desc:`Raggruppamento Esplorante del Corpo d'Armata di Manovra`,name:`RECAM`,designation:``,commander:`de Meo`,icon:``,
                     pos:[1386,1151],
                     elements:[
-                        {level:3,type:`Medium Tank`,team:`Italian`,name:`52`,designation:``,commander:``},
-                        {level:3,type:`Motorized Militia`,team:`Italian`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                        {level:3,type:`Motorized Militia`,team:`Italian`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
-                        {level:3,type:`Motorcycle Police`,team:`Italian`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
-                        {level:3,type:`Motorized Light Artillery`,team:`Italian`,name:`RB`,designation:`Volanti`,commander:``},
+                        {level:3,type:`Medium Tank`,team:`Italian`,desc:`52nd Medium Tank Battalion`,name:`52`,designation:``,commander:``},
+                        {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                        {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                        {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
+                        {level:3,type:`Motorized Light Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:``},
                     ],
                 },{
                     level:0,type:[`Infantry`,'Motorized'],team:`Italian`,
@@ -451,35 +462,35 @@ export var types={
                             desc:`65th Motorized Infantry Regiment`,name:`65`,designation:`Trieste`,commander:`Quirico`,icon:`trieste`,
                             pos:[946,961],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`1st Battalion, 65th Motorized Infantry Regiment`,name:`1`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`2nd Battalion, 65th Motorized Infantry Regiment`,name:`2`,designation:``,commander:``},
+                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 65th Motorized Infantry Regiment`,name:`M`,designation:``,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
                             desc:`66th Motorized Infantry Regiment`,name:`66`,designation:`Trieste`,commander:`Zanetti`,icon:`trieste`,
                             pos:[191,795],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Motorized Infantry`,team:`Italian`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`1st Battalion, 66th Motorized Infantry Regiment`,name:`1`,designation:``,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`Italian`,desc:`2nd Battalion, 66th Motorized Infantry Regiment`,name:`2`,designation:``,commander:``},
+                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 66th Motorized Infantry Regiment`,name:`M`,designation:``,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                             desc:`9th Bersaglieri Regiment`,name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
                             pos:[993,728],
                             elements:[
-                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,name:`28`,designation:``,commander:``},
-                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,name:`30`,designation:``,commander:``},
-                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,name:`40`,designation:``,commander:``},
-                                {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,name:`32`,designation:``,commander:``},
+                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:``},
+                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`30th Bersaglieri Battalion`,name:`30`,designation:`Bersaglieri`,commander:``},
+                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`40th Bersaglieri Battalion`,name:`40`,designation:`Bersaglieri`,commander:``},
+                                {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`32nd Bersaglieri Battalion`,name:`32`,designation:`Bersaglieri`,commander:``},
                             ],
                         },{
                             level:3,type:[`Artillery`,`Machine Gun`,`Motorized`],team:`Italian`,
                             desc:`508th Mixed Support Battalion`,name:`508`,designation:``,commander:``,icon:`trieste`,
                             pos:[1062,1469],
                             elements:[
-                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,name:`508`,designation:``,commander:``},
+                                {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`508th Mixed Support Battalion`,name:`508`,designation:``,commander:``},
                             ],
                         },
                     ],
@@ -493,32 +504,32 @@ export var types={
                             desc:`15th Infantry Regiment`,name:`15`,designation:`Savona`,commander:`Russo`,icon:`savona`,
                             pos:[2014,1167],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 15th Infantry Regiment`,name:`1`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 15th Infantry Regiment`,name:`2`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`3rd Battalion, 15th Infantry Regiment`,name:`3`,designation:``,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`],team:`Italian`,
                             desc:`16th Infantry Regiment`,name:`16`,designation:`Savona`,commander:`Garrone`,icon:`savona`,
                             pos:[2254,671],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 16th Infantry Regiment`,name:`1`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 16th Infantry Regiment`,name:`2`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`3rd Battalion, 16th Infantry Regiment`,name:`3`,designation:``,commander:``},
                             ],
                         },{
                             level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
                             desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`di Bardi`,icon:`savona`,
                             pos:[2358,967],
                             elements:[
-                                {level:3,type:`Machine Gun`,team:`Italian`,name:`4`,designation:`Genova`,commander:``},
+                                {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:``},
                             ],
                         },{
                             level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
                             desc:`155th Machine Gun Battalion`,name:`155`,designation:``,commander:``,icon:`savona`,
                             pos:[2225,1190],
                             elements:[
-                                {level:3,type:`Machine Gun`,team:`Italian`,name:`155`,designation:``,commander:``},
+                                {level:3,type:`Machine Gun`,team:`Italian`,desc:`155th Machine Gun Battalion`,name:`155`,designation:``,commander:``},
                             ],
                         },
                     ],
@@ -532,26 +543,26 @@ export var types={
                             desc:`61st Infantry Regiment`,name:`61`,designation:`Sicilia`,commander:`Menzio`,icon:`trento`,
                             pos:[655,125],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 61st Infantry Regiment`,name:`1`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 61st Infantry Regiment`,name:`2`,designation:``,commander:``},
+                                {level:3,type:`Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 61st Infantry Regiment`,name:`M`,designation:``,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`],team:`Italian`,
                             desc:`62nd Infantry Regiment`,name:`62`,designation:`Sicilia`,commander:`Gatti`,icon:`trento`,
                             pos:[730,300],
                             elements:[
-                                {level:3,type:`Infantry`,team:`Italian`,name:`1`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`2`,designation:``,commander:``},
-                                {level:3,type:`Infantry`,team:`Italian`,name:`3`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 62nd Infantry Regiment`,name:`1`,designation:``,commander:``},
+                                {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 62nd Infantry Regiment`,name:`2`,designation:``,commander:``},
+                                {level:3,type:`Mixed Support`,team:`Italian`,desc:`Mixed Support Battalion, 62nd Infantry Regiment`,name:`M`,designation:``,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
                             desc:`7th Bersaglieri Regiment`,name:`7`,designation:`Bersaglieri`,commander:`Scirocco`,icon:`trento`,
                             pos:[480,441],
                             elements:[
-                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,name:`10`,designation:``,commander:``},
-                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,name:`11`,designation:``,commander:``},
+                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`10th Bersaglieri Battalion`,name:`10`,designation:`Bersaglieri`,commander:``},
+                                {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`11th Bersaglieri Battalion`,name:`11`,designation:`Bersaglieri`,commander:``},
                             ],
                         },
                     ],
@@ -560,8 +571,11 @@ export var types={
         },
     ],
 }
-export var dev={slow:true}
-export var options={}
+export var dev={slow:false}
 export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
-export var constants={trig:[[],[]],init:false,turnTime:150,artilleryRange:250}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}
+export var constants={
+    trig:[[],[]],init:false,unitId:0,
+    turnTime:150,artilleryRange:250,
+    battleVariance:1.5,breakVariance:2,breakMult:1.2,
+}

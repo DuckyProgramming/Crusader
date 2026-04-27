@@ -63,6 +63,7 @@ async function main(){
         [-5,8],
         [-8,5],
     ]
+    console.log(pixels[0].length,lx,ly)
     let interior=(x,y)=>Math.min(Math.max(x,0),lx-1)+Math.min(Math.max(y,0),ly-1)*lx
     for(let a=0,la=pixels[0].length;a<la;a++){
         //if(pixels[a].x%2==0&&pixels[a].y%2==0){
