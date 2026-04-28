@@ -158,7 +158,7 @@ export function findList(item,list){
 			return a
 		}
 	}
-    throw new Error(`findList Fail: ${item} ,${list}`)
+    throw new Error(`findList Fail: ${item}, ${list}`)
 	return -1
 }
 export function findName(name,list){
@@ -167,7 +167,7 @@ export function findName(name,list){
 			return a
 		}
 	}
-    throw new Error(`findName Fail: ${name} ,${list}`)
+    throw new Error(`findName Fail: ${name}, ${list}`)
 	return -1
 }
 export function findId(id,list){
@@ -176,7 +176,7 @@ export function findId(id,list){
 			return a
 		}
 	}
-    throw new Error(`findId Fail: ${id} ,${list}`)
+    throw new Error(`findId Fail: ${id}, ${list}`)
 	return -1
 }
 export function findName2(name,list){
@@ -188,7 +188,7 @@ export function findName2(name,list){
 			return a
 		}
 	}
-    throw new Error(`findName2 Fail: ${name} ,${list}`)
+    throw new Error(`findName2 Fail: ${name}, ${list}`)
 	return -1
 }
 export function findTerm(term,list){
@@ -207,6 +207,15 @@ export function findTerm0(term,list){
 		}
 	}
     throw new Error(`findTerm0 Fail: ${term}`)
+	return -1
+}
+export function findAbstract(term,search,list){
+	for(let a=0,la=list.length;a<la;a++){
+		if(list[a][term]==search){
+			return a
+		}
+	}
+    throw new Error(`findAbstract Fail: ${search}, ${list.map(element=>element[term])}`)
 	return -1
 }
 export function updateMouse(layer,scale){
@@ -394,9 +403,58 @@ export function see(){
 export function battalions(){
     let totals=[0,0,0]
     window.current.units.forEach(unit=>{
-        if(unit.contain.trigger){
+        if(unit.contain.trigger&&unit.active){
             unit.contain.units.forEach(contain=>totals[contain.player]++)
         }
     })
     print(totals.map((total,index)=>`${types.player[index].name}: ${total}/${[48,16,36][index]}`).join(`\n`))
 }
+export function strength(){
+    let totals=[[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]]]
+    window.current.units.forEach(unit=>{
+        if(unit.contain.trigger&&unit.active){
+            unit.calculateElements()
+            unit.strength.num.forEach((num,index)=>totals[unit.player][index][0]+=num)
+        }
+    })
+    let temp=current.reform()
+    temp.units.forEach(unit=>{
+        if(unit.contain.trigger&&unit.active){
+            unit.calculateElements()
+            unit.strength.num.forEach((num,index)=>totals[unit.player][index][1]+=num)
+        }
+    })
+    print(totals.map((total,index)=>`${types.player[index].name}:\n${total.map((set,index)=>`${set[0]}/${set[1]} ${[`Infantry`,`Vehicles`,`Artillery`][index]}`).join(`\n`)}`).join(`\n\n`))
+}
+export function normalize(){
+    let tempUnits=types.unit.slice()
+    let allUnits=[]
+    while(tempUnits.length>0){
+        (typeof tempUnits[0].elements[0].type==`string`?allUnits:tempUnits).push(...tempUnits[0].elements)
+        tempUnits.splice(0,1)
+    }
+    print(allUnits)
+    window.current.units.forEach(unit=>{
+        if(unit.contain.trigger){
+            unit.contain.units.forEach((element,index,arr)=>{
+                let strength={
+                    life:element.strength.life,
+                    morale:element.strength.morale,
+                    supply:element.strength.supply,
+                }
+                let target=allUnits[findAbstract(`desc`,element.desc,allUnits)]
+                target.pos=[0,0]
+                target.elementType=findName(target.type,types.elementType)
+                target.type=types.elementType[findName(target.type,types.elementType)].unitType
+                target.icon=element.icon
+                target.elements=[]
+                arr[index]=element.reform(target)
+                arr[index].strength.life=strength.life
+                arr[index].strength.morale=strength.morale
+                arr[index].strength.supply=strength.supply
+            })
+            unit.calculateElements()
+        }
+    })
+}
+//tool

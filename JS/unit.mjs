@@ -45,7 +45,7 @@ export class unit{
             detach:0,absorb:0
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
-        this.contain={units:[],stats:{},trigger:true,temp:false}
+        this.contain={units:[],stats:{},trigger:true,temp:this.desc.includes(`Sonderverband`)}
         this.logs={main:[],trigger:false}
         this.base={position:{x:this.position.x,y:this.position.y}}
         this.hist=elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total+1)
@@ -135,6 +135,9 @@ export class unit{
         this.designation=composite.designation
         this.commander=composite.commander
         this.icon=composite.icon
+        /*if(this.elementType>=10){
+            this.elementType++
+        }*/
 
         this.player=composite.player
         this.active=composite.active
@@ -189,6 +192,9 @@ export class unit{
         this.battle.enemies=[]
         this.logs.main=[]
         this.order.defense=this.order.position.x==this.position.x&&this.order.position.y==this.position.y
+        if(this.contain.trigger){
+            this.contain.units.forEach(unit=>unit.battle.battalionVariance=(this.contain.units.length==1?1:random(2-constants.battalionVariance,constants.battalionVariance)))
+        }
     }
     endTick(){
         if(!this.battle.injure&&this.contain.trigger){
@@ -224,6 +230,9 @@ export class unit{
     getParentEffectiveness(){
         return this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
     }
+    getDesc(){
+        return `${this.contain.temp?``:`the `}${this.desc}`
+    }
     destroy(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
             this.parent.contain.units.splice(
@@ -233,6 +242,11 @@ export class unit{
         }
     }
     calculateElements(){
+        this.statistifyElements()
+        this.updateStrength()
+        this.order.artillery=this.contain.stats.artillery
+    }
+    statistifyElements(){
         let len=max(1,this.contain.units.length)
         this.contain.stats={
             damage:[
@@ -247,13 +261,22 @@ export class unit{
             speed:this.contain.units.reduce((acc,unit)=>min(acc,types.elementType[unit.elementType].speed),10),
             artillery:this.contain.units.some(unit=>types.elementType[unit.elementType].artillery),
         }
-        this.updateStrength()
-        this.order.artillery=this.contain.stats.artillery
+        this.strength.base.num=[
+            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num):0),0),
+            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num):0),0),
+            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num):0),0),
+        ]
+        if(this.order.artillery&&!this.contain.stats.artillery){
+            this.order.artillery=false
+        }
     }
     updateStrength(type=-1){
         let len=max(1,this.contain.units.length)
         if(this.contain.trigger){
-            this.contain.units=this.contain.units.filter(unit=>unit.strength.life>0)
+            if(this.contain.units.filter(unit=>unit.strength.life<=0).length>0){
+                this.contain.units=this.contain.units.filter(unit=>unit.strength.life>0)
+                this.statistifyElements()
+            }
             if(this.contain.units.length==0){
                 this.active=false
                 this.destroy()
@@ -367,6 +390,17 @@ export class unit{
                                 layer.line(-6.5,1,-5.25,1)
                                 layer.line(-6.5,1,-6.5,-1)
                             break
+                            case 8:
+                                layer.strokeWeight(37.5/this.size)
+                                layer.line(-5,-2,5,-2)
+                                layer.line(-5,-2,-5,2)
+                                layer.line(0,-2,0,2)
+                                layer.line(5,-2,5,2)
+                            break
+                            case 9:
+                                layer.line(-1,5,0,3)
+                                layer.line(1,5,0,3)
+                            break
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)
                                 layer.line(-6.5,0,-5.5,0)
@@ -414,7 +448,7 @@ export class unit{
     displayInfo(layer,scene){
         switch(scene){
             case `stat`:
-                if(this.fade.stat>0){
+                if(this.fade.stat>0&&this.contain.trigger){
                     layer.push()
                     layer.translate(this.position.x,this.position.y)
                     layer.noStroke()
@@ -596,13 +630,12 @@ export class unit{
                             }
                             this.operation.units.forEach(target=>{
                                 if(target.active&&distPos(target,this.order)<20+target.radius&&target.contain.trigger){
-                                    let damage=0.5*map(
+                                    let damage=map(
                                             target.contain.stats.armor,0,1,
                                             this.contain.stats.damage[2],this.contain.stats.damage[3]
                                         )
                                         /sqrt(target.contain.stats.health)
                                         *types.team[this.team].quality
-                                        /types.team[target.team].quality
                                         *this.strength.life/this.strength.base.life
                                         *(0.5+this.strength.morale/this.strength.base.morale)
                                         *(2-target.strength.morale/target.strength.base.morale)
@@ -612,10 +645,10 @@ export class unit{
                                         *this.getParentEffectiveness()
                                         *(target.order.defense?0.8:1)
                                     target.contain.units.forEach(unit=>{
-                                        unit.strength.life*=(1-damage/unit.strength.base.life)
+                                        unit.strength.life*=(1-damage*unit.battle.battalionVariance/unit.strength.base.life)
                                         unit.strength.morale=max(0,
                                             unit.strength.morale-
-                                            sqrt(damage)*2/target.contain.stats.morale
+                                            sqrt(damage*unit.battle.battalionVariance/types.team[unit.team].quality)*2/target.contain.stats.morale
                                         )
                                     })
                                     target.battle.injure=true
@@ -626,11 +659,25 @@ export class unit{
                                     if(target.strength.life<=0||target.strength.morale<=0||!target.active){
                                         target.active=false
                                         target.destroy()
-                                        if(!target.logs.main.includes(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)){
-                                            target.logs.main.push(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)
+                                        if(!target.logs.main.includes(`Destroyed by ${this.getDesc()}`)){
+                                            target.logs.main=target.logs.main.filter(log=>!log.includes(this.getDesc()))
+                                            target.logs.main.push(`Destroyed by ${this.getDesc()}`)
+                                            /*if(target.logs.main.includes(`Defeated by ${this.getDesc()}`)){
+                                                target.logs.main.splice(
+                                                    target.logs.main.indexOf(`Defeated by ${this.getDesc()}`),
+                                                    1
+                                                )
+                                            }*/
                                         }
-                                        if(!this.logs.main.includes(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)){
-                                            this.logs.main.push(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)
+                                        if(!this.logs.main.includes(`Destroyed ${target.getDesc()}`)){
+                                            this.logs.main=this.logs.main.filter(log=>!log.includes(target.getDesc()))
+                                            this.logs.main.push(`Destroyed ${target.getDesc()}`)
+                                            /*if(this.logs.main.includes(`Defeated ${target.getDesc()}`)){
+                                                this.logs.main.splice(
+                                                    this.logs.main.indexOf(`Defeated ${target.getDesc()}`),
+                                                    1
+                                                )
+                                            }*/
                                         }
                                     }
                                 }
@@ -667,11 +714,11 @@ export class unit{
                                     if(!target.contain.trigger&&this.contain.trigger){
                                         target.active=false
                                         target.destroy()
-                                        if(!target.logs.main.includes(`Captured by ${this.contain.temp?``:`the `}${this.desc}`)){
-                                            target.logs.main.push(`Captured by ${this.contain.temp?``:`the `}${this.desc}`)
+                                        if(!target.logs.main.includes(`Captured by ${this.getDesc()}`)){
+                                            target.logs.main.push(`Captured by ${this.getDesc()}`)
                                         }
-                                        if(!this.logs.main.includes(`Captured ${target.contain.temp?``:`the `}${target.desc} Headquarters`)){
-                                            this.logs.main.push(`Captured ${target.contain.temp?``:`the `}${target.desc} Headquarters`)
+                                        if(!this.logs.main.includes(`Captured ${target.getDesc()} Headquarters`)){
+                                            this.logs.main.push(`Captured ${target.getDesc()} Headquarters`)
                                         }
                                     }else if(this.contain.trigger){
                                         hit=true
@@ -709,7 +756,6 @@ export class unit{
                                             )
                                             /target.contain.stats.health
                                             *types.team[this.team].quality
-                                            /types.team[target.team].quality
                                             *this.strength.life/this.strength.base.life
                                             *(0.5+this.strength.morale/this.strength.base.morale)
                                             *(2-target.strength.morale/target.strength.base.morale)
@@ -724,7 +770,6 @@ export class unit{
                                             )
                                             /this.contain.stats.health
                                             *types.team[target.team].quality
-                                            /types.team[this.team].quality
                                             *target.strength.life/target.strength.base.life
                                             *(0.5+target.strength.morale/target.strength.base.morale)
                                             *(2-this.strength.morale/this.strength.base.morale)
@@ -737,29 +782,29 @@ export class unit{
                                         target.contain.units.forEach(unit=>{
                                             unit.strength.life=max(0,
                                                 unit.strength.life-
-                                                damage[0]*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
+                                                damage[0]*unit.battle.battalionVariance/types.team[unit.team].quality*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
                                             )
                                             unit.strength.morale=max(0,
                                                 unit.strength.morale-
-                                                sqrt(damage[0])*0.2/target.contain.stats.morale*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)*(unit.order.defense&&fort?0.8:1)
+                                                sqrt(damage[0]*unit.battle.battalionVariance/types.team[unit.team].quality)*0.2/target.contain.stats.morale*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)*(unit.order.defense&&fort?0.8:1)
                                             )
                                             unit.strength.supply=max(0,
                                                 unit.strength.supply-
-                                                30/constants.turnTime/(target.battle.enemies.indexOf(this)*2+1)
+                                                30*unit.battle.battalionVariance/constants.turnTime/(target.battle.enemies.indexOf(this)*2+1)
                                             )
                                         })
                                         this.contain.units.forEach(unit=>{
                                             unit.strength.life=max(0,
                                                 unit.strength.life-
-                                                damage[1]
+                                                damage[1]*unit.battle.battalionVariance/types.team[unit.team].quality
                                             )
                                             unit.strength.morale=max(0,
                                                 unit.strength.morale-
-                                                sqrt(damage[1])*0.2/this.contain.stats.morale
+                                                sqrt(damage[1]*unit.battle.battalionVariance/types.team[unit.team].quality)*0.2/this.contain.stats.morale
                                             )
                                             unit.strength.supply=max(0,
                                                 unit.strength.supply-
-                                                15/constants.turnTime/(this.battle.enemies.indexOf(target)*2+1)
+                                                15*unit.battle.battalionVariance/constants.turnTime/(this.battle.enemies.indexOf(target)*2+1)
                                             )
                                         })
                                         target.updateStrength()
@@ -771,20 +816,48 @@ export class unit{
                                         if(target.strength.life<=0||target.strength.morale<=0||!target.active){
                                             target.active=false
                                             target.destroy()
-                                            if(!target.logs.main.includes(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)){
-                                                target.logs.main.push(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)
+                                            if(!target.logs.main.includes(`Destroyed by ${this.getDesc()}`)){
+                                                target.logs.main=target.logs.main.filter(log=>!log.includes(this.getDesc()))
+                                                target.logs.main.push(`Destroyed by ${this.getDesc()}`)
+                                                /*if(target.logs.main.includes(`Defeated by ${this.getDesc()}`)){
+                                                    target.logs.main.splice(
+                                                        target.logs.main.indexOf(`Defeated by ${this.getDesc()}`),
+                                                        1
+                                                    )
+                                                }*/
                                             }
-                                            if(!this.logs.main.includes(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)){
-                                                this.logs.main.push(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)
+                                            if(!this.logs.main.includes(`Destroyed ${target.getDesc()}`)){
+                                                this.logs.main=this.logs.main.filter(log=>!log.includes(target.getDesc()))
+                                                this.logs.main.push(`Destroyed ${target.getDesc()}`)
+                                                /*if(this.logs.main.includes(`Defeated ${target.getDesc()}`)){
+                                                    this.logs.main.splice(
+                                                        this.logs.main.indexOf(`Defeated ${target.getDesc()}`),
+                                                        1
+                                                    )
+                                                }*/
                                             }
                                         }else if(this.strength.life<=0||this.strength.morale<=0||!this.active){
                                             this.active=false
                                             this.destroy()
-                                            if(!this.logs.main.includes(`Destroyed by ${target.contain.temp?``:`the `}${target.desc}`)){
-                                                this.logs.main.push(`Destroyed by ${target.contain.temp?``:`the `}${target.desc}`)
+                                            if(!target.logs.main.includes(`Destroyed ${this.getDesc()}`)){
+                                                target.logs.main=target.logs.main.filter(log=>!log.includes(this.getDesc()))
+                                                target.logs.main.push(`Destroyed ${this.getDesc()}`)
+                                                /*if(target.logs.main.includes(`Defeated ${this.getDesc()}`)){
+                                                    target.logs.main.splice(
+                                                        target.logs.main.indexOf(`Defeated ${this.getDesc()}`),
+                                                        1
+                                                    )
+                                                }*/
                                             }
-                                            if(!target.logs.main.includes(`Destroyed ${this.contain.temp?``:`the `}${this.desc}`)){
-                                                target.logs.main.push(`Destroyed ${this.contain.temp?``:`the `}${this.desc}`)
+                                            if(!this.logs.main.includes(`Destroyed by ${target.getDesc()}`)){
+                                                this.logs.main=this.logs.main.filter(log=>!log.includes(target.getDesc()))
+                                                this.logs.main.push(`Destroyed by ${target.getDesc()}`)
+                                                /*if(this.logs.main.includes(`Defeated by ${target.getDesc()}`)){
+                                                    this.logs.main.splice(
+                                                        this.logs.main.indexOf(`Defeated by ${target.getDesc()}`),
+                                                        1
+                                                    )
+                                                }*/
                                             }
                                         }else if(first){
                                             target.battle.damage+=damage[0]
@@ -817,29 +890,29 @@ export class unit{
                                                 switch(breaker){
                                                     case 0:
                                                         target.battle.broken=true
-                                                        if(!target.logs.main.includes(`Defeated by ${this.contain.temp?``:`the `}${this.desc}`)){
-                                                            target.logs.main.push(`Defeated by ${this.contain.temp?``:`the `}${this.desc}`)
+                                                        if(!target.logs.main.includes(`Defeated by ${this.getDesc()}`)){
+                                                            target.logs.main.push(`Defeated by ${this.getDesc()}`)
                                                         }
-                                                        if(!this.logs.main.includes(`Defeated ${target.contain.temp?``:`the `}${target.desc}`)){
-                                                            this.logs.main.push(`Defeated ${target.contain.temp?``:`the `}${target.desc}`)
+                                                        if(!this.logs.main.includes(`Defeated ${target.getDesc()}`)){
+                                                            this.logs.main.push(`Defeated ${target.getDesc()}`)
                                                         }
                                                     break
                                                     case 1:
                                                         this.battle.broken=true
-                                                        if(!this.logs.main.includes(`Defeated by ${target.contain.temp?``:`the `}${target.desc}`)){
-                                                            this.logs.main.push(`Defeated by ${target.contain.temp?``:`the `}${target.desc}`)
+                                                        if(!this.logs.main.includes(`Defeated by ${target.getDesc()}`)){
+                                                            this.logs.main.push(`Defeated by ${target.getDesc()}`)
                                                         }
-                                                        if(!target.logs.main.includes(`Defeated ${this.contain.temp?``:`the `}${this.desc}`)){
-                                                            target.logs.main.push(`Defeated ${this.contain.temp?``:`the `}${this.desc}`)
+                                                        if(!target.logs.main.includes(`Defeated ${this.getDesc()}`)){
+                                                            target.logs.main.push(`Defeated ${this.getDesc()}`)
                                                         }
                                                     break
                                                 }
                                             }else{
-                                                if(!this.logs.main.includes(`Battled ${target.contain.temp?``:`the `}${target.desc}`)){
-                                                    this.logs.main.push(`Battled ${target.contain.temp?``:`the `}${target.desc}`)
+                                                if(!this.logs.main.includes(`Battled ${target.getDesc()}`)){
+                                                    this.logs.main.push(`Battled ${target.getDesc()}`)
                                                 }
-                                                if(!target.logs.main.includes(`Battled ${this.contain.temp?``:`the `}${this.desc}`)){
-                                                    target.logs.main.push(`Battled ${this.contain.temp?``:`the `}${this.desc}`)
+                                                if(!target.logs.main.includes(`Battled ${this.getDesc()}`)){
+                                                    target.logs.main.push(`Battled ${this.getDesc()}`)
                                                 }
                                             }
                                         }
@@ -859,11 +932,25 @@ export class unit{
                                                 if(target.strength.life<=0||target.strength.morale<=0||!target.active){
                                                     target.active=false
                                                     target.destroy()
-                                                    if(!target.logs.main.includes(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)){
-                                                        target.logs.main.push(`Destroyed by ${this.contain.temp?``:`the `}${this.desc}`)
+                                                    if(!target.logs.main.includes(`Destroyed by ${this.getDesc()}`)){
+                                                        target.logs.main=target.logs.main.filter(log=>!log.includes(this.getDesc()))
+                                                        target.logs.main.push(`Destroyed by ${this.getDesc()}`)
+                                                        /*if(target.logs.main.includes(`Defeated by ${this.getDesc()}`)){
+                                                            target.logs.main.splice(
+                                                                target.logs.main.indexOf(`Defeated by ${this.getDesc()}`),
+                                                                1
+                                                            )
+                                                        }*/
                                                     }
-                                                    if(!this.logs.main.includes(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)){
-                                                        this.logs.main.push(`Destroyed ${target.contain.temp?``:`the `}${target.desc}`)
+                                                    if(!this.logs.main.includes(`Destroyed ${target.getDesc()}`)){
+                                                        this.logs.main=this.logs.main.filter(log=>!log.includes(target.getDesc()))
+                                                        this.logs.main.push(`Destroyed ${target.getDesc()}`)
+                                                        /*if(this.logs.main.includes(`Defeated ${target.getDesc()}`)){
+                                                            this.logs.main.splice(
+                                                                this.logs.main.indexOf(`Defeated ${target.getDesc()}`),
+                                                                1
+                                                            )
+                                                        }*/
                                                     }
                                                 }
                                             }else{
@@ -897,13 +984,17 @@ export class unit{
                                     this.position.y=moving.y
                                     this.strength.supply=max(0,
                                         this.strength.supply-
-                                        this.contain.stats.speed*5/constants.turnTime
+                                        this.contain.stats.speed*2.5/constants.turnTime
                                     )
                                     this.updateStrength(1)
                                 }
                             }
                         }
                     }
+                    this.strength.supply=max(0,
+                        this.strength.supply-
+                        2.5/constants.turnTime
+                    )
                 }
             break
         }

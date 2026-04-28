@@ -16,7 +16,8 @@ export var types={
         {name:`Motorcycle Bersaglieri`,unitType:['Infantry',`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:1000,speed:3,artillery:false},
         {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:800,speed:3,artillery:false},
         {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:50,morale:0.4,num:50,speed:2,artillery:false},
-        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:1,health:50,morale:0.5,num:50,speed:1.5,artillery:false},//10
+        {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:1,health:33,morale:0.5,num:33,speed:1.5,artillery:false},//10
+        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:1,health:50,morale:0.5,num:50,speed:1.5,artillery:false},
         {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.4,num:50,speed:3,artillery:false},
         {name:`Light Artillery`,unitType:[`Light`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:40,speed:0.6,artillery:true},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.6,artillery:true},
@@ -24,6 +25,7 @@ export var types={
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.8,artillery:true},
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:600,speed:0.8,artillery:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:600,speed:2,artillery:false},
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:900,speed:1.3,artillery:false},//0
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -33,6 +35,8 @@ export var types={
         {name:`Artillery`},
         {name:`Recon`},
         {name:`Light`},
+        {name:`Engineer`},
+        {name:`Mountain`},
     ],unitLevel:[
         {name:`Division`,symbol:`XX`,size:[60,60,60]},
         {name:`Brigade`,symbol:`X`,size:[45,52,45]},
@@ -187,8 +191,8 @@ export var types={
                                 {level:3,type:`Light Tank`,team:`British`,desc:`3rd Royal Tank Regiment`,name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
                                 {level:3,type:`Light Tank`,team:`British`,desc:`5th Royal Tank Regiment`,name:`5`,designation:`Royal Tank\nRegiment`,commander:`Carver`},
                                 {level:3,type:`Light Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
-                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:``},
-                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`2nd Regiment, Royal Horse Artillery`,name:`2`,designation:`Royal\nHorse`,commander:``},
+                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:`Mayfield`},
+                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`2nd Regiment, Royal Horse Artillery`,name:`2`,designation:`Royal\nHorse`,commander:`Aikenhead`},
                             ],
                         },{
                             level:1,type:[`Tank`],team:`British`,
@@ -206,7 +210,7 @@ export var types={
                             elements:[
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, The Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
-                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:``},
+                                {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
                                 {level:3,type:`Motorized Artillery`,team:`British`,desc:`60th (North Midland) Field Regiment, Royal Artillery`,name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
                             ],
                         },{
@@ -313,8 +317,8 @@ export var types={
                             pos:[965,250],
                             elements:[
                                 {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Befordshire and Hertfordshire Regiment`,name:`1`,designation:`Bedford &\nHertford`,commander:``},
-                                {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, Black Watch`,name:`2`,designation:`Black\nWatch`,commander:``},
-                                {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, York and Lancaster Regiment`,name:`2`,designation:`York &\nLancaster`,commander:``},
+                                {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, Black Watch`,name:`2`,designation:`Black\nWatch`,commander:`Rusk`},
+                                {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, York and Lancaster Regiment`,name:`2`,designation:`York &\nLancaster`,commander:`Gilroy`},
                             ],
                         },{
                             level:1,type:[`Infantry`],team:`British`,
@@ -419,8 +423,8 @@ export var types={
                             desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
                             pos:[1050,325],
                             elements:[
-                                {level:3,type:`Infantry`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`288`,designation:``,commander:`Daumiller`},
-                                {level:3,type:`Mixed Support`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`288`,designation:``,commander:`Borhardt`},
+                                {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
+                                {level:3,type:`Mixed Support`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`German`,
@@ -446,7 +450,7 @@ export var types={
                     desc:`Raggruppamento Esplorante del Corpo d'Armata di Manovra`,name:`RECAM`,designation:``,commander:`de Meo`,icon:``,
                     pos:[1386,1151],
                     elements:[
-                        {level:3,type:`Medium Tank`,team:`Italian`,desc:`52nd Medium Tank Battalion`,name:`52`,designation:``,commander:``},
+                        {level:3,type:`Security Tank`,team:`Italian`,desc:`52nd Security Tank Battalion`,name:`52`,designation:`Security`,commander:``},
                         {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
                         {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                         {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
@@ -519,7 +523,7 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                            desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`di Bardi`,icon:`savona`,
+                            desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:``,icon:`savona`,
                             pos:[2358,967],
                             elements:[
                                 {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:``},
@@ -577,5 +581,5 @@ export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},
 export var constants={
     trig:[[],[]],init:false,unitId:0,
     turnTime:150,artilleryRange:250,
-    battleVariance:1.5,breakVariance:2,breakMult:1.2,
+    battleVariance:1.5,breakVariance:2.5,breakMult:1.2,battalionVariance:1.2,
 }

@@ -78,6 +78,9 @@ export class operation{
         input.click()
         input.addEventListener('change',function(){this.operation.loadStp(this)},false)
     }
+    reform(){
+        return new operation()
+    }
     startTurn(){
         this.units.forEach(unit=>{
             unit.fade.trigger=false
@@ -134,8 +137,12 @@ export class operation{
         types.side=types.map[map].side
         types.unit=types.map[map].unit
 
-        graphics.load.water=Array.from(graphics.load.water.bytes).map(byte=>byte.toString(2).padStart(8,`0`))
-        graphics.load.fortifications=Array.from(graphics.load.fortifications.bytes).map(byte=>byte.toString(2).padStart(8,`0`))
+        if(graphics.load.water.hasOwnProperty(`bytes`)){
+            graphics.load.water=Array.from(graphics.load.water.bytes).map(byte=>byte.toString(2).padStart(8,`0`))
+        }
+        if(graphics.load.fortifications.hasOwnProperty(`bytes`)){
+            graphics.load.fortifications=Array.from(graphics.load.fortifications.bytes).map(byte=>byte.toString(2).padStart(8,`0`))
+        }
     }
     initial(){
         this.transitionManager=new transitionManager(this)

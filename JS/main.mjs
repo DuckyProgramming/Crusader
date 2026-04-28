@@ -1,5 +1,5 @@
 import {dev,graphics,constants,inputs,types} from './variables.mjs'
-import {see,battalions} from './functions.mjs'
+import {see,battalions,strength,normalize} from './functions.mjs'
 import {setupGraphics,displayMain} from './graphics.mjs'
 import {operation} from './operation.mjs'
 var current
@@ -46,3 +46,5 @@ window.inputs=inputs
 window.dev=dev
 window.see=see
 window.battalions=battalions
+window.strength=strength
+window.normalize=normalize
