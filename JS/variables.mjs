@@ -14,9 +14,10 @@ export var types={
         {name:`Motorized Heavy Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:125,morale:1,num:1000,speed:2.25,artillery:false,engineer:true},
         {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:2.25,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false},
+        {name:`Motorized Machine Gun Bersaglieri`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1.2,num:800,speed:2.25,artillery:false,engineer:false},
         {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false},
-        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false},
-        {name:`Motorcycle Bersaglieri`,unitType:['Infantry',`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false},//10
+        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false},//10
+        {name:`Motorcycle Bersaglieri`,unitType:['Infantry',`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false},
         {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:600,speed:3,artillery:false,engineer:false},
         {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:50,morale:0.4,num:50,speed:2,artillery:false,engineer:false},
         {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.5,num:33,speed:1.5,artillery:false,engineer:false},
@@ -25,11 +26,12 @@ export var types={
         {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.4,num:50,speed:3,artillery:false,engineer:false},
         {name:`Light Artillery`,unitType:[`Light`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.7,num:40,speed:0.6,artillery:true,engineer:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},
-        {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},
-        {name:`Motorized Light Artillery`,unitType:[`Light`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:40,speed:1.75,artillery:true,engineer:false},//20
+        {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},//20
+        {name:`Motorized Light Artillery`,unitType:[`Light`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
+        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
         {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:700,speed:1.15,artillery:false,engineer:true},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
     ],unitType:[
@@ -378,7 +380,7 @@ export var types={
                                     elements:[
                                         {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`8th Bersaglieri Battalion`,name:`8`,designation:`Bersaglieri`,commander:`Trillini`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`10th Bersaglieri Battalion`,name:`10`,designation:`Bersaglieri`,commander:`Adolfato`},
-                                        {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`11th Bersaglieri Battalion`,name:`11`,designation:`Bersaglieri`,commander:`Straziota`},
+                                        {level:3,type:`Motorized Machine Gun Bersaglieri`,team:`Italian`,desc:`11th Bersaglieri Battalion`,name:`11`,designation:`Bersaglieri`,commander:`Straziota`},
                                     ],
                                 },
                             ],
@@ -694,10 +696,10 @@ export var types={
                                     desc:`9th Bersaglieri Regiment`,name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
                                     pos:[993,728],
                                     elements:[
-                                        {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:`Togna`},
+                                        {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:`Blandi`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`30th Bersaglieri Battalion`,name:`30`,designation:`Bersaglieri`,commander:`Borghi`},
-                                        {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`40th Bersaglieri Battalion`,name:`40`,designation:`Bersaglieri`,commander:`Benedictis`},
-                                        {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`32nd Bersaglieri Battalion`,name:`32`,designation:`Bersaglieri`,commander:`Blandi`},
+                                        {level:3,type:`Motorized Machine Gun Bersaglieri`,team:`Italian`,desc:`32nd Bersaglieri Battalion`,name:`32`,designation:`Bersaglieri`,commander:`Benedictis`},
+                                        {level:3,type:`Motorized Bersaglieri Mixed Support`,team:`Italian`,desc:`40th Bersaglieri Mixed Support Battalion`,name:`40`,designation:`Bersaglieri`,commander:`Togna`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Machine Gun`,`Motorized`],team:`Italian`,

@@ -53,9 +53,9 @@ XX Mobile Corps (36 Battalions)
 RECAM (1 Security Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
 
 101st Motorized Division "Trieste" (11 Battalions)
-	65th Motorized Infantry Regiment (3 Battalions)
-	66th Motorized Infantry Regiment (3 Battalions)
-	9th Motorized Bersaglieri Regiment (3 Battalions, 1 Motorcycle Battalion)
+	65th Motorized Infantry Regiment (2 Mixed Infantry Battalions, 1 Mixed Support Battalion)
+	66th Motorized Infantry Regiment (2 Mixed Infantry Battalions, 1 Mixed Support Battalion)
+	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion, 1 Machine Gun Battalion, 1 Mixed Support Battalion)
 	508th Mixed Support Battalion
 
 55th Infantry Division "Savona" (8 Battalions)
@@ -65,6 +65,6 @@ RECAM (1 Security Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle P
 	155th Machine Gun Battalion
 
 102nd Infantry Division "Trento" (8 Battalions)
-	61st Infantry Regiment  (3 Battalions)
-	62nd Infantry Regiment (3 Battalions)
+	61st Infantry Regiment  (2 Infantry Battalions, 1 Mixed Support Battalion)
+	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	7th Motorized Bersaglieri Regiment (2 Battalions)
