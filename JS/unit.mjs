@@ -1,5 +1,5 @@
-import {types,graphics,constants,dev} from './variables.mjs'
-import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray} from './functions.mjs'
+import {types,graphics,constants,dev,options} from './variables.mjs'
+import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 export class unit{
     constructor(operation,data){
@@ -37,7 +37,7 @@ export class unit{
         this.strength={
             life:100,morale:100,supply:100,
             base:{life:100,morale:100,supply:100},
-            num:[0,0,0],
+            num:[0,0,0],transient:true,
         }
         this.order={
             position:{x:this.position.x,y:this.position.y},
@@ -45,11 +45,14 @@ export class unit{
             detach:0,absorb:0
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
-        this.contain={units:[],stats:{},trigger:true,temp:this.desc.includes(`Sonderverband`)}
-        this.logs={main:[],trigger:false}
+        this.contain={units:[],stats:{},trigger:true,middle:false,temp:this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)}
+        this.logs={main:[],trigger:false,width:0,height:0}
+        this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
         this.base={position:{x:this.position.x,y:this.position.y}}
-        this.hist=elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total+1)
-        last(this.hist).active=true
+        this.hist=[
+            ...elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total),
+            {active:true,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}}
+        ]
 
         this.initialGraphics()
         if(data.elements.length>0){
@@ -65,17 +68,14 @@ export class unit{
     initialElements(elements){
         for(let a=0,la=elements.length;a<la;a++){
             if(typeof elements[a].type==`string`){
-                this.contain.units.push(new unit(this.operation,{
-                    level:elements[a].level,type:types.elementType[findName(elements[a].type,types.elementType)].unitType,elementType:findName(elements[a].type,types.elementType),team:elements[a].team,
-                    desc:elements[a].desc,name:elements[a].name,designation:elements[a].designation,commander:elements[a].commander,icon:this.icon,
-                    pos:[0,0],
-                    elements:[],
-                }))
-                last(this.contain.units).parent=this
+                this.joinElement(elements[a])
             }else{
                 this.operation.units.push(new unit(this.operation,elements[a]))
                 this.contain.units.push(last(this.operation.units))
                 last(this.contain.units).parent=this
+                if(!last(this.contain.units).contain.trigger){
+                    last(this.contain.units).contain.middle=true
+                }
                 this.contain.trigger=false
             }
         }
@@ -84,20 +84,29 @@ export class unit{
         }else{
             this.contain.stats={
                 speed:this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0),
-                artillery:false,
+                artillery:false,engineer:false,
             }
             this.radius=45
             this.order.artillery=false
         }
+    }
+    joinElement(element){
+        this.contain.units.push(new unit(this.operation,{
+            level:element.level,type:types.elementType[findName(element.type,types.elementType)].unitType,elementType:findName(element.type,types.elementType),team:element.team,
+            desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,icon:this.icon,
+            pos:[0,0],
+            elements:[],
+        }))
+        last(this.contain.units).parent=this
     }
     save(){
         this.battle.enemies=[]
         let composite={
             position:this.position,
             level:this.level,
-            type:this.type,
-            elementType:this.elementType,
-            team:this.team,
+            type:this.type.map(type=>types.unitType[type].name),
+            elementType:this.elementType==-1?-1:types.elementType[this.elementType].name,
+            team:types.team[this.team].name,
             desc:this.desc,
             name:this.name,
             designation:this.designation,
@@ -116,7 +125,9 @@ export class unit{
             contain:{
                 units:this.contain.trigger?this.contain.units.map(unit=>unit.save()):this.contain.units.map(unit=>unit.id),
                 stats:this.contain.stats,
-                trigger:this.contain.trigger
+                trigger:this.contain.trigger,
+                middle:this.contain.middle,
+                temp:this.contain.temp,
             },
             logs:this.logs,
             base:this.base,
@@ -127,9 +138,9 @@ export class unit{
     load(composite){
         this.position=composite.position
         this.level=composite.level
-        this.type=composite.type
-        this.elementType=composite.elementType
-        this.team=composite.team
+        this.type=composite.type.map(type=>findName(type,types.unitType))
+        this.elementType=composite.elementType==-1?-1:findName(composite.elementType,types.elementType)
+        this.team=findName(composite.team,types.team)
         this.desc=composite.desc
         this.name=composite.name
         this.designation=composite.designation
@@ -182,6 +193,9 @@ export class unit{
         return result
     }
     startTick(){
+        if(!this.active){
+            this.strength.transient=false
+        }
         this.fade.trigger=dev.slow
         this.fade.statTrigger=dev.slow
         this.battle.damage=0
@@ -227,11 +241,20 @@ export class unit{
     near(dist,player){
         return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist)
     }
+    nearTransient(dist,player){
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist)
+    }
     getParentEffectiveness(){
         return this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
     }
     getDesc(){
         return `${this.contain.temp?``:`the `}${this.desc}`
+    }
+    getKills(variant){
+        return (this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0))*(options.obscureKills?this.stats.obscure:1)
+    }
+    getKillsClear(variant){
+        return this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0)
     }
     destroy(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
@@ -260,11 +283,12 @@ export class unit{
             morale:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].morale,0)/len,
             speed:this.contain.units.reduce((acc,unit)=>min(acc,types.elementType[unit.elementType].speed),10),
             artillery:this.contain.units.some(unit=>types.elementType[unit.elementType].artillery),
+            engineer:this.contain.units.some(unit=>types.elementType[unit.elementType].engineer),
         }
         this.strength.base.num=[
-            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num):0),0),
-            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num):0),0),
-            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num):0),0),
+            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?types.elementType[unit.elementType].num:0),0),
+            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?types.elementType[unit.elementType].num:0),0),
+            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?types.elementType[unit.elementType].num:0),0),
         ]
         if(this.order.artillery&&!this.contain.stats.artillery){
             this.order.artillery=false
@@ -274,6 +298,7 @@ export class unit{
         let len=max(1,this.contain.units.length)
         if(this.contain.trigger){
             if(this.contain.units.filter(unit=>unit.strength.life<=0).length>0){
+                this.contain.units.filter(unit=>unit.strength.life<=0).forEach(unit=>this.stats.kills.forEach((num,index,arr)=>arr[index]+=unit.stats.kills[index]))
                 this.contain.units=this.contain.units.filter(unit=>unit.strength.life>0)
                 this.statistifyElements()
             }
@@ -359,45 +384,60 @@ export class unit{
                         switch(this.type[a]){
                             case 0:
                                 layer.line(-8,-5,8,5)
-                                layer.line(-8,5,8,-5)
+                                if(this.type.includes(6)){
+                                    layer.line(-7,5,8,-4)
+                                    layer.line(-8,4,7,-5)
+                                }else{
+                                    layer.line(-8,5,8,-5)
+                                }
                             break
                             case 1:
                                 layer.line(-6,-5,-6,5)
                             break
                             case 2:
+                                layer.ellipse(0,4,1.5,1.5)
+                            break
+                            case 3:
                                 layer.ellipse(-3.5,4,1.5,1.5)
                                 layer.ellipse(3.5,4,1.5,1.5)
                             break
-                            case 3:
+                            case 4:
                                 layer.line(-8,5,8,-5)
                                 layer.ellipse(6,4,1.5,1.5)
                                 layer.ellipse(3,4,1.5,1.5)
                             break
-                            case 4:
+                            case 5:
                                 layer.arc(-2,0,4,4,90,270)
                                 layer.arc(2,0,4,4,-90,90)
                                 layer.line(-2,-2,2,-2)
                                 layer.line(-2,2,2,2)
                             break
-                            case 5:
-                                layer.strokeWeight(150/this.size)
+                            case 6:
+                                layer.strokeWeight(100/this.size)
                                 layer.point(0,0)
                             break
-                            case 6:
-                                layer.line(-8,5,8,-5)
-                            break
                             case 7:
+                                if(!this.type.includes(0)){
+                                    layer.line(-8,5,8,-5)
+                                }
+                            break
+                            case 8:
                                 layer.line(-6.5,1,-5.25,1)
                                 layer.line(-6.5,1,-6.5,-1)
                             break
-                            case 8:
+                            case 9:
+                                layer.line(-6.5,0,-5.25,0)
+                                layer.line(-6.5,1,-6.5,-1)
+                                layer.line(-5.25,1,-5.25,-1)
+                            break
+                            case 10:
                                 layer.strokeWeight(37.5/this.size)
                                 layer.line(-5,-2,5,-2)
                                 layer.line(-5,-2,-5,2)
                                 layer.line(0,-2,0,2)
                                 layer.line(5,-2,5,2)
                             break
-                            case 9:
+                            case 11:
                                 layer.line(-1,5,0,3)
                                 layer.line(1,5,0,3)
                             break
@@ -413,7 +453,7 @@ export class unit{
                             //coast
                         }
                     }
-                    if(this.img.length>1){
+                    if(this.img.length>1&&this.img[1]!=-1){
                         let width=this.img[1].width
                         let height=this.img[1].height
                         if(fade<1){
@@ -432,12 +472,12 @@ export class unit{
                     layer.text(this.symbol,0,-4)
                     layer.stroke(0,fade)
                     layer.fill(255,fade)
-                    layer.textSize(this.designation.length>=24?1.25:1.5)
+                    layer.textSize(this.designation.length>=24||this.type.includes(6)&&this.type.length<=2&&this.designation.length>=10?1.25:1.5)
                     layer.strokeWeight(0.15)
-                    layer.text(this.designation,this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?-3:-3.5)
-                    layer.textSize(this.name.length>=5?4:5)
+                    layer.text(this.designation,this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(this.type.includes(6)&&this.type.length<=2&&this.designation.length>=10?-3.375:-3):-3.5)
+                    layer.textSize(this.name.length>=(this.type.includes(6)&&this.type.length<=2?3:5)?4:5)
                     layer.strokeWeight(this.name.length>=5?0.4:0.5)
-                    layer.text(this.name,0,0.25)
+                    layer.text(this.name,this.type.includes(6)&&this.type.length<=2?-4.5:0,0.25)
                     layer.textSize(this.commander.length>=10?2:2.25)
                     layer.strokeWeight(this.commander.length>=10?0.4:0.45)
                     layer.text(this.commander,0,3.5)
@@ -471,19 +511,19 @@ export class unit{
             break
             case `logs`:
                 if(this.fade.logs>0&&this.logs.main.length>0){
-                    let totalWidth=this.logs.main.reduce((acc,log)=>max(acc,log.length),0)*9+20
-                    let totalHeight=this.logs.main.length*20+10
+                    this.logs.width=this.logs.main.reduce((acc,log)=>max(acc,log.length),0)*9+20
+                    this.logs.height=this.logs.main.length*20+10
                     let base={
-                        x:constrain(this.position.x,totalWidth/2+10,layer.width/this.operation.view.scale-totalWidth/2-10),
-                        y:constrain(this.position.y,totalHeight/2+10,layer.height/this.operation.view.scale-totalHeight/2-10)
+                        x:constrain(this.position.x,this.logs.width/2+10,layer.width/this.operation.view.scale-this.logs.width/2-10),
+                        y:constrain(this.position.y,this.logs.height/2+10,layer.height/this.operation.view.scale-this.logs.height/2-10)
                     }
                     layer.noStroke()
                     layer.fill(200,this.fade.logs)
-                    layer.rect(base.x,base.y,totalWidth,totalHeight,10)
+                    layer.rect(base.x,base.y,this.logs.width,this.logs.height,10)
                     layer.fill(0,this.fade.logs)
                     layer.textSize(20)
                     for(let a=0,la=this.logs.main.length;a<la;a++){
-                        layer.text(this.logs.main[a],base.x,base.y-totalHeight/2+15+a*20)
+                        layer.text(this.logs.main[a],base.x,base.y-this.logs.height/2+15+a*20)
                     }
                 }
             break
@@ -580,16 +620,16 @@ export class unit{
     update(layer,scene,mouse){
         switch(scene){
             case `main`:
-                let mouseIn=inPointBox(mouse,this)
-                this.fade.hoverTrigger=mouseIn&&this.fade.trigger&&!this.fade.hide&&this.active
-                if(mouseIn){
-                    this.logs.trigger=false
-                }
+                this.fade.hoverTrigger=inPointBox(mouse,this)&&this.fade.trigger&&!this.fade.hide&&this.active
+
                 this.fade.main=smoothAnim(this.fade.main,this.fade.trigger&&!this.fade.hide&&this.active,0,1,5)
                 this.fade.hover=smoothAnim(this.fade.hover,this.fade.hoverTrigger,0,1,5)
                 this.fade.stat=smoothAnim(this.fade.stat,this.fade.statTrigger,0,1,5)
                 this.fade.logs=smoothAnim(this.fade.logs,this.logs.trigger,0,1,5)
                 this.fade.order=smoothAnim(this.fade.order,this.order.trigger,0,1,5)
+                if(this.logs.trigger&&inPointBox(mouse,{position:this.position,width:this.logs.width,height:this.logs.height})){
+                    this.logs.trigger=false
+                }
             break
             case `mapAll`:
                 this.fade.main=1
@@ -622,7 +662,7 @@ export class unit{
                     if(this.order.artillery&&!this.order.defense){
                         if(
                             this.operation.turn.time%(constants.turnTime/5)==0&&
-                            !this.battle.active
+                            !this.battle.active&&this.strength.supply>0
                         ){
                             this.order.facing=atan2(this.order.position.x-this.position.x,this.order.position.y-this.position.y)
                             if(!this.logs.main.includes(`Fired artillery`)){
@@ -630,7 +670,7 @@ export class unit{
                             }
                             this.operation.units.forEach(target=>{
                                 if(target.active&&distPos(target,this.order)<20+target.radius&&target.contain.trigger){
-                                    let damage=map(
+                                    let damage=0.5*map(
                                             target.contain.stats.armor,0,1,
                                             this.contain.stats.damage[2],this.contain.stats.damage[3]
                                         )
@@ -644,13 +684,18 @@ export class unit{
                                         *random(1,constants.battleVariance)
                                         *this.getParentEffectiveness()
                                         *(target.order.defense?0.8:1)
+                                    let kills=[0,0,0]
                                     target.contain.units.forEach(unit=>{
-                                        unit.strength.life*=(1-damage*unit.battle.battalionVariance/unit.strength.base.life)
+                                        let fall=unit.strength.life*damage*unit.battle.battalionVariance/unit.strength.base.life
+                                        unit.strength.life-=fall
+                                        kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
                                         unit.strength.morale=max(0,
                                             unit.strength.morale-
-                                            sqrt(damage*unit.battle.battalionVariance/types.team[unit.team].quality)*2/target.contain.stats.morale
+                                            sqrt(damage*unit.battle.battalionVariance/types.team[unit.team].quality)*3/target.contain.stats.morale
                                         )
                                     })
+                                    let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                    this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
                                     target.battle.injure=true
                                     target.updateStrength()
                                     if(!target.logs.main.includes(`Hit by artillery`)){
@@ -714,11 +759,20 @@ export class unit{
                                     if(!target.contain.trigger&&this.contain.trigger){
                                         target.active=false
                                         target.destroy()
-                                        if(!target.logs.main.includes(`Captured by ${this.getDesc()}`)){
-                                            target.logs.main.push(`Captured by ${this.getDesc()}`)
+                                        if(!target.logs.main.includes(`Headquarters Captured by ${this.getDesc()}`)){
+                                            target.logs.main.push(`Headquarters Captured by ${this.getDesc()}`)
                                         }
                                         if(!this.logs.main.includes(`Captured ${target.getDesc()} Headquarters`)){
                                             this.logs.main.push(`Captured ${target.getDesc()} Headquarters`)
+                                        }
+                                    }else if(target.contain.trigger&&!this.contain.trigger){
+                                        this.active=false
+                                        this.destroy()
+                                        if(!target.logs.main.includes(`Captured ${this.getDesc()} Headquarters`)){
+                                            target.logs.main.push(`Captured ${this.getDesc()} Headquarters`)
+                                        }
+                                        if(!this.logs.main.includes(`Headquarters Captured by ${target.getDesc()}`)){
+                                            this.logs.main.push(`Headquarters Captured by ${target.getDesc()}`)
                                         }
                                     }else if(this.contain.trigger){
                                         hit=true
@@ -761,7 +815,7 @@ export class unit{
                                             *(2-target.strength.morale/target.strength.base.morale)
                                             *(0.5+this.strength.supply/this.strength.base.supply)
                                             *(2-target.strength.supply/target.strength.base.supply)
-                                            *(target.order.defense?(fort?0.4:target.battle.fortified?0.6:0.8):1)
+                                            *(target.order.defense?(fort&&!this.contain.stats.engineer?0.4:target.battle.fortified&&!this.contain.stats.engineer?0.6:0.8):1)
                                             *this.getParentEffectiveness()
                                             *random(1,constants.battleVariance),
                                             map(
@@ -779,34 +833,52 @@ export class unit{
                                             *target.getParentEffectiveness()
                                             *random(1,constants.battleVariance)
                                         ]
+                                        let kills=[0,0,0]
                                         target.contain.units.forEach(unit=>{
-                                            unit.strength.life=max(0,
-                                                unit.strength.life-
-                                                damage[0]*unit.battle.battalionVariance/types.team[unit.team].quality*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
+                                            let fall=min(
+                                                unit.strength.life,
+                                                damage[0]
+                                                *unit.battle.battalionVariance/types.team[unit.team].quality
+                                                *(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
                                             )
+                                            unit.strength.life-=fall
+                                            kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
                                             unit.strength.morale=max(0,
                                                 unit.strength.morale-
                                                 sqrt(damage[0]*unit.battle.battalionVariance/types.team[unit.team].quality)*0.2/target.contain.stats.morale*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)*(unit.order.defense&&fort?0.8:1)
                                             )
                                             unit.strength.supply=max(0,
                                                 unit.strength.supply-
-                                                30*unit.battle.battalionVariance/constants.turnTime/(target.battle.enemies.indexOf(this)*2+1)
+                                                15*unit.battle.battalionVariance/constants.turnTime/(target.battle.enemies.indexOf(this)*2+1)
                                             )
                                         })
+                                        let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                        this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
+                                        let deaths=[0,0,0]
                                         this.contain.units.forEach(unit=>{
-                                            unit.strength.life=max(0,
-                                                unit.strength.life-
-                                                damage[1]*unit.battle.battalionVariance/types.team[unit.team].quality
+                                            let fall=min(
+                                                unit.strength.life,
+                                                damage[1]
+                                                *unit.battle.battalionVariance/types.team[unit.team].quality
+                                                *(fort&&types.elementType[unit.elementType].class==1?2:1)
                                             )
+                                            unit.strength.life-=fall
+                                            deaths[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
                                             unit.strength.morale=max(0,
                                                 unit.strength.morale-
-                                                sqrt(damage[1]*unit.battle.battalionVariance/types.team[unit.team].quality)*0.2/this.contain.stats.morale
+                                                sqrt(damage[1]*unit.battle.battalionVariance/types.team[unit.team].quality)
+                                                *0.2
+                                                /this.contain.stats.morale
+                                                *(target.battle.broken?0.8:1)
                                             )
                                             unit.strength.supply=max(0,
                                                 unit.strength.supply-
                                                 15*unit.battle.battalionVariance/constants.turnTime/(this.battle.enemies.indexOf(target)*2+1)
                                             )
                                         })
+                                        mult=[evens(target.contain.units.length),evens(target.contain.units.length),evens(target.contain.units.length)]
+                                        target.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=deaths[index2]*mult[index2][index]))
+
                                         target.updateStrength()
                                         this.updateStrength()
                                         target.battle.injure=true
@@ -924,10 +996,19 @@ export class unit{
                                                 let friendly=types.player[target.player].side==types.player[other.player].side
                                                 return other.active&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
                                             })){
-                                                target.strength.life=max(0,
-                                                    target.strength.life-
-                                                    damage[0]*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.5:1)
-                                                )
+                                                
+                                                let kills=[0,0,0]
+                                                target.contain.units.forEach(unit=>{
+                                                    let fall=min(
+                                                        unit.strength.life,
+                                                        damage[0]*unit.battle.battalionVariance/types.team[unit.team].quality*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
+                                                    )
+                                                    unit.strength.life-=fall
+                                                    kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
+                                                })
+                                                let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                                this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
+
                                                 target.updateStrength(0)
                                                 if(target.strength.life<=0||target.strength.morale<=0||!target.active){
                                                     target.active=false
@@ -982,19 +1063,21 @@ export class unit{
                                 if(!hit){
                                     this.position.x=moving.x
                                     this.position.y=moving.y
-                                    this.strength.supply=max(0,
-                                        this.strength.supply-
-                                        this.contain.stats.speed*2.5/constants.turnTime
-                                    )
+                                    this.contain.units.forEach(unit=>{
+                                        unit.strength.supply=max(0,
+                                            unit.strength.supply-
+                                            this.contain.stats.speed*2.5/constants.turnTime
+                                        )
+                                    })
                                     this.updateStrength(1)
                                 }
                             }
                         }
                     }
-                    this.strength.supply=max(0,
+                    /*this.contain.units.forEach(unit=>unit.strength.supply=max(0,
                         this.strength.supply-
                         2.5/constants.turnTime
-                    )
+                    )*/
                 }
             break
         }

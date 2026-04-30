@@ -52,8 +52,14 @@ export class city{
     near(dist,player){
         return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist)
     }
+    nearTransient(dist,player){
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist)
+    }
     nearSide(dist,side){
         return this.operation.units.some(unit=>unit.active&&types.player[unit.player].side==side&&distPos(this,unit)<dist)
+    }
+    getNearSide(side){
+        return this.operation.units.reduce((acc,unit)=>unit.active&&types.player[unit.player].side==side?min(acc,distPos(this,unit)):acc,1000)
     }
     display(layer,scene){
         switch(scene){
@@ -118,17 +124,16 @@ export class city{
     operate(layer,scene,mouse){
         switch(scene){
             case `main`:
-                if(this.owner==-1||!this.nearSide(100,types.player[this.owner].side)){
-                    types.player.forEach((player,index)=>{
-                        if(this.near(60,index)){
-                            if(this.supply.connect[index]==1||this.type==1){
-                                this.owner=index
-                            }else{
-                                this.owner=-1
-                            }
+                let closest=this.owner==-1?100:min(100,this.getNearSide(types.player[this.owner].side))
+                types.player.forEach((player,index)=>{
+                    if(this.near(closest,index)){
+                        if(this.supply.connect.some((conn,index2)=>player.side==types.player[index2].side&&conn==1)||this.type==1){
+                            this.owner=index
+                        }else{
+                            this.owner=-1
                         }
-                    })
-                }
+                    }
+                })
             break
         }
     }

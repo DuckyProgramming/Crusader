@@ -41,21 +41,22 @@ Deutsches Afrika Korps (16 Battalions)
 	33rd Artillery Regiment (3 Battalions)
 
 90th Light Division (6 Battalions)
-	361st Infantry Regiment (2 Infantry Battalions, 1 Artillery Battalion)
+	361st Infantry Regiment (2 Semi-Motorized Infantry Battalions, 1 Semi-Motorized Artillery Battalion)
 	3rd Battalion, 255th Infantry Regiment
-	Sonderverband 288 (1 Infantry Battalion, 1 Mixed Support Battalion)
+	Sonderverband 288 (1 Mixed Infantry Battalion, 1 Mixed Combat Battalion)
 
 
 
 XX Mobile Corps (36 Battalions)
 
 8th Army Artillery Group (3 Battalions, 1 Light Battalion)
-RECAM (1 Medium Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
+RECAM (1 Security Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
 
 101st Motorized Division "Trieste" (11 Battalions)
 	65th Motorized Infantry Regiment (3 Battalions)
 	66th Motorized Infantry Regiment (3 Battalions)
-	9th Motorized Bersaglieri Regiment (3 Battalions, 1 Motorcycle Battalion, 1 Machine Gun Battalion)
+	9th Motorized Bersaglieri Regiment (3 Battalions, 1 Motorcycle Battalion)
+	508th Mixed Support Battalion
 
 55th Infantry Division "Savona" (8 Battalions)
 	15th Infantry Regiment (3 Battalions)

@@ -117,6 +117,15 @@ export function range(start,end){
 export function even(pos,total){
     return pos-total*0.5+0.5
 }
+export function evens(num){
+    let result=[]
+    let left=1
+    for(let a=0,la=num;a<la;a++){
+        result.push(left*(random(0,1)**(la-a-1)))
+        left-=last(result)
+    }
+    return result
+}
 export function formatTime(frames){
     return `${floor(frames/3600)%60}:${floor(frames/60)%60<10?`0`:``}${floor(frames/60)%60}`
 }
@@ -167,7 +176,7 @@ export function findName(name,list){
 			return a
 		}
 	}
-    throw new Error(`findName Fail: ${name}, ${list}`)
+    throw new Error(`findName Fail: ${name}, ${list.map(item=>item.name)}`)
 	return -1
 }
 export function findId(id,list){
@@ -397,8 +406,9 @@ export function mergeColor(color1,color2,value){
 export function see(){
     window.current.units.forEach(unit=>{
         unit.fade.trigger=true
-        unit.fade.statTrigger=unit.contain.trigger
+        unit.fade.statTrigger=true
     })
+    window.current.cities.forEach(city=>city.fade.revealTrigger=true)
 }
 export function battalions(){
     let totals=[0,0,0]
@@ -418,6 +428,8 @@ export function strength(){
         }
     })
     let temp=current.reform()
+    temp.initialUnits(current.set)
+    temp.spawnUnits()
     temp.units.forEach(unit=>{
         if(unit.contain.trigger&&unit.active){
             unit.calculateElements()
@@ -433,7 +445,6 @@ export function normalize(){
         (typeof tempUnits[0].elements[0].type==`string`?allUnits:tempUnits).push(...tempUnits[0].elements)
         tempUnits.splice(0,1)
     }
-    print(allUnits)
     window.current.units.forEach(unit=>{
         if(unit.contain.trigger){
             unit.contain.units.forEach((element,index,arr)=>{
@@ -442,19 +453,48 @@ export function normalize(){
                     morale:element.strength.morale,
                     supply:element.strength.supply,
                 }
-                let target=allUnits[findAbstract(`desc`,element.desc,allUnits)]
-                target.pos=[0,0]
-                target.elementType=findName(target.type,types.elementType)
-                target.type=types.elementType[findName(target.type,types.elementType)].unitType
-                target.icon=element.icon
-                target.elements=[]
-                arr[index]=element.reform(target)
-                arr[index].strength.life=strength.life
-                arr[index].strength.morale=strength.morale
-                arr[index].strength.supply=strength.supply
+                try{
+                    let target=allUnits[findAbstract(`desc`,element.desc,allUnits)]
+                    target.pos=[0,0]
+                    target.elementType=findName(target.type,types.elementType)
+                    target.type=types.elementType[findName(target.type,types.elementType)].unitType
+                    target.icon=element.icon
+                    target.elements=[]
+                    arr[index]=element.reform(target)
+                    arr[index].strength.life=strength.life
+                    arr[index].strength.morale=strength.morale
+                    arr[index].strength.supply=strength.supply
+                }catch(e){
+                    print(`Desc failure`)
+                }
             })
             unit.calculateElements()
         }
     })
 }
+export function summon(desc,parent){
+    let tempUnits=types.unit.slice()
+    let allUnits=[]
+    while(tempUnits.length>0){
+        //console.log(tempUnits[0].elements.map(element=>element.type).join(`,`))
+        (typeof tempUnits[0].elements[0].type==`string`?allUnits:tempUnits).push(...tempUnits[0].elements)
+        tempUnits.splice(0,1)
+    }
+    parent.joinElement(allUnits[findAbstract(`desc`,desc,allUnits)])
+}
 //tool
+/*testEvens=(num)=>{
+    let totals=[]
+    for(let a=0,la=num;a<la;a++){
+        totals.push(0)
+    }
+    for(let a=0,la=1000;a<la;a++){
+        let left=1
+        for(let b=0,lb=num;b<lb;b++){
+            move=left*(random(0,1)**(lb-b-1))
+            left-=move
+            totals[b]+=move
+        }
+    }
+    print(totals)
+}*/
