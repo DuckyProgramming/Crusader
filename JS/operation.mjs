@@ -13,18 +13,19 @@ export class operation{
         this.units=[]
         this.scene=`main`
         this.view={scale:1,hist:0}
-        this.turn={main:0,time:0,total:0,prep:false,start:true,bonus:false,loading:false,order:[]}
+        this.turn={main:0,time:0,total:0,prep:false,start:true,bonus:false,loading:false,partition:[],order:[]}
         this.anim={main:0,prep:0,start:0,select:0,selectTrigger:false}
         this.select={unit:0}
         this.initial()
         this.loadMap(this.map)
+        this.loadBack()
         this.initialComponents()
         constants.init=true
     }
     save(){
         let composite={
             map:types.map[this.map].term,
-            set:types.map[this.map].units[this.set].name,
+            set:types.map[this.map].unit[this.set].name,
             cities:this.cities.map(city=>city.save()),
             units:this.units.map(unit=>unit.save()),
             view:this.view,
@@ -36,6 +37,7 @@ export class operation{
                 start:this.turn.start,
                 bonus:this.turn.bonus,
                 loading:this.turn.loading,
+                partition:this.turn.partition,
             },
             anim:this.anim,
             transitionManager:this.transitionManager.save()
@@ -45,14 +47,15 @@ export class operation{
     saveCol(){
         saveStrings([JSON.stringify(this.save())],'crusaderSaveFile','json')
     }
-    load(result){
+    async load(result){
         let composite=JSON.parse(result)
 
         let map=findTerm0(composite.map,types.map)
-        //this.loadMap(map)
+        this.loadMap(map)
         this.map=map
         this.nextMap=map
-        this.set=findName(types.map[this.map].units,composite.set)
+        this.initialUnits(findName(composite.set,types.map[this.map].unit))
+        //this sets set so don't set sets
         this.view=composite.view
         this.turn.main=composite.turn.main
         this.turn.time=composite.turn.time
@@ -61,7 +64,22 @@ export class operation{
         this.turn.start=composite.turn.start
         this.turn.bonus=composite.turn.bonus
         this.turn.loading=composite.turn.loading
+        this.turn.partition=composite.turn.partition
         this.anim=composite.anim
+        let root=``
+        types.unit.forEach(unit=>{
+            if(unit.icon!=``&&!graphics.load.unit.some(load=>load.name==unit.icon)){
+                graphics.load.unit.push({name:unit.icon,img:-1})
+            }
+            unit.elements.forEach(element=>{
+                if(typeof element.type!=`string`&&element.icon!=``&&!graphics.load.unit.some(load=>load.name==element.icon)){
+                    graphics.load.unit.push({name:element.icon,img:-1})
+                }
+            })
+        })
+        for(const load of graphics.load.unit){
+            load.img=await new Promise((resolve,reject)=>{loadImage(`${root}Assets/unit/${load.name}.png`,(img)=>resolve(img),reject)})
+        }
         if(composite.cities!=undefined){
             composite.cities.forEach((cit,index)=>{this.cities[index].load(cit)})
         }
@@ -106,7 +124,7 @@ export class operation{
             unit.logs.trigger=false
         })
         this.cities.forEach(city=>city.fade.revealTrigger=false)
-        if(this.turn.main>=types.player.length||this.turn.bonus){
+        if(this.turn.main>=this.turn.partition.length||this.turn.bonus){
             if(this.turn.bonus){
                 this.turn.bonus=false
             }
@@ -116,6 +134,7 @@ export class operation{
         }
     }
     startTick(){
+        this.turn.main=-1
         this.turn.time=constants.turnTime
         this.units.forEach(unit=>unit.startTick())
         types.player.forEach((player,index)=>{
@@ -156,7 +175,8 @@ export class operation{
         types.team=types.map[map].team
         types.player=types.map[map].player
         types.side=types.map[map].side
-
+    }
+    loadBack(){
         if(graphics.load.water.hasOwnProperty(`bytes`)){
             graphics.load.water=Array.from(graphics.load.water.bytes).map(byte=>byte.toString(2).padStart(8,`0`))
         }
@@ -179,6 +199,7 @@ export class operation{
     initialUnits(set){
         this.set=set
         this.turn.bonus=types.map[this.map].unit[this.set].bonus
+        this.turn.partition=types.map[this.map].unit[this.set].partition
         types.unit=types.map[this.map].unit[this.set].unit
     }
     async loadUnits(){
@@ -225,9 +246,9 @@ export class operation{
                 
                 this.units.forEach(unit=>unit.display(layer,`underOrder`))
                 this.units.forEach(unit=>unit.display(layer,`under`))
-                this.units.filter(unit=>unit.player!=this.turn.main).forEach(unit=>unit.display(layer,this.scene))
+                this.units.filter(unit=>this.turn.main!=-1&&!this.turn.partition[this.turn.main].includes(unit.player)).forEach(unit=>unit.display(layer,this.scene))
                 this.units.forEach(unit=>unit.displayInfo(layer,`order`))
-                this.units.filter(unit=>unit.player==this.turn.main).forEach(unit=>unit.display(layer,this.scene))
+                this.units.filter(unit=>this.turn.main==-1||this.turn.partition[this.turn.main].includes(unit.player)).forEach(unit=>unit.display(layer,this.scene))
                 this.units.forEach(unit=>unit.displayInfo(layer,`stat`))
                 this.units.forEach(unit=>unit.displayInfo(layer,this.scene))
                 this.units.forEach(unit=>unit.displayInfo(layer,`logs`))
@@ -239,14 +260,14 @@ export class operation{
                     layer.rect(layer.width/2,layer.height/2,800,120,20)
                     layer.fill(0,this.anim.prep)
                     layer.textSize(80)
-                    layer.text(`${types.player[this.turn.main].name} Turn Begin`,layer.width/2,layer.height/2+4)
+                    layer.text(`${this.turn.main==1&&this.turn.partition.length==2?`Axis`:types.player[this.turn.main].name} Turn Begin`,layer.width/2,layer.height/2+4)
                 }
                 if(this.anim.start>0){
                     layer.fill(200,this.anim.start)
                     layer.rect(layer.width/2,layer.height/2,500,140+types.map[this.map].unit.length*100,30)
                     layer.fill(150,this.anim.start)
                     for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
-                        layer.rect(layer.width/2,layer.height/2+60+even(a,la)*100,300,80,20)
+                        layer.rect(layer.width/2,layer.height/2+60+even(a,la)*100,360,80,20)
                     }
                     layer.fill(0,this.anim.start)
                     layer.textSize(80)
@@ -254,7 +275,7 @@ export class operation{
                     layer.textSize(40)
                     layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-types.map[this.map].unit.length*50)
                     for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
-                        layer.textSize(30)
+                        layer.textSize(25)
                         layer.text(types.map[this.map].unit[a].name,layer.width/2,layer.height/2+50+even(a,la)*100)
                         layer.textSize(20)
                         layer.text(types.map[this.map].unit[a].battalions.map(set=>set.join(` + `)).join(` vs `),layer.width/2,layer.height/2+80+even(a,la)*100)
@@ -390,9 +411,9 @@ export class operation{
                 this.units.forEach(unit=>unit.update(layer,this.scene,rel))
                 if(this.turn.loading&&this.units.length>0){
                     this.units.forEach(unit=>{
-                        unit.fade.trigger=(unit.player==this.turn.main||unit.nearTransient(160,this.turn.main))&&unit.active
+                        unit.fade.trigger=(this.turn.partition[this.turn.main].includes(unit.player)||unit.nearTransientSet(160,this.turn.partition[this.turn.main]))&&unit.active
                         unit.order.trigger=false
-                        if(unit.player==this.turn.main){
+                        if(this.turn.partition[this.turn.main].includes(unit.player)){
                             unit.fade.statTrigger=true
                             if(unit.logs.main.length>0){
                                 unit.logs.trigger=true
@@ -439,7 +460,7 @@ export class operation{
                     }else if(this.turn.prep){
                         this.turn.prep=false
                         this.turn.loading=true
-                        this.cities.forEach(city=>city.fade.revealTrigger=city.owner==this.turn.main||city.nearTransient(160,this.turn.main))
+                        this.cities.forEach(city=>city.fade.revealTrigger=this.turn.partition[this.turn.main].includes(city.owner)||city.nearTransientSet(160,this.turn.partition[this.turn.main]))
                     }else{
                         if(inPointBox(mouse,boxify(layer.width-230,90,460,180))){
                             if(this.anim.selectTrigger){
@@ -472,7 +493,7 @@ export class operation{
                                                 this.select.unit.contain.units=[]
                                                 this.select.unit.order.trigger=false
                                                 this.select.unit=result
-                                                if(this.select.unit.player==this.turn.main){
+                                                if(this.turn.partition[this.turn.main].includes(this.select.unit.unit.player)){
                                                     this.select.unit.order.trigger=true
                                                 }
                                             }else{
@@ -546,7 +567,7 @@ export class operation{
                                                 this.select.unit.contain.units=[]
                                                 this.select.unit.order.trigger=false
                                                 this.select.unit=result
-                                                if(this.select.unit.player==this.turn.main){
+                                                if(this.turn.partition[this.turn.main].includes(this.select.unit.unit.player)){
                                                     this.select.unit.order.trigger=true
                                                 }
                                                 if(target.parent!=-1){
@@ -644,7 +665,7 @@ export class operation{
                         if(key==`Enter`||int(key)>=1&&int(key)<=types.map[this.map].unit.length){
                             this.turn.prep=false
                             this.turn.loading=true
-                            this.cities.forEach(city=>city.fade.revealTrigger=city.owner==this.turn.main||city.nearTransient(160,this.turn.main))
+                            this.cities.forEach(city=>city.fade.revealTrigger=this.turn.partition[this.turn.main].includes(city.owner)||city.nearTransientSet(160,this.turn.partition[this.turn.main]))
                         }
                     }else{
                         if(this.anim.selectTrigger){
@@ -677,7 +698,7 @@ export class operation{
                                             this.select.unit.contain.units=[]
                                             this.select.unit.order.trigger=false
                                             this.select.unit=result
-                                            if(this.select.unit.player==this.turn.main){
+                                            if(this.turn.partition[this.turn.main].includes(this.select.unit.unit.player)){
                                                 this.select.unit.order.trigger=true
                                             }
                                         }else{
@@ -751,7 +772,7 @@ export class operation{
                                             this.select.unit.contain.units=[]
                                             this.select.unit.order.trigger=false
                                             this.select.unit=result
-                                            if(this.select.unit.player==this.turn.main){
+                                            if(this.turn.partition[this.turn.main].includes(this.select.unit.unit.player)){
                                                 this.select.unit.order.trigger=true
                                             }
                                             if(target.parent!=-1){

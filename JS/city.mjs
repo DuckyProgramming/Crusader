@@ -55,6 +55,12 @@ export class city{
     nearTransient(dist,player){
         return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist)
     }
+    nearSet(dist,player){
+        return this.operation.units.some(unit=>unit.active&&player.includes(unit.player)&&distPos(this,unit)<dist)
+    }
+    nearTransientSet(dist,player){
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist)
+    }
     nearSide(dist,side){
         return this.operation.units.some(unit=>unit.active&&types.player[unit.player].side==side&&distPos(this,unit)<dist)
     }

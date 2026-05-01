@@ -244,6 +244,12 @@ export class unit{
     nearTransient(dist,player){
         return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist)
     }
+    nearSet(dist,player){
+        return this.operation.units.some(unit=>unit.active&&player.includes(unit.player)&&distPos(this,unit)<dist)
+    }
+    nearTransientSet(dist,player){
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist)
+    }
     getParentEffectiveness(){
         return this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
     }
@@ -1085,7 +1091,7 @@ export class unit{
     onClick(layer,scene,mouse){
         switch(scene){
             case `main`:
-                if(this.active&&this.player==this.operation.turn.main&&!this.fade.hide){
+                if(this.active&&this.operation.turn.partition[this.operation.turn.main].includes(this.player)&&!this.fade.hide){
                     if(this.order.trigger){
                         if(this.contain.stats.artillery){
                             this.order.artillery=!this.order.artillery
