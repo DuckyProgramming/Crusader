@@ -35,15 +35,16 @@ Deutsches Afrika Korps (16 Battalions)
 
 15th Panzer Division (9 Battalions)
 	8th Panzer Regiment (2 Battalions)
-	115th Motorized Infantry Regiment (1 Battalion, 1 Machine Gun Battalion)
-	15th Motorcycle Battalion
+	115th Motorized Infantry Regiment (1 Battalion)
+	200th Regimental Staff z.b.V. (1 Machine Gun Battalion, 1 Motorcycle Battalion)
 	33rd Armoured Car Battalion
 	33rd Artillery Regiment (3 Battalions)
 
 90th Light Division (6 Battalions)
+	2nd Battalion, 115th Motorized Infantry Regiment (Detached From 15th Panzer)
 	361st Infantry Regiment (2 Semi-Motorized Infantry Battalions, 1 Semi-Motorized Artillery Battalion)
 	3rd Battalion, 255th Infantry Regiment
-	Sonderverband 288 (1 Mixed Infantry Battalion, 1 Mixed Combat Battalion)
+	Blocking Detachment, Sonderverband 288
 
 
 

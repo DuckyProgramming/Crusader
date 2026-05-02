@@ -31,5 +31,30 @@ reserves=[
                 ],
             },
         ],
+    },{
+        level:1,type:[`Tank`,`Heavy`],team:`British`,
+        desc:`32nd Army Tank Brigade`,name:`4`,designation:``,commander:`Willison`,icon:`70`,
+        pos:[2380,1420],
+        elements:[
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`Foote`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`7th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
+        ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+        desc:`11th Indian Infantry Brigade`,name:`11`,designation:``,commander:`Anderson`,icon:`4id`,
+        pos:[2510,1105],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Queen's Own Cameron Highlanders`,name:`2`,designation:`Cameron\nHighlanders`,commander:`Duncan`},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`1st Battalion, 6th Rajputana Rifles`,name:`1/6`,designation:`Rajputana`,commander:`Quayle`},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 5th Mahratta Light Infantry`,name:`2/5`,designation:`Mahratta`,commander:`Doyle`},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Artillery`,`Machine Gun`],team:`German`,
+        desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+        pos:[1050,325],
+        elements:[
+            {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
+            {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+        ],
     },
 ]

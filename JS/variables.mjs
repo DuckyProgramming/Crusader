@@ -32,7 +32,7 @@ export var types={
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:700,speed:1.15,artillery:false,engineer:true},
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:400,speed:1.15,artillery:false,engineer:true},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
     ],unitType:[
         {name:`Infantry`},
@@ -299,8 +299,8 @@ export var types={
                                     desc:`8th Panzer Regiment`,name:`8`,designation:``,commander:`Cramer`,icon:`15pz`,
                                     pos:[1432,570],
                                     elements:[
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:``,commander:`Fenski`},
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:``,commander:`Wahl`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:`8`,commander:`Fenski`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:`8`,commander:`Wahl`},
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`German`,
@@ -312,7 +312,7 @@ export var types={
                                             desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
                                             pos:[972,381],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:``,commander:`von Grolman`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolman`},
                                                 {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
                                             ],
                                         },{
@@ -329,7 +329,7 @@ export var types={
                                     desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`,icon:`15pz`,
                                     pos:[1393,382],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:`33`,commander:`Mayer`},
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
@@ -494,8 +494,8 @@ export var types={
                                     desc:`8th Panzer Regiment`,name:`8`,designation:``,commander:`Cramer`,icon:`15pz`,
                                     pos:[1432,570],
                                     elements:[
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:``,commander:`Fenski`},
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:``,commander:`Wahl`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:`8`,commander:`Fenski`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:`8`,commander:`Wahl`},
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`German`,
@@ -507,7 +507,7 @@ export var types={
                                             desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
                                             pos:[972,381],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:``,commander:`von Grolman`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolman`},
                                                 {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
                                             ],
                                         },{
@@ -524,7 +524,7 @@ export var types={
                                     desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`,icon:`15pz`,
                                     pos:[1393,382],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:`33`,commander:`Mayer`},
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
@@ -776,8 +776,8 @@ export var types={
                                     desc:`8th Panzer Regiment`,name:`8`,designation:``,commander:`Cramer`,icon:`15pz`,
                                     pos:[1432,570],
                                     elements:[
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:``,commander:`Fenski`},
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:``,commander:`Wahl`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:`8`,commander:`Fenski`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:`8`,commander:`Wahl`},
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`German`,
@@ -789,14 +789,15 @@ export var types={
                                             desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
                                             pos:[1634,628],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:``,commander:`von Grolman`},
-                                                {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolman`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Finke`},
                                             ],
                                         },{
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
                                             desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
                                             pos:[1533,599],
                                             elements:[
+                                                {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
                                                 {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Ehle`}, 
                                             ],
                                         },
@@ -806,9 +807,9 @@ export var types={
                                     desc:`33rd Artillery Regiment`,name:`33`,designation:``,commander:`Crasemann`,icon:`15pz`,
                                     pos:[1393,382],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`},
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`2nd Battalion, 33rd Artillery Regiment`,name:`2`,designation:``,commander:`Mesmer`},
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`3rd Battalion, 33rd Artillery Regiment`,name:`3`,designation:``,commander:`Bickel`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:`33`,commander:`Mayer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`2nd Battalion, 33rd Artillery Regiment`,name:`2`,designation:`33`,commander:`Mesmer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`3rd Battalion, 33rd Artillery Regiment`,name:`3`,designation:`33`,commander:`Bickel`},
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
@@ -829,17 +830,16 @@ export var types={
                                     desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
                                     pos:[1141,566],
                                     elements:[
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:``,commander:`Harder`},
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:``,commander:`Ryll`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:2,type:[`Infantry`,`Artillery`,`Machine Gun`],team:`German`,
-                                    desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
-                                    pos:[1050,325],
+                                    level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
+                                    desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:``,commander:`Daumiller`,icon:`90l`,
+                                    pos:[1035,320],
                                     elements:[
-                                        {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
-                                        {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+                                        {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:``,commander:`Daumiller`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
@@ -1166,8 +1166,8 @@ export var types={
                                     desc:`8th Panzer Regiment`,name:`8`,designation:``,commander:`Cramer`,icon:`15pz`,
                                     pos:[1432,570],
                                     elements:[
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:``,commander:`Fenski`},
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:``,commander:`Wahl`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 8th Panzer Regiment`,name:`1`,designation:`8`,commander:`Fenski`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 8th Panzer Regiment`,name:`2`,designation:`8`,commander:`Wahl`},
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`German`,
@@ -1179,14 +1179,15 @@ export var types={
                                             desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
                                             pos:[1634,628],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:``,commander:`von Grolman`},
-                                                {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolman`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
                                             ],
                                         },{
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
                                             desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
                                             pos:[1533,599],
                                             elements:[
+                                                {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
                                                 {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Ehle`}, 
                                             ],
                                         },
@@ -1196,9 +1197,9 @@ export var types={
                                     desc:`33rd Artillery Regiment`,name:`33`,designation:``,commander:`Crasemann`,icon:`15pz`,
                                     pos:[1393,382],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:``,commander:`Mayer`},
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`2nd Battalion, 33rd Artillery Regiment`,name:`2`,designation:``,commander:`Mesmer`},
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`3rd Battalion, 33rd Artillery Regiment`,name:`3`,designation:``,commander:`Bickel`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`1st Battalion, 33rd Artillery Regiment`,name:`1`,designation:`33`,commander:`Mayer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`2nd Battalion, 33rd Artillery Regiment`,name:`2`,designation:`33`,commander:`Mesmer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:`3rd Battalion, 33rd Artillery Regiment`,name:`3`,designation:`33`,commander:`Bickel`},
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
@@ -1219,17 +1220,16 @@ export var types={
                                     desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
                                     pos:[1141,566],
                                     elements:[
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:``,commander:`Harder`},
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:``,commander:`Ryll`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:2,type:[`Infantry`,`Artillery`,`Machine Gun`],team:`German`,
-                                    desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
-                                    pos:[1050,325],
+                                    level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
+                                    desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:``,commander:`Daumiller`,icon:`90l`,
+                                    pos:[1035,320],
                                     elements:[
-                                        {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
-                                        {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+                                        {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:``,commander:`Daumiller`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
