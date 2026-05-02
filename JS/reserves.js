@@ -32,12 +32,20 @@ reserves=[
             },
         ],
     },{
-        level:1,type:[`Tank`,`Heavy`],team:`British`,
+        level:1,type:[`Tank`,`Heavy`],team:`British`,//crusader 1941
+        desc:`32nd Army Tank Brigade`,name:`4`,designation:``,commander:`Willison`,icon:`70`,
+        pos:[2380,1420],
+        elements:[
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`1st Royal Tank Regiment`,name:`1`,designation:`Royal Tank\nRegiment`,commander:`Brown`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`O'Carroll`},
+        ],
+    },{
+        level:1,type:[`Tank`,`Heavy`],team:`British`,//gazala/tobruk 1942
         desc:`32nd Army Tank Brigade`,name:`4`,designation:``,commander:`Willison`,icon:`70`,
         pos:[2380,1420],
         elements:[
             {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`Foote`},
-            {level:3,type:`Heavy Tank`,team:`British`,desc:`7th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
         ],
     },{
         level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
@@ -53,8 +61,23 @@ reserves=[
         desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
         pos:[1050,325],
         elements:[
-            {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Grouping, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
-            {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Grouping, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+            {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Sperrverband, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
+            {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Sperrverband, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
+        pos:[1634,628],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+            {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Finke`},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+        desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:`90l`,
+        pos:[1554,434],
+        elements:[
+            {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
         ],
     },
 ]

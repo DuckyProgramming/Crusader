@@ -447,6 +447,10 @@ export class unit{
                                 layer.line(-1,5,0,3)
                                 layer.line(1,5,0,3)
                             break
+                            case 12:
+                                layer.line(6.5,1,5.25,1)
+                                layer.line(5.25,1,5.25,-1)
+                            break
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)
                                 layer.line(-6.5,0,-5.5,0)
@@ -478,14 +482,14 @@ export class unit{
                     layer.text(this.symbol,0,-4)
                     layer.stroke(0,fade)
                     layer.fill(255,fade)
-                    layer.textSize(this.designation.length>=24||this.type.includes(6)&&this.type.length<=2&&this.designation.length>=10?1.25:1.5)
+                    layer.textSize(this.designation.length>=24||this.type.includes(6)&&this.type.length<=3&&this.designation.length>=10?1.25:1.5)
                     layer.strokeWeight(0.15)
-                    layer.text(this.designation,this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(this.type.includes(6)&&this.type.length<=2&&this.designation.length>=10?-3.375:-3):-3.5)
-                    layer.textSize(this.name.length>=(this.type.includes(6)&&this.type.length<=2?3:5)?4:5)
+                    layer.text(this.designation,this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(this.type.includes(6)&&this.type.length<=3    &&this.designation.length>=10?-3.375:-3):-3.5)
+                    layer.textSize(this.name.length>=(this.type.includes(6)&&this.type.length<=3?2:5)?4:5)
                     layer.strokeWeight(this.name.length>=5?0.4:0.5)
-                    layer.text(this.name,this.type.includes(6)&&this.type.length<=2?-4.5:0,0.25)
-                    layer.textSize(this.commander.length>=10?2:2.25)
-                    layer.strokeWeight(this.commander.length>=10?0.4:0.45)
+                    layer.text(this.name,this.type.includes(6)&&this.type.length<=3 ?-4.5:0,0.25)
+                    layer.textSize(this.commander.length>=12?2:2.25)
+                    layer.strokeWeight(this.commander.length>=12?0.4:0.45)
                     layer.text(this.commander,0,3.5)
                 }
             break
