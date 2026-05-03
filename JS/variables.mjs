@@ -7,6 +7,7 @@ export var types={
     unit:[],
     elementType:[
         {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1,artillery:false,engineer:false},//0
+        {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:720,speed:1,artillery:false,engineer:false},
         {name:`Oasis Infantry`,unitType:[`Infantry`],class:0,damage:[10,1],armor:0,health:125,morale:1.1,num:1000,speed:1,artillery:false,engineer:false},
         {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false},
         {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false},
@@ -15,9 +16,9 @@ export var types={
         {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:2.25,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false},
         {name:`Motorized Machine Gun Bersaglieri`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1.2,num:800,speed:2.25,artillery:false,engineer:false},
-        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false},
-        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false},//10
-        {name:`Motorcycle Bersaglieri`,unitType:['Infantry',`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false},
+        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false},//10
+        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false},
+        {name:`Motorcycle Bersaglieri`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false},
         {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:600,speed:3,artillery:false,engineer:false},
         {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:50,morale:0.4,num:50,speed:2,artillery:false,engineer:false},
         {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.5,num:33,speed:1.5,artillery:false,engineer:false},
@@ -25,14 +26,14 @@ export var types={
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.5,num:50,speed:1.125,artillery:false,engineer:false},
         {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.4,num:50,speed:3,artillery:false,engineer:false},
         {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.7,num:40,speed:0.6,artillery:true,engineer:false},
-        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},
-        {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},//20
+        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},//20
+        {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:400,speed:1.15,artillery:false,engineer:true},
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
     ],unitType:[
         {name:`Infantry`},
@@ -48,6 +49,7 @@ export var types={
         {name:`Engineer`},
         {name:`Mountain`},
         {name:`Light Artillery`},
+        {name:`Mixed`},
     ],unitLevel:[
         {name:`Division`,symbol:`XX`,size:[60,60,60]},
         {name:`Brigade`,symbol:`X`,size:[45,52,45]},
@@ -192,7 +194,7 @@ export var types={
             ],unit:[
                 {
                     name:`Operation Battleaxe - 2 Player`,
-                    battalions:[[20],[20]],bonus:false,partition:[[0],[1,2]],
+                    battalions:[[20],[20]],bonus:false,partition:[[0],[1,2]],pick:false,
                     unit:[
                         {
                             level:0,type:[`Tank`],team:`British`,
@@ -209,7 +211,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Tank`],team:`British`,
-                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
+                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Russell`,icon:`7a`,
                                     pos:[2485,1420],
                                     elements:[
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
@@ -388,7 +390,7 @@ export var types={
                     ],
                 },{
                     name:`Operation Battleaxe - 3 Player`,
-                    battalions:[[19],[8,13]],bonus:false,partition:[[0],[1],[2]],
+                    battalions:[[19],[8,13]],bonus:false,partition:[[0],[1],[2]],pick:false,
                     unit:[
                         {
                             level:0,type:[`Tank`],team:`British`,
@@ -405,7 +407,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Tank`],team:`British`,
-                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
+                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Russell`,icon:`7a`,
                                     pos:[2485,1420],
                                     elements:[
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
@@ -584,7 +586,7 @@ export var types={
                     ],
                 },{
                     name:`Operation Crusader - 2 Player`,
-                    battalions:[[50],[50]],bonus:true,partition:[[0],[1,2]],
+                    battalions:[[50],[50]],bonus:true,partition:[[0],[1,2]],pick:true,
                     unit:[
                         {
                             level:0,type:[`Tank`],team:`British`,
@@ -604,7 +606,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Tank`],team:`British`,
-                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Russell  `,icon:`7a`,
+                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
                                     pos:[2485,1420],
                                     elements:[
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
@@ -835,11 +837,11 @@ export var types={
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
-                                    desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`,icon:`90l`,
+                                    level:3,type:[`Infantry`,`Motorized`],team:`German`,
+                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`,icon:`15pz`,
                                     pos:[1035,320],
                                     elements:[
-                                        {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`},
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
@@ -904,7 +906,7 @@ export var types={
                                 },{
                                     level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                                     desc:`9th Bersaglieri Regiment`,name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
-                                    pos:[993,728],
+                                    pos:[86,464],
                                     elements:[
                                         {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:`Blandi`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`30th Bersaglieri Battalion`,name:`30`,designation:`Bersaglieri`,commander:`Borghi`},
@@ -943,10 +945,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`di Bardi`,icon:`savona`,
+                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`,icon:`savona`,
                                     pos:[2358,967],
                                     elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`di Bardi`},
+                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -994,7 +996,7 @@ export var types={
                     ],
                 },{
                     name:`Operation Crusader - 3 Player`,
-                    battalions:[[48],[16,36]],bonus:true,partition:[[0],[1],[2]],
+                    battalions:[[48],[16,36]],bonus:true,partition:[[0],[1],[2]],pick:true,
                     unit:[
                         {
                             level:0,type:[`Tank`],team:`British`,
@@ -1014,7 +1016,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Tank`],team:`British`,
-                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Russell  `,icon:`7a`,
+                                    desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
                                     pos:[2485,1420],
                                     elements:[
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
@@ -1237,11 +1239,11 @@ export var types={
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
-                                    desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`,icon:`90l`,
+                                    level:3,type:[`Infantry`,`Motorized`],team:`German`,
+                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`,icon:`15pz`,
                                     pos:[1035,320],
                                     elements:[
-                                        {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`},
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
@@ -1306,7 +1308,7 @@ export var types={
                                 },{
                                     level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                                     desc:`9th Bersaglieri Regiment`,name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
-                                    pos:[993,728],
+                                    pos:[86,464],
                                     elements:[
                                         {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:`Blandi`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`30th Bersaglieri Battalion`,name:`30`,designation:`Bersaglieri`,commander:`Borghi`},
@@ -1353,10 +1355,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`di Bardi`,icon:`savona`,
+                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`,icon:`savona`,
                                     pos:[2358,967],
                                     elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`di Bardi`},
+                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -1403,7 +1405,49 @@ export var types={
                         },
                     ],
                 },
-            ],
+            ],reserve:[
+                {
+                    level:1,type:[`Tank`,`Heavy`],team:`British`,
+                    desc:`32nd Army Tank Brigade`,name:`32`,designation:``,commander:`Willison`,icon:`32a`,
+                    pos:[965,250],
+                    elements:[
+                        {level:3,type:`Heavy Tank`,team:`British`,desc:`1st Royal Tank Regiment`,name:`1`,designation:`Royal Tank\nRegiment`,commander:`Brown`},
+                        {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`O'Carroll`},
+                        {level:3,type:`Artillery`,team:`British`,desc:`104th Regiment, Royal Horse Artillery`,name:`104`,designation:`Royal\nHorse`,commander:`Matthew`},
+                    ],
+                },{
+                    level:2,type:[`Infantry`,`Mixed`],team:`German`,
+                    desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+                    pos:[895,395],
+                    elements:[
+                        {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Sperrverband, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
+                        {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Sperrverband, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+                    ],
+                },{
+                    level:0,type:[`Infantry`],team:`Italian`,
+                    desc:`60th Infantry Division 'Sabratha'`,name:`60`,designation:`Sabratha`,commander:`Soldarelli`,icon:`sabratha`,
+                    pos:[948,597],
+                    elements:[
+                        {
+                            level:2,type:[`Infantry`],team:`Italian`,
+                            desc:`85th Infantry Regiment`,name:`85`,designation:`Sabratha`,commander:`Grimaldi`,icon:`sabratha`,
+                            pos:[827,474],
+                            elements:[
+                                {level:3,type:`Weak Infantry`,team:`Italian`,desc:`1st Battalion, 85th Infantry Regiment`,name:`1`,designation:`85`,commander:`Bobbio`},
+                                {level:3,type:`Weak Infantry`,team:`Italian`,desc:`2nd Battalion, 85th Infantry Regiment`,name:`2`,designation:`85`,commander:`Morosini`},
+                            ],
+                        },{
+                            level:2,type:[`Infantry`],team:`Italian`,
+                            desc:`86th Infantry Regiment`,name:`86`,designation:`Sabratha`,commander:`Castrignanò`,icon:`sabratha`,
+                            pos:[993,728],
+                            elements:[
+                                {level:3,type:`Weak Infantry`,team:`Italian`,desc:`1st Battalion, 86th Infantry Regiment`,name:`1`,designation:`86`,commander:`Velosa`},
+                                {level:3,type:`Weak Infantry`,team:`Italian`,desc:`2nd Battalion, 86th Infantry Regiment`,name:`2`,designation:`86`,commander:`Piana`},
+                            ],
+                        },
+                    ],
+                },
+            ]
         },
     ],
 }

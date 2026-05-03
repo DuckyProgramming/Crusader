@@ -9,43 +9,21 @@ reserves=[
             {level:3,type:`Infantry`,team:`Australian`,desc:`12th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/12`,designation:``,commander:`Field`},
         ],
     },{
-        level:0,type:[`Infantry`],team:`Italian`,
-        desc:`60th Infantry Division 'Sabratha'`,name:`60`,designation:`Sabratha`,commander:`Soldarelli`,icon:`sabratha`,
-        pos:[480,441],
+        level:1,type:[`Tank`,`Heavy`],team:`British`,
+        desc:`1st Army Tank Brigade`,name:`1`,designation:`Army`,commander:`Watkins`,icon:`70`,
+        pos:[965,250],
         elements:[
-            {
-                level:2,type:[`Infantry`],team:`Italian`,
-                desc:`85th Infantry Regiment`,name:`85`,designation:`Sabratha`,commander:`Grimaldi`,icon:`sabratha`,
-                pos:[666,191],
-                elements:[
-                    {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 85th Infantry Regiment`,name:`1`,designation:`85`,commander:`Bobbio`},
-                    {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 85th Infantry Regiment`,name:`2`,designation:`85`,commander:`Morosini`},
-                ],
-            },{
-                level:2,type:[`Infantry`],team:`Italian`,
-                desc:`86th Infantry Regiment`,name:`86`,designation:`Sabratha`,commander:`Castrignanò`,icon:`sabratha`,
-                pos:[2014,1167],
-                elements:[
-                    {level:3,type:`Infantry`,team:`Italian`,desc:`1st Battalion, 86th Infantry Regiment`,name:`1`,designation:`86`,commander:`Velosa`},
-                    {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 86th Infantry Regiment`,name:`2`,designation:`86`,commander:`Piana`},
-                ],
-            },
-        ],
-    },{
-        level:1,type:[`Tank`,`Heavy`],team:`British`,//crusader 1941
-        desc:`32nd Army Tank Brigade`,name:`4`,designation:``,commander:`Willison`,icon:`70`,
-        pos:[2380,1420],
-        elements:[
-            {level:3,type:`Heavy Tank`,team:`British`,desc:`1st Royal Tank Regiment`,name:`1`,designation:`Royal Tank\nRegiment`,commander:`Brown`},
-            {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`O'Carroll`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Royal Tank\nRegiment`,commander:`Brooke`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`42th Royal Tank Regiment`,name:`42`,designation:`Royal Tank\nRegiment`,commander:`Martin`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`44th Royal Tank Regiment`,name:`44`,designation:`Royal Tank\nRegiment`,commander:`Yeo`},
         ],
     },{
         level:1,type:[`Tank`,`Heavy`],team:`British`,//gazala/tobruk 1942
-        desc:`32nd Army Tank Brigade`,name:`4`,designation:``,commander:`Willison`,icon:`70`,
+        desc:`32nd Army Tank Brigade`,name:`32`,designation:`Army`,commander:`Willison`,icon:`70`,
         pos:[2380,1420],
         elements:[
             {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`Foote`},
-            {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`7th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
         ],
     },{
         level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
@@ -57,14 +35,6 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 5th Mahratta Light Infantry`,name:`2/5`,designation:`Mahratta`,commander:`Doyle`},
         ],
     },{
-        level:2,type:[`Infantry`,`Artillery`,`Machine Gun`],team:`German`,
-        desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
-        pos:[1050,325],
-        elements:[
-            {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Sperrverband, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
-            {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Sperrverband, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
-        ],
-    },{
         level:2,type:[`Infantry`,`Motorized`],team:`German`,
         desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
         pos:[1634,628],
@@ -73,11 +43,26 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Finke`},
         ],
     },{
-        level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+        level:2,type:[`Artillery`,`Semi-Motorized`],team:`German`,
         desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:`90l`,
         pos:[1554,434],
         elements:[
             {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
+        desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`,icon:`90l`,
+        pos:[1035,320],
+        elements:[
+            {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
+        pos:[1634,628],
+        elements:[
+            {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
+            {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`8th Machine Gun Battalion`,name:`8`,designation:``,commander:`Ponath`},
         ],
     },
 ]

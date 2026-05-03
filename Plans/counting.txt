@@ -1,0 +1,10 @@
+48 regular british battalions
++3 pickable
++2 2-player exclusive
+=53
+
+16 regular german battalions
+36 regular italian battalions
++2 german pickable
++4 italian pickable
+=58

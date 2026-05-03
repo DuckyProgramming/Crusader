@@ -1,5 +1,5 @@
 import {graphics,constants,dev, types} from './variables.mjs'
-import {findName,smoothAnim,inPointBox,boxify,elementArray,findTerm0,distPos,even} from './functions.mjs'
+import {findName,findAbstract,smoothAnim,inPointBox,boxify,elementArray,findTerm0,distPos,even} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 import {transitionManager} from './../JS/transitionManager.mjs'
 import {city} from './city.mjs'
@@ -13,8 +13,11 @@ export class operation{
         this.units=[]
         this.scene=`main`
         this.view={scale:1,hist:0}
-        this.turn={main:0,time:0,total:0,prep:false,start:true,bonus:false,loading:false,partition:[],order:[]}
-        this.anim={main:0,prep:0,start:0,select:0,selectTrigger:false}
+        this.turn={
+            main:0,time:0,total:0,prep:false,start:true,loading:false,order:[],
+            bonus:false,partition:[],pick:false,
+        }
+        this.anim={main:0,prep:0,start:0,select:0,pick:[],selectTrigger:false}
         this.select={unit:0}
         this.initial()
         this.loadMap(this.map)
@@ -35,9 +38,10 @@ export class operation{
                 total:this.turn.total,
                 prep:this.turn.prep,
                 start:this.turn.start,
-                bonus:this.turn.bonus,
                 loading:this.turn.loading,
+                bonus:this.turn.bonus,
                 partition:this.turn.partition,
+                pick:this.turn.pick,
             },
             anim:this.anim,
             transitionManager:this.transitionManager.save()
@@ -54,7 +58,8 @@ export class operation{
         this.loadMap(map)
         this.map=map
         this.nextMap=map
-        this.initialUnits(findName(composite.set,types.map[this.map].unit))
+        this.set=findName(composite.set,types.map[this.map].unit)
+        //this.initialUnits(findName(composite.set,types.map[this.map].unit))
         //this sets set so don't set sets
         this.view=composite.view
         this.turn.main=composite.turn.main
@@ -62,11 +67,12 @@ export class operation{
         this.turn.total=composite.turn.total
         this.turn.prep=composite.turn.prep
         this.turn.start=composite.turn.start
-        this.turn.bonus=composite.turn.bonus
         this.turn.loading=composite.turn.loading
+        this.turn.bonus=composite.turn.bonus
         this.turn.partition=composite.turn.partition
+        this.turn.pick=composite.turn.pick
         this.anim=composite.anim
-        let root=``
+        /*let root=``
         types.unit.forEach(unit=>{
             if(unit.icon!=``&&!graphics.load.unit.some(load=>load.name==unit.icon)){
                 graphics.load.unit.push({name:unit.icon,img:-1})
@@ -79,7 +85,7 @@ export class operation{
         })
         for(const load of graphics.load.unit){
             load.img=await new Promise((resolve,reject)=>{loadImage(`${root}Assets/unit/${load.name}.png`,(img)=>resolve(img),reject)})
-        }
+        }*/
         if(composite.cities!=undefined){
             composite.cities.forEach((cit,index)=>{this.cities[index].load(cit)})
         }
@@ -175,6 +181,9 @@ export class operation{
         types.team=types.map[map].team
         types.player=types.map[map].player
         types.side=types.map[map].side
+        types.reserve=types.map[map].reserve
+
+        this.anim.pick=elementArray(0,types.player.length)
     }
     loadBack(){
         if(graphics.load.water.hasOwnProperty(`bytes`)){
@@ -200,9 +209,13 @@ export class operation{
         this.set=set
         this.turn.bonus=types.map[this.map].unit[this.set].bonus
         this.turn.partition=types.map[this.map].unit[this.set].partition
+        this.turn.pick=types.map[this.map].unit[this.set].pick
         types.unit=types.map[this.map].unit[this.set].unit
+        if(!this.turn.pick){
+            this.spawnUnits()
+        }
     }
-    async loadUnits(){
+    /*async loadUnits(){
         let root=``
         types.unit.forEach(unit=>{
             if(unit.icon!=``&&!graphics.load.unit.some(load=>load.name==unit.icon)){
@@ -218,7 +231,7 @@ export class operation{
             load.img=await new Promise((resolve,reject)=>{loadImage(`${root}Assets/unit/${load.name}.png`,(img)=>resolve(img),reject)})
         }
         this.spawnUnits()
-    }
+    }*/
     spawnUnits(){
         types.unit.forEach(data=>this.units.push(new unit(this,data)))
     }
@@ -261,6 +274,25 @@ export class operation{
                     layer.fill(0,this.anim.prep)
                     layer.textSize(80)
                     layer.text(`${this.turn.main==1&&this.turn.partition.length==2?`Axis`:types.player[this.turn.main].name} Turn Begin`,layer.width/2,layer.height/2+4)
+                }
+                for(let a=0,la=types.player.length;a<la;a++){
+                    if(this.anim.pick[a]>0){
+                        layer.fill(200,this.anim.pick[a])
+                        layer.rect(layer.width/2,layer.height/2,800,340,20)
+                        layer.fill(0,this.anim.pick[a])
+                        layer.textSize(80)
+                        layer.text(`${types.player[a].name} Deployment`,layer.width/2,layer.height/2-96)
+                        layer.fill(150,this.anim.pick[a])
+                        layer.rect(layer.width/2,layer.height/2+10,480,80,20)
+                        layer.rect(layer.width/2,layer.height/2+110,480,80,20)
+                        layer.fill(0,this.anim.pick[a])
+                        layer.textSize(25)
+                        layer.text([`14th Infantry Brigade`,`Sonderverband 288`,`8th Army Artillery Group`][a],layer.width/2,layer.height/2)
+                        layer.text([`32nd Army Tank Brigade`,`3rd/255th and 3rd/347th Infantry Battalions`,`60th Infantry Division 'Sabratha'`][a],layer.width/2,layer.height/2+100)
+                        layer.textSize(20)
+                        layer.text([`3 Infantry Battalions`,`2 Mixed Infantry Battalions`,`4 Artillery Battalions`][a],layer.width/2,layer.height/2+30)
+                        layer.text([`2 Heavy Tank Battalions, 1 Artillery Battalion`,`2 Infantry Battalions`,`4 Infantry Battalions`][a],layer.width/2,layer.height/2+130)
+                    }
                 }
                 if(this.anim.start>0){
                     layer.fill(200,this.anim.start)
@@ -400,9 +432,10 @@ export class operation{
                 this.units.forEach(unit=>unit.update(layer,this.scene,rel))
             break
             case `main`:
-                this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&!this.turn.start&&this.turn.time==0,0,1,5)
-                this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep,0,1,5)
-                this.anim.start=smoothAnim(this.anim.start,this.turn.start,0,1,5)
+                this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&!this.turn.pick&&!this.turn.start&&this.turn.time==0,0,1,5)
+                this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep&&!this.turn.pick,0,1,5)
+                this.anim.start=smoothAnim(this.anim.start,this.turn.start&&!this.turn.pick,0,1,5)
+                this.anim.pick.forEach((pick,index,arr)=>arr[index]=smoothAnim(pick,this.turn.pick&&this.turn.main==index,0,1,5))
 
                 this.anim.selectTrigger=this.units.some(unit=>unit.order.trigger)
                 this.anim.select=smoothAnim(this.anim.select,this.anim.selectTrigger,0,1,5)
@@ -452,9 +485,41 @@ export class operation{
                         for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
                             if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+60+even(a,la)*100,300,80))){
                                 this.initialUnits(a)
-                                this.loadUnits()
                                 this.turn.start=false
                                 this.turn.prep=true
+                            }
+                        }
+                    }else if(this.turn.pick){
+                        if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+10,480,80))){
+                            this.turn.main++
+                            if(this.turn.main>=types.player.length){
+                                this.spawnUnits()
+                                this.turn.main=0
+                                this.turn.pick=false
+                            }
+                        }else if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+110,480,80))){
+                            let target
+                                switch(this.turn.main){
+                                case 0:
+                                    target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`14th Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 1:
+                                    /*target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`Sperrverband, Sonderverband 288`,target.elements)]=types.reserve[this.turn.main]*/
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main])
+                                break
+                                case 2:
+                                    types.unit[findAbstract(`desc`,`8th Army Artillery Group`,types.unit)]=types.reserve[this.turn.main]
+                                break
+                            }
+                            //[target,types.reserve[this.turn.main]]=[types.reserve[this.turn.main],target]
+                            this.turn.main++
+                            if(this.turn.main>=types.player.length){
+                                this.spawnUnits()
+                                this.turn.main=0
+                                this.turn.pick=false
                             }
                         }
                     }else if(this.turn.prep){
@@ -656,9 +721,41 @@ export class operation{
                         for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
                             if(int(key)==a+1){
                                 this.initialUnits(a)
-                                this.loadUnits()
                                 this.turn.start=false
                                 this.turn.prep=true
+                            }
+                        }
+                    }else if(this.turn.pick){
+                        if(key==`1`){
+                            this.turn.main++
+                            if(this.turn.main>=types.player.length){
+                                this.spawnUnits()
+                                this.turn.main=0
+                                this.turn.pick=false
+                            }
+                        }else if(key==`2`){
+                            let target
+                            switch(this.turn.main){
+                                case 0:
+                                    target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`14th Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 1:
+                                    /*target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`Sperrverband, Sonderverband 288`,target.elements)]=types.reserve[this.turn.main]*/
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main])
+                                break
+                                case 2:
+                                    types.unit[findAbstract(`desc`,`8th Army Artillery Group`,types.unit)]=types.reserve[this.turn.main]
+                                break
+                            }
+                            //[target,types.reserve[this.turn.main]]=[types.reserve[this.turn.main],target]
+                            this.turn.main++
+                            if(this.turn.main>=types.player.length){
+                                this.spawnUnits()
+                                this.turn.main=0
+                                this.turn.pick=false
                             }
                         }
                     }else if(this.turn.prep){

@@ -59,10 +59,16 @@ export class unit{
             this.initialElements(data.elements)
         }
     }
-    initialGraphics(){
+    async initialGraphics(){
         this.img=[graphics.load.team[this.team]]
         if(this.icon!=``){
-            this.img.push(graphics.load.unit[findName(this.icon,graphics.load.unit)].img)
+            try{
+                this.img.push(graphics.load.unit[findName(this.icon,graphics.load.unit)].img)
+            }catch(e){
+                let root=``
+                graphics.load.unit.push({name:this.icon,img:await new Promise((resolve,reject)=>{loadImage(`${root}Assets/unit/${this.icon}.png`,(img)=>resolve(img),reject)})})
+                this.img.push(last(graphics.load.unit).img)
+            }
         }
     }
     initialElements(elements){
@@ -86,7 +92,7 @@ export class unit{
                 speed:this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0),
                 artillery:false,engineer:false,
             }
-            this.radius=45
+            this.radius=40
             this.order.artillery=false
         }
     }
@@ -390,7 +396,7 @@ export class unit{
                         switch(this.type[a]){
                             case 0:
                                 layer.line(-8,-5,8,5)
-                                if(this.type.includes(6)){
+                                if(this.type.includes(7)){
                                     layer.line(-7,5,8,-4)
                                     layer.line(-8,4,7,-5)
                                 }else{
@@ -451,6 +457,16 @@ export class unit{
                                 layer.line(6.5,1,5.25,1)
                                 layer.line(5.25,1,5.25,-1)
                             break
+                            case 13:
+                                layer.line(-2,-5,0,-3)
+                                layer.line(2,-5,0,-3)
+                                layer.line(-2,5,0,3)
+                                layer.line(2,5,0,3)
+                                layer.line(-8,-2,-6,0)
+                                layer.line(-8,2,-6,0)
+                                layer.line(8,-2,6,0)
+                                layer.line(8,2,6,0)
+                            break
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)
                                 layer.line(-6.5,0,-5.5,0)
@@ -463,7 +479,7 @@ export class unit{
                             //coast
                         }
                     }
-                    if(this.img.length>1&&this.img[1]!=-1){
+                    if(this.img.length>1&&this.img[1]!=undefined){
                         let width=this.img[1].width
                         let height=this.img[1].height
                         if(fade<1){
