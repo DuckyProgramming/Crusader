@@ -20,13 +20,14 @@ export var types={
         {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false},
         {name:`Motorcycle Bersaglieri`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false},
         {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:600,speed:3,artillery:false,engineer:false},
-        {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:50,morale:0.4,num:50,speed:2,artillery:false,engineer:false},
-        {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.5,num:33,speed:1.5,artillery:false,engineer:false},
-        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.5,num:50,speed:1.5,artillery:false,engineer:false},
-        {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.5,num:50,speed:1.125,artillery:false,engineer:false},
-        {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.4,num:50,speed:3,artillery:false,engineer:false},
+        {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:60,morale:0.5,num:50,speed:2,artillery:false,engineer:false},
+        {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.6,num:33,speed:1.5,artillery:false,engineer:false},
+        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false},
+        {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false},
+        {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false},
         {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.7,num:40,speed:0.6,artillery:true,engineer:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},//20
+        {name:`Heavy Artillery`,unitType:[`Artillery`,`Heavy`],class:2,damage:[10,24],armor:0.5,health:20,morale:0.8,num:40,speed:0.525,artillery:true,engineer:false},
         {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.75,artillery:true,engineer:false},
@@ -576,11 +577,17 @@ export var types={
                                     desc:`7th Bersaglieri Regiment`,name:`7`,designation:`Bersaglieri`,commander:`Scirocco`,icon:`trento`,
                                     pos:[378,564],
                                     elements:[
-                                        {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`8th Bersaglieri Battalion`,name:`8`,designation:`Bersaglieri`,commander:`Trillini`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`10th Bersaglieri Battalion`,name:`10`,designation:`Bersaglieri`,commander:`Adolfato`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`11th Bersaglieri Battalion`,name:`11`,designation:`Bersaglieri`,commander:`Straziota`},
                                     ],
                                 },
+                            ],
+                        },{
+                            level:3,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+                            team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:``,
+                            pos:[946,961],
+                            elements:[
+                                {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
                             ],
                         },
                     ],
@@ -1416,6 +1423,25 @@ export var types={
                         {level:3,type:`Artillery`,team:`British`,desc:`104th Regiment, Royal Horse Artillery`,name:`104`,designation:`Royal\nHorse`,commander:`Matthew`},
                     ],
                 },{
+                    level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+                    desc:`11th Indian Infantry Brigade`,name:`11`,designation:``,commander:`Anderson`,icon:`4id`,
+                    pos:[2510,1105],
+                    elements:[
+                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Queen's Own Cameron Highlanders`,name:`2`,designation:`Cameron\nHighlanders`,commander:`Duncan`},
+                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`1st Battalion, 6th Rajputana Rifles`,name:`1/6`,designation:`Rajputana`,commander:`Quayle`},
+                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 5th Mahratta Light Infantry`,name:`2/5`,designation:`Mahratta`,commander:`Doyle`},
+                    ],
+                },{
+                    level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+                    desc:`29th Indian Infantry Brigade`,name:`29`,designation:``,commander:`Reid`,icon:`5id`,
+                    pos:[2535,1520],
+                    elements:[
+                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, Worcestershire Regiment`,name:`1`,designation:`Worcester`,commander:`Knight`},
+                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`1st Battalion, 5th Mahratta Light Infantry`,name:`1/5`,designation:`Mahratta`,commander:`Mahant`},
+                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`3rd Battalion, 2nd Punjab Regiment`,name:`3/2`,designation:`Punjab`,commander:`Dean`},
+                        {level:3,type:`Armored Car`,team:`South African`,desc:`6th South African Armoured Car Regiment`,name:`6`,designation:``,commander:`Short`},
+                    ],
+                },{
                     level:2,type:[`Infantry`,`Mixed`],team:`German`,
                     desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
                     pos:[895,395],
@@ -1445,6 +1471,14 @@ export var types={
                                 {level:3,type:`Weak Infantry`,team:`Italian`,desc:`2nd Battalion, 86th Infantry Regiment`,name:`2`,designation:`86`,commander:`Piana`},
                             ],
                         },
+                    ],
+                },{
+                    level:2,type:[`Artillery`],team:`Italian`,
+                    desc:`Mixed Artillery Group`,name:`M`,designation:`Army`,commander:`Corvino`,icon:``,
+                    pos:[580,341],
+                    elements:[
+                        {level:3,type:`Light Artillery`,team:`Italian`,desc:`19th Group, Mixed Artillery Group`,name:`19`,designation:``,commander:`Luca`},
+                        {level:3,type:`Motorized Light Artillery`,team:`Italian`,desc:`120th Regia Marina Group, Mixed Artillery Group`,name:`120`,designation:`Regia\nMarina`,commander:`Berton`},
                     ],
                 },
             ]

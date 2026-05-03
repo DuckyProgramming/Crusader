@@ -45,7 +45,7 @@ export class unit{
             detach:0,absorb:0
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
-        this.contain={units:[],stats:{},trigger:true,middle:false,temp:this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)}
+        this.contain={units:[],stats:{},trigger:true,middle:false,temp:this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)}
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
         this.base={position:{x:this.position.x,y:this.position.y}}
@@ -218,7 +218,7 @@ export class unit{
     }
     endTick(){
         if(!this.battle.injure&&this.contain.trigger){
-            this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+5,unit.strength.base.morale))
+            this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+10,unit.strength.base.morale))
         }
         this.order.position.x=this.position.x
         this.order.position.y=this.position.y
@@ -239,6 +239,9 @@ export class unit{
             }else{
                 this.active=false
                 this.destroy()
+            }
+            if(!this.logs.main.includes(`Drowned`)){
+                this.logs.main.push(`Drowned`)
             }
         }
         this.updateStrength()

@@ -47,6 +47,16 @@ export class city{
                 }
             })
         }
+        let closest=this.owner==-1?100:min(100,this.getNearSide(types.player[this.owner].side))
+        types.player.forEach((player,index)=>{
+            if(this.near(closest,index)){
+                if(this.supply.connect.some((conn,index2)=>player.side==types.player[index2].side&&conn==1)||this.type==1){
+                    this.owner=index
+                }else{
+                    this.owner=-1
+                }
+            }
+        })
         this.hist.push({owner:this.owner})
     }
     near(dist,player){
@@ -96,10 +106,12 @@ export class city{
                     layer.noStroke()
                     layer.fill(244,239,196,this.fade)
                     layer.ellipse(0,0,img.width*0.16*this.fade.main)
-                    if(this.owner>=0){
+                    /*if(this.owner>=0){
                         layer.fill(...types.player[this.owner].color,this.fade.reveal)
                         layer.ellipse(0,0,img.width*0.16*this.fade.main)
-                    }
+                    }*/
+                    layer.fill(...(this.owner==-1?[122,120,98]:types.player[this.owner].color),this.fade.reveal)
+                    layer.ellipse(0,0,img.width*0.16*this.fade.main)
                     layer.image(img,0,0,img.width*0.4*this.fade.main,img.height*0.4*this.fade.main)
                     layer.fill(0)
                     layer.textSize(img.height*0.2*this.fade.main)

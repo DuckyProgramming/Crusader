@@ -26,15 +26,6 @@ reserves=[
             {level:3,type:`Heavy Tank`,team:`British`,desc:`7th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
         ],
     },{
-        level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
-        desc:`11th Indian Infantry Brigade`,name:`11`,designation:``,commander:`Anderson`,icon:`4id`,
-        pos:[2510,1105],
-        elements:[
-            {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Queen's Own Cameron Highlanders`,name:`2`,designation:`Cameron\nHighlanders`,commander:`Duncan`},
-            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`1st Battalion, 6th Rajputana Rifles`,name:`1/6`,designation:`Rajputana`,commander:`Quayle`},
-            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 5th Mahratta Light Infantry`,name:`2/5`,designation:`Mahratta`,commander:`Doyle`},
-        ],
-    },{
         level:2,type:[`Infantry`,`Motorized`],team:`German`,
         desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
         pos:[1634,628],
@@ -44,10 +35,10 @@ reserves=[
         ],
     },{
         level:2,type:[`Artillery`,`Semi-Motorized`],team:`German`,
-        desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:`90l`,
+        desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:``,
         pos:[1554,434],
         elements:[
-            {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
+            {level:3,type:`Heavy Artillery`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
         ],
     },{
         level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
@@ -63,6 +54,20 @@ reserves=[
         elements:[
             {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
             {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`8th Machine Gun Battalion`,name:`8`,designation:``,commander:`Ponath`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`British`,
+        desc:`4th Regiment, Royal Horse Artillery`,name:`4`,designation:`Royal\nHorse`,commander:`Currie`,icon:`7a`,
+        pos:[1950,1282],
+        elements:[
+            {level:3,type:`Motorized Artillery`,team:`British`,desc:`4th Regiment, Royal Horse Artillery`,name:`4`,designation:`Royal\nHorse`,commander:`Currie`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`British`,
+        desc:`1st Battalion, The Buffs (Royal East Kent Regiment)`,name:`1`,designation:`Buffs`,commander:`Knocker`,icon:``,
+        pos:[1950,1282],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, The Buffs (Royal East Kent Regiment)`,name:`1`,designation:`Buffs`,commander:`Knocker`},
         ],
     },
 ]
