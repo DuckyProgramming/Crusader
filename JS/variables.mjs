@@ -25,16 +25,18 @@ export var types={
         {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false},
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false},
         {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false},
-        {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.7,num:40,speed:0.6,artillery:true,engineer:false},
-        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},//20
+        {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:40,speed:0.7,artillery:true,engineer:false},
+        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:24,speed:0.7,artillery:true,engineer:false},//20
+        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},
         {name:`Heavy Artillery`,unitType:[`Artillery`,`Heavy`],class:2,damage:[10,24],armor:0.5,health:20,morale:0.8,num:40,speed:0.525,artillery:true,engineer:false},
         {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:40,speed:1.75,artillery:true,engineer:false},
+        {name:`Motorized Group Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[6,13],armor:0.3,health:24,morale:0.7,num:48,speed:1.75,artillery:true,engineer:false},
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},//30
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
     ],unitType:[
         {name:`Infantry`},
@@ -885,7 +887,7 @@ export var types={
                                 {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
                                 {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                 {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
-                                {level:3,type:`Motorized Light Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:`Nicolardi`},
+                                {level:3,type:`Motorized Group Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:`Nicolardi`},
                             ],
                         },{
                             level:0,type:[`Infantry`,'Motorized'],team:`Italian`,
@@ -913,11 +915,12 @@ export var types={
                                 },{
                                     level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                                     desc:`9th Bersaglieri Regiment`,name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
-                                    pos:[86,464],
+                                    pos:[993,728],
                                     elements:[
                                         {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:`Blandi`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`30th Bersaglieri Battalion`,name:`30`,designation:`Bersaglieri`,commander:`Borghi`},
                                         {level:3,type:`Motorized Machine Gun Bersaglieri`,team:`Italian`,desc:`32nd Bersaglieri Battalion`,name:`32`,designation:`Bersaglieri`,commander:`Benedictis`},
+                                        {level:3,type:`Motorized Bersaglieri Mixed Support`,team:`Italian`,desc:`40th Bersaglieri Mixed Support Battalion`,name:`40`,designation:`Bersaglieri`,commander:`Togna`},
                                     ],
                                 },
                             ],
@@ -949,13 +952,6 @@ export var types={
                                     elements:[
                                         {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 15th Infantry Regiment`,name:`2`,designation:`15`,commander:`Russo`},
                                         {level:3,type:`Infantry`,team:`Italian`,desc:`2nd Battalion, 16th Infantry Regiment`,name:`2`,designation:`16`,commander:`Aveta`},
-                                    ],
-                                },{
-                                    level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`,icon:`savona`,
-                                    pos:[2358,967],
-                                    elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -1287,7 +1283,7 @@ export var types={
                                 {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
                                 {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                 {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
-                                {level:3,type:`Motorized Light Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:`Nicolardi`},
+                                {level:3,type:`Motorized Group Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:`Nicolardi`},
                             ],
                         },{
                             level:0,type:[`Infantry`,'Motorized'],team:`Italian`,
@@ -1315,19 +1311,12 @@ export var types={
                                 },{
                                     level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                                     desc:`9th Bersaglieri Regiment`,name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
-                                    pos:[86,464],
+                                    pos:[993,728],
                                     elements:[
                                         {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:`28th Bersaglieri Battalion`,name:`28`,designation:`Bersaglieri`,commander:`Blandi`},
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:`30th Bersaglieri Battalion`,name:`30`,designation:`Bersaglieri`,commander:`Borghi`},
                                         {level:3,type:`Motorized Machine Gun Bersaglieri`,team:`Italian`,desc:`32nd Bersaglieri Battalion`,name:`32`,designation:`Bersaglieri`,commander:`Benedictis`},
                                         {level:3,type:`Motorized Bersaglieri Mixed Support`,team:`Italian`,desc:`40th Bersaglieri Mixed Support Battalion`,name:`40`,designation:`Bersaglieri`,commander:`Togna`},
-                                    ],
-                                },{
-                                    level:3,type:[`Artillery`,`Machine Gun`,`Motorized`],team:`Italian`,
-                                    desc:`508th Mixed Support Battalion`,name:`508`,designation:``,commander:`Pettinau`,icon:`trieste`,
-                                    pos:[1062,1469],
-                                    elements:[
-                                        {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`508th Mixed Support Battalion`,name:`508`,designation:``,commander:`Pettinau`},
                                     ],
                                 },
                             ],
@@ -1373,6 +1362,13 @@ export var types={
                                     pos:[2150,1190],
                                     elements:[
                                         {level:3,type:`Machine Gun`,team:`Italian`,desc:`155th Machine Gun Battalion`,name:`155`,designation:``,commander:`Grande`},
+                                    ],
+                                },{
+                                    level:3,type:[`Artillery`],team:`Italian`,
+                                    desc:`503rd Independent Coastal Artillery Group`,name:`503`,designation:`Coast`,commander:`Verri`,icon:`savona`,
+                                    pos:[2245,937],
+                                    elements:[
+                                        {level:3,type:`Coastal Artillery`,team:`Italian`,desc:`503rd Independent Coastal Artillery Group`,name:`503`,designation:`Coast`,commander:`Verri`,icon:`savona`},
                                     ],
                                 },
                             ],
@@ -1452,14 +1448,14 @@ export var types={
                 },{
                     level:0,type:[`Infantry`],team:`Italian`,
                     desc:`60th Infantry Division 'Sabratha'`,name:`60`,designation:`Sabratha`,commander:`Soldarelli`,icon:`sabratha`,
-                    pos:[948,597],
+                    pos:[1028,617],
                     elements:[
                         {
                             level:2,type:[`Infantry`],team:`Italian`,
                             desc:`85th Infantry Regiment`,name:`85`,designation:`Sabratha`,commander:`Grimaldi`,icon:`sabratha`,
-                            pos:[827,474],
+                            pos:[932,544],
                             elements:[
-                                {level:3,type:`Weak Infantry`,team:`Italian`,desc:`1st Battalion, 85th Infantry Regiment`,name:`1`,designation:`85`,commander:`Bobbio`},
+                                {level:3,type:`Weak Infantry`,team:`Italian`,desc:`1st Battalion, 85th Infantry Regiment`,name:`1`,designation:`85`,commander:`Angelozzi`},
                                 {level:3,type:`Weak Infantry`,team:`Italian`,desc:`2nd Battalion, 85th Infantry Regiment`,name:`2`,designation:`85`,commander:`Morosini`},
                             ],
                         },{
@@ -1472,15 +1468,31 @@ export var types={
                             ],
                         },
                     ],
-                },{
-                    level:2,type:[`Artillery`],team:`Italian`,
-                    desc:`Mixed Artillery Group`,name:`M`,designation:`Army`,commander:`Corvino`,icon:``,
-                    pos:[580,341],
-                    elements:[
-                        {level:3,type:`Light Artillery`,team:`Italian`,desc:`19th Group, Mixed Artillery Group`,name:`19`,designation:``,commander:`Luca`},
-                        {level:3,type:`Motorized Light Artillery`,team:`Italian`,desc:`120th Regia Marina Group, Mixed Artillery Group`,name:`120`,designation:`Regia\nMarina`,commander:`Berton`},
-                    ],
-                },
+                },[
+                    {
+                        level:2,type:[`Artillery`],team:`Italian`,
+                        desc:`Mixed Artillery Group`,name:`M`,designation:`Army`,commander:`Corvino`,icon:``,
+                        pos:[827,474],
+                        elements:[
+                            {level:3,type:`Light Artillery`,team:`Italian`,desc:`19th Group, Mixed Artillery Group`,name:`19`,designation:``,commander:`Luca`},
+                            {level:3,type:`Motorized Light Artillery`,team:`Italian`,desc:`120th Regia Marina Group, Mixed Artillery Group`,name:`120`,designation:`Regia\nMarina`,commander:`Berton`},
+                        ],
+                    },{
+                        level:3,type:[`Artillery`,`Machine Gun`,`Motorized`],team:`Italian`,
+                        desc:`508th Mixed Support Battalion`,name:`508`,designation:``,commander:`Pettinau`,icon:`trieste`,
+                        pos:[1062,1469],
+                        elements:[
+                            {level:3,type:`Motorized Mixed Support`,team:`Italian`,desc:`508th Mixed Support Battalion`,name:`508`,designation:``,commander:`Pettinau`},
+                        ],
+                    },{
+                        level:3,type:[`Artillery`,`Machine Gun`],team:`Italian`,
+                        desc:`551st Mixed Support Battalion`,name:`551`,designation:``,commander:`Bobbio`,icon:`trieste`,
+                        pos:[378,564],
+                        elements:[
+                            {level:3,type:`Mixed Support`,team:`Italian`,desc:`551st Mixed Support Battalion`,name:`551`,designation:``,commander:`Bobbio`},
+                        ],
+                    },
+                ],
             ]
         },
     ],

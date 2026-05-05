@@ -300,8 +300,8 @@ export class operation{
                             `2nd New Zealand Field Regiment`,
                             `1st South African Infantry Brigade`,
                             `Sonderverband 288`,
+                            `9th Bersaglieri Regiment`,
                             `8th Army Artillery Group`,
-                            `7th Bersaglieri Regiment`,
                         ][a],layer.width/2,layer.height/2)
                         layer.text([
                             `32nd Army Tank Brigade`,
@@ -309,7 +309,7 @@ export class operation{
                             `29th Indian Infantry Brigade`,
                             `3rd/255th and 3rd/347th Infantry Battalions`,
                             `60th Infantry Division 'Sabratha'`,
-                            `Mixed Artillery Group`,
+                            `Support Elements`,
                         ][a],layer.width/2,layer.height/2+100)
                         layer.textSize(20)
                         layer.text([
@@ -317,8 +317,8 @@ export class operation{
                             `3 Artillery Battalions`,
                             `3 Infantry Battalions, 1 Artillery Battalion`,
                             `2 Mixed Infantry Battalions`,
+                            `4 Bersaglieri Battalions`,
                             `4 Artillery Battalions`,
-                            `2 Bersaglieri Battalions`,
                         ][a],layer.width/2,layer.height/2+30)
                         layer.text([
                             `2 Heavy Tank Battalions, 1 Artillery Battalion`,
@@ -326,7 +326,7 @@ export class operation{
                             `3 Infantry Battalions, 1 Armored Car Battalion`,
                             `2 Infantry Battalions`,
                             `4 Infantry Battalions`,
-                            `2 Artillery Battalions`,
+                            `2 Artillery Battalions, 2 Mixed Support Battalions`,
                         ][a],layer.width/2,layer.height/2+130)
                     }
                 }
@@ -805,12 +805,12 @@ export class operation{
                                     target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main])
                                 break
                                 case 4:
-                                    types.unit[findAbstract(`desc`,`8th Army Artillery Group`,types.unit)]=types.reserve[this.turn.main]
+                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`9th Bersaglieri Regiment`,target.elements),1)
+                                    types.unit.push(types.reserve[this.turn.main])
                                 break
                                 case 5:
-                                    target=types.unit[findAbstract(`desc`,`102nd Infantry Division 'Trento'`,types.unit)]
-                                    target.elements.splice(findAbstract(`desc`,`7th Bersaglieri Regiment`,target.elements),1)
-                                    types.unit.push(types.reserve[this.turn.main])
+                                    types.unit.splice(findAbstract(`desc`,`8th Army Artillery Group`,types.unit),1,...types.reserve[this.turn.main])
                                 break
                             }
                             this.turn.main++
