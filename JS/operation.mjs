@@ -547,14 +547,14 @@ export class operation{
                             }
                         }
                     }else if(this.turn.pick){
-                        if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+(a==3?-40:10),480,80))){
+                        if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+(this.turn.main==3?-40:10),480,80))){
                             this.turn.main++
-                            if(this.turn.main>=types.player.length){
+                            if(this.turn.main>=types.reserve.length){
                                 this.spawnUnits()
                                 this.turn.main=0
                                 this.turn.pick=false
                             }
-                        }else if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+(a==3?60:110),480,80))){
+                        }else if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+(this.turn.main==3?60:110),480,80))){
                             let target
                             switch(this.turn.main){
                                 case 0:
@@ -808,7 +808,7 @@ export class operation{
                     }else if(this.turn.pick){
                         if(key==`1`){
                             this.turn.main++
-                            if(this.turn.main>=types.player.length){
+                            if(this.turn.main>=types.reserve.length){
                                 this.spawnUnits()
                                 this.turn.main=0
                                 this.turn.pick=false
