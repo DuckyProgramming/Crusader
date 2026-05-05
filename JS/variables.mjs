@@ -25,8 +25,9 @@ export var types={
         {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false},
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false},
         {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false},
+        {name:`Armored Car Company`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false},
         {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:40,speed:0.7,artillery:true,engineer:false},
-        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:24,speed:0.7,artillery:true,engineer:false},//20
+        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:24,speed:0.7,artillery:true,engineer:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:0.7,artillery:true,engineer:false},
         {name:`Heavy Artillery`,unitType:[`Artillery`,`Heavy`],class:2,damage:[10,24],armor:0.5,health:20,morale:0.8,num:40,speed:0.525,artillery:true,engineer:false},
         {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.05,artillery:true,engineer:false},
@@ -35,8 +36,8 @@ export var types={
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:40,speed:1.75,artillery:true,engineer:false},
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},//30
+        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},//30
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
     ],unitType:[
         {name:`Infantry`},
@@ -58,6 +59,7 @@ export var types={
         {name:`Brigade`,symbol:`X`,size:[45,52,45]},
         {name:`Regiment`,symbol:`III`,size:[45,45,45]},
         {name:`Battalion`,symbol:`II`,size:[35,35,35]},
+        {name:`Company`,symbol:`I`,size:[30,30,30]},
     ],map:[
         {
             name:[`Operation Crusader`,`Base`],
@@ -339,7 +341,7 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
-                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Heraucourt`,icon:`15pz`,
+                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`,icon:`15pz`,
                                     pos:[1737,1251],
                                     elements:[
                                         {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`}, 
@@ -534,7 +536,7 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
-                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Heraucourt`,icon:`15pz`,
+                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`,icon:`15pz`,
                                     pos:[1737,1251],
                                     elements:[
                                         {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`}, 
@@ -824,7 +826,7 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
-                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Heraucourt`,icon:`15pz`,
+                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`,icon:`15pz`,
                                     pos:[1737,1251],
                                     elements:[
                                         {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`}, 
@@ -846,13 +848,6 @@ export var types={
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:3,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`,icon:`15pz`,
-                                    pos:[1035,320],
-                                    elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
-                                    ],
-                                },{
                                     level:3,type:[`Infantry`],team:`German`,
                                     desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`,icon:`90l`,
                                     pos:[850,375],
@@ -865,6 +860,20 @@ export var types={
                                     pos:[950,380],
                                     elements:[
                                         {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`},
+                                    ],
+                                },{
+                                    level:4,type:[`Tank`,`Recon`],team:`German`,
+                                    desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`,icon:`90l`,
+                                    pos:[1243,482],
+                                    elements:[
+                                        {level:4,type:`Armored Car Company`,team:`German`,desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`}, 
+                                    ],
+                                },{
+                                    level:3,type:[`Infantry`,`Motorized`],team:`German`,
+                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`,icon:`15pz`,
+                                    pos:[1035,320],
+                                    elements:[
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
                                     ],
                                 },
                             ],
@@ -1220,7 +1229,7 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
-                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Heraucourt`,icon:`15pz`,
+                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`,icon:`15pz`,
                                     pos:[1737,1251],
                                     elements:[
                                         {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`}, 
@@ -1242,13 +1251,6 @@ export var types={
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:3,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`,icon:`15pz`,
-                                    pos:[1035,320],
-                                    elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
-                                    ],
-                                },{
                                     level:3,type:[`Infantry`],team:`German`,
                                     desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`,icon:`90l`,
                                     pos:[850,375],
@@ -1261,6 +1263,20 @@ export var types={
                                     pos:[950,380],
                                     elements:[
                                         {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`},
+                                    ],
+                                },{
+                                    level:4,type:[`Tank`,`Recon`],team:`German`,
+                                    desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`,icon:`90l`,
+                                    pos:[1243,482],
+                                    elements:[
+                                        {level:4,type:`Armored Car Company`,team:`German`,desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`}, 
+                                    ],
+                                },{
+                                    level:3,type:[`Infantry`,`Motorized`],team:`German`,
+                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`,icon:`15pz`,
+                                    pos:[1035,320],
+                                    elements:[
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
                                     ],
                                 },
                             ],

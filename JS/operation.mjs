@@ -377,10 +377,10 @@ export class operation{
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Tanks\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
                         if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
-                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&unit.level==3&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
                             layer.fill(150,this.anim.main*this.anim.select)
-                            if(this.select.unit.level!=3){
+                            if(this.select.unit.level!=3&&this.select.unit.level!=4){
                                 layer.rect(layer.width-340,50,200,60,10)
                                 if(this.select.unit.contain.units.length>1){
                                     layer.rect(layer.width-190,50,60,60,10)
@@ -393,7 +393,7 @@ export class operation{
                                 layer.rect(layer.width-190,130,60,60,10)
                             }
                             layer.fill(0,this.anim.main*this.anim.select)
-                            if(this.select.unit.level!=3){
+                            if(this.select.unit.level!=3&&this.select.unit.level!=4){
                                 layer.textSize(this.select.unit.contain.units.length==1?30:15)
                                 layer.text(this.select.unit.contain.units.length==1?`Disband`:`Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200)
                                 if(this.select.unit.contain.units.length>1){
@@ -409,7 +409,7 @@ export class operation{
                                 layer.textSize(20)
                                 layer.text(`Next`,layer.width-190,130)
                             }
-                            if(this.select.unit.level!=3){
+                            if(this.select.unit.level!=3&&this.select.unit.level!=4){
                                 layer.textSize(10)
                                 layer.text(`Enter`,layer.width-260,25)
                                 if(this.select.unit.contain.units.length>1){
@@ -578,8 +578,8 @@ export class operation{
                         if(inPointBox(mouse,boxify(layer.width-230,90,460,180))){
                             if(this.anim.selectTrigger){
                                 if(this.select.unit.contain.trigger){
-                                    let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&unit.level==3&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
-                                    if(this.select.unit.level!=3){
+                                    let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
+                                    if(this.select.unit.level!=3&&this.select.unit.level!=4){
                                         if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
                                             if(this.select.unit.contain.units.length==1){
                                                 let element=this.select.unit.contain.units[0]
@@ -645,7 +645,7 @@ export class operation{
                                     }
                                     if(absorb.length>0){
                                         if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
-                                            if(this.select.unit.level==3){
+                                            if(this.select.unit.level==3||this.select.unit.level==4){
                                                 let target=absorb[this.select.unit.order.absorb%absorb.length]
                                                 let element=this.select.unit.contain.units[0]
                                                 let typing=element.type.map(type=>types.unitType[type].name)
@@ -830,7 +830,7 @@ export class operation{
                         if(this.anim.selectTrigger){
                             if(this.select.unit.contain.trigger){
                                 let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
-                                if(this.select.unit.level!=3){
+                                if(this.select.unit.level!=3&&this.select.unit.level!=4){
                                     if(key===`Enter`){
                                         if(this.select.unit.contain.units.length==1){
                                             let element=this.select.unit.contain.units[0]
@@ -896,7 +896,7 @@ export class operation{
                                 }
                                 if(absorb.length>0){
                                     if(key==`Shift`){
-                                        if(this.select.unit.level==3){
+                                        if(this.select.unit.level==3||this.select.unit.level==4){
                                             let target=absorb[this.select.unit.order.absorb%absorb.length]
                                             let element=this.select.unit.contain.units[0]
                                             let typing=element.type.map(type=>types.unitType[type].name)
