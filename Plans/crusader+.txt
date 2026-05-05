@@ -34,11 +34,11 @@ XIII Corps (30 Battalions)
 
 
 
-Deutsches Afrika Korps (18 Battalions)
+Deutsches Afrika Korps (20 Battalions)
 
 300th "Oasis" Infantry Battalion
 
-15th Panzer Division (9 Battalions)
+15th Panzer Division (11 Battalions)
 	8th Panzer Regiment (2 Battalions)
 	15th Infantry Brigade (3 Battalions)
 		115th Motorized Infantry Regiment (1 Battalion)
@@ -52,6 +52,7 @@ Deutsches Afrika Korps (18 Battalions)
 	3rd Battalion, 255th Infantry Regiment
 	3rd Battalion, 347th Infantry Regiment
 	Sonderverband 288 (2 Mixed Battalions)
+	606th Flak Battalion
 	508th Reconaissance Company
 
 
@@ -62,13 +63,14 @@ XX Mobile Corps (45 Battalions)
 Mixed Corps Artillery Regiment (1 Battalion, 1 Motorized Battalion)
 RECAM (1 Security Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
 
-101st Motorized Division "Trieste" (11 Battalions)
+101st Motorized Division "Trieste" (12 Battalions)
 	65th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
 	66th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
 	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion, 1 Machine Gun Battalion, 1 Mixed Support Battalion)
 	508th Mixed Support Battalion
+	Milizia Marittima di Artiglieria Battalion "CAM"
 
-55th Infantry Division "Savona" (8 Battalions)
+55th Infantry Division "Savona" (9 Battalions)
 	15th Infantry Regiment (3 Battalions)
 	16th Infantry Regiment (3 Battalions)
 	4th Machine Gun Battalion "Genova Cavalleria"

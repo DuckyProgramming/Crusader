@@ -46,7 +46,6 @@ Deutsches Afrika Korps (16 Battalions)
 	361st Infantry Regiment (2 Semi-Motorized Infantry Battalions, 1 Semi-Motorized Artillery Battalion)
 	3rd Battalion, 255th Infantry Regiment
 	3rd Battalion, 347th Infantry Regiment
-	508th Reconaissance Company
 
 
 
@@ -55,17 +54,17 @@ XX Mobile Corps (36 Battalions)
 8th Army Artillery Group (3 Battalions, 1 Light Battalion)
 RECAM (1 Security Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
 
-101st Motorized Division "Trieste" (10 Battalions)
+101st Motorized Division "Trieste" (11 Battalions)
 	65th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
 	66th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
 	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion, 1 Machine Gun Battalion, 1 Mixed Support Battalion)
+	Milizia Marittima di Artiglieria Battalion "CAM"
 
-55th Infantry Division "Savona" (9 Battalions)
+55th Infantry Division "Savona" (8 Battalions)
 	15th Infantry Regiment (3 Battalions)
 	16th Infantry Regiment (3 Battalions)
 	4th Machine Gun Battalion "Genova Cavalleria"
 	155th Machine Gun Battalion
-	503rd Independent Coastal Artillery Battalion
 
 102nd Infantry Division "Trento" (8 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)

@@ -34,13 +34,6 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Finke`},
         ],
     },{
-        level:2,type:[`Artillery`,`Semi-Motorized`],team:`German`,
-        desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:``,
-        pos:[1554,434],
-        elements:[
-            {level:3,type:`Heavy Artillery`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
-        ],
-    },{
         level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
         desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`,icon:`90l`,
         pos:[1035,320],
@@ -68,6 +61,14 @@ reserves=[
         pos:[1950,1282],
         elements:[
             {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, The Buffs (Royal East Kent Regiment)`,name:`1`,designation:`Buffs`,commander:`Knocker`},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
+        pos:[972,381],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
+            {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
         ],
     },
 ]

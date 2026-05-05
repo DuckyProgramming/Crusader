@@ -414,7 +414,8 @@ export function battalions(){
     let totals=[0,0,0]
     window.current.units.forEach(unit=>{
         if(unit.contain.trigger&&unit.active){
-            unit.contain.units.forEach(contain=>{if(contain.level!=4){totals[contain.player]++}})
+            //unit.contain.units.forEach(contain=>{if(contain.level!=4){totals[contain.player]++}})
+            unit.contain.units.forEach(contain=>totals[contain.player]++)
         }
     })
     print(totals.map((total,index)=>`${types.player[index].name}: ${total}/${[48,16,36][index]}`).join(`\n`))

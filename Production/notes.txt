@@ -7,7 +7,8 @@ Zintel took control of the 115th Infantry Regiment not long before crusader bega
 Finke and Warrelmann have both been claimed as the commander of 2nd Machine Gun Battalion. Based on my sources I believe Warrelmann was the commander at this time and Finke commanded 2nd Battalion, 115th Infantry Regiment instead.
 This has now become relevant in light of recent events, I've had to reintroduce both battalions.
 
-Sonderverband 288 had not fully arrived in Africa by November 1941. Only one group, Sperrverband (blocking detachment) Duamiller had actually arrived.
+Sonderverband 288 had not fully arrived in Africa by November 1941.
+Only one group, Sperrverband (blocking detachment) Daumiller had actually arrived, but didn't participate in Crusader. I think the unit is cool though, so I made it pickable.
 
 I don't intend to add Mickl's 155th Infantry Regiment (Semi-Motorized) as I don't know all of its battalion commanders.
 Only the third battalion's commander, Hollmann, is currently known.
@@ -25,3 +26,22 @@ At this time, 5 random 3rd Battalions were transferred to Africa to form 90th Li
 After Operation Crusader, the 3/255 Battalion was destroyed and disbanded. The remaining loose 3/347 Battalion and 1 from IR 155 became part of the new IR 200 which became a permanent part of 90th Light Division.
 The panzer divisions still had 115th and 104th regiments, though in a greatly weakened state, with 1/104 lost with Major Bach at the frontier.
 It appears the remaining machine gun battalions became regular infantry and the 15th Motorcycle Battalion was also amalgamated.
+
+The XX corps was called the Corpo d' Armata di' Manovra until 1942. But just calling it CAM would be pretty confusing and indistinct.
+
+It appears that Italian Mixed Support (a.a. e a.c.) Battalions varied heavily in number of companies and design. I've made them all the same for abstraction reasons.
+Either way quality sources are hard to find.
+
+One source I have found indicates the 66th Infantry Regiment "Sicilia" had three infantry battalions and lacked a mixed support battalion.
+This feels like a mistake to me, though, since I can't find support anywhere else and it just... doesn't make any sense? So I'll ignore it.
+
+If you thought the structure of German Kampfgruppen could be confusing, they at least make a decent amount of sense in structure.
+British order of battle could often be worse, with loose artillery battalions lying around in divisional units, random companies supporting brigades, and loose reconaissance everywhere.
+I've tried my best to minimize these loose units since all they would do is greatly frustrate the British commander. Only loose units that can be called "Infantry" are kept.
+This is problematic in the case of Machine-Gun Battalions. Both 70th Division and 1st South African Division had divisional battalions of that type.
+I've elected to not deploy them, however, since these units are never mentioned in the sources and don't appear to fight as one.
+On the other hand, 27th Machine Gun Battalion from New Zealand does seem to have fought as a single operational unit, so I've included it.
+Here's a couple such examples:
+70th Division: 1st RHA, 107th RHA, 17th Coast RA, 149th Anti-Tank RA, 1st Royal Northumberland Fusiliers (MG)
+7th Armoured: 4th SA Armoured Cars, 4th RHA (sent from support group to 7th Armoured Brigade, probably by Gott)
+1st South African Division: "President Steyn" Machine Gun Battalion

@@ -5,8 +5,8 @@
 
 16 regular german battalions
 36 regular italian battalions
-+2 german pickable
-+8 italian pickable
-=62
++4 german pickable
++9 italian pickable
+=63
 
-=122
+=125

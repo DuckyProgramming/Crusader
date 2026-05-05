@@ -29,7 +29,7 @@ XIII Corps (33 Battalions)
 
 
 
-Deutsches Afrika Korps (16 Battalions)
+Deutsches Afrika Korps (18 Battalions)
 
 15th Panzer Division (9 Battalions)
 	8th Panzer Regiment (2 Battalions)
@@ -37,25 +37,28 @@ Deutsches Afrika Korps (16 Battalions)
 	33rd Armoured Car Battalion
 	33rd Artillery Regiment (3 Battalions)
 
-90th Light Division (7 Battalions)
+90th Light Division (9 Battalions)
 	15th Infantry Brigade (4 Battalions)
     	200th Motorized Infantry Regiment (2 Battalions)
 		361st Motorized Infantry Regiment (2 Battalions)
     288th Motorized Infantry Regiment (2 Battalions)
 	361st Artillery Battalion
+	606th Flak Battalion
+	508th Reconaissance Company
 
 
 
-XX Mobile Corps (20 Battalions)
+XX Mobile Corps (21 Battalions)
 
 Regiment Group "Giovani Fascisti" (2 Motorized Militia Battalions)
 Italian Africa Police Battalion "Romolo Gessi"
 Motorized Artillery Battalion "Raggruppamento Batterie Volanti"
 
-101st Motorized Division "Trieste" (6 Battalions)
+101st Motorized Division "Trieste" (7 Battalions)
 	65th Motorized Infantry Regiment (2 Motorized Infantry Battalions)
 	66th Motorized Infantry Regiment (2 Motorized Infantry Battalions)
 	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion)
+	Milizia Marittima di Artiglieria Battalion "CAM"
 
 102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
