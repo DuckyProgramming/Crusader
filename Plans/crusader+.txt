@@ -38,21 +38,21 @@ Deutsches Afrika Korps (20 Battalions)
 
 300th "Oasis" Infantry Battalion
 
-15th Panzer Division (11 Battalions)
+15th Panzer Division (10 Battalions)
 	8th Panzer Regiment (2 Battalions)
 	15th Infantry Brigade (3 Battalions)
 		115th Motorized Infantry Regiment (1 Battalion)
 		200th Regimental Staff z.b.V. (1 Machine Gun Battalion, 1 Motorcycle Battalion)
 	33rd Armoured Car Battalion
 	33rd Artillery Regiment (3 Battalions)
+	33rd Panzer Pioneer Battalion
 
-90th Light Division (8 Battalions)
+90th Light Division (9 Battalions)
 	2nd Battalion, 115th Motorized Infantry Regiment (Detached From 15th Panzer)
 	361st Infantry Regiment (2 Semi-Motorized Infantry Battalions, 1 Semi-Motorized Artillery Battalion)
 	3rd Battalion, 255th Infantry Regiment
 	3rd Battalion, 347th Infantry Regiment
 	Sonderverband 288 (2 Mixed Battalions)
-	606th Flak Battalion
 	508th Reconaissance Company
 
 
@@ -61,14 +61,15 @@ XX Mobile Corps (45 Battalions)
 
 8th Army Artillery Group (3 Battalions, 1 Light Battalion)
 Mixed Corps Artillery Regiment (1 Battalion, 1 Motorized Battalion)
-RECAM (1 Security Tank Battalion, 2 Motorized Militia Battalions, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
+Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+RECAM (1 Security Tank Battalion, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
 
 101st Motorized Division "Trieste" (12 Battalions)
 	65th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
 	66th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
 	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion, 1 Machine Gun Battalion, 1 Mixed Support Battalion)
 	508th Mixed Support Battalion
-	Milizia Marittima di Artiglieria Battalion "CAM"
+	Milizia Marittima di Artiglieria "Corpo d'Armata di Manovra"
 
 55th Infantry Division "Savona" (9 Battalions)
 	15th Infantry Regiment (3 Battalions)

@@ -287,7 +287,7 @@ export class operation{
                     if(this.anim.pick[a]>0){
                         //layer.fill(200,this.anim.pick[a])
                         //layer.rect(layer.width/2,layer.height/2,800,340,20)
-                        if(a==3){
+                        /*if(a==3){
                             layer.fill(200,this.anim.pick[a])
                             layer.rect(layer.width/2,layer.height/2,800,440,20)
                             layer.fill(0,this.anim.pick[a])
@@ -348,7 +348,60 @@ export class operation{
                                 `4 Infantry Battalions`,
                                 `3 Artillery Battalions, 2 Mixed Support Battalions`,
                             ][a],layer.width/2,layer.height/2+130)
-                        }
+                        }*/
+                        layer.fill(0,this.anim.pick[a])
+                        layer.textSize(80)
+                        layer.text(`${types.player[[0,0,0,1,1,1,2,2,2][a]].name} Deployment`,layer.width/2,layer.height/2-96)
+                        layer.fill(150,this.anim.pick[a])
+                        layer.rect(layer.width/2,layer.height/2+10,480,80,20)
+                        layer.rect(layer.width/2,layer.height/2+110,480,80,20)
+                        layer.fill(0,this.anim.pick[a])
+                        layer.textSize(25)
+                        layer.text([
+                            `14th Infantry Brigade`,
+                            `2nd New Zealand Field Regiment`,
+                            `1st South African Infantry Brigade`,
+                            `15th Motorcycle Battalion`,
+                            `3rd/255th and 3rd/347th Infantry Battalions`,
+                            `2nd Battalion, 115th Infantry Regiment`,
+                            `9th Bersaglieri Regiment`,
+                            `8th Army Artillery Group`,
+                            `MILMART 'Corpo d'Armata di Manovra'`,
+                        ][a],layer.width/2,layer.height/2)
+                        layer.text([
+                            `32nd Army Tank Brigade`,
+                            `11th Indian Infantry Brigade`,
+                            `29th Indian Infantry Brigade`,
+                            `33rd Panzer Pioneer Battalion`,
+                            `Sonderverband 288`,
+                            `580th Reconnaissance Company`,
+                            `60th Infantry Division 'Sabratha'`,
+                            `Support Elements`,
+                            `503rd Independent Coastal Artillery Group`,
+                        ][a],layer.width/2,layer.height/2+100)
+                        layer.textSize(20)
+                        layer.text([
+                            `3 Infantry Battalions`,
+                            `3 Artillery Battalions`,
+                            `3 Infantry Battalions, 1 Artillery Battalion`,
+                            `1 Motorcycle Battalion`,
+                            `2 Infantry Battalions`,
+                            `1 Motorized Infantry Battalion`,
+                            `4 Bersaglieri Battalions`,
+                            `4 Artillery Battalions`,
+                            `1 Motorized Artillery Battalion`,
+                        ][a],layer.width/2,layer.height/2+30)
+                        layer.text([
+                            `2 Heavy Tank Battalions, 1 Artillery Battalion`,
+                            `3 Infantry Battalions`,
+                            `3 Infantry Battalions, 1 Armored Car Battalion`,
+                            `1 Motorized Engineer Battalion`,
+                            `2 Mixed Battalions`,
+                            `1 Reconaissance Company`,
+                            `4 Infantry Battalions`,
+                            `3 Artillery Battalions, 2 Mixed Support Battalions`,
+                            `1 Artillery Battalion`,
+                        ][a],layer.width/2,layer.height/2+130)
                     }
                 }
                 if(this.anim.start>0){
@@ -547,16 +600,16 @@ export class operation{
                             }
                         }
                     }else if(this.turn.pick){
-                        if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+(this.turn.main==3?-40:10),480,80))){
+                        if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+10/*(this.turn.main==3?-40:10)*/,480,80))){
                             this.turn.main++
                             if(this.turn.main>=types.reserve.length){
                                 this.spawnUnits()
                                 this.turn.main=0
                                 this.turn.pick=false
                             }
-                        }else if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+(this.turn.main==3?60:110),480,80))){
+                        }else if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+110/*(this.turn.main==3?60:110)*/,480,80))){
                             let target
-                            switch(this.turn.main){
+                            /*switch(this.turn.main){
                                 case 0:
                                     target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
                                     target.elements[findAbstract(`desc`,`14th Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
@@ -570,10 +623,8 @@ export class operation{
                                     target.elements[findAbstract(`desc`,`1st South African Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
                                 break
                                 case 3:
-                                    /*target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
-                                    target.elements[findAbstract(`desc`,`Sperrverband, Sonderverband 288`,target.elements)]=types.reserve[this.turn.main]*/
                                     target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
-                                    target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main][0])
+                                    target.elements[findAbstract(`desc`,`Sperrverband, Sonderverband 288`,target.elements)]=types.reserve[this.turn.main]
                                 break
                                 case 4:
                                     types.unit[findAbstract(`desc`,`8th Army Artillery Group`,types.unit)]=types.reserve[this.turn.main]
@@ -583,6 +634,48 @@ export class operation{
                                     target.elements.splice(target.elements[findAbstract(`desc`,`7th Bersaglieri Regiment`,target.elements)],1)
                                     types.unit.push(types.reserve[this.turn.main])
                                 break
+                            }*/
+                            switch(this.turn.main){
+                                case 0:
+                                    target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`14th Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 1:
+                                    target=types.unit[findAbstract(`desc`,`2nd New Zealand Division`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`2nd New Zealand Field Brigade`,target.elements),1)
+                                    target.elements[findAbstract(`desc`,`4th New Zealand Infantry Brigade`,target.elements)].pos=[2620,1210]
+                                    types.unit.push(types.reserve[this.turn.main])
+                                break
+                                case 2:
+                                    target=types.unit[findAbstract(`desc`,`1st South African Infantry Division`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`1st South African Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 3:
+                                    target=types.unit[findAbstract(`desc`,`15th Panzer Division`,types.unit)]
+                                    target=target.elements[findAbstract(`desc`,`15th Infantry Brigade`,target.elements)]
+                                    target.elements[findAbstract(`desc`,`Regimental Staff z.b.V. 200`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 4:
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main])
+                                break
+                                case 5:
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`2nd Battalion, 115th Infantry Regiment`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 6:
+                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`9th Bersaglieri Regiment`,target.elements),1)
+                                    types.unit.push(types.reserve[this.turn.main])
+                                break
+                                case 7:
+                                    types.unit.splice(findAbstract(`desc`,`8th Army Artillery Group`,types.unit),1,...types.reserve[this.turn.main])
+                                break
+                                case 8:
+                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`Milizia Marittima di Artiglieria 'Corpo d'Armata di Manovra'`,target.elements),1)
+                                    types.unit.push(types.reserve[this.turn.main])
+                                break
                             }
                             this.turn.main++
                             if(this.turn.main>=types.reserve.length){
@@ -590,7 +683,7 @@ export class operation{
                                 this.turn.main=0
                                 this.turn.pick=false
                             }
-                        }else if(this.turn.main==3&&inPointBox(mouse,boxify(layer.width/2,layer.height/2+160,480,80))){
+                        }/*else if(this.turn.main==3&&inPointBox(mouse,boxify(layer.width/2,layer.height/2+160,480,80))){
                             let target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
                             target.elements[findAbstract(`desc`,`361st 'Afrika' Infantry Regiment`,target.elements)].pos=types.reserve[this.turn.main][0].pos
                             target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main][2])
@@ -601,7 +694,7 @@ export class operation{
                                 this.turn.main=0
                                 this.turn.pick=false
                             }
-                        }
+                        }*/
                     }else if(this.turn.prep){
                         this.turn.prep=false
                         this.turn.loading=true
@@ -815,6 +908,36 @@ export class operation{
                             }
                         }else if(key==`2`){
                             let target
+                            /*switch(this.turn.main){
+                                case 0:
+                                    target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`14th Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 1:
+                                    target=types.unit[findAbstract(`desc`,`2nd New Zealand Division`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`2nd New Zealand Field Brigade`,target.elements),1)
+                                    target.elements[findAbstract(`desc`,`4th New Zealand Infantry Brigade`,target.elements)].pos=[2620,1210]
+                                    types.unit.push(types.reserve[this.turn.main])
+                                break
+                                case 2:
+                                    target=types.unit[findAbstract(`desc`,`1st South African Infantry Division`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`1st South African Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 3:
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`Sperrverband, Sonderverband 288`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 4:
+                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`9th Bersaglieri Regiment`,target.elements),1)
+                                    types.unit.push(types.reserve[this.turn.main])
+                                break
+                                case 5:
+                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`Milizia Marittima di Artiglieria 'Corpo d'Armata di Manovra'`,target.elements),1)
+                                    types.unit.splice(findAbstract(`desc`,`8th Army Artillery Group`,types.unit),1,...types.reserve[this.turn.main])
+                                break
+                            }*/
                             switch(this.turn.main){
                                 case 0:
                                     target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
@@ -831,20 +954,30 @@ export class operation{
                                     target.elements[findAbstract(`desc`,`1st South African Infantry Brigade`,target.elements)]=types.reserve[this.turn.main]
                                 break
                                 case 3:
-                                    /*target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
-                                    target.elements[findAbstract(`desc`,`Sperrverband, Sonderverband 288`,target.elements)]=types.reserve[this.turn.main]*/
-                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
-                                    target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main][0])
+                                    target=types.unit[findAbstract(`desc`,`15th Panzer Division`,types.unit)]
+                                    target=target.elements[findAbstract(`desc`,`15th Infantry Brigade`,target.elements)]
+                                    target.elements[findAbstract(`desc`,`Regimental Staff z.b.V. 200`,target.elements)]=types.reserve[this.turn.main]
                                 break
                                 case 4:
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`3rd Battalion, 255th Infantry Regiment`,target.elements),2,types.reserve[this.turn.main])
+                                break
+                                case 5:
+                                    target=types.unit[findAbstract(`desc`,`Division z.b.V. 'Afrika'`,types.unit)]
+                                    target.elements[findAbstract(`desc`,`2nd Battalion, 115th Infantry Regiment`,target.elements)]=types.reserve[this.turn.main]
+                                break
+                                case 6:
                                     target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
                                     target.elements.splice(findAbstract(`desc`,`9th Bersaglieri Regiment`,target.elements),1)
                                     types.unit.push(types.reserve[this.turn.main])
                                 break
-                                case 5:
-                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
-                                    target.elements.splice(findAbstract(`desc`,`Milizia Marittima di Artiglieria Battalion 'Corpo d'Armata di Manovra'`,target.elements),1)
+                                case 7:
                                     types.unit.splice(findAbstract(`desc`,`8th Army Artillery Group`,types.unit),1,...types.reserve[this.turn.main])
+                                break
+                                case 8:
+                                    target=types.unit[findAbstract(`desc`,`101st Motorized Infantry Division 'Trieste'`,types.unit)]
+                                    target.elements.splice(findAbstract(`desc`,`Milizia Marittima di Artiglieria 'Corpo d'Armata di Manovra'`,target.elements),1)
+                                    types.unit.push(types.reserve[this.turn.main])
                                 break
                             }
                             this.turn.main++

@@ -3,7 +3,7 @@
 XXX Corps (19 Battalions)
 
 7th Armoured Division (15 Battalions)
-1st King's Dragoon Guards Armoured Cars
+	1st King's Dragoon Guards Armoured Cars
 	2nd Armoured Brigade (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
@@ -31,26 +31,26 @@ XIII Corps (33 Battalions)
 
 Deutsches Afrika Korps (18 Battalions)
 
-15th Panzer Division (9 Battalions)
+15th Panzer Division (10 Battalions)
 	8th Panzer Regiment (2 Battalions)
 	115th Motorized Infantry Regiment (3 Battalions)
 	33rd Armoured Car Battalion
 	33rd Artillery Regiment (3 Battalions)
+	33rd Panzer Pioneer Battalion
 
-90th Light Division (9 Battalions)
+90th Light Division (8 Battalions)
 	15th Infantry Brigade (4 Battalions)
     	200th Motorized Infantry Regiment (2 Battalions)
 		361st Motorized Infantry Regiment (2 Battalions)
     288th Motorized Infantry Regiment (2 Battalions)
 	361st Artillery Battalion
-	606th Flak Battalion
 	508th Reconaissance Company
 
 
 
 XX Mobile Corps (21 Battalions)
 
-Regiment Group "Giovani Fascisti" (2 Motorized Militia Battalions)
+Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 Italian Africa Police Battalion "Romolo Gessi"
 Motorized Artillery Battalion "Raggruppamento Batterie Volanti"
 

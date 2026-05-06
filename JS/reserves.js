@@ -70,5 +70,26 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
             {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
         ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
+        desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`,icon:`90l`,
+        pos:[950,380],
+        elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`},
+        ],
+    },{
+        level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
+        desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:``,
+        pos:[1243,482],
+        elements:[
+            {level:3,type:`Motorized Flak`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
+        ],
+    },{
+        level:3,type:[`Engineer`,`Motorized`],team:`German`,
+        desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`,icon:`15pz`,
+        pos:[1737,1251],
+        elements:[
+            {level:3,type:`Motorized Engineer`,team:`German`,desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`}, 
+        ],
     },
 ]

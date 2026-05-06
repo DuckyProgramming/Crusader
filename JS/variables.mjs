@@ -40,8 +40,8 @@ export var types={
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
         {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true},
         {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true},
-        {name:`Flak`,unitType:[`Artillery`,`Anti-Tank`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false},
-        {name:`Motorized Flak`,unitType:[`Artillery`,`Anti-Tank`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false},
+        {name:`Flak`,unitType:[`Anti-Tank`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false},
+        {name:`Motorized Flak`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false},
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -860,10 +860,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`,icon:`90l`,
+                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`,icon:`90l`,
                                     pos:[950,380],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,
@@ -890,10 +890,16 @@ export var types={
                             pos:[1386,1151],
                             elements:[
                                 {level:3,type:`Security Tank`,team:`Italian`,desc:`52nd Security Tank Battalion`,name:`52`,designation:`Security`,commander:`Mayneri`},
-                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                 {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
                                 {level:3,type:`Motorized Group Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:`Nicolardi`},
+                            ],
+                        },{
+                            level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
+                            desc:`Infantry Regiment 'Giovani Fascisti'`,name:`GF`,designation:``,commander:`Nannini`,icon:``,
+                            pos:[1222,959],
+                            elements:[
+                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                             ],
                         },{
                             level:0,type:[`Infantry`,'Motorized'],team:`Italian`,
@@ -930,7 +936,7 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
-                                    desc:`Milizia Marittima di Artiglieria Battalion 'Corpo d'Armata di Manovra'`,name:`MILMART`,designation:``,commander:`Priore`,icon:`trieste`,
+                                    desc:`Milizia Marittima di Artiglieria 'Corpo d'Armata di Manovra'`,name:`MILMART`,designation:``,commander:`Priore`,icon:`trieste`,
                                     pos:[1062,1469],
                                     elements:[
                                         {level:3,type:`Motorized Artillery`,team:`Italian`,desc:`Milizia Marittima di Artiglieria Battalion 'Corpo d'Armata di Manovra'`,name:`MILMART`,designation:``,commander:`Priore`},
@@ -1262,10 +1268,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`,icon:`90l`,
+                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`,icon:`90l`,
                                     pos:[950,380],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,
@@ -1292,10 +1298,16 @@ export var types={
                             pos:[1386,1151],
                             elements:[
                                 {level:3,type:`Security Tank`,team:`Italian`,desc:`52nd Security Tank Battalion`,name:`52`,designation:`Security`,commander:`Mayneri`},
-                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                 {level:3,type:`Motorcycle Police`,team:`Italian`,desc:`Battalion 'Romolo Gessi', Italian Africa Police`,name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
                                 {level:3,type:`Motorized Group Artillery`,team:`Italian`,desc:`Raggruppamento Batterie Volanti`,name:`RB`,designation:`Volanti`,commander:`Nicolardi`},
+                            ],
+                        },{
+                            level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
+                            desc:`Infantry Regiment 'Giovani Fascisti'`,name:`GF`,designation:``,commander:`Nannini`,icon:``,
+                            pos:[1222,959],
+                            elements:[
+                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`1st Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                {level:3,type:`Motorized Militia`,team:`Italian`,desc:`2nd Battalion, Infantry Regiment 'Giovani Fascisti'`,name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                             ],
                         },{
                             level:0,type:[`Infantry`,'Motorized'],team:`Italian`,
@@ -1332,7 +1344,7 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
-                                    desc:`Milizia Marittima di Artiglieria Battalion 'Corpo d'Armata di Manovra'`,name:`MILMART`,designation:``,commander:`Priore`,icon:`trieste`,
+                                    desc:`Milizia Marittima di Artiglieria 'Corpo d'Armata di Manovra'`,name:`MILMART`,designation:``,commander:`Priore`,icon:`trieste`,
                                     pos:[1062,1469],
                                     elements:[
                                         {level:3,type:`Motorized Artillery`,team:`Italian`,desc:`Milizia Marittima di Artiglieria Battalion 'Corpo d'Armata di Manovra'`,name:`MILMART`,designation:``,commander:`Priore`},
@@ -1449,31 +1461,29 @@ export var types={
                         {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`3rd Battalion, 2nd Punjab Regiment`,name:`3/2`,designation:`Punjab`,commander:`Dean`},
                         {level:3,type:`Armored Car`,team:`South African`,desc:`6th South African Armoured Car Regiment`,name:`6`,designation:``,commander:`Short`},
                     ],
-                },[
-                    {
-                        level:2,type:[`Infantry`,`Mixed`],team:`German`,
-                        desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
-                        pos:[895,395],
-                        elements:[
-                            {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Sperrverband, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
-                            {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Sperrverband, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
-                        ],
-                    },{
-                        level:4,type:[`Tank`,`Recon`],team:`German`,
-                        desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`,icon:`90l`,
-                        pos:[1141,566],
-                        elements:[
-                            {level:4,type:`Armored Car Company`,team:`German`,desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`}, 
-                        ],
-                    },{
-                        level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
-                        desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`,icon:``,
-                        pos:[1243,482],
-                        elements:[
-                            {level:3,type:`Motorized Flak`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
-                        ],
-                    },
-                ],{
+                },{
+                    level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                    desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
+                    pos:[1533,599],
+                    elements:[
+                        {level:3,type:`Motorized Engineer`,team:`German`,desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`}, 
+                    ],
+                },{
+                    level:2,type:[`Infantry`,`Mixed`],team:`German`,
+                    desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+                    pos:[895,395],
+                    elements:[
+                        {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Sperrverband, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
+                        {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Sperrverband, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+                    ],
+                },{
+                    level:4,type:[`Tank`,`Recon`],team:`German`,
+                    desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`,icon:`90l`,
+                    pos:[1030,315],
+                    elements:[
+                        {level:4,type:`Armored Car Company`,team:`German`,desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`}, 
+                    ],
+                },{
                     level:0,type:[`Infantry`],team:`Italian`,
                     desc:`60th Infantry Division 'Sabratha'`,name:`60`,designation:`Sabratha`,commander:`Soldarelli`,icon:`sabratha`,
                     pos:[1028,617],
@@ -1519,15 +1529,15 @@ export var types={
                         elements:[
                             {level:3,type:`Mixed Support`,team:`Italian`,desc:`551st Mixed Support Battalion`,name:`551`,designation:``,commander:`Bobbio`},
                         ],
-                    },{
-                        level:3,type:[`Artillery`],team:`Italian`,
-                        desc:`503rd Independent Coastal Artillery Group`,name:`503`,designation:`Coast`,commander:`Verri`,icon:`savona`,
-                        pos:[2245,937],
-                        elements:[
-                            {level:3,type:`Coastal Artillery`,team:`Italian`,desc:`503rd Independent Coastal Artillery Group`,name:`503`,designation:`Coast`,commander:`Verri`,icon:`savona`},
-                        ],
                     },
-                ],
+                ],{
+                    level:3,type:[`Artillery`],team:`Italian`,
+                    desc:`503rd Independent Coastal Artillery Group`,name:`503`,designation:`Coast`,commander:`Verri`,icon:`savona`,
+                    pos:[2245,937],
+                    elements:[
+                        {level:3,type:`Coastal Artillery`,team:`Italian`,desc:`503rd Independent Coastal Artillery Group`,name:`503`,designation:`Coast`,commander:`Verri`,icon:`savona`},
+                    ],
+                },
             ]
         },
     ],
