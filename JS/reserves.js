@@ -91,5 +91,15 @@ reserves=[
         elements:[
             {level:3,type:`Motorized Engineer`,team:`German`,desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`}, 
         ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`South African`,
+        desc:`4th South African Infantry Brigade`,name:`4`,designation:``,commander:`Hayton`,icon:`2sa`,
+        pos:[1494,285],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`South African`,desc:`Umvoti Mounted Rifles`,name:`UMR`,designation:``,commander:`L'Estrange`},
+            {level:3,type:`Motorized Infantry`,team:`South African`,desc:`The Kaffrarian Rifles`,name:`KR`,designation:``,commander:`Page`},
+            {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, Royal Durban Light Infantry`,name:`2`,designation:`Royal\nDurban`,commander:`Wendt`},
+            {level:3,type:`Motorized Artillery`,team:`South African`,desc:`2nd South African Field Artillery Regiment`,name:`2`,designation:``,commander:`Sherwell`},
+        ],
     },
 ]

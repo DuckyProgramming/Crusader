@@ -232,7 +232,7 @@ export var types={
                                     pos:[2590,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`4th Regiment, Royal Horse Artillery`,name:`4`,designation:`Royal\nHorse`,commander:`Currie`},
                                     ],
@@ -428,7 +428,7 @@ export var types={
                                     pos:[2590,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`4th Regiment, Royal Horse Artillery`,name:`4`,designation:`Royal\nHorse`,commander:`Currie`},
                                     ],
                                 },{
@@ -611,18 +611,18 @@ export var types={
                                 {
                                     level:1,type:[`Tank`,`Light`],team:`British`,
                                     desc:`4th Armoured Brigade`,name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
-                                    pos:[2380,1420],
+                                    pos:[2330,1420],
                                     elements:[
                                         {level:3,type:`Light Tank`,team:`British`,desc:`3rd Royal Tank Regiment`,name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
                                         {level:3,type:`Light Tank`,team:`British`,desc:`5th Royal Tank Regiment`,name:`5`,designation:`Royal Tank\nRegiment`,commander:`Carver`},
-                                        {level:3,type:`Light Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
+                                        {level:3,type:`Light Tank`,team:`British`,desc:`8th Irish Hussars`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:`Mayfield`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`2nd Regiment, Royal Horse Artillery`,name:`2`,designation:`Royal\nHorse`,commander:`Aikenhead`},
                                     ],
                                 },{
                                     level:1,type:[`Tank`],team:`British`,
                                     desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
-                                    pos:[2485,1420],
+                                    pos:[2435,1420],
                                     elements:[
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`6th Royal Tank Regiment`,name:`6`,designation:`Royal Tank\nRegiment`,commander:`Lister`},
@@ -631,10 +631,10 @@ export var types={
                                 },{
                                     level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
                                     desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7a`,
-                                    pos:[2590,1420],
+                                    pos:[2540,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`60th (North Midland) Field Regiment, Royal Artillery`,name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
                                     ],
@@ -650,12 +650,12 @@ export var types={
                         },{
                             level:0,type:[`Infantry`,`Motorized`],team:`South African`,
                             desc:`1st South African Infantry Division`,name:`1`,designation:``,commander:`Brink`,icon:`1sa`,
-                            pos:[2750,1520],
+                            pos:[2700,1520],
                             elements:[
                                 {
                                     level:1,type:[`Infantry`,`Motorized`],team:`South African`,
                                     desc:`1st South African Infantry Brigade`,name:`1`,designation:``,commander:`Pienaar`,icon:`1sa`,
-                                    pos:[2535,1520],
+                                    pos:[2385,1520],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Duke of Edinburgh's Own Rifles`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Seneschall`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Royal Natal Carabineers`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
@@ -665,7 +665,7 @@ export var types={
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`South African`,
                                     desc:`5th South African Infantry Brigade`,name:`5`,designation:``,commander:`Armstrong`,icon:`1sa`,
-                                    pos:[2640,1520],
+                                    pos:[2590,1520],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, South African Irish Regiment`,name:`1`,designation:`Irish`,commander:`Cochran`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, General Botha Regiment`,name:`2`,designation:`Botha`,commander:`Mason`},
@@ -1027,18 +1027,18 @@ export var types={
                                 {
                                     level:1,type:[`Tank`,`Light`],team:`British`,
                                     desc:`4th Armoured Brigade`,name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
-                                    pos:[2380,1420],
+                                    pos:[2330,1420],
                                     elements:[
                                         {level:3,type:`Light Tank`,team:`British`,desc:`3rd Royal Tank Regiment`,name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
                                         {level:3,type:`Light Tank`,team:`British`,desc:`5th Royal Tank Regiment`,name:`5`,designation:`Royal Tank\nRegiment`,commander:`Carver`},
-                                        {level:3,type:`Light Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
+                                        {level:3,type:`Light Tank`,team:`British`,desc:`8th Irish Hussars`,name:`8`,designation:`Irish\nHussars`,commander:`Drew`},
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:`Mayfield`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`2nd Regiment, Royal Horse Artillery`,name:`2`,designation:`Royal\nHorse`,commander:`Aikenhead`},
                                     ],
                                 },{
                                     level:1,type:[`Tank`],team:`British`,
                                     desc:`7th Armoured Brigade`,name:`7`,designation:``,commander:`Davy`,icon:`7a`,
-                                    pos:[2485,1420],
+                                    pos:[2435,1420],
                                     elements:[
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`2nd Royal Tank Regiment`,name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`},
                                         {level:3,type:`Medium Tank`,team:`British`,desc:`6th Royal Tank Regiment`,name:`6`,designation:`Royal Tank\nRegiment`,commander:`Lister`},
@@ -1047,10 +1047,10 @@ export var types={
                                 },{
                                     level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
                                     desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7a`,
-                                    pos:[2590,1420],
+                                    pos:[2540,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`The Rifle\nBrigade`,commander:`Renton`},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`3rd Regiment, Royal Horse Artillery`,name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:`60th (North Midland) Field Regiment, Royal Artillery`,name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
                                     ],
@@ -1071,7 +1071,7 @@ export var types={
                                 {
                                     level:1,type:[`Infantry`,`Motorized`],team:`South African`,
                                     desc:`1st South African Infantry Brigade`,name:`1`,designation:``,commander:`Pienaar`,icon:`1sa`,
-                                    pos:[2535,1520],
+                                    pos:[2485,1520],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Duke of Edinburgh's Own Rifles`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Seneschall`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Royal Natal Carabineers`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
@@ -1081,7 +1081,7 @@ export var types={
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`South African`,
                                     desc:`5th South African Infantry Brigade`,name:`5`,designation:``,commander:`Armstrong`,icon:`1sa`,
-                                    pos:[2640,1520],
+                                    pos:[2590,1520],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, South African Irish Regiment`,name:`1`,designation:`Irish`,commander:`Cochran`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, General Botha Regiment`,name:`2`,designation:`Botha`,commander:`Mason`},
@@ -1454,7 +1454,7 @@ export var types={
                 },{
                     level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
                     desc:`29th Indian Infantry Brigade`,name:`29`,designation:``,commander:`Reid`,icon:`5id`,
-                    pos:[2535,1520],
+                    pos:[2485,1520],
                     elements:[
                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, Worcestershire Regiment`,name:`1`,designation:`Worcester`,commander:`Knight`},
                         {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`1st Battalion, 5th Mahratta Light Infantry`,name:`1/5`,designation:`Mahratta`,commander:`Mahant`},
