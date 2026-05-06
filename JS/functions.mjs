@@ -1,4 +1,3 @@
-import {inputs} from './variables.mjs'
 import {lsin,lcos} from './graphics.mjs'
 //calculatory
 export function floor(value){
@@ -227,7 +226,7 @@ export function findAbstract(term,search,list){
     throw new Error(`findAbstract Fail: ${search}, ${list.map(element=>element[term])}`)
 	return -1
 }
-export function updateMouse(layer,scale){
+export function updateMouse(layer,scale,inputs){
     inputs.mouse.previous.base.x=inputs.mouse.base.x
     inputs.mouse.previous.base.y=inputs.mouse.base.y
     inputs.mouse.previous.rel.x=inputs.mouse.rel.x
@@ -482,6 +481,14 @@ export function summon(desc,parent){
         tempUnits.splice(0,1)
     }
     parent.joinElement(allUnits[findAbstract(`desc`,desc,allUnits)])
+}
+export function kills(){
+    window.options.obscureKills=false
+    current.units.forEach(unit=>{
+        if(!unit.contain.trigger||unit.contain.units.length>0){
+            print(`${unit.desc}: ${round(unit.getKills(0))} Kills, ${round(unit.getKills(1))} Tanks, ${round(unit.getKills(2))} Artillery`)
+        }
+    })
 }
 //tool
 /*testEvens=(num)=>{

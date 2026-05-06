@@ -101,5 +101,12 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, Royal Durban Light Infantry`,name:`2`,designation:`Royal\nDurban`,commander:`Wendt`},
             {level:3,type:`Motorized Artillery`,team:`South African`,desc:`2nd South African Field Artillery Regiment`,name:`2`,designation:``,commander:`Sherwell`},
         ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`Luxembourgish`,
+        desc:`Duchess Charlotte's Chasseurs`,name:`DCC`,designation:``,commander:``,icon:``,
+        pos:[1499,280],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`Luxembourgish`,desc:`Duchess Charlotte's Chasseurs`,name:`DCC`,designation:``,commander:``},
+        ],
     },
 ]

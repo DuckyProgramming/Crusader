@@ -1,11 +1,11 @@
-import {dev,graphics,constants,inputs,types} from './variables.mjs'
-import {see,battalions,strength,normalize,summon} from './functions.mjs'
+import {dev,graphics,constants,inputs,types,options} from './variables.mjs'
+import {see,battalions,strength,normalize,summon,kills} from './functions.mjs'
 import {setupGraphics,displayMain} from './graphics.mjs'
 import {operation} from './operation.mjs'
 var current
 export function setup(){
     createCanvas(windowWidth-50,windowHeight-50)
-    setupGraphics()
+    setupGraphics(graphics)
     current=new operation()
     window.current=current
 }
@@ -14,7 +14,7 @@ export function draw(){
         current.display(graphics.main)
     }
     current.update(graphics.main,{position:{...inputs.mouse.rel}})
-    displayMain(graphics.main)
+    displayMain(graphics.main,inputs)
 }
 export function windowResized(){
     resizeCanvas(windowWidth-50,windowHeight-50)
@@ -41,11 +41,14 @@ window.mouseClicked=mouseClicked
 window.mouseDragged=mouseDragged
 window.keyPressed=keyPressed
 
-window.types=types
 window.inputs=inputs
+window.types=types
+window.options=options
+
 window.dev=dev
 window.see=see
 window.battalions=battalions
 window.strength=strength
 window.normalize=normalize
 window.summon=summon
+window.kills=kills

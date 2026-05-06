@@ -1,6 +1,6 @@
-import {constants,graphics} from './variables.mjs'
+import {constants} from './variables.mjs'
 import {updateMouse} from './functions.mjs'
-export function setupGraphics(){
+export function setupGraphics(graphics){
     setupBase()
 	setupConstants()
     setupTrig()
@@ -27,10 +27,10 @@ export function setupLayer(layer){
     layer.strokeJoin(ROUND)
 	layer.textFont('Times New Roman')
 }
-export function displayMain(layer){
+export function displayMain(layer,inputs){
     graphics.scale=min(width/layer.width,height/layer.height)
     image(layer,width/2,height/2,layer.width*graphics.scale,layer.height*graphics.scale)
-    updateMouse(graphics.main,graphics.scale)
+    updateMouse(graphics.main,graphics.scale,inputs)
 }
 export function setupConstants(){
 	constants.sqrt2=sqrt(2)

@@ -37,7 +37,7 @@ export class unit{
         this.strength={
             life:100,morale:100,supply:100,
             base:{life:100,morale:100,supply:100},
-            num:[0,0,0],transient:true,
+            num:[0,0,0],transient:true,rebuild:0,
         }
         this.order={
             position:{x:this.position.x,y:this.position.y},
@@ -136,6 +136,7 @@ export class unit{
                 temp:this.contain.temp,
             },
             logs:this.logs,
+            stats:this.stats,
             base:this.base,
             hist:this.hist,
         }
@@ -172,6 +173,7 @@ export class unit{
         this.battle=composite.battle
         this.contain=composite.contain
         this.logs=composite.logs
+        this.stats=composite.stats
         this.base=composite.base
         this.hist=composite.hist
         this.initialGraphics()
@@ -217,8 +219,11 @@ export class unit{
         }
     }
     endTick(){
-        if(!this.battle.injure&&this.contain.trigger){
-            this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+10,unit.strength.base.morale))
+        if(this.battle.injure){
+            this.strength.rebuild=10
+        }else if(this.contain.trigger){
+            this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+unit.strength.rebuild,unit.strength.base.morale))
+            this.strength.rebuild+=5
         }
         this.order.position.x=this.position.x
         this.order.position.y=this.position.y
@@ -265,9 +270,9 @@ export class unit{
     getDesc(){
         return `${this.contain.temp?``:`the `}${this.desc}`
     }
-    getKills(variant){
-        return (this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0))*(options.obscureKills?this.stats.obscure:1)
-    }
+        getKills(variant){
+            return (this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0))*(options.obscureKills?this.stats.obscure:1)
+        }
     getKillsClear(variant){
         return this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0)
     }
