@@ -523,10 +523,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`],team:`German`,
-                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`,icon:`15pz`,
+                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Hößlin`,icon:`15pz`,
                                     pos:[300,980],
                                     elements:[
-                                        {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Héraucourt`}, 
+                                        {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Hößlin`}, 
                                     ],
                                 },
                             ],

@@ -122,5 +122,35 @@ reserves=[
         elements:[
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
         ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
+        desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`,icon:`90l`,
+        pos:[850,375],
+        elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`},
+        ],
+    },{
+        level:0,type:[`Tank`],team:`German`,
+        desc:`21st Panzer Division`,name:`15`,designation:``,commander:`Ravenstein`,icon:`21pz`,
+        pos:[1554,434],
+        elements:[
+            {
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:`104th Infantry Regiment`,name:`104`,designation:``,commander:`Knabe`,icon:`21pz`,
+                pos:[1634,628],
+                elements:[
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 104th Infantry Regiment`,name:`1`,designation:`104`,commander:`Bach`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 104th Infantry Regiment`,name:`2`,designation:`104`,commander:`Marcks`},
+                    {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`8th Machine Gun Battalion`,name:`8`,designation:``,commander:`Schütte`},
+                ],
+            },{
+                level:3,type:[`Tank`,`Recon`],team:`German`,
+                desc:`3rd Reconnaissance Battalion`,name:`3`,designation:``,commander:`von Wechmar`,icon:`21pz`,
+                pos:[1737,1251],
+                elements:[
+                    {level:3,type:`Armored Car`,team:`German`,desc:`3rd Reconnaissance Battalion`,name:`3`,designation:``,commander:`von Wechmar`}, 
+                ],
+            },
+        ],
     },
 ]
