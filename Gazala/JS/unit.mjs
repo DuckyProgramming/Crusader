@@ -49,10 +49,7 @@ export class unit{
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
         this.base={position:{x:this.position.x,y:this.position.y}}
-        this.hist=[
-            ...elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total),
-            {active:true,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}}
-        ]
+        this.hist=elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total*2)
 
         this.initialGraphics()
         if(data.elements.length>0){
@@ -92,7 +89,7 @@ export class unit{
                 speed:this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0),
                 artillery:false,engineer:false,
             }
-            this.radius=40
+            this.radius=32
             this.order.artillery=false
         }
     }
@@ -165,7 +162,7 @@ export class unit{
         this.size=types.unitLevel[this.level].size[this.player]
         this.width=this.size*1.6
         this.height=this.size
-        this.radius=this.contain.trigger?this.size:45
+        this.radius=this.contain.trigger?this.size:32
 
         this.fade=composite.fade
         this.strength=composite.strength
@@ -217,6 +214,7 @@ export class unit{
         if(this.contain.trigger){
             this.contain.units.forEach(unit=>unit.battle.battalionVariance=(this.contain.units.length==1?1:random(2-constants.battalionVariance,constants.battalionVariance)))
         }
+        this.hist.push({active:this.active,position:{x:this.position.x,y:this.position.y},strength:{life:this.strength.life,morale:this.strength.morale,supply:this.strength.supply}})
     }
     endTick(){
         if(this.battle.injure){
@@ -685,16 +683,29 @@ export class unit{
             break
             case `hist`:
                 this.fade.hover=0
-                this.fade.stat=1
                 this.fade.logs=0
                 this.fade.order=0
 
-                this.fade.main=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].active?1:0,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].active?1:0)
+                /*if(this.hist[floor(mouse/60)].active==this.hist[min(this.hist.length-1,floor(mouse/60)+1)].active){
+                    this.fade.main=this.hist[floor(mouse/60)].active?1:0
+                }else if(this.hist[floor(mouse/60)].active&&!this.hist[min(this.hist.length-1,floor(mouse/60)+1)].active){
+                    this.fade.main=constrain((!this.hist[max(0,floor(mouse/60)-1)].active?1:10)-(mouse%60)/60*10,0,1)
+                }else if(!this.hist[floor(mouse/60)].active&&this.hist[min(this.hist.length-1,floor(mouse/60)+1)].active){
+                    this.fade.main=constrain(-9+(mouse%60)/60*10,0,1)
+                }
                 this.position.x=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].position.x,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].position.x)
                 this.position.y=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].position.y,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].position.y)
                 this.strength.life=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].strength.life,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].strength.life)
                 this.strength.morale=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].strength.morale,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].strength.morale)
-                this.strength.supply=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].strength.supply,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].strength.supply)
+                this.strength.supply=map((mouse%60)/60,0,1,this.hist[floor(mouse/60)].strength.supply,this.hist[min(this.hist.length-1,floor(mouse/60)+1)].strength.supply)*/
+
+                this.fade.main=map(mouse.time/mouse.limit,0,1,this.hist[mouse.tick].active?1:0,this.hist[min(this.hist.length-1,mouse.tick+1)].active?1:0)
+                this.fade.stat=this.fade.main
+                this.position.x=map(mouse.time/mouse.limit,0,1,this.hist[mouse.tick].position.x,this.hist[min(this.hist.length-1,mouse.tick+1)].position.x)
+                this.position.y=map(mouse.time/mouse.limit,0,1,this.hist[mouse.tick].position.y,this.hist[min(this.hist.length-1,mouse.tick+1)].position.y)
+                this.strength.life=map(mouse.time/mouse.limit,0,1,this.hist[mouse.tick].strength.life,this.hist[min(this.hist.length-1,mouse.tick+1)].strength.life)
+                this.strength.morale=map(mouse.time/mouse.limit,0,1,this.hist[mouse.tick].strength.morale,this.hist[min(this.hist.length-1,mouse.tick+1)].strength.morale)
+                this.strength.supply=map(mouse.time/mouse.limit,0,1,this.hist[mouse.tick].strength.supply,this.hist[min(this.hist.length-1,mouse.tick+1)].strength.supply)
             break
         }
     }

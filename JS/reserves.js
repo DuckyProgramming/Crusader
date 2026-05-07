@@ -108,5 +108,19 @@ reserves=[
         elements:[
             {level:3,type:`Motorized Infantry`,team:`Luxembourgish`,desc:`Duchess Charlotte's Chasseurs`,name:`DCC`,designation:``,commander:``},
         ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
+        desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hartz`,icon:`90l`,
+        pos:[850,375],
+        elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hartz`},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
+        desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`,icon:`90l`,
+        pos:[850,375],
+        elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
+        ],
     },
 ]

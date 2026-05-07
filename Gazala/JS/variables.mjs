@@ -43,6 +43,7 @@ export var types={
         {name:`Flak`,unitType:[`Anti-Tank`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false},
         {name:`Motorized Flak`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false},
 
+        {name:`Motorized Armed Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[11,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false},
         {name:`Superior Tank`,unitType:[`Tank`,`Superior`],class:1,damage:[15,15],armor:0.8,health:60,morale:0.75,num:50,speed:1.5,artillery:false,engineer:false},
     ],unitType:[
         {name:`Infantry`},
@@ -64,8 +65,8 @@ export var types={
         {name:`Superior`},
     ],unitLevel:[
         {name:`Division`,symbol:`XX`,size:[48,48,48]},
-        {name:`Brigade`,symbol:`X`,size:[42,36,36]},
-        {name:`Regiment`,symbol:`III`,size:[36,36,36]},
+        {name:`Brigade`,symbol:`X`,size:[40,36,36]},
+        {name:`Regiment`,symbol:`III`,size:[34,34,34]},
         {name:`Battalion`,symbol:`II`,size:[28,28,28]},
         {name:`Company`,symbol:`I`,size:[24,24,24]},
     ],map:[
@@ -500,9 +501,9 @@ export var types={
                                     desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                     pos:[460,920],
                                     elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
-                                        {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Finke`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`3rd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
                                     ],
                                 },{
                                     level:2,type:[`Artillery`,`Motorized`],team:`German`,
@@ -553,7 +554,7 @@ export var types={
                                             pos:[485,125],
                                             elements:[
                                                 {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`1st Battalion, 200th Infantry Regiment`,name:`1`,designation:`200`,commander:`Ehle`}, 
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 200th Infantry Regiment`,name:`2`,designation:`200`,commander:`Grund`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 200th Infantry Regiment`,name:`2`,designation:`200`,commander:`Panzenhagen`},
                                             ],
                                         },
                                     ],

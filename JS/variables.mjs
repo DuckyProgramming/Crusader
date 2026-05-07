@@ -266,7 +266,7 @@ export var types={
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, The Buffs (Royal East Kent Regiment)`,name:`1`,designation:`Buffs`,commander:`Knocker`},
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:`Mayfield`},
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`3Rd Battalion, Coldstream Guards`,name:`3`,designation:`Coldstream\nGuards`,commander:`Moubray`},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`3rd Battalion, Coldstream Guards`,name:`3`,designation:`Coldstream\nGuards`,commander:`Moubray`},
                                     ],
                                 },
                             ],
@@ -461,7 +461,7 @@ export var types={
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, The Buffs (Royal East Kent Regiment)`,name:`1`,designation:`Buffs`,commander:`Knocker`},
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Scots Guards`,name:`2`,designation:`Scots\nGuards`,commander:`Mayfield`},
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`3Rd Battalion, Coldstream Guards`,name:`3`,designation:`Coldstream\nGuards`,commander:`Moubray`},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`3rd Battalion, Coldstream Guards`,name:`3`,designation:`Coldstream\nGuards`,commander:`Moubray`},
                                     ],
                                 },
                             ],
@@ -853,17 +853,17 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`,icon:`90l`,
+                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`,icon:`90l`,
                                     pos:[850,375],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`,icon:`90l`,
+                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Panzenhagen`,icon:`90l`,
                                     pos:[950,380],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Panzenhagen`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,
@@ -1261,17 +1261,17 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`,icon:`90l`,
+                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`,icon:`90l`,
                                     pos:[850,375],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`,icon:`90l`,
+                                    desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Panzenhagen`,icon:`90l`,
                                     pos:[950,380],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Panzenhagen`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,

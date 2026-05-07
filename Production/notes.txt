@@ -1,22 +1,30 @@
 The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
 
 Hollmann commanded the 3rd Battalion, 155th Infantry Regiment (not in game) that was near the 3rd Battalions of the 255th and 347th Regiments.
+Actually, this is very likely not true. His rank was only that of Oberleutnant (First Lieutenant). It would be insane to have him commanding a battalion.
 
-Zintel took control of the 115th Infantry Regiment not long before crusader began. I was unable to find any evidence that Marcks commanded it during this time period.
+Zintel took control of the 115th Infantry Regiment not long before crusader began.
+I was unable to find any evidence that Marcks commanded it during this time period. I've later found evidence that he took command only in December.
 
 Finke and Warrelmann have both been claimed as the commander of 2nd Machine Gun Battalion. Based on my sources I believe Warrelmann was the commander at this time and Finke commanded 2nd Battalion, 115th Infantry Regiment instead.
 This has now become relevant in light of recent events, I've had to reintroduce both battalions.
+I believe that sources that indicate the non-existence of 2nd Machine Gun Battalion confused these two units. That, or they didn't realize the 2/115th Battalion had been temporarily detached.
+This battalion would be converted to a regular infantry battalion in April 1942 with its heavy companies split among the other battalions.
 
 Sonderverband 288 had not fully arrived in Africa by November 1941.
 Only one group, Sperrverband (blocking detachment) Daumiller had actually arrived, but didn't participate in Crusader. I think the unit is cool though, so I made it pickable.
 
 I don't intend to add Mickl's 155th Infantry Regiment (Semi-Motorized) as I don't know all of its battalion commanders.
 Only the third battalion's commander, Hollmann, is currently known.
-There's actually a lot of confusion about this, since other sources say that Meythaler was acutally the commander of 3/155 and 3/255's commander was somebody else. I know nothing about the matter.
+There's actually a lot of confusion about this, since other sources say that Meythaler was acutally the commander of 3/155 and 3/255's commander was somebody else.
+I'm inclined to think this was the case now, since the claim that Meythaler was in command of 3/255 wasn't well substantiated and could be a typo.
+It's also possible that his name was spelled Maythaler. I don't know either way, maybe somebody who knows German can help me with that.
 There's also a Captain Kolbeck who became commander of some kind of composite battalion at some point. Whether he held a command before that is unclear.
+Hartz commanded what appears to be just a single platoon from the 3/255 battaion. I wanted to put him as temp battalion commander but it didn't become necessary.
 
 I also don't know the commander of the 3rd Battalion, 347th Infantry Regiment. I've heard of an Oberstleutnant Grund, but very little is known of him.
 I've made him the commander, but I really can't confirm this.
+NOTE: This has now been reverted. Grund has been moved to the 3rd Battalion, 255th Infantry Regiment, as I have evidence that Albert Panzenhagen commanded 3/347 during this time.
 
 Sources are murky on this but here's the path of the infantry of the three divisions:
 Rommel arrives in Africa with IR zbV 200 with 2 machine gun battalions.
@@ -51,3 +59,5 @@ One source I have calls Daumiller Daumüller. Can't say anything about this.
 
 Many sources indicate an Oberst Zintel as commander of the 115th Motorized Regiment. This may have been the case.
 But... I can't find a single mention of this guy literally anywhere else. So I don't intend to trust this.
+
+I researched for some time this guy called Alfred Köster who commanded 200th Panzergrenadier Regiment after Geissler left. I was unable to find much of value. Where he originally came from I'll never know.

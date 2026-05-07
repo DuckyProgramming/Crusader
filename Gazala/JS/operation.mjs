@@ -12,12 +12,13 @@ export class operation{
         this.cities=[]
         this.units=[]
         this.scene=`main`
-        this.view={scale:1,hist:0}
+        this.view={scale:1}
         this.turn={
             main:0,time:0,total:0,prep:false,start:true,loading:false,order:[],
             bonus:false,partition:[],pick:false,
         }
         this.anim={main:0,prep:0,start:0,select:0,pick:[],selectTrigger:false}
+        this.hist={time:0,tick:0,limit:45}
         this.select={unit:0}
         this.initial()
         this.loadMap(this.map)
@@ -581,10 +582,15 @@ export class operation{
                 }
             break
             case `hist`:
-                this.cities.forEach(city=>city.update(layer,this.scene,this.view.hist))
-                this.units.forEach(unit=>unit.update(layer,this.scene,this.view.hist))
-                if(this.view.hist<60*this.turn.total){
-                    this.view.hist++
+                this.cities.forEach(city=>city.update(layer,this.scene,this.hist))
+                this.units.forEach(unit=>unit.update(layer,this.scene,this.hist))
+                if(this.hist.tick<this.turn.total*2-1){
+                    this.hist.time++
+                    if(this.hist.time>=this.hist.limit){
+                        this.hist.time=0
+                        this.hist.tick++
+                        this.hist.limit=60-this.hist.limit
+                    }
                 }
             break
         }
