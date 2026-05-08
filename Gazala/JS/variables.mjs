@@ -12,7 +12,7 @@ export var types={
         {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false},
         {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false},
         {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false},
-        {name:`Motorized Heavy Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:125,morale:1,num:1000,speed:2.25,artillery:false,engineer:true},
+        {name:`Motorized Heavy Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:125,morale:1,num:1000,speed:2.25,artillery:false,engineer:false},
         {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:2.25,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false},
         {name:`Motorized Machine Gun Bersaglieri`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1.2,num:800,speed:2.25,artillery:false,engineer:false},
@@ -24,8 +24,8 @@ export var types={
         {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.6,num:33,speed:1.5,artillery:false,engineer:false},
         {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false},
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false},
-        {name:`Armored Car`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false},
-        {name:`Armored Car Company`,unitType:[`Tank`,`Recon`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false},
+        {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false},
+        {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false},
         {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false},//20
         {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false},
@@ -36,14 +36,18 @@ export var types={
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
         {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},//39
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},//30
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
+        {name:`Motorized Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`,`Motorized`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:2.875,artillery:false,engineer:true},
+        {name:`Motorized Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`,`Motorized`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:3.25,artillery:false,engineer:false},
         {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true},
         {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true},
-        {name:`Flak`,unitType:[`Anti-Tank`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false},
-        {name:`Motorized Flak`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false},
+        {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:1,artillery:true,engineer:false},
+        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:2.5,artillery:true,engineer:false},
+        {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false},
+        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false},
 
-        {name:`Motorized Armed Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[11,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false},
+        {name:`Motorized Armed Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[11,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false},//40
         {name:`Superior Tank`,unitType:[`Tank`,`Superior`],class:1,damage:[15,15],armor:0.8,health:60,morale:0.75,num:50,speed:1.5,artillery:false,engineer:false},
     ],unitType:[
         {name:`Infantry`},
@@ -61,6 +65,8 @@ export var types={
         {name:`Light Artillery`},
         {name:`Mixed`},
         {name:`Anti-Tank`},
+        {name:`Anti-Air`},
+        {name:`Tracked`},
 
         {name:`Superior`},
     ],unitLevel:[
@@ -292,7 +298,7 @@ export var types={
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`9th Battalion, Rifle Brigade (Tower Hamlets Rifles)`,name:`9`,designation:`Rifle\nBrigade`,commander:`Purdon`},
                                     ],
                                 },{
-                                    level:3,type:[`Tank`,`Recon`],team:`British`,
+                                    level:3,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
                                     desc:`1st King's Dragoon Guards`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:``,icon:`7a`,
                                     pos:[789,895],
                                     elements:[
@@ -350,7 +356,7 @@ export var types={
                                         {level:3,type:`Motorized Machine Gun`,team:`South African`,desc:`Machine Gun Battalion 'President Steyn'`,name:`PS`,designation:``,commander:``},
                                     ],
                                 },{
-                                    level:3,type:[`Tank`,`Recon`],team:`South African`,
+                                    level:3,type:[`Tank`,`Recon`,`Tracked`],team:`South African`,
                                     desc:`3rd South African Armoured Car Regiment`,name:`3`,designation:``,commander:``,icon:`1sa`,
                                     pos:[715,341],
                                     elements:[
@@ -522,7 +528,7 @@ export var types={
                                         {level:3,type:`Motorized Engineer`,team:`German`,desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`}, 
                                     ],
                                 },{
-                                    level:3,type:[`Tank`,`Recon`],team:`German`,
+                                    level:3,type:[`Tank`,`Recon`,`Tracked`],team:`German`,
                                     desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Hößlin`,icon:`15pz`,
                                     pos:[300,980],
                                     elements:[
@@ -574,7 +580,7 @@ export var types={
                                         {level:3,type:`Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
-                                    level:4,type:[`Tank`,`Recon`],team:`German`,
+                                    level:4,type:[`Tank`,`Recon`,`Tracked`],team:`German`,
                                     desc:`580th Reconnaissance Company`,name:`580`,designation:``,commander:`Hohmeyer`,icon:`90l`,
                                     pos:[513,1120],
                                     elements:[

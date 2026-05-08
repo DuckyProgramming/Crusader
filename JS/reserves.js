@@ -41,6 +41,14 @@ reserves=[
             {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`},
         ],
     },{
+        level:2,type:[`Infantry`,`Mixed`],team:`German`,
+        desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+        pos:[895,395],
+        elements:[
+            {level:3,type:`Mixed Combat`,team:`German`,desc:`1st Sperrverband, Sonderverband 288`,name:`1`,designation:``,commander:`Daumiller`},
+            {level:3,type:`Mixed Infantry`,team:`German`,desc:`2nd Sperrverband, Sonderverband 288`,name:`2`,designation:``,commander:`Borhardt`},
+        ],
+    },{
         level:2,type:[`Infantry`,`Motorized`],team:`German`,
         desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
         pos:[1634,628],
@@ -85,6 +93,13 @@ reserves=[
             {level:3,type:`Motorized Flak`,team:`German`,desc:`606th Flak Battalion`,name:`606`,designation:``,commander:`Briel`},
         ],
     },{
+        level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
+        desc:`33rd Anti-Tank Battalion`,name:`33`,designation:``,commander:`Beil`,icon:`15pz`,
+        pos:[1737,1251],
+        elements:[
+            {level:3,type:`Motorized Anti-Tank`,team:`German`,desc:`33rd Anti-Tank Battalion`,name:`33`,designation:``,commander:`Beil`}, 
+        ],
+    },{
         level:3,type:[`Engineer`,`Motorized`],team:`German`,
         desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`,icon:`15pz`,
         pos:[1737,1251],
@@ -114,20 +129,16 @@ reserves=[
         pos:[850,375],
         elements:[
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hartz`},
-        ],
-    },{
-        level:3,type:[`Infantry`],team:`German`,
-        desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`,icon:`90l`,
-        pos:[850,375],
-        elements:[
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`},
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`},
         ],
     },{
-        level:3,type:[`Infantry`],team:`German`,
-        desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`,icon:`90l`,
-        pos:[850,375],
+        level:2,type:[`Engineer`],team:`German`,
+        desc:`900th Pioneer Battalion z.b.V.`,name:`900`,designation:`z.b.V.`,commander:`Melzer`,icon:`90l`,
+        pos:[1533,599],
         elements:[
-            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`},
+            {level:3,type:`Engineer`,team:`German`,desc:`900th Pioneer Battalion z.b.V.`,name:`900`,designation:`z.b.V.`,commander:`Meltzer`}, 
         ],
     },{
         level:0,type:[`Tank`],team:`German`,
@@ -135,12 +146,20 @@ reserves=[
         pos:[1554,434],
         elements:[
             {
+                level:2,type:[`Tank`],team:`German`,
+                desc:`5th Panzer Regiment`,name:`8`,designation:``,commander:`Stephan`,icon:`21pz`,
+                pos:[1432,570],
+                elements:[
+                    {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 5th Panzer Regiment`,name:`1`,designation:`5`,commander:`Mildebrath`},
+                    {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 5th Panzer Regiment`,name:`2`,designation:`5`,commander:`Friedrichs`},
+                ],
+            },{
                 level:2,type:[`Infantry`,`Motorized`],team:`German`,
                 desc:`104th Infantry Regiment`,name:`104`,designation:``,commander:`Knabe`,icon:`21pz`,
                 pos:[1634,628],
                 elements:[
                     {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 104th Infantry Regiment`,name:`1`,designation:`104`,commander:`Bach`},
-                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 104th Infantry Regiment`,name:`2`,designation:`104`,commander:`Marcks`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 104th Infantry Regiment`,name:`2`,designation:`104`,commander:`Echardstein`},
                     {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`8th Machine Gun Battalion`,name:`8`,designation:``,commander:`Schütte`},
                 ],
             },{

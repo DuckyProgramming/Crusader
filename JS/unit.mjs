@@ -477,6 +477,15 @@ export class unit{
                                 layer.line(-8,-5,0,5)
                                 layer.line(8,-5,0,5)
                             break
+                            case 15:
+                                layer.line(-8,5,0,-5)
+                                layer.line(8,5,0,-5)
+                            break
+                            case 16:
+                                layer.ellipse(-3.5,4,1.5,1.5)
+                                layer.ellipse(0,4,1.5,1.5)
+                                layer.ellipse(3.5,4,1.5,1.5)
+                            break   
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)
                                 layer.line(-6.5,0,-5.5,0)
