@@ -9,7 +9,7 @@ export class unit{
         this.type=data.type.map(type=>findName(type,types.unitType))
         this.elementType=data.elementType==undefined?-1:data.elementType
         this.team=typeof data.team==`number`?data.team:findName(data.team,types.team)
-        this.desc=data.desc
+        this.desc=typeof data.desc==`string`?data.desc:data.desc[options.translate?0:1]
         this.name=data.name
         this.designation=data.designation
         this.commander=data.commander
@@ -486,7 +486,11 @@ export class unit{
                                 layer.ellipse(-3.5,4,1.5,1.5)
                                 layer.ellipse(0,4,1.5,1.5)
                                 layer.ellipse(3.5,4,1.5,1.5)
-                            break   
+                            break
+                            case 17:
+                                layer.line(0,-3,-2,-1)
+                                layer.line(0,-3,2,-1)
+                            break
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)
                                 layer.line(-6.5,0,-5.5,0)
@@ -517,7 +521,7 @@ export class unit{
                     layer.textSize(2)
                     layer.text(this.symbol,0,-4)
                     layer.stroke(0,fade)
-                    let art=this.type.includes(6)&&this.type.length<=3&&this.name.length<5
+                    let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
                     layer.textSize(this.designation.length>=24||art&&this.designation.length>=10?1.25:1.5)
                     layer.strokeWeight(0.15)

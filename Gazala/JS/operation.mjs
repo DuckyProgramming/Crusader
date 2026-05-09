@@ -1,4 +1,4 @@
-import {graphics,constants,dev, types} from './variables.mjs'
+import {graphics,constants,dev,types,options} from './variables.mjs'
 import {findName,findAbstract,smoothAnim,inPointBox,boxify,elementArray,findTerm0,distPos,even} from './../../JS/functions.mjs'
 import {lsin,lcos} from './../../JS/graphics.mjs'
 import {transitionManager} from './../../JS/transitionManager.mjs'
@@ -15,9 +15,9 @@ export class operation{
         this.view={scale:1}
         this.turn={
             main:0,time:0,total:0,prep:false,start:true,loading:false,order:[],
-            bonus:false,partition:[],pick:false,
+            bonus:false,partition:[],pick:false,translate:-1,
         }
-        this.anim={main:0,prep:0,start:0,select:0,pick:[],selectTrigger:false}
+        this.anim={main:0,prep:0,start:0,select:0,pick:[],translate:0,selectTrigger:false}
         this.hist={time:0,tick:0,limit:45}
         this.select={unit:0}
         this.initial()
@@ -26,9 +26,9 @@ export class operation{
         this.initialComponents()
         constants.init=true
 
-        this.initialUnits(0)
         this.turn.start=false
         this.turn.prep=true
+        this.turn.translate=0
     }
     save(){
         let composite={
@@ -47,6 +47,7 @@ export class operation{
                 bonus:this.turn.bonus,
                 partition:this.turn.partition,
                 pick:this.turn.pick,
+                translate:this.turn.translate,
             },
             anim:this.anim,
             transitionManager:this.transitionManager.save()
@@ -76,6 +77,7 @@ export class operation{
         this.turn.bonus=composite.turn.bonus
         this.turn.partition=composite.turn.partition
         this.turn.pick=composite.turn.pick
+        this.turn.translate=composite.turn.translate
         this.anim=composite.anim
         /*let root=`../`
         types.unit.forEach(unit=>{
@@ -283,131 +285,25 @@ export class operation{
                     layer.textSize(80)
                     layer.text(`${this.turn.main==1&&this.turn.partition.length==2?`Axis`:types.player[this.turn.main].name} Turn Begin`,layer.width/2,layer.height/2+4)
                 }
-                let maximal=this.anim.pick.reduce((acc,pick)=>acc+pick,0)
+                let maximal=min(1,this.anim.pick.reduce((acc,pick)=>acc+pick,0)+this.anim.translate)
                 if(maximal>0){
                     layer.fill(200,maximal)
                     layer.rect(layer.width/2,layer.height/2,800,340,20)
                 }
-                for(let a=0,la=types.reserve.length;a<la;a++){
-                    if(this.anim.pick[a]>0){
-                        //layer.fill(200,this.anim.pick[a])
-                        //layer.rect(layer.width/2,layer.height/2,800,340,20)
-                        /*if(a==3){
-                            layer.fill(200,this.anim.pick[a])
-                            layer.rect(layer.width/2,layer.height/2,800,440,20)
-                            layer.fill(0,this.anim.pick[a])
-                            layer.textSize(80)
-                            layer.text(`German Deployment`,layer.width/2,layer.height/2-146)
-                            layer.fill(150,this.anim.pick[a])
-                            layer.rect(layer.width/2,layer.height/2-40,480,80,20)
-                            layer.rect(layer.width/2,layer.height/2+60,480,80,20)
-                            layer.rect(layer.width/2,layer.height/2+160,480,80,20)
-                            layer.fill(0,this.anim.pick[a])
-                            layer.textSize(25)
-                            layer.text(`3rd/255th and 3rd/347th Infantry Battalions`,layer.width/2,layer.height/2-50)
-                            layer.text(`Sonderverband 288`,layer.width/2,layer.height/2+50)
-                            layer.text(`606th Flak Detachment`,layer.width/2,layer.height/2+150)
-                            layer.textSize(20)
-                            layer.text(`2 Infantry Battalions`,layer.width/2,layer.height/2-20)
-                            layer.text(`2 Mixed Battalions`,layer.width/2,layer.height/2+80)
-                            layer.text(`1 Flak Battalion, 1 Reconaissance Company`,layer.width/2,layer.height/2+180)
-                        }else{
-                            layer.fill(0,this.anim.pick[a])
-                            layer.textSize(80)
-                            layer.text(`${types.player[[0,0,0,1,2,2][a]].name} Deployment`,layer.width/2,layer.height/2-96)
-                            layer.fill(150,this.anim.pick[a])
-                            layer.rect(layer.width/2,layer.height/2+10,480,80,20)
-                            layer.rect(layer.width/2,layer.height/2+110,480,80,20)
-                            layer.fill(0,this.anim.pick[a])
-                            layer.textSize(25)
-                            layer.text([
-                                `14th Infantry Brigade`,
-                                `2nd New Zealand Field Regiment`,
-                                `1st South African Infantry Brigade`,
-                                ``,
-                                `9th Bersaglieri Regiment`,
-                                `8th Army Artillery Group`,
-                            ][a],layer.width/2,layer.height/2)
-                            layer.text([
-                                `32nd Army Tank Brigade`,
-                                `11th Indian Infantry Brigade`,
-                                `29th Indian Infantry Brigade`,
-                                ``,
-                                `60th Infantry Division 'Sabratha'`,
-                                `Support Elements`,
-                            ][a],layer.width/2,layer.height/2+100)
-                            layer.textSize(20)
-                            layer.text([
-                                `3 Infantry Battalions`,
-                                `3 Artillery Battalions`,
-                                `3 Infantry Battalions, 1 Artillery Battalion`,
-                                ``,
-                                `4 Bersaglieri Battalions`,
-                                `5 Artillery Battalions`,
-                            ][a],layer.width/2,layer.height/2+30)
-                            layer.text([
-                                `2 Heavy Tank Battalions, 1 Artillery Battalion`,
-                                `3 Infantry Battalions`,
-                                `3 Infantry Battalions, 1 Armored Car Battalion`,
-                                ``,
-                                `4 Infantry Battalions`,
-                                `3 Artillery Battalions, 2 Mixed Support Battalions`,
-                            ][a],layer.width/2,layer.height/2+130)
-                        }*/
-                        layer.fill(0,this.anim.pick[a])
-                        layer.textSize(80)
-                        layer.text(`${types.player[[0,0,0,1,1,1,2,2,2][a]].name} Deployment`,layer.width/2,layer.height/2-96)
-                        layer.fill(150,this.anim.pick[a])
-                        layer.rect(layer.width/2,layer.height/2+10,480,80,20)
-                        layer.rect(layer.width/2,layer.height/2+110,480,80,20)
-                        layer.fill(0,this.anim.pick[a])
-                        layer.textSize(25)
-                        layer.text([
-                            `14th Infantry Brigade`,
-                            `2nd New Zealand Field Regiment`,
-                            `1st South African Infantry Brigade`,
-                            `15th Motorcycle Battalion`,
-                            `3rd/255th and 3rd/347th Infantry Battalions`,
-                            `2nd Battalion, 115th Infantry Regiment`,
-                            `9th Bersaglieri Regiment`,
-                            `8th Army Artillery Group`,
-                            `MILMART 'Corpo d'Armata di Manovra'`,
-                        ][a],layer.width/2,layer.height/2)
-                        layer.text([
-                            `32nd Army Tank Brigade`,
-                            `11th Indian Infantry Brigade`,
-                            `29th Indian Infantry Brigade`,
-                            `33rd Panzer Pioneer Battalion`,
-                            `Sonderverband 288`,
-                            `580th Reconnaissance Company`,
-                            `60th Infantry Division 'Sabratha'`,
-                            `Support Elements`,
-                            `503rd Independent Coastal Artillery Group`,
-                        ][a],layer.width/2,layer.height/2+100)
-                        layer.textSize(20)
-                        layer.text([
-                            `3 Infantry Battalions`,
-                            `3 Artillery Battalions`,
-                            `3 Infantry Battalions, 1 Artillery Battalion`,
-                            `1 Motorcycle Battalion`,
-                            `2 Infantry Battalions`,
-                            `1 Motorized Infantry Battalion`,
-                            `4 Bersaglieri Battalions`,
-                            `4 Artillery Battalions`,
-                            `1 Motorized Artillery Battalion`,
-                        ][a],layer.width/2,layer.height/2+30)
-                        layer.text([
-                            `2 Heavy Tank Battalions, 1 Artillery Battalion`,
-                            `3 Infantry Battalions`,
-                            `3 Infantry Battalions, 1 Armored Car Battalion`,
-                            `1 Motorized Engineer Battalion`,
-                            `2 Mixed Battalions`,
-                            `1 Reconaissance Company`,
-                            `4 Infantry Battalions`,
-                            `3 Artillery Battalions, 2 Mixed Support Battalions`,
-                            `1 Artillery Battalion`,
-                        ][a],layer.width/2,layer.height/2+130)
-                    }
+                if(this.anim.translate>0){
+                    layer.fill(0,this.anim.translate)
+                    layer.textSize(80)
+                    layer.text(`Pick Languages`,layer.width/2,layer.height/2-96)
+                    layer.fill(150,this.anim.translate)
+                    layer.rect(layer.width/2,layer.height/2+10,480,80,20)
+                    layer.rect(layer.width/2,layer.height/2+110,480,80,20)
+                    layer.fill(0,this.anim.translate)
+                    layer.textSize(25)
+                    layer.text(`Translated Names`,layer.width/2,layer.height/2)
+                    layer.text(`Untranslated Names`,layer.width/2,layer.height/2+100)
+                    layer.textSize(12.5)
+                    layer.text(`e.g. 3rd Mixed Support Battalion, 61st Motorized Infantry Regiment`,layer.width/2,layer.height/2+30)
+                    layer.text(`e.g. III battaglione armi d'accompagnamento, 61° Reggimento di fanteria motorizzata "Sicilia"`,layer.width/2,layer.height/2+130)
                 }
                 if(this.anim.start>0){
                     layer.fill(200,this.anim.start)
@@ -547,10 +443,11 @@ export class operation{
                 this.units.forEach(unit=>unit.update(layer,this.scene,rel))
             break
             case `main`:
-                this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&!this.turn.pick&&!this.turn.start&&this.turn.time==0,0,1,5)
-                this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep&&!this.turn.pick,0,1,5)
-                this.anim.start=smoothAnim(this.anim.start,this.turn.start&&!this.turn.pick,0,1,5)
+                this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&!this.turn.pick&&this.turn.translate==-1&&!this.turn.start&&this.turn.time==0,0,1,5)
+                this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep&&!this.turn.pick&&this.turn.translate==-1,0,1,5)
+                this.anim.start=smoothAnim(this.anim.start,this.turn.start&&!this.turn.pick&&this.turn.translate==-1,0,1,5)
                 this.anim.pick.forEach((pick,index,arr)=>arr[index]=smoothAnim(pick,this.turn.pick&&this.turn.main==index,0,1,5))
+                this.anim.translate=smoothAnim(this.anim.translate,this.turn.translate>=0,0,1,5)
 
                 this.anim.selectTrigger=this.units.some(unit=>unit.order.trigger)
                 this.anim.select=smoothAnim(this.anim.select,this.anim.selectTrigger,0,1,5)
@@ -604,10 +501,19 @@ export class operation{
                     if(this.turn.start){
                         for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
                             if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+60+even(a,la)*100,300,80))){
-                                this.initialUnits(a)
                                 this.turn.start=false
                                 this.turn.prep=true
+                                this.turn.translate=a
                             }
+                        }
+                    }else if(this.turn.translate>=0){
+                        if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+10,480,80))){
+                            options.translate=true
+                            this.initialUnits(this.turn.translate)
+                            this.turn.translate=-1
+                        }else if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+110,480,80))){
+                            this.initialUnits(this.turn.translate)
+                            this.turn.translate=-1
                         }
                     }else if(this.turn.pick){
                         if(inPointBox(mouse,boxify(layer.width/2,layer.height/2+10/*(this.turn.main==3?-40:10)*/,480,80))){
@@ -792,7 +698,7 @@ export class operation{
                                                 let result=new unit(this,{
                                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
                                                     level:[2,1,1][element.player],type:typing,team:element.team,
-                                                    desc:`${[`Kampfgruppe`,`Column`,`Battle Group`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`KG`,`C`,`BG`][element.player],designation:element.designation,commander:element.commander,
+                                                    desc:`${[`Kampfgruppe`,options.translate?`Column`:`Colonna`,`Battle Group`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`KG`,`C`,`BG`][element.player],designation:element.designation,commander:element.commander,
                                                     icon:element.icon,elements:[],
                                                 })
                                                 result.contain.temp=true
@@ -903,10 +809,19 @@ export class operation{
                     if(this.turn.start){
                         for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
                             if(int(key)==a+1){
-                                this.initialUnits(a)
                                 this.turn.start=false
                                 this.turn.prep=true
+                                this.turn.translate=a
                             }
+                        }
+                    }else if(this.turn.translate>=0){
+                        if(key==`1`){
+                            options.translate=true
+                            this.initialUnits(this.turn.translate)
+                            this.turn.translate=-1
+                        }else if(key==`2`){
+                            this.initialUnits(this.turn.translate)
+                            this.turn.translate=-1
                         }
                     }else if(this.turn.pick){
                         if(key==`1`){

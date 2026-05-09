@@ -219,7 +219,10 @@ export function findTerm0(term,list){
 }
 export function findAbstract(term,search,list){
 	for(let a=0,la=list.length;a<la;a++){
-		if(list[a][term]==search){
+		if(
+            list[a][term]==search||
+            term==`desc`&&typeof list[a][term]==`object`&&list[a][term][0]==search
+        ){
 			return a
 		}
 	}
