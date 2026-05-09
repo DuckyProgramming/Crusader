@@ -94,6 +94,13 @@ reserves=[
         ],
     },{
         level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
+        desc:`1st Battalion, 18th Flak Regiment`,name:`1`,designation:`18`,commander:`Hecht`,icon:``,
+        pos:[1243,482],
+        elements:[
+            {level:3,type:`Motorized Flak`,team:`German`,desc:`1st Battalion, 18th Flak Regiment`,name:`1`,designation:`18`,commander:`Hecht`},
+        ],
+    },{
+        level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
         desc:`33rd Anti-Tank Battalion`,name:`33`,designation:``,commander:`Beil`,icon:`15pz`,
         pos:[1737,1251],
         elements:[
@@ -128,17 +135,25 @@ reserves=[
         desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hartz`,icon:`90l`,
         pos:[850,375],
         elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hollmann`},
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Hartz`},
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
-            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`},
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Eder`},
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`},
         ],
     },{
         level:2,type:[`Engineer`],team:`German`,
-        desc:`900th Pioneer Battalion z.b.V.`,name:`900`,designation:`z.b.V.`,commander:`Melzer`,icon:`90l`,
+        desc:`900th Pioneer Battalion z.b.V.`,name:`900`,designation:`z.b.V.`,commander:`Meltzer`,icon:`90l`,
         pos:[1533,599],
         elements:[
             {level:3,type:`Engineer`,team:`German`,desc:`900th Pioneer Battalion z.b.V.`,name:`900`,designation:`z.b.V.`,commander:`Meltzer`}, 
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`French`,
+        desc:`Free French Battalion 'Élisabeth de Miribel'`,name:`FF`,designation:`Élisabeth\nde Miribel`,commander:``,icon:``,
+        pos:[1499,280],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`French`,desc:`Free French Battalion 'Élisabeth de Miribel'`,name:`FF`,designation:`Élisabeth\nde Miribel`,commander:``},
         ],
     },{
         level:0,type:[`Tank`],team:`German`,
@@ -168,6 +183,97 @@ reserves=[
                 pos:[1737,1251],
                 elements:[
                     {level:3,type:`Armored Car`,team:`German`,desc:`3rd Reconnaissance Battalion`,name:`3`,designation:``,commander:`von Wechmar`}, 
+                ],
+            },{
+                level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
+                desc:`39th Anti-Tank Battalion`,name:`39`,designation:``,commander:`Jansa`,icon:`21pz`,
+                pos:[1737,1251],
+                elements:[
+                    {level:3,type:`Motorized Anti-Tank`,team:`German`,desc:`39th Anti-Tank Battalion`,name:`39`,designation:``,commander:`Beil`}, 
+                ],
+            },{
+                level:2,type:[`Engineer`],team:`German`,
+                desc:`200th Pioneer Battalion z.b.V.`,name:`200`,designation:`z.b.V.`,commander:`Streitz`,icon:`21pz`,
+                pos:[1533,599],
+                elements:[
+                    {level:3,type:`Engineer`,team:`German`,desc:`200th Pioneer Battalion z.b.V.`,name:`200`,designation:`z.b.V.`,commander:`Streitz`}, 
+                ],
+            },
+        ],
+    },{
+        level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+        desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Kirsten`,icon:`90l`,
+        pos:[1141,566],
+        elements:[
+            {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+            {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
+            {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+        desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`von Barby`,icon:`90l`,
+        pos:[1141,566],
+        elements:[
+            {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+            {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
+            {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
+        ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:`15th Infantry Brigade`,name:`15`,designation:``,commander:`Menny`,icon:`90l`,
+        pos:[410,70],
+        elements:[
+            {
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
+                pos:[505,45],
+                elements:[
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
+                ],
+            },{
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:`200th Infantry Regiment`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`90l`,
+                pos:[485,125],
+                elements:[
+                    {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`1st Battalion, 200th Infantry Regiment`,name:`1`,designation:`200`,commander:`Ehle`}, 
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 200th Infantry Regiment`,name:`2`,designation:`200`,commander:`Panzenhagen`},
+                ],
+            },
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Australian`,
+        desc:`13th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/13`,designation:``,commander:`Turner`,icon:`9a`,
+        pos:[485,125],
+        elements:[
+            {level:3,type:`Infantry`,team:`Australian`,desc:`13th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/13`,designation:``,commander:`Turner`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+        desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`,icon:`savona`,
+        pos:[2358,967],
+        elements:[
+            {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`},
+        ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:`15th Infantry Brigade`,name:`15`,designation:``,commander:`Esebeck`,icon:`15pz`,
+        pos:[1564,520],
+        elements:[
+            {
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Herff`,icon:`15pz`,
+                pos:[972,381],
+                elements:[
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Zincke`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Finke`},
+                ],
+            },{
+                level:3,type:[`Infantry`,`Motorcycle`],team:`German`,
+                desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Knabe`,icon:`15pz`,
+                pos:[1634,628],
+                elements:[
+                    {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Knabe`},
                 ],
             },
         ],

@@ -87,7 +87,7 @@ export class unit{
         }else{
             this.contain.stats={
                 speed:this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0),
-                artillery:false,engineer:false,
+                artillery:false,engineer:false,recon:false
             }
             this.radius=32
             this.order.artillery=false
@@ -220,7 +220,7 @@ export class unit{
         if(this.battle.injure){
             this.strength.rebuild=10
         }else if(this.contain.trigger){
-            this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+unit.strength.rebuild,unit.strength.base.morale))
+            this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+this.strength.rebuild,unit.strength.base.morale))
             this.strength.rebuild+=5
         }
         this.order.position.x=this.position.x
@@ -302,6 +302,7 @@ export class unit{
             speed:this.contain.units.reduce((acc,unit)=>min(acc,types.elementType[unit.elementType].speed),10),
             artillery:this.contain.units.some(unit=>types.elementType[unit.elementType].artillery),
             engineer:this.contain.units.some(unit=>types.elementType[unit.elementType].engineer),
+            recon:this.contain.units.every(unit=>types.elementType[unit.elementType].recon),
         }
         this.strength.base.num=[
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?types.elementType[unit.elementType].num:0),0),
@@ -837,7 +838,7 @@ export class unit{
                                         if(!this.logs.main.includes(`Headquarters Captured by ${target.getDesc()}`)){
                                             this.logs.main.push(`Headquarters Captured by ${target.getDesc()}`)
                                         }
-                                    }else if(this.contain.trigger){
+                                    }else if(!this.contain.stats.recon){
                                         hit=true
                                         let fort=false
                                         if(this.order.defense||target.order.defense){
@@ -1104,6 +1105,8 @@ export class unit{
                                                 target.position.y=moving2.y
                                             }
                                         }
+                                    }else{
+                                        hit=true
                                     }
                                 }
                             })

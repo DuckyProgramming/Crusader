@@ -2,9 +2,14 @@ General:
 https://forum.axishistory.com/viewtopic.php?f=56&t=181224&sid=c7740a7c483dc1e174ce393d5c01931c
 https://achillestheheel.com/wp-content/uploads/2015/06/tobruk-1940-42-4e-1.pdf
 
+Maps:
+http://electronicsandbooks.com/edt/manual/Publischer/G/German%20Miltary%20WW2/Rommels%20Afrika%20Korps-Tobruk%20To%20ElAlamein%20c20070309%20[99].pdf
+
 German:
 https://www.lexikon-der-wehrmacht.de/inhaltsverzeichnisGliederungH.htm
 https://i.4pcdn.org/tg/1607192475553.pdf (This document is one of the least readable I've ever seen but its something)
+Afrika-Division:
+https://benoitrondeau.com/90-leichte-afrika-division/
 Sonderverband:
 https://forum.axishistory.com/viewtopic.php?t=64436
 https://lrdg.hegewisch.net/elite_german.html#kampfgruppe-menton
@@ -13,6 +18,7 @@ https://forum.axishistory.com/viewtopic.php?t=98657
 3/255:
 http://www.ritterkreuztraeger.info/rk/b/B064Barby.pdf
 https://forum.axishistory.com/viewtopic.php?t=177538&start=15
+https://forum.axishistory.com/viewtopic.php?f=56&t=212219
 3/347:
 https://www.tracesofwar.com/persons/28705/Panzenhagen-Albert-Panzergrenadier-Regiment-361.htm
 Commanders (Unreliable):
@@ -22,10 +28,12 @@ https://balsi.de/Weltkrieg/Einheiten/Heer/Infanterie/Infanterie-Grenadier-Regime
 https://www.feldgrau.net/forum/viewtopic.php?p=109797&hilit=200+africa#p109797
 300th z.b.V.:
 https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.feedyournerd.com%2Fuploads%2F2%2F4%2F0%2F4%2F24044140%2Fsollum_gm_packet.pptx&wdOrigin=BROWSELINK
+361st Regiment:
+https://forum.axishistory.com/viewtopic.php?t=76279
 
 Italy:
 https://www.regioesercito.it/pages/restoria.html
-Unclear commander:
+Unclear Commander:
 https://cgsc.contentdm.oclc.org/digital/collection/p15040coll6/id/5050/rec/18
 Genova Cavalleria:
 https://forum.axishistory.com/viewtopic.php?t=177538&start=15
@@ -49,6 +57,8 @@ Buffs:
 https://collection.nam.ac.uk/detail.php?acc=2002-02-1077-3
 Mahratta Light Infantry:
 https://www.ww2talk.com/index.php?threads/1st-battalion-5th-mahratta-light-infantry.34006/page-2
+Commanders (Unreliable):
+https://2ndbn5thmar.com/wp-content/uploads/2023/09/Br8thArmy1941.pdf
 
 South Africa:
 https://pdfs.semanticscholar.org/8010/cf4c2582713bb80c31bfe31331cead9a6464.pdf

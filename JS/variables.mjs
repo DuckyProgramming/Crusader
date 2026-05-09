@@ -6,46 +6,46 @@ export var types={
     side:[],
     unit:[],
     elementType:[
-        {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1,artillery:false,engineer:false},//0
-        {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:720,speed:1,artillery:false,engineer:false},
-        {name:`Oasis Infantry`,unitType:[`Infantry`],class:0,damage:[10,1],armor:0,health:125,morale:1.1,num:1000,speed:1,artillery:false,engineer:false},
-        {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false},
-        {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false},
-        {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false},
-        {name:`Motorized Heavy Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:125,morale:1,num:1000,speed:2.25,artillery:false,engineer:false},
-        {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:2.25,artillery:false,engineer:false},
-        {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false},
-        {name:`Motorized Machine Gun Bersaglieri`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1.2,num:800,speed:2.25,artillery:false,engineer:false},
-        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false},//10
-        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false},
-        {name:`Motorcycle Bersaglieri`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false},
-        {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:600,speed:3,artillery:false,engineer:false},
-        {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:60,morale:0.5,num:50,speed:2,artillery:false,engineer:false},
-        {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.6,num:33,speed:1.5,artillery:false,engineer:false},
-        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false},
-        {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false},
-        {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false},
-        {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false},
-        {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false},//20
-        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false},
-        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false},
-        {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.05,artillery:true,engineer:false},
-        {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:20,speed:1.75,artillery:true,engineer:false},
-        {name:`Motorized Group Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[6,13],armor:0.3,health:24,morale:0.7,num:24,speed:1.75,artillery:true,engineer:false},
-        {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.75,artillery:true,engineer:false},
-        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false},
-        {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true},//30
-        {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false},
-        {name:`Motorized Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`,`Motorized`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:2.875,artillery:false,engineer:true},
-        {name:`Motorized Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`,`Motorized`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:3.25,artillery:false,engineer:false},
-        {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true},
-        {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true},
-        {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:1,artillery:true,engineer:false},
-        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:2.5,artillery:true,engineer:false},
-        {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false},
-        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false},
+        {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1,artillery:false,engineer:false,recon:false},//0
+        {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:720,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Oasis Infantry`,unitType:[`Infantry`],class:0,damage:[10,1],armor:0,health:125,morale:1.1,num:1000,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false,recon:false},
+        {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Heavy Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:125,morale:1,num:1000,speed:2.25,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:2.25,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Machine Gun Bersaglieri`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1.2,num:800,speed:2.25,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},//10
+        {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false,recon:false},
+        {name:`Motorcycle Bersaglieri`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false,recon:false},
+        {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:600,speed:3,artillery:false,engineer:false,recon:false},
+        {name:`Light Tank`,unitType:[`Tank`,`Light`],class:1,damage:[12,6],armor:0.6,health:60,morale:0.5,num:50,speed:2,artillery:false,engineer:false,recon:false},
+        {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.6,num:33,speed:1.5,artillery:false,engineer:false,recon:false},
+        {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false,recon:false},
+        {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
+        {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false,recon:true},
+        {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false,recon:true},
+        {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false,recon:false},//20
+        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.05,artillery:true,engineer:false,recon:false},
+        {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
+        {name:`Motorized Group Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[6,13],armor:0.3,health:24,morale:0.7,num:24,speed:1.75,artillery:true,engineer:false,recon:false},
+        {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
+        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false,recon:false},
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true,recon:false},//30
+        {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`,`Motorized`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:2.875,artillery:false,engineer:true,recon:false},
+        {name:`Motorized Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`,`Motorized`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:3.25,artillery:false,engineer:false,recon:false},
+        {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true,recon:false},
+        {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true,recon:false},
+        {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:1,artillery:true,engineer:false,recon:false},
+        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:2.5,artillery:true,engineer:false,recon:false},
+        {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false,recon:false},
+        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false,recon:false},
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -65,8 +65,8 @@ export var types={
         {name:`Anti-Air`},
         {name:`Tracked`},
     ],unitLevel:[
-        {name:`Division`,symbol:`XX`,size:[60,60,60]},
-        {name:`Brigade`,symbol:`X`,size:[45,52,45]},
+        {name:`Division`,symbol:`XX`,size:[55,55,55]},
+        {name:`Brigade`,symbol:`X`,size:[45,50,45]},
         {name:`Regiment`,symbol:`III`,size:[45,45,45]},
         {name:`Battalion`,symbol:`II`,size:[35,35,35]},
         {name:`Company`,symbol:`I`,size:[30,30,30]},
@@ -327,10 +327,10 @@ export var types={
                                     elements:[
                                         {
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                            desc:`115th Rifle Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                             pos:[972,381],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Rifle Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
                                                 {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Finke`},
                                             ],
                                         },{
@@ -522,10 +522,10 @@ export var types={
                                     elements:[
                                         {
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                            desc:`115th Rifle Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                             pos:[972,381],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Rifle Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
                                                 {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Finke`},
                                             ],
                                         },{
@@ -769,7 +769,7 @@ export var types={
                                         {level:3,type:`Infantry`,team:`Polish`,desc:`2nd Carpathian Rifle Battalion`,name:`2`,designation:``,commander:`Brzósko`},
                                         {level:3,type:`Infantry`,team:`Polish`,desc:`3rd Carpathian Rifle Battalion`,name:`3`,designation:``,commander:`Sokol`},
                                         {level:3,type:`Infantry`,team:`Czechoslovak`,desc:`11th Czechoslovak Infantry Battalion`,name:`11`,designation:``,commander:`Klapálek`},
-                                        {level:3,type:`Infantry`,team:`Australian`,desc:`13th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/13`,designation:``,commander:`Turner`},
+                                        {level:3,type:`Infantry`,team:`Australian`,desc:`13th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/13`,designation:``,commander:`Burrows`},
                                         {level:3,type:`Machine Gun`,team:`Polish`,desc:`Carpathian 'Uhlans' Machine Gun Battalion`,name:`C`,designation:``,commander:`Bobiński`},
                                         {level:3,type:`Artillery`,team:`Polish`,desc:`Carpathian Artillery Regiment`,name:`C`,designation:``,commander:`Gliwicz`},
                                     ],
@@ -780,7 +780,7 @@ export var types={
                             desc:`22nd Guards Brigade`,name:`22`,designation:`Guards`,commander:`Marriott`,icon:``,
                             pos:[2937,1420],
                             elements:[
-                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`3rd Battalion, Coldstream Guards`,name:`3`,designation:`Coldstream\nGuards`,commander:`Sainthill`},
+                                {level:3,type:`Motorized Infantry`,team:`British`,desc:`3rd Battalion, Coldstream Guards`,name:`3`,designation:`Coldstream\nGuards`,commander:`Moubray`},
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`9th Battalion, Rifle Brigade (Tower Hamlets Rifles)`,name:`9`,designation:`Rifle\nBrigade`,commander:`Purdon`},
                             ],
                         },{
@@ -810,10 +810,10 @@ export var types={
                                     elements:[
                                         {
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                            desc:`115th Rifle Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                             pos:[1634,628],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Rifle Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
                                                 {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Finke`},
                                             ],
                                         },{
@@ -845,24 +845,24 @@ export var types={
                             ],
                         },{
                             level:0,type:[`Infantry`],team:`German`,
-                            desc:`Division z.b.V. 'Afrika'`,name:`A`,designation:`z.b.V.`,commander:`Sümmermann`,icon:`90l`,
+                            desc:`Divisional Command z.b.V. 'Afrika'`,name:`A`,designation:`z.b.V.`,commander:`Sümmermann`,icon:`90l`,
                             pos:[1072,461],
                             elements:[
                                 {
                                     level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
-                                    desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
+                                    desc:`361st 'Afrika' Reinforced Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Grund`,icon:`90l`,
                                     pos:[1141,566],
                                     elements:[
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Reinforced Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Reinforced Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Eder`,icon:`90l`,
+                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`,icon:`90l`,
                                     pos:[850,375],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Eder`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
@@ -873,10 +873,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`,icon:`15pz`,
+                                    desc:`2nd Battalion, 115th Rifle Regiment`,name:`2`,designation:`115`,commander:`Göttman`,icon:`15pz`,
                                     pos:[1035,320],
                                     elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Rifle Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
                                     ],
                                 },
                             ],
@@ -980,10 +980,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`,icon:`savona`,
+                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Pierucci`,icon:`savona`,
                                     pos:[2358,967],
                                     elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`},
+                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Pierucci`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -1185,7 +1185,7 @@ export var types={
                                         {level:3,type:`Infantry`,team:`Polish`,desc:`2nd Carpathian Rifle Battalion`,name:`2`,designation:``,commander:`Brzósko`},
                                         {level:3,type:`Infantry`,team:`Polish`,desc:`3rd Carpathian Rifle Battalion`,name:`3`,designation:``,commander:`Sokol`},
                                         {level:3,type:`Infantry`,team:`Czechoslovak`,desc:`11th Czechoslovak Infantry Battalion`,name:`11`,designation:``,commander:`Klapálek`},
-                                        {level:3,type:`Infantry`,team:`Australian`,desc:`13th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/13`,designation:``,commander:`Turner`},
+                                        {level:3,type:`Infantry`,team:`Australian`,desc:`13th Infantry Battalion, 2nd Australian Expeditionary Force`,name:`2/13`,designation:``,commander:`Burrows`},
                                         {level:3,type:`Machine Gun`,team:`Polish`,desc:`Carpathian 'Uhlans' Machine Gun Battalion`,name:`C`,designation:``,commander:`Bobiński`},
                                         {level:3,type:`Artillery`,team:`Polish`,desc:`Carpathian Artillery Regiment`,name:`C`,designation:``,commander:`Gliwicz`},
                                     ],
@@ -1218,10 +1218,10 @@ export var types={
                                     elements:[
                                         {
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                            desc:`115th Rifle Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                             pos:[1634,628],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 115th Rifle Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
                                                 {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Finke`},
                                             ],
                                         },{
@@ -1253,24 +1253,24 @@ export var types={
                             ],
                         },{
                             level:0,type:[`Infantry`],team:`German`,
-                            desc:`Division z.b.V. 'Afrika'`,name:`A`,designation:`z.b.V.`,commander:`Sümmermann`,icon:`90l`,
+                            desc:`Divisional Command z.b.V. 'Afrika'`,name:`A`,designation:`z.b.V.`,commander:`Sümmermann`,icon:`90l`,
                             pos:[1072,461],
                             elements:[
                                 {
                                     level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
-                                    desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
+                                    desc:`361st 'Afrika' Reinforced Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Grund`,icon:`90l`,
                                     pos:[1141,566],
                                     elements:[
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
-                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Reinforced Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+                                        {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Reinforced Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
                                         {level:3,type:`Semi-Motorized Artillery`,team:`German`,desc:`361st 'Afrika' Artillery Battalion`,name:`361`,designation:`Afrika`,commander:`Schilling`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
-                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Eder`,icon:`90l`,
+                                    desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`,icon:`90l`,
                                     pos:[850,375],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Eder`},
+                                        {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`von Barby`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`German`,
@@ -1281,10 +1281,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`,icon:`15pz`,
+                                    desc:`2nd Battalion, 115th Rifle Regiment`,name:`2`,designation:`115`,commander:`Göttman`,icon:`15pz`,
                                     pos:[1035,320],
                                     elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Rifle Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
                                     ],
                                 },
                             ],
@@ -1388,10 +1388,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`,icon:`savona`,
+                                    desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Pierucci`,icon:`savona`,
                                     pos:[2358,967],
                                     elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Faccio`},
+                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:`4th Machine Gun Battalion 'Genova Cavalleria'`,name:`4`,designation:`Genova`,commander:`Pierucci`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,

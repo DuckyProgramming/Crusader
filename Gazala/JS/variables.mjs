@@ -70,7 +70,7 @@ export var types={
 
         {name:`Superior`},
     ],unitLevel:[
-        {name:`Division`,symbol:`XX`,size:[48,48,48]},
+        {name:`Division`,symbol:`XX`,size:[44,44,44]},
         {name:`Brigade`,symbol:`X`,size:[40,36,36]},
         {name:`Regiment`,symbol:`III`,size:[34,34,34]},
         {name:`Battalion`,symbol:`II`,size:[28,28,28]},
@@ -80,6 +80,7 @@ export var types={
             name:[`Operation Crusader`,`Base`],
             term:[`main`],
             city:[
+                {name:`Tmimi`,owner:1,type:0,pos:[479,15]},
                 {name:`Rotonda Segnale`,owner:1,type:1,pos:[235,567]},
                 {name:`Bir Temrad`,owner:1,type:1,pos:[383,176]},
                 {name:`Sidi Breghisc`,owner:1,type:0,pos:[390,283]},
@@ -182,6 +183,9 @@ export var types={
                 {name:[`B12`,`Rotonda Segnale`]},
                 {name:[`Sidi Breghisc`,`Rotonda Segnale`]},
                 {name:[`Bir Hacheim`,`Rotonda Segnale`]},
+
+                {name:[`Tmimi`,`Gazala`]},
+                {name:[`Bir Temrad`,`Tmimi`]},
             ],team:[
                 {name:`British`,term:`britain`,player:2,quality:0.95},
                 {name:`New Zealand`,term:`new zealand`,player:2,quality:1.05},
@@ -362,6 +366,13 @@ export var types={
                                     elements:[
                                         {level:3,type:`Armored Car`,team:`South African`,desc:`3rd South African Armoured Car Regiment`,name:`3`,designation:``,commander:``},
                                     ],
+                                },{
+                                    level:3,type:[`Infantry`,`Motorized`],team:`South African`,
+                                    desc:`2nd South African Police Battalion`,name:`2`,designation:`Police`,commander:``,icon:`2sa`,
+                                    pos:[1499,280],
+                                    elements:[
+                                        {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd South African Police Battalion`,name:`2`,designation:`Police`,commander:``},
+                                    ],
                                 },
                             ],
                         },{
@@ -373,13 +384,6 @@ export var types={
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`4th Battalion, Green Howards`,name:`4`,designation:`Green\nHowards`,commander:``},
                                 {level:3,type:`Motorized Infantry`,team:`British`,desc:`7th Battalion, Green Howards`,name:`7`,designation:`Green\nHowards`,commander:``},
                                 {level:3,type:`Motorized Artillery`,team:`British`,desc:`72nd Field Regiment, Royal Artillery`,name:`72`,designation:``,commander:``},
-                            ],
-                        },{
-                            level:3,type:[`Infantry`,`Motorized`],team:`French`,
-                            desc:`Free French Battalion 'Élisabeth de Miribel'`,name:`FF`,designation:`Élisabeth\nde Miribel`,commander:``,icon:``,
-                            pos:[1499,280],
-                            elements:[
-                                {level:3,type:`Motorized Infantry`,team:`French`,desc:`Free French Battalion 'Élisabeth de Miribel'`,name:`FF`,designation:`Élisabeth\nde Miribel`,commander:``},
                             ],
                         },{
                             level:2,type:[`Infantry`,`Motorized`],team:`Italian`,
@@ -504,12 +508,12 @@ export var types={
                                     ],
                                 },{
                                     level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                    desc:`115th Rifle Regiment`,name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                     pos:[460,920],
                                     elements:[
-                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`1st Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
-                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
-                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`3rd Battalion, 115th Infantry Regiment`,name:`2`,designation:`115`,commander:`Finke`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`1st Battalion, 115th Rifle Regiment`,name:`1`,designation:`115`,commander:`von Grolmann`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`2nd Battalion, 115th Rifle Regiment`,name:`2`,designation:`115`,commander:`Göttman`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:`3rd Battalion, 115th Rifle Regiment`,name:`3`,designation:`115`,commander:`Finke`},
                                     ],
                                 },{
                                     level:2,type:[`Artillery`,`Motorized`],team:`German`,
@@ -529,10 +533,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`,`Tracked`],team:`German`,
-                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Hößlin`,icon:`15pz`,
+                                    desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`von Hößlin`,icon:`15pz`,
                                     pos:[300,980],
                                     elements:[
-                                        {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`Hößlin`}, 
+                                        {level:3,type:`Armored Car`,team:`German`,desc:`33rd Reconnaissance Battalion`,name:`33`,designation:``,commander:`von Hößlin`}, 
                                     ],
                                 },
                             ],
@@ -542,25 +546,25 @@ export var types={
                             pos:[300,1120],
                             elements:[
                                 {
-                                    level:1,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:`15th Infantry Brigade`,name:`15`,designation:``,commander:`Menny`,icon:`90l`,
+                                    level:1,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+                                    desc:`15th Rifle Brigade`,name:`15`,designation:``,commander:`Menny`,icon:`90l`,
                                     pos:[410,70],
                                     elements:[
                                         {
-                                            level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:`361st 'Afrika' Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
+                                            level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+                                            desc:`361st Light Infantry Regiment`,name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
                                             pos:[505,45],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st 'Afrika' Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st 'Afrika' Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
+                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`1st Battalion, 361st Light Infantry Regiment`,name:`1`,designation:`361`,commander:`Harder`},
+                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 361st Light Infantry Regiment`,name:`2`,designation:`361`,commander:`Ryll`},
                                             ],
                                         },{
-                                            level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:`200th Infantry Regiment`,name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`90l`,
+                                            level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+                                            desc:`200th Light Infantry Regiment`,name:`200`,designation:``,commander:`Geißler`,icon:`90l`,
                                             pos:[485,125],
                                             elements:[
-                                                {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`1st Battalion, 200th Infantry Regiment`,name:`1`,designation:`200`,commander:`Ehle`}, 
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 200th Infantry Regiment`,name:`2`,designation:`200`,commander:`Panzenhagen`},
+                                                {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`1st Battalion, 200th Light Infantry Regiment`,name:`1`,designation:`200`,commander:`Ehle`}, 
+                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:`2nd Battalion, 200th Light Infantry Regiment`,name:`2`,designation:`200`,commander:`Panzenhagen`},
                                             ],
                                         },
                                     ],

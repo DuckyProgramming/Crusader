@@ -85,11 +85,11 @@ export class city{
                     layer.strokeWeight(4*this.fade.main)
                     layer.noFill()
                     this.connect.primary.forEach(connect=>{
-                        if(this.name==`Buq Buq`){
+                        if(this.name==`Tmimi`){
                             layer.bezier(
                                 this.position.x,this.position.y,
-                                this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+50,
-                                this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+50,
+                                this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+100,
+                                this.position.x*0.1+connect.position.x*0.9,this.position.y*0.1+connect.position.y*0.9+50,
                                 connect.position.x,connect.position.y
                             )
                         }else{
