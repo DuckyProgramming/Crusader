@@ -301,9 +301,12 @@ export class operation{
                     layer.textSize(25)
                     layer.text(`Translated Names`,layer.width/2,layer.height/2)
                     layer.text(`Untranslated Names`,layer.width/2,layer.height/2+100)
-                    layer.textSize(12.5)
+                    layer.textSize(20)
+                    layer.text(`e.g. 33rd Reconnaissance Battalion`,layer.width/2,layer.height/2+30)
+                    layer.text(`e.g. Aufklärungs-Abteilung 33`,layer.width/2,layer.height/2+130)
+                    /*layer.textSize(12.5)
                     layer.text(`e.g. 3rd Mixed Support Battalion, 61st Motorized Infantry Regiment`,layer.width/2,layer.height/2+30)
-                    layer.text(`e.g. III battaglione armi d'accompagnamento, 61° Reggimento di fanteria motorizzata "Sicilia"`,layer.width/2,layer.height/2+130)
+                    layer.text(`e.g. III battaglione armi d'accompagnamento, 61° Reggimento di fanteria motorizzata "Sicilia"`,layer.width/2,layer.height/2+130)*/
                 }
                 if(this.anim.start>0){
                     layer.fill(200,this.anim.start)

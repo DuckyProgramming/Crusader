@@ -461,8 +461,10 @@ export class unit{
                                 layer.line(1,5,0,3)
                             break
                             case 12:
-                                layer.line(6.5,1,5.25,1)
-                                layer.line(5.25,1,5.25,-1)
+                                /*layer.line(6.5,1,5.25,1)
+                                layer.line(5.25,1,5.25,-1)*/
+                                layer.strokeWeight(75/this.size)
+                                layer.line(-1,0,1,0)
                             break
                             case 13:
                                 layer.line(-2,-5,0,-3)
@@ -488,8 +490,9 @@ export class unit{
                                 layer.ellipse(3.5,4,1.5,1.5)
                             break
                             case 17:
-                                layer.line(0,-3,-2,-1)
-                                layer.line(0,-3,2,-1)
+                                layer.line(0,-3,-1,-2)
+                                layer.line(0,-3,1,-2)
+                                layer.line(0,-3,0,0)
                             break
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)

@@ -420,7 +420,7 @@ export function battalions(){
             unit.contain.units.forEach(contain=>totals[contain.player]++)
         }
     })
-    print(totals.map((total,index)=>`${types.player[index].name}: ${total}/${[48,16,36][index]}`).join(`\n`))
+    print(totals.map((total,index)=>`${types.player[index].name}: ${total}/${types.map[current.map].unit[current.set].battalions.flat()[index]}`).join(`\n`))
 }
 export function strength(){
     let totals=[[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]]]
@@ -432,7 +432,9 @@ export function strength(){
     })
     let temp=current.reform()
     temp.initialUnits(current.set)
-    temp.spawnUnits()
+    if(temp.turn.pick){
+        temp.spawnUnits()
+    }
     temp.units.forEach(unit=>{
         if(unit.contain.trigger&&unit.active){
             unit.calculateElements()

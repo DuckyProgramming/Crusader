@@ -7,7 +7,7 @@ export var types={
     unit:[],
     elementType:[
         {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1,artillery:false,engineer:false},//0
-        {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:720,speed:1,artillery:false,engineer:false},
+        {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:700,speed:1,artillery:false,engineer:false},
         {name:`Oasis Infantry`,unitType:[`Infantry`],class:0,damage:[10,1],armor:0,health:125,morale:1.1,num:1000,speed:1,artillery:false,engineer:false},
         {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false},
         {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false},
@@ -359,7 +359,7 @@ export var types={
                                     desc:`Machine Gun Battalion "President Steyn"`,name:`PS`,designation:``,commander:``,icon:`1sa`,
                                     pos:[624,171],
                                     elements:[
-                                        {level:3,type:`Motorized Machine Gun`,team:`South African`,desc:`Machine Gun Battalion "President Steyn"`,name:`PS`,designation:``,commander:``},
+                                        {level:3,type:`Motorized Machine Gun`,team:`South African`,desc:`Machine Gun Battalion "President Steyn"`,name:`PS`,designation:``,commander:`Minnaar`},
                                     ],
                                 },{
                                     level:3,type:[`Tank`,`Recon`,`Tracked`],team:`South African`,
@@ -505,26 +505,26 @@ export var types={
                                     desc:[`8th Panzer Regiment`,`Panzer-Regiment 8`],name:`8`,designation:``,commander:`Teege`,icon:`15pz`,
                                     pos:[385,920],
                                     elements:[
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:[`1st Battalion, 8th Panzer Regiment`,`I. / Panzer-Regiment 8`],name:`1`,designation:`8`,commander:`Kümmel`},
-                                        {level:3,type:`Medium Tank`,team:`German`,desc:[`2nd Battalion, 8th Panzer Regiment`,`II. / Panzer-Regiment 8`],name:`2`,designation:`8`,commander:`Wahl`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:[`1st Battalion, 8th Panzer Regiment`,`I./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:`Kümmel`},
+                                        {level:3,type:`Medium Tank`,team:`German`,desc:[`2nd Battalion, 8th Panzer Regiment`,`II./Panzer-Regiment 8`],name:`2`,designation:`8`,commander:`Wahl`},
                                     ],
                                 },{
                                     level:2,type:[`Infantry`,`Motorized`],team:`German`,
                                     desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
                                     pos:[460,920],
                                     elements:[
-                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I. / Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
-                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`2nd Battalion, 115th Rifle Regiment`,`II. / Schützen-Regiment 115`],name:`2`,designation:`115`,commander:`Göttman`},
-                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`3rd Battalion, 115th Rifle Regiment`,`III. / Schützen-Regiment 115`],name:`3`,designation:`115`,commander:`Finke`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`2nd Battalion, 115th Rifle Regiment`,`II./Schützen-Regiment 115`],name:`2`,designation:`115`,commander:`Göttman`},
+                                        {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`3rd Battalion, 115th Rifle Regiment`,`III./Schützen-Regiment 115`],name:`3`,designation:`115`,commander:`Finke`},
                                     ],
                                 },{
                                     level:2,type:[`Artillery`,`Motorized`],team:`German`,
                                     desc:[`33rd Artillery Regiment`,`Artillerie-Regiment (mot.) 33`],name:`33`,designation:``,commander:`Crasemann`,icon:`15pz`,
                                     pos:[215,920],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:[`1st Battalion, 33rd Artillery Regiment`,`I. / Artillerie-Regiment (mot.) 33`],name:`1`,designation:`33`,commander:`Mayer`},
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:[`2nd Battalion, 33rd Artillery Regiment`,`II. / Artillerie-Regiment (mot.) 33`],name:`2`,designation:`33`,commander:`Mesmer`},
-                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:[`3rd Battalion, 33rd Artillery Regiment`,`III. / Artillerie-Regiment (mot.) 33`],name:`3`,designation:`33`,commander:`Bickel`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:[`1st Battalion, 33rd Artillery Regiment`,`I./Artillerie-Regiment (mot.) 33`],name:`1`,designation:`33`,commander:`Mayer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:[`2nd Battalion, 33rd Artillery Regiment`,`II./Artillerie-Regiment (mot.) 33`],name:`2`,designation:`33`,commander:`Mesmer`},
+                                        {level:3,type:`Motorized Artillery`,team:`German`,desc:[`3rd Battalion, 33rd Artillery Regiment`,`III./Artillerie-Regiment (mot.) 33`],name:`3`,designation:`33`,commander:`Bickel`},
                                     ],
                                 },{
                                     level:3,type:[`Engineer`,`Motorized`],team:`German`,
@@ -557,16 +557,16 @@ export var types={
                                             desc:[`361st Light Infantry Regiment`,`Leichtes Infanterie-Regiment 361`],name:`361`,designation:`Afrika`,commander:`Von Barby`,icon:`90l`,
                                             pos:[505,45],
                                             elements:[
-                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:[`1st Battalion, 361st Light Infantry Regiment`,`I. / Leichtes Infanterie-Regiment 361`],name:`1`,designation:`361`,commander:`Harder`},
-                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 361st Light Infantry Regiment`,`II. / Leichtes Infanterie-Regiment 361`],name:`2`,designation:`361`,commander:`Ryll`},
+                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:[`1st Battalion, 361st Light Infantry Regiment`,`I./Leichtes Infanterie-Regiment 361`],name:`1`,designation:`361`,commander:`Harder`},
+                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 361st Light Infantry Regiment`,`II./Leichtes Infanterie-Regiment 361`],name:`2`,designation:`361`,commander:`Ryll`},
                                             ],
                                         },{
                                             level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
                                             desc:[`200th Light Infantry Regiment`,`Leichtes Infanterie-Regiment 200`],name:`200`,designation:``,commander:`Geißler`,icon:`90l`,
                                             pos:[485,125],
                                             elements:[
-                                                {level:3,type:`Motorcycle Infantry`,team:`German`,desc:[`1st Battalion, 200th Light Infantry Regiment`,`I. / Leichtes Infanterie-Regiment 200`],name:`1`,designation:`200`,commander:`Ehle`}, 
-                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 200th Light Infantry Regiment`,`II. / Leichtes Infanterie-Regiment 200`],name:`2`,designation:`200`,commander:`Panzenhagen`},
+                                                {level:3,type:`Motorcycle Infantry`,team:`German`,desc:[`1st Battalion, 200th Light Infantry Regiment`,`I./Leichtes Infanterie-Regiment 200`],name:`1`,designation:`200`,commander:`Ehle`}, 
+                                                {level:3,type:`Semi-Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 200th Light Infantry Regiment`,`II./Leichtes Infanterie-Regiment 200`],name:`2`,designation:`200`,commander:`Panzenhagen`},
                                             ],
                                         },
                                     ],
@@ -575,8 +575,8 @@ export var types={
                                     desc:[`288th "Afrika" Grenadier Regiment`,`Afrika-Grenadier-Regiment 288`],name:`288`,designation:``,commander:`Menton`,icon:`90l`,
                                     pos:[385,1120],
                                     elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 288th "Afrika" Grenadier Regiment`,`I. / Afrika-Grenadier-Regiment 288`],name:`1`,designation:`288`,commander:`Daumiller`},
-                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 288th "Afrika" Grenadier Regiment`,`II. / Afrika-Grenadier-Regiment 288`],name:`2`,designation:`288`,commander:`Borhardt`},
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 288th "Afrika" Grenadier Regiment`,`I./Afrika-Grenadier-Regiment 288`],name:`1`,designation:`288`,commander:`Daumiller`},
+                                        {level:3,type:`Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 288th "Afrika" Grenadier Regiment`,`II./Afrika-Grenadier-Regiment 288`],name:`2`,designation:`288`,commander:`Borhardt`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`German`,

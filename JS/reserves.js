@@ -100,13 +100,6 @@ reserves=[
             {level:3,type:`Motorized Flak`,team:`German`,desc:`1st Battalion, 18th Flak Regiment`,name:`1`,designation:`18`,commander:`Hecht`},
         ],
     },{
-        level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
-        desc:`33rd Anti-Tank Battalion`,name:`33`,designation:``,commander:`Beil`,icon:`15pz`,
-        pos:[1737,1251],
-        elements:[
-            {level:3,type:`Motorized Anti-Tank`,team:`German`,desc:`33rd Anti-Tank Battalion`,name:`33`,designation:``,commander:`Beil`}, 
-        ],
-    },{
         level:3,type:[`Engineer`,`Motorized`],team:`German`,
         desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`,icon:`15pz`,
         pos:[1737,1251],
