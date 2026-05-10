@@ -142,13 +142,6 @@ reserves=[
             {level:3,type:`Engineer`,team:`German`,desc:`900th Pioneer Battalion z.b.V.`,name:`900`,designation:`z.b.V.`,commander:`Meltzer`}, 
         ],
     },{
-        level:3,type:[`Infantry`,`Motorized`],team:`French`,
-        desc:`Free French Battalion 'Élisabeth de Miribel'`,name:`FF`,designation:`Élisabeth\nde Miribel`,commander:``,icon:``,
-        pos:[1499,280],
-        elements:[
-            {level:3,type:`Motorized Infantry`,team:`French`,desc:`Free French Battalion 'Élisabeth de Miribel'`,name:`FF`,designation:`Élisabeth\nde Miribel`,commander:``},
-        ],
-    },{
         level:0,type:[`Tank`],team:`German`,
         desc:`21st Panzer Division`,name:`15`,designation:``,commander:`Ravenstein`,icon:`21pz`,
         pos:[1554,434],
@@ -269,6 +262,13 @@ reserves=[
                     {level:3,type:`Motorcycle Infantry`,team:`German`,desc:`15th Motorcycle Battalion`,name:`15`,designation:``,commander:`Knabe`},
                 ],
             },
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`French`,
+        desc:[`Free French Battalion "Élisabeth de Miribel"`,`Bataillon d'infanterie française libre "Élisabeth de Miribel"`],name:`FL`,designation:`Élisabeth\nde Miribel`,commander:``,icon:``,
+        pos:[1499,280],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`French`,desc:[`Free French Battalion "Élisabeth de Miribel"`,`Bataillon d'infanterie française libre "Élisabeth de Miribel"`],name:`FL`,designation:`Élisabeth\nde Miribel`,commander:``},
         ],
     },
 ]

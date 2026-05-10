@@ -581,7 +581,7 @@ export class operation{
                         layer.fill(0,this.anim.main*this.anim.select)
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
-                        layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Tanks\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
+                        layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
                         if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
@@ -943,7 +943,7 @@ export class operation{
                                                     desc:`${[`Battle Group`,`Kampfgruppe`,options.translate?`Column`:`Colonna`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                     icon:element.icon,elements:[],
                                                 })
-                                                result.contain.temp=true
+                                                //result.contain.temp=true
                                                 result.contain.units.push(element)
                                                 result.contain.units.push(target.contain.units[0])
                                                 target.active=false
@@ -1331,7 +1331,7 @@ export class operation{
                                                 desc:`${[`Battle Group`,`Kampfgruppe`,`Column`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                 icon:element.icon,elements:[],
                                             })
-                                            result.contain.temp=true
+                                            //result.contain.temp=true
                                             result.contain.units.push(element)
                                             result.contain.units.push(target.contain.units[0])
                                             target.active=false

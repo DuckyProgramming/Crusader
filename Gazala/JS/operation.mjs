@@ -24,11 +24,15 @@ export class operation{
         this.loadMap(this.map)
         this.loadBack()
         this.initialComponents()
-        constants.init=true
 
-        this.turn.start=false
-        this.turn.prep=true
-        this.turn.translate=0
+        constants.init=true
+        if(dev.begin>=0){
+            this.scene=`mapAll`
+            this.initialUnits(dev.begin)
+            if(this.turn.pick){
+                this.spawnUnits()
+            }
+        }
     }
     save(){
         let composite={
@@ -180,6 +184,7 @@ export class operation{
         })
         this.units.forEach(unit=>unit.endTick())
         this.cities.forEach(city=>city.endTick())
+        this.units.forEach(unit=>unit.updateStrength())
         this.turn.total++
         this.turn.main=0
         this.startTurn()
@@ -352,7 +357,7 @@ export class operation{
                         layer.fill(0,this.anim.main*this.anim.select)
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
-                        layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Tanks\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
+                        layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
                         if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
@@ -704,7 +709,7 @@ export class operation{
                                                     desc:`${[`Kampfgruppe`,options.translate?`Column`:`Colonna`,`Battle Group`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`KG`,`C`,`BG`][element.player],designation:element.designation,commander:element.commander,
                                                     icon:element.icon,elements:[],
                                                 })
-                                                result.contain.temp=true
+                                                //result.contain.temp=true
                                                 result.contain.units.push(element)
                                                 result.contain.units.push(target.contain.units[0])
                                                 target.active=false
@@ -1017,7 +1022,7 @@ export class operation{
                                                 desc:`${[`Kampfgruppe`,`Column`,`Battle Group`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`KG`,`C`,`BG`][element.player],designation:element.designation,commander:element.commander,
                                                 icon:element.icon,elements:[],
                                             })
-                                            result.contain.temp=true
+                                            //result.contain.temp=true
                                             result.contain.units.push(element)
                                             result.contain.units.push(target.contain.units[0])
                                             target.active=false

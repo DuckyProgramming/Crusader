@@ -79,5 +79,5 @@ RECA (1 Security Tank Battalion, 1 Motorcycle Police Battalion, 1 Motorized Arti
 60th Infantry Division "Sabratha" (7 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Battalions (283,284))
+	Artillery Group "Sabratha" (2 Obsolete Battalions (283,284))
 	60th Mixed Engineer Battalion

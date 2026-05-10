@@ -29,6 +29,7 @@ export var types={
         {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false,recon:true},
         {name:`Light Artillery`,unitType:[`Light Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false,recon:false},//20
         {name:`Coastal Artillery`,unitType:[`Light Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Small Artillery`,unitType:[`Artillery`],class:2,damage:[8,14],armor:0.4,health:12,morale:0.8,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.05,artillery:true,engineer:false,recon:false},
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
@@ -36,17 +37,17 @@ export var types={
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
         {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false,recon:false},
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false,recon:false},
-        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false,recon:false},
-        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true,recon:false},//30
+        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false,recon:false},//30
+        {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true,recon:false},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false,recon:false},
         {name:`Motorized Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`,`Motorized`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:2.875,artillery:false,engineer:true,recon:false},
         {name:`Motorized Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`,`Motorized`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:3.25,artillery:false,engineer:false,recon:false},
         {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true,recon:false},
         {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true,recon:false},
-        {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:1,artillery:true,engineer:false,recon:false},
-        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[0,24],armor:0.1,health:20,morale:1,num:20,speed:2.5,artillery:true,engineer:false,recon:false},
+        {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false,recon:false},
-        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false,recon:false},
+        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false,recon:false},//40
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -500,7 +501,7 @@ export var types={
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Duke of Edinburgh's Own Rifles`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Seneschall`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Royal Natal Carabineers`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Transvaal Scottish Regiment`,name:`1`,designation:`Transvaal\nScottish`,commander:`Smitheman`},
-                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:`3rd South African Field Artillery Regiment`,name:`3`,designation:``,commander:`Whyte`},
+                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:[`3rd Battalion, South African Artillery Corps`,`3rd South African Field Regiment`],name:`3`,designation:``,commander:`Whyte`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`,`Machine Gun`],team:`South African`,
@@ -539,8 +540,8 @@ export var types={
                                     desc:`2nd New Zealand Field Brigade`,name:`2`,designation:``,commander:`Miles`,icon:`2nz`,
                                     pos:[2620,1210],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`6th New Zealand Field Regiment`,name:`6`,designation:``,commander:`Weir`},
-                                        {level:3,type:`Motorized Anti-Tank`,team:`New Zealand`,desc:`7th New Zealand Anti-Tank Regiment`,name:`7`,designation:``,commander:`Oakes`},
+                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`6th New Zealand Artillery Battalion`,`6th New Zealand Field Regiment`],name:`6`,designation:``,commander:`Weir`},
+                                        {level:3,type:`Motorized Anti-Tank`,team:`New Zealand`,desc:[`7th New Zealand Anti-Tank Battalion`,`7th New Zealand Anti-Tank Regiment`],name:`7`,designation:``,commander:`Oakes`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`Māori`,
@@ -729,12 +730,12 @@ export var types={
                                         {level:3,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 16th Infantry Regiment`,`II battaglione fucilieri, 16° Reggimento di fanteria "Savona"`],name:`2`,designation:`16`,commander:`Aveta`},
                                     ],
                                 },{
-                                    level:2,type:[`Light Artillery`],team:`Italian`,
+                                    level:2,type:[`Artillery`],team:`Italian`,
                                     desc:[`12th Artillery Regiment`,`12° Reggimento artiglieria "Savona"`],name:`12`,designation:`Savona`,commander:`Sabini`,icon:`savona`,
                                     pos:[2245,937],
                                     elements:[
-                                        {level:3,type:`Light Artillery`,team:`Italian`,desc:[`2nd Group, 12th Artillery Regiment`,`II gruppo, 12° Reggimento artiglieria "Savona"`],name:`2`,designation:`12`,commander:`Coronati`},
-                                        {level:3,type:`Light Artillery`,team:`Italian`,desc:[`3rd Group, 12th Artillery Regiment`,`III gruppo, 12° Reggimento artiglieria "Savona"`],name:`3`,designation:`12`,commander:`Aliberti`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`2nd Group, 12th Artillery Regiment`,`II gruppo, 12° Reggimento artiglieria "Savona"`],name:`2`,designation:`12`,commander:`Coronati`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`3rd Group, 12th Artillery Regiment`,`III gruppo, 12° Reggimento artiglieria "Savona"`],name:`3`,designation:`12`,commander:`Aliberti`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -784,13 +785,13 @@ export var types={
                                         {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:[`11th Bersaglieri Battalion`,`11° Battaglione Bersaglieri`],name:`11`,designation:`Bersaglieri`,commander:`Straziota`},
                                     ],
                                 },{
-                                    level:2,type:[`Light Artillery`],team:`Italian`,
+                                    level:2,type:[`Artillery`],team:`Italian`,
                                     desc:[`46th Artillery Regiment`,`46° Reggimento artiglieria "Trento"`],name:`46`,designation:`Trento`,commander:`Grati`,icon:`savona`,
                                     pos:[581,198],
                                     elements:[
-                                        {level:3,type:`Light Artillery`,team:`Italian`,desc:[`1st Group, 46th Artillery Regiment`,`I gruppo, 46° Reggimento artiglieria "Trento"`],name:`1`,designation:`46`,commander:`Giannimi`},
-                                        {level:3,type:`Light Artillery`,team:`Italian`,desc:[`3rd Group, 46th Artillery Regiment`,`III gruppo, 46° Reggimento artiglieria "Trento"`],name:`3`,designation:`46`,commander:`Salvo`},
-                                        {level:3,type:`Light Artillery`,team:`Italian`,desc:[`4th Group, 46th Artillery Regiment`,`IV gruppo, 46° Reggimento artiglieria "Trento"`],name:`4`,designation:`46`,commander:`Gavazzi`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`1st Group, 46th Artillery Regiment`,`I gruppo, 46° Reggimento artiglieria "Trento"`],name:`1`,designation:`46`,commander:`Giannimi`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`3rd Group, 46th Artillery Regiment`,`III gruppo, 46° Reggimento artiglieria "Trento"`],name:`3`,designation:`46`,commander:`Salvo`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`4th Group, 46th Artillery Regiment`,`IV gruppo, 46° Reggimento artiglieria "Trento"`],name:`4`,designation:`46`,commander:`Gavazzi`},
                                     ],
                                 },{
                                     level:3,type:[`Engineer`],team:`Italian`,
@@ -885,7 +886,7 @@ export var types={
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Duke of Edinburgh's Own Rifles`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Seneschall`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Royal Natal Carabineers`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Transvaal Scottish Regiment`,name:`1`,designation:`Transvaal\nScottish`,commander:`Smitheman`},
-                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:`3rd South African Field Artillery Regiment`,name:`3`,designation:``,commander:`Whyte`},
+                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:[`3rd Battalion, South African Artillery Corps`,`3rd South African Field Regiment`],name:`3`,designation:``,commander:`Whyte`},
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`South African`,
@@ -895,7 +896,7 @@ export var types={
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, South African Irish Regiment`,name:`1`,designation:`Irish`,commander:`Cochran`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, General Botha Regiment`,name:`2`,designation:`Botha`,commander:`Mason`},
                                         {level:3,type:`Motorized Infantry`,team:`South African`,desc:`3rd Battalion, Transvaal Scottish Regiment`,name:`3`,designation:`Transvaal\nScottish`,commander:`Rosser`},
-                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:`4th South African Field Artillery Regiment`,name:`4`,designation:``,commander:`Harpur`},
+                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:[`4th Battalion, South African Artillery Corps`,`4th South African Field Regiment`],name:`4`,designation:``,commander:`Harpur`},
                                     ],
                                 },
                             ],
@@ -936,9 +937,9 @@ export var types={
                                     desc:`2nd New Zealand Field Brigade`,name:`2`,designation:``,commander:`Miles`,icon:`2nz`,
                                     pos:[2620,1210],
                                     elements:[
-                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`4th New Zealand Field Regiment`,name:`4`,designation:``,commander:`Duff`},
-                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`5th New Zealand Field Regiment`,name:`5`,designation:``,commander:`Fraser`},
-                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:`6th New Zealand Field Regiment`,name:`6`,designation:``,commander:`Weir`},
+                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`4th New Zealand Artillery Battalion`,`4th New Zealand Field Regiment`],name:`4`,designation:``,commander:`Duff`},
+                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`5th New Zealand Artillery Battalion`,`5th New Zealand Field Regiment`],name:`5`,designation:``,commander:`Fraser`},
+                                        {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`6th New Zealand Artillery Battalion`,`6th New Zealand Field Regiment`],name:`6`,designation:``,commander:`Weir`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,"Machine Gun"],team:`New Zealand`,
@@ -1365,7 +1366,7 @@ export var types={
                                 {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, South African Irish Regiment`,name:`1`,designation:`Irish`,commander:`Cochran`},
                                 {level:3,type:`Motorized Infantry`,team:`South African`,desc:`2nd Battalion, General Botha Regiment`,name:`2`,designation:`Botha`,commander:`Mason`},
                                 {level:3,type:`Motorized Infantry`,team:`South African`,desc:`3rd Battalion, Transvaal Scottish Regiment`,name:`3`,designation:`Transvaal\nScottish`,commander:`Rosser`},
-                                {level:3,type:`Motorized Artillery`,team:`South African`,desc:`4th South African Field Artillery Regiment`,name:`4`,designation:``,commander:`Harpur`},
+                                {level:3,type:`Motorized Artillery`,team:`South African`,desc:[`4th Battalion, South African Artillery Corps`,`4th South African Field Regiment`],name:`4`,designation:``,commander:`Harpur`},
                             ],
                         },
                     ],[
@@ -1428,12 +1429,12 @@ export var types={
                         },
                     ],[
                         {
-                            level:2,type:[`Light Artillery`],team:`Italian`,
+                            level:2,type:[`Artillery`],team:`Italian`,
                             desc:[`Artillery Group "Sabratha"`,`Raggruppamento artiglieria "Sabratha"`],name:`RA`,designation:`Sabratha`,commander:`Ferrario`,icon:`savona`,
                             pos:[827,474],
                             elements:[
-                                {level:3,type:`Light Artillery`,team:`Italian`,desc:[`283rd Group, Artillery Group "Sabratha"`,`CCLXXXIII gruppo, Raggruppamento artiglieria "Sabratha"`],name:`1`,designation:`Sabratha`,commander:`Parrella`},
-                                {level:3,type:`Light Artillery`,team:`Italian`,desc:[`284th Group, Artillery Group "Sabratha"`,`CCLXXXIV gruppo, Raggruppamento artiglieria "Sabratha"`],name:`3`,designation:`Sabratha`,commander:`Rocchi`},
+                                {level:3,type:`Small Artillery`,team:`Italian`,desc:[`283rd Group, Artillery Group "Sabratha"`,`CCLXXXIII gruppo, Raggruppamento artiglieria "Sabratha"`],name:`283`,designation:`Sabratha`,commander:`Parrella`},
+                                {level:3,type:`Small Artillery`,team:`Italian`,desc:[`284th Group, Artillery Group "Sabratha"`,`CCLXXXIV gruppo, Raggruppamento artiglieria "Sabratha"`],name:`284`,designation:`Sabratha`,commander:`Rocchi`},
                             ],
                         },{
                             level:3,type:[`Artillery`,`Machine Gun`,`Mortar`],team:`Italian`,

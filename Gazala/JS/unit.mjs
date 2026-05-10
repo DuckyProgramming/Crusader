@@ -45,7 +45,7 @@ export class unit{
             detach:0,absorb:0
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
-        this.contain={units:[],stats:{},trigger:true,middle:false,temp:this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)||this.desc.includes(`Chasseurs`)}
+        this.contain={units:[],stats:{},trigger:true,middle:false,temp:int(this.desc[0])!=int(this.desc[0])/*this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)||this.desc.includes(`Chasseurs`)*/}
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
         this.base={position:{x:this.position.x,y:this.position.y}}
@@ -247,7 +247,7 @@ export class unit{
                 this.logs.main.push(`Drowned`)
             }
         }
-        this.updateStrength()
+        //this.updateStrength()
         this.hist.push({active:this.active,position:{x:this.position.x,y:this.position.y},strength:{life:this.strength.life,morale:this.strength.morale,supply:this.strength.supply}})
     }
     near(dist,player){
@@ -461,10 +461,12 @@ export class unit{
                                 layer.line(1,5,0,3)
                             break
                             case 12:
-                                /*layer.line(6.5,1,5.25,1)
-                                layer.line(5.25,1,5.25,-1)*/
-                                layer.strokeWeight(75/this.size)
-                                layer.line(-1,0,1,0)
+                                layer.line(6.5,1,5.25,1)
+                                layer.line(5.25,1,5.25,-1)
+                                layer.strokeWeight(100/this.size)
+                                layer.point(0,0)
+                                /**layer.strokeWeight(75/this.size)
+                                layer.line(-1,0,1,0)*/
                             break
                             case 13:
                                 layer.line(-2,-5,0,-3)

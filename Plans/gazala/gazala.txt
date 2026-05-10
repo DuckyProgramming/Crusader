@@ -1,29 +1,31 @@
 8th Army (52 Battalions)
 
-XXX Corps (19 Battalions)
+XXX Corps (21 Battalions)
 
-7th Armoured Division (15 Battalions)
+7th Armoured Division (14 Battalions)
 	1st King's Dragoon Guards Armoured Cars
-	2nd Armoured Brigade (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	2nd Armoured Brigade (3 Armoured Battalions, 1 Artillery Battalion)
 	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
-22nd Guards Brigade (2 Battalions)
-32nd Army Tank Brigade (2 Battalions)
+201st Guards Brigade (4 Battalions)
+32nd Army Tank Brigade (3 Battalions)
 
-XIII Corps (33 Battalions)
+XIII Corps (31 Battalions)
 
-1st South African Division (13 Battalions)
-	6th South African Armoured Car Regiment
+1st South African Division (16 Battalions)
 	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	3rd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	2nd South African Police Battalion
+	2nd Battalion, General Botha Regiment
+	Machine Gun Battalion "President Steyn"
+	3rd South African Armoured Car Regiment
 
-5th Indian Infantry Division (8 Battalions)
-	10th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
+5th Indian Infantry Division (7 Battalions)
+	10th Indian Infantry Brigade (3 Battalions)
 	29th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 
-4th South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalions)
 11th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 150th Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 
@@ -52,11 +54,10 @@ XX Mobile Corps (21 Battalions)
 
 Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 Italian Africa Police Battalion "Romolo Gessi"
-Motorized Artillery Battalion "Raggruppamento Batterie Volanti"
 
-101st Motorized Division "Trieste" (7 Battalions)
+101st Motorized Division "Trieste" (8 Battalions)
 	65th Motorized Infantry Regiment (2 Motorized Infantry Battalions)
-	66th Motorized Infantry Regiment (2 Motorized Infantry Battalions)
+	66th Motorized Infantry Regiment (3 Motorized Infantry Battalions)
 	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion)
 	Milizia Marittima di Artiglieria Battalion "CAM"
 

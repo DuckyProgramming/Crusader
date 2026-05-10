@@ -35,7 +35,7 @@ export class city{
         }
         if(this.owner!=-1){
             this.operation.units.forEach(unit=>{
-                if(distPos(unit,this)<[100,150][this.type]){
+                if(unit.strength.supply<unit.strength.base.supply&&distPos(unit,this)<[100,150][this.type]&&!this.operation.cities.some(city=>distPos(unit,this)>distPos(unit,city))){
                     if(types.player[unit.player].side==types.player[this.owner].side&&unit.contain.trigger){
                         unit.contain.units.forEach(cont=>{
                             cont.strength.supply=min(
