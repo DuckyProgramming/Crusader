@@ -888,7 +888,7 @@ export class unit{
                                             *(2-target.strength.morale/target.strength.base.morale)
                                             *(0.5+this.strength.supply/this.strength.base.supply)
                                             *(2-target.strength.supply/target.strength.base.supply)
-                                            *(target.order.defense?(fort&&!this.contain.stats.engineer?0.4:(target.battle.fortified||target.contain.stats.engineer)&&!this.contain.stats.engineer?0.6:0.8):1)
+                                            *(target.order.defense?(fort&&!this.contain.stats.engineer?0.6:(target.battle.fortified||target.contain.stats.engineer)&&!this.contain.stats.engineer?0.7:0.8):1)
                                             *this.getParentEffectiveness()
                                             *random(1,constants.battleVariance),
                                             map(

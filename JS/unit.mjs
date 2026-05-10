@@ -268,9 +268,9 @@ export class unit{
     getDesc(){
         return `${this.contain.temp?``:`the `}${this.desc}`
     }
-        getKills(variant){
-            return (this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0))*(options.obscureKills?this.stats.obscure:1)
-        }
+    getKills(variant){
+        return (this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0))*(options.obscureKills?this.stats.obscure:1)
+    }
     getKillsClear(variant){
         return this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0)
     }
@@ -884,7 +884,7 @@ export class unit{
                                             *(2-target.strength.morale/target.strength.base.morale)
                                             *(0.5+this.strength.supply/this.strength.base.supply)
                                             *(2-target.strength.supply/target.strength.base.supply)
-                                            *(target.order.defense?(fort&&!this.contain.stats.engineer?0.4:target.battle.fortified&&!this.contain.stats.engineer?0.6:0.8):1)
+                                            *(target.order.defense?(fort&&!this.contain.stats.engineer?0.4:(target.battle.fortified||target.contain.stats.engineer)&&!this.contain.stats.engineer?0.6:0.8):1)
                                             *this.getParentEffectiveness()
                                             *random(1,constants.battleVariance),
                                             map(

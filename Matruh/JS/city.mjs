@@ -85,15 +85,34 @@ export class city{
                     layer.strokeWeight(4*this.fade.main)
                     layer.noFill()
                     this.connect.primary.forEach(connect=>{
-                        if(this.name==`Tmimi`){
-                            layer.bezier(
-                                this.position.x,this.position.y,
-                                this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+100,
-                                this.position.x*0.1+connect.position.x*0.9,this.position.y*0.1+connect.position.y*0.9+50,
-                                connect.position.x,connect.position.y
-                            )
-                        }else{
-                            layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                        switch(this.name){
+                            case `Gerawla`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+50,
+                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+50,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Mersa Matruh`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+20,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Maaten Baggush`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                    this.position.x*0.2+connect.position.x*0.8,this.position.y*0.2+connect.position.y*0.8+40,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            default:
+                                layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                            break
                         }
                     })
                 }

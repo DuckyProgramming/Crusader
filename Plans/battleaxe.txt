@@ -1,10 +1,10 @@
-Western Desert Force (20 Battalions)
+Western Desert Force (19 Battalions)
 
 7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guard Armoured Cars
 	4th Armoured Brigade (2 Battalions)
 	7th Armoured Brigade (2 Battalions)
-	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
+	7th Support Group (2 Infantry Battalions, 1 Artillery Battalion)
 
 4th Indian Division (6 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)

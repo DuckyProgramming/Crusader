@@ -130,6 +130,7 @@ export class city{
             break
             case `mapAll`:
                 this.fade.main=1
+                this.fade.reveal=1
             break
             case `hist`:
                 this.fade.main=1

@@ -194,7 +194,7 @@ export var types={
             ],team:[
                 {name:`British`,term:`britain`,player:0,quality:1},
                 {name:`New Zealand`,term:`new zealand`,player:0,quality:1.05},
-                {name:`South African`,term:`south africa`,player:0,quality:0.95},
+                {name:`South African`,term:`south africa`,player:0,quality:0.9},
                 {name:`Polish`,term:`poland`,player:0,quality:1},
                 {name:`Australian`,term:`australia`,player:0,quality:1.05},
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},

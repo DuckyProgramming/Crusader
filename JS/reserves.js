@@ -270,5 +270,14 @@ reserves=[
         elements:[
             {level:3,type:`Motorized Infantry`,team:`French`,desc:[`Free French Battalion "Élisabeth de Miribel"`,`Bataillon d'infanterie française libre "Élisabeth de Miribel"`],name:`FL`,designation:`Élisabeth\nde Miribel`,commander:``},
         ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+        desc:`21st Indian Infantry Brigade`,name:`21`,designation:``,commander:`Purves`,icon:`10id`,
+        pos:[1670,561],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 4th Gurkha Rifles`,name:`2/4`,designation:`Gurkha`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 10th Gurkha Rifles`,name:`2/10`,designation:`Gurkha`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 13th Frontier Force Rifles`,name:`4/13`,designation:`Frontier`,commander:``},
+        ],
     },
 ]
