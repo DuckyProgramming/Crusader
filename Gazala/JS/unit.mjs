@@ -280,6 +280,7 @@ export class unit{
                 this.parent.contain.units.indexOf(this),
                 1
             )
+            this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
         }
     }
     calculateElements(){

@@ -27,8 +27,8 @@ export var types={
         {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false,recon:true},
         {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false,recon:true},
         {name:`Light Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false,recon:false},//20
-        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
-        {name:`Small Artillery`,unitType:[`Artillery`],class:2,damage:[8,14],armor:0.4,health:12,morale:0.8,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Coastal Artillery`,unitType:[`Light Artillery`,`Artillery`],class:2,damage:[6,8],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Small Artillery`,unitType:[`Artillery`],class:2,damage:[6,10],armor:0.4,health:12,morale:0.8,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.05,artillery:true,engineer:false,recon:false},
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
@@ -41,17 +41,18 @@ export var types={
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false,recon:false},
         {name:`Motorized Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`,`Motorized`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:2.875,artillery:false,engineer:true,recon:false},
         {name:`Motorized Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`,`Motorized`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:3.25,artillery:false,engineer:false,recon:false},
-        {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true,recon:false},
-        {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true,recon:false},
+        {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,6],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true,recon:false},
+        {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,6],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true,recon:false},
         {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false,recon:false},
         {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false,recon:false},//40
 
-        {name:`Weaker Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:false,recon:false},
+        {name:`Small Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:1,num:700,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Weaker Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:75,morale:0.8,num:600,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Armed Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[11,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Reinforced Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,3],armor:0.1,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
-        {name:`Small Fast Artillery`,unitType:[`Artillery`],class:2,damage:[8,14],armor:0.4,health:12,morale:0.8,num:12,speed:0.85,artillery:true,engineer:false,recon:false},
+        {name:`Small Fast Artillery`,unitType:[`Artillery`],class:2,damage:[6,10],armor:0.4,health:12,morale:0.8,num:12,speed:0.85,artillery:true,engineer:false,recon:false},
         {name:`Slow Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[12,10],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Superior Tank`,unitType:[`Tank`,`Superior`],class:1,damage:[15,15],armor:0.8,health:60,morale:0.75,num:50,speed:1.5,artillery:false,engineer:false,recon:false},
     ],unitType:[
@@ -193,7 +194,7 @@ export var types={
                                 {
                                     level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
                                     desc:`29th Indian Infantry Brigade`,name:`29`,designation:``,commander:`Reid`,icon:`5id`,
-                                    pos:[722,728],
+                                    pos:[769,837],
                                     elements:[
                                         {
                                             level:3,type:[`Infantry`,`Motorized`],team:`Indian`,
@@ -205,9 +206,16 @@ export var types={
                                         },{
                                             level:3,type:[`Infantry`,`Motorized`],team:`Indian`,
                                             desc:`Gleecol`,name:`Gleecol`,designation:``,commander:`Gleeson`,icon:`5id`,
-                                            pos:[373,700],
+                                            pos:[676,565],
                                             elements:[
                                                 {level:3,type:`Weaker Motorized Infantry`,team:`Indian`,desc:`Gleecol`,name:`Gleecol`,designation:``,commander:`Gleeson`},
+                                            ],
+                                        },{
+                                            level:3,type:[`Infantry`,`Motorized`],team:`Indian`,
+                                            desc:`Scotcol`,name:`Scotcol`,designation:``,commander:`Scott`,icon:`5id`,
+                                            pos:[373,700],
+                                            elements:[
+                                                {level:3,type:`Weaker Motorized Infantry`,team:`Indian`,desc:`Scotcol`,name:`Scotcol`,designation:``,commander:`Scott`},
                                             ],
                                         },
                                     ],
@@ -252,13 +260,6 @@ export var types={
                                     elements:[
                                         {level:3,type:`Armored Car`,team:`South African`,desc:[`6th South African Armored Car Battalion`,`6th South African Armoured Car Regiment`],name:`6`,designation:``,commander:`Short`},
                                     ],
-                                },{
-                                    level:3,type:[`Infantry`,`Motorized`],team:`Māori`,
-                                    desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
-                                    pos:[817,474],
-                                    elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`Māori`,desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`},
-                                    ],
                                 },
                             ],
                         },{
@@ -268,7 +269,7 @@ export var types={
                             elements:[
                                 {
                                     level:1,type:[`Tank`],team:`British`,
-                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Fisher`,icon:`7a`,
+                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Fisher`,icon:`4ab`,
                                     pos:[250,1060],
                                     elements:[
                                         {level:3,type:`Light Tank`,team:`British`,desc:[`3rd Battalion, Royal Tank Regiment`,`3rd Royal Tank Regiment`],name:`3`,designation:`Royal Tank\nRegiment`,commander:``},
@@ -279,7 +280,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`British`,
-                                    desc:`7th Motor Brigade`,name:`7`,designation:``,commander:`Garmoyle`,icon:`7a`,
+                                    desc:`7th Motor Brigade`,name:`7`,designation:``,commander:`Garmoyle`,icon:`7sg`,
                                     pos:[400,920],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:``},
@@ -328,11 +329,11 @@ export var types={
                                         {level:3,type:`Motorized Anti-Tank`,team:`New Zealand`,desc:[`7th New Zealand Anti-Tank Battalion`,`7th New Zealand Anti-Tank Regiment`],name:`7`,designation:``,commander:`Oakes`},
                                     ],
                                 },{
-                                    level:3,type:[`Infantry`,"Machine Gun"],team:`New Zealand`,
-                                    desc:`27th New Zealand Machine Gun Battalion`,name:`27`,designation:``,commander:`Gwilliam`,icon:`2nz`,
+                                    level:3,type:[`Infantry`,`Motorized`],team:`Māori`,
+                                    desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
                                     pos:[1008,870],
                                     elements:[
-                                        {level:3,type:`Motorized Machine Gun`,team:`New Zealand`,desc:`27th New Zealand Machine Gun Battalion`,name:`27`,designation:``,commander:`Gwilliam`},
+                                        {level:3,type:`Motorized Infantry`,team:`Māori`,desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`},
                                     ],
                                 },
                             ],
@@ -346,16 +347,16 @@ export var types={
                                     desc:[`85th Infantry Regiment`,`85° Reggimento di fanteria "Sabratha"`],name:`85`,designation:`Sabratha`,commander:`Grimaldi`,icon:`sabratha`,
                                     pos:[522,50],
                                     elements:[
-                                        {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`1st Battalion, 85th Infantry Regiment`,`I battaglione fucilieri, 85° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`85`,commander:`Angelozzi`},
-                                        {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`2nd Battalion, 85th Infantry Regiment`,`II battaglione fucilieri, 85° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`85`,commander:`Morosini`},
+                                        {level:3,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 85th Infantry Regiment`,`I battaglione fucilieri, 85° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`85`,commander:`Angelozzi`},
+                                        {level:3,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 85th Infantry Regiment`,`II battaglione fucilieri, 85° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`85`,commander:`Morosini`},
                                     ],
                                 },{
                                     level:2,type:[`Infantry`],team:`Italian`,
                                     desc:[`86th Infantry Regiment`,`86° Reggimento di fanteria "Sabratha"`],name:`86`,designation:`Sabratha`,commander:`Castrignanò`,icon:`sabratha`,
                                     pos:[472,160],
                                     elements:[
-                                        {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`1st Battalion, 86th Infantry Regiment`,`I battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`86`,commander:`Velosa`},
-                                        {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`2nd Battalion, 86th Infantry Regiment`,`II battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`86`,commander:`Piana`},
+                                        {level:3,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 86th Infantry Regiment`,`I battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`86`,commander:`Velosa`},
+                                        {level:3,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 86th Infantry Regiment`,`II battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`86`,commander:`Piana`},
                                     ],
                                 },{
                                     level:2,type:[`Artillery`],team:`Italian`,
@@ -475,7 +476,7 @@ export var types={
                             pos:[80,520],
                             elements:[
                                 {
-                                    level:2,type:[`Infantry`,`Semi-Motorized`],team:`German`,
+                                    level:2,type:[`Infantry`,`Motorized`],team:`German`,
                                     desc:[`200th Light Infantry Regiment`,`Leichtes Infanterie-Regiment 200`],name:`200`,designation:``,commander:`Geißler`,icon:`90l`,
                                     pos:[240,520],
                                     elements:[
@@ -484,7 +485,7 @@ export var types={
                                     ],
                                 },{
                                     level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:[`288th "Afrika" Grenadier Regiment`,`Afrika-Grenadier-Regiment 288`],name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+                                    desc:[`288th "Afrika" Grenadier Regiment`,`Afrika-Grenadier-Regiment 288`],name:`288`,designation:``,commander:`Menton`,icon:`288svb`,
                                     pos:[165,520],
                                     elements:[
                                         {level:3,type:`Motorized Reinforced Infantry`,team:`German`,desc:[`1st Battalion, 288th "Afrika" Grenadier Regiment`,`I./Afrika-Grenadier-Regiment 288`],name:`1`,designation:`288`,commander:`Daumiller`},

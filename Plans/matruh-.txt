@@ -2,15 +2,14 @@
 
 X Corps (13 Battalions)
 
-10th Indian Division (7 Battalions)
+10th Indian Division (6 Battalions)
 	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 	8th Royal Tank Regiment
 	6th South African Armoured Car Regiment
-	28th (Maori) Infantry Battalion (Detached from 2nd New Zealand Division)
 
-5th Indian Infantry Division (6 Battalions)
+5th Indian Infantry Division (7 Battalions)
 	1st South African Infantry Brigade Group (3 Infantry Battalions, 1 Artillery Battalion)
-	29th Indian Infantry Brigade (2 Battalions)
+	29th Indian Infantry Brigade (3 Shattered Battalions)
 
 XIII Corps (19 Battalions)
 
@@ -19,12 +18,12 @@ XIII Corps (19 Battalions)
 	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
-2nd New Zealand Division (10 Battalions)
-	27th Machine Gun Battalion
+2nd New Zealand Division (9 Battalions)
 	4th New Zealand Infantry Brigade (3 Battalions)
 	5th New Zealand Infantry Brigade (3 Battalions)
 	6th New Zealand Field Regiment
 	7th New Zealand Anti-Tank Regiment
+	28th (Maori) Infantry Battalion (Detached from 2nd New Zealand Division)
 
 
 

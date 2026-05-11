@@ -28,8 +28,8 @@ export var types={
         {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false,recon:true},
         {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false,recon:true},
         {name:`Light Artillery`,unitType:[`Light Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false,recon:false},//20
-        {name:`Coastal Artillery`,unitType:[`Light Artillery`],class:2,damage:[8,10],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
-        {name:`Small Artillery`,unitType:[`Artillery`],class:2,damage:[8,14],armor:0.4,health:12,morale:0.8,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Coastal Artillery`,unitType:[`Light Artillery`],class:2,damage:[6,8],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
+        {name:`Small Artillery`,unitType:[`Artillery`],class:2,damage:[6,10],armor:0.4,health:12,morale:0.8,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Semi-Motorized Artillery`,unitType:[`Artillery`,`Semi-Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.05,artillery:true,engineer:false,recon:false},
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
@@ -227,7 +227,7 @@ export var types={
                             elements:[
                                 {
                                     level:1,type:[`Tank`,`Heavy`],team:`British`,
-                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
+                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`4ab`,
                                     pos:[2330,1420],
                                     elements:[
                                         {level:3,type:`Heavy Tank`,team:`British`,desc:[`4th Battalion, Royal Tank Regiment`,`4th Royal Tank Regiment`],name:`4`,designation:`Royal Tank\nRegiment`,commander:`O"Carroll`},
@@ -243,7 +243,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
-                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Gott`,icon:`7a`,
+                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Gott`,icon:`7sg`,
                                     pos:[2540,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
@@ -451,7 +451,7 @@ export var types={
                             elements:[
                                 {
                                     level:1,type:[`Tank`,`Light`],team:`British`,
-                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
+                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`4ab`,
                                     pos:[2330,1420],
                                     elements:[
                                         {level:3,type:`Light Tank`,team:`British`,desc:[`3rd Battalion, Royal Tank Regiment`,`3rd Royal Tank Regiment`],name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
@@ -471,7 +471,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
-                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7a`,
+                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7sg`,
                                     pos:[2540,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
@@ -836,7 +836,7 @@ export var types={
                             elements:[
                                 {
                                     level:1,type:[`Tank`,`Light`],team:`British`,
-                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`7a`,
+                                    desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`4ab`,
                                     pos:[2330,1420],
                                     elements:[
                                         {level:3,type:`Light Tank`,team:`British`,desc:[`3rd Battalion, Royal Tank Regiment`,`3rd Royal Tank Regiment`],name:`3`,designation:`Royal Tank\nRegiment`,commander:`Keller`},
@@ -856,7 +856,7 @@ export var types={
                                     ],
                                 },{
                                     level:1,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
-                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7a`,
+                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7sg`,
                                     pos:[2540,1420],
                                     elements:[
                                         {level:3,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
@@ -1281,7 +1281,7 @@ export var types={
                         ],
                     },{
                         level:2,type:[`Infantry`,`Mixed`,`Motorized`],team:`German`,
-                        desc:[`288th Sonderverband `,`Sonderverband 288`],name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+                        desc:[`288th Sonderverband `,`Sonderverband 288`],name:`288`,designation:``,commander:`Menton`,icon:`288svb`,
                         pos:[895,395],
                         elements:[
                             {level:3,type:`Motorized Mixed Combat`,team:`German`,desc:[`1st Blocking Detachment, 288th Sonderverband`,`1. Sperrverband, Sonderverband 288`],name:`1`,designation:``,commander:`Daumiller`},
@@ -1389,7 +1389,7 @@ export var types={
                         },
                     ],{
                         level:2,type:[`Infantry`,`Mixed`,`Motorized`],team:`German`,
-                        desc:[`288th Sonderverband `,`Sonderverband 288`],name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+                        desc:[`288th Sonderverband `,`Sonderverband 288`],name:`288`,designation:``,commander:`Menton`,icon:`288svb`,
                         pos:[1141,566],
                         elements:[
                             {level:3,type:`Motorized Mixed Combat`,team:`German`,desc:[`1st Blocking Detachment, 288th Sonderverband`,`1. Sperrverband, Sonderverband 288`],name:`1`,designation:``,commander:`Daumiller`},
