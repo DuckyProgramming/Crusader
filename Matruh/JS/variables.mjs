@@ -219,16 +219,6 @@ export var types={
                                             ],
                                         },
                                     ],
-                                },{
-                                    level:1,type:[`Infantry`,`Motorized`],team:`South African`,
-                                    desc:`1st South African Infantry Brigade`,name:`1`,designation:``,commander:`Kriegler`,icon:`1sa`,
-                                    pos:[1281,388],
-                                    elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Duke of Edinburgh's Own Rifles`,name:`1`,designation:`Duke of\nEdinburgh`,commander:`Seneschall`},
-                                        {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Royal Natal Carabineers`,name:`1`,designation:`Royal\nNatal`,commander:`Hay`},
-                                        {level:3,type:`Motorized Infantry`,team:`South African`,desc:`1st Battalion, Transvaal Scottish Regiment`,name:`1`,designation:`Transvaal\nScottish`,commander:`Smitheman`},
-                                        {level:3,type:`Motorized Artillery`,team:`South African`,desc:[`1st "Cape" Battalion, South African Artillery Corps`,`1st "Cape" South African Field Regiment`],name:`1`,designation:``,commander:``},
-                                    ],
                                 },
                             ],
                         },{
@@ -237,6 +227,16 @@ export var types={
                             pos:[987,124],
                             elements:[
                                 {
+                                    level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+                                    desc:`21st Indian Infantry Brigade`,name:`21`,designation:``,commander:`Purves`,icon:`10id`,
+                                    pos:[1281,388],
+                                    elements:[
+                                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 4th Gurkha Rifles`,name:`2/4`,designation:`Gurkha`,commander:``},
+                                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 10th Gurkha Rifles`,name:`2/10`,designation:`Gurkha`,commander:``},
+                                        {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 13th Frontier Force Rifles`,name:`4/13`,designation:`Frontier`,commander:``},
+                                        {level:3,type:`Motorized Artillery`,team:`British`,desc:[`3rd Battalion, Royal Artillery`,`3rd Field Regiment, Royal Artillery`],name:`3`,designation:``,commander:`Teesdale`},
+                                    ],
+                                },{
                                     level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
                                     desc:`25th Indian Infantry Brigade`,name:`25`,designation:``,commander:`Mountain`,icon:`10id`,
                                     pos:[735,108],

@@ -272,12 +272,21 @@ reserves=[
         ],
     },{
         level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
-        desc:`21st Indian Infantry Brigade`,name:`21`,designation:``,commander:`Purves`,icon:`10id`,
-        pos:[1670,561],
+        desc:`20th Indian Infantry Brigade`,name:`20`,designation:``,commander:`MacGregor`,icon:`10id`,
+        pos:[1281,388],
         elements:[
-            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 4th Gurkha Rifles`,name:`2/4`,designation:`Gurkha`,commander:``},
-            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 10th Gurkha Rifles`,name:`2/10`,designation:`Gurkha`,commander:``},
-            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 13th Frontier Force Rifles`,name:`4/13`,designation:`Frontier`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 8th Gurkha Rifles`,name:`2/8`,designation:`Gurkha`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 7th Duke of Edinburgh's Own Gurkha Rifles`,name:`2/7`,designation:`Duke of\nEdinburgh`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`3rd Battalion, 11th Sikh Regiment`,name:`3/11`,designation:`Sikh`,commander:``},
+        ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+        desc:`24th Indian Infantry Brigade`,name:`24`,designation:``,commander:`Le Fleming`,icon:`10id`,
+        pos:[1281,388],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 6th Rajputana Rifles`,name:`2/6`,designation:`Rajputana`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`The Kumaon Rifles`,name:`K`,designation:``,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`5th Battalion, 5th Mahratta Light Infantry`,name:`5/5`,designation:`Mahratta`,commander:``},
         ],
     },
 ]
