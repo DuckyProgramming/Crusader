@@ -45,7 +45,12 @@ export class unit{
             detach:0,absorb:0
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
-        this.contain={units:[],stats:{},trigger:true,middle:false,temp:int(this.desc[0])!=int(this.desc[0])/*this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)||this.desc.includes(`Chasseurs`)*/}
+        this.contain={
+            units:[],stats:{},trigger:true,middle:false,
+            temp:int(this.desc[0])!=int(this.desc[0]),
+            /*this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)*/
+            adhoc:this.level==3&&data.elements.length>0&&data.elements[0].level==4
+        }
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
         this.base={position:{x:this.position.x,y:this.position.y}}
@@ -131,6 +136,7 @@ export class unit{
                 trigger:this.contain.trigger,
                 middle:this.contain.middle,
                 temp:this.contain.temp,
+                adhoc:this.contain.adhoc,
             },
             logs:this.logs,
             stats:this.stats,
@@ -422,7 +428,7 @@ export class unit{
                                 layer.ellipse(3.5,4,1.5,1.5)
                             break
                             case 4:
-                                layer.line(-8,5,8,-5)
+                                //layer.line(-8,5,8,-5)
                                 layer.ellipse(6,4,1.5,1.5)
                                 layer.ellipse(3,4,1.5,1.5)
                             break
@@ -488,9 +494,9 @@ export class unit{
                                 layer.line(8,5,0,-5)
                             break
                             case 16:
-                                layer.ellipse(-3.5,4,1.5,1.5)
+                                layer.ellipse(-3,4,1.5,1.5)
                                 layer.ellipse(0,4,1.5,1.5)
-                                layer.ellipse(3.5,4,1.5,1.5)
+                                layer.ellipse(3,4,1.5,1.5)
                             break
                             case 17:
                                 layer.line(0,-3,-1,-2)
@@ -611,11 +617,11 @@ export class unit{
                     let totalWidth=(this.contain.units.length-1)*10+this.contain.units.reduce((acc,unit)=>acc+unit.width*1.25,0)
                     let totalHeight=this.contain.units.reduce((acc,unit)=>max(acc,unit.height*1.25),0)
                     let tick=0
-                    let base=this.level==3||this.level==4?this.position:{
+                    let base=(this.level==3||this.level==4)&&!this.contain.adhoc?this.position:{
                         x:constrain(this.position.x,totalWidth+20,layer.width/this.operation.view.scale-totalWidth-20),
                         y:constrain(this.position.y,this.height*1.25+60,layer.height/this.operation.view.scale-totalHeight*2-this.height-60)
                     }
-                    if(this.level==3||this.level==4){
+                    if((this.level==3||this.level==4)&&!this.contain.adhoc){
                         layer.push()
                         layer.translate(this.position.x,this.position.y)
                         layer.fill(255,this.fade.main*this.fade.hover)

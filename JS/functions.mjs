@@ -226,7 +226,7 @@ export function findAbstract(term,search,list){
 			return a
 		}
 	}
-    throw new Error(`findAbstract Fail: ${search}, ${list.map(element=>element[term])}`)
+    throw new Error(`findAbstract Fail: ${search} | ${list.map(element=>element[term])}`)
 	return -1
 }
 export function updateMouse(layer,scale,inputs){

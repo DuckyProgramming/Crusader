@@ -10,14 +10,16 @@ export var types={
         {name:`Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1,artillery:false,engineer:false,recon:false},//0
         {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:700,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Oasis Infantry`,unitType:[`Infantry`],class:0,damage:[10,1],armor:0,health:125,morale:1.1,num:1000,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Light Oasis Infantry`,unitType:[`Infantry`,`Recon`],class:0,damage:[9,1],armor:0,health:70,morale:1.1,num:500,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Oasis Infantry Company`,unitType:[`Infantry`],class:0,damage:[9,1],armor:0,health:25,morale:1.1,num:200,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false,recon:false},
         {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Heavy Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:125,morale:1,num:1000,speed:2.25,artillery:false,engineer:false,recon:false},
         {name:`Motorized Machine Gun`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:2.25,artillery:false,engineer:false,recon:false},
-        {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Bersaglieri`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.2,num:800,speed:2.5,artillery:false,engineer:false,recon:false},//10
         {name:`Motorized Machine Gun Bersaglieri`,unitType:[`Infantry`,`Machine Gun`,`Motorized`],class:0,damage:[12,2],armor:0,health:100,morale:1.2,num:800,speed:2.25,artillery:false,engineer:false,recon:false},
-        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},//10
+        {name:`Motorized Militia`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1.1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorcycle Infantry`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false,recon:false},
         {name:`Motorcycle Bersaglieri`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[10,1],armor:0,health:100,morale:1.2,num:800,speed:3,artillery:false,engineer:false,recon:false},
         {name:`Motorcycle Police`,unitType:[`Infantry`,`Motorcycle`],class:0,damage:[8,1],armor:0.2,health:100,morale:1,num:600,speed:3,artillery:false,engineer:false,recon:false},
@@ -25,9 +27,9 @@ export var types={
         {name:`Security Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.6,num:33,speed:1.5,artillery:false,engineer:false,recon:false},
         {name:`Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:60,morale:0.6,num:50,speed:1.5,artillery:false,engineer:false,recon:false},
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
-        {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false,recon:true},
+        {name:`Armored Car`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:50,morale:0.5,num:50,speed:3,artillery:false,engineer:false,recon:true},//20
         {name:`Armored Car Company`,unitType:[`Tank`,`Recon`,`Tracked`],class:1,damage:[6,1],armor:0.8,health:20,morale:0.5,num:20,speed:3,artillery:false,engineer:false,recon:true},
-        {name:`Light Artillery`,unitType:[`Light Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false,recon:false},//20
+        {name:`Light Artillery`,unitType:[`Light Artillery`],class:2,damage:[8,10],armor:0.2,health:20,morale:0.6,num:20,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Coastal Artillery`,unitType:[`Light Artillery`],class:2,damage:[6,8],armor:0.2,health:12,morale:0.6,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Small Artillery`,unitType:[`Artillery`],class:2,damage:[6,10],armor:0.4,health:12,morale:0.8,num:12,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Artillery`,unitType:[`Artillery`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:0.7,artillery:true,engineer:false,recon:false},
@@ -35,19 +37,19 @@ export var types={
         {name:`Motorized Light Artillery`,unitType:[`Light Artillery`,`Motorized`],class:2,damage:[4,10],armor:0.2,health:20,morale:0.7,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
         {name:`Motorized Group Artillery`,unitType:[`Light Artillery`,`Motorized`],class:2,damage:[6,13],armor:0.3,health:24,morale:0.7,num:24,speed:1.75,artillery:true,engineer:false,recon:false},
         {name:`Motorized Artillery`,unitType:[`Artillery`,`Motorized`],class:2,damage:[8,16],armor:0.4,health:20,morale:0.8,num:20,speed:1.75,artillery:true,engineer:false,recon:false},
-        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false,recon:false},
+        {name:`Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:0.8,artillery:false,engineer:false,recon:false},//30
         {name:`Motorized Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1,num:400,speed:2,artillery:false,engineer:false,recon:false},
-        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false,recon:false},//30
+        {name:`Motorized Bersaglieri Mixed Support`,unitType:[`Artillery`,`Machine Gun`,`Motorized`,`Mortar`],class:0,damage:[10,8],armor:0.1,health:50,morale:1.2,num:400,speed:2,artillery:false,engineer:false,recon:false},
         {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.15,artillery:false,engineer:true,recon:false},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.3,artillery:false,engineer:false,recon:false},
         {name:`Motorized Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`,`Motorized`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:2.875,artillery:false,engineer:true,recon:false},
         {name:`Motorized Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`,`Motorized`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:3.25,artillery:false,engineer:false,recon:false},
-        {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true,recon:false},
-        {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,4],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true,recon:false},
+        {name:`Engineer`,unitType:[`Engineer`],class:0,damage:[6,6],armor:0,health:75,morale:1,num:600,speed:1,artillery:false,engineer:true,recon:false},
+        {name:`Motorized Engineer`,unitType:[`Engineer`,`Motorized`],class:0,damage:[6,6],armor:0,health:75,morale:1,num:600,speed:2.5,artillery:false,engineer:true,recon:false},
         {name:`Anti-Tank`,unitType:[`Anti-Tank`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:1,artillery:false,engineer:false,recon:false},
-        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:2.5,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[2,24],armor:0.1,health:40,morale:1,num:20,speed:2.5,artillery:false,engineer:false,recon:false},//40
         {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:0.8,artillery:true,engineer:false,recon:false},
-        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false,recon:false},//40
+        {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30],armor:0.1,health:20,morale:1,num:20,speed:2,artillery:true,engineer:false,recon:false},
     ],unitType:[
         {name:`Infantry`},
         {name:`Machine Gun`},
@@ -82,11 +84,13 @@ export var types={
                 {name:`Tobruk`,owner:0,type:1,pos:[916,175]},
                 {name:`Alem Hamza`,owner:2,type:0,pos:[92,172]},
                 {name:`Acroma`,owner:2,type:0,pos:[581,198]},
+                {name:`Mersa Lucch`,owner:1,type:0,pos:[1716,303]},
                 {name:`Gambut`,owner:1,type:0,pos:[1554,434]},
                 {name:`Knightsbridge`,owner:2,type:0,pos:[480,441]},
                 {name:`El Duda`,owner:1,type:0,pos:[1072,461]},
                 {name:`Rotonda Mteifel`,owner:2,type:1,pos:[86,464]},
                 {name:`El Adem`,owner:2,type:0,pos:[827,474]},
+
                 {name:`Zaafran`,owner:1,type:0,pos:[1243,482]},
                 {name:`Bir el Harmat`,owner:2,type:0,pos:[378,564]},
                 {name:`Sidi Rezegh`,owner:1,type:0,pos:[1141,566]},
@@ -97,8 +101,10 @@ export var types={
                 {name:`Bardia`,owner:2,type:0,pos:[2284,671]},
                 {name:`Bir el Haleizim`,owner:1,type:0,pos:[1338,685]},
                 {name:`Bir el Hariga`,owner:1,type:0,pos:[1858,722]},
+
                 {name:`Bir el Haiad`,owner:2,type:0,pos:[993,728]},
                 {name:`Sidi Azeiz`,owner:1,type:0,pos:[2069,780]},
+                {name:`Bir Beuid`,owner:2,type:0,pos:[671,788]},
                 {name:`Bir Hacheim`,owner:2,type:0,pos:[191,795]},
                 {name:`Fort Capuzzo`,owner:2,type:0,pos:[2245,937]},
                 {name:`Taieb el Esem`,owner:2,type:0,pos:[1222,959]},
@@ -106,20 +112,26 @@ export var types={
                 {name:`Sollum`,owner:2,type:0,pos:[2358,967]},
                 {name:`Bir Ghirba`,owner:2,type:0,pos:[2104,1017]},
                 {name:`Retma`,owner:2,type:0,pos:[660,1038]},
+
                 {name:`Halfaya Pass`,owner:2,type:0,pos:[2405,1069]},
                 {name:`Buq Buq`,owner:0,type:1,pos:[2896,1027]},
-                {name:`Bir Bu Deheua`,owner:2,type:0,pos:[1895,1124]},
-                {name:`Libyan Omar`,owner:2,type:0,pos:[2023,1136]},
+                {name:`Omar Nuovo`,owner:2,type:0,pos:[2091,1113]},
+                {name:`Bir Bu Deheua`,owner:2,type:0,pos:[1865,1124]},
+                {name:`Libyan Omar`,owner:2,type:0,pos:[1993,1136]},
                 {name:`Gabr Saleh`,owner:2,type:0,pos:[1386,1151]},
                 {name:`Sidi Omar`,owner:2,type:0,pos:[2005,1197]},
+                {name:`Alam Samalus`,owner:0,type:0,pos:[2867,1213]},
                 {name:`Sidi Suleiman`,owner:-1,type:0,pos:[2281,1230]},
                 {name:`Bir Gibni`,owner:2,type:0,pos:[1737,1251]},
+
                 {name:`Bir Sheferzen`,owner:0,type:0,pos:[1950,1282]},
+                {name:`Halfway House`,owner:0,type:0,pos:[2653,1344]},
                 {name:`Bir el Khireigat`,owner:0,type:0,pos:[2276,1365]},
                 {name:`Gasr el Abid`,owner:-1,type:0,pos:[1932,1386]},
                 {name:`El Cuasc`,owner:2,type:0,pos:[1062,1469]},
                 {name:`Sofafi`,owner:0,type:1,pos:[2937,1420]},
                 {name:`Bir Habata`,owner:0,type:0,pos:[2774,1542]},
+                {name:`Conference Cairn`,owner:0,type:0,pos:[2440,1562]},
             ],connect:[
                 {name:[`Gazala`,`Alem Hamza`]},
                 {name:[`Gazala`,`Acroma`]},
@@ -169,9 +181,9 @@ export var types={
                 {name:[`Fort Capuzzo`,`Bir Ghirba`]},
                 {name:[`Halfaya Pass`,`Sollum`]},
                 {name:[`Buq Buq`,`Halfaya Pass`]},
-                {name:[`Sofafi`,`Buq Buq`]},
+                {name:[`Sofafi`,`Alam Samalus`]},
                 {name:[`Sofafi`,`Bir Habata`]},
-                {name:[`Bir el Khireigat`,`Bir Habata`]},
+                {name:[`Halfway House`,`Bir Habata`]},
                 {name:[`Bir el Khireigat`,`Sidi Suleiman`]},
                 {name:[`Halfaya Pass`,`Sidi Suleiman`]},
                 {name:[`Bir Gibni`,`Bir Sheferzen`]},
@@ -179,9 +191,9 @@ export var types={
                 {name:[`Gasr el Abid`,`Bir Sheferzen`]},
                 {name:[`Bir Sheferzen`,`Bir el Khireigat`]},
                 {name:[`Bir Sheferzen`,`Sidi Omar`]},
-                {name:[`Sidi Suleiman`,`Sidi Omar`]},
+                {name:[`Omar Nuovo`,`Sidi Omar`]},
                 {name:[`Libyan Omar`,`Sidi Omar`]},
-                {name:[`Libyan Omar`,`Bir Ghirba`]},
+                {name:[`Libyan Omar`,`Omar Nuovo`]},
                 {name:[`Sidi Azeiz`,`Bir Ghirba`]},
                 {name:[`Libyan Omar`,`Bir Bu Deheua`]},
                 {name:[`Bir Gibni`,`Bir Bu Deheua`]},
@@ -191,6 +203,18 @@ export var types={
                 {name:[`Gambut`,`Gasr el Arid`]},
                 {name:[`Bir Ghirba`,`Halfaya Pass`]},
                 {name:[`Gasr el Abid`,`Bir el Khireigat`]},
+                {name:[`Omar Nuovo`,`Bir Ghirba`]},
+                {name:[`Omar Nuovo`,`Sidi Suleiman`]},
+                {name:[`Alam Samalus`,`Buq Buq`]},
+                {name:[`Alam Samalus`,`Halfway House`]},
+                {name:[`Bir el Khireigat`,`Halfway House`]},
+                {name:[`Conference Cairn`,`Bir Habata`]},
+
+                {name:[`Bir el Khireigat`,`Conference Cairn`]},
+                {name:[`Mersa Lucch`,`Gambut`]},
+                {name:[`Bir Beuid`,`Bir el Harmat`]},
+                {name:[`Bir Beuid`,`El Adem`]},
+                {name:[`Bir Beuid`,`Retma`]},
             ],team:[
                 {name:`British`,term:`britain`,player:0,quality:1},
                 {name:`New Zealand`,term:`new zealand`,player:0,quality:1.05},
@@ -310,10 +334,10 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`German`,
-                            desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis`,commander:`Ennecerus`,icon:``,
+                            desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Teetz`,icon:``,
                             pos:[2405,1069],
                             elements:[
-                                {level:3,type:`Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis`,commander:`Ennecerus`},
+                                {level:3,type:`Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Teetz`},
                             ],
                         },{
                             level:0,type:[`Tank`],team:`German`,
@@ -411,7 +435,7 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`,`Motorcycle`],team:`Italian`,
-                            team:`Italian`,desc:[`Battalion "Romolo Gessi", Italian Africa Police`,`Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:``,
+                            team:`Italian`,desc:[`Battalion "Romolo Gessi", Italian Africa Police`,`Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:`pai`,
                             pos:[946,961],
                             elements:[
                                 {level:3,type:`Motorcycle Police`,team:`Italian`,desc:[`Battalion "Romolo Gessi", Italian Africa Police`,`Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`P`,designation:`Romolo\nGessi`,commander:`Diamante`},
@@ -590,10 +614,12 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`German`,
-                            desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis`,commander:`Ennecerus`,icon:``,
+                            desc:[`300th Special Purpose Battalion Staff "Oasis"`,`Bataillonstab z.b.V. 300 "Oasen"`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Teetz`,icon:``,
                             pos:[2405,1069],
                             elements:[
-                                {level:3,type:`Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis`,commander:`Ennecerus`},
+                                {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`6th Oasis Company`,`Oasen Kompanie 6`],name:`6`,designation:`Oasis`,commander:`Ennecerus`},
+                                {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`12th Oasis Company`,`Oasen Kompanie 12`],name:`12`,designation:`Oasis`,commander:`Schön`},
+                                {level:4,type:`Armored Car Company`,team:`German`,desc:[`580th Reconnaissance Company`,`Aufklärungs-Kompanie 580`],name:`580`,designation:``,commander:`Hohmeyer`}, 
                             ],
                         },{
                             level:0,type:[`Tank`],team:`German`,
@@ -997,10 +1023,10 @@ export var types={
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`German`,
-                            desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis`,commander:`Ennecerus`,icon:``,
+                            desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Ennecerus`,icon:``,
                             pos:[2405,1069],
                             elements:[
-                                {level:3,type:`Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis`,commander:`Ennecerus`},
+                                {level:3,type:`Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Ennecerus`},
                             ],
                         },{
                             level:0,type:[`Tank`],team:`German`,

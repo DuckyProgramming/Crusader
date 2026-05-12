@@ -117,6 +117,13 @@ reserves=[
             {level:3,type:`Motorized Artillery`,team:`South African`,desc:`2nd South African Field Artillery Regiment`,name:`2`,designation:``,commander:`Sherwell`},
         ],
     },{
+        level:1,type:[`Infantry`,`Machine Gun`,`Motorized`],team:`South African`,
+        desc:`Die Middellandse Regiment`,name:`DMR`,designation:``,commander:`Kingwell`,icon:`2sa`,
+        pos:[1494,285],
+        elements:[
+            {level:3,type:`Motorized Machine Gun`,team:`South African`,desc:`Die Middellandse Regiment`,name:`DMR`,designation:``,commander:`Kingwell`},
+        ],
+    },{
         level:3,type:[`Infantry`,`Motorized`],team:`Luxembourgish`,
         desc:`Duchess Charlotte's Chasseurs`,name:`DCC`,designation:``,commander:``,icon:``,
         pos:[1499,280],
@@ -143,12 +150,35 @@ reserves=[
         ],
     },{
         level:0,type:[`Tank`],team:`German`,
-        desc:`21st Panzer Division`,name:`15`,designation:``,commander:`Ravenstein`,icon:`21pz`,
+        desc:`5th Light Division`,name:`5`,designation:`Light`,commander:`Streich`,icon:`21pz`,
         pos:[1554,434],
         elements:[
             {
                 level:2,type:[`Tank`],team:`German`,
-                desc:`5th Panzer Regiment`,name:`8`,designation:``,commander:`Stephan`,icon:`21pz`,
+                desc:`5th Panzer Regiment`,name:`5`,designation:``,commander:`Olbricht`,icon:`21pz`,
+                pos:[1432,570],
+                elements:[
+                    {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 5th Panzer Regiment`,name:`1`,designation:`5`,commander:`Mildebrath`},
+                    {level:3,type:`Medium Tank`,team:`German`,desc:`2nd Battalion, 5th Panzer Regiment`,name:`2`,designation:`5`,commander:`Friedrichs`},
+                ],
+            },{
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:`104th Infantry Regiment`,name:`104`,designation:``,commander:`Holtzendorff`,icon:`21pz`,
+                pos:[1634,628],
+                elements:[
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 104th Infantry Regiment`,name:`1`,designation:`104`,commander:`Bach`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 104th Infantry Regiment`,name:`2`,designation:`104`,commander:`Echardstein`},
+                ],
+            },
+        ],
+    },{
+        level:0,type:[`Tank`],team:`German`,
+        desc:`21st Panzer Division`,name:`21`,designation:``,commander:`Ravenstein`,icon:`21pz`,
+        pos:[1554,434],
+        elements:[
+            {
+                level:2,type:[`Tank`],team:`German`,
+                desc:`5th Panzer Regiment`,name:`5`,designation:``,commander:`Stephan`,icon:`21pz`,
                 pos:[1432,570],
                 elements:[
                     {level:3,type:`Medium Tank`,team:`German`,desc:`1st Battalion, 5th Panzer Regiment`,name:`1`,designation:`5`,commander:`Mildebrath`},
@@ -287,6 +317,13 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 6th Rajputana Rifles`,name:`2/6`,designation:`Rajputana`,commander:``},
             {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`The Kumaon Rifles`,name:`K`,designation:``,commander:``},
             {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`5th Battalion, 5th Mahratta Light Infantry`,name:`5/5`,designation:`Mahratta`,commander:``},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Recon`],team:`German`,
+        desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis\nz.b.V.`,commander:`Teetz`,icon:``,
+        pos:[2405,1069],
+        elements:[
+            {level:3,type:`Light Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis\nz.b.V.`,commander:`Teetz`},
         ],
     },
 ]
