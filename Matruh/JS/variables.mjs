@@ -474,7 +474,7 @@ export var types={
                             ],
                         },{
                             level:0,type:[`Infantry`],team:`German`,
-                            desc:`90th Light "Afrika" Division`,name:`A`,designation:`Light`,commander:`Kleemann`,icon:`90l`,
+                            desc:[`90th Light "Afrika" Division`,`90. Leichte-Division`],name:`A`,designation:`Light`,commander:`Kleemann`,icon:`90l`,
                             pos:[80,520],
                             elements:[
                                 {

@@ -522,7 +522,7 @@ export var types={
                             ],
                         },{
                             level:0,type:[`Infantry`],team:`German`,
-                            desc:`90th Light "Afrika" Division`,name:`A`,designation:`Light`,commander:`Kleemann`,icon:`90l`,
+                            desc:[`90th Light "Afrika" Division`,`90. Leichte-Division`],name:`A`,designation:`Light`,commander:`Kleemann`,icon:`90l`,
                             pos:[300,1120],
                             elements:[
                                 {
@@ -881,12 +881,12 @@ export var types={
                             ],
                         },{
                             level:0,type:[`Infantry`],team:`German`,
-                            desc:`90th Light "Afrika" Division`,name:`A`,designation:`Light`,commander:`Kleemann`,icon:`90l`,
+                            desc:[`90th Light "Afrika" Division`,`90. Leichte-Division`],name:`A`,designation:`Light`,commander:`Kleemann`,icon:`90l`,
                             pos:[300,1120],
                             elements:[
                                 {
                                     level:1,type:[`Infantry`,`Semi-Motorized`],team:`German`,
-                                    desc:`15th Rifle Brigade`,name:`15`,designation:``,commander:`Menny`,icon:`90l`,
+                                    desc:[`15th Rifle Brigade`,`Schützen-Brigade 15`],name:`15`,designation:``,commander:`Menny`,icon:`90l`,
                                     pos:[410,70],
                                     elements:[
                                         {
