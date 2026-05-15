@@ -246,7 +246,7 @@ export var types={
                                     desc:`10th Indian Infantry Brigade`,name:`10`,designation:``,commander:`Boucher`,icon:`5id`,
                                     pos:[2152,534],
                                     elements:[
-                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Highland Rifles`,name:`2`,designation:`Highland`,commander:``},
+                                        {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Highland Light Infantry`,name:`2`,designation:`Highland`,commander:`Thorburn`},
                                         {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`3rd Battalion, 18th Royal Garhwal Rifles`,name:`3/18`,designation:`Garhwal`,commander:``},
                                         {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 10th Baluch Regiment`,name:`4/10`,designation:`Baluch`,commander:``},
                                         {level:3,type:`Motorized Artillery`,team:`British`,desc:[`25th Battalion, Royal Artillery`,`25th Field Regiment, Royal Artillery`],name:`25`,designation:``,commander:`Pope`},
