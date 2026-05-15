@@ -79,6 +79,14 @@ reserves=[
             {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Warrelmann`},
         ],
     },{
+        level:2,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:[`200th Special Purpose Regimental Staff`,`Regimentsstab z.b.V. 200`],name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
+        pos:[1533,599],
+        elements:[
+            {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Finke`},
+            {level:3,type:`Motorcycle Infantry`,team:`German`,desc:[`15th Motorcycle Battalion`,`Kradschützen-Bataillon 15`],name:`15`,designation:``,commander:`Ehle`}, 
+        ],
+    },{
         level:3,type:[`Infantry`],team:`German`,
         desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`,icon:`90l`,
         pos:[950,380],
@@ -140,6 +148,13 @@ reserves=[
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Meythaler`},
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Eder`},
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`255`,commander:`Grund`},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
+        desc:`3rd Battalion, 268th Infantry Regiment`,name:`3`,designation:`268`,commander:`Meythaler`,icon:`90l`,
+        pos:[850,375],
+        elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 255th Infantry Regiment`,name:`3`,designation:`267`,commander:`Meythaler`},
         ],
     },{
         level:2,type:[`Engineer`],team:`German`,
@@ -324,6 +339,64 @@ reserves=[
         pos:[2405,1069],
         elements:[
             {level:3,type:`Light Oasis Infantry`,team:`German`,desc:[`300th Special Purpose Oasis Battalion`,`Oasen Bataillon z.b.V. 300`],name:`300`,designation:`Oasis\nz.b.V.`,commander:`Teetz`},
+        ],
+    },{
+        level:3,type:[`Engineer`],team:`German`,
+        desc:[`Special Purpose Engineer Battalion 200`,`Panzer-Pionier-Bataillon z.b.V. 200`],name:`200`,designation:`z.b.V.`,commander:`Streitz`,icon:`90l`,
+        pos:[1035,320],
+        elements:[
+            {level:3,type:`Motorized Engineer`,team:`German`,desc:`200th Pioneer Battalion z.b.V.`,name:`200`,designation:`z.b.V.`,commander:`Streitz`}, 
+        ],
+    },{
+        level:3,type:[`Engineer`],team:`Italian`,
+        desc:[`55th Mixed Engineer Battalion`,`LV battaglione misto genio`],name:`55`,designation:``,commander:`Vescovini`,icon:`savona`,
+        pos:[2124,1037],
+        elements:[
+            {level:3,type:`Mixed Engineer`,team:`Italian`,desc:[`55th Mixed Engineer Battalion`,`LV battaglione misto genio`],name:`55`,designation:``,commander:`Vescovini`},
+        ],
+    },{
+        level:3,type:[`Engineer`],team:`Italian`,
+        desc:[`51st Mixed Engineer Battalion`,`LI battaglione misto genio`],name:`51`,designation:``,commander:`Baruffini`,icon:`trento`,
+        pos:[323,47],
+        elements:[
+            {level:3,type:`Mixed Engineer`,team:`Italian`,desc:[`51st Mixed Engineer Battalion`,`LI battaglione misto genio`],name:`51`,designation:``,commander:`Baruffini`},
+        ],
+    },{
+        level:3,type:[`Engineer`],team:`Italian`,
+        desc:[`60th Mixed Engineer Battalion`,`LX battaglione misto genio`],name:`60`,designation:``,commander:`Giuliani`,icon:`sabratha`,
+        pos:[827,474],
+        elements:[
+            {level:3,type:`Mixed Engineer`,team:`Italian`,desc:[`60th Mixed Engineer Battalion`,`LX battaglione misto genio`],name:`60`,designation:``,commander:`Giuliani`},
+        ],
+    },{
+        level:3,type:[`Machine Gun`,`Mortar`],team:`Italian`,
+        desc:[`255th Mixed Support Battalion`,`CCLV battaglione armi d'accompagnamento`],name:`255`,designation:``,commander:`Farina`,icon:`savona`,
+        pos:[378,564],
+        elements:[
+            {level:3,type:`Mixed Support`,team:`Italian`,desc:[`255th Mixed Support Battalion`,`CCLV battaglione armi d'accompagnamento`],name:`255`,designation:``,commander:`Farina`},
+        ],
+    },{
+        level:0,type:[`Infantry`],team:`Italian`,
+        desc:[`60th Infantry Division "Sabratha"`,`60ª Divisione di fanteria "Sabratha"`],name:`60`,designation:`Sabratha`,commander:`Soldarelli`,icon:`sabratha`,
+        pos:[1028,617],
+        elements:[
+            {
+                level:2,type:[`Infantry`],team:`Italian`,
+                desc:[`85th Infantry Regiment`,`85° Reggimento di fanteria "Sabratha"`],name:`85`,designation:`Sabratha`,commander:`Grimaldi`,icon:`sabratha`,
+                pos:[932,544],
+                elements:[
+                    {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`1st Battalion, 85th Infantry Regiment`,`I battaglione fucilieri, 85° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`85`,commander:`Angelozzi`},
+                    {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`2nd Battalion, 85th Infantry Regiment`,`II battaglione fucilieri, 85° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`85`,commander:`Morosini`},
+                ],
+            },{
+                level:2,type:[`Infantry`],team:`Italian`,
+                desc:[`86th Infantry Regiment`,`86° Reggimento di fanteria "Sabratha"`],name:`86`,designation:`Sabratha`,commander:`Castrignanò`,icon:`sabratha`,
+                pos:[993,728],
+                elements:[
+                    {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`1st Battalion, 86th Infantry Regiment`,`I battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`86`,commander:`Velosa`},
+                    {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`2nd Battalion, 86th Infantry Regiment`,`II battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`86`,commander:`Piana`},
+                ],
+            },
         ],
     },
 ]

@@ -38,32 +38,36 @@ Deutsches Afrika Korps (14 Battalions)
 		115th Motorized Infantry Regiment (1 Battalion)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Armoured Car Battalion
-	33rd Artillery Regiment (3 Battalions)
+	33rd Artillery Regiment (2 Battalions, 1 Heavy Battalion)
 	33rd Motorized Engineer Battalion
 	33rd Anti-Tank Battalion
 
 Divisional Command z.b.V. "Afrika" (2 Battalions)
-	2nd Battalion, 115th Motorized Infantry Regiment
+	2nd Battalion, 115th Motorized Infantry Regiment (Detached from 15th Panzer Division)
 	3rd Battalion, 347th Infantry Regiment
 
 
 
 XXI Army Corps (28 Battalions)
 
-Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
-RECA (1 Security Tank Battalion, 1 Motorcycle Police Battalion, 1 Motorized Artillery Battalion)
-60th Mixed Engineer Battalion
+Mixed Engineer Battalion (55th, 60th, 161st, and 161st Assault Companies)
+
+Army Corps Reconnaisance Regrouping (RECA) (6 Battalions)
+	52nd Security Tank Battalion
+	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police
+	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalion)
 
 55th Infantry Division "Savona" (10 Battalions)
-	15th Infantry Regiment (3 Battalions)
-	16th Infantry Regiment (3 Battalions)
+	15th Infantry Regiment (2 Battalions)
+	16th Infantry Regiment (2 Battalions)
+	"Di Bardi" Task Force (2 Battalions, Detached from 15th and 16th Infantry Regiments)
 	12th Artillery Regiment (2 Obsolete Battalions (2,3))
+	4th Machine Gun Battalion "Genova Cavalleria"
 	155th Machine Gun Battalion
-	55th Mixed Engineer Battalion
 
-102nd Infantry Division "Trento" (12 Battalions)
+102nd Infantry Division "Trento" (11 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	7th Motorized Bersaglieri Regiment (2 Battalions)
 	46th Artillery Regiment (3 Obsolete Battalions (1,3,4))
-	51st Mixed Engineer Battalion

@@ -49,7 +49,7 @@ export class unit{
             units:[],stats:{},trigger:true,middle:false,
             temp:int(this.desc[0])!=int(this.desc[0]),
             /*this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)*/
-            adhoc:this.level==3&&data.elements.length>0&&data.elements[0].level==4
+            adhoc:this.level==3&&data.elements.length>0&&data.elements.every(element=>element.level==4)
         }
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
@@ -486,12 +486,12 @@ export class unit{
                                 layer.line(8,2,6,0)
                             break
                             case 14:
-                                layer.line(-8,-5,0,5)
-                                layer.line(8,-5,0,5)
-                            break
-                            case 15:
                                 layer.line(-8,5,0,-5)
                                 layer.line(8,5,0,-5)
+                            break
+                            case 15:
+                                layer.line(-8,-5,0,5)
+                                layer.line(8,-5,0,5)
                             break
                             case 16:
                                 layer.ellipse(-3,4,1.5,1.5)
@@ -501,7 +501,7 @@ export class unit{
                             case 17:
                                 layer.line(0,-3,-1,-2)
                                 layer.line(0,-3,1,-2)
-                                layer.line(0,-3,0,0)
+                                layer.line(0,-3,0,this.type.includes(6)?0:2)
                             break
                             case 18:
                                 layer.line(-6.75,0,-5.25,0)

@@ -358,7 +358,15 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
-                        if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
+                        if(!this.select.unit.contain.trigger&&!this.select.unit.contain.middle&&this.select.unit.contain.units.length==0){
+                            layer.fill(150,this.anim.main*this.anim.select)
+                            layer.rect(layer.width-340,50,200,60,10)
+                            layer.fill(0,this.anim.main*this.anim.select)
+                            layer.textSize(30)
+                            layer.text(`Disband`,layer.width-340,50,200)
+                            layer.textSize(10)
+                            layer.text(`Enter`,layer.width-260,25)
+                        }else if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
@@ -377,8 +385,8 @@ export class operation{
                             }
                             layer.fill(0,this.anim.main*this.anim.select)
                             if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
-                                layer.textSize(this.select.unit.contain.units.length==1?30:15)
-                                layer.text(this.select.unit.contain.units.length==1?`Disband`:`Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200)
+                                layer.textSize(this.select.unit.contain.units.length<=1?30:15)
+                                layer.text(this.select.unit.contain.units.length<=1?`Disband`:`Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200)
                                 if(this.select.unit.contain.units.length>1){
                                     layer.textSize(20)
                                     layer.text(`Next`,layer.width-190,50)
@@ -630,7 +638,7 @@ export class operation{
                                     let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
                                     if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
                                         if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
-                                            if(this.select.unit.contain.units.length==1){
+                                            if(this.select.unit.contain.units.length<=1){
                                                 let element=this.select.unit.contain.units[0]
                                                 let result=new unit(this,{
                                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
@@ -784,6 +792,12 @@ export class operation{
                                         if(inPointBox(mouse,boxify(layer.width-120,130,200,60))){
                                             this.select.unit.order.absorb++
                                         }
+                                    }
+                                }else if(this.select.unit.contain.units.length==0){
+                                    if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
+                                        this.select.unit.active=false
+                                        this.select.unit.destroy()
+                                        this.select.unit.order.trigger=false
                                     }
                                 }
                             }else{
@@ -943,7 +957,7 @@ export class operation{
                                 let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
                                 if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
                                     if(key===`Enter`){
-                                        if(this.select.unit.contain.units.length==1){
+                                        if(this.select.unit.contain.units.length<=1){
                                             let element=this.select.unit.contain.units[0]
                                             let result=new unit(this,{
                                                 pos:[this.select.unit.position.x,this.select.unit.position.y],
@@ -1097,6 +1111,12 @@ export class operation{
                                     if(key==`#`){
                                         this.select.unit.order.absorb++
                                     }
+                                }
+                            }else if(this.select.unit.contain.units.length==0){
+                                if(key===`Enter`){
+                                    this.select.unit.active=false
+                                    this.select.unit.destroy()
+                                    this.select.unit.order.trigger=false
                                 }
                             }
                             if(key==`Backspace`){

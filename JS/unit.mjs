@@ -49,7 +49,7 @@ export class unit{
             units:[],stats:{},trigger:true,middle:false,
             temp:int(this.desc[0])!=int(this.desc[0]),
             /*this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)*/
-            adhoc:this.level==3&&data.elements.length>0&&data.elements[0].level==4
+            adhoc:this.level==3&&data.elements.length>0&&data.elements.every(element=>element.level==4)
         }
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
@@ -486,12 +486,12 @@ export class unit{
                                 layer.line(8,2,6,0)
                             break
                             case 14:
-                                layer.line(-8,-5,0,5)
-                                layer.line(8,-5,0,5)
-                            break
-                            case 15:
                                 layer.line(-8,5,0,-5)
                                 layer.line(8,5,0,-5)
+                            break
+                            case 15:
+                                layer.line(-8,-5,0,5)
+                                layer.line(8,-5,0,5)
                             break
                             case 16:
                                 layer.ellipse(-3,4,1.5,1.5)
@@ -501,7 +501,19 @@ export class unit{
                             case 17:
                                 layer.line(0,-3,-1,-2)
                                 layer.line(0,-3,1,-2)
-                                layer.line(0,-3,0,0)
+                                layer.line(0,-3,0,this.type.includes(6)?0:2)
+                            break
+                            case 18:
+                                layer.ellipse(0,0,4.75)
+                                layer.line(-8,-5,-2,-1.25)
+                                layer.line(8,5,2,1.25)
+                                if(this.type.includes(7)){
+                                    layer.line(-7,5,8,-4)
+                                    layer.line(-8,4,7,-5)
+                                }else{
+                                    layer.line(-8,5,-2,1.25)
+                                    layer.line(8,-5,2,-1.25)
+                                }
                             break
                             /*case 8:
                                 layer.line(-6.5,-1,-5.25,-1)
@@ -538,9 +550,9 @@ export class unit{
                     layer.textSize(this.designation.length>=24||art&&this.designation.length>=10?1.25:1.5)
                     layer.strokeWeight(0.15)
                     layer.text(this.designation,this.designation.length>=10&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
-                    layer.textSize(this.name.length>=7?3.5:this.name.length>=(art?2:5)?4:5)
-                    layer.strokeWeight(this.name.length>=7?0.35:this.name.length>=5?0.4:0.5)
-                    layer.text(this.name,art?-4.5:0,0.25)
+                    layer.textSize(this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5)
+                    layer.strokeWeight(this.name.length>=(art?3:7)?0.35:this.name.length>=5?0.4:0.5)
+                    layer.text(this.name,art?(this.name.length>=3?-4:-4.5):0,0.25)
                     layer.textSize(this.commander.length>=12?2:2.25)
                     layer.strokeWeight(this.commander.length>=12?0.4:0.45)
                     layer.text(this.commander,0,3.5)
