@@ -581,10 +581,15 @@ export class operation{
                     layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(types.map[this.map].unit.length/2)*50)
                     for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
                         let spread=even(floor(a/2),ceil(la/2))
-                        layer.textSize(25)
-                        layer.text(types.map[this.map].unit[a].name,layer.width/2-190+a%2*380,layer.height/2+50+spread*100)
-                        layer.textSize(20)
-                        layer.text(types.map[this.map].unit[a].battalions.map(set=>set.join(` + `)).join(` vs `),layer.width/2-190+a%2*380,layer.height/2+80+spread*100)
+                        if(types.map[this.map].unit[a].battalions.length==0){
+                            layer.textSize(30)
+                            layer.text(types.map[this.map].unit[a].name,layer.width/2-190+a%2*380,layer.height/2+60+spread*100)
+                        }else{
+                            layer.textSize(25)
+                            layer.text(types.map[this.map].unit[a].name,layer.width/2-190+a%2*380,layer.height/2+50+spread*100)
+                            layer.textSize(20)
+                            layer.text(types.map[this.map].unit[a].battalions.map(set=>set.join(` + `)).join(` vs `),layer.width/2-190+a%2*380,layer.height/2+80+spread*100)
+                        }
                     }
                 }
                 if(this.anim.main>0){
@@ -778,9 +783,15 @@ export class operation{
                             }*/
                             let spread=even(floor(a/2),ceil(la/2))
                             if(inPointBox(mouse,boxify(layer.width/2-190+a%2*380,layer.height/2+60+spread*100,360,80))){
-                                this.turn.start=false
-                                this.turn.prep=true
-                                this.turn.translate=a
+                                if(types.map[this.map].unit[a].name==`Gazala Map`){
+                                    window.open('../Gazala')
+                                }else if(types.map[this.map].unit[a].name==`Mersa Matruh Map`){
+                                    window.open('../Matruh')
+                                }else{
+                                    this.turn.start=false
+                                    this.turn.prep=true
+                                    this.turn.translate=a
+                                }
                             }
                         }
                     }else if(this.turn.translate>=0){
@@ -882,6 +893,8 @@ export class operation{
                                     }
                                 break
                                 case 1:
+                                    let target2
+                                    let target3
                                     switch(this.turn.main){
                                         case 0:
                                             target=types.unit[findAbstract(`desc`,`70th Infantry Division`,types.unit)]
@@ -896,8 +909,8 @@ export class operation{
                                         break
                                         case 1:
                                             target=types.unit[findAbstract(`desc`,`7th Armored Division`,types.unit)]
-                                            let target2=target.elements[findAbstract(`desc`,`4th Armored Brigade`,target.elements)]
-                                            let target3=target.elements[findAbstract(`desc`,`7th Armored Brigade`,target.elements)]
+                                            target2=target.elements[findAbstract(`desc`,`4th Armored Brigade`,target.elements)]
+                                            target3=target.elements[findAbstract(`desc`,`7th Armored Brigade`,target.elements)]
                                             target3.elements.splice(
                                                 findAbstract(`desc`,`7th Queen's Own Hussars`,target3.elements)+1,
                                                 0,
@@ -911,33 +924,48 @@ export class operation{
                                             target.elements.splice(findAbstract(`desc`,`2nd New Zealand Field Brigade`,target.elements),0,types.reserve[this.turn.main][0])
                                             target.elements.splice(findAbstract(`desc`,`28th "Māori" New Zealand Infantry Battalion`,target.elements),0,types.reserve[this.turn.main][1])
                                         break
-                                        /*case 2:
-                                            target=types.unit[findAbstract(`desc`,`15th Panzer Division`,types.unit)]
-                                            target.elements.splice(findAbstract(`desc`,`33rd Engineer Battalion`,target.elements),1)
-                                            target.elements.splice(findAbstract(`desc`,`33rd Anti-Tank Battalion`,target.elements),1)
-                                            target=types.unit[findAbstract(`desc`,`Special Purpose Divisional Command "Afrika"`,types.unit)]
-                                            target.elements.splice(0,0,types.reserve[this.turn.main])
-                                        break*/
                                         case 2:
                                             target=types.unit[findAbstract(`desc`,`Special Purpose Divisional Command "Afrika"`,types.unit)]
                                             target.elements[findAbstract(`desc`,`3rd Battalion, 347th Infantry Regiment`,target.elements)]=types.reserve[this.turn.main]
+                                            /*target=types.unit[findAbstract(`desc`,`15th Panzer Division`,types.unit)]
+                                            target.elements.splice(findAbstract(`desc`,`33rd Engineer Battalion`,target.elements),1)
+                                            target.elements.splice(findAbstract(`desc`,`33rd Anti-Tank Battalion`,target.elements),1)
+                                            target=types.unit[findAbstract(`desc`,`Special Purpose Divisional Command "Afrika"`,types.unit)]
+                                            target.elements.splice(0,0,types.reserve[this.turn.main])*/
                                         break
                                         case 3:
                                             target=types.unit[findAbstract(`desc`,`Special Purpose Divisional Command "Afrika"`,types.unit)]
                                             target.elements[findAbstract(`desc`,`2nd Battalion, 115th Rifle Regiment`,target.elements)]=types.reserve[this.turn.main]
+                                            target=types.unit[findAbstract(`desc`,`15th Panzer Division`,types.unit)]
+                                            target=target.elements[findAbstract(`desc`,`15th Rifle Brigade`,target.elements)]
+                                            target2=target.elements[findAbstract(`desc`,`200th Special Purpose Regimental Staff`,target.elements)]
+                                            target3=target.elements[findAbstract(`desc`,`115th Rifle Regiment`,target.elements)]
+                                            target3.elements.push(target2.elements.splice(findAbstract(`desc`,`2nd Machine Gun Battalion`,target2.elements),1)[0])
                                         break
                                         case 4:
-                                            types.unit.splice(findAbstract(`desc`,`Army Corps Reconnaissance Regrouping`,types.unit),1)
+                                            types.unit[findAbstract(`desc`,`Army Corps Reconnaissance Regrouping`,types.unit)]=types.reserve[this.turn.main]
+                                            last(types.unit).pos=[932,544]
+                                            /*types.unit.splice(findAbstract(`desc`,`Army Corps Reconnaissance Regrouping`,types.unit),1)
                                             types.unit.splice(findAbstract(`desc`,`Infantry Regiment "Giovani Fascisti"`,types.unit),1)
                                             types.unit.push(types.reserve[this.turn.main][0])
                                             last(types.unit).elements.push(types.unit[findAbstract(`desc`,`60th Mixed Engineer Battalion`,types.unit)])
                                             last(last(types.unit).elements).pos=[932,544]
                                             types.unit.splice(findAbstract(`desc`,`60th Mixed Engineer Battalion`,types.unit),1)
                                             target=types.unit[findAbstract(`desc`,`55th Infantry Division "Savona"`,types.unit)]
-                                            target.elements.splice(findAbstract(`desc`,`155th Machine Gun Battalion`,target.elements),0,types.reserve[this.turn.main][1])
+                                            target.elements.splice(findAbstract(`desc`,`155th Machine Gun Battalion`,target.elements),0,types.reserve[this.turn.main][1])*/
                                         break
                                         case 5:
                                             target=types.unit[findAbstract(`desc`,`55th Infantry Division "Savona"`,types.unit)]
+                                            target.elements.splice(findAbstract(`desc`,`155th Machine Gun Battalion`,target.elements),2)
+                                            target=types.unit[findAbstract(`desc`,`102nd Infantry Division "Trento"`,types.unit)]
+                                            target.elements.push(types.reserve[this.turn.main][0])
+                                            if(types.unit.some(unit=>unit.desc[0]==`60th Infantry Division "Sabratha"`)){
+                                                target=types.unit[findAbstract(`desc`,`60th Infantry Division "Sabratha"`,types.unit)]
+                                                target.elements.push(types.reserve[this.turn.main][1])
+                                            }else{
+                                                types.unit.push(types.reserve[this.turn.main][1])
+                                            }
+                                            /*target=types.unit[findAbstract(`desc`,`55th Infantry Division "Savona"`,types.unit)]
                                             target.elements.splice(findAbstract(`desc`,`55th Mixed Engineer Battalion`,target.elements),1)
                                             target=types.unit[findAbstract(`desc`,`102nd Infantry Division "Trento"`,types.unit)]
                                             target.elements.splice(findAbstract(`desc`,`51st Mixed Engineer Battalion`,target.elements),1)
@@ -949,7 +977,7 @@ export class operation{
                                             }else{
                                                 types.unit.splice(findAbstract(`desc`,`60th Mixed Engineer Battalion`,types.unit),1)
                                                 types.unit.push(types.reserve[this.turn.main][0])
-                                            }
+                                            }*/
                                         break
                                     }
                                 break
@@ -1176,9 +1204,15 @@ export class operation{
                     if(this.turn.start){
                         for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
                             if(int(key)==a+1){
-                                this.turn.start=false
-                                this.turn.prep=true
-                                this.turn.translate=a
+                                if(types.map[this.map].unit[a].name==`Gazala Map`){
+                                    window.open('../Gazala')
+                                }else if(types.map[this.map].unit[a].name==`Mersa Matruh Map`){
+                                    window.open('../Matruh')
+                                }else{
+                                    this.turn.start=false
+                                    this.turn.prep=true
+                                    this.turn.translate=a
+                                }
                             }
                         }
                     }else if(this.turn.translate>=0){

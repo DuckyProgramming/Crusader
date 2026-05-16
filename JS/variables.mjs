@@ -597,11 +597,11 @@ export var types={
                                     elements:[
                                         {
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                            desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                            desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Herff`,icon:`15pz`,
                                             pos:[972,381],
                                             elements:[
-                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
-                                                {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Finke`},
+                                                {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`Zincke`},
+                                                {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Voigtsberger`},
                                             ],
                                         },{
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
@@ -889,7 +889,7 @@ export var types={
                                             desc:[`200th Special Purpose Regimental Staff`,`Regimentsstab z.b.V. 200`],name:`200`,designation:`z.b.V.`,commander:`Geißler`,icon:`15pz`,
                                             pos:[1533,599],
                                             elements:[
-                                                {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Finke`},
+                                                {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Warrelmann`},
                                                 {level:3,type:`Motorcycle Infantry`,team:`German`,desc:[`15th Motorcycle Battalion`,`Kradschützen-Bataillon 15`],name:`15`,designation:``,commander:`von Debschütz`}, 
                                             ],
                                         },
@@ -1306,7 +1306,7 @@ export var types={
                                             pos:[1634,628],
                                             elements:[
                                                 {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
-                                                {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Finke`},
+                                                {level:3,type:`Motorized Engineer Machine Gun`,team:`German`,desc:[`2nd Machine Gun Battalion`,`2. Maschinengewehr-Bataillon`],name:`2`,designation:``,commander:`Warrelmann`},
                                             ],
                                         },{
                                             level:2,type:[`Infantry`,`Motorized`],team:`German`,
@@ -1521,6 +1521,14 @@ export var types={
                             ],
                         },
                     ],
+                },{
+                    name:`Gazala Map`,
+                    battalions:[],bonus:false,partition:[],pick:-1,
+                    unit:[],
+                },{
+                    name:`Mersa Matruh Map`,
+                    battalions:[],bonus:false,partition:[],pick:-1,
+                    unit:[],
                 },
             ],reserve:[
                 [

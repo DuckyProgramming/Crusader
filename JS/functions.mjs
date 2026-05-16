@@ -436,7 +436,7 @@ export function strength(){
     })
     let temp=current.reform()
     temp.initialUnits(current.set)
-    if(temp.turn.pick>=0){
+    if(typeof temp.turn.pick==`number`&&temp.turn.pick>=0||typeof temp.turn.pick==`boolean`&&temp.turn.pick){
         temp.spawnUnits()
     }
     temp.units.forEach(unit=>{

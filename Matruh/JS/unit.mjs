@@ -541,12 +541,12 @@ export class unit{
                     layer.fill(255,fade)
                     layer.textSize(this.designation.length>=24||art&&this.designation.length>=10?1.25:1.5)
                     layer.strokeWeight(0.15)
-                    layer.text(this.designation,this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
-                    layer.textSize(this.name.length>=7?3.5:this.name.length>=(art?2:5)?4:5)
-                    layer.strokeWeight(this.name.length>=7?0.35:this.name.length>=5?0.4:0.5)
-                    layer.text(this.name,art?-4.5:0,0.25)
-                    layer.textSize(this.commander.length>=12?2:2.25)
-                    layer.strokeWeight(this.commander.length>=12?0.4:0.45)
+                    layer.text(this.designation,this.designation.length>=10&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
+                    layer.textSize(this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5)
+                    layer.strokeWeight(this.name.length>=(art?3:7)?0.35:this.name.length>=5?0.4:0.5)
+                    layer.text(this.name,art?(this.name.length>=3?-4:-4.5):0,0.25)
+                    layer.textSize(this.commander.length>=18?1.75:this.commander.length>=12?2:2.25)
+                    layer.strokeWeight(this.commander.length>=18?0.35:this.commander.length>=12?0.4:0.45)
                     layer.text(this.commander,0,3.5)
                 }
             break

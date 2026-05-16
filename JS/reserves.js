@@ -34,6 +34,15 @@ reserves=[
             {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 115th Infantry Regiment`,name:`1`,designation:`115`,commander:`Finke`},
         ],
     },{
+        level:2,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+        pos:[460,920],
+        elements:[
+            {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
+            {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`2nd Battalion, 115th Rifle Regiment`,`II./Schützen-Regiment 115`],name:`2`,designation:`115`,commander:`Roske`},
+            {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`3rd Battalion, 115th Rifle Regiment`,`III./Schützen-Regiment 115`],name:`3`,designation:`115`,commander:`Finke`},
+        ],
+    },{
         level:3,type:[`Infantry`,`Engineer`,`Mountain`],team:`German`,
         desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`,icon:`90l`,
         pos:[1035,320],
