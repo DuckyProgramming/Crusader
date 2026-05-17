@@ -1,20 +1,24 @@
 The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
+For the Battleaxe scenario ONLY can this 8th battalion be used. It's worth noting the battalion did attempt to reform, but was destroyed again at Gialo (technically part of Crusader, but very far off.)
 
 Hollmann commanded the 3rd Battalion, 155th Infantry Regiment (not in game) that was near the 3rd Battalions of the 255th and 347th Regiments.
-Actually, this is very likely not true. His rank was only that of Oberleutnant (First Lieutenant). It would be insane to have him commanding a battalion.
+Actually, this is very likely not true. His rank was only that of Oberleutnant (First Lieutenant). It would be insane to have him coxmmanding a battalion.
+It's now been confirmed that the commander was a Major Meythaler/Maythaler.
 
 Many sources indicate an Oberst Zintel as commander of the 115th Motorized Regiment. This may have been the case.
 But... I can't find a single mention of this guy literally anywhere else. So I don't intend to trust this.
-Zintel took control of the 115th Infantry Regiment not long before crusader began.
+In the unlikely world where he did exist, Zintel took control of the 115th Infantry Regiment not long before crusader began.
 I was unable to find any evidence that Marcks commanded it during this time period. I've later found evidence that he took command only in December.
 NOTE: This has since been retconned. Zintel is even less documented than Marcks.
 In fact, I was wrong. Marcks was in command during at least a brief period of Operation Crusader. But either way neither he nor Zintel were the commander at the start.
 Instead, I've put Zincke in command. My guess is that his name was misheard as Zintel and that's where it all began.
+And Marcks was just caught up in this. I guess that makes sense given he commanded not one, not two, but three different regiments within a few monhts.
 
 Finke and Warrelmann have both been claimed as the commander of 2nd Machine Gun Battalion. Based on my sources I believe Warrelmann was the commander at this time and Finke commanded 2nd Battalion, 115th Infantry Regiment instead.
 This has now become relevant in light of recent events, I've had to reintroduce both battalions.
 I believe that sources that indicate the non-existence of 2nd Machine Gun Battalion confused these two units. That, or they didn't realize the 2/115th Battalion had been temporarily detached.
 This battalion would be converted to a regular infantry battalion in April 1942 with its heavy companies split among the other battalions.
+I don't know what happened to Warrelmann after that, but I believe he stayed with the battalion since his name does get mentioned later in 1942.
 
 Sonderverband 288 had not fully arrived in Africa by November 1941.
 Only one group, Sperrverband (blocking detachment) Daumiller had actually arrived, but didn't participate in Crusader. I think the unit is cool though, so I made it pickable.
@@ -72,10 +76,11 @@ Here's a couple such examples:
 7th Armoured: 4th SA Armoured Cars, 4th RHA (sent from support group to 7th Armoured Brigade, probably by Gott)
 1st South African Division: "President Steyn" Machine Gun Battalion
 
-One source I have calls Daumiller Daumüller. Can't say anything about this.
+One source I have calls Daumiller Daumüller. I can't say anything about this.
 
-I researched for some time this guy called Alfred Köster who commanded 200th Panzergrenadier Regiment after Geissler left. I was unable to find much of value. Where he originally came from I'll never know.
+I researched for some time about this guy called Alfred Köster who commanded 200th Panzergrenadier Regiment after Geissler left. I was unable to find much of value. Where he originally came from I'll never know.
 In contrast, we know a lot about Albert Panzenhagen of 3/347, even though some earlier histories don't acknowledge his battalion's apparent existence.
+In fact, some are in a bit of denial about it. Panzenhagen even commanded a Kampfgruppe during Operation Sommernachtstraum centered around his battalion and still they don't list it.
 Similarly, we know a lot about the Panzer commanders, including how Fenski was killed during the battle and replaced with Kümmel.
 
 2nd Battalion, 115th Infantry Regiment appears to have been commanded by Göttman at this time.
@@ -102,8 +107,14 @@ The 2nd Machine Gun Battalion was commanded by Voigtsberger back in July 1941. I
 The transfer of engineer units is very hazy and unclear. However, from what I can tell, this is what happened:
 33rd Panzer Pioneer Battalion had 3 companies. One was lost to join 2nd Machine Gun Battalion, along with another from the 39th Panzer Pioneer Battalion (not in Africa).
 The first company eventually returned to its parent unit while the other one was sent to the 200th z.b.V. Panzer Pioneer Battalion. Since that unit doesn't exist in my world, we'll let 2nd MG Battalion keep its backup.
+Either way, it looks as if both were destroyed during Crusader. The 33rd Engineer Battalion was utterly ruined and down to company strength by the end, and the 200th had surrendered in Bardia.
 
 The 115th Artillery Regiment was distinct from the 115th Rifle Regiment, and in fact both had a second battalion that was sent to Africa.
 In the case of II./115 AR, because only 1 of the three batteries actually crossed the Mediterranean safely and another was reconstituted with Italian artillery, I've nicknamed it "Half and Half" or "Halb und Halb".
 
 German sources indicate the existence of 255th Anti-Tank Battalion as part of the Savona Division. I couldn't find a single mention of this anywhere else, so its likely an abberration.
+If I had to guess, the German who wrote this heard of the 155th Machine Gun Battalion from the Savona and somehow managed to get both its number and its type wrong. What a bozo.
+
+To an outside observer, Italian artillery would seem quite obsolete. And I have marked them as obsolete in most orders of battle, because they were. Many guns dated back to the 19th century or to Austria-Hungary.
+Furthermore, Italian artillery units were the same size (12 guns per battalion) as the equivalent German units. Meanwhile British field regiments of artillery had 24 guns.
+That said, while weak, massed Italian artillery could still pack a real punch. For that reason I've kept them in on the updated orders of battle.

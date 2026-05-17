@@ -81,7 +81,7 @@ Army Corps Reconnaissance Regrouping (RECA) (6 Battalions)
 	46th Artillery Regiment (3 Obsolete Battalions (1,3,4))
 	551st Mixed Support Battalion
 
-60th Infantry Division "Sabratha" (6 Battalions)
+60th Infantry Division "Sabratha" (7 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
 	Artillery Group "Sabratha" (2 Obsolete Battalions (283,284))

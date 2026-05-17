@@ -10,7 +10,7 @@ reserves=[
         ],
     },{
         level:1,type:[`Tank`,`Heavy`],team:`British`,
-        desc:`1st Army Tank Brigade`,name:`1`,designation:`Army`,commander:`Watkins`,icon:`70`,
+        desc:`1st Army Tank Brigade`,name:`1`,designation:`Army`,commander:`Watkins`,icon:`2nz`,
         pos:[965,250],
         elements:[
             {level:3,type:`Heavy Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Royal Tank\nRegiment`,commander:`Brooke`},
@@ -18,7 +18,15 @@ reserves=[
             {level:3,type:`Heavy Tank`,team:`British`,desc:`44th Royal Tank Regiment`,name:`44`,designation:`Royal Tank\nRegiment`,commander:`Yeo`},
         ],
     },{
-        level:1,type:[`Tank`,`Heavy`],team:`British`,//gazala/tobruk 1942
+        level:1,type:[`Tank`,`Heavy`],team:`British`,
+        desc:`1st Army Tank Brigade`,name:`1`,designation:`Army`,commander:`O'Carroll`,icon:`50`,
+        pos:[965,250],
+        elements:[
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`8th Royal Tank Regiment`,name:`8`,designation:`Royal Tank\nRegiment`,commander:`Kilkelly`},
+            {level:3,type:`Heavy Tank`,team:`British`,desc:`44th Royal Tank Regiment`,name:`44`,designation:`Royal Tank\nRegiment`,commander:`Reynolds`},
+        ],
+    },{
+        level:1,type:[`Tank`,`Heavy`],team:`British`,
         desc:`32nd Army Tank Brigade`,name:`32`,designation:`Army`,commander:`Willison`,icon:`70`,
         pos:[2380,1420],
         elements:[
@@ -100,6 +108,7 @@ reserves=[
         desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`,icon:`90l`,
         pos:[950,380],
         elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Grund`},
             {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 347th Infantry Regiment`,name:`3`,designation:`347`,commander:`Von Debschütz`},
         ],
     },{
@@ -160,6 +169,14 @@ reserves=[
         ],
     },{
         level:3,type:[`Infantry`],team:`German`,
+        desc:`3rd Battalion, 155th Infantry Regiment`,name:`3`,designation:`155`,commander:`Meythaler`,icon:`90l`,
+        pos:[850,375],
+        elements:[
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 155th Infantry Regiment`,name:`3`,designation:`155`,commander:`Hollmann`},
+            {level:3,type:`Infantry`,team:`German`,desc:`3rd Battalion, 155th Infantry Regiment`,name:`3`,designation:`155`,commander:`Meythaler`},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
         desc:`3rd Battalion, 268th Infantry Regiment`,name:`3`,designation:`268`,commander:`Meythaler`,icon:`90l`,
         pos:[850,375],
         elements:[
@@ -192,6 +209,14 @@ reserves=[
                 elements:[
                     {level:3,type:`Motorized Infantry`,team:`German`,desc:`1st Battalion, 104th Infantry Regiment`,name:`1`,designation:`104`,commander:`Bach`},
                     {level:3,type:`Motorized Infantry`,team:`German`,desc:`2nd Battalion, 104th Infantry Regiment`,name:`2`,designation:`104`,commander:`Echardstein`},
+                ],
+            },{
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:`Regimental Staff z.b.V. 200`,name:`200`,designation:`z.b.V.`,commander:`Schwerin`,icon:`21pz`,
+                pos:[1634,628],
+                elements:[
+                    {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`2nd Machine Gun Battalion`,name:`2`,designation:``,commander:`Voigtsberger`},
+                    {level:3,type:`Motorized Heavy Machine Gun`,team:`German`,desc:`8th Machine Gun Battalion`,name:`8`,designation:``,commander:`Ponath`},
                 ],
             },
         ],
@@ -229,7 +254,7 @@ reserves=[
                 desc:`39th Anti-Tank Battalion`,name:`39`,designation:``,commander:`Jansa`,icon:`21pz`,
                 pos:[1737,1251],
                 elements:[
-                    {level:3,type:`Motorized Anti-Tank`,team:`German`,desc:`39th Anti-Tank Battalion`,name:`39`,designation:``,commander:`Beil`}, 
+                    {level:3,type:`Motorized Anti-Tank`,team:`German`,desc:`39th Anti-Tank Battalion`,name:`39`,designation:``,commander:`Jansa`}, 
                 ],
             },{
                 level:2,type:[`Engineer`],team:`German`,
@@ -404,6 +429,29 @@ reserves=[
                 elements:[
                     {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`1st Battalion, 86th Infantry Regiment`,`I battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`1`,designation:`86`,commander:`Velosa`},
                     {level:3,type:`Weak Infantry`,team:`Italian`,desc:[`2nd Battalion, 86th Infantry Regiment`,`II battaglione fucilieri, 86° Reggimento di fanteria motorizzata "Sabratha"`],name:`2`,designation:`86`,commander:`Piana`},
+                ],
+            },
+        ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:[`15th Rifle Brigade`,`Schützen-Brigade 15`],name:`15`,designation:``,commander:`Menny`,icon:`15pz`,
+        pos:[1579,520],
+        elements:[
+            {
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:[`104th Rifle Regiment`,`Schützen-Regiment 104`],name:`104`,designation:``,commander:`Holtzendorff`,icon:`15pz`,
+                pos:[1634,628],
+                elements:[
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 104th Infantry Regiment`,`I./Schützen-Regiment 104`],name:`1`,designation:`104`,commander:`Bach`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 104th Infantry Regiment`,`II./Schützen-Regiment 104`],name:`2`,designation:`104`,commander:`Echardstein`},
+                ],
+            },{
+                level:2,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Herff`,icon:`15pz`,
+                pos:[1634,628],
+                elements:[
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
+                    {level:3,type:`Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 115th Rifle Regiment`,`II./Schützen-Regiment 115`],name:`2`,designation:`115`,commander:`Finke`},
                 ],
             },
         ],

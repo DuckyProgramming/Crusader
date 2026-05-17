@@ -234,23 +234,25 @@ export class unit{
         this.order.select=false
         this.order.defense=false
         this.order.artillery=this.contain.stats.artillery
-        let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map][0].width
-        if(
-            pix>=0&&floor(pix/8)<graphics.load.water.length&&
-            graphics.load.water[floor(pix/8)][pix%8]==0
-        ){
-            if(this.contain.trigger){
-                this.contain.units.forEach(unit=>{
-                    unit.strength.life=max(0,unit.strength.life-20*random(1,constants.battleVariance))
-                    unit.strength.morale=max(0,unit.strength.morale-20*random(1,constants.battleVariance))
-                    unit.strength.supply=max(0,unit.strength.supply-20*random(1,constants.battleVariance))
-                })
-            }else{
-                this.active=false
-                this.destroy()
-            }
-            if(!this.logs.main.includes(`Drowned`)){
-                this.logs.main.push(`Drowned`)
+        if(this.active){
+            let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map][0].width
+            if(
+                pix>=0&&floor(pix/8)<graphics.load.water.length&&
+                graphics.load.water[floor(pix/8)][pix%8]==0
+            ){
+                if(this.contain.trigger){
+                    this.contain.units.forEach(unit=>{
+                        unit.strength.life=max(0,unit.strength.life-20*random(1,constants.battleVariance))
+                        unit.strength.morale=max(0,unit.strength.morale-20*random(1,constants.battleVariance))
+                        unit.strength.supply=max(0,unit.strength.supply-20*random(1,constants.battleVariance))
+                    })
+                }else{
+                    this.active=false
+                    this.destroy()
+                }
+                if(!this.logs.main.includes(`Drowned`)){
+                    this.logs.main.push(`Drowned`)
+                }
             }
         }
         //this.updateStrength()
@@ -927,7 +929,7 @@ export class unit{
                                                 unit.strength.life,
                                                 damage[0]
                                                 *unit.battle.battalionVariance/types.team[unit.team].quality
-                                                *(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
+                                                *(target.battle.broken?(this.battle.broken?constants.breakMult*0.5+0.5:constants.breakMult)+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
                                             )
                                             unit.strength.life-=fall
                                             kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num

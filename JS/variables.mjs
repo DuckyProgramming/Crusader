@@ -404,21 +404,21 @@ export var types={
                                         {
                                             level:3,type:[`Infantry`],team:`Italian`,
                                             desc:[`1st Battalion, 61st Infantry Regiment`,`I battaglione fucilieri, 61° Reggimento di fanteria motorizzata "Sicilia"`],name:`1`,designation:`61`,commander:`Pittau`,icon:`trento`,
-                                            pos:[673,111],
+                                            pos:[671,121],
                                             elements:[
                                                 {level:3,type:`Infantry`,team:`Italian`,desc:[`1st Battalion, 61st Infantry Regiment`,`I battaglione fucilieri, 61° Reggimento di fanteria motorizzata "Sicilia"`],name:`1`,designation:`61`,commander:`Pittau`},
                                             ],
                                         },{
                                             level:3,type:[`Infantry`],team:`Italian`,
                                             desc:[`2nd Battalion, 61st Infantry Regiment`,`II battaglione fucilieri, 61° Reggimento di fanteria motorizzata "Sicilia"`],name:`2`,designation:`61`,commander:`Menzio`,icon:`trento`,
-                                            pos:[725,280],
+                                            pos:[755,306],
                                             elements:[
                                                 {level:3,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 61st Infantry Regiment`,`II battaglione fucilieri, 61° Reggimento di fanteria motorizzata "Sicilia"`],name:`2`,designation:`61`,commander:`Menzio`},
                                             ],
                                         },{
                                             level:3,type:[`Machine Gun`,`Mortar`],team:`Italian`,
                                             desc:[`3rd Mixed Support Battalion, 61st Motorized Infantry Regiment`,`III battaglione armi d'accompagnamento, 61° Reggimento di fanteria motorizzata "Sicilia"`],name:`3`,designation:`61`,commander:`Rabezzana`,icon:`trento`,
-                                            pos:[855,378],
+                                            pos:[1010,344],
                                             elements:[
                                                 {level:3,type:`Mixed Support`,team:`Italian`,desc:[`3rd Mixed Support Battalion, 61st Motorized Infantry Regiment`,`III battaglione armi d'accompagnamento, 61° Reggimento di fanteria motorizzata "Sicilia"`],name:`3`,designation:`61`,commander:`Rabezzana`},
                                             ],

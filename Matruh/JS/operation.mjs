@@ -188,10 +188,13 @@ export class operation{
         })
         this.units.forEach(unit=>unit.endTick())
         this.cities.forEach(city=>city.endTick())
-        this.units.forEach(unit=>unit.updateStrength())
+        this.updateStrength()
         this.turn.total++
         this.turn.main=0
         this.startTurn()
+    }
+    updateStrength(){
+        this.units.forEach(unit=>unit.updateStrength())
     }
     transitionComplete(scene){}
     loadMap(map){
@@ -362,7 +365,7 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
-                        if(!this.select.unit.contain.trigger&&!this.select.unit.contain.middle&&this.select.unit.contain.units.length==0){
+                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length==0){
                             layer.fill(150,this.anim.main*this.anim.select)
                             layer.rect(layer.width-340,50,200,60,10)
                             layer.fill(0,this.anim.main*this.anim.select)
@@ -769,7 +772,7 @@ export class operation{
                                             this.select.unit.order.absorb++
                                         }
                                     }
-                                }else if(this.select.unit.contain.middle){
+                                }else if(this.select.unit.contain.middle&&this.select.unit.contain.units.length>0){
                                     let absorb=this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
                                     if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
                                         let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
@@ -797,7 +800,7 @@ export class operation{
                                             this.select.unit.order.absorb++
                                         }
                                     }
-                                }else if(this.select.unit.contain.units.length==0){
+                                }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length==0){
                                     if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
                                         this.select.unit.active=false
                                         this.select.unit.destroy()
@@ -1088,7 +1091,7 @@ export class operation{
                                         this.select.unit.order.absorb++
                                     }
                                 }
-                            }else if(this.select.unit.contain.middle){
+                            }else if(this.select.unit.contain.middle&&this.select.unit.contain.units.length>0){
                                 let absorb=this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
                                 if(key===`Enter`){
                                     let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
@@ -1116,7 +1119,7 @@ export class operation{
                                         this.select.unit.order.absorb++
                                     }
                                 }
-                            }else if(this.select.unit.contain.units.length==0){
+                            }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length==0){
                                 if(key===`Enter`){
                                     this.select.unit.active=false
                                     this.select.unit.destroy()
