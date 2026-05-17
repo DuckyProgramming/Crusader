@@ -455,5 +455,28 @@ reserves=[
                 ],
             },
         ],
+    },{
+        level:0,type:[`Infantry`],team:`German`,
+        desc:[`Special Purpose Divisional Command "Afrika"`,`Divisionskommando z.b.V. Afrika`],name:`A`,designation:`z.b.V.`,commander:`Ziegler und Klipphausen`,icon:`90l`,
+        pos:[1072,461],
+        elements:[
+            {
+                level:3,type:[`Infantry`],team:`German`,
+                desc:[`3rd Battalion, 347th Infantry Regiment`,`III./Infanterie-Regiment 347`],name:`3`,designation:`347`,commander:`Panzenhagen`,icon:`90l`,
+                pos:[895,390],
+                elements:[
+                    {level:3,type:`Infantry`,team:`German`,desc:[`3rd Battalion, 347th Infantry Regiment`,`III./Infanterie-Regiment 347`],name:`3`,designation:`347`,commander:`Panzenhagen`},
+                ],
+            },{
+                level:3,type:[`Oasis Infantry`],team:`German`,
+                desc:[`300th Special Purpose Battalion Staff "Oasis"`,`Bataillonstab z.b.V. 300 "Oasen"`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Teetz`,icon:`90l`,
+                pos:[2405,1069],
+                elements:[
+                    {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`6th Oasis Company`,`Oasen Kompanie 6`],name:`6`,designation:`Oasis`,commander:`Ennecerus`},
+                    {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`12th Oasis Company`,`Oasen Kompanie 12`],name:`12`,designation:`Oasis`,commander:`Schön`},
+                    {level:4,type:`Armored Car Company`,team:`German`,desc:[`580th Reconnaissance Company`,`Aufklärungs-Kompanie 580`],name:`580`,designation:``,commander:`Hohmeyer`}, 
+                ],
+            },
+        ],
     },
 ]

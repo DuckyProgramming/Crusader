@@ -39,7 +39,7 @@ export class city{
                     if(types.player[unit.player].side==types.player[this.owner].side&&unit.contain.trigger){
                         unit.contain.units.forEach(cont=>{
                             cont.strength.supply=min(
-                                cont.strength.supply+[20,15][types.player[cont.player].side],
+                                cont.strength.supply+[25,20][types.player[cont.player].side],
                                 cont.strength.base.supply
                             )
                         })

@@ -85,6 +85,7 @@ Similarly, we know a lot about the Panzer commanders, including how Fenski was k
 
 2nd Battalion, 115th Infantry Regiment appears to have been commanded by Göttman at this time.
 We later hear during Gazala that this man was no longer in charge and that the new commander was called Roske. He was killed or captured soon after anyway.
+Some sources indicate that after Roske's loss, the battalion was disbanded, whle others cliam that a Rocholl replaced him. Either way the battalion was gone by the end of the battle.
 
 I can confirm that Moubray still commanded the 3rd Battalion, Coldstream Guards by the end of Operation Crusader. Only in 1942 was he replaced by Sainthill.
 
@@ -93,6 +94,7 @@ Bortolo Zambon certainly was not in command of the Brescia division, having left
 
 If the 46th Artillery Regiment (Italian) ever does get added to the game, make sure to give its command to a certain Colonel Grati.
 Actually maybe not, he might've actually been in command of the 2nd Celere Artillery Regiment.
+This has now happened as part of the updated sets. I've ended up picking Grati even though he's in a disputed position.
 
 The commander of the machine gun (4th) company of 15th Motorcycle Battalion was a Leutnant Paulewicz.
 The commander of the third company of the 33rd Engineer Battalion was an Oberleutnant Cirener.
@@ -101,7 +103,7 @@ A Major Teetz commanded the 300th Oasis Battalion in some way but was no longer 
 The 300th Oasis Battalion is an interesting unit. For the simplified Crusader map I decided to use an earlier form of it (still commanded by Teetz) with only 3 companies. I believe its other companies weren't assigned yet despite having arrived in Africa.
 Those three companies are: 6th Oasis (Hauptmann Ennecerus, possibly), 12th Oasis (Leutnant Schön) (some claim has name lacked an accent but I find that unlikely), 580th Reconnaissance (Hohmeyer)
 
-Despite a very short lifespan, the 90th Light Divison had a ton of commanders. Before Sümmermann there was Hans von Zeigler und Klipphausen as acting commander.
+Despite a very short lifespan, the 90th Light Divison had a ton of commanders. Before Sümmermann there was Hans von Ziegler und Klipphausen as acting commander.
 The 2nd Machine Gun Battalion was commanded by Voigtsberger back in July 1941. It's unclear when Warrelmann replaced him.
 
 The transfer of engineer units is very hazy and unclear. However, from what I can tell, this is what happened:

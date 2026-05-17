@@ -709,7 +709,7 @@ export class operation{
                                     }
                                     if(absorb.length>0){
                                         if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
-                                            if(this.select.unit.level==3||this.select.unit.level==4){
+                                            if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
                                                 let target=absorb[this.select.unit.order.absorb%absorb.length]
                                                 let element=this.select.unit.contain.units[0]
                                                 let typing=element.type.map(type=>types.unitType[type].name)
@@ -1028,7 +1028,7 @@ export class operation{
                                 }
                                 if(absorb.length>0){
                                     if(key==`Shift`){
-                                        if(this.select.unit.level==3||this.select.unit.level==4){
+                                        if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
                                             let target=absorb[this.select.unit.order.absorb%absorb.length]
                                             let element=this.select.unit.contain.units[0]
                                             let typing=element.type.map(type=>types.unitType[type].name)
