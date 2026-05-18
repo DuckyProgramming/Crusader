@@ -313,29 +313,29 @@ export var types={
                             ],
                         },{
                             level:1,type:[`Infantry`],team:`Australian`,
-                            desc:`24th Australian Infantry Brigade`,name:`24`,designation:``,commander:`Godfrey`,icon:`9a`,
+                            desc:`20th Australian Infantry Brigade`,name:`20`,designation:``,commander:`Murray`,icon:`9a`,
                             pos:[916,175],
                             elements:[
                                 {
                                     level:3,type:[`Infantry`],team:`Australian`,
-                                    desc:[`25th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/25th Australian Infantry Battalion`],name:`2/25`,designation:``,commander:`Withy`,icon:`9a`,
+                                    desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`,icon:`9a`,
                                     pos:[960,252],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`Australian`,desc:[`25th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/25th Australian Infantry Battalion`],name:`2/25`,designation:``,commander:`Withy`},
+                                        {level:3,type:`Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`Australian`,
-                                    desc:[`28th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/28th Australian Infantry Battalion`],name:`2/28`,designation:``,commander:`Lloyd`,icon:`9a`,
+                                    desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`,icon:`9a`,
                                     pos:[820,240],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`Australian`,desc:[`28th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/28th Australian Infantry Battalion`],name:`2/28`,designation:``,commander:`Lloyd`},
+                                        {level:3,type:`Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`],team:`Australian`,
-                                    desc:[`43rd Infantry Battalion, 2nd Australian Expeditionary Force`,`2/43rd Australian Infantry Battalion`],name:`2/43`,designation:``,commander:`Wain`,icon:`9a`,
+                                    desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`,icon:`9a`,
                                     pos:[765,140],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`Australian`,desc:[`43rd Infantry Battalion, 2nd Australian Expeditionary Force`,`2/43rd Australian Infantry Battalion`],name:`2/43`,designation:``,commander:`Wain`},
+                                        {level:3,type:`Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
                                     ],
                                 },
                             ],

@@ -56,6 +56,7 @@ reserves=[
         pos:[1035,320],
         elements:[
             {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumiller`},
+            {level:3,type:`Mixed Combat`,team:`German`,desc:`Sperrverband, Sonderverband 288`,name:`SV`,designation:`288`,commander:`Daumüller`},
         ],
     },{
         level:2,type:[`Infantry`,`Mixed`],team:`German`,
@@ -474,7 +475,34 @@ reserves=[
                 elements:[
                     {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`6th Oasis Company`,`Oasen Kompanie 6`],name:`6`,designation:`Oasis`,commander:`Ennecerus`},
                     {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`12th Oasis Company`,`Oasen Kompanie 12`],name:`12`,designation:`Oasis`,commander:`Schön`},
-                    {level:4,type:`Armored Car Company`,team:`German`,desc:[`580th Reconnaissance Company`,`Aufklärungs-Kompanie 580`],name:`580`,designation:``,commander:`Hohmeyer`}, 
+                ],
+            },
+        ],
+    },{
+        level:1,type:[`Infantry`],team:`Australian`,
+        desc:`24th Australian Infantry Brigade`,name:`24`,designation:``,commander:`Godfrey`,icon:`9a`,
+        pos:[916,175],
+        elements:[
+            {
+                level:3,type:[`Infantry`],team:`Australian`,
+                desc:[`25th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/25th Australian Infantry Battalion`],name:`2/25`,designation:``,commander:`Withy`,icon:`9a`,
+                pos:[960,252],
+                elements:[
+                    {level:3,type:`Infantry`,team:`Australian`,desc:[`25th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/25th Australian Infantry Battalion`],name:`2/25`,designation:``,commander:`Withy`},
+                ],
+            },{
+                level:3,type:[`Infantry`],team:`Australian`,
+                desc:[`28th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/28th Australian Infantry Battalion`],name:`2/28`,designation:``,commander:`Lloyd`,icon:`9a`,
+                pos:[820,240],
+                elements:[
+                    {level:3,type:`Infantry`,team:`Australian`,desc:[`28th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/28th Australian Infantry Battalion`],name:`2/28`,designation:``,commander:`Lloyd`},
+                ],
+            },{
+                level:3,type:[`Infantry`],team:`Australian`,
+                desc:[`43rd Infantry Battalion, 2nd Australian Expeditionary Force`,`2/43rd Australian Infantry Battalion`],name:`2/43`,designation:``,commander:`Wain`,icon:`9a`,
+                pos:[765,140],
+                elements:[
+                    {level:3,type:`Infantry`,team:`Australian`,desc:[`43rd Infantry Battalion, 2nd Australian Expeditionary Force`,`2/43rd Australian Infantry Battalion`],name:`2/43`,designation:``,commander:`Wain`},
                 ],
             },
         ],

@@ -64,6 +64,7 @@ export var types={
         {name:`Weaker Motorized Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,2],armor:0,health:75,morale:0.8,num:600,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Armed Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[11,2],armor:0,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Reinforced Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[10,3],armor:0.1,health:100,morale:1,num:800,speed:2.5,artillery:false,engineer:false,recon:false},
+        {name:`Motorcycle Armed Infantry`,unitType:[`Infantry`,`Motorized`],class:0,damage:[11,1],armor:0,health:100,morale:1,num:800,speed:3,artillery:false,engineer:false,recon:false},
         {name:`Small Fast Artillery`,unitType:[`Artillery`],class:2,damage:[6,10],armor:0.4,health:12,morale:0.8,num:12,speed:0.85,artillery:true,engineer:false,recon:false},
         {name:`Slow Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[12,10],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Superior Tank`,unitType:[`Tank`,`Superior`],class:1,damage:[15,15],armor:0.8,health:60,morale:0.75,num:50,speed:1.5,artillery:false,engineer:false,recon:false},
@@ -504,7 +505,7 @@ export var types={
                                     pos:[165,520],
                                     elements:[
                                         {level:3,type:`Motorized Reinforced Infantry`,team:`German`,desc:[`1st Battalion, 288th "Afrika" Grenadier Regiment`,`I./Afrika-Grenadier-Regiment 288`],name:`1`,designation:`288`,commander:`Daumiller`},
-                                        {level:3,type:`Motorcycle Infantry`,team:`German`,desc:[`2nd Battalion, 288th "Afrika" Grenadier Regiment`,`II./Afrika-Grenadier-Regiment 288`],name:`2`,designation:`288`,commander:`von Debschütz`},
+                                        {level:3,type:`Motorcycle Armed Infantry`,team:`German`,desc:[`2nd Battalion, 288th "Afrika" Grenadier Regiment`,`II./Afrika-Grenadier-Regiment 288`],name:`2`,designation:`288`,commander:`von Debschütz`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`German`,

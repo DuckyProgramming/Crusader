@@ -9,22 +9,21 @@ Cyrenaica Command (16 Battalions)
 	3rd Indian Motor Brigade (3 Battalions)
 
 9th Australian Division (5 Battalions)
-	18th Australian Infantry Brigade (3 Battalions)
+	20th Australian Infantry Brigade (3 Battalions)
 	24th Australian Infantry Brigade (2 Battalions)
 
 
 
 Deutsches Afrika Korps (16 Battalions)
 
-15th Panzer Division (6 Battalions) (Former Sperrverband Libyen)
+15th Panzer Division (5 Battalions) (Former Sperrverband Libyen)
 	8th Panzer Regiment (2 Battalions)
 	200th Regimental Staff z.b.V. (2nd Machine Gun Battalion)
 	33rd Armoured Car Battalion
-	33rd Anti-Tank Battalion
 	33rd Engineer Battalion
 
-102nd Infantry Division "Trento" (10 Battalions)
-	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (3 Battalions)
-	4th Group, 46th Artillery Regiment
+101st Motorized Division "Trieste" (11 Battalions)
+	65th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
+	66th Motorized Infantry Regiment (2 Motorized Infantry Battalions, 1 Motorized Mixed Support Battalion)
+	9th Motorized Bersaglieri Regiment (1 Motorized Battalion, 1 Motorcycle Battalion, 1 Machine Gun Battalion, 1 Mixed Support Battalion)
+	508th Mixed Support Battalion
