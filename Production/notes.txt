@@ -108,8 +108,9 @@ Despite a very short lifespan, the 90th Light Divison had a ton of commanders. B
 The 2nd Machine Gun Battalion was commanded by Voigtsberger back in July 1941. It's unclear when Warrelmann replaced him.
 
 The transfer of engineer units is very hazy and unclear. However, from what I can tell, this is what happened:
-33rd Panzer Pioneer Battalion had 3 companies. One was lost to join 2nd Machine Gun Battalion, along with another from the 39th Panzer Pioneer Battalion (not in Africa).
+33rd Panzer Pioneer Battalion had 3 companies. One was lost to join 2nd Machine Gun Battalion, along with another from the 39th Panzer Pioneer Battalion (which never entered Africa).
 The first company eventually returned to its parent unit while the other one was sent to the 200th z.b.V. Panzer Pioneer Battalion. Since that unit doesn't exist in my world, we'll let 2nd MG Battalion keep its backup.
+Because the precedent has been set that even a single company of engineers is enough, this battalion has now been rated as engineer-capable in-game.
 Either way, it looks as if both were destroyed during Crusader. The 33rd Engineer Battalion was utterly ruined and down to company strength by the end, and the 200th had surrendered in Bardia.
 
 The 115th Artillery Regiment was distinct from the 115th Rifle Regiment, and in fact both had a second battalion that was sent to Africa.
@@ -121,3 +122,10 @@ If I had to guess, the German who wrote this heard of the 155th Machine Gun Batt
 To an outside observer, Italian artillery would seem quite obsolete. And I have marked them as obsolete in most orders of battle, because they were. Many guns dated back to the 19th century or to Austria-Hungary.
 Furthermore, Italian artillery units were the same size (12 guns per battalion) as the equivalent German units. Meanwhile British field regiments of artillery had 24 guns.
 That said, while weak, massed Italian artillery could still pack a real punch. For that reason I've kept them in on the updated orders of battle.
+
+Some of the British tank battalion commanders are disputed among my sources. I do, however, know for certain that 6th Royal Tank Regiment was led by Lister.
+Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalion since I've seen him mentioned as company commander in the 900th z.b.V. Engineer Battalion. But this isn't that important for this game.
+
+For Crusader-, I've decided to use the August 20, 1941 organization of the 90th Light Division (then called the Special Purpose Divisional Command "Afrika").
+Its only actual combat units were the 300th Oasis Battalion (just 2 companies) and the 3rd Battalion, 347th Infantry Regiment.
+It also had a hhju

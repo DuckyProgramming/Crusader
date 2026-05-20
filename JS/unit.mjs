@@ -407,6 +407,10 @@ export class unit{
 
                     layer.noFill()
                     layer.stroke(40,fade)
+                    if(options.headquarters&&!this.contain.trigger){
+                        layer.strokeWeight(25/this.size)
+                        layer.line(-8,-3.25,8,-3.25)
+                    }
                     for(let a=0,la=this.type.length;a<la;a++){
                         layer.strokeWeight(25/this.size)
                         switch(this.type[a]){
