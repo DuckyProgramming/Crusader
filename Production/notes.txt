@@ -1,9 +1,12 @@
 The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
 For the Battleaxe scenario ONLY can this 8th battalion be used. It's worth noting the battalion did attempt to reform, but was destroyed again at Gialo (technically part of Crusader, but very far off.)
+On the other hand, the 9th Bersaglieri Battalion had four battalions. It likely had three back in Italy (which appears on most orders of battle) but received a fourth in Africa.
+Two of them were disbanded or destroyed due to the severe losses suffered by this regiment during Crusader.
 
 Hollmann commanded the 3rd Battalion, 155th Infantry Regiment (not in game) that was near the 3rd Battalions of the 255th and 347th Regiments.
 Actually, this is very likely not true. His rank was only that of Oberleutnant (First Lieutenant). It would be insane to have him coxmmanding a battalion.
-It's now been confirmed that the commander was a Major Meythaler/Maythaler.
+It's now been confirmed that the commander was a Major Meythaler/Maythaler (actual spelling likely the second, but ultimately unclear).
+The commanders of the regiment's first 2 battalions haven't been researched much by me but can definitely be found out.
 
 Many sources indicate an Oberst Zintel as commander of the 115th Motorized Regiment. This may have been the case.
 But... I can't find a single mention of this guy literally anywhere else. So I don't intend to trust this.
@@ -46,6 +49,7 @@ I don't intend to add Mickl's 155th Infantry Regiment (Semi-Motorized) as I don'
 Final Evidence: I have determined from new sources (dating to 2018, nearly 10 years later) that von Barby DID NOT command the 361st regiment at this time.
 He only took command... on January 4, 1942. Before then, it was Oberstleutnant Heinz Grund, who appears to have been wounded. And before him, it was Kirsten.
 So yes. Von Barby was available to command 3rd Battalion, 255th Infantry Regiment at this time. It's decided.
+Also, I found out who Kolbeck was. He was the adjutant in the divisional staff. So no, not a battalion commander until later.
 
 Sources are murky on this but here's the path of the infantry of the three divisions:
 Rommel arrives in Africa with IR zbV 200 with 2 machine gun battalions.
@@ -109,12 +113,19 @@ The 2nd Machine Gun Battalion was commanded by Voigtsberger back in July 1941. I
 
 The transfer of engineer units is very hazy and unclear. However, from what I can tell, this is what happened:
 33rd Panzer Pioneer Battalion had 3 companies. One was lost to join 2nd Machine Gun Battalion, along with another from the 39th Panzer Pioneer Battalion (which never entered Africa).
-The first company eventually returned to its parent unit while the other one was sent to the 200th z.b.V. Panzer Pioneer Battalion. Since that unit doesn't exist in my world, we'll let 2nd MG Battalion keep its backup.
+The first company eventually returned to its parent unit while the other one was sent to the 200th z.b.V. Panzer Pioneer Battalion. Since that unit doesn't exist in, my world, we'll let 2nd MG Battalion keep its backup.
 Because the precedent has been set that even a single company of engineers is enough, this battalion has now been rated as engineer-capable in-game.
 Either way, it looks as if both were destroyed during Crusader. The 33rd Engineer Battalion was utterly ruined and down to company strength by the end, and the 200th had surrendered in Bardia.
 
+I originally used this to make 2nd Machine Gun larger than a normal unit, but I was actually wrong. It appears all german motorized infantry at this time had 5 companies.
+This 5th company was a heavy company and wasn't present in non-motorized battalions. They were disbanded in 1942 with all companies becoming somewhat "heavy".
+It appears this additional company also applied to the 15th Motorcycle Battalion. And the 4th battalion for these units was a machine-gun battalion. It was kind of a mess at the time.
+I've decided not to use this as a reason to change around the sizes and specifications of the other units, however. Designing Crusader has never been about obsessing over companies.
+Only the special engineer company of 2nd Machine Gun Battalion is being counted, because this was a company that certainly wasn't meant to part of its structure.
+
 The 115th Artillery Regiment was distinct from the 115th Rifle Regiment, and in fact both had a second battalion that was sent to Africa.
 In the case of II./115 AR, because only 1 of the three batteries actually crossed the Mediterranean safely and another was reconstituted with Italian artillery, I've nicknamed it "Half and Half" or "Halb und Halb".
+It was a also designated both as motorized and as heavy, though when it arrived in Africa these statuses became more debatable.
 
 German sources indicate the existence of 255th Anti-Tank Battalion as part of the Savona Division. I couldn't find a single mention of this anywhere else, so its likely an abberration.
 If I had to guess, the German who wrote this heard of the 155th Machine Gun Battalion from the Savona and somehow managed to get both its number and its type wrong. What a bozo.
@@ -126,6 +137,9 @@ That said, while weak, massed Italian artillery could still pack a real punch. F
 Some of the British tank battalion commanders are disputed among my sources. I do, however, know for certain that 6th Royal Tank Regiment was led by Lister.
 Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalion since I've seen him mentioned as company commander in the 900th z.b.V. Engineer Battalion. But this isn't that important for this game.
 
-For Crusader-, I've decided to use the August 20, 1941 organization of the 90th Light Division (then called the Special Purpose Divisional Command "Afrika").
+For Crusader`, I've decided to use the August 20, 1941 organization of the 90th Light Division (then called the Special Purpose Divisional Command "Afrika").
 Its only actual combat units were the 300th Oasis Battalion (just 2 companies) and the 3rd Battalion, 347th Infantry Regiment.
-It also had a hhju
+I may also end up adding attached units to it from the Corps Troops or from 15th Panzer Division.
+
+Meanwhile, Crusader`'s 15th Panzer Division is based on its September 20, 1941 organization. It's about what you'd expect, with two panzer battalions, four infantry in a brigade, and some support units.
+To add a little flavor, though, I've given the 2nd Battalion, 33rd Artillery Regiment the "Half and Half" designation since it distinguishes the unit (as the designation's actual holder isn't present.)

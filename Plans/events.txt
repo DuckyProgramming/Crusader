@@ -335,7 +335,7 @@ Reinforcements (8 Battalions)
 
 
 
-Deutsches Afrika Korps (13 Battalions)
+Deutsches Afrika Korps (14 Battalions)
 
 15th Panzer Division (11 Battalions)
 	8th Panzer Regiment (2 Battalions)
@@ -347,19 +347,19 @@ Deutsches Afrika Korps (13 Battalions)
 	33rd Motorized Engineer Battalion
 	33rd Anti-Tank Battalion
 
-Divisional Command z.b.V. "Afrika" (2 Battalions)
-	300th "Oasis" Battalion Staff z.b.V. (6th Oasis Company, 12th Oasis Company, 580th Reconnaissance Company)
+Divisional Command z.b.V. "Afrika" (3 Battalions)
+	2nd Battalion, 115th Motorized Infantry Regiment (Detached From 15th Panzer Division)
 	3rd Battalion, 347th Infantry Regiment
+	300th "Oasis" Battalion Staff z.b.V. (6th Oasis Company, 12th Oasis Company, 580th Reconnaissance Company)
 
 
 
-XXI Army Corps (29 Battalions)
+XXI Army Corps (28 Battalions)
 
 Mixed Engineer Battalion (55th, 60th, 161st, and 161st Assault Companies)
 
-Army Corps Reconnaissance Regrouping (RECA) (6 Battalions)
-	52nd Security Tank Battalion
-	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police
+Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
+	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions)
 
@@ -388,3 +388,18 @@ Sonderverband 288 (2 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
 	Artillery Group "Sabratha" (2 Obsolete Battalions (283,284))
+
+
+
+After Operation Battleaxe had run its course, both sides took some time to reflect on how things had gone.
+For Rommel, while the battle had been an unquestioned victory, he was still no closer to taking Tobruk. He was also unsatisfied with the performance of the Italian garirsons.
+More training could partially solve these problems, but Rommel identified the other major problem as that lack of German Infantry. THus he requested a Motorized Division from the High Command.
+
+
+
+GAZALA:
+
+
+
+MATRUH:
+
