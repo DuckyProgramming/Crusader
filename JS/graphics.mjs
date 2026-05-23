@@ -1,8 +1,9 @@
 import {updateMouse} from './functions.mjs'
+var ltrig=[[],[]]
 export function setupGraphics(graphics,constants){
     setupBase()
 	setupConstants(constants)
-    setupTrig(constants)
+    setupTrig()
 	graphics.main=createGraphics(1800,960)
 	setupLayer(graphics.main)
 }
@@ -35,25 +36,25 @@ export function setupConstants(constants){
 	constants.sqrt2=sqrt(2)
 	constants.sqrt3=sqrt(3)
 }
-export function setupTrig(constants){
+export function setupTrig(){
 	for(let a=0,la=360;a<la;a++){
-		constants.trig[0].push(sin(a/2))
-		constants.trig[1].push(cos(a/2))
-		if(abs(constants.trig[0][a])<0.001){
-			constants.trig[0][a]=0
+		ltrig[0].push(sin(a/2))
+		ltrig[1].push(cos(a/2))
+		if(abs(ltrig[0][a])<0.001){
+			ltrig[0][a]=0
 		}
-		if(abs(constants.trig[1][a])<0.001){
-			constants.trig[1][a]=0
+		if(abs(ltrig[1][a])<0.001){
+			ltrig[1][a]=0
 		}
 	}
 	for(let a=0,la=360;a<la;a++){
-		constants.trig[0].push(-constants.trig[0][a])
-		constants.trig[1].push(-constants.trig[1][a])
+		ltrig[0].push(-ltrig[0][a])
+		ltrig[1].push(-ltrig[1][a])
 	}
 }
 export function lsin(direction){
-	return constants.trig[0][floor((direction%360+360)%360*2)]
+	return ltrig[0][floor((direction%360+360)%360*2)]
 }
 export function lcos(direction){
-	return constants.trig[1][floor((direction%360+360)%360*2)]
+	return ltrig[1][floor((direction%360+360)%360*2)]
 }

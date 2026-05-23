@@ -237,6 +237,15 @@ export class operation{
             unitSet.unit.splice(0,1)
 
             mapSet=types.map[findTerm0([`main`],types.map)]
+            unitSet=mapSet.unit[findName(`Crusader Oversimplified - 2 Player`,mapSet.unit)]
+            unitSet.unit.push(...JSON.parse(JSON.stringify(mapSet.unit[findName(`Crusader Oversimplified - 3 Player`,mapSet.unit)].unit)))
+            target=unitSet.unit[findAbstract(`desc`,`2nd New Zealand Division`,unitSet.unit)]
+            target.elements.push(unitSet.unit[0])
+            unitSet.unit.splice(0,1)
+            target=unitSet.unit[findAbstract(`desc`,`Special Purpose Divisional Command "Afrika"`,unitSet.unit)]
+            target.elements.splice(findAbstract(`desc`,`2nd Battalion, 115th Rifle Regiment`,target.elements),1)
+
+            mapSet=types.map[findTerm0([`main`],types.map)]
             unitSet=mapSet.unit[findName(`Crusader Simplified - 2 Player`,mapSet.unit)]
             unitSet.unit.push(...JSON.parse(JSON.stringify(mapSet.unit[findName(`Crusader Simplified - 3 Player`,mapSet.unit)].unit)))
             target=unitSet.unit[findAbstract(`desc`,`7th Armored Division`,unitSet.unit)]

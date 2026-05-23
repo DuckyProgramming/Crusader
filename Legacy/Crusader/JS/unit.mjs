@@ -67,7 +67,7 @@ export class unit{
             try{
                 this.img.push(graphics.load.unit[findName(this.icon,graphics.load.unit)].img)
             }catch(e){
-                let root=``
+                let root=`../../`
                 graphics.load.unit.push({name:this.icon,img:await new Promise((resolve,reject)=>{loadImage(`${root}Assets/General/unit/${this.icon}.png`,(img)=>resolve(img),reject)})})
                 this.img.push(last(graphics.load.unit).img)
             }
@@ -318,9 +318,9 @@ export class unit{
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?types.elementType[unit.elementType].num:0),0),
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?types.elementType[unit.elementType].num:0),0),
         ]
-        if(this.order.artillery&&!this.contain.stats.artillery){
+        /*if(this.order.artillery&&!this.contain.stats.artillery){
             this.order.artillery=false
-        }
+        }*/
     }
     updateStrength(type=-1){
         let len=max(1,this.contain.units.length)

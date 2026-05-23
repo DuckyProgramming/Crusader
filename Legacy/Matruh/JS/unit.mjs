@@ -318,9 +318,9 @@ export class unit{
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?types.elementType[unit.elementType].num:0),0),
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?types.elementType[unit.elementType].num:0),0),
         ]
-        if(this.order.artillery&&!this.contain.stats.artillery){
+        /*if(this.order.artillery&&!this.contain.stats.artillery){
             this.order.artillery=false
-        }
+        }*/
     }
     updateStrength(type=-1){
         let len=max(1,this.contain.units.length)
