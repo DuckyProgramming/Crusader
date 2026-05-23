@@ -64378,7 +64378,7 @@
           };
         } else {
           // for parameter validation
-          var dataDoc = _dereq_('../../../docs/parameterData.json');
+          var dataDoc = _dereq_('../../../../docs/parameterData.json');
           var arrDoc = JSON.parse(JSON.stringify(dataDoc));
           var docCache = {
           };
@@ -65086,7 +65086,7 @@
         exports.default = _default;
       },
       {
-        '../../../docs/parameterData.json': 1,
+        '../../../../docs/parameterData.json': 1,
         '../constants': 294,
         '../internationalization': 304,
         '../main': 306,

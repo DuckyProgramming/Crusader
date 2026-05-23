@@ -2,32 +2,31 @@ COMPASS:
 
 
 
-Western Desert Force (18 Battalions)
+Western Desert Force (16 Battalions)
 
-7th Armoured Division (11 Battalions)
+7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade (3 Battalions)
-	Support Group (2 Infantry Battalions, 2 Artillery Battalions)
-	104th Regiment, Royal Horse Artillery
+	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
 	7th Royal Tank Regiment
 
-4th Indian Division (8 Battalions)
+4th Indian Division (7 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
 	20th Australian Infantry Brigade (3 Battalions)
 	6th Australian Division Cavalry (Light Tanks)
-	3rd Battalion, Coldstream Guards
 
 
 
-XXII Army Corps (32 Battalions)
+XXII Army Corps (36 Battalions)
 
 Mixed Engineer Battalion (60th and 61st Companies)
 Mixed Bersaglieri Motorcycle Battalion (22nd, 51st, and 60th Companies)
 
-22nd Corps Artillery Group (2 Battalions (1,2))
+22nd Corps Artillery Group (4 Battalions)
 
-Libyan Group (4 Battalions)
-	140th Blackshirt Battalion "Volontari della Libia"
+Libyan Group (5 Battalions)
+	Blackshirt Battalion "Volontari della Libia"
+	140th Blackshirt Battalion
 	1st Libyan Parachute Battalion "Diavoli Neri"
 	18th Libyan Battalion
 	21st Libyan Coastal Battalion
@@ -44,8 +43,9 @@ Libyan Group (4 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-4th Tank Infantry Regiment (4 Battalions)
+4th Tank Infantry Regiment (5 Battalions)
 	1st Medium Tank Battalion
+	55th Light Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion
 	3rd Group, 12th Artillery Regiment
@@ -54,7 +54,7 @@ Libyan Group (4 Battalions)
 
 As the war began, Italian Commander Pitassi Mannella of the XXII Army Corps discovered to his horror how unprepared his forces were.
 He had, on paper, an effective corps of strength, but a lack of motorization and poor supply preparedness crippled his force to extreme levels.
-In addition to his original Sirte Division, XXI Army Corps had transfered to him the Sabratha Division, and he had more Libyan troops besides, but all units were in a poor state.
+In addition to his original Sirte Division, he had been transfered the Sabratha Division, and he had more Libyan troops besides, but all units were in a poor state.
 Nevertheless, when the Sirte Division, headed by the Libyan Group and 4th Tank Infantry Regiment, attacked, they made rapid progress, before their supply issues caught up.
 
 British forces in Egypt were caught off guard but wasted little time in preparing a response to the Italian invasion. Richard O'Connor's WDF was formed from what units were already in Egypt.
@@ -110,16 +110,17 @@ Cyrenaica Command (13 Battalions)
 
 Deutsches Afrika Korps (12 Battalions)
 
-15th Panzer Division (6 Battalions) (Former Sperrverband Libyen)
-	8th Panzer Regiment (2 Battalions)
+15th Panzer Division (5 Battalions) (Former Sperrverband Libyen)
+	8th Panzer Regiment (1 Battalion)
 	200th Regimental Staff z.b.V. (2nd Machine Gun Battalion)
 	33rd Reconnaissance Battalion
 	33rd Anti-Tank Battalion
 	33rd Motorized Engineer Battalion
 
-102nd Infantry Division "Trento" (6 Battalions)
+102nd Infantry Division "Trento" (7 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
+	551st Mixed Support Battalion
 
 
 
@@ -176,8 +177,6 @@ Brevity Command (8 Battalions)
 	4th Royal Tank Regiment
 	6th Australian Division Cavalry (Light Tanks)
 
-
-
 Tobruk Garrison (4 Battalions)
 
 20th Australian Infantry Brigade (3 Battalions)
@@ -192,7 +191,7 @@ Tobruk Garrison (4 Battalions)
 Deutsches Afrika Korps (18 Battalions)
 
 15th Panzer Division (8 Battalions)
-	8th Panzer Regiment (2 Battalions)
+	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
 	15th Infantry Brigade (2 Battalions)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
@@ -248,7 +247,7 @@ Tobruk Garrison (4 Battalions)
 Deutsches Afrika Korps (20 Battalions)
 
 15th Panzer Division (8 Battalions)
-	8th Panzer Regiment (2 Battalions)
+	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
 	15th Infantry Brigade (2 Battalions)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
@@ -274,8 +273,8 @@ When Neumann-Silkow arrives, he changes up doctrines, while Herff leaves to go j
 The British attack begins all across the line at once. The 11th Indian Brigade surrounds the Halfaya Pass as two groups while 22nd Guards Brigade heads for Capuzzo.
 Most of the frontier positions fall rapidly, except for the pass. There, 15th Motorcycle Battalion's elements fight hard, repelling several assaults.
 Positions like Points 206 and 208 are contested hotly for a few hours, but their German and Italian garrisons are eventually forced to withdraw or surrender.
-While the Indian troops are tied down, the British are secure at Capuzzo. When 8th Panzer Regiment appears from the north, they defeat its attack handily.
-Cramer, commander of 8th Panzer Regiment, is wounded and replaced temporarily by Ramsauer. So far, the German response has been poor.
+While the Indian troops are tied down, the British are secure at Capuzzo. When 8th Panzer Regiment appears from the north, they defeated its attack handily.
+Cramer, commander of 8th Panzer Regiment, was wounded and replaced temporarily by Ramsauer. So far, the German response has been poor.
 
 But things look much bleaker for British troops on the desert flank. There, 4th Armoured Brigade strike the Hafid Ridge, only to find it covered in Anti-Tank guns.
 The brigade takes significant losses and makes no gains. 7th Support Group remains evern further south, providing the tanks little to no support. British reconnaissance does even less.
@@ -323,7 +322,13 @@ XIII Corps (19 Battalions)
 
 
 
-Reinforcements (8 Battalions)
+Oasis Force (4 Battalions, Failed to Contribute)
+	29th Indian Infantry Brigade (3 Battalions)
+	6th South African Armoured Car Regiment
+
+
+
+Reinforcements (8 Battalions, Arrived)
 
 2nd New Zealand Division Reinforcements (6 Battalions)
 	27th New Zealand Machine Gun Battalion
@@ -338,9 +343,9 @@ Reinforcements (8 Battalions)
 Deutsches Afrika Korps (14 Battalions)
 
 15th Panzer Division (11 Battalions)
-	8th Panzer Regiment (2 Battalions)
+	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
 	15th Infantry Brigade (3 Battalions)
-		115th Motorized Infantry Regiment (1 Battalion)
+		115th Motorized Infantry Regiment (1 Battalion With Armored Personnel Carrier Company)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
 	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion, 1 Heavy Battalion)
@@ -350,18 +355,18 @@ Deutsches Afrika Korps (14 Battalions)
 Divisional Command z.b.V. "Afrika" (3 Battalions)
 	2nd Battalion, 115th Motorized Infantry Regiment (Detached From 15th Panzer Division)
 	3rd Battalion, 347th Infantry Regiment
-	300th "Oasis" Battalion Staff z.b.V. (6th Oasis Company, 12th Oasis Company, 580th Reconnaissance Company)
+	300th "Oasis" Battalion Staff z.b.V. (6th and 12th Oasis Companies, 2nd Company, 39th Engineer Battalion, 580th Reconnaissance Company)
 
 
 
-XXI Army Corps (28 Battalions)
+XXII Army Corps (28 Battalions)
 
-Mixed Engineer Battalion (55th, 60th, 161st, and 161st Assault Companies)
+Mixed Engineer Battalion (55th, 161st, and 161st Assault Companies)
 
 Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
-	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions)
+	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 
 55th Infantry Division "Savona" (10 Battalions)
 	15th Infantry Regiment (2 Battalions)
@@ -380,7 +385,7 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 
 
 
-Reinforcements (Failed to Arrive)
+Reinforcements (8 Battalions, Failed to Arrive)
 
 Sonderverband 288 (2 Battalions)
 
@@ -388,12 +393,192 @@ Sonderverband 288 (2 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
 	Artillery Group "Sabratha" (2 Obsolete Battalions (283,284))
+	60th Mixed Engineer Company
 
 
+
+Prep:
 
 After Operation Battleaxe had run its course, both sides took some time to reflect on how things had gone.
 For Rommel, while the battle had been an unquestioned victory, he was still no closer to taking Tobruk. He was also unsatisfied with the performance of the Italian garirsons.
-More training could partially solve these problems, but Rommel identified the other major problem as that lack of German Infantry. THus he requested a Motorized Division from the High Command.
+More training could partially solve these problems, but Rommel identified the other major problem as that lack of German Infantry. Thus he requested a Motorized Division from the High Command.
+What he received, however, was far from satisfactory. When the Divisional Command z.b.V. "Afrika" arrived, only two battalions which had been previously transported to Africa were given to it.
+In fact, not a single higher organization, be it a regiment or brigade, ended up with the division. It was little more than a regimental Kampfgruppe of loose units.
+But at the very least, it was better than nothing. Rommel originally sent it to the frontier to take over for the battered units of the Trento division.
+
+This wouldn't last, because the second Italian division in the theatre began to arrive.
+This was the 55th "Savona" Infantry Division, which wasn't motorized. In comparison, the Trento Division could at least claim to be motorized, though this was true only on paper.
+Still, the arrival of fresh infantry (who had just marched across the entirety of Cyrenaica) with decent numbers (unlike the Afrika Division) was welcomed.
+They took over the frontier sector next, as it was hoped the Afrika Division, while weak, could, with Italian backup, lead the next assault on Tobruk.
+This increase in strength indicated that it was time for some consolidation. XXII Army Corps was reformed, taking control of all Italian troops in the sector.
+To command both this corps and the DAK, a new Panzergruppe Afrika was formed with Rommel promoted to this command. Ludwig Crüwell became the DAK commander.
+
+THe Italians were further reinforced by the arrival of the XXII Army Corps's Reconaissance Raggruppamento with a mixed force of battalions.
+However, the Sabratha Division which had by now been rebuilt from its destruction during Operation Compass was unable to reach the battle in time.
+Similarly, Sonderverband 288, an elite force prepared for aiding the Iraq Rebellion, was diverted to Africa but also failed to enter Africa in 1941 except for a single company-sized detachment.
+Still, while not all reinforcements had arrived as hoped, Rommel's new Panzer Army commanded an impressive force of 42 battalions.
+
+The British were reinforcing heavily too. The WDF had become large enough that it necessitated a renaming to XIII corps, with a new XXX corps being established, both now under 8th Army.
+New commanders were also found. Beresford-Pierse was sent to the Sudan with Godwin-Austen becoming XIII corps commander. Alan Cunningham, victor of East Africa, took command of the new army.
+Things for XXX corps went a little less well. The first pick, Vyvyan Pope, was killed in an air crash, so the cavalryman Willoughby Norrie was placed in charge.
+4th Indian Division, battered, was pulled out of the line to refit, but the top-quality 2nd New Zealand Division replaced it, packing 15 Battalions, though not all arrived yet.
+22nd Guards Brigade, while beaten, was still itching to fight, and was sent south to guard the supply dumps for the battle. It did lose one of its battalions, however.
+That battalion, plus some artillery, was added to 4th Armoured Brigade, which now fielded three armoured battalions, though some of its tanks were light US M3s.
+
+To back up 7th Armoured Division and guard its flank, so that hte 7th Support Group could actually do some supporting, the 1st South African Division was brought up.
+It was a little weak, though, as its 2nd South African Infantry Brigade had taken enough losses that it was left in Matruh as a garrison.
+Finally, political pressures forced the Australians to leave Tobruk. They left behind severe casualties but made it out without trouble.
+Their replcaement was the Polish Independent Carpathian Rifle Brigade with 5 battalions, which incorporated a Czechoslovak battalion and one remaining Australian battalion.
+Further backup arrived in Tobruk in the form of the 32nd Army Tank Brigade with 2 battalions of infantry tanks. The two brigades necessitated the formation of a division, Scobie's 70th.
+Thus, with a total of four divisions and an independent brigade, the upgrading of the 8th Army was complete. Now it had what it took to hopefully compete with the 15th Panzer Division.
+
+Battle:
+
+The British attack plan was far from airtight, suffering from the fact that it wasn't really an offensive at all. There was no attempt to hold the initiative.
+Armoured cars with tanks behind them pushed back the German Reconaissance units quickly and cleared the path to Gabr Saleh, where 7th Armoured Division concentrated.
+Their southern flank was supported by both South African brigades, while the two New Zealand brigades moved up at Halfaya and Sidi Omar, destroying the enemy at the latter.
+Despite this success, in which an Italian battalion of the Savona Division with a supporting German Oasis company was wiped out, the enemy failed to appear.
+
+7th Armoured division was now left without a directive. The Crusader plan had already unraveled. Gott kept his tanks where they were, while the Support Group headed north.
+Meanwhile, the 1st South African Brigade assaulted Bir el Gubi. The infantry expected an easy fight against the Italians but were proven wrong.
+The Giovani Fascisti regiment, part of RECA, cut down the attackers with heavy fire while concealed batteries bombarded them. The South Africans made no progress.
+Finally, with the reports from his reconaissance coming in, Crüwell was able to send the Panzers south, forming Kampfgruppe Cramer around 8th Panzer Regiment and support units.
+At Gabr Saleh, Cramer tried to defeat 4th Armoured Brigade, but poor positioning in the terrain held him back. The battle was inconclusive.
+
+Meanwhile, 7th Support Group reached Sidi Rezegh. The only Axis force there was a single Bersaglieri company that was quickly defeated.
+Sümmermann reacted quickly, pulling the 3rd Battalion, 347th Infantry Regiment back from its positions in the siege lines of Tobruk and sending it south.
+With the 2nd Battalion, 115th Motorized Infantry Regiment and some loose companies, both Italian and German, Kampfgruppe Panzenhagen was formed.
+This force managed to blunt the northward momentum of 7th Support Group, though not without sustaining significant losses against the more experienced infantry.
+By this time, Panzenhagen's complaints had been heard. 15th Panzer Division, arriving in force at Gabr Saleh, turned north and struck the Support Group from the rear.
+It was a massacre. The support group lost some companies as well as an entire artillery battalion. 4th Armoured Brigade attempted to help but didn't make it in time.
+By the time Kampfgruppen Cramer and Menny (115th Motorized Infantry Regiment) withdrew, screened by armored cars, they had battered their enemy and won the day.
+Also, at this time, 5th South African Brigade had been called up to give 7th Armoured Division more infantry, passing by the positions of the 1st South African Brigade.
+
+But it wasn't over. Overnight, the 15th Panzer Division moved to attack the support group from the west, and managed to capture the headquarters of 4th Armoured Brigade, though not its commander.
+Believing they had nearly won the battle, Crüwell aimed to deliver a crushing blow using all his units in conjuction with the Italians, surrounding the 7th Armoured Division's remnants.
+But by this time, events at the frontier had turned against the Axis. 4th and 5th New Zealand Brigade hemmed in de Giorgis's Savona troops, while the 6th New Zealand Brigade turned north.
+It drove into Bir el Chleta, capturing Crüwell's own headquarters. But the general, just like Gatehouse, made it out safely and continued to lead his men.
+Outflanking the 7th Armoured Division, the 15th Panzer Division formed two columns, each with an infantry regiment and a panzer battalion. The Bersaglieri were on its left.
+Together, they drove straight into the 5th South African Brigade. While hit by heavy fire, they overran the brigade's box and defeated 4th Armoured Brigade's counterattacks.
+By now, it looked like the Axis had won the battle. 7th Armoured division was battered, and 1st South African Division was half gone.
+XXX Corps barely existed now. If it was beaten one more time, there would be nothing left to protect XIII Corps from a Panzer assault.
+
+Crüwell wanted to launch a head-on attack at the remnants of the 7th Armoured Division. But Rommel had something else in mind.
+The Savona Division, surrounded at the frontier and at Bardia, had multiple times asked for support. Now, he thought, was the time to offer it.
+Without time to rest, the 15th Panzer Division set off, straight through the positions of 7th Support Group, and passing north of 1st South African Brigade.
+British rear area elements and headquarters retreated in its wake, a few getting captured, but 15th Panzer Division moved so quickly that it split into pieces.
+The first elements reached Sidi Omar, attacking the New Zealanders there and doing some damage, but were unable to break through to the frontier garrisons.
+At this time, 6th New Zealand Brigade, with a few supporting battalions, had siezed Point 175 from Kampfgruppe Panzenhagen. Rommel's communications officer, Westphal, demanded he return.
+So he did. The 15th Panzer Division's component groups moved north from Sidi Omar (which they hadn't taken), before heading back west toward Tobruk.
+At Bardia they left behind some companies, while at Sidi Azeiz they captured 5th New Zealand Brigade's headquarters, including Brigadier Hargest.
+That was the only successful operation at the frontier. 15th Panzer had made it out, but was disorganized and short of supply.
+Rommel's "Dash to the Wire", as it was called, had failed to destroy the New Zealand Division and had given up the initiative. But it almost worked.
+
+By this time, Cunningham's weak leadership had become apparent, and Auchinleck had him replaced with the less experienced but loyal Neil Ritchie.
+With the 6th New Zealand Brigade nearby, the Tobruk garrison finally launched its attack. Against strong Italian opposition, the Polish Brigade broke out.
+It eventually linked up with the New Zealanders, trapping the Italian 16th Infantry Regiment on the coast. But the connection was tenuous.
+15th Panzer Division was on its way back, sending its forward Kampfgruppe Geißler toward the New Zealander rear, while Kampfgruppe Panzenhagen attacked from the south with Bersaglieri support.
+The attacks were devastating. Barrowclough's men fought hard but they were now the surrounded ones. Two battalions disintegrated and most of the artillery was destroyed.
+4th Armoured Brigade and the 1st South African Brigade attempted to offer support, but were blocked either by Panzenhagen or the Italians. Neither did anything.
+Without help, the 6th New Zealand brigade had no choice but to pull out overnight, leaving the battle for good. 1st South African Brigade also swapped positions with 22nd Guards Brigade.
+
+While another enemy brigade had been crushed, the Axis only faced increased pressure. 7th Armoured Division had recovered, and the Guards Brigade attacked Bir el Gubi.
+But most pressing of all was the issue of the frontier garrisons. They had still not been relived, and time was running out.
+That was the task given to Kampfgruppe Geißler, with 15th Motorcycle Battalion, an anti-tank company, and some artillery. However, a New Zealand ambush defeated the force.
+At the same time, Kampfgruppen Menny and Cramer went south to rescue Bir el Gubi, but while the Giovani Fascisti Regiment held their position, the German counterattack failed.
+In the process, Neumann-Silkow was wounded, replaced by Menny. Menny had also earlier replaced Zincke who had been killed, so he now held three levels of command.
+Either way, these failures exhausted German strength. Kampfgruppe Panzenhagen and the 7th Bersaglieri Regiment pushed back the Polish, but they too were exhausted.
+The 4th Armoured Brigade had recovered up to 60 tanks. Cramer had twelve. Menny saw no option but to retreat from Bir el Gubi.
+When he told Rommel this, the geenral recognized reality. Supplies and reinforcements wouldn't be forthcoming. He had no choice but to fall back.
+
+Covered by expert rearguards, the 15th Panzer Division retreated from Bir el Gubi. The Italians of RECA and the Trento Division also got away.
+The Afrika Division, which was really just Kampfgruppe Panzenhagen, also retreated, though on the way Sümmermann was killed by an air attack.
+The retreat otherwise went smoothly. Rommel's troops lined up as planned along the unfinished Gazala defenses, chased by the Polish Brigade, 7th Armoured Division, and 22nd Guards Brigade.
+Battles on the new line didn't go badly, but the line could easily be outflanked. Recognizing the impossibility of defense, the Axis fell back once again.
+The British attempted to cut off the Axis like they had during Operation Compass, but the attempt by 7th Support Group failed and they got away.
+Defending briefly at Agedabiya, the last German forces retreated back to El Agheila by the end of 1941.
+
+This left just the frontier garrisons still fighting in Cyrenaica, besieged in their positions by the 4th and 5th New Zealand Brigades.
+Bardia was defended by 2 infantry battalions and parts of the 4th Machine Gunners Group "Genova Cavalleria", with a few leftover German companies there too.
+German general Artur Schmitt was responsible for the defense, commanding an ad-hoc "Brigade Bardia". After an assault captured his last water supply, he surrendered.
+The Halfaya-Sollum sector was commanded by Fidele di Giorgis. It still had one infantry battalion and one machine gun battalion, the rest of the Genova Cavalleria, and 6th Oasis Company.
+It held out a little longer than Bardia, with Sollum and Halfaya both withstanding assaults. But the lack of water again forced them to give in.
+Crusader had been a mess, but the British had won it. Rommel was back to his starting point and his losses were near catastrophic.
+
+
+
+SECOND SONNENBLUME:
+
+
+
+8th Army (16 Battalions)
+
+XIII Corps (16 Battalions)
+
+7th Armoured Division (11 Battalions)
+	1st King's Dragoon Guards Armoured Cars
+	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	7th Support Group (2 Infantry Battalions, 3 Artillery Battalions)
+
+4th Indian Division (5 Battalions)
+	11th Indian Infantry Brigade (3 Battalions)
+	200th Guards Brigade (2 Battalions)
+
+
+
+Deutsches Afrika Korps (10 Battalions)
+
+15th Panzer Division (9 Battalions)
+	8th Panzer Regiment (1 Battalion)
+	15th Infantry Brigade (3 Battalions)
+		115th Motorized Infantry Regiment (2 Battalions, 1 With Armored Personnel Carrier Company)
+		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion)
+	33rd Reconnaissance Battalion
+	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion)
+	33rd Motorized Engineer Battalion
+	33rd Anti-Tank Battalion
+
+90th Light Division (1 Battalion)
+	3rd Battalion, 347th Infantry Regiment
+
+
+
+XXII Army Corps (14 Battalions)
+
+Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
+
+102nd Infantry Division "Trento" (7 Battalions)
+	61st Infantry Regiment (2 Infantry Battalions)
+	62nd Infantry Regiment (2 Infantry Battalions)
+	46th Artillery Regiment (3 Battalions (1,3,4))
+
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Artillery Group "Sabratha" (2 Battalions (283,284))
+
+
+
+When his troops returned to El Agheila, Rommel had to reckon with their miserable state.
+Of the Savona Division, only one weak regiment, the 16th, with two battalions remained. It was disbanded to refill the Trento and Sabratha Divisions.
+Speaking of the Sabratha Division, it was finally rated for use. So, at the very least, the Savona Division would be partially replaced.
+The Trento Division had also taken severe losses and disbanded 3 battalions, and its Bersaglieri Regiment had to be sent to the rear, but the rest could still fight.
+
+German units were also quite beaten. 15th Panzer Division had about 15 panzers left and the infantry were at half strenght or less. Many support battalions were also depleted.
+Most of the near-destroyed units would be kept back to rebuild, but most of the division could still fight. The Afrika Division, on the other hand, had just a single battalion.
+Rommel thought he wouldn't be able to launch another attack for months until the depleted units could be restored. The British would prove him wrong.
+
+Just when he had won a decisive victory, Ritchie had no choice but to reduce his frontline strength.
+Most of his divisions were battered, and logistics all the way up to El Agheila were difficult to manage, especially with Benghazi's port bombed.
+Only the XIII Corps could be maintained out there, with its two divisions: the weak 7th Armoured Division, and the returning 4th Indian Division.
+At the frontline, things were even worse. Only 7th Support Group and 22nd Guards Brigade (renumbered to the 200th) were left.
+
+So, when Axis forces advanced once again, resistance was far from impressive. The two brigades were quickly split from each other and routed.
+But, the exhaustion of the 15th Panzer Division still showed, as it was unable to prevent the enemy from escaping Rommel's attempted trap.
+Still, with the British line broken, and their reserves out of position, not much could be done to stop the fall of Benghazi.
+The Italians, with Kampfgruppe Marcks (formed from elements of both German divisions) at their head, marched into the city.
+THe 11th Indian Infantry Brigade, there, was forced to conduct demolitions and flee back to Gazala.
+Just weeks after losing all of Cyrenaica, it was back in Rommel's hands, though now he faced the formidable Gazala line.
 
 
 
@@ -401,5 +586,348 @@ GAZALA:
 
 
 
+8th Army (40 Battalions)
+
+XXX Corps (18 Battalions)
+
+7th Armoured Division (15 Battalions)
+	1st King's Dragoon Guards Armoured Cars
+	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	201st Guards Brigade (4 Battalions, 1 Artillery Battalion)
+
+3rd Indian Motor Brigade (3 Battalions)
+
+XIII Corps (22 Battalions)
+
+1st South African Division (11 Battalions)
+	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	2nd Battalion, General Botha Regiment
+	Machine Gun Battalion "President Steyn"
+	6th South African Armoured Car Regiment
+
+4th Indian Infantry Division (8 Battalions)
+	11th Indian Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	29th Indian Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+
+32nd Army Tank Brigade (3 Battalions)
+
+
+
+Deutsches Afrika Korps (16 Battalions)
+
+15th Panzer Division (10 Battalions)
+	8th Panzer Regiment (2 Battalions)
+	115th Motorized Infantry Regiment (3 Battalions)
+	33rd Reconnaissance Battalion
+	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion, 1 Heavy Battalion)
+	33rd Anti-Tank Battalion
+
+90th Light Division (3 Battalions)
+	Sonderverband 288 (2 Battalions)
+	580th Reconnaissance Company
+
+15th Infantry Brigade (3 Battalions)
+	200th Regimental Staff z.b.V. (2 Battalions)
+	33rd Motorized Engineer Battalion (Attached From 15th Panzer Division)
+
+
+
+XXII Army Corps (19 Battalions)
+
+Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
+7th Motorized Bersaglieri Regiment (2 Battalions)
+Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+
+102nd Infantry Division "Trento" (8 Battalions)
+	61st Infantry Regiment (2 Battalions)
+	62nd Infantry Regiment (2 Battalions)
+	46th Artillery Regiment (3 Battalions (1,3,4))
+	551st Mixed Support Battalion
+
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Artillery Group "Sabratha" (2 Battalions (283,284))
+
+
+
+Between January and May 1942, the Axis had plenty of time to figure out how they were going to break the Gazala line.
+On the other hand, the British, who used this time to bring up numerous units, were thinking about how to make it unbreakable.
+4th Indian Division, battered, is kept in reserve, because the 1st South African Division, now with three brigades, is to defend the line.
+Behind it lies 32nd Army Tank Brigade, with more than hundred heavy tanks. All these units are part of XIII Corps.
+XXX Corps forms the mobile reserve behind them. It contains the veteran 7th Armoured Division, with the 200th Guards Briagde (renumbered to the 201th).
+In addition, XXX Corps can count on the reformed 3rd Indian Motor Brigade to secure its southern flank.
+
+However, while the deployments seem secure, the British have made some fundamental mistakes with their overall plan.
+They expect that Rommel will have no choice but to attack directly into the line, not realizing the "box" defenses could be outflanked.
+He plans to exploit this to the great possible degree using both of his German divisions to loop around the enemy flank.
+The Afrika Division has been rebuilt as the 90th Light Divison following the arrival of Sonderverband 288, and the 15th Panzer Division has been reorganized as well.
+That is, except for the 200th Regiment, which remains deficient in transport so will remain along the coast in 15th Infantry Brigade.
+The two Italian divisions will tie down the enemy on the line, pinning them in place for the panzers to hit them from the rear.
+But Rommel has made the same mistake as the British. His plan has little to no contigency for if the enemy chooses not to play his game.
+
+The attack, "Operation Venezia", gets off to a bad start. When Crüwell leads forward the Italians and the 15th Infantry Brigade, his diversion accomlishes nothing.
+No British reserves have been tied down, and as a result Rommel drives straight into all of XXX Corps as he loops south of Bir Hacheim.
+Luckily for him, the first unit he encounters, the 3rd Indian Motor Brigade, is unprepared for battle and is easily routed by a combination of the panzers and the Giovani Fascisti Regiment.
+He next encounters 4th Armoured Brigade, defeating it but not finish off the formation. 90th Light crosses paths with the 7th Motor Brigade, ejecting it from the Retma "box".
+But that's when the successes stop. 90th Light Division reaches El Adem with its reconnaissance forces, but the troops there defeat its attack.
+When 15th Panzer Division reaches the Knightsbridge area, it's suddenly surrounded, with tanks of 32nd Army Tank Brigade and infantry of 201st Guards Brigade attacking from all sides.
+Only poor British coordination prevents the division from severe destruction, though it does lose an infantry battalion and its commander, von Värst, replaced by Crasemann.
+Scared, Rommel, pulls his troops back to a defensive ring where he hopes he can lure the enemy into attacking in poor terrain.
+
+There, in the so-called "Hexenkessel" or "Cauldron", Rommel's two divisions and Italian support are cut off from supplies by the remnants of the 3rd Indian Motor Brigade.
+But the rest of the British forces fail to offer support for the unfortunate brigade, which is again attacked and finally destroyed for good.
+Their rear clear of the enemy, Italian and German engineers clear a path through the minefields and bring the panzres fresh supplies.
+Only now do the British manage to organize an attack, having brought up the 5th Indian Division. Its 11th Brigade will attack, along with all the British armor.
+
+That attack, "Operation Aberdeen", goes terribly. Coordination between the units is poor and neither corps commander, Gott or Norrie, takes charge.
+4th Indian Division's commander, Briggs, and 7th Armoured Division's commander, Messervy, are trapped trying to support one another while their units are raked with fire.
+Reorganizing his positions, Rommel keeps the enemy in place with the Italians and the 90th Light Division, before the 15th Panzer Division flanks them from the south.
+The result is devastating. 11th Indian Infantry Brigade is largely surrounded but manages to break out with high losses. Half of the tanks committed to the operation are lost.
+With 4th Indian Division greatly reduced and few tanks left, the 1st South African Division has no choice but to deploy its reserves to cover its now open flank.
+Ritchie accepts that the battle has been lost. He gives the order for the South Africans to pull back and keeps his tanks as a rearguard.
+
+Rommel tries to prevent the withdrawal, striking the Rigel ridge with the 15th Panzer Division, where he destroys elements of the 201st Guards Brigade.
+The 90th Light tries to do the same, attacking the remnants of 4th Armoured Brigade and the 29th Indian Infantry Brigade at El Adem, but is only partially successful.
+The South Africans get away that night, though some of their rearguards are captured outside Tobruk.
+Ritchie orders all the retreating units to the frontier, but Churchill changes his mind. He wants Tobruk to be defended just like in 1941.
+
+
+
+SECOND TOBRUK:
+
+
+
+8th Army (32 Battalions)
+
+Tobruk Garrison (10 Battalions)
+	201st Guards Brigade (3 Battalions)
+	11th Indian Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	32nd Army Tank Brigade (2 Battalions)
+	Beergroup (Composite Battalion, 1st South African Division)
+
+XIII Corps (22 Battalions)
+
+8th Irish Hussars
+
+7th Armoured Division (10 Battalions)
+	1st King's Dragoon Guards Armoured Cars
+	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+
+1st South African Division (11 Battalions)
+	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	2nd Battalion, General Botha Regiment
+	Machine Gun Battalion "President Steyn"
+	6th South African Armoured Car Regiment
+
+
+
+Deutsches Afrika Korps (10 Battalions)
+
+Kampfgruppe Baade (HQ 15th Panzer Division) (5 Battalions)
+	8th Panzer Regiment (1 Battalion)
+	115th Motorized Infantry Regiment (2 Battalions)
+	33rd Artillery Regiment (1 Half-and-Half Battalion, 1 Heavy Battalion)
+
+Kampfgruppe Menny (HQ 15th Infantry Brigade) (5 Battalions)
+	200th Regimental Staff z.b.V. (2 Battalions)
+	33rd Anti-Tank Battalion
+	33rd Motorized Engineer Battalion
+	1st Battalion, 33rd Artillery Regiment
+
+
+
+XXII Army Corps (16 Battalions)
+
+Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
+7th Motorized Bersaglieri Regiment (2 Battalions)
+
+102nd Infantry Division "Trento" (7 Battalions)
+	61st Infantry Regiment (2 Infantry Battalions)
+	62nd Infantry Regiment (2 Infantry Battalions)
+	46th Artillery Regiment (3 Battalions (1,3,4))
+
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Artillery Group "Sabratha" (2 Battalions (283,284))
+
+
+
+Outer Ring (6 Battalions)
+
+Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+
+90th Light Division (2 Battalions)
+	Sonderverband 288 (2 Battalions)
+	33rd Reconnaissance Battalion
+	580th Reconnaissance Company
+
+
+
+The troops that defended Tobruk were much weaker than they had been back in 1941. Rather than an elite Australian or fresh Polish brigade, there were scraps.
+The 201st Guards Brigade was to secure the eastern face of the defenses, while the 11th Indian Infantry Brigade held the right. A composite South African battalion held the coast.
+The 70th Division was reformed under Willison's command to take control over the various garrison elements. However, he didn't have much time to prepare his defenses.
+One battalion from the 201st Guards, plus the 32nd Army Tank Brigade's two battalions, were the form the reserve. It was hoped that the garrison could hold out for months.
+
+But Rommel would not wait months to launch his attack. As soon as Gazala seemed over he ordered his men to prepare to assault the port.
+Two Kampfgruppen of roughly equal size, led by Baade and Menny, would lead the operation, attacking the southeastern face of the defenses.
+The Italians would mostly sit around the port in siege lines, though the 7th Bersaglieri Regiment would follow the German units and consolidate their gains.
+Meanwhile, the 90th Light Division and the Giovani Fascisti Regiment would maintain the outer defenses against a British counterattack or relief effort.
+
+The assault began quickly when ordered, though the rushed deployment created some confusion. The 90th Light held its outer positions, securing Sidi Azeiz.
+Kampfgruppe Menny led the assault, attacking the 2nd Battalion, 5th Mahrattas. The poor design of the defenses gave the defenders little space.
+Furthermore, the minefields had been moved to the Gazaa line months ago, and the anti-tank ditch was poorly maintained. Menny faced only weak resistance.
+Within a few hours, Menny took most of the positions held by the Mahrattas. When Kampfgruppe, Baade joined him, they finished the battalion off and rolled over the defense line.
+By that point, Willison had assembled a counterattack using his reserve, but infantry-armor coordination was poor and the force blundered straight into Baade's guns.
+With the counterattack dispatched, nothing was in the way of the Germans anymore, and they flooded through the gap, followed by some Bersaglieri.
+Menny moved to encircle the Gurkhas on the coast, while Baade overran Beergroup and took the port itself. The 7th Bersaglieri Regiment pinned down the 2nd Battalion, Cameron Highlanders.
+
+By this point, Ritchie had ordered his other forces to begin a relief effort. However, of his units, only his 10th Indian Division was fresh, the rest all battered from Gazala.
+Reconnaissance armored cars and elements of 7th Motor Brigade did end up striking out, but the 10th Indian Division wasn't ready and so did nothing.
+The relief failed, the few units that did advance running directly into the defenses of the 90th Light Division.
+
+Without help arriving, Willison recognized that his resistance was at an end. Only four battalions of infantry now remained with a bit of artillery for support.
+He didn't have a chance of resisting of Baade now moved to crush what was left. After a brief conference with his staff, he ordered a surrender.
+Some of the Guards infantry were shocked by this order, but the men of the Indian Brigade had long since accepted reality.
+The fortress that had previously survived for nine months had resisted for but a single day. More than 10,000 soldiers entered captivity with Willison.
+
+
+
 MATRUH:
+
+
+
+8th Army (28 Battalions)
+
+XIII Corps (28 Battalions)
+
+4th Indian Infantry Division (9 Battalions)
+	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
+	29th Indian Infantry Brigade (3 Composite Battalions)
+	6th South African Armoured Car Regiment
+	8th Irish Hussars
+
+7th Armoured Division (10 Battalions)
+	1st King's Dragoon Guards Armoured Cars
+	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+
+2nd New Zealand Division (9 Battalions)
+	28th (Maori) New Zealand Infantry Battalion
+	4th New Zealand Infantry Brigade (3 Battalions)
+	5th New Zealand Infantry Brigade (3 Battalions)
+	4th New Zealand Field Regiment
+	5th New Zealand Field Regiment
+
+
+
+Deutsches Afrika Korps (14 Battalions)
+
+15th Panzer Division (9 Battalions)
+	8th Panzer Regiment (1 Battalion)
+	115th Motorized Infantry Regiment (2 Battalions)
+	33rd Reconnaissance Battalion
+	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion, 1 Heavy Battalion)
+	33rd Anti-Tank Battalion
+	33rd Motorized Engineer Battalion
+
+90th Light Division (3 Battalions)
+	Sonderverband 288 (2 Battalions)
+	200th Motorized Infantry Regiment (2 Battalions)
+	580th Reconnaissance Company
+
+
+
+XXII Army Corps (18 Battalions)
+
+Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
+7th Motorized Bersaglieri Regiment (2 Battalions)
+Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+
+102nd Infantry Division "Trento" (7 Battalions)
+	61st Infantry Regiment (2 Infantry Battalions)
+	62nd Infantry Regiment (2 Infantry Battalions)
+	46th Artillery Regiment (3 Battalions (1,3,4))
+
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Artillery Group "Sabratha" (2 Battalions (283,284))
+
+
+
+Immediately after taking Tobruk, the Germans advanced again. They crossed the frontier without much resistance and headed into Egypt.
+The commander of the 2nd Battalion, 200th Motorized Infantry Regiment, Panzenhagen, wanted to rest his men at Bardia, but was denied and told to go to Matruh.
+Within a few days, Sonderverband 288 could've completed reorganization and become a grenadier regiment. But it didn't happen. Rommel had no time to waste.
+
+British troops didn't fight until they could reach Matruh. While the defenses there were poor, they were better than nothing.
+Auchinleck had replaced Ritchie by this point... with himself. He was now commander of 8th Army and of the Middle East.
+4th Indian Division's third brigade, the 25th, had finally arrived, but only after its other two brigades were either destroyed or lost half their strength.
+This division, reinforced with a couple random tank and armored car units, would defend Matruh itself.
+It had been hoped that the arriving 2nd New Zealand Division would take that task, but Freyberg declined, instead moving his division south to Minqar Qaim.
+Screening his division was the remains of 7th Armoured, which had received enough replacements to fight with decent effectiveness.
+
+Auchinleck had wanted to defend, but at the same time, recognized that Matruh was only a delaying position. He thus adopted a mixed stance.
+Either way, the Axis arrived quickly. Only the motorized units arrived initially, with the DAK (under Nehring since Crüwell's capture) arriving at the British center.
+There, they found nothing but a few scattered companies of the 29th Indian Infantry Brigade, easily sweeping them aside.
+As the Indian brigade's remnants withdrew, 15th Panzer Division arrived east of Minqar Qaim while 90th Light Division headed for the coast.
+The British response wasn't much. Elements of 25th Indian Infantry Brigade moved to cover its flank while elements of 7th Armoured joined the New Zealanders.
+
+15th Panzer Division now encountered some New Zealend elements, clearing away their second echelon and surrounding their main body.
+At the same time, 90th Light Division reached the coast, surrounding the elements at Matruh inside their own little pocket.
+By this time, Auchinleck recognized the near-disastrous state of his forces. Not willing to see a repeat of Gazala, he gave the order to retreat.
+7th Armoured Division was the first to receive the order. They withdrew far south of any Axis forces and out east, but a lack of supplies meant they were out of the battle.
+They were followed by the New Zealand Division, which was forced to fight its way through elements of the 15th Panzer Division to get out.
+While much equpiment was lost, the majority of the division's units made it out to regroup at the El Alamein position.
+
+This left only the 4th Indian Division left, which remained surrounded. Overnight, its units attempted to slip out of the trap, but were spotted on the way.
+A series of firefights broke out as the Indian soldiers made their escape. Italian and German forces alike fired on them as they ran.
+While it was far from easy, they did manage to break out. Tuker reported his division had lost 40% of its strength, but it at least wasn't destroyed in the "box".
+So ended Mersa Matruh, the battle that neither side had wanted to fight. Again the British units were routed.
+
+
+
+FIRST EL ALAMEIN:
+
+
+
+Deutsches Afrika Korps (14 Battalions)
+
+15th Panzer Division (9 Battalions)
+	8th Panzer Regiment (1 Battalion)
+	115th Motorized Infantry Regiment (2 Battalions)
+	33rd Reconnaissance Battalion
+	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion, 1 Heavy Battalion)
+	33rd Anti-Tank Battalion
+	33rd Motorized Engineer Battalion
+
+90th Light Division (5 Battalions)
+	200th Motorized Infantry Regiment (2 Battalions)
+	288th Motorized Infantry Regiment (2 Battalions)
+	580th Reconnaissance Company
+
+
+
+XXII Army Corps (18 Battalions)
+
+Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
+7th Motorized Bersaglieri Regiment (2 Battalions)
+Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+
+102nd Infantry Division "Trento" (7 Battalions)
+	61st Infantry Regiment (2 Infantry Battalions)
+	62nd Infantry Regiment (2 Infantry Battalions)
+	46th Artillery Regiment (3 Battalions (1,3,4))
+
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Artillery Group "Sabratha" (2 Battalions (283,284))
+
+
 

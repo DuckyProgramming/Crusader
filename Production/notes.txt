@@ -75,6 +75,7 @@ I've tried my best to minimize these loose units since all they would do is grea
 This is problematic in the case of Machine-Gun Battalions. Both 70th Division and 1st South African Division had divisional battalions of that type.
 I've elected to not deploy them, however, since these units are never mentioned in the sources and don't appear to fight as one.
 On the other hand, 27th Machine Gun Battalion from New Zealand does seem to have fought as a single operational unit, so I've included it.
+Ultimately, though, this'll operate on a case-by-case basis. Sometimes they'll be included, sometimes they won't.
 Here's a couple such examples:
 70th Division: 1st RHA, 107th RHA, 17th Coast RA, 149th Anti-Tank RA, 1st Royal Northumberland Fusiliers (MG)
 7th Armoured: 4th SA Armoured Cars, 4th RHA (sent from support group to 7th Armoured Brigade, probably by Gott)
@@ -90,8 +91,10 @@ Similarly, we know a lot about the Panzer commanders, including how Fenski was k
 2nd Battalion, 115th Infantry Regiment appears to have been commanded by Göttman at this time.
 We later hear during Gazala that this man was no longer in charge and that the new commander was called Roske. He was killed or captured soon after anyway.
 Some sources indicate that after Roske's loss, the battalion was disbanded, whle others cliam that a Rocholl replaced him. Either way the battalion was gone by the end of the battle.
+Alternatively, maybe both of these are true. Rocholl could've taken command only for the battalion to end up disbanded a few days later anyway.
 
 I can confirm that Moubray still commanded the 3rd Battalion, Coldstream Guards by the end of Operation Crusader. Only in 1942 was he replaced by Sainthill.
+Lucky time to leave command for him, I guess, since otherwise he would've been captured at Tobruk. Or maybe he would've managed to break out like Sainthill did.
 
 Some sources indicate the Giovani Fascisti Regiment and the MILMART battalion as part of the Areite Division. I believe they were corps assets or part of RECAM but were fluidly redeployed within CAM.
 Bortolo Zambon certainly was not in command of the Brescia division, having left at the end of October. Instead Gioda acted as temporary commander until Lombardi could take command.
@@ -102,10 +105,12 @@ This has now happened as part of the updated sets. I've ended up picking Grati e
 
 The commander of the machine gun (4th) company of 15th Motorcycle Battalion was a Leutnant Paulewicz.
 The commander of the third company of the 33rd Engineer Battalion was an Oberleutnant Cirener.
-This is the same company that was briefly given to the 2nd Machine Gun Battalion, I believe.
+This is the same company that was briefly given to the 2nd Machine Gun Battalion, I believe (wrong).
+I was wrong about this ^. It was acutally the 2nd company of the battalion, of unknown commander, that was given to the 2nd Machine Gun Battalion temporarily.
 
 A Major Teetz commanded the 300th Oasis Battalion in some way but was no longer in command by the time of Crusader. He's only mentioned in once place but is higher ranking than Ennecerus.
-The 300th Oasis Battalion is an interesting unit. For the simplified Crusader map I decided to use an earlier form of it (still commanded by Teetz) with only 3 companies. I believe its other companies weren't assigned yet despite having arrived in Africa.
+The 300th Oasis Battalion is an interesting unit. For the simplified Crusader map I decided to use an earlier form of it (still commanded by Teetz) with only 2 oasis companies.
+I believe its other companies weren't assigned yet despite having arrived in Africa, as the battalion staff was still very much a training unit and not for combat.
 Those three companies are: 6th Oasis (Hauptmann Ennecerus, possibly), 12th Oasis (Leutnant Schön) (some claim has name lacked an accent but I find that unlikely), 580th Reconnaissance (Hohmeyer)
 
 Despite a very short lifespan, the 90th Light Divison had a ton of commanders. Before Sümmermann there was Hans von Ziegler und Klipphausen as acting commander.
@@ -123,6 +128,9 @@ It appears this additional company also applied to the 15th Motorcycle Battalion
 I've decided not to use this as a reason to change around the sizes and specifications of the other units, however. Designing Crusader has never been about obsessing over companies.
 Only the special engineer company of 2nd Machine Gun Battalion is being counted, because this was a company that certainly wasn't meant to part of its structure.
 
+Actually, on some later versions, I'm gonna take this company away. It'll probably just be a loose company given to, say, the 300th z.b.V. Oasis Battalion Staff.
+After all, even though the 200th z.b.V. Engineer Battalion doesn't exist in this world, doesn't mean it can't go somewhere.
+
 The 115th Artillery Regiment was distinct from the 115th Rifle Regiment, and in fact both had a second battalion that was sent to Africa.
 In the case of II./115 AR, because only 1 of the three batteries actually crossed the Mediterranean safely and another was reconstituted with Italian artillery, I've nicknamed it "Half and Half" or "Halb und Halb".
 It was a also designated both as motorized and as heavy, though when it arrived in Africa these statuses became more debatable.
@@ -137,9 +145,55 @@ That said, while weak, massed Italian artillery could still pack a real punch. F
 Some of the British tank battalion commanders are disputed among my sources. I do, however, know for certain that 6th Royal Tank Regiment was led by Lister.
 Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalion since I've seen him mentioned as company commander in the 900th z.b.V. Engineer Battalion. But this isn't that important for this game.
 
-For Crusader`, I've decided to use the August 20, 1941 organization of the 90th Light Division (then called the Special Purpose Divisional Command "Afrika").
-Its only actual combat units were the 300th Oasis Battalion (just 2 companies) and the 3rd Battalion, 347th Infantry Regiment.
-I may also end up adding attached units to it from the Corps Troops or from 15th Panzer Division.
+[
+    For Crusader`, I've decided to use the August 20, 1941 organization of the 90th Light Division (then called the Special Purpose Divisional Command "Afrika").
+    Its only actual combat units were the 300th Oasis Battalion (just 2 companies) and the 3rd Battalion, 347th Infantry Regiment.
+    I may also end up adding attached units to it from the Corps Troops or from 15th Panzer Division.
+    Here's the original form from Lexikon der Wehrmacht:
+
+
+
+    Divisionskommando z.b.V. Afrika 20. August 1941:
+
+    Stab mit Divisions-Kartenstelle 259
+
+    Bataillonsstab z.b.V. 300 mit 6. und 12. Oasen-Kompanie
+
+    III. / Infanterie-Regiment 347
+
+    1 Panzer-Divisions-Aufklärungs-Abteilung (im Wechsel)
+
+    Nachrichten-Kompanie z.b.V. Afrika
+
+
+
+    Translation:
+
+    Special Purpose Divisional Command "Afrika" on August 20, 1941
+
+    Staff with Divisional Mapping Detachment 259
+
+    Special Purpose Battalion Staff 300 "Oasis" with 6th and 12th Oasis Companies
+
+    3rd Battalion, 347th Infantry Regiment
+
+    1 Panzer Division Reconnaissance Battalion (in rotation)
+
+    Special Purpose Signals Company "Afrika"
+
+
+
+
+    So how do I intend to implement this in my version?
+    Well, the staff, mapping detachment, and signals troops aren't typically recorded as they aren't combat units, so we'll ignore them.
+    The Oasis Battalion and 3rd Battalion, 347th Infantry Regiemnt will be in as normal.
+    But what about the reconaissance? Here's my answer:
+    Historically, there were 2 recon battalions for 3 divisions. So, 2/3 of a battalion per division. Now there's two divisions, to there should be 4/3 recon battalions.
+    Therefore, the 33rd Reconaissance Battalion should be in as normal, and the Afrika Division should recieve 1/3 of a battalion, or a company - its own 580th Reconaissance Company!
+    It also has a battalion attached from the 15th Panzer Division, but that's not in its normal organization so we can ignore it.
+]
 
 Meanwhile, Crusader`'s 15th Panzer Division is based on its September 20, 1941 organization. It's about what you'd expect, with two panzer battalions, four infantry in a brigade, and some support units.
 To add a little flavor, though, I've given the 2nd Battalion, 33rd Artillery Regiment the "Half and Half" designation since it distinguishes the unit (as the designation's actual holder isn't present.)
+
+Sonderverband 288, mid-reorganization but prior to becoming the Afrika-Grenadier-Regiment, had two mixed battalions, each with three companies, and a 7th company that acted as reconnaissance.

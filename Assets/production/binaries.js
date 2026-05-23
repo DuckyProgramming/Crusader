@@ -33,7 +33,10 @@ function loadImagePixels(imagePath) {
 }
 
 async function main(){
-    const pixels=await loadImagePixels(`../map/water.png`)
+    if(process.argv.slice().length<4){
+        throw new Error('No args')
+    }
+    const pixels=await loadImagePixels(process.argv.slice()[2])
     const bits=[]
     let lx=pixels[1][0]
     let ly=pixels[1][1]
@@ -89,8 +92,8 @@ async function main(){
     }
 
     const buffer=Buffer.from(byteArray);
-    fs.writeFileSync(`water.bin`,buffer);
-    console.log(`Wrote ${byteArray.length} bytes to water.bin`);
+    fs.writeFileSync(process.argv.slice()[3],buffer);
+    console.log(`Wrote ${byteArray.length} bytes to ${process.argv.slice()[3]}`);
 }
 
 main()

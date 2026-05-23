@@ -1,9 +1,8 @@
-import {constants} from './variables.mjs'
 import {updateMouse} from './functions.mjs'
-export function setupGraphics(graphics){
+export function setupGraphics(graphics,constants){
     setupBase()
-	setupConstants()
-    setupTrig()
+	setupConstants(constants)
+    setupTrig(constants)
 	graphics.main=createGraphics(1800,960)
 	setupLayer(graphics.main)
 }
@@ -32,11 +31,11 @@ export function displayMain(layer,inputs){
     image(layer,width/2,height/2,layer.width*graphics.scale,layer.height*graphics.scale)
     updateMouse(graphics.main,graphics.scale,inputs)
 }
-export function setupConstants(){
+export function setupConstants(constants){
 	constants.sqrt2=sqrt(2)
 	constants.sqrt3=sqrt(3)
 }
-export function setupTrig(){
+export function setupTrig(constants){
 	for(let a=0,la=360;a<la;a++){
 		constants.trig[0].push(sin(a/2))
 		constants.trig[1].push(cos(a/2))
