@@ -1365,10 +1365,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:[`4th Machine Gun Battalion "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`,icon:`savona`,
+                                    desc:[`4th Machine Gun Squadrons Group "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`,icon:`savona`,
                                     pos:[2358,967],
                                     elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:[`4th Machine Gun Battalion "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`},
+                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:[`4th Machine Gun Squadrons Group "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`},
                                     ],
                                 },
                             ],
@@ -1806,10 +1806,10 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:[`4th Machine Gun Battalion "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`,icon:`savona`,
+                                    desc:[`4th Machine Gun Squadrons Group "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`,icon:`savona`,
                                     pos:[2358,967],
                                     elements:[
-                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:[`4th Machine Gun Battalion "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`},
+                                        {level:3,type:`Machine Gun`,team:`Italian`,desc:[`4th Machine Gun Squadrons Group "Genova Cavalleria"`,`IV Gruppo squadroni mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova`,commander:`Pierucci`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,

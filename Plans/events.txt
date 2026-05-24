@@ -21,20 +21,18 @@ XXII Army Corps (36 Battalions)
 
 Mixed Engineer Battalion (60th and 61st Companies)
 Mixed Bersaglieri Motorcycle Battalion (22nd, 51st, and 60th Companies)
+140th Blackshirt Battalion "Volontari della Libia"
 
-22nd Corps Artillery Group (4 Battalions)
+Independent Artillery (11 Battalions)
+	10th Corps Artillery Group (3 Battalions (7,17,35))
+	22nd Corps Artillery Group (3 Battalions (1,42,43))
+	25th Corps Artillery Group (4 Battalions (105,130,148,150))
+	3rd Group, 12th Artillery Regiment
 
-Libyan Group (5 Battalions)
-	Blackshirt Battalion "Volontari della Libia"
-	140th Blackshirt Battalion
-	1st Libyan Parachute Battalion "Diavoli Neri"
-	18th Libyan Battalion
-	21st Libyan Coastal Battalion
-
-60th Infantry Division "Sabratha" (10 Battalions)
+60th Infantry Division "Sabratha" (9 Battalions)
 	85th Infantry Regiment (3 Battalions)
 	86th Infantry Regiment (3 Battalions)
-	42nd Artillery Regiment (2 Battalions (1,2), 1 Mountain Battalion)
+	42nd Artillery Regiment (2 Battalions (1,2))
 	60th Machine Gun Battalion
 
 61st Infantry Division "Sirte" (10 Battalions)
@@ -43,32 +41,32 @@ Libyan Group (5 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-4th Tank Infantry Regiment (5 Battalions)
+4th Tank Infantry Regiment (3 Battalions)
 	1st Medium Tank Battalion
-	55th Light Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion
-	3rd Group, 12th Artillery Regiment
 
 
 
 As the war began, Italian Commander Pitassi Mannella of the XXII Army Corps discovered to his horror how unprepared his forces were.
 He had, on paper, an effective corps of strength, but a lack of motorization and poor supply preparedness crippled his force to extreme levels.
-In addition to his original Sirte Division, he had been transfered the Sabratha Division, and he had more Libyan troops besides, but all units were in a poor state.
-Nevertheless, when the Sirte Division, headed by the Libyan Group and 4th Tank Infantry Regiment, attacked, they made rapid progress, before their supply issues caught up.
+In preparation for a defensive battle, he had gathered tons of artillery, but it wouldn't be able to support an advance of this scale.
+In addition to his original Sirte Division, he had been transfered the Sabratha Division, and he had more loose troops besides, but all units were in a poor state.
+Nevertheless, when the Sirte Division, headed by the 4th Tank Infantry Regiment, attacked, they made rapid progress, before their supply issues caught up.
+Thus, this division and the accompanying tank regiment sat in their camps in the desert, barely supported by anything.
 
 British forces in Egypt were caught off guard but wasted little time in preparing a response to the Italian invasion. Richard O'Connor's WDF was formed from what units were already in Egypt.
 The powerful 7th Armoured Divison would lead the attack, followed by the 4th Indian Division, which consisted of assorted units that would be rotated in and out of the line.
 The following operation would be nothing but a rout for the Italians, though they put up a decent fight a couple times.
 
 First, the 7th Armoured Division circled around the positions of the 4th Tank Infantry Regiment, while the 11th Indian Infantry Brigade pinned Italian infantry in place.
-The two light tank battalions were completely crushed, and 7th Armoured Division followed up with an attack against the Libyan Group, causing it to disperse into the desert.
+The two light tank battalions were completely crushed, and 7th Armoured Division followed up with an attack against the blackshirts, causing them to disperse into the desert.
 Their positions suddenly threatened, the units of the Sirte Division gathered up remannts of the destroyed units and retreated to the frontier.
 There, they put up a brief stand, but were eventually broken and retreated further toward Bardia, where the 70th Infantry Regiment was captured.
 
 The 69th Infantry Regiment was hardly any more lucky. On its way east it linked up with elements of the Sabratha Division, but both were trapped in Tobruk.
 By now, the 11th Indian Infantry Brigade was sent away to recover from its light losses, replaced with some Australian elements.
-The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his two divisions and the 4th Tank Infantry Regiment, and the 22nd Corps Artillery Group all surrendered.
+The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his two divisions and the 4th Tank Infantry Regiment, and the tons of artillery surrendered.
 Very little Italian strength was left. The WDF chased the last pieces of the Sabratha Division east, cutting some off in the Cyrenaica bulge at Beda Fomm.
 When the British finally ran out of logistic momentum at El Agheila, it didn't take an expert to decide the battle's outcome.
 
@@ -97,9 +95,9 @@ Cyrenaica Command (13 Battalions)
 		9th Battalion, Rifle Brigade (Tower Hamlets Rifles)
 		104th Regiment, Royal Horse Artillery
 	3rd Indian Motor Brigade (3 Battalions)
-		18th King Edward VII's Own Cavalry
 		2nd Royal Lancers
-		Prince Albert Victor's Own Cavalry (11th Frontier Force)
+		11th Prince Albert Victor's Own Cavalry (11th Frontier Force)
+		18th King Edward VII's Own Cavalry
 
 20th Australian Infantry Brigade (3 Battalions)
 	2/13th Australian Battalion
@@ -230,7 +228,7 @@ BATTLEAXE:
 Western Desert Force (16 Battalions)
 
 7th Armoured Division (7 Battalions)
-	1st King's Dragoon Guard Armoured Cars
+	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade (2 Battalions)
 	7th Support Group (2 Infantry Battalions, 1 Artillery Battalion)
 
@@ -491,7 +489,7 @@ Either way, these failures exhausted German strength. Kampfgruppe Panzenhagen an
 The 4th Armoured Brigade had recovered up to 60 tanks. Cramer had twelve. Menny saw no option but to retreat from Bir el Gubi.
 When he told Rommel this, the geenral recognized reality. Supplies and reinforcements wouldn't be forthcoming. He had no choice but to fall back.
 
-Covered by expert rearguards, the 15th Panzer Division retreated from Bir el Gubi. The Italians of RECA and the Trento Division also got away.
+Covered by expert rearguards under Kampfgruppe Eder, the 15th Panzer Division retreated from Bir el Gubi. The Italians of RECA and the Trento Division also got away.
 The Afrika Division, which was really just Kampfgruppe Panzenhagen, also retreated, though on the way Sümmermann was killed by an air attack.
 The retreat otherwise went smoothly. Rommel's troops lined up as planned along the unfinished Gazala defenses, chased by the Polish Brigade, 7th Armoured Division, and 22nd Guards Brigade.
 Battles on the new line didn't go badly, but the line could easily be outflanked. Recognizing the impossibility of defense, the Axis fell back once again.
@@ -577,7 +575,7 @@ So, when Axis forces advanced once again, resistance was far from impressive. Th
 But, the exhaustion of the 15th Panzer Division still showed, as it was unable to prevent the enemy from escaping Rommel's attempted trap.
 Still, with the British line broken, and their reserves out of position, not much could be done to stop the fall of Benghazi.
 The Italians, with Kampfgruppe Marcks (formed from elements of both German divisions) at their head, marched into the city.
-THe 11th Indian Infantry Brigade, there, was forced to conduct demolitions and flee back to Gazala.
+The 11th Indian Infantry Brigade, there, was forced to conduct demolitions and flee back to Gazala.
 Just weeks after losing all of Cyrenaica, it was back in Rommel's hands, though now he faced the formidable Gazala line.
 
 
@@ -588,7 +586,7 @@ GAZALA:
 
 8th Army (40 Battalions)
 
-XXX Corps (18 Battalions)
+XXX Corps (19 Battalions)
 
 7th Armoured Division (15 Battalions)
 	1st King's Dragoon Guards Armoured Cars
@@ -596,7 +594,7 @@ XXX Corps (18 Battalions)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	201st Guards Brigade (4 Battalions, 1 Artillery Battalion)
 
-3rd Indian Motor Brigade (3 Battalions)
+3rd Indian Motor Brigade (3 Battalions, 1 Artillery Battalion)
 
 XIII Corps (22 Battalions)
 
@@ -611,7 +609,7 @@ XIII Corps (22 Battalions)
 	11th Indian Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	29th Indian Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
-32nd Army Tank Brigade (3 Battalions)
+32nd Army Tank Brigade (2 Battalions)
 
 
 
@@ -710,6 +708,7 @@ Tobruk Garrison (10 Battalions)
 
 XIII Corps (22 Battalions)
 
+2nd Battalion, Scots Guards
 8th Irish Hussars
 
 7th Armoured Division (10 Battalions)
@@ -717,10 +716,9 @@ XIII Corps (22 Battalions)
 	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
-1st South African Division (11 Battalions)
+1st South African Division (10 Battalions)
 	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
-	2nd Battalion, General Botha Regiment
 	Machine Gun Battalion "President Steyn"
 	6th South African Armoured Car Regiment
 
@@ -896,6 +894,47 @@ FIRST EL ALAMEIN:
 
 
 
+8th Army (40 Battalions)
+
+XXX Corps (16 Battalions)
+
+1st South African Division (9 Battalions)
+	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+	Machine Gun Battalion "President Steyn"
+
+4th Indian Infantry Division (7 Battalions)
+	18th Indian Infantry Brigade (3 Battalions)
+	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
+
+XIII Corps (24 Battalions)
+
+7th Armoured Division (10 Battalions)
+	1st King's Dragoon Guards Armoured Cars
+	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
+
+2nd New Zealand Division (14 Battalions)
+	27th Machine Gun Battalion
+	28th (Maori) Infantry Battalion
+	4th New Zealand Infantry Brigade (3 Battalions)
+	5th New Zealand Infantry Brigade (3 Battalions)
+	6th New Zealand Infantry Brigade (3 Battalions)
+	4th New Zealand Field Regiment
+	5th New Zealand Field Regiment
+	6th New Zealand Field Regiment
+	7th New Zealand Anti-Tank Regiment
+
+
+
+Reinforcements (8 Battalions, Arrived)
+	20th Australian Infantry Brigade (3 Battalions)
+	3rd Indian Motor Brigade (3 Battalions)
+	6th South African Armoured Car Regiment
+	8th Irish Hussars
+
+
+
 Deutsches Afrika Korps (14 Battalions)
 
 15th Panzer Division (9 Battalions)
@@ -929,5 +968,11 @@ Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	86th Infantry Regiment (2 Battalions)
 	Artillery Group "Sabratha" (2 Battalions (283,284))
 
+
+
+With Matruh dealt with, mostly, the Afrika Korps advanced to what seemed to be the final British blocking position before the Nile Delta.
+While it was the only one left, El Alamein was a strong one. The Ruweisat Ridge and Qattara Depression made it a natural defensive position.
+And it was well-manned. The three divisions that had retreated from Matruh were reinforced by the 1st South African Division and 18th Indian Infantry Brigade.
+What's more, additional units could be expected in but days' time. As long as the Germans didn't completely roll over them, the British could win.
 
 

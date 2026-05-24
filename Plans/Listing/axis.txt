@@ -1,0 +1,105 @@
+German Tanks:
+| 1/8
+| 2/8
+
+German Infantry:
+| 1/115
+| 2/115
+| 3/347
+| 2 MG
+| 15 MC
+| 300 "Oasis"
+
+German Artillery:
+| 1/33
+| 2/33
+| 3/33
+
+German Reconaissance:
+| 33
+| 1/288
+| 2/288
+
+German Anti-Tank:
+| 33
+
+German Engineers:
+| 33
+
+Italian Tanks:
+| 1 M
+| 60 L
+| 61 L
+
+Italian Infantry:
+| 1/15
+| 2/15
+| 3/15
+| 1/16
+| 2/16
+| 3/16
+| 1/61
+| 2/61
+| 3/61
+| 1/62
+| 2/62
+| 3/62
+| 1/69
+| 2/69
+| 3/69
+| 1/70
+| 2/70
+| 3/70
+| 1/85
+| 2/85
+| 3/85
+| 1/86
+| 2/86
+| 3/86
+| 1 "Giovani Fascisti"
+| 2 "Giovani Fascisti"
+| 140 Blackshirt "Volontari della Libia"
+| 10 Bersaglieri
+| 11 Bersaglieri
+| Mixed Bersaglieri
+
+Italian Machine Gunners:
+| 60
+| 61
+| 155
+| 551
+| 4 "Genova Cavalleria"
+
+Italian Artillery:
+| 2/12
+| 3/12
+| 1/42
+| 2/42
+| 1/43
+| 2/43
+| 3/43
+| 1/46
+| 3/46
+| 4/46
+| 1/RBV
+| 3/RBV
+
+Italian Corps Artillery:
+| 1
+| 7
+| 17
+| 35
+| 42
+| 43
+| 105
+| 130
+| 148
+| 150
+| 283
+| 24
+
+Italian Reconaissance:
+| 6 PAI "Romolo Gessi"
+
+Italian Engineers:
+| Mixed

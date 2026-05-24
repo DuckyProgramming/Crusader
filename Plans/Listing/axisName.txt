@@ -22,15 +22,12 @@ XXII Army Corps (64 Battalions)
 
 Mixed Engineer Battalion (55th, 60th, 61st, 161st, and 161st Assault Companies)
 Mixed Bersaglieri Motorcycle Battalion (22nd, 51st, and 60th Companies)
+140th Blackshirt Battalion "Volontari della Libia"
 
-22nd Corps Artillery Group (4 Battalions)
-
-Libyan Group (5 Battalions)
-	Blackshirt Battalion "Volontari della Libia"
-	140th Blackshirt Battalion
-	1st Libyan Parachute Battalion "Diavoli Neri"
-	18th Libyan Battalion
-	21st Libyan Coastal Battalion
+Independent Artillery (10 Battalions)
+	10th Corps Artillery Group (3 Battalions (7,17,35))
+	22nd Corps Artillery Group (3 Battalions (1,42,43))
+	25th Corps Artillery Group (4 Battalions (105,130,148,150))
 
 Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks)
@@ -45,10 +42,10 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	4th Machine Gun Battalion, "Genova Cavalleria" Regiment
 	155th Machine Gun Battalion
 
-60th Infantry Division "Sabratha" (12 Battalions)
+60th Infantry Division "Sabratha" (11 Battalions)
 	85th Infantry Regiment (3 Battalions)
 	86th Infantry Regiment (3 Battalions)
-	42nd Artillery Regiment (2 Battalions (1,2), 1 Mountain Battalion)
+	42nd Artillery Regiment (2 Battalions (1,2))
 	60th Machine Gun Battalion
 	Artillery Group "Sabratha" (2 Obsolete Battalions (283,284))
 
@@ -65,8 +62,7 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	46th Artillery Regiment (3 Battalions (1,3,4))
 	551st Mixed Support Battalion
 
-4th Tank Infantry Regiment (4 Battalions)
+4th Tank Infantry Regiment (3 Battalions)
 	1st Medium Tank Battalion
-	55th Light Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion

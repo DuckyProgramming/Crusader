@@ -1,5 +1,11 @@
 First, I'd like to mention Wikipedia, the most powerful source of them all.
 
+However, I did end up spending some time in China while making this game. Wikipedia isn't available there, but this proxy is:
+https://everything.explained.today/
+I'd like to point out that this website is otherwise terrible and in every way worse than Wikipedia. If you aren't in China, it is not recommended.
+https://en-academic.com/dic.nsf/enwiki/534519
+This page is also a Wikipedia derivative but slightly less bad. It still ain't great though.
+
 General:
 https://forum.axishistory.com/viewtopic.php?f=56&t=181224&sid=c7740a7c483dc1e174ce393d5c01931c
 (Orders of battle for the entire battle, but spread out over numerous pages)
