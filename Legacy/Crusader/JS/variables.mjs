@@ -496,7 +496,7 @@ export var types={
                                     desc:[`4th Armored Brigade`,`4th Armoured Brigade`],name:`4`,designation:``,commander:`Gatehouse`,icon:`4ab`,
                                     pos:[2330,1420],
                                     elements:[
-                                        {level:3,type:`Heavy Tank`,team:`British`,desc:[`4th Battalion, Royal Tank Regiment`,`4th Royal Tank Regiment`],name:`4`,designation:`Royal Tank\nRegiment`,commander:`O"Carroll`},
+                                        {level:3,type:`Heavy Tank`,team:`British`,desc:[`4th Battalion, Royal Tank Regiment`,`4th Royal Tank Regiment`],name:`4`,designation:`Royal Tank\nRegiment`,commander:`O'Carroll`},
                                         {level:3,type:`Heavy Tank`,team:`British`,desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`},
                                     ],
                                 },{
@@ -825,8 +825,8 @@ export var types={
                             elements:[
                                 {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`6th Oasis Company`,`Oasen Kompanie 6`],name:`6`,designation:`Oasis`,commander:`Ennecerus`},
                                 {level:4,type:`Oasis Infantry Company`,team:`German`,desc:[`12th Oasis Company`,`Oasen Kompanie 12`],name:`12`,designation:`Oasis`,commander:`Schön`},
-                                {level:4,type:`Armored Car Company`,team:`German`,desc:[`580th Reconnaissance Company`,`Aufklärungs-Kompanie 580`],name:`580`,designation:``,commander:`Hohmeyer`},
                                 {level:4,type:`Engineer Company`,team:`German`,desc:[`2nd Company, 39th Engineer Battalion`,`2. Panzer-Pionier-Bataillon 39`],name:`2`,designation:`39`,commander:`Cirener`},
+                                {level:4,type:`Armored Car Company`,team:`German`,desc:[`580th Reconnaissance Company`,`Aufklärungs-Kompanie 580`],name:`580`,designation:``,commander:`Hohmeyer`},
                             ],
                         },{
                             level:0,type:[`Tank`],team:`German`,
@@ -928,7 +928,7 @@ export var types={
                                     desc:[`Flying Batteries Regrouping`,`Raggruppamento Batterie Volanti`],name:`RBV`,designation:``,commander:`Nicolardi`,icon:``,
                                     pos:[660,1038],
                                     elements:[
-                                        {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`RBV`,commander:`Presutti`},
+                                        {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`RBV`,commander:`da Bino`},
                                         {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`RBV`,commander:`Abeille`},
                                     ],
                                 },{
@@ -1308,7 +1308,7 @@ export var types={
                                     desc:[`Flying Batteries Regrouping`,`Raggruppamento Batterie Volanti`],name:`RBV`,designation:``,commander:`Nicolardi`,icon:``,
                                     pos:[660,1038],
                                     elements:[
-                                        {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`RBV`,commander:`Presutti`},
+                                        {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`RBV`,commander:`da Bino`},
                                         {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`RBV`,commander:`Abeille`},
                                     ],
                                 },{
@@ -1872,7 +1872,7 @@ export var types={
                         pos:[965,250],
                         elements:[
                             {level:3,type:`Heavy Tank`,team:`British`,desc:[`1st Battalion, Royal Tank Regiment`,`1st Royal Tank Regiment`],name:`1`,designation:`Royal Tank\nRegiment`,commander:`Brown`},
-                            {level:3,type:`Heavy Tank`,team:`British`,desc:[`4th Battalion, Royal Tank Regiment`,`4th Royal Tank Regiment`],name:`4`,designation:`Royal Tank\nRegiment`,commander:`O"Carroll`},
+                            {level:3,type:`Heavy Tank`,team:`British`,desc:[`4th Battalion, Royal Tank Regiment`,`4th Royal Tank Regiment`],name:`4`,designation:`Royal Tank\nRegiment`,commander:`O'Carroll`},
                             {level:3,type:`Artillery`,team:`British`,desc:[`104th Battalion, Royal Horse Artillery`,`104th Regiment, Royal Horse Artillery`],name:`104`,designation:`Royal\nHorse`,commander:`Matthew`},
                         ],
                     },{
@@ -2050,8 +2050,8 @@ export var types={
                                     desc:[`Artillery Regrouping "Sabratha"`,`Raggruppamento artiglieria "Sabratha"`],name:`RA`,designation:`Sabratha`,commander:`Ferrario`,icon:`sabratha`,
                                     pos:[827,474],
                                     elements:[
-                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`283rd Group, Artillery Regrouping "Sabratha"`,`CCLXXXIII gruppo, Raggruppamento artiglieria "Sabratha"`],name:`283`,designation:`Sabratha`,commander:`Parrella`},
-                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`284th Group, Artillery Regrouping "Sabratha"`,`CCLXXXIV gruppo, Raggruppamento artiglieria "Sabratha"`],name:`284`,designation:`Sabratha`,commander:`Rocchi`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`283rd Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIII gruppo, 14° Reggimento artiglieria Guardia alla Frontiera`],name:`283`,designation:`Frontier\nGuard`,commander:`Parrella`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`284th Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIV gruppo, 14° Reggimento artiglieria Guardia alla Frontiera`],name:`284`,designation:`Frontier\nGuard`,commander:`Rocchi`},
                                     ],
                                 },
                             ],

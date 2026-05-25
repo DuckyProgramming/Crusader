@@ -3,6 +3,9 @@ For the Battleaxe scenario ONLY can this 8th battalion be used. It's worth notin
 On the other hand, the 9th Bersaglieri Battalion had four battalions. It likely had three back in Italy (which appears on most orders of battle) but received a fourth in Africa.
 Two of them were disbanded or destroyed due to the severe losses suffered by this regiment during Crusader.
 
+I've since changed my mind PARTIALLY on this. Sources indicate that while the 8th was disbanded, during Crusader, an attempt was made to reform it, that failed.
+So while this unit certainly didn't exist by Gazala or later, back during Crusader, it's fair to have this battalion (now of mixed support form) in the order of battle.
+
 Hollmann commanded the 3rd Battalion, 155th Infantry Regiment (not in game) that was near the 3rd Battalions of the 255th and 347th Regiments.
 Actually, this is very likely not true. His rank was only that of Oberleutnant (First Lieutenant). It would be insane to have him coxmmanding a battalion.
 It's now been confirmed that the commander was a Major Meythaler/Maythaler (actual spelling likely the second, but ultimately unclear).
@@ -41,7 +44,7 @@ I don't intend to add Mickl's 155th Infantry Regiment (Semi-Motorized) as I don'
     I've made him the commander, but I really can't confirm this.
     NOTE: This has now been reverted. Grund has been moved to the 3rd Battalion, 255th Infantry Regiment, as I have evidence that Albert Panzenhagen commanded 3/347 during this time.
     FURTHER NOTE: This has also been reverted. I've found evidence of an officer named "Eder" from this area, who appears to have been in command of some infantry battalion. 3/255 is my best guess.
-    Believe you me, I've spent an absurd amount of time on this. But I'm not willing to go wait several months for the Bundesarchiv to respond, so I think we're giving up on this one.
+    Believe you me, I've spent an absurd amount of time on this. But I'm not willing to go wait several months for the Bundesarchiv to respondanze, so I think we're giving up on this one.
 
     I'm letting von Barby keep his 361st Regiment. Panzenhagen is confirmed as commander of 3/347.
     No commander's name could be definitively found for 3/255, so I'm giving it to Maythaler (also spelled incorrectly as Meythaler), as he couldn't command 3/155 if it doesn't exist.
@@ -209,3 +212,13 @@ Regio Esercito indicates that many of the Army Corps Artillery Regiments of the 
 The 20th (1,2,3,4,20) and 21st (1,2,3,4,21) were destroyed in North Africa and didn't have subsidiary elements.
 10th, 22nd, and 25th CAR were all destroyed when they surrendered in Tobruk.
 Navarini's XXI Corps would have the 16th and 24th CAR. Both seem to have survived to be destroyed in Tunisia.
+
+I had a hard time finding any indication of where the 283rd and 284th artillery groups of the "Sabratha" artillery Raggruppamento came from, but I did it!
+Both of them came from the 14th Frontier Guards Artillery Regiment's 28th Raggruppamento, which contained groups 281-284.
+
+Wikipedia indicates that the Sirte Division at Tobruk had under its command a 51st Bersaglieri Motorcycle Company.
+Given that the Sirte is the 61st Division and all of its other support subunits are numbered as the 61st, I'm gonna say this is a typo.
+This is supported by the fact that the Sabratha Division, the 60th, happens to also have a Bersaglieri Motorcycle Company, and it's numbered as the 60th just like the division.
+
+Note to self: the 14th and 15th groups of the Raggruppamento Batterie Volanti were renamed and somewhat reformed from the old 1st and 3rd groups. They weren't completely new formations.
+These batteries were mostly mediocre guns but had been mounted on captured British trucks. They didn't come from any other artillery unit so can't be amalgamated.

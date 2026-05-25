@@ -58,10 +58,13 @@ Italian Infantry:
 | 3/86
 | 1 "Giovani Fascisti"
 | 2 "Giovani Fascisti"
-| 140 Blackshirt "Volontari della Libia"
-| 10 Bersaglieri
-| 11 Bersaglieri
-| Mixed Bersaglieri
+| Blackshirt "Volontari della Libia"
+| 140 Blackshirt
+
+Italian Bersaglieri:
+| 8/Mixed
+| 10
+| 11
 
 Italian Machine Gunners:
 | 60
@@ -81,8 +84,8 @@ Italian Artillery:
 | 1/46
 | 3/46
 | 4/46
-| 1/RBV
-| 3/RBV
+| 1/14 RBV
+| 3/15 RBV
 
 Italian Corps Artillery:
 | 1
@@ -95,11 +98,10 @@ Italian Corps Artillery:
 | 130
 | 148
 | 150
+
+Italian Frontier Guard Artillery:
 | 283
-| 24
+| 284
 
 Italian Reconaissance:
 | 6 PAI "Romolo Gessi"
-
-Italian Engineers:
-| Mixed

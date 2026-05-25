@@ -64,7 +64,6 @@ South African Infantry:
 Indian Infantry:
 | 2 Royal Lancers
 | 3/2 Punjab Regiment
-| 2/3 Gurkha Rifles
 | 1/5 Mahratta Light Infantry
 | 2/5 Mahratta Light Infantry
 | 1/6 Rajputana Rifles

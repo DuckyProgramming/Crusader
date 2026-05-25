@@ -4,6 +4,7 @@ update icathia
 -menessa
 
 merge all crusader modes
+legacy options
 
 
 
@@ -12,3 +13,9 @@ get sirte division logo
 
 change penalty scattergun
 change ice cream
+
+
+        graphics.load.map.push(map.term.map(term=>loadImage(`${root}Assets/Crusader/map/${term}.png`)))
+        graphics.load.water=loadBytes(`${root}Assets/Crusader/data/water.bin`)
+        graphics.load.fortifications=loadBytes(`${root}Assets/Crusader/data/fortifications.bin`)
+        map.team.forEach(team=>graphics.load.team.push(loadImage(`${root}Assets/General/team/${team.term}.png`)))

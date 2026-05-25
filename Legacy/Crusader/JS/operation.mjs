@@ -1100,7 +1100,11 @@ export class operation{
                                                 let result=new unit(this,{
                                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
                                                     level:element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,1][element.player],type:typing,team:element.team,
-                                                    desc:`${[`Battle Group`,`Kampfgruppe`,options.translate?`Column`:`Colonna`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
+                                                    desc:`${[
+                                                        `${element.commander!=``?`${element.commander}col`:`Col`}`,
+                                                        `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
+                                                        options.translate?`Column${element.commander!=``?` ${element.commander}`:``}`:`Colonna${element.commander!=``?` ${element.commander}`:``}`
+                                                    ][element.player]}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                     icon:element.icon,elements:[],
                                                 })
                                                 result.contain.adhoc=true

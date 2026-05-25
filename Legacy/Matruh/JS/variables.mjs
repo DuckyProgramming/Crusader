@@ -379,8 +379,8 @@ export var types={
                                     desc:[`Artillery Regrouping "Sabratha"`,`Raggruppamento artiglieria "Sabratha"`],name:`RA`,designation:`Sabratha`,commander:`Ferrario`,icon:`sabratha`,
                                     pos:[340,123],
                                     elements:[
-                                        {level:3,type:`Small Fast Artillery`,team:`Italian`,desc:[`283rd Group, Artillery Regrouping "Sabratha"`,`CCLXXXIII gruppo, Raggruppamento artiglieria "Sabratha"`],name:`283`,designation:`Sabratha`,commander:`Parrella`},
-                                        {level:3,type:`Small Fast Artillery`,team:`Italian`,desc:[`284th Group, Artillery Regrouping "Sabratha"`,`CCLXXXIV gruppo, Raggruppamento artiglieria "Sabratha"`],name:`284`,designation:`Sabratha`,commander:`Rocchi`},
+                                        {level:3,type:`Small Fast Artillery`,team:`Italian`,desc:[`283rd Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIII gruppo, 14° Reggimento artiglieria Guardia alla Frontiera`],name:`283`,designation:`Frontier\nGuard`,commander:`Parrella`},
+                                        {level:3,type:`Small Fast Artillery`,team:`Italian`,desc:[`284th Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIV gruppo, 14° Reggimento artiglieria Guardia alla Frontiera`],name:`284`,designation:`Frontier\nGuard`,commander:`Rocchi`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorcycle`],team:`Italian`,

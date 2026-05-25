@@ -26,14 +26,6 @@ reserves=[
             {level:3,type:`Heavy Tank`,team:`British`,desc:`44th Royal Tank Regiment`,name:`44`,designation:`Royal Tank\nRegiment`,commander:`Reynolds`},
         ],
     },{
-        level:1,type:[`Tank`,`Heavy`],team:`British`,
-        desc:`32nd Army Tank Brigade`,name:`32`,designation:`Army`,commander:`Willison`,icon:`70`,
-        pos:[2380,1420],
-        elements:[
-            {level:3,type:`Heavy Tank`,team:`British`,desc:`4th Royal Tank Regiment`,name:`4`,designation:`Royal Tank\nRegiment`,commander:`Foote`},
-            {level:3,type:`Heavy Tank`,team:`British`,desc:`7th Royal Tank Regiment`,name:`7`,designation:`Royal Tank\nRegiment`,commander:`Reeve`},
-        ],
-    },{
         level:2,type:[`Infantry`,`Motorized`],team:`German`,
         desc:`115th Infantry Regiment`,name:`115`,designation:``,commander:`Zintel`,icon:`15pz`,
         pos:[1634,628],
@@ -521,6 +513,52 @@ reserves=[
         pos:[670,220],
         elements:[
             {level:3,type:`Slow Tank`,team:`British`,desc:[`8th Battalion, Royal Tank Regiment`,`8th Royal Tank Regiment`],name:`8`,designation:`Royal Tank\nRegiment`,commander:`Kilkelly`},
+        ],
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`Indian`,
+        desc:`10th Indian Infantry Brigade`,name:`10`,designation:``,commander:`Boucher`,icon:`4id`,
+        pos:[1670,561],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd/5th Battalion, Essex Regiment`,name:`2/5`,designation:`Essex`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`3rd Battalion, 18th Royal Garhwal Rifles`,name:`3/18`,designation:`Garhwal`,commander:``},
+            {level:3,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 10th Baluch Regiment`,name:`4/10`,designation:`Baluch`,commander:``},
+        ],
+    },{
+        level:2,type:[`Artillery`],team:`Italian`,
+        desc:[`Artillery Regrouping "Sabratha"`,`Raggruppamento artiglieria "Sabratha"`],name:`RA`,designation:`Sabratha`,commander:`Ferrario`,icon:`sabratha`,
+        pos:[390,283],
+        elements:[
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`283rd Group, Artillery Regrouping "Sabratha"`,`CCLXXXIII gruppo, Raggruppamento artiglieria "Sabratha"`],name:`283`,designation:`Sabratha`,commander:`Parrella`},
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`284th Group, Artillery Regrouping "Sabratha"`,`CCLXXXIV gruppo, Raggruppamento artiglieria "Sabratha"`],name:`284`,designation:`Sabratha`,commander:`Rocchi`},
+        ],
+    },{
+        level:2,type:[`Artillery`,`Motorized`],team:`Italian`,
+        desc:[`Flying Batteries Regrouping`,`Raggruppamento Batterie Volanti`],name:`RBV`,designation:``,commander:`Nicolardi`,icon:``,
+        pos:[660,1038],
+        elements:[
+            {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`RBV`,commander:`da Bino`},
+            {level:3,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`RBV`,commander:`Abeille`},
+        ],
+    },{
+        level:3,type:[`Engineer`],team:`Italian`,
+        desc:[`21st Corps Mixed Engineer Battalion`,`XXI battaglione misto genio del Corpo`],name:`21`,designation:`Mixed`,commander:`Cassoli`,icon:``,
+        pos:[827,474],
+        elements:[
+            {level:4,type:`Engineer Company`,team:`Italian`,desc:[`55th Mixed Engineer Company`,`LV compagnia misto genio`],name:`55`,designation:`Mixed`,commander:`Vescovini`},
+            {level:4,type:`Engineer Company`,team:`Italian`,desc:[`60th Mixed Engineer Company`,`LX compagnia misto genio`],name:`60`,designation:`Mixed`,commander:`Giuliani`},
+            {level:4,type:`Engineer Company`,team:`Italian`,desc:[`161st Mixed Engineer Company`,`DLXI compagnia misto genio`],name:`161`,designation:`Mixed`,commander:`Baruffini`},
+            {level:4,type:`Engineer Company`,team:`Italian`,desc:[`161st Pioneer Company`,`DLXI compagnia minatori`],name:`161`,designation:`Pioneer`,commander:`Matteis`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+        desc:[`6th Battalion "Romolo Gessi", Italian Africa Police`,`6° Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`6`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:``,
+        pos:[1062,1469],
+        elements:[
+            {level:4,type:`Motorcycle Infantry Company`,team:`Italian`,desc:[`1st Motorcycle Company, Italian Africa Police`,`1° compagnia motociclisti, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Marini`},
+            {level:4,type:`Motorcycle Infantry Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2° compagnia motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Ciani`},
+            {level:4,type:`Armored Car Company`,team:`Italian`,desc:[`3rd Armored Car Company, Italian Africa Police`,`3° compagnia carri, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Orlando`},
+            {level:4,type:`Security Tank Company`,team:`Italian`,desc:[`52nd Tank Company`,`LII compagnia carri M`],name:`52`,designation:``,commander:`Mayneri`},
+            {level:4,type:`Security Tank Company`,team:`Italian`,desc:[`1st Company, 52nd Tank Battalion`,`1° compagnia, LII battaglione carri M`],name:`1`,designation:`52`,commander:`Mayneri`},
         ],
     },
 ]

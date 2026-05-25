@@ -500,18 +500,3 @@ export function kills(){
     })
 }
 //tool
-/*testEvens=(num)=>{
-    let totals=[]
-    for(let a=0,la=num;a<la;a++){
-        totals.push(0)
-    }
-    for(let a=0,la=1000;a<la;a++){
-        let left=1
-        for(let b=0,lb=num;b<lb;b++){
-            move=left*(random(0,1)**(lb-b-1))
-            left-=move
-            totals[b]+=move
-        }
-    }
-    print(totals)
-}*/

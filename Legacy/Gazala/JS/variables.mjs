@@ -98,15 +98,15 @@ export var types={
             name:[`Battle of Gazala`,`Base`],
             term:[`main`],
             city:[
-                //{name:`El Ghebit`,owner:2,type:0,pos:[813,402]},
-
                 {name:`Tmimi`,owner:1,type:0,pos:[479,15]},
                 {name:`Rotonda Segnale`,owner:1,type:1,pos:[235,567]},
+                {name:`Bir Habesc`,owner:-1,type:0,pos:[373,952]},
                 {name:`Bir Temrad`,owner:1,type:1,pos:[383,176]},
                 {name:`Sidi Breghisc`,owner:1,type:0,pos:[390,283]},
                 {name:`B12`,owner:1,type:0,pos:[479,450]},
                 {name:`Alem Hamza`,owner:2,type:0,pos:[590,292]},
                 {name:`Rotonda Mteifel`,owner:1,type:0,pos:[634,564]},
+                {name:`Bir Belamed`,owner:-1,type:0,pos:[733,711]},
                 {name:`Gazala`,owner:2,type:0,pos:[771,67]},
                 {name:`Bir Hacheim`,owner:2,type:0,pos:[789,895]},
                 {name:`El Ghebit`,owner:2,type:0,pos:[802,462]},
@@ -136,12 +136,8 @@ export var types={
                 {name:`Bir el Chleta`,owner:2,type:0,pos:[2030,670]},
                 {name:`Gambut`,owner:2,type:1,pos:[2152,534]},
                 {name:`Gasr el Arid`,owner:2,type:0,pos:[2232,728]},
-                {name:`Sidi Azeiz`,owner:2,type:1,pos:[2315,1011]},
-
-                {name:`Bir Habesc`,owner:-1,type:0,pos:[373,952]},
-                {name:`Bir Belamed`,owner:-1,type:0,pos:[733,711]},
                 {name:`Mersa Lucch`,owner:2,type:0,pos:[2311,408]},
-
+                {name:`Sidi Azeiz`,owner:2,type:1,pos:[2315,1011]},
             ],connect:[
                 {name:[`Gazala`,`Commonwealth Keep`]},
                 {name:[`Acroma`,`El Mrassas`]},
@@ -444,8 +440,8 @@ export var types={
                                     desc:[`Artillery Regrouping "Sabratha"`,`Raggruppamento artiglieria "Sabratha"`],name:`RA`,designation:`Sabratha`,commander:`Ferrario`,icon:`sabratha`,
                                     pos:[390,283],
                                     elements:[
-                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`283rd Group, Artillery Regrouping "Sabratha"`,`CCLXXXIII gruppo, Raggruppamento artiglieria "Sabratha"`],name:`283`,designation:`Sabratha`,commander:`Parrella`},
-                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`284th Group, Artillery Regrouping "Sabratha"`,`CCLXXXIV gruppo, Raggruppamento artiglieria "Sabratha"`],name:`284`,designation:`Sabratha`,commander:`Rocchi`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`283rd Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIII gruppo, 14° Reggimento artiglieria Guardia alla Frontiera`],name:`283`,designation:`Frontier\nGuard`,commander:`Parrella`},
+                                        {level:3,type:`Small Artillery`,team:`Italian`,desc:[`284th Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIV gruppo, 14° Reggimento artiglieria Guardia alla Frontiera`],name:`284`,designation:`Frontier\nGuard`,commander:`Rocchi`},
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorcycle`],team:`Italian`,

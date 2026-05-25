@@ -19,15 +19,14 @@ Western Desert Force (16 Battalions)
 
 XXII Army Corps (36 Battalions)
 
-Mixed Engineer Battalion (60th and 61st Companies)
-Mixed Bersaglieri Motorcycle Battalion (22nd, 51st, and 60th Companies)
-140th Blackshirt Battalion "Volontari della Libia"
+Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
+Blackshirt Battalion "Volontari della Libia"
+140th Blackshirt Battalion
 
 Independent Artillery (11 Battalions)
 	10th Corps Artillery Group (3 Battalions (7,17,35))
 	22nd Corps Artillery Group (3 Battalions (1,42,43))
 	25th Corps Artillery Group (4 Battalions (105,130,148,150))
-	3rd Group, 12th Artillery Regiment
 
 60th Infantry Division "Sabratha" (9 Battalions)
 	85th Infantry Regiment (3 Battalions)
@@ -93,7 +92,7 @@ Cyrenaica Command (13 Battalions)
 		6th Royal Tank Regiment
 	2nd Support Group (2 Battalions)
 		9th Battalion, Rifle Brigade (Tower Hamlets Rifles)
-		104th Regiment, Royal Horse Artillery
+		104th Field Regiment, Royal Horse Artillery
 	3rd Indian Motor Brigade (3 Battalions)
 		2nd Royal Lancers
 		11th Prince Albert Victor's Own Cavalry (11th Frontier Force)
@@ -118,7 +117,7 @@ Deutsches Afrika Korps (12 Battalions)
 102nd Infantry Division "Trento" (7 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	551st Mixed Support Battalion
+	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
 
 
@@ -157,13 +156,13 @@ BREVITY:
 
 
 
-Western Desert Force (12 Battalions)
+Western Desert Force (14 Battalions)
 
 Brevity Command (8 Battalions)
 
 7th Support Group (2 Battalions)
 	2nd Battalion, Rifle Brigade
-	8th Field Regiment, Royal Artillery
+	60th (North Midland) Field Regiment, Royal Artillery
 
 22nd Guards Brigade (3 Battalions)
 	1st Battalion, Durham Light Infantry "The Buffs"
@@ -175,13 +174,15 @@ Brevity Command (8 Battalions)
 	4th Royal Tank Regiment
 	6th Australian Division Cavalry (Light Tanks)
 
-Tobruk Garrison (4 Battalions)
+Tobruk Garrison (6 Battalions)
 
 20th Australian Infantry Brigade (3 Battalions)
 	2/13th Australian Battalion
 	2/15th Australian Battalion
 	2/17th Australian Battalion
 
+18th King Edward VII's Own Cavalry
+3rd Royal Tank Regiment
 104th Field Regiment, Royal Horse Artillery
 
 
@@ -201,7 +202,7 @@ Deutsches Afrika Korps (18 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	46th Artillery Regiment (3 Battalions (1,3,4))
-	551st Mixed Support Battalion
+	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
 
 
@@ -225,9 +226,9 @@ BATTLEAXE:
 
 
 
-Western Desert Force (16 Battalions)
+Western Desert Force (18 Battalions)
 
-7th Armoured Division (7 Battalions)
+7th Armoured Division (6 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade (2 Battalions)
 	7th Support Group (2 Infantry Battalions, 1 Artillery Battalion)
@@ -236,8 +237,10 @@ Western Desert Force (16 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
 	22nd Guards Brigade (3 Battalions)
 
-Tobruk Garrison (4 Battalions)
+Tobruk Garrison (6 Battalions)
 	20th Australian Infantry Brigade (3 Battalions)
+	18th King Edward VII's Own Cavalry
+	3rd Royal Tank Regiment
 	104th Field Regiment, Royal Horse Artillery
 
 
@@ -256,9 +259,8 @@ Deutsches Afrika Korps (20 Battalions)
 102nd Infantry Division "Trento" (12 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (2 Battalions)
+	7th Motorized Bersaglieri Regiment (3 Battalions)
 	46th Artillery Regiment (3 Battalions (1,3,4))
-	551st Mixed Support Battalion
 
 
 
@@ -320,7 +322,7 @@ XIII Corps (19 Battalions)
 
 
 
-Oasis Force (4 Battalions, Failed to Contribute)
+Oasis Force (4 Battalions)
 	29th Indian Infantry Brigade (3 Battalions)
 	6th South African Armoured Car Regiment
 
@@ -359,10 +361,8 @@ Divisional Command z.b.V. "Afrika" (3 Battalions)
 
 XXII Army Corps (28 Battalions)
 
-Mixed Engineer Battalion (55th, 161st, and 161st Assault Companies)
-
 Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
-	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks)
+	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 1st Company of 52nd Medium Tank Battalion With 9 Tanks, 161st Assault Engineer Company)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 
@@ -374,12 +374,12 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	4th Machine Gun Battalion, "Genova Cavalleria" Regiment
 	155th Machine Gun Battalion
 
-102nd Infantry Division "Trento" (12 Battalions)
+102nd Infantry Division "Trento" (13 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (2 Battalions)
+	7th Motorized Bersaglieri Regiment (3 Battalions)
 	46th Artillery Regiment (3 Battalions (1,3,4))
-	551st Mixed Support Battalion
+	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
 
 
@@ -390,8 +390,7 @@ Sonderverband 288 (2 Battalions)
 60th Infantry Division "Sabratha" (6 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Obsolete Battalions (283,284))
-	60th Mixed Engineer Company
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Obsolete Battalions (283,284))
 
 
 
@@ -543,17 +542,17 @@ Deutsches Afrika Korps (10 Battalions)
 
 XXII Army Corps (14 Battalions)
 
-Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
+Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 
-102nd Infantry Division "Trento" (7 Battalions)
+102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
 	62nd Infantry Regiment (2 Infantry Battalions)
-	46th Artillery Regiment (3 Battalions (1,3,4))
+	46th Artillery Regiment (2 Battalions (1,3))
 
 60th Infantry Division "Sabratha" (6 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Battalions (283,284))
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -634,20 +633,20 @@ Deutsches Afrika Korps (16 Battalions)
 
 XXII Army Corps (19 Battalions)
 
-Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
 7th Motorized Bersaglieri Regiment (2 Battalions)
 Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 
-102nd Infantry Division "Trento" (8 Battalions)
+102nd Infantry Division "Trento" (7 Battalions)
 	61st Infantry Regiment (2 Battalions)
 	62nd Infantry Regiment (2 Battalions)
-	46th Artillery Regiment (3 Battalions (1,3,4))
-	551st Mixed Support Battalion
+	46th Artillery Regiment (2 Battalions (1,3))
+	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
 60th Infantry Division "Sabratha" (6 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Battalions (283,284))
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -741,18 +740,18 @@ Kampfgruppe Menny (HQ 15th Infantry Brigade) (5 Battalions)
 
 XXII Army Corps (16 Battalions)
 
-Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
 7th Motorized Bersaglieri Regiment (2 Battalions)
+Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 
-102nd Infantry Division "Trento" (7 Battalions)
+102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
 	62nd Infantry Regiment (2 Infantry Battalions)
-	46th Artillery Regiment (3 Battalions (1,3,4))
+	46th Artillery Regiment (2 Battalions (1,3))
 
 60th Infantry Division "Sabratha" (6 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Battalions (283,284))
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -804,21 +803,21 @@ MATRUH:
 
 XIII Corps (28 Battalions)
 
-4th Indian Infantry Division (9 Battalions)
+4th Indian Infantry Division (10 Battalions)
 	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
-	29th Indian Infantry Brigade (3 Composite Battalions)
+	29th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 	6th South African Armoured Car Regiment
 	8th Irish Hussars
 
-7th Armoured Division (10 Battalions)
+7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guards Armoured Cars
-	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	4th Armoured Brigade Group (2 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
 2nd New Zealand Division (9 Battalions)
 	28th (Maori) New Zealand Infantry Battalion
 	4th New Zealand Infantry Brigade (3 Battalions)
-	5th New Zealand Infantry Brigade (3 Battalions)
+	5th New Zealand Infantry Brigade (3 Battalnions)
 	4th New Zealand Field Regiment
 	5th New Zealand Field Regiment
 
@@ -834,7 +833,7 @@ Deutsches Afrika Korps (14 Battalions)
 	33rd Anti-Tank Battalion
 	33rd Motorized Engineer Battalion
 
-90th Light Division (3 Battalions)
+90th Light Division (5 Battalions)
 	Sonderverband 288 (2 Battalions)
 	200th Motorized Infantry Regiment (2 Battalions)
 	580th Reconnaissance Company
@@ -843,19 +842,19 @@ Deutsches Afrika Korps (14 Battalions)
 
 XXII Army Corps (18 Battalions)
 
-Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
 7th Motorized Bersaglieri Regiment (2 Battalions)
 Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 
-102nd Infantry Division "Trento" (7 Battalions)
+102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
 	62nd Infantry Regiment (2 Infantry Battalions)
-	46th Artillery Regiment (3 Battalions (1,3,4))
+	46th Artillery Regiment (2 Battalions (1,3))
 
 60th Infantry Division "Sabratha" (6 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Battalions (283,284))
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -885,7 +884,7 @@ While much equpiment was lost, the majority of the division's units made it out 
 
 This left only the 4th Indian Division left, which remained surrounded. Overnight, its units attempted to slip out of the trap, but were spotted on the way.
 A series of firefights broke out as the Indian soldiers made their escape. Italian and German forces alike fired on them as they ran.
-While it was far from easy, they did manage to break out. Tuker reported his division had lost 40% of its strength, but it at least wasn't destroyed in the "box".
+While it was far from easy, they did manage to break out. Briggs reported his division had lost 40% of its strength, but it at least wasn't destroyed in the "box".
 So ended Mersa Matruh, the battle that neither side had wanted to fight. Again the British units were routed.
 
 
@@ -909,9 +908,10 @@ XXX Corps (16 Battalions)
 
 XIII Corps (24 Battalions)
 
-7th Armoured Division (10 Battalions)
+7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guards Armoured Cars
-	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
+	6th South African Armoured Car Regiment
+	4th Armoured Brigade Group (2 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
 2nd New Zealand Division (14 Battalions)
@@ -929,8 +929,7 @@ XIII Corps (24 Battalions)
 
 Reinforcements (8 Battalions, Arrived)
 	20th Australian Infantry Brigade (3 Battalions)
-	3rd Indian Motor Brigade (3 Battalions)
-	6th South African Armoured Car Regiment
+	3rd Indian Motor Brigade (4 Battalions)
 	8th Irish Hussars
 
 
@@ -954,19 +953,19 @@ Deutsches Afrika Korps (14 Battalions)
 
 XXII Army Corps (18 Battalions)
 
-Mixed Engineer Battalion (60th, 161st, and 161st Assault Companies)
 7th Motorized Bersaglieri Regiment (2 Battalions)
 Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 
-102nd Infantry Division "Trento" (7 Battalions)
+102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
 	62nd Infantry Regiment (2 Infantry Battalions)
-	46th Artillery Regiment (3 Battalions (1,3,4))
+	46th Artillery Regiment (2 Battalions (1,3))
 
 60th Infantry Division "Sabratha" (6 Battalions)
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
-	Artillery Group "Sabratha" (2 Battalions (283,284))
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -974,5 +973,35 @@ With Matruh dealt with, mostly, the Afrika Korps advanced to what seemed to be t
 While it was the only one left, El Alamein was a strong one. The Ruweisat Ridge and Qattara Depression made it a natural defensive position.
 And it was well-manned. The three divisions that had retreated from Matruh were reinforced by the 1st South African Division and 18th Indian Infantry Brigade.
 What's more, additional units could be expected in but days' time. As long as the Germans didn't completely roll over them, the British could win.
+
+In the opening confrontation, things didn't get off to a good start. The 18th Indian Infantry Brigade had only just arrived and had little desert experience.
+When 15th Panzer Division ran across its positions in the middle of the desert, there was barely a contest. The brigade was destroyed in a day's time.
+But the sacrifice of the 18th Indian had given the rest of the army time to prepare for when the 15th Panzer Division next advanced.
+That time, it was the 7th Armoured Division that took the hit. Well-supported by tanks, it was able to beat off the attack.
+90th Light Division was stopped too, as its two regiments ran into two dug-in South African Brigade Groups that pummeled it with artillery.
+
+Rommel had to call off his first attack and wait for the Italians to catch up. When they did, though, supply issues still crippled his forces.
+The 90th Light once again ran into strong defenses, and the panzers found the enemy dug in atop Ruweisat Ridge. No gains were made.
+Italian units had joined the attack, but many columns were stretched out over the desert and achieved little.
+The Sabratha Division had failed in an assault on the Alamein box while the Trento Division was caught near the 90th Light.
+More Italian subunits tried to outflank British positions from the south but ran straight into the 2nd New Zealand Division.
+
+By this point, the Axis attack had well and truly petered out. The Alamein line had not been broken.
+Auchinleck could've taken his defensive success. But with two fresh brigades arriving, he saw a chance to counterattack.
+The 20th Australian Brigade was to hit the Italians on the coast while the 7th Armoured Divsiion hit the enemy center.
+The results were mixed. While the Australians overran the Sabratha Division and captured a whole battalion, 7th Armoured did nothing.
+Once again, 15th Panzer Division had proved unassailable on the defense, though its attack prospects were highly mixed.
+
+Auchinleck had one final operation prepared, Operation Manhood.
+This time, the 3rd Indian Motor Brigade would attack with three infantry battalions and one of armoured cars, joined by the Australians.
+The Indian attack went poorly from the start. They ran into concentrated Italian artillery fire and were overrun by a counterattack.
+The Australians, too, were turned back, as the Sabratha Division had finally gotten all of its elements in line and organized.
+With the operation clearly failing, and the 4th Armoured Brigade losing more of the tanks it sent as support, Auchinleck ended the operation.
+
+The First Battle of El Alamein had ended in a costly stalemate for both sides. The New Zealand Division had lost 4,000 men alone.
+Other than the 18th Indian Infantry Brigade, though, no British units had been completely destroyed. It was a much better performance that at Gazala or Matruh.
+On the other side, Rommel understood his advance was over. The Sabratha and Trento Divisions were so badly mauled they had to be merged into one.
+His German units were doing little better, their strength whittled away by each battle and every British counterattack.
+It was time to dig in and plant some mines.
 
 
