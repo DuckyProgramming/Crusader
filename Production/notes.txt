@@ -25,6 +25,7 @@ This has now become relevant in light of recent events, I've had to reintroduce 
 I believe that sources that indicate the non-existence of 2nd Machine Gun Battalion confused these two units. That, or they didn't realize the 2/115th Battalion had been temporarily detached.
 This battalion would be converted to a regular infantry battalion in April 1942 with its heavy companies split among the other battalions.
 I don't know what happened to Warrelmann after that, but I believe he stayed with the battalion since his name does get mentioned later in 1942.
+In fact, his name gets mentioned as a the commander of a Kampfgruppe centered around 3/115, which was the former 2nd Machine Gun Battalion, which confirms he stayed.
 
 Sonderverband 288 had not fully arrived in Africa by November 1941.
 Only one group, Sperrverband (blocking detachment) Daumiller had actually arrived, but didn't participate in Crusader. I think the unit is cool though, so I made it pickable.
@@ -120,10 +121,11 @@ Despite a very short lifespan, the 90th Light Divison had a ton of commanders. B
 The 2nd Machine Gun Battalion was commanded by Voigtsberger back in July 1941. It's unclear when Warrelmann replaced him.
 
 The transfer of engineer units is very hazy and unclear. However, from what I can tell, this is what happened:
-33rd Panzer Pioneer Battalion had 3 companies. One was lost to join 2nd Machine Gun Battalion, along with another from the 39th Panzer Pioneer Battalion (which never entered Africa).
+33rd Panzer Pioneer Battalion had 3 companies. One was lost to join 2nd Machine Gun Battalion, along with another from the 39th Panzer Pioneer Battalion of 3rd Panzer Division (which never entered Africa).
 The first company eventually returned to its parent unit while the other one was sent to the 200th z.b.V. Panzer Pioneer Battalion. Since that unit doesn't exist in, my world, we'll let 2nd MG Battalion keep its backup.
 Because the precedent has been set that even a single company of engineers is enough, this battalion has now been rated as engineer-capable in-game.
 Either way, it looks as if both were destroyed during Crusader. The 33rd Engineer Battalion was utterly ruined and down to company strength by the end, and the 200th had surrendered in Bardia.
+After having done a lot more research, though, this isn't as unclear as before. It'd be better to describe it as "obscure" instead.
 
 I originally used this to make 2nd Machine Gun larger than a normal unit, but I was actually wrong. It appears all german motorized infantry at this time had 5 companies.
 This 5th company was a heavy company and wasn't present in non-motorized battalions. They were disbanded in 1942 with all companies becoming somewhat "heavy".
@@ -222,3 +224,20 @@ This is supported by the fact that the Sabratha Division, the 60th, happens to a
 
 Note to self: the 14th and 15th groups of the Raggruppamento Batterie Volanti were renamed and somewhat reformed from the old 1st and 3rd groups. They weren't completely new formations.
 These batteries were mostly mediocre guns but had been mounted on captured British trucks. They didn't come from any other artillery unit so can't be amalgamated.
+
+I am fairly certain that the Savona Division never had any tanks. Some tanks (13?) were alloted but they did not make it to Africa, being sunk on transport.
+Some tanks do appear in Bardia by the end of Operation Crusader. I suspect that these were probably left behind by the Ariete Division during the Dash to the Wire.
+
+The battery commanders of the 3rd South African Field Regiment were Harris, Berry, and Greenwood (7th-9th).
+
+About the Italian Mixed Engineer battalions, I originally had each one as its own battalion, giving the Italians a lot of engineer support.
+However, I changed my mind about this when I realized that the "Mixed" part included signals units. Each battalion only actually represented a single company of "combat" engineers.
+For a time, I combined all such engineers into a single company, but that wasn't right either. It didn't represent any kind of real-life unit and the companies were non-homogenous.
+It didn't help that little information exists about most of these engineer companies, down to their numbers (only the battalions numbers are known).
+With so little to go off of, indicating Italian divisional engineers (specialized ones notwithstanding) didn't do much of anything, I've finally made the decision to remove them altogether.
+
+The Italian mixed support battalions had either three or four companies. However, it doesn't matter for this game, because the 4th company was an anti-air company and thus not relevant.
+Thus, they will always be represented in-game with three companies: anti-tank, mortar, and machine gun.
+
+The air crash that killed Vyvyan Pope prior to Operation Crusader is often discussed as doing significant damage to the operation. What is not often discussed is that it was a double disaster.
+Russell, commander of 7th Armoured Brigade who had just been made Pope's chief of staff, also met his end. As we know, his replacements both in the brigade and in the staff position were not up to scratch.

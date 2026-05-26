@@ -1,9 +1,9 @@
 Deutsches Afrika Korps (16 Battalions)
 
 15th Panzer Division (11 Battalions)
-	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
+	8th Panzer Regiment (2 Battalions) (7th Company Composed of Captured Tanks)
 	15th Infantry Brigade (3 Battalions)
-		115th Motorized Infantry Regiment (1 Battalion With Armored Personnel Carrier Company)
+		115th Motorized Infantry Regiment (2 Battalions) (2nd Company Mechanized)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
 	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion, 1 Heavy Battalion)
@@ -21,7 +21,7 @@ Divisional Command z.b.V. "Afrika" (5 Battalions)
 XXII Army Corps (64 Battalions)
 
 Blackshirt Battalion "Volontari della Libia"
-140th Blackshirt Battalion
+140th Blackshirt Battalion "28 Ottobre"
 
 Independent Artillery (10 Battalions)
 	10th Corps Artillery Group (3 Battalions (7,17,35))
@@ -29,7 +29,7 @@ Independent Artillery (10 Battalions)
 	25th Corps Artillery Group (4 Battalions (105,130,148,150))
 
 Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
-	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks, 161st Assault Engineer Company)
+	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 

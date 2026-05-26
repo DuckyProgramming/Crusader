@@ -82,18 +82,69 @@ export class city{
             case `road`:
                 if(this.fade.main>0){
                     layer.stroke(100,0.5)
-                    layer.strokeWeight(5*this.fade.main)
+                    layer.strokeWeight(5*this.fade.main*types.map[this.operation.map].cityScale)
                     layer.noFill()
                     this.connect.primary.forEach(connect=>{
-                        if(this.name==`Buq Buq`){
-                            layer.bezier(
-                                this.position.x,this.position.y,
-                                this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+50,
-                                this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+50,
-                                connect.position.x,connect.position.y
-                            )
-                        }else{
-                            layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                        switch(this.name){
+                            case `Gerawla`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+50,
+                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+50,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Mersa Matruh`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+20,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Maaten Baggush`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                    this.position.x*0.2+connect.position.x*0.8,this.position.y*0.2+connect.position.y*0.8+40,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Tmimi`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+100,
+                                    this.position.x*0.1+connect.position.x*0.9,this.position.y*0.1+connect.position.y*0.9+50,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `El Mrassas`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+10,
+                                    this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+10,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Buq Buq`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+50,
+                                    this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+50,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `NAAFI`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.7+connect.position.x*0.3-40,this.position.y*0.7+connect.position.y*0.3+10,
+                                    this.position.x*0.3+connect.position.x*0.7-40,this.position.y*0.3+connect.position.y*0.7+10,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            default:
+                                layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                            break
                         }
                     })
                 }
@@ -105,13 +156,13 @@ export class city{
                     let img=graphics.load.city[this.type]
                     layer.noStroke()
                     layer.fill(244,239,196,this.fade)
-                    layer.ellipse(0,0,img.width*0.16*this.fade.main)
+                    layer.ellipse(0,0,img.width*0.16*this.fade.main*types.map[this.operation.map].cityScale)
                     layer.fill(...(this.owner==-1?[122,120,98]:types.player[this.owner].color),this.fade.reveal)
-                    layer.ellipse(0,0,img.width*0.16*this.fade.main)
-                    layer.image(img,0,0,img.width*0.4*this.fade.main,img.height*0.4*this.fade.main)
+                    layer.ellipse(0,0,img.width*0.16*this.fade.main*types.map[this.operation.map].cityScale)
+                    layer.image(img,0,0,img.width*0.4*this.fade.main*types.map[this.operation.map].cityScale,img.height*0.4*this.fade.main*types.map[this.operation.map].cityScale)
                     layer.fill(0)
-                    layer.textSize(img.height*0.2*this.fade.main)
-                    layer.text(this.name,0,img.height*0.25*this.fade.main)
+                    layer.textSize(img.height*0.2*this.fade.main*types.map[this.operation.map].cityScale)
+                    layer.text(this.name,0,img.height*0.25*this.fade.main*types.map[this.operation.map].cityScale)
                     layer.pop()
                 }
             break

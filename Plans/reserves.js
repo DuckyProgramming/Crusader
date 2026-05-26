@@ -559,6 +559,61 @@ reserves=[
             {level:4,type:`Armored Car Company`,team:`Italian`,desc:[`3rd Armored Car Company, Italian Africa Police`,`3° compagnia carri, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Orlando`},
             {level:4,type:`Security Tank Company`,team:`Italian`,desc:[`52nd Tank Company`,`LII compagnia carri M`],name:`52`,designation:``,commander:`Mayneri`},
             {level:4,type:`Security Tank Company`,team:`Italian`,desc:[`1st Company, 52nd Tank Battalion`,`1° compagnia, LII battaglione carri M`],name:`1`,designation:`52`,commander:`Mayneri`},
+            {level:4,type:`Engineer Company`,team:`Italian`,desc:[`161st Assault Pioneer Company`,`DLXI compagnia minatori`],name:`161`,designation:`Assault`,commander:`Matteis`},
+            {level:4,type:`Pioneer Company`,team:`Italian`,desc:[`161st Assault Pioneer Company`,`DLXI Compagnia Guastatori`],name:`161`,designation:`Assault`,commander:`Matteis`},
+            {level:4,type:`Motorized Mining Company`,team:`Italian`,desc:[`161st Mining Company`,`161° compagnia minatori`],name:`161`,designation:`Mining`,commander:`Brancolini`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`Indian`,
+        desc:[`B Squadron, 18th Cavalry Battalion "King Edward VII's Own"`,`B Squadron, 18th King Edward VII's Own Cavalry`],name:`B`,designation:`18 KEO`,commander:``,icon:``,
+        pos:[604,404],
+        elements:[
+            {level:4,type:`Motorized Infantry Company`,team:`Indian`,desc:[`B Squadron, 18th Cavalry Battalion "King Edward VII's Own"`,`B Squadron, 18th King Edward VII's Own Cavalry`],name:`B`,designation:`18 KEO`,commander:``},
+        ],
+    },{
+        level:4,type:[`Tank`,`Light`],team:`British`,
+        desc:`Composite Company, 3rd The King's Own Hussars`,name:`C`,designation:`3 KOH`,commander:`Petherick`,icon:`3ab`,
+        pos:[818,682],
+        elements:[
+            {level:4,type:`Terrible Tank Company`,team:`British`,desc:`Composite Company, 3rd The King's Own Hussars`,name:`C`,designation:`3 KOH`,commander:`Petherick`},
+        ],
+    },{
+        level:4,type:[`Tank`,`Light`],team:`British`,
+        desc:[`Composite Company, 5th Battalion, Royal Tank Regiment`,`Composite Company, 5th Royal Tank Regiment`],name:`C`,designation:`5 RTR`,commander:`Carver`,icon:`3ab`,
+        pos:[1352,554],
+        elements:[
+            {level:4,type:`Terrible Tank Company`,team:`British`,desc:[`Composite Company, 5th Battalion, Royal Tank Regiment`,`Composite Company, 5th Royal Tank Regiment`],name:`C`,designation:`5 RTR`,commander:`Carver`},
+        ],
+    },{
+        level:4,type:[`Tank`,`Light`],team:`British`,
+        desc:[`Composite Company, 6th Battalion, Royal Tank Regiment`,`Composite Company, 6th Royal Tank Regiment`],name:`C`,designation:`6 RTR`,commander:`Harland`,icon:`3ab`,
+        pos:[1565,375],
+        elements:[
+            {level:4,type:`Terrible Tank Company`,team:`British`,desc:[`Composite Company, 6th Battalion, Royal Tank Regiment`,`Composite Company, 6th Royal Tank Regiment`],name:`C`,designation:`6 RTR`,commander:`Harland`},
+        ],
+    },{
+        level:3,type:[`Tank`],team:`German`,
+        desc:[`1st Battalion, 8th Panzer Regiment`,`I./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:`Crohn`,icon:`15pz`,
+        pos:[2073,846],
+        elements:[
+            {level:4,type:`Staff Medium Tank Company`,team:`German`,desc:[`Staff Company, 8th Panzer Regiment`,`Stabkompanie I./Panzer-Regiment 8`],name:`S1`,designation:`8`,commander:``},
+            {level:4,type:`Medium Tank Company`,team:`German`,desc:[`1st Company, 8th Panzer Regiment`,`1./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:``},
+            {level:4,type:`Medium Tank Company`,team:`German`,desc:[`2nd Company, 8th Panzer Regiment`,`1./Panzer-Regiment 8`],name:`2`,designation:`8`,commander:``},
+            {level:4,type:`Armed Medium Tank Company`,team:`German`,desc:[`3rd Company, 8th Panzer Regiment`,`1./Panzer-Regiment 8`],name:`3`,designation:`8`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`British`,
+        desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``,icon:``,
+        pos:[1196,244],
+        elements:[
+            {level:4,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+        desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``,icon:`9a`,
+        pos:[],
+        elements:[
+            {level:4,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``},
         ],
     },
 ]

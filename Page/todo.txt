@@ -1,21 +1,29 @@
-the last shoe change
+build the roads
 
-update icathia
--menessa
+sommernachtstraum map
 
 merge all crusader modes
 legacy options
 
 
 
-after i reconnect:
-get sirte division logo
-
 change penalty scattergun
 change ice cream
+the updated engineer
+
+barbarossa - storm 333 + red beard
 
 
-        graphics.load.map.push(map.term.map(term=>loadImage(`${root}Assets/Crusader/map/${term}.png`)))
-        graphics.load.water=loadBytes(`${root}Assets/Crusader/data/water.bin`)
-        graphics.load.fortifications=loadBytes(`${root}Assets/Crusader/data/fortifications.bin`)
-        map.team.forEach(team=>graphics.load.team.push(loadImage(`${root}Assets/General/team/${team.term}.png`)))
+
+movebuild shoes
+the last shoe change
+
+update icathia
+-menessa
+
+
+
+after i reconnect:
+get sirte division logo
+get 3rd armoured brigade logo (if applicable)
+get 2nd support group logo + commander

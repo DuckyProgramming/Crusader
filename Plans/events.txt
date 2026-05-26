@@ -21,7 +21,7 @@ XXII Army Corps (36 Battalions)
 
 Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
 Blackshirt Battalion "Volontari della Libia"
-140th Blackshirt Battalion
+140th Blackshirt Battalion "28 Ottobre"
 
 Independent Artillery (11 Battalions)
 	10th Corps Artillery Group (3 Battalions (7,17,35))
@@ -91,7 +91,7 @@ Cyrenaica Command (13 Battalions)
 		5th Royal Tank Regiment
 		6th Royal Tank Regiment
 	2nd Support Group (2 Battalions)
-		9th Battalion, Rifle Brigade (Tower Hamlets Rifles)
+		1st Battalion, Tower Hamlets Rifles
 		104th Field Regiment, Royal Horse Artillery
 	3rd Indian Motor Brigade (3 Battalions)
 		2nd Royal Lancers
@@ -107,17 +107,16 @@ Cyrenaica Command (13 Battalions)
 
 Deutsches Afrika Korps (12 Battalions)
 
-15th Panzer Division (5 Battalions) (Former Sperrverband Libyen)
-	8th Panzer Regiment (1 Battalion)
+15th Panzer Division (6 Battalions) (Former Sperrverband Libyen)
+	8th Panzer Regiment (2 Battalions)
 	200th Regimental Staff z.b.V. (2nd Machine Gun Battalion)
 	33rd Reconnaissance Battalion
 	33rd Anti-Tank Battalion
 	33rd Motorized Engineer Battalion
 
-102nd Infantry Division "Trento" (7 Battalions)
+102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
 
 
@@ -148,6 +147,43 @@ The remaining troops, including the Australians and some loose British units bei
 Rommel attacks Tobruk twice, once with his Italian troops and once with 2nd Machine Gun Battalion. Both attempts fail with significant losses, including von Prittwitz, replaced by von Esebeck.
 Without the port, he can't advance past the frontier, but does send forward his 33rd Reconaissance Battalion to clear the 1st King's Royal Rifle Corps from the area.
 The Axis lacking the manpower to assault Tobruk, while the British lack the force to relieve it. the front reaches a stalemate.
+
+
+
+SIEGE OF TOBRUK:
+
+
+
+Tobruk Fortress (6 Battalions, 22 Companies)
+
+20th Australian Infantry Brigade (3 Battalions, 13 Companies)
+	2/13th Australian Battalion
+	2/15th Australian Battalion
+	2/17th Australian Battalion (Less 1 Company)
+	20th Australian Anti-Tank Company
+	2/7th Australian Engineer Company
+
+18th King Edward VII's Own Cavalry
+Composite Regiment, 3rd Armoured Brigade (3rd Hussars Headquarters)
+104th Field Regiment, Royal Horse Artillery (2 Batteries, 1 Battery of "Bush" Guns "Mr. Clarke's Guns")
+
+
+
+First Attack Force (12 Battalions, 44 Companies)
+
+Kampfgruppe Kirchheim (6 Battalions, 24 Companies)
+	1st Battalion, 8th Panzer Regiment
+	1st Battalion, 115th Motorized Infantry Regiment
+	2nd Machine Gun Battalion
+	15th Motorcycle Battalion
+	2nd "Half and Half" Battalion, 33rd Artillery Regiment
+	33rd Anti-Tank Battalion
+61st "Sicilia" Infantry Regiment (3 Battalions)
+46th "Trento" Artillery Regiment (3 Battalions)
+
+
+
+This battle is dominated by the next three which take place concurrently. Thus it doesn't need its own narrative.
 
 
 
@@ -182,27 +218,25 @@ Tobruk Garrison (6 Battalions)
 	2/17th Australian Battalion
 
 18th King Edward VII's Own Cavalry
-3rd Royal Tank Regiment
+3rd Hussars
 104th Field Regiment, Royal Horse Artillery
 
 
 
-Deutsches Afrika Korps (18 Battalions)
+Deutsches Afrika Korps (16 Battalions)
 
-15th Panzer Division (8 Battalions)
-	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
+15th Panzer Division (7 Battalions)
+	8th Panzer Regiment (2 Battalions)
 	15th Infantry Brigade (2 Battalions)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
-	33rd Motorized Engineer Battalion
 	1st Battalion, 33rd Artillery Regiment
 	33rd Anti-Tank Battalion
 
-102nd Infantry Division "Trento" (12 Battalions)
+102nd Infantry Division "Trento" (9 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	46th Artillery Regiment (3 Battalions (1,3,4))
-	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
 
 
@@ -226,12 +260,12 @@ BATTLEAXE:
 
 
 
-Western Desert Force (18 Battalions)
+Western Desert Force (20 Battalions)
 
-7th Armoured Division (6 Battalions)
+7th Armoured Division (8 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade (2 Battalions)
-	7th Support Group (2 Infantry Battalions, 1 Artillery Battalion)
+	7th Support Group (2 Infantry Battalions, 3 Artillery Battalions)
 
 4th Indian Division (6 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
@@ -240,7 +274,7 @@ Western Desert Force (18 Battalions)
 Tobruk Garrison (6 Battalions)
 	20th Australian Infantry Brigade (3 Battalions)
 	18th King Edward VII's Own Cavalry
-	3rd Royal Tank Regiment
+	3rd Hussars
 	104th Field Regiment, Royal Horse Artillery
 
 
@@ -248,7 +282,7 @@ Tobruk Garrison (6 Battalions)
 Deutsches Afrika Korps (20 Battalions)
 
 15th Panzer Division (8 Battalions)
-	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
+	8th Panzer Regiment (2 Battalions)
 	15th Infantry Brigade (2 Battalions)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
@@ -343,7 +377,7 @@ Reinforcements (8 Battalions, Arrived)
 Deutsches Afrika Korps (14 Battalions)
 
 15th Panzer Division (11 Battalions)
-	8th Panzer Regiment (2 Battalions, 1 of Captured Tanks)
+	8th Panzer Regiment (2 Battalions)
 	15th Infantry Brigade (3 Battalions)
 		115th Motorized Infantry Regiment (1 Battalion With Armored Personnel Carrier Company)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
@@ -362,7 +396,7 @@ Divisional Command z.b.V. "Afrika" (3 Battalions)
 XXII Army Corps (28 Battalions)
 
 Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
-	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 1st Company of 52nd Medium Tank Battalion With 9 Tanks, 161st Assault Engineer Company)
+	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 1st Company of 52nd Medium Tank Battalion With 9 Tanks)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 
@@ -528,7 +562,7 @@ Deutsches Afrika Korps (10 Battalions)
 15th Panzer Division (9 Battalions)
 	8th Panzer Regiment (1 Battalion)
 	15th Infantry Brigade (3 Battalions)
-		115th Motorized Infantry Regiment (2 Battalions, 1 With Armored Personnel Carrier Company)
+		115th Motorized Infantry Regiment (2 Battalions)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion)
 	33rd Reconnaissance Battalion
 	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion)

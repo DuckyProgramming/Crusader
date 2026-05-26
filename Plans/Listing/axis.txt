@@ -59,7 +59,7 @@ Italian Infantry:
 | 1 "Giovani Fascisti"
 | 2 "Giovani Fascisti"
 | Blackshirt "Volontari della Libia"
-| 140 Blackshirt
+| 140 Blackshirt "28 Ottobre"
 
 Italian Bersaglieri:
 | 8/Mixed

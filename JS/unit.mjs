@@ -22,7 +22,7 @@ export class unit{
         constants.unitId++
 
         this.symbol=types.unitLevel[this.level].symbol
-        this.size=types.unitLevel[this.level].size[this.player]
+        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
         this.width=this.size*1.6
         this.height=this.size
         this.radius=this.size
@@ -93,7 +93,7 @@ export class unit{
                 speed:this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0),
                 artillery:false,engineer:false,recon:false
             }
-            this.radius=40
+            this.radius=40*types.map[this.operation.map].unitScale
             this.order.artillery=false
         }
     }
@@ -161,10 +161,10 @@ export class unit{
         this.id=composite.id
 
         this.symbol=types.unitLevel[this.level].symbol
-        this.size=types.unitLevel[this.level].size[this.player]
+        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
         this.width=this.size*1.6
         this.height=this.size
-        this.radius=this.contain.trigger?this.size:40
+        this.radius=this.contain.trigger?this.size:40*types.map[this.operation.map].unitScale
 
         this.fade=composite.fade
         this.strength=composite.strength
@@ -298,8 +298,8 @@ export class unit{
             damage:[
                 this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0)/len,
                 this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)/len,
-                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0),
-                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)
+                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[2],0),
+                this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[3],0)
             ],
             armor:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].armor,0)/len,
             health:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].health,0),
@@ -363,10 +363,20 @@ export class unit{
     display(layer,scene){
         switch(scene){
             case `under`:
-                if(this.contain.trigger&&this.fade.main>0){
-                    layer.fill(...types.player[this.player].color,0.25*this.fade.main)
-                    layer.noStroke()
-                    layer.ellipse(this.position.x,this.position.y,this.radius*2,this.radius*2)
+                if(this.contain.trigger){
+                    if(this.fade.main>0){
+                        layer.fill(...types.player[this.player].color,0.25*this.fade.main)
+                        layer.noStroke()
+                        layer.ellipse(this.position.x,this.position.y,this.radius*2,this.radius*2)
+                    }
+                }else{
+                    if(this.fade.hover>0){
+                        layer.stroke(...types.player[this.player].color,0.25*this.fade.hover)
+                        layer.strokeWeight(8*types.map[this.operation.map].unitScale)
+                        this.contain.units.forEach(unit=>{
+                            layer.line(this.position.x,this.position.y,unit.position.x,unit.position.y)
+                        })
+                    }
                 }
             break
             case `underOrder`:
@@ -400,12 +410,12 @@ export class unit{
 
                     layer.stroke(40,fade)
                     if(options.headquarters&&!this.contain.trigger){
-                        layer.strokeWeight(25/this.size)
+                        layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
                         layer.line(-8,-3.25,8,-3.25)
                     }
                     for(let a=0,la=this.type.length;a<la;a++){
                         layer.noFill()
-                        layer.strokeWeight(25/this.size)
+                        layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
                         switch(this.type[a]){
                             case 0:
                                 layer.line(-8,-5,8,5)
@@ -417,7 +427,10 @@ export class unit{
                                 }
                             break
                             case 1:
-                                layer.line(-6,-5,-6,5)
+                                layer.line(0,-3,-1,-2)
+                                layer.line(0,-3,1,-2)
+                                layer.line(0,-3,0,3)
+                                layer.line(-1.5,0.5,1.5,0.5)
                             break
                             case 2:
                                 layer.ellipse(0,4,1.5,1.5)
@@ -438,7 +451,7 @@ export class unit{
                                 layer.line(-2,2,2,2)
                             break
                             case 6:
-                                layer.strokeWeight(100/this.size)
+                                layer.strokeWeight(100/this.size*types.map[this.operation.map].unitScale)
                                 layer.point(0,0)
                             break
                             case 7:
@@ -456,7 +469,7 @@ export class unit{
                                 layer.line(-5.25,1,-5.25,-1)
                             break
                             case 10:
-                                layer.strokeWeight(37.5/this.size)
+                                layer.strokeWeight(37.5/this.size*types.map[this.operation.map].unitScale)
                                 layer.line(-5,-2,5,-2)
                                 layer.line(-5,-2,-5,2)
                                 layer.line(0,-2,0,2)
@@ -469,7 +482,7 @@ export class unit{
                             case 12:
                                 layer.line(6.5,1,5.25,1)
                                 layer.line(5.25,1,5.25,-1)
-                                layer.strokeWeight(100/this.size)
+                                layer.strokeWeight(100/this.size*types.map[this.operation.map].unitScale)
                                 layer.point(0,0)
                             break
                             case 13:
@@ -493,7 +506,9 @@ export class unit{
                             case 17:
                                 layer.line(0,-3,-1,-2)
                                 layer.line(0,-3,1,-2)
-                                layer.line(0,-3,0,this.type.includes(6)?0:2)
+                                layer.line(0,-3,0,0)
+                                layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
+                                layer.point(0,0.5)
                             break
                             case 18:
                                 layer.ellipse(0,0,4.75)
@@ -507,6 +522,16 @@ export class unit{
                                     layer.line(8,-5,2,-1.25)
                                 }
                             break
+                            case 19:
+                                layer.line(-6.75,0,-5.25,0)
+                                layer.line(-6,-0.75,-6,0.75)
+                            break
+                            case 20:
+                                layer.line(-6,-5,-6,5)
+                            break
+                            case 21:
+                                layer.line(-8,-3.25,8,-3.25)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined){
@@ -518,7 +543,7 @@ export class unit{
                         layer.image(this.img[1],5.5,0,width/max(width,height)*4,height/max(width,height)*4)
                     }
                     layer.stroke(this.order.trigger?120:40,this.order.trigger?240:40,this.order.trigger?80:40,fade)
-                    layer.strokeWeight(25/this.size)
+                    layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
                     layer.noFill()
                     layer.rect(0,0,16,10)
                     layer.fill(0,fade)
@@ -529,7 +554,7 @@ export class unit{
                     layer.stroke(0,fade)
                     let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
-                    layer.textSize(this.designation.length>=24||art&&this.designation.length>=10?1.25:1.5)
+                    layer.textSize(this.designation.length>=20||art&&this.designation.length>=10?1.25:1.5)
                     layer.strokeWeight(0.15)
                     layer.text(this.designation,this.designation.length>=10&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
                     layer.textSize(this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5)
@@ -819,7 +844,7 @@ export class unit{
                                         if(!this.logs.main.includes(`Headquarters Captured by ${target.getDesc()}`)){
                                             this.logs.main.push(`Headquarters Captured by ${target.getDesc()}`)
                                         }
-                                    }else if(!this.contain.stats.recon){
+                                    }else if(!this.contain.stats.recon||target.level>=3&&target.contain.stats.armor<=0.2){
                                         hit=true
                                         let fort=false
                                         if(this.order.defense||target.order.defense){
