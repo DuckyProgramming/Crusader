@@ -60,19 +60,19 @@ export class city{
         this.hist.push({owner:this.owner})
     }
     near(dist,player){
-        return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearTransient(dist,player){
-        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearSet(dist,player){
-        return this.operation.units.some(unit=>unit.active&&player.includes(unit.player)&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>unit.active&&player.includes(unit.player)&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearTransientSet(dist,player){
-        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearSide(dist,side){
-        return this.operation.units.some(unit=>unit.active&&types.player[unit.player].side==side&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>unit.active&&types.player[unit.player].side==side&&distPos(this,unit)<dist*unit.getDistMult())
     }
     getNearSide(side){
         return this.operation.units.reduce((acc,unit)=>unit.active&&types.player[unit.player].side==side?min(acc,distPos(this,unit)):acc,1000)

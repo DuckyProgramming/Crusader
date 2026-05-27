@@ -609,11 +609,43 @@ reserves=[
             {level:4,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``},
         ],
     },{
-        level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
-        desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``,icon:`9a`,
-        pos:[],
+        level:4,type:[`Artillery`,`Motorized`],team:`British`,
+        desc:`"Bush" Artillery", 104th Battalion, Royal Horse Artillery "Mr. Clarke’s Guns"`,name:`Bush`,designation:`104`,commander:`Clarke`,icon:``,
+        pos:[716,475],
         elements:[
-            {level:4,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``},
+            {level:4,type:`Motorized Small Artillery Battery`,team:`British`,desc:`"Bush" Artillery", 104th Battalion, Royal Horse Artillery "Mr. Clarke’s Guns"`,name:`Bush`,designation:`104`,commander:`Clarke`},
+        ],
+    },{
+        level:2,type:[`Artillery`],team:`Italian`,
+        desc:[`10th Corps Artillery Regiment`,`10° Reggimento Artiglieria di Corpo d'Armata`],name:`10`,designation:`Corps`,commander:`Infante`,icon:``,
+        pos:[827,474],
+        elements:[
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`7th Group, 10th Corps Artillery Regiment`,`VII Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`7`,designation:``,commander:`Lombardi`},
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`17th Group, 10th Corps Artillery Regiment`,`XVII Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`17`,designation:``,commander:`Locarno`},
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`35th Group, 10th Corps Artillery Regiment`,`XXXV Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`35`,designation:``,commander:`Pirisi`},
+        ],
+    },{
+        level:2,type:[`Artillery`],team:`Italian`,
+        desc:[`22nd Corps Artillery Regiment`,`22° Reggimento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Sardi`,icon:``,
+        pos:[827,474],
+        elements:[
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`1st Group, 22nd Corps Artillery Regiment`,`I Gruppo, 22° Reggimento Artiglieria di Corpo d'Armata`],name:`1`,designation:``,commander:`Lama`},
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`42nd Group, 22nd Corps Artillery Regiment`,`XLII Gruppo, 22° Reggimento Artiglieria di Corpo d'Armata`],name:`42`,designation:``,commander:`Battaglini`},
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`43rd Group, 22nd Corps Artillery Regiment`,`XLIII Gruppo, 22° Reggimento Artiglieria di Corpo d'Armata`],name:`43`,designation:``,commander:`Bombagli`},
+        ],
+    },{
+        level:4,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`3rd Company, 140th Blackshirt Battalion "28 Ottobre"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`3`,designation:`28 Ottobre`,commander:``,icon:``,
+        pos:[610,516],
+        elements:[
+            {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`3rd Company, 140th Blackshirt Battalion "28 Ottobre"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`3`,designation:`28 Ottobre`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`],team:`Blackshirt`,
+        desc:[`4th Company, 140th Blackshirt Battalion "28 Ottobre"`,`4° Centuria Mitraglieri, CXL Coorte CC.NN. "28 Ottobre"`],name:`4`,designation:`28 Ottobre`,commander:``,icon:``,
+        pos:[613,655],
+        elements:[
+            {level:4,type:`Machine Gun Company`,team:`Blackshirt`,desc:[`4th Company, 140th Blackshirt Battalion "28 Ottobre"`,`4° Centuria Mitraglieri, CXL Coorte CC.NN. "28 Ottobre"`],name:`4`,designation:`28 Ottobre`,commander:``},
         ],
     },
 ]

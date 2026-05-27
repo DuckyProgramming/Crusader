@@ -42,7 +42,7 @@ export class unit{
         this.order={
             position:{x:this.position.x,y:this.position.y},
             select:false,artillery:false,defense:false,facing:random(0,360),
-            detach:0,absorb:0
+            detach:0,absorb:0,
         }
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
         this.contain={
@@ -255,16 +255,16 @@ export class unit{
         this.hist.push({active:this.active,position:{x:this.position.x,y:this.position.y},strength:{life:this.strength.life,morale:this.strength.morale,supply:this.strength.supply}})
     }
     near(dist,player){
-        return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>unit.active&&unit.player==player&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearTransient(dist,player){
-        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&unit.player==player&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearSet(dist,player){
-        return this.operation.units.some(unit=>unit.active&&player.includes(unit.player)&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>unit.active&&player.includes(unit.player)&&distPos(this,unit)<dist*unit.getDistMult())
     }
     nearTransientSet(dist,player){
-        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist)
+        return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist*unit.getDistMult())
     }
     getParentEffectiveness(){
         return this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
@@ -277,6 +277,9 @@ export class unit{
     }
     getKillsClear(variant){
         return this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0)
+    }
+    getDistMult(){
+        return this.contain.stats.recon?2:1
     }
     destroy(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
@@ -542,7 +545,7 @@ export class unit{
                         }
                         layer.image(this.img[1],5.5,0,width/max(width,height)*4,height/max(width,height)*4)
                     }
-                    layer.stroke(this.order.trigger?120:40,this.order.trigger?240:40,this.order.trigger?80:40,fade)
+                    layer.stroke(40+this.fade.order*80,40+this.fade.order*200,40+this.fade.order*40,fade)
                     layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
                     layer.noFill()
                     layer.rect(0,0,16,10)
@@ -554,14 +557,20 @@ export class unit{
                     layer.stroke(0,fade)
                     let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
-                    layer.textSize(this.designation.length>=20||art&&this.designation.length>=10?1.25:1.5)
-                    layer.strokeWeight(0.15)
-                    layer.text(this.designation,this.designation.length>=10&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
-                    layer.textSize(this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5)
-                    layer.strokeWeight(this.name.length>=(art?3:7)?0.35:this.name.length>=5?0.4:0.5)
-                    layer.text(this.name,art?(this.name.length>=3?-4:-4.5):0,0.25)
-                    layer.textSize(this.commander.length>=18?1.75:this.commander.length>=12?2:2.25)
-                    layer.strokeWeight(this.commander.length>=18?0.35:this.commander.length>=12?0.4:0.45)
+                    let size=this.designation.length>=20||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art?2:2.5)
+                    layer.textSize(size)
+                    layer.strokeWeight(size/10)
+                    layer.text(this.designation,this.designation.length>=10&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
+                    size=this.name.length>=15?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
+                    layer.textSize(size)
+                    layer.strokeWeight(size/10)
+                    if(this.name.includes(`\n`)){
+                        layer.textLeading(3)
+                    }
+                    layer.text(this.name,art?(this.name.length>=3?-4:-4.5):0,this.name.length>=15?-0.25:0.25)
+                    size=this.commander.length>=18?1.75:this.commander.length>=12?2:2.25
+                    layer.textSize(size)
+                    layer.strokeWeight(size*0.2)
                     layer.text(this.commander,0,3.5)
                 }
             break
@@ -718,6 +727,7 @@ export class unit{
 
                 this.fade.hoverTrigger=inPointBox(mouse,this)
                 this.fade.hover=smoothAnim(this.fade.hover,this.fade.hoverTrigger,0,1,5)
+                this.fade.order=smoothAnim(this.fade.order,this.order.trigger,0,1,5)
                 if(this.fade.hoverTrigger){
                     this.logs.trigger=false
                 }
@@ -844,7 +854,8 @@ export class unit{
                                         if(!this.logs.main.includes(`Headquarters Captured by ${target.getDesc()}`)){
                                             this.logs.main.push(`Headquarters Captured by ${target.getDesc()}`)
                                         }
-                                    }else if(!this.contain.stats.recon||target.level>=3&&target.contain.stats.armor<=0.2){
+                                    //}else if(!this.contain.stats.recon||target.level>=3&&target.contain.stats.armor<=0.2){
+                                    }else{
                                         hit=true
                                         let fort=false
                                         if(this.order.defense||target.order.defense){
@@ -1074,9 +1085,9 @@ export class unit{
                                                 target.position.y=moving2.y
                                             }
                                         }
-                                    }else{
+                                    }/*else{
                                         hit=true
-                                    }
+                                    }*/
                                 }
                             })
                             if(!hit){
@@ -1139,6 +1150,21 @@ export class unit{
                             this.order.trigger=false
                         }
                     }
+                }
+            break
+            case `mapAll`:
+                if(inPointBox(mouse,this)){
+                    this.order.trigger=!this.order.trigger
+                }
+            break
+        }
+    }
+    onDrag(layer,scene,mouse,move){
+        switch(scene){
+            case `mapAll`:
+                if(this.order.trigger){
+                    this.position.x+=move.x
+                    this.position.y+=move.y
                 }
             break
         }

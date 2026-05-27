@@ -564,4 +564,11 @@ export function kills(){
         }
     })
 }
+export function outPos(){
+    current.units.forEach(unit=>{
+        if(unit.order.trigger){
+            print(`${unit.getDesc()}: ${round(unit.position.x)},${round(unit.position.y)}`)
+        }
+    })
+}
 //tool

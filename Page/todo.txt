@@ -10,6 +10,10 @@ legacy options
 change penalty scattergun
 change ice cream
 the updated engineer
+- 4-6 sentries
+- 2 dispensers
+- 2 teleportrs
+- 16-24 distinct "build" weapons
 
 barbarossa - storm 333 + red beard
 
@@ -25,5 +29,6 @@ update icathia
 
 after i reconnect:
 get sirte division logo
+get 2nd ccnn division logo for 140th blackshirt battalion
 get 3rd armoured brigade logo (if applicable)
 get 2nd support group logo + commander

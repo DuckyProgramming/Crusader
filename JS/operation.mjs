@@ -460,8 +460,7 @@ export class operation{
         this.transitionManager.display(layer)
     }
     update(layer,mouse){
-        let rel
-        rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
         switch(this.scene){
             case `mapAll`:
                 this.cities.forEach(city=>city.update(layer,this.scene,rel))
@@ -517,8 +516,7 @@ export class operation{
         }
     }
     onClick(layer,mouse){
-        let rel
-        rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
         switch(this.scene){
             case `main`:
                 if(this.turn.time<=0){
@@ -741,13 +739,25 @@ export class operation{
                     }
                 }
             break
+            case `mapAll`:
+                this.units.forEach(unit=>unit.onClick(layer,this.scene,rel))
+            break
         }
     }
     onDrag(layer,mouse,previous,button){
+        let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        let move={
+            x:(mouse.position.x-previous.position.x)*(button==`right`?3:1)/this.view.scale,
+            y:(mouse.position.y-previous.position.y)*(button==`right`?3:1)/this.view.scale
+        }
+        switch(this.scene){
+            case `mapAll`:
+                this.units.forEach(unit=>unit.onDrag(layer,this.scene,rel,move))
+            break
+        }
     }
     onKey(layer,mouse,key){
-        let rel
-        rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
         switch(this.scene){
             case `main`:
                 if(this.turn.time<=0){
@@ -971,6 +981,11 @@ export class operation{
                             }
                         }
                     }
+                }
+            break
+            case `mapAll`:
+                if(key==` `){
+                    this.units.forEach(unit=>unit.onClick(layer,this.scene,rel))
                 }
             break
         }

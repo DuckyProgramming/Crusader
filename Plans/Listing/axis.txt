@@ -62,11 +62,12 @@ Italian Infantry:
 | 140 Blackshirt "28 Ottobre"
 
 Italian Bersaglieri:
-| 8/Mixed
+| 8
 | 10
 | 11
+| Mixed
 
-Italian Machine Gunners:
+Italian Infantry Support:
 | 60
 | 61
 | 155
@@ -78,6 +79,7 @@ Italian Artillery:
 | 3/12
 | 1/42
 | 2/42
+| 3/43
 | 1/43
 | 2/43
 | 3/43
@@ -88,8 +90,6 @@ Italian Artillery:
 | 3/15 RBV
 
 Italian Corps Artillery:
-| 1
-| 7
 | 17
 | 35
 | 42

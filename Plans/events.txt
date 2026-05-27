@@ -20,18 +20,24 @@ Western Desert Force (16 Battalions)
 XXII Army Corps (36 Battalions)
 
 Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
-Blackshirt Battalion "Volontari della Libia"
-140th Blackshirt Battalion "28 Ottobre"
 
-Independent Artillery (11 Battalions)
-	10th Corps Artillery Group (3 Battalions (7,17,35))
-	22nd Corps Artillery Group (3 Battalions (1,42,43))
-	25th Corps Artillery Group (4 Battalions (105,130,148,150))
+Advance Group (4 Battalions)
+	Blackshirt Battalion "Volontari della Libia"
+	140th Blackshirt Battalion "28 Ottobre" (With 141st and 142nd Mortar Companies Attached)
+	148th Artillery Group (Detached From 25th Corps Artillery Regiment)
+	150th Artillery Group (Detached From 25th Corps Artillery Regiment)
 
-60th Infantry Division "Sabratha" (9 Battalions)
+Independent Artillery (7 Battalions)
+	10th Corps Artillery Regiment (2 Battalions (17,35))
+	22nd Corps Artillery Regiment (2 Battalions (42,43))
+	25th Corps Artillery Regiment (2 Heavy Battalions (105,130))
+	3rd Group, 12th Artillery Regiment
+
+60th Infantry Division "Sabratha" (10 Battalions)
 	85th Infantry Regiment (3 Battalions)
 	86th Infantry Regiment (3 Battalions)
 	42nd Artillery Regiment (2 Battalions (1,2))
+	283rd Frontier Guards Artillery Group
 	60th Machine Gun Battalion
 
 61st Infantry Division "Sirte" (10 Battalions)
@@ -40,10 +46,11 @@ Independent Artillery (11 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-4th Tank Infantry Regiment (3 Battalions)
+4th Tank Infantry Regiment (4 Battalions)
 	1st Medium Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion
+	3rd Group, 42nd Artillery Regiment (Detached From Sabratha Division)
 
 
 
@@ -63,16 +70,61 @@ The two light tank battalions were completely crushed, and 7th Armoured Division
 Their positions suddenly threatened, the units of the Sirte Division gathered up remannts of the destroyed units and retreated to the frontier.
 There, they put up a brief stand, but were eventually broken and retreated further toward Bardia, where the 70th Infantry Regiment was captured.
 
-The 69th Infantry Regiment was hardly any more lucky. On its way east it linked up with elements of the Sabratha Division, but both were trapped in Tobruk.
 By now, the 11th Indian Infantry Brigade was sent away to recover from its light losses, replaced with some Australian elements.
-The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his two divisions and the 4th Tank Infantry Regiment, and the tons of artillery surrendered.
-Very little Italian strength was left. The WDF chased the last pieces of the Sabratha Division east, cutting some off in the Cyrenaica bulge at Beda Fomm.
+The 69th Infantry Regiment was hardly any more lucky. On its way east it tried to link up with elements of the Sabratha Division, but was instead trapped in Tobruk.
+There, Mannella had six corps artillery battalions, three from the Sirte, and one loose, plus some blackshirts, bersaglieri, and tanks, but it still wasn't enough.
+The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his two divisions and the 4th Tank Infantry Regiment, and tons of artillery surrendered.
+Very little Italian strength was left. The WDF chased the last pieces of the Sabratha Division east, cutting most of it off in the Cyrenaica bulge at Beda Fomm.
 When the British finally ran out of logistic momentum at El Agheila, it didn't take an expert to decide the battle's outcome.
 
-Of all the units of XXII Army Corps, only the half-strength Sabratha Division remained. What was once 32 Battalions was now 4.
+Of all the units of XXII Army Corps, only the half-strength Sabratha Division remained. What was once 32 Battalions was now 4 weak ones.
 The British, however, had problems of their own. 7th Armoured Brigade was exhausted and suffered breakdowns, resulting in its replacement with 2nd Armoured Division.
-4th Indian Division was also withdrawn, though if left behind the 20th Australian Infantry Brigade as Benghazi's garrison.
+4th Indian Division was also withdrawn, though it left behind the 20th Australian Infantry Brigade as Benghazi's garrison.
 Now, at El Agheila, a single weak Italian division faced a single weak British division, the 2nd Armoured. Anything could tip the scales...
+
+
+
+FALL OF TOBRUK:
+
+
+
+Western Desert Force (9 Battalions)
+
+7th Armoured Division (5 Battalions)
+	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
+	7th Royal Tank Regiment
+
+4th Indian Division (4 Battalions)
+	20th Australian Infantry Brigade (3 Battalions)
+	6th Australian Division Cavalry (Light Tanks)
+
+
+
+Tobruk Garrison (18 Battalions)
+
+Mixed Bersaglieri Motorcycle Battalion (60th and 61st Companies)
+
+Advance Group (2 Battalions)
+	Blackshirt Battalion "Volontari della Libia" (With 141st Mortar Company Attached)
+	140th Blackshirt Battalion "28 Ottobre" (With 142nd Mortar Company Attached)
+
+Independent Artillery (7 Battalions)
+	10th Corps Artillery Regiment (2 Battalions (17,35))
+	22nd Corps Artillery Regiment (2 Battalions (42,43))
+	25th Corps Artillery Regiment (2 Heavy Battalions (105,130))
+	3rd Group, 12th Artillery Regiment
+
+61st Infantry Division "Sirte" (6 Battalions)
+	69th Infantry Regiment (3 Battalions)
+	43rd Artillery Regiment (3 Battalions (1,2,3))
+
+4th Tank Infantry Regiment (2 Battalions)
+	1st Medium Tank Battalion
+	60th Light Tank Battalion
+
+
+
+(Detailed in Operation Compass Section)
 
 
 
@@ -156,16 +208,16 @@ SIEGE OF TOBRUK:
 
 Tobruk Fortress (6 Battalions, 22 Companies)
 
-20th Australian Infantry Brigade (3 Battalions, 13 Companies)
+20th Australian Infantry Brigade (3 Battalions, 14 Companies)
 	2/13th Australian Battalion
 	2/15th Australian Battalion
-	2/17th Australian Battalion (Less 1 Company)
+	2/17th Australian Battalion
 	20th Australian Anti-Tank Company
 	2/7th Australian Engineer Company
 
 18th King Edward VII's Own Cavalry
 Composite Regiment, 3rd Armoured Brigade (3rd Hussars Headquarters)
-104th Field Regiment, Royal Horse Artillery (2 Batteries, 1 Battery of "Bush" Guns "Mr. Clarke's Guns")
+104th Field Regiment, Royal Horse Artillery (2 Batteries)
 
 
 
