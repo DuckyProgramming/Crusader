@@ -100,7 +100,7 @@ export class unit{
     joinElement(element){
         this.contain.units.push(new unit(this.operation,{
             level:element.level,type:types.elementType[findName(element.type,types.elementType)].unitType,elementType:findName(element.type,types.elementType),team:element.team,
-            desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,icon:this.icon,
+            desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,icon:element.icon==undefined?this.icon:element.icon,
             pos:[0,0],
             elements:[],
         }))

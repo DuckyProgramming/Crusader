@@ -635,6 +635,13 @@ reserves=[
         ],
     },{
         level:4,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`2nd Company, 140th Blackshirt Battalion "28 Ottobre"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`2`,designation:`28 Ottobre`,commander:``,icon:``,
+        pos:[610,516],
+        elements:[
+            {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`2nd Company, 140th Blackshirt Battalion "28 Ottobre"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`2`,designation:`28 Ottobre`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`],team:`Blackshirt`,
         desc:[`3rd Company, 140th Blackshirt Battalion "28 Ottobre"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`3`,designation:`28 Ottobre`,commander:``,icon:``,
         pos:[610,516],
         elements:[
@@ -646,6 +653,34 @@ reserves=[
         pos:[613,655],
         elements:[
             {level:4,type:`Machine Gun Company`,team:`Blackshirt`,desc:[`4th Company, 140th Blackshirt Battalion "28 Ottobre"`,`4° Centuria Mitraglieri, CXL Coorte CC.NN. "28 Ottobre"`],name:`4`,designation:`28 Ottobre`,commander:``},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`13`,designation:`69`,commander:``,icon:``,
+        pos:[1593,623],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`13`,designation:`69`,commander:``},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Infantry`],team:`Italian`,
+        desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`14`,designation:`69`,commander:``,icon:``,
+        pos:[889,629],
+        elements:[
+            {level:4,type:`Infantry Gun Company`,team:`Italian`,desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`14`,designation:`69`,commander:``},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`141st Mortar Company`,`141° Compagnia Mortaio`],name:`141`,designation:``,commander:``,icon:`savona`,
+        pos:[660,545],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`141st Mortar Company`,`141° Compagnia Mortaio`],name:`141`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`142nd Mortar Company`,`142° Compagnia Mortaio`],name:`142`,designation:``,commander:``,icon:`savona`,
+        pos:[660,545],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`142nd Mortar Company`,`142° Compagnia Mortaio`],name:`142`,designation:``,commander:``},
         ],
     },
 ]

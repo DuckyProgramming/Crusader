@@ -18,6 +18,7 @@ export var types={
         {name:`Oasis Infantry Company`,unitType:[`Oasis Infantry`],class:0,damage:[10,1],armor:0,health:25,morale:1.1,num:200,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Machine Gun`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:100,morale:1,num:800,speed:0.9,artillery:false,engineer:false,recon:false},
         {name:`Machine Gun Company`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:25,morale:1,num:200,speed:0.9,artillery:false,engineer:false,recon:false},
+        {name:`Heavy Machine Gun Company`,unitType:[`Infantry`,`Machine Gun`,`Heavy Infantry`],class:0,damage:[15,3],armor:0,health:25,morale:1,num:200,speed:0.72,artillery:false,engineer:false,recon:false},
 
         {name:`Semi-Motorized Infantry`,unitType:[`Infantry`,`Semi-Motorized`],class:0,damage:[10,2],armor:0,health:100,morale:1,num:800,speed:1.5,artillery:false,engineer:false,recon:false},
 
@@ -61,10 +62,12 @@ export var types={
         {name:`Captured Medium Tank`,unitType:[`Tank`],class:1,damage:[11,11],armor:0.75,health:55,morale:0.6,num:50,speed:1.45,artillery:false,engineer:false,recon:false},
         {name:`Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:20,morale:0.6,num:19,speed:1.5,artillery:false,engineer:false,recon:false},
         {name:`Slighted Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:18,morale:0.6,num:17,speed:1.5,artillery:false,engineer:false,recon:false},
-        {name:`Immobile Medium Tank Company`,unitType:[`Tank`],class:1,damage:[10,10],armor:0.8,health:10,morale:0.6,num:13,speed:1.5,artillery:false,engineer:false,recon:false},
         {name:`Armed Medium Tank Company`,unitType:[`Tank`,`Machine Gun`],class:1,damage:[15,15],armor:0.8,health:20,morale:0.6,num:13,speed:1.2,artillery:false,engineer:false,recon:false},
         {name:`Staff Medium Tank Company`,unitType:[`Tank`,`Headquarters`],class:1,damage:[12,12],armor:0.8,health:10,morale:1.2,num:8,speed:1.5,artillery:false,engineer:false,recon:false},
+        {name:`Poor Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:15,morale:0.6,num:13,speed:1.5,artillery:false,engineer:false,recon:false},
+        {name:`Immobile Medium Tank Company`,unitType:[`Tank`],class:1,damage:[10,10],armor:0.8,health:10,morale:0.6,num:13,speed:0.1,artillery:false,engineer:false,recon:false},
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
+        {name:`Heavy Tank Company`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:25,morale:0.6,num:17,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Slow Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[12,10],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Superior Tank`,unitType:[`Tank`,`Superior`],class:1,damage:[15,15],armor:0.8,health:60,morale:0.75,num:50,speed:1.5,artillery:false,engineer:false,recon:false},
 
@@ -238,6 +241,115 @@ export var types={
                 {name:`Misheifa`,owner:0,type:0,pos:[2889,920]},
                 {name:`Sidi Barrani`,owner:0,type:1,pos:[2884,711]},
             ],connect:[
+                {name:[`El Agheila`,`Mersa Brega`]},
+                {name:[`Mersa Brega`,`Agedabia`]},
+                {name:[`Agedabia`,`Zuetina`]},
+                {name:[`Agedabia`,`Beda Fomm`]},
+                {name:[`Zuetina`,`Beda Fomm`]},
+                {name:[`Beda Fomm`,`Carcuna`]},
+                {name:[`Carcuna`,`Ghemines`]},
+                {name:[`Ghemines`,`Benghazi`]},
+                {name:[`Benghazi`,`Tocra`]},
+                {name:[`Tocra`,`Barce`]},
+                
+                {name:[`Barce`,`d'Annunzio`]},
+                {name:[`d'Annunzio`,`Beda Littoria`]},
+                {name:[`Beda Littoria`,`Cirene`]},
+                {name:[`Cirene`,`Derna`]},
+                {name:[`Derna`,`Martuba`]},
+                {name:[`Martuba`,`Bomba`]},
+                {name:[`Bomba`,`Tmimi`]},
+                {name:[`Tmimi`,`Gazala`]},
+                {name:[`Gazala`,`Acroma`]},
+                {name:[`Acroma`,`Tobruk`]},
+
+                {name:[`Tobruk`,`El Duda`]},
+                {name:[`El Duda`,`Gambut`]},
+                {name:[`Gambut`,`Mersa Lucch`]},
+                {name:[`Gambut`,`Bardia`]},
+                {name:[`Bardia`,`Fort Capuzzo`]},
+                {name:[`Fort Capuzzo`,`Sollum`]},
+                {name:[`Sollum`,`Halfaya Pass`]},
+                {name:[`Halfaya Pass`,`Buq Buq`]},
+                {name:[`Sidi Barrani`,`Buq Buq`]},
+                {name:[`Benghazi`,`Regima`]},
+
+                {name:[`Regima`,`El Abiar`]},
+                {name:[`El Abiar`,`Nahiba`]},
+                {name:[`Nahiba`,`Barce`]},
+                {name:[`El Abiar`,`Charruba`]},
+                {name:[`Charruba`,`El Hamama`]},
+                {name:[`El Hamama`,`Mechili`]},
+                {name:[`Mechili`,`El Maraghi`]},
+                {name:[`El Maraghi`,`Cirene`]},
+                {name:[`Mechili`,`Bir Azzagh`]},
+                {name:[`Bir Azzagh`,`Derna`]},
+
+                {name:[`Mechili`,`Bir Halegh`]},
+                {name:[`Bir Halegh`,`Tmimi`]},
+                {name:[`Ghemines`,`Soluch`]},
+                {name:[`Soluch`,`Sceleidima`]},
+                {name:[`Sceleidima`,`Msus`]},
+                {name:[`Msus`,`Bel Garanis`]},
+                {name:[`Bel Garanis`,`Charruba`]},
+                {name:[`Msus`,`Bir el Gerrari`]},
+                {name:[`Bir el Gerrari`,`Mechili`]},
+                {name:[`Bir el Gerrari`,`Bir er Rtima`]},
+
+                {name:[`Bir er Rtima`,`Tengeder`]},
+                {name:[`Tengeder`,`Mechili`]},
+                {name:[`Tengeder`,`Bir Habesc`]},
+                {name:[`Bir Habesc`,`Bir Hacheim`]},
+                {name:[`Bir Hacheim`,`El Adem`]},
+                {name:[`El Adem`,`Tobruk`]},
+                {name:[`Bir Habesc`,`Alem Hamza`]},
+                {name:[`Alem Hamza`,`Gazala`]},
+                {name:[`Alem Hamza`,`Acroma`]},
+                {name:[`El Adem`,`El Duda`]},
+
+                {name:[`Sceleidima`,`Er Rtem`]},
+                {name:[`Er Rtem`,`El Abiar`]},
+                {name:[`Soluch`,`Beda Fomm`]},
+                {name:[`Sceleidima`,`Antelat`]},
+                {name:[`Msus`,`Antelat`]},
+                {name:[`Antelat`,`Beda Fomm`]},
+                {name:[`Antelat`,`Agedabia`]},
+                {name:[`Agedabia`,`El Haseia`]},
+                {name:[`Mersa Brega`,`El Haseia`]},
+                {name:[`El Haseia`,`Maaten el Grara`]},
+
+                {name:[`Maaten el Grara`,`Ben Gania`]},
+                {name:[`Ben Gania`,`Tengeder`]},
+                {name:[`Ben Gania`,`Bir er Rtima`]},
+                {name:[`Bir Hacheim`,`Hatiat er Rtem`]},
+                {name:[`El Adem`,`Bir el Gubi`]},
+                {name:[`Bir el Gubi`,`Gabr Saleh`]},
+                {name:[`Gabr Saleh`,`Sidi Omar`]},
+                {name:[`Bir el Gubi`,`El Cuasc`]},
+                {name:[`Gabr Saleh`,`El Cuasc`]},
+                {name:[`Sidi Omar`,`Fort Maddalena`]},
+
+                {name:[`Gabr Saleh`,`Sidi Azeiz`]},
+                {name:[`Sidi Azeiz`,`Bardia`]},
+                {name:[`Sidi Azeiz`,`Gasr el Arid`]},
+                {name:[`Gasr el Arid`,`El Duda`]},
+                {name:[`Sidi Azeiz`,`Fort Capuzzo`]},
+                {name:[`Fort Capuzzo`,`Sidi Omar`]},
+                {name:[`Sidi Omar`,`Bir el Khireigat`]},
+                {name:[`Bir el Khireigat`,`Halfaya Pass`]},
+                {name:[`Bir el Khireigat`,`Conference Cairn`]},
+                {name:[`Conference Cairn`,`Fort Maddalena`]},
+
+                {name:[`Conference Cairn`,`Sofafi`]},
+                {name:[`Sofafi`,`Misheifa`]},
+                {name:[`Misheifa`,`Sidi Barrani`]},
+                {name:[`Sidi Omar`,`Sollum`]},
+                {name:[`Bir el Gubi`,`Bir Hacheim`]},
+                {name:[`Fort Maddalena`,`El Cuasc`]},
+                {name:[`El Cuasc`,`Hatiat er Rtem`]},
+                {name:[`Hatiat er Rtem`,`Ben Gania`]},
+                {name:[`Buq Buq`,`Sofafi`]},
+                {name:[`Nahiba`,`Charruba`]},
             ],team:[
                 {name:`British`,term:`britain`,player:0,quality:1},
                 {name:`New Zealand`,term:`new zealand`,player:0,quality:1.05},
@@ -372,6 +484,115 @@ export var types={
                 {name:`Misheifa`,owner:0,type:0,pos:[2889,920]},
                 {name:`Sidi Barrani`,owner:0,type:1,pos:[2884,711]},
             ],connect:[
+                {name:[`El Agheila`,`Mersa Brega`]},
+                {name:[`Mersa Brega`,`Agedabia`]},
+                {name:[`Agedabia`,`Zuetina`]},
+                {name:[`Agedabia`,`Beda Fomm`]},
+                {name:[`Zuetina`,`Beda Fomm`]},
+                {name:[`Beda Fomm`,`Carcuna`]},
+                {name:[`Carcuna`,`Ghemines`]},
+                {name:[`Ghemines`,`Benghazi`]},
+                {name:[`Benghazi`,`Tocra`]},
+                {name:[`Tocra`,`Barce`]},
+                
+                {name:[`Barce`,`d'Annunzio`]},
+                {name:[`d'Annunzio`,`Beda Littoria`]},
+                {name:[`Beda Littoria`,`Cirene`]},
+                {name:[`Cirene`,`Derna`]},
+                {name:[`Derna`,`Martuba`]},
+                {name:[`Martuba`,`Bomba`]},
+                {name:[`Bomba`,`Tmimi`]},
+                {name:[`Tmimi`,`Gazala`]},
+                {name:[`Gazala`,`Acroma`]},
+                {name:[`Acroma`,`Tobruk`]},
+
+                {name:[`Tobruk`,`El Duda`]},
+                {name:[`El Duda`,`Gambut`]},
+                {name:[`Gambut`,`Mersa Lucch`]},
+                {name:[`Gambut`,`Bardia`]},
+                {name:[`Bardia`,`Fort Capuzzo`]},
+                {name:[`Fort Capuzzo`,`Sollum`]},
+                {name:[`Sollum`,`Halfaya Pass`]},
+                {name:[`Halfaya Pass`,`Buq Buq`]},
+                {name:[`Sidi Barrani`,`Buq Buq`]},
+                {name:[`Benghazi`,`Regima`]},
+
+                {name:[`Regima`,`El Abiar`]},
+                {name:[`El Abiar`,`Nahiba`]},
+                {name:[`Nahiba`,`Barce`]},
+                {name:[`El Abiar`,`Charruba`]},
+                {name:[`Charruba`,`El Hamama`]},
+                {name:[`El Hamama`,`Mechili`]},
+                {name:[`Mechili`,`El Maraghi`]},
+                {name:[`El Maraghi`,`Cirene`]},
+                {name:[`Mechili`,`Bir Azzagh`]},
+                {name:[`Bir Azzagh`,`Derna`]},
+
+                {name:[`Mechili`,`Bir Halegh`]},
+                {name:[`Bir Halegh`,`Tmimi`]},
+                {name:[`Ghemines`,`Soluch`]},
+                {name:[`Soluch`,`Sceleidima`]},
+                {name:[`Sceleidima`,`Msus`]},
+                {name:[`Msus`,`Bel Garanis`]},
+                {name:[`Bel Garanis`,`Charruba`]},
+                {name:[`Msus`,`Bir el Gerrari`]},
+                {name:[`Bir el Gerrari`,`Mechili`]},
+                {name:[`Bir el Gerrari`,`Bir er Rtima`]},
+
+                {name:[`Bir er Rtima`,`Tengeder`]},
+                {name:[`Tengeder`,`Mechili`]},
+                {name:[`Tengeder`,`Bir Habesc`]},
+                {name:[`Bir Habesc`,`Bir Hacheim`]},
+                {name:[`Bir Hacheim`,`El Adem`]},
+                {name:[`El Adem`,`Tobruk`]},
+                {name:[`Bir Habesc`,`Alem Hamza`]},
+                {name:[`Alem Hamza`,`Gazala`]},
+                {name:[`Alem Hamza`,`Acroma`]},
+                {name:[`El Adem`,`El Duda`]},
+
+                {name:[`Sceleidima`,`Er Rtem`]},
+                {name:[`Er Rtem`,`El Abiar`]},
+                {name:[`Soluch`,`Beda Fomm`]},
+                {name:[`Sceleidima`,`Antelat`]},
+                {name:[`Msus`,`Antelat`]},
+                {name:[`Antelat`,`Beda Fomm`]},
+                {name:[`Antelat`,`Agedabia`]},
+                {name:[`Agedabia`,`El Haseia`]},
+                {name:[`Mersa Brega`,`El Haseia`]},
+                {name:[`El Haseia`,`Maaten el Grara`]},
+
+                {name:[`Maaten el Grara`,`Ben Gania`]},
+                {name:[`Ben Gania`,`Tengeder`]},
+                {name:[`Ben Gania`,`Bir er Rtima`]},
+                {name:[`Bir Hacheim`,`Hatiat er Rtem`]},
+                {name:[`El Adem`,`Bir el Gubi`]},
+                {name:[`Bir el Gubi`,`Gabr Saleh`]},
+                {name:[`Gabr Saleh`,`Sidi Omar`]},
+                {name:[`Bir el Gubi`,`El Cuasc`]},
+                {name:[`Gabr Saleh`,`El Cuasc`]},
+                {name:[`Sidi Omar`,`Fort Maddalena`]},
+
+                {name:[`Gabr Saleh`,`Sidi Azeiz`]},
+                {name:[`Sidi Azeiz`,`Bardia`]},
+                {name:[`Sidi Azeiz`,`Gasr el Arid`]},
+                {name:[`Gasr el Arid`,`El Duda`]},
+                {name:[`Sidi Azeiz`,`Fort Capuzzo`]},
+                {name:[`Fort Capuzzo`,`Sidi Omar`]},
+                {name:[`Sidi Omar`,`Bir el Khireigat`]},
+                {name:[`Bir el Khireigat`,`Halfaya Pass`]},
+                {name:[`Bir el Khireigat`,`Conference Cairn`]},
+                {name:[`Conference Cairn`,`Fort Maddalena`]},
+
+                {name:[`Conference Cairn`,`Sofafi`]},
+                {name:[`Sofafi`,`Misheifa`]},
+                {name:[`Misheifa`,`Sidi Barrani`]},
+                {name:[`Sidi Omar`,`Sollum`]},
+                {name:[`Bir el Gubi`,`Bir Hacheim`]},
+                {name:[`Fort Maddalena`,`El Cuasc`]},
+                {name:[`El Cuasc`,`Hatiat er Rtem`]},
+                {name:[`Hatiat er Rtem`,`Ben Gania`]},
+                {name:[`Buq Buq`,`Sofafi`]},
+                {name:[`Nahiba`,`Charruba`]},
             ],team:[
                 {name:`British`,term:`britain`,player:0,quality:1},
                 {name:`New Zealand`,term:`new zealand`,player:0,quality:1.05},
@@ -1682,7 +1903,7 @@ export var types={
                                     ],
                                 },{
                                     level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                    desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Baade`,icon:`15pz`,
                                     pos:[460,920],
                                     elements:[
                                         {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
@@ -2115,7 +2336,7 @@ export var types={
                                     ],
                                 },{
                                     level:2,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Zincke`,icon:`15pz`,
+                                    desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Baade`,icon:`15pz`,
                                     pos:[315,600],
                                     elements:[
                                         {level:3,type:`Motorized Armed Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
@@ -2332,7 +2553,7 @@ export var types={
             ],unit:[
                 {
                     name:`British Capture of Tobruk`,
-                    battalions:[[11],[22]],bonus:false,partition:[[0],[2]],
+                    battalions:[[12],[0,24]],bonus:false,partition:[[0],[2]],
                     unit:[
                         {
                             level:0,type:[`Infantry`],team:`Italian`,
@@ -2346,71 +2567,71 @@ export var types={
                                     elements:[
                                         {
                                             level:3,type:[`Infantry`],team:`Italian`,
-                                            desc:[`1st Battalion, 69st Infantry Regiment`,`I Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`1`,designation:`69`,commander:`Rugiu`,icon:`sirte`,
+                                            desc:[`1st Battalion, 69th Infantry Regiment`,`I Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`1`,designation:`69`,commander:`Rugiu`,icon:`sirte`,
                                             pos:[1359,701],
                                             elements:[
                                                 {
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`1st Company, 69st Infantry Regiment`,`1° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`1st Company, 69th Infantry Regiment`,`1° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1201,844],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 69st Infantry Regiment`,`1° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`1`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`1`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`2nd Company, 69st Infantry Regiment`,`2° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`2`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`2nd Company, 69th Infantry Regiment`,`2° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`2`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1326,824],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 69st Infantry Regiment`,`2° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`2`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 69th Infantry Regiment`,`2° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`2`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`3rd Company, 69st Infantry Regiment`,`3° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`3rd Company, 69th Infantry Regiment`,`3° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1424,798],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 69st Infantry Regiment`,`3° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`3`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`3`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`,`Heavy Infantry`],team:`Italian`,
-                                                    desc:[`4th Company, 69st Infantry Regiment`,`4° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`4th Company, 69th Infantry Regiment`,`4° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1514,768],
                                                     elements:[
-                                                        {level:4,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69st Infantry Regiment`,`4° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`4`,designation:`69`,commander:``},
+                                                        {level:4,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`4`,designation:`69`,commander:``},
                                                     ],
                                                 },
                                             ],
                                         },{
                                             level:3,type:[`Infantry`],team:`Italian`,
-                                            desc:[`2nd Battalion, 69st Infantry Regiment`,`II Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`2`,designation:`69`,commander:`Guassardo`,icon:`sirte`,
+                                            desc:[`2nd Battalion, 69th Infantry Regiment`,`II Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`2`,designation:`69`,commander:`Guassardo`,icon:`sirte`,
                                             pos:[818,682],
                                             elements:[
                                                 {
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`5th Company, 69st Infantry Regiment`,`5° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`5`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`5th Company, 69th Infantry Regiment`,`5° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`5`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[671,763],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 69st Infantry Regiment`,`5° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`5`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 69th Infantry Regiment`,`5° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`5`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`6th Company, 69st Infantry Regiment`,`6° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`6`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`6th Company, 69th Infantry Regiment`,`6° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`6`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[818,766],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 69st Infantry Regiment`,`6° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`6`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 69th Infantry Regiment`,`6° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`6`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`7th Company, 69st Infantry Regiment`,`7° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`7`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`7th Company, 69th Infantry Regiment`,`7° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`7`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[978,745],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 69st Infantry Regiment`,`7° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`7`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 69th Infantry Regiment`,`7° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`7`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`,`Heavy Infantry`],team:`Italian`,
-                                                    desc:[`8th Company, 69st Infantry Regiment`,`8° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`8`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`8th Company, 69th Infantry Regiment`,`8° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`8`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1093,781],
                                                     elements:[
-                                                        {level:4,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 69st Infantry Regiment`,`8° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`8`,designation:`69`,commander:``},
+                                                        {level:4,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 69th Infantry Regiment`,`8° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`8`,designation:`69`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -2421,47 +2642,47 @@ export var types={
                                             elements:[
                                                 {
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`9th Company, 69st Infantry Regiment`,`9° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`9`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`9th Company, 69th Infantry Regiment`,`9° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`9`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1607,717],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 69st Infantry Regiment`,`9° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`9`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 69th Infantry Regiment`,`9° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`9`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`10th Company, 69st Infantry Regiment`,`10° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`10`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`10th Company, 69th Infantry Regiment`,`10° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`10`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1676,636],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`10th Company, 69st Infantry Regiment`,`10° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`10`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`10th Company, 69th Infantry Regiment`,`10° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`10`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`],team:`Italian`,
-                                                    desc:[`11th Company, 69st Infantry Regiment`,`11° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`11`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`11th Company, 69th Infantry Regiment`,`11° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`11`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1728,530],
                                                     elements:[
-                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`11th Company, 69st Infantry Regiment`,`11° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`11`,designation:`69`,commander:``},
+                                                        {level:4,type:`Infantry Company`,team:`Italian`,desc:[`11th Company, 69th Infantry Regiment`,`11° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`11`,designation:`69`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Infantry`,`Heavy Infantry`],team:`Italian`,
-                                                    desc:[`12th Company, 69st Infantry Regiment`,`12° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`12`,designation:`69`,commander:``,icon:`sirte`,
+                                                    desc:[`12th Company, 69th Infantry Regiment`,`12° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`12`,designation:`69`,commander:``,icon:`sirte`,
                                                     pos:[1724,407],
                                                     elements:[
-                                                        {level:4,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 69st Infantry Regiment`,`12° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`12`,designation:`69`,commander:``},
+                                                        {level:4,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 69th Infantry Regiment`,`12° Compagnia Fucilieri, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`12`,designation:`69`,commander:``},
                                                     ],
                                                 },
                                             ],
                                         },{
                                             level:4,type:[`Mortar`],team:`Italian`,
-                                            desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`13`,designation:`69`,commander:``,icon:``,
+                                            desc:[`69th Mortar Company`,`69° Compagnia Mortaio`],name:`69`,designation:``,commander:``,icon:`sirte`,
                                             pos:[1593,623],
                                             elements:[
-                                                {level:4,type:`Mortar Company`,team:`Italian`,desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`13`,designation:`69`,commander:``},
+                                                {level:4,type:`Mortar Company`,team:`Italian`,desc:[`69th Mortar Company`,`69° Compagnia Mortaio`],name:`69`,designation:``,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Infantry`],team:`Italian`,
-                                            desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`14`,designation:`69`,commander:``,icon:``,
+                                            desc:[`69th Infantry Gun Company`,`69° Compagnia Cannone`],name:`69`,designation:``,commander:``,icon:`sirte`,
                                             pos:[889,629],
                                             elements:[
-                                                {level:4,type:`Infantry Gun Company`,team:`Italian`,desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`14`,designation:`69`,commander:``},
+                                                {level:4,type:`Infantry Gun Company`,team:`Italian`,desc:[`69th Infantry Gun Company`,`69° Compagnia Cannone`],name:`69`,designation:``,commander:``},
                                             ],
                                         },
                                     ],
@@ -2500,6 +2721,16 @@ export var types={
                                         },
                                     ],
                                 },{
+                                    level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+                                    desc:[`61st Machine Gun Battalion`,`61º Battaglione Mitraglieri`],name:`61`,designation:``,commander:`Pcres`,icon:`sirte`,
+                                    pos:[1217,344],
+                                    elements:[
+                                        {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 61st Machine Gun Battalion`,`1° Compagnia, 61º Battaglione Mitraglieri`],name:`1`,designation:`61`,commander:``},
+                                        {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 61st Machine Gun Battalion`,`2° Compagnia, 61º Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``},
+                                        {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Company, 61st Machine Gun Battalion`,`3° Compagnia, 61º Battaglione Mitraglieri`],name:`3`,designation:`61`,commander:``},
+                                        {level:4,type:`Heavy Machine Gun Company`,team:`Italian`,desc:[`4th Company, 61st Machine Gun Battalion`,`4° Compagnia, 61º Battaglione Mitraglieri`],name:`4`,designation:`61`,commander:``},
+                                    ],
+                                },{
                                     level:4,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                                     desc:[`61st Bersaglieri Company`,`61° Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:``,icon:`sirte`,
                                     pos:[1427,570],
@@ -2521,8 +2752,7 @@ export var types={
                             pos:[1054,364],
                             elements:[
                                 {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`1st Company, 140th Blackshirt Battalion "28 Ottobre"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`1`,designation:`28 Ottobre`,commander:``},
-                                {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`2nd Company, 140th Blackshirt Battalion "28 Ottobre"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`2`,designation:`28 Ottobre`,commander:``},
-                                {level:4,type:`Mortar Company`,team:`Italian`,desc:[`141st Mortar Company`,`141° Compagnia Mortaio`],name:`141`,designation:``,commander:``},
+                                {level:4,type:`Mortar Company`,team:`Italian`,desc:[`15th Mortar Company`,`15° Compagnia Mortaio`],name:`15`,designation:``,commander:``,icon:`savona`},
                             ],
                         },{
                             level:3,type:[`Infantry`],team:`Blackshirt`,
@@ -2559,10 +2789,10 @@ export var types={
                                     ],
                                 },{
                                     level:4,type:[`Mortar`],team:`Italian`,
-                                    desc:[`142nd Mortar Company`,`142° Compagnia Mortaio`],name:`142`,designation:``,commander:``,icon:``,
+                                    desc:[`16th Mortar Company`,`16° Compagnia Mortaio`],name:`16`,designation:``,commander:``,icon:`savona`,
                                     pos:[660,545],
                                     elements:[
-                                        {level:4,type:`Mortar Company`,team:`Italian`,desc:[`142nd Mortar Company`,`142° Compagnia Mortaio`],name:`142`,designation:``,commander:``},
+                                        {level:4,type:`Mortar Company`,team:`Italian`,desc:[`16th Mortar Company`,`16° Compagnia Mortaio`],name:`16`,designation:``,commander:``},
                                     ],
                                 },
                             ],
@@ -2682,6 +2912,13 @@ export var types={
                                 {level:4,type:`Small Artillery Battery`,team:`Italian`,desc:[`9th Battery, 12th Artillery Regiment`,`9° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`9`,designation:`12`,commander:``},
                             ],
                         },{
+                            level:4,type:[`Anti-Tank`],team:`Italian`,
+                            desc:`55th Anti-Tank Company`,name:`55`,designation:``,commander:``,icon:`savona`,
+                            pos:[901,717],
+                            elements:[
+                                {level:4,type:`Anti-Tank Company`,team:`Italian`,desc:`55th Anti-Tank Company`,name:`55`,designation:``,commander:`savona`},
+                            ],
+                        },{
                             level:0,type:[`Infantry`,`Motorized`],team:`Indian`,
                             desc:`4th Indian Division`,name:`4`,designation:``,commander:`Beresford-Peirse`,icon:`4id`,
                             pos:[2325,901],
@@ -2724,7 +2961,7 @@ export var types={
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
                                             desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``,icon:`9a`,
-                                            pos:[2073,1046],
+                                            pos:[2160,996],
                                             elements:[
                                                 {level:4,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``},
                                             ],
@@ -2734,6 +2971,13 @@ export var types={
                                             pos:[2160,896],
                                             elements:[
                                                 {level:4,type:`Motorized Engineer Company`,team:`Australian`,desc:[`7th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/7th Field Company, Royal Australian Engineers`],name:`2/7`,designation:``,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Engineer`,`Motorized`],team:`Australian`,
+                                            desc:[`16th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/16th Field Company, Royal Australian Engineers`],name:`2/16`,designation:``,commander:``,icon:`9a`,
+                                            pos:[2073,1046],
+                                            elements:[
+                                                {level:4,type:`Motorized Engineer Company`,team:`Australian`,desc:[`16th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/16th Field Company, Royal Australian Engineers`],name:`2/16`,designation:``,commander:``},
                                             ],
                                         },
                                     ],
@@ -2873,13 +3117,12 @@ export var types={
                                         },
                                     ],
                                 },{
-                                    level:3,type:[`Tank`],team:`British`,
+                                    level:3,type:[`Tank`,`Heavy`],team:`British`,
                                     desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:``,
                                     pos:[820,1017],
                                     elements:[
-                                        {level:4,type:`Slighted Medium Tank Company`,team:`British`,desc:[`A Company, 7th Battalion, Royal Tank Regiment`,`A Company, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
-                                        {level:4,type:`Slighted Medium Tank Company`,team:`British`,desc:[`B Company, 7th Battalion, Royal Tank Regiment`,`B Company, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
-                                        {level:4,type:`Slighted Medium Tank Company`,team:`British`,desc:[`C Company, 7th Battalion, Royal Tank Regiment`,`C Company, 7th Royal Tank Regiment`],name:`C`,designation:`7 RTR`,commander:``},
+                                        {level:4,type:`Heavy Tank Company`,team:`British`,desc:[`A Company, 7th Battalion, Royal Tank Regiment`,`A Company, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
+                                        {level:4,type:`Heavy Tank Company`,team:`British`,desc:[`B Company, 7th Battalion, Royal Tank Regiment`,`B Company, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
                                     ],
                                 },
                             ],
@@ -3483,7 +3726,7 @@ export var types={
         },
     ],
 }
-export var dev={slow:false,begin:0}
+export var dev={slow:false,begin:1}
 export var options={obscureKills:true,translate:false,headquarters:false}
 export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}

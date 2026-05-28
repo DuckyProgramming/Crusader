@@ -2,28 +2,31 @@ COMPASS:
 
 
 
-Western Desert Force (16 Battalions)
+Western Desert Force (18 Battalions)
 
-7th Armoured Division (9 Battalions)
+7th Armoured Division (10 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade (3 Battalions)
 	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
+	3rd Battalion, Coldstream Guards
 	7th Royal Tank Regiment
 
-4th Indian Division (7 Battalions)
+4th Indian Division (8 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
 	20th Australian Infantry Brigade (3 Battalions)
 	6th Australian Division Cavalry (Light Tanks)
+	25th Field Regiment, Royal Artillery
 
 
 
 XXII Army Corps (36 Battalions)
 
 Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
+155th Machine Gun Battalion
 
 Advance Group (4 Battalions)
-	Blackshirt Battalion "Volontari della Libia"
-	140th Blackshirt Battalion "28 Ottobre" (With 141st and 142nd Mortar Companies Attached)
+	Blackshirt Battalion "Volontari della Libia" (With 15th Mortar Company Attached)
+	140th Blackshirt Battalion "28 Ottobre" (With 16th Mortar Company Attached)
 	148th Artillery Group (Detached From 25th Corps Artillery Regiment)
 	150th Artillery Group (Detached From 25th Corps Artillery Regiment)
 
@@ -36,8 +39,7 @@ Independent Artillery (7 Battalions)
 60th Infantry Division "Sabratha" (10 Battalions)
 	85th Infantry Regiment (3 Battalions)
 	86th Infantry Regiment (3 Battalions)
-	42nd Artillery Regiment (2 Battalions (1,2))
-	283rd Frontier Guards Artillery Group
+	42nd Artillery Regiment (3 Battalions (1,2,3))
 	60th Machine Gun Battalion
 
 61st Infantry Division "Sirte" (10 Battalions)
@@ -46,11 +48,10 @@ Independent Artillery (7 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-4th Tank Infantry Regiment (4 Battalions)
+4th Tank Infantry Regiment (3 Battalions)
 	1st Medium Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion
-	3rd Group, 42nd Artillery Regiment (Detached From Sabratha Division)
 
 
 
@@ -88,37 +89,44 @@ FALL OF TOBRUK:
 
 
 
-Western Desert Force (9 Battalions)
+Western Desert Force (12 Battalions, 32 Companies)
 
-7th Armoured Division (5 Battalions)
+7th Armoured Division (5 Battalions, 14 Companies)
 	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
-	7th Royal Tank Regiment
+	7th Royal Tank Regiment (Minus 1 Company)
 
-4th Indian Division (4 Battalions)
+4th Indian Division (4 Battalions, 18 Companies)
 	20th Australian Infantry Brigade (3 Battalions)
 	6th Australian Division Cavalry (Light Tanks)
+	20th Australian Anti-Tank Company
+	2/7th Australian Engineer Company
+	2/16th Australian Engineer Company
 
 
 
-Tobruk Garrison (18 Battalions)
+Tobruk Garrison (24 Battalions, 64 Companies)
 
-Mixed Bersaglieri Motorcycle Battalion (60th and 61st Companies)
+22nd Bersaglieri Motorcycle Company
+55th Anti-Tank Company
 
-Advance Group (2 Battalions)
+Blackshirt Group (2 Battalions, 7 Companies)
 	Blackshirt Battalion "Volontari della Libia" (With 141st Mortar Company Attached)
-	140th Blackshirt Battalion "28 Ottobre" (With 142nd Mortar Company Attached)
+	140th Blackshirt Battalion "28 Ottobre" (With 142nd Mortar Company Attached) (Depleted)
 
-Independent Artillery (7 Battalions)
+Independent Artillery (7 Battalions, 21 Companies)
 	10th Corps Artillery Regiment (2 Battalions (17,35))
 	22nd Corps Artillery Regiment (2 Battalions (42,43))
 	25th Corps Artillery Regiment (2 Heavy Battalions (105,130))
 	3rd Group, 12th Artillery Regiment
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (3 Battalions)
+61st Infantry Division "Sirte" (6 Battalions, 29 Companies)
+	69th Infantry Regiment (3 Battalions, 14 Companies)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
+	61st Machine Gun Battalion
+	61st Bersaglieri Motorcycle Company
+	61st Anti-Tank Company
 
-4th Tank Infantry Regiment (2 Battalions)
+4th Tank Infantry Regiment (2 Battalions, 5 Companies)
 	1st Medium Tank Battalion
 	60th Light Tank Battalion
 
