@@ -1,9 +1,4 @@
-build the roads
-
-sommernachtstraum map
-
 merge all crusader modes
-legacy options
 
 
 
@@ -16,6 +11,7 @@ the updated engineer
 - 16-24 distinct "build" weapons
 
 barbarossa - storm 333 + red beard
+vernal wind - spring wind with a tertiary effect
 
 
 

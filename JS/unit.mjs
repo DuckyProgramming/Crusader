@@ -90,7 +90,7 @@ export class unit{
             this.calculateElements()
         }else{
             this.contain.stats={
-                speed:this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0),
+                speed:max(1,this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0)),
                 artillery:false,engineer:false,recon:false
             }
             this.radius=40*types.map[this.operation.map].unitScale
@@ -99,8 +99,15 @@ export class unit{
     }
     joinElement(element){
         this.contain.units.push(new unit(this.operation,{
-            level:element.level,type:types.elementType[findName(element.type,types.elementType)].unitType,elementType:findName(element.type,types.elementType),team:element.team,
-            desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,icon:element.icon==undefined?this.icon:element.icon,
+            level:element.level==undefined?this.level:element.level,
+            type:types.elementType[findName(element.type,types.elementType)].unitType,
+            elementType:findName(element.type,types.elementType),
+            team:element.team==undefined?this.team:element.team,
+            desc:element.desc==undefined?this.desc:element.desc,
+            name:element.name==undefined?this.name:element.name,
+            designation:element.designation==undefined?this.designation:element.designation,
+            commander:element.commander==undefined?this.commander:element.commander,
+            icon:element.icon==undefined?this.icon:element.icon,
             pos:[0,0],
             elements:[],
         }))
@@ -231,7 +238,7 @@ export class unit{
         this.order.defense=false
         this.order.artillery=this.contain.stats.artillery
         if(this.active){
-            let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map][0].width
+            let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map].width
             if(
                 pix>=0&&floor(pix/8)<graphics.load.water.length&&
                 graphics.load.water[floor(pix/8)][pix%8]==0
@@ -299,8 +306,10 @@ export class unit{
         let len=max(1,this.contain.units.length)
         this.contain.stats={
             damage:[
-                this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0)/len,
-                this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)/len,
+                //this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0],0)/len,
+                //this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1],0)/len,
+                sqrt(this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[0]**2,0)/len),
+                sqrt(this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[1]**2,0)/len),
                 this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[2],0),
                 this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[3],0)
             ],
@@ -824,7 +833,7 @@ export class unit{
                         this.order.facing=atan2(this.order.position.x-this.position.x,this.order.position.y-this.position.y)
                         let dir=this.order.facing
                         let distance=this.contain.stats.speed*(0.75+this.strength.supply/this.strength.base.supply*0.25)
-                        let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map][0].width
+                        let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map].width
                         if(
                             pix>=0&&floor(pix/8)<graphics.load.water.length&&
                             graphics.load.water[floor(pix/8)][pix%8]==0
@@ -835,7 +844,7 @@ export class unit{
                         if(distPos(this,this.order)>distance){
                             let hit=false
                             this.operation.units.forEach(target=>{
-                                if(target.active&&types.player[this.player].side!=types.player[target.player].side&&distPos({position:moving},target)<this.radius+target.radius){
+                                if(this.active&&target.active&&types.player[this.player].side!=types.player[target.player].side&&distPos({position:moving},target)<this.radius+target.radius){
                                     if(!target.contain.trigger&&this.contain.trigger){
                                         target.active=false
                                         target.destroy()
@@ -860,7 +869,7 @@ export class unit{
                                         let fort=false
                                         if(this.order.defense||target.order.defense){
                                             for(let a=0,la=5;a<la;a++){
-                                                let pix=round(map((a+0.5)/la,0,1,this.position.x,target.position.x))+round(map((a+0.5)/la,0,1,this.position.y,target.position.y))*graphics.load.map[this.operation.map][0].width
+                                                let pix=round(map((a+0.5)/la,0,1,this.position.x,target.position.x))+round(map((a+0.5)/la,0,1,this.position.y,target.position.y))*graphics.load.map[this.operation.map].width
                                                 if(
                                                     pix>=0&&floor(pix/8)<graphics.load.fortifications.length&&
                                                     graphics.load.fortifications[floor(pix/8)][pix%8]==0
@@ -1045,7 +1054,7 @@ export class unit{
                                             }
                                         }
                                         if(target.battle.broken&&!this.battle.broken){
-                                            distance=min(distance,target.contain.stats.speed*(0.75+target.strength.supply/this.strength.base.supply*0.25))
+                                            distance=min(distance,target.contain.stats.speed*(0.75+target.strength.supply/this.strength.base.supply*0.25))*(fort?0.5:1)
                                             moving={x:this.position.x+lsin(dir)*distance,y:this.position.y+lcos(dir)*distance}
                                             let moving2={x:target.position.x+lsin(dir)*distance,y:target.position.y+lcos(dir)*distance}
                                             if(this.operation.units.some(other=>{

@@ -1,0 +1,4 @@
+CYRENAICA: Compass, Sonnenblume, Stand at Gazala, Rommel's 2nd Offensive
+TOBRUK: British Capture of Tobruk, Siege of Tobruk, Breakout From Tobruk, Axis Capture of Tobruk
+FRONTIER: Brevity, Battleaxe, Sommernachtstraum, Halfaya
+MISC: Crusader, Gazala, Matruh, First El Alamein

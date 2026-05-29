@@ -404,6 +404,13 @@ export function upColor(color,value,key){
 export function mergeColor(color1,color2,value){
 	return [color1[0]*(1-value)+color2[0]*value,color1[1]*(1-value)+color2[1]*value,color1[2]*(1-value)+color2[2]*value]
 }
+export function trace(){
+    try{
+        throw new Error()
+    }catch(e){
+        print(e)
+    }
+}
 //main
 export function flatMap(set){
     return set.map((map,mapIndex)=>map.unit.map((unit,index)=>{return {unit:unit,map:map,index:index,mapIndex:mapIndex}})).flat()
@@ -436,7 +443,7 @@ export function battalions(){
         }
     })
     let term=[...types.player.map(item=>item.name),`Axis`]
-    let base=types.map[current.map].unit[current.set].battalions.flat()
+    let base=types.map[current.map].unit[current.set].strength.num.flat()
     base.push(base[1]+base[2])
     print(`${totals.map((total,index)=>`${term[index]}: ${total}/${base[index]}`).join(`\n`)}`)
 }
@@ -476,7 +483,9 @@ export function companies(){
         }
     })
     let term=[...types.player.map(item=>item.name),`Axis`]
-    print(`${totals.map((total,index)=>`${term[index]}: ${total}`).join(`\n`)}`)
+    let base=types.map[current.map].unit[current.set].strength.num.flat()
+    base.push(base[1]+base[2])
+    print(`${totals.map((total,index)=>`${term[index]}: ${total}/${base[index]}`).join(`\n`)}`)
 }
 export function strength(){
     let totals=[[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]]]
@@ -493,6 +502,8 @@ export function strength(){
     })
     let temp=current.reform()
     if(temp.units.length==0){
+        /*temp.map=current.map
+        temp.loadMap(current.map)*/
         temp.initialUnits(current.set)
         if(temp.turn.pick!=undefined&&!(typeof temp.turn.pick==`number`&&temp.turn.pick>=0||typeof temp.turn.pick==`boolean`&&temp.turn.pick)){
             temp.spawnUnits()

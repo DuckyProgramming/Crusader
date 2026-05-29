@@ -124,6 +124,7 @@ reserves=[
         pos:[1737,1251],
         elements:[
             {level:3,type:`Motorized Engineer`,team:`German`,desc:`33rd Panzer Pioneer Battalion`,name:`33`,designation:``,commander:`Oberembt`}, 
+            {level:4,type:`Engineer Company`,team:`German`,desc:[`3rd Company, 33rd Engineer Battalion`,`3. Panzer-Pionier-Bataillon 33`],name:`3`,designation:`33`,commander:`Cirener`},
         ],
     },{
         level:1,type:[`Infantry`,`Motorized`],team:`South African`,
@@ -635,6 +636,13 @@ reserves=[
         ],
     },{
         level:4,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`1st Company, 140th Blackshirt Battalion "28 Ottobre"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`1`,designation:`28 Ottobre`,commander:``,icon:``,
+        pos:[610,516],
+        elements:[
+            {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`1st Company, 140th Blackshirt Battalion "28 Ottobre"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`1`,designation:`28 Ottobre`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`],team:`Blackshirt`,
         desc:[`2nd Company, 140th Blackshirt Battalion "28 Ottobre"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`2`,designation:`28 Ottobre`,commander:``,icon:``,
         pos:[610,516],
         elements:[
@@ -681,6 +689,82 @@ reserves=[
         pos:[660,545],
         elements:[
             {level:4,type:`Mortar Company`,team:`Italian`,desc:[`142nd Mortar Company`,`142° Compagnia Mortaio`],name:`142`,designation:``,commander:``},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`German`,
+        desc:[`2nd "Half and Half" Battalion, 33rd Artillery Regiment`,`II./Artillerie-Regiment (mot.) 33 "Halb und Halb"`],name:`2`,designation:`33`,commander:`Mesmer`,icon:`15pz`,
+        pos:[1986,996],
+        elements:[
+            {level:4,type:`Motorized Small Artillery Battery`,team:`German`,desc:[`4th Battery, 33rd Artillery Regiment`,`4./Artillerie-Regiment (mot.) 33 "Halb und Halb"`],name:`4`,designation:`33`,commander:``},
+            {level:4,type:`Motorized Concentrated Artillery Battery`,team:`German`,desc:[`5th Battery, 33rd Artillery Regiment`,`5./Artillerie-Regiment (mot.) 33 "Halb und Halb"`],name:`5`,designation:`33`,commander:``},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`German`,
+        desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`Zincke`,icon:`15pz`,
+        pos:[2160,896],
+        elements:[
+            {level:4,type:`Motorized Infantry Company`,team:`German`,desc:[`1st Company, 115th Rifle Regiment`,`1./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:``},
+            {level:4,type:`Mechanized Infantry Company`,team:`German`,desc:[`2nd Company, 115th Rifle Regiment`,`2./Schützen-Regiment 115`],name:`2`,designation:`115`,commander:``},
+            {level:4,type:`Motorized Infantry Company`,team:`German`,desc:[`3rd Company, 115th Rifle Regiment`,`3./Schützen-Regiment 115`],name:`3`,designation:`115`,commander:``},
+            {level:4,type:`Motorized Machine Gun Company`,team:`German`,desc:[`4th Company, 115th Rifle Regiment`,`4./Schützen-Regiment 115`],name:`4`,designation:`115`,commander:``},
+            {level:4,type:`Motorized Heavy Infantry Company`,team:`German`,desc:[`5th Company, 115th Rifle Regiment`,`5./Schützen-Regiment 115`],name:`5`,designation:`115`,commander:``},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`15th Mortar Company`,`15° Compagnia Mortaio`],name:`15`,designation:``,commander:``,icon:`savona`,
+        pos:[660,545],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`15th Mortar Company`,`15° Compagnia Mortaio`],name:`15`,designation:``,commander:``,icon:`savona`},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`16th Mortar Company`,`16° Compagnia Mortaio`],name:`16`,designation:``,commander:``,icon:`savona`,
+        pos:[660,545],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`16th Mortar Company`,`16° Compagnia Mortaio`],name:`16`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Anti-Tank`],team:`Italian`,
+        desc:[`55th Anti-Tank Company`,`55° Compagnia Anticarro`],name:`55`,designation:``,commander:``,icon:`savona`,
+        pos:[901,717],
+        elements:[
+            {level:4,type:`Anti-Tank Company`,team:`Italian`,desc:[`55th Anti-Tank Company`,`55° Compagnia Anticarro`],name:`55`,designation:``,commander:`savona`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+        desc:[`61st Machine Gun Battalion`,`61º Battaglione Mitraglieri`],name:`61`,designation:``,commander:`Pcres`,icon:`sirte`,
+        pos:[1217,344],
+        elements:[
+            {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 61st Machine Gun Battalion`,`1° Compagnia, 61º Battaglione Mitraglieri`],name:`1`,designation:`61`,commander:``},
+            {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 61st Machine Gun Battalion`,`2° Compagnia, 61º Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``},
+            {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Company, 61st Machine Gun Battalion`,`3° Compagnia, 61º Battaglione Mitraglieri`],name:`3`,designation:`61`,commander:``},
+            {level:4,type:`Heavy Machine Gun Company`,team:`Italian`,desc:[`4th Company, 61st Machine Gun Battalion`,`4° Compagnia, 61º Battaglione Mitraglieri`],name:`4`,designation:`61`,commander:``},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`140th Blackshirt Battalion "28 Ottobre"`,`CXL Coorte CC.NN. "28 Ottobre"`],name:`140`,designation:`28\nOttobre`,commander:`Martorana`,icon:``,
+        pos:[1054,364],
+        elements:[
+            {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`1st Company, 140th Blackshirt Battalion "28 Ottobre"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`1`,designation:`28 Ottobre`,commander:``},
+            {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`2nd Company, 140th Blackshirt Battalion "28 Ottobre"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`2`,designation:`28 Ottobre`,commander:``},
+            {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`3rd Company, 140th Blackshirt Battalion "28 Ottobre"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "28 Ottobre"`],name:`3`,designation:`28 Ottobre`,commander:``},
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`85th Mortar Company`,`85° Compagnia Mortaio`],name:`85`,designation:``,commander:``,icon:`sabratha`},
+        ],
+    },{
+        level:4,type:[`Engineer`,`Motorized`],team:`Australian`,
+        desc:[`16th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/16th Field Company, Royal Australian Engineers`],name:`2/16`,designation:``,commander:``,icon:`9a`,
+        pos:[2073,1046],
+        elements:[
+            {level:4,type:`Motorized Engineer Company`,team:`Australian`,desc:[`16th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/16th Field Company, Royal Australian Engineers`],name:`2/16`,designation:``,commander:``},
+        ],
+    },{
+        level:3,type:[`Anti-Tank`,`Motorized`],team:`German`,
+        desc:[`33rd Anti-Tank Battalion`,`Panzerjäger-Abteilung 33`],name:`33`,designation:``,commander:`Beil`,icon:`15pz`,
+        pos:[2073,946],
+        elements:[
+            {level:4,type:`Motorized Anti-Tank Company`,team:`German`,desc:[`1st Company, 33rd Anti-Tank Battalion`,`1./Panzerjäger-Abteilung 33`],name:`1`,designation:`33`,commander:``}, 
+            {level:4,type:`Motorized Anti-Tank Company`,team:`German`,desc:[`2nd Company, 33rd Anti-Tank Battalion`,`2./Panzerjäger-Abteilung 33`],name:`2`,designation:`33`,commander:``}, 
+            {level:4,type:`Motorized Anti-Tank Company`,team:`German`,desc:[`3rd Company, 33rd Anti-Tank Battalion`,`3./Panzerjäger-Abteilung 33`],name:`3`,designation:`33`,commander:``}, 
         ],
     },
 ]

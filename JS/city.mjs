@@ -30,22 +30,24 @@ export class city{
         this.hist=composite.hist
     }
     endTick(){
-        if(this.owner!=-1&&!this.supply.connect.some((conn,index)=>conn==1&&types.player[index].side==types.player[this.owner].side)){
-            this.owner=-1
-        }
-        if(this.owner!=-1){
-            this.operation.units.forEach(unit=>{
-                if(unit.strength.supply<unit.strength.base.supply&&distPos(unit,this)<[100,150][this.type]&&!this.operation.cities.some(city=>distPos(unit,this)>distPos(unit,city))){
-                    if(types.player[unit.player].side==types.player[this.owner].side&&unit.contain.trigger){
-                        unit.contain.units.forEach(cont=>{
-                            cont.strength.supply=min(
-                                cont.strength.supply+types.side[types.player[cont.player].side].supply,
-                                cont.strength.base.supply
-                            )
-                        })
+        if(this.connect.main.length>0){
+            if(this.owner!=-1&&!this.supply.connect.some((conn,index)=>conn==1&&types.player[index].side==types.player[this.owner].side)){
+                this.owner=-1
+            }
+            if(this.owner!=-1){
+                this.operation.units.forEach(unit=>{
+                    if(unit.strength.supply<unit.strength.base.supply&&distPos(unit,this)<[100,150][this.type]&&!this.operation.cities.some(city=>distPos(unit,this)>distPos(unit,city))){
+                        if(types.player[unit.player].side==types.player[this.owner].side&&unit.contain.trigger){
+                            unit.contain.units.forEach(cont=>{
+                                cont.strength.supply=min(
+                                    cont.strength.supply+types.side[types.player[cont.player].side].supply,
+                                    cont.strength.base.supply
+                                )
+                            })
+                        }
                     }
-                }
-            })
+                })
+            }
         }
         let closest=this.owner==-1?100:min(100,this.getNearSide(types.player[this.owner].side))
         types.player.forEach((player,index)=>{
@@ -94,7 +96,7 @@ export class city{
                                     connect.position.x,connect.position.y
                                 )
                             break
-                            case `Mersa Matruh`:
+                            case `Mersa Matruh`: case `Byut Fadit`:
                                 layer.bezier(
                                     this.position.x,this.position.y,
                                     this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
@@ -134,7 +136,7 @@ export class city{
                                     connect.position.x,connect.position.y
                                 )
                             break
-                            case `NAAFI`:
+                            case `NAAFI`: case `Qalala`:
                                 layer.bezier(
                                     this.position.x,this.position.y,
                                     this.position.x*0.7+connect.position.x*0.3-40,this.position.y*0.7+connect.position.y*0.3+10,

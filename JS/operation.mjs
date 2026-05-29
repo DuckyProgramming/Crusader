@@ -5,8 +5,8 @@ import {transitionManager} from './../../../JS/transitionManager.mjs'
 import {city} from './city.mjs'
 import {unit} from './unit.mjs'
 export class operation{
-    constructor(){
-        this.map=0
+    constructor(map){
+        this.map=map==undefined?0:map
         this.nextMap=this.map
         this.set=0
         this.cities=[]
@@ -23,18 +23,15 @@ export class operation{
         this.initialMaps()
 
         this.initial()
-        this.loadMap(this.map)
-        this.loadBack()
+        this.loadMap(this.map,map==undefined)
         this.initialComponents()
 
         constants.init=true
         if(dev.begin>=0){
             let flat=flatMap(types.map)
-            this.loadMap(flat[dev.begin].mapIndex)
-            this.loadBack()
-            this.initialComponents()
             this.map=flat[dev.begin].mapIndex
-            this.nextMap=flat[dev.begin].mapIndex
+            this.loadMap(this.map)
+            this.initialComponents()
             this.scene=`mapAll`
             this.initialUnits(flat[dev.begin].index)
         }
@@ -120,7 +117,7 @@ export class operation{
         input.addEventListener('change',function(){this.operation.loadStp(this)},false)
     }
     reform(){
-        return new operation()
+        return new operation(this.map)
     }
     startTurn(){
         this.units.forEach(unit=>{
@@ -130,10 +127,10 @@ export class operation{
             unit.logs.trigger=false
         })
         this.cities.forEach(city=>city.fade.revealTrigger=false)
-        if(this.turn.main>=this.turn.partition.length||this.turn.bonus){
-            if(this.turn.bonus){
-                this.turn.bonus=false
-            }
+        if(this.turn.bonus>0&&this.turn.main>=1){
+            this.turn.bonus--
+            this.startTick()
+        }else if(this.turn.main>=this.turn.partition.length){
             this.startTick()
         }else{
             this.turn.prep=true
@@ -182,13 +179,15 @@ export class operation{
         this.units.forEach(unit=>unit.updateStrength())
     }
     transitionComplete(scene){}
-    loadMap(map){
+    loadMap(map,load){
         types.city=types.map[map].city
         types.connect=types.map[map].connect
         types.team=types.map[map].team
         types.player=types.map[map].player
         types.side=types.map[map].side
-        this.loadMapComponents(map)
+        if(load||load==undefined){
+            this.loadMapComponents(map)
+        }
     }
     async loadMapComponents(map){
         let root=``
@@ -214,8 +213,6 @@ export class operation{
             loadBytes(`${root}Assets/${term}/data/fortifications.bin`,
             (img)=>resolve(img),reject)
         })
-    }
-    loadBack(){
         if(graphics.load.water.hasOwnProperty(`bytes`)){
             graphics.load.water=Array.from(graphics.load.water.bytes).map(byte=>byte.toString(2).padStart(8,`0`))
         }
@@ -293,9 +290,11 @@ export class operation{
                     layer.rect(layer.width/2,layer.height/2,800,120,20)
                     layer.fill(0,this.anim.prep)
                     layer.textSize(80)
-                    layer.text(`${this.turn.main==1&&this.turn.partition.length==2?`Axis`:types.player[this.turn.main].name} Turn Begin`,layer.width/2,layer.height/2+4)
+                    layer.text(`${this.turn.partition[this.turn.main][0].length==2?`Axis`:types.player[this.turn.partition[this.turn.main][0]].name} Turn Begin`,layer.width/2,layer.height/2+4)
                 }
                 if(this.anim.translate>0){
+                    layer.fill(200,this.anim.translate)
+                    layer.rect(layer.width/2,layer.height/2,800,340,20)
                     layer.fill(0,this.anim.translate)
                     layer.textSize(80)
                     layer.text(`Pick Languages`,layer.width/2,layer.height/2-96)
@@ -326,14 +325,18 @@ export class operation{
                     layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/2)*50)
                     for(let a=0,la=flat.length;a<la;a++){
                         let spread=even(floor(a/2),ceil(la/2))
-                        if(flat[a].battalions.length==0){
+                        layer.textSize(15)
+                        layer.text(`1234567890ABCDEF`[a],layer.width/2-30+a%2*380,layer.height/2+35+spread*100)
+                        if(flat[a].unit.strength.num.length==0){
                             layer.textSize(30)
                             layer.text(flat[a].unit.name,layer.width/2-190+a%2*380,layer.height/2+60+spread*100)
                         }else{
                             layer.textSize(25)
                             layer.text(flat[a].unit.name,layer.width/2-190+a%2*380,layer.height/2+50+spread*100)
                             layer.textSize(20)
-                            layer.text(flat[a].unit.battalions.map(set=>set.join(` + `)).join(` vs `),layer.width/2-190+a%2*380,layer.height/2+80+spread*100)
+                            layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190+a%2*380,layer.height/2+75+spread*100)
+                            layer.textSize(15)
+                            layer.text(flat[a].unit.strength.name,layer.width/2-190+a%2*380,layer.height/2+90+spread*100)
                         }
                     }
                 }
@@ -363,12 +366,12 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
-                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length==0){
+                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
                             layer.fill(150,this.anim.main*this.anim.select)
                             layer.rect(layer.width-340,50,200,60,10)
                             layer.fill(0,this.anim.main*this.anim.select)
                             layer.textSize(30)
-                            layer.text(`Disband`,layer.width-340,50,200)
+                            layer.text(`Disband HQ`,layer.width-340,50,200)
                             layer.textSize(10)
                             layer.text(`Enter`,layer.width-260,25)
                         }else if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
@@ -391,7 +394,11 @@ export class operation{
                             layer.fill(0,this.anim.main*this.anim.select)
                             if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
                                 layer.textSize(this.select.unit.contain.units.length<=1?30:15)
-                                layer.text(this.select.unit.contain.units.length<=1?`Disband`:`Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200)
+                                layer.text(
+                                    this.select.unit.contain.units.length==0?`Disband HQ`:
+                                    this.select.unit.contain.units.length==1?`Disband`:
+                                    `Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200
+                                )
                                 if(this.select.unit.contain.units.length>1){
                                     layer.textSize(20)
                                     layer.text(`Next`,layer.width-190,50)
@@ -521,17 +528,19 @@ export class operation{
             case `main`:
                 if(this.turn.time<=0){
                     if(this.turn.start){
-                        for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
+                        let flat=flatMap(types.map)
+                        for(let a=0,la=flat.length;a<la;a++){
                             let spread=even(floor(a/2),ceil(la/2))
                             if(inPointBox(mouse,boxify(layer.width/2-190+a%2*380,layer.height/2+60+spread*100,360,80))){
-                                if(types.map[this.map].unit[a].name==`Gazala Map`){
-                                    window.open('../Gazala')
-                                }else if(types.map[this.map].unit[a].name==`Mersa Matruh Map`){
-                                    window.open('../Matruh')
+                                if(flat[a].unit.name==`Legacy Modes`){
+                                    window.open(`Legacy/Crusader`)
                                 }else{
+                                    this.map=flat[a].mapIndex
+                                    this.loadMap(this.map)
+                                    this.initialComponents()
                                     this.turn.start=false
                                     this.turn.prep=true
-                                    this.turn.translate=a
+                                    this.turn.translate=flat[a].index
                                 }
                             }
                         }
@@ -630,12 +639,12 @@ export class operation{
                                                 })
                                                 let result=new unit(this,{
                                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                    level:element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,1][element.player],type:typing,team:element.team,
+                                                    level:element.level==4&&target.level==4||element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,2][element.player],type:typing,team:element.team,
                                                     desc:`${[
                                                         `${element.commander!=``?`${element.commander}col`:`Col`}`,
                                                         `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
                                                         options.translate?`Column${element.commander!=``?` ${element.commander}`:``}`:`Colonna${element.commander!=``?` ${element.commander}`:``}`
-                                                    ][element.player]}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation==``?element.name:element.designation,commander:element.commander,
+                                                    ][element.player]}`,name:[`${element.commander!=``?(element.commander.includes(`-`)?`${element.commander.replace(`-`,`-\n`)}col`:`${element.commander}col`):`Col`}`,`KG`,`C`][element.player],designation:element.designation==``?element.name:element.designation,commander:element.commander,
                                                     icon:element.icon,elements:[],
                                                 })
                                                 result.contain.adhoc=true
@@ -714,7 +723,7 @@ export class operation{
                                             this.select.unit.order.absorb++
                                         }
                                     }
-                                }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length==0){
+                                }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
                                     if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
                                         this.select.unit.active=false
                                         this.select.unit.destroy()
@@ -762,16 +771,18 @@ export class operation{
             case `main`:
                 if(this.turn.time<=0){
                     if(this.turn.start){
-                        for(let a=0,la=types.map[this.map].unit.length;a<la;a++){
-                            if(int(key)==a+1){
-                                if(types.map[this.map].unit[a].name==`Gazala Map`){
-                                    window.open('../Gazala')
-                                }else if(types.map[this.map].unit[a].name==`Mersa Matruh Map`){
-                                    window.open('../Matruh')
+                        let flat=flatMap(types.map)
+                        for(let a=0,la=flat.length;a<la;a++){
+                            if(key==`1234567890ABCDEF`[a]){
+                                if(flat[a].unit.name==`Legacy Modes`){
+                                    window.open(`Legacy/Crusader`)
                                 }else{
+                                    this.map=flat[a].mapIndex
+                                    this.loadMap(this.map)
+                                    this.initialComponents()
                                     this.turn.start=false
                                     this.turn.prep=true
-                                    this.turn.translate=a
+                                    this.turn.translate=flat[a].index
                                 }
                             }
                         }
@@ -955,7 +966,7 @@ export class operation{
                                         this.select.unit.order.absorb++
                                     }
                                 }
-                            }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length==0){
+                            }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
                                 if(key===`Enter`){
                                     this.select.unit.active=false
                                     this.select.unit.destroy()
