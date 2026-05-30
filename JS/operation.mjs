@@ -311,32 +311,35 @@ export class operation{
                 }
                 if(this.anim.start>0){
                     let flat=flatMap(types.map)
+                    let columns=4
                     layer.fill(200,this.anim.start)
-                    layer.rect(layer.width/2,layer.height/2,800,140+ceil(flat.length/2)*100,30)
+                    layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*100,30)
                     layer.fill(150,this.anim.start)
                     for(let a=0,la=flat.length;a<la;a++){
-                        let spread=even(floor(a/2),ceil(la/2))
-                        layer.rect(layer.width/2-190+a%2*380,layer.height/2+60+spread*100,360,80,20)
+                        let spread=even(floor(a/columns),ceil(la/columns))
+                        let left=min(la-floor(a/columns)*columns,columns)
+                        layer.rect(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80,20)
                     }
                     layer.fill(0,this.anim.start)
                     layer.textSize(80)
-                    layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/2)*50)
+                    layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
                     layer.textSize(40)
-                    layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/2)*50)
+                    layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*50)
                     for(let a=0,la=flat.length;a<la;a++){
-                        let spread=even(floor(a/2),ceil(la/2))
+                        let spread=even(floor(a/columns),ceil(la/columns))
+                        let left=min(la-floor(a/columns)*columns,columns)
                         layer.textSize(15)
-                        layer.text(`1234567890ABCDEF`[a],layer.width/2-30+a%2*380,layer.height/2+35+spread*100)
+                        layer.text(`1234567890ABCDEF`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
                         if(flat[a].unit.strength.num.length==0){
                             layer.textSize(30)
-                            layer.text(flat[a].unit.name,layer.width/2-190+a%2*380,layer.height/2+60+spread*100)
+                            layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
                         }else{
                             layer.textSize(25)
-                            layer.text(flat[a].unit.name,layer.width/2-190+a%2*380,layer.height/2+50+spread*100)
+                            layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
                             layer.textSize(20)
-                            layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190+a%2*380,layer.height/2+75+spread*100)
+                            layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(columns-1)+a%columns*380,layer.height/2+75+spread*100)
                             layer.textSize(15)
-                            layer.text(flat[a].unit.strength.name,layer.width/2-190+a%2*380,layer.height/2+90+spread*100)
+                            layer.text(flat[a].unit.strength.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+90+spread*100)
                         }
                     }
                 }
@@ -366,18 +369,21 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
-                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
+                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=(this.select.unit.contain.middle?0:1)){
                             layer.fill(150,this.anim.main*this.anim.select)
                             layer.rect(layer.width-340,50,200,60,10)
                             layer.fill(0,this.anim.main*this.anim.select)
                             layer.textSize(30)
-                            layer.text(`Disband HQ`,layer.width-340,50,200)
+                            layer.text(this.select.unit.contain.units.length==0?`Disband HQ`:`Disband`,layer.width-340,50,200)
                             layer.textSize(10)
                             layer.text(`Enter`,layer.width-260,25)
-                        }else if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
+                        }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
+                            if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
+                                absorb.push(-1)
+                            }
                             layer.fill(150,this.anim.main*this.anim.select)
                             if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
                                 layer.rect(layer.width-340,50,200,60,10)
@@ -396,7 +402,7 @@ export class operation{
                                 layer.textSize(this.select.unit.contain.units.length<=1?30:15)
                                 layer.text(
                                     this.select.unit.contain.units.length==0?`Disband HQ`:
-                                    this.select.unit.contain.units.length==1?`Disband`:
+                                    this.select.unit.contain.units.length==1?(this.select.unit.contain.middle?`Disband`:`Detach HQ`):
                                     `Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200
                                 )
                                 if(this.select.unit.contain.units.length>1){
@@ -406,7 +412,8 @@ export class operation{
                             }
                             if(absorb.length>0){
                                 layer.textSize(15)
-                                layer.text(`Absorb ${absorb[this.select.unit.order.absorb%absorb.length].desc}`,layer.width-340,130,200)
+                                let target=absorb[this.select.unit.order.absorb%absorb.length]
+                                layer.text(`Absorb ${target==-1?`Subelements`:target.getDesc()}`,layer.width-340,130,200)
                             }
                             if(absorb.length>1){
                                 layer.textSize(20)
@@ -522,6 +529,223 @@ export class operation{
             break
         }
     }
+    control(input){
+        let absorb=this.select.unit.contain.trigger?
+            this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
+            this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
+        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
+            absorb.push(-1)
+        }
+        if(this.select.unit.contain.trigger){
+            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
+                switch(input){
+                    case 0:
+                        /*if(this.select.unit.contain.units.length<=1){
+                            let element=this.select.unit.contain.units[0]
+                            let result=new unit(this,{
+                                pos:[this.select.unit.position.x,this.select.unit.position.y],
+                                level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
+                                desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
+                                icon:element.icon,elements:[],
+                            })
+                            result.contain.units.push(element)
+                            result.calculateElements()
+                            result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                            result.parent=this.select.unit.parent
+                            result.stats.kills.forEach((set,index,arr)=>arr[index]=this.select.unit.stats.kills[index])
+                            this.units.push(result)
+                            this.select.unit.active=false
+                            if(this.select.unit.parent!=-1){
+                                this.select.unit.parent.contain.units.splice(
+                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                    1
+                                )
+                                this.select.unit.parent.contain.units.push(result)
+                            }
+                            this.select.unit.contain.units=[]
+                            this.select.unit.order.trigger=false
+                            this.select.unit=result
+                            if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
+                                this.select.unit.order.trigger=true
+                            }
+                        }else{*/
+                        let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
+                        for(let a=0,la=100;a<la;a++){
+                            let dir=random(0,360)
+                            let pos={position:{
+                                x:this.select.unit.position.x+lsin(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1),
+                                y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
+                            }}
+                            if(!this.units.some(unit=>unit.active&&distPos(unit,pos)<types.unitLevel[3].size[element.player]+unit.radius)){
+                                let result=new unit(this,{
+                                    pos:[pos.position.x,pos.position.y],
+                                    level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
+                                    desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
+                                    icon:element.icon,elements:[],
+                                })
+                                result.contain.units.push(element)
+                                result.calculateElements()
+                                result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                result.parent=this.select.unit.parent
+                                this.units.push(result)
+                                let removed=false
+                                if(this.select.unit.contain.units.length==1){
+                                    this.select.unit.contain.trigger=false
+                                    if(this.select.unit.parent!=-1){
+                                        this.select.unit.contain.middle=true
+                                    }
+                                    this.select.unit.contain.units=[result]
+                                }else{
+                                    this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
+                                    removed=true
+                                }
+                                this.select.unit.calculateElements()
+                                if(removed&&this.select.unit.parent!=-1){
+                                    this.select.unit.parent.contain.units.push(result)
+                                }
+                                break
+                            }
+                        }
+                        //}
+                    break
+                    case 1:
+                        this.select.unit.order.detach++
+                    break
+                }
+            }
+            if(absorb.length>0){
+                switch(input){
+                    case 2:
+                        if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
+                            let target=absorb[this.select.unit.order.absorb%absorb.length]
+                            let element=this.select.unit.contain.units[0]
+                            let typing=element.type.map(type=>types.unitType[type].name)
+                            absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
+                                if(!typing.includes(types.unitType[type].name)){
+                                    typing.push(types.unitType[type].name)
+                                }
+                            })
+                            let result=new unit(this,{
+                                pos:[this.select.unit.position.x,this.select.unit.position.y],
+                                level:element.level==4&&target.level==4||element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,2][element.player],type:typing,team:element.team,
+                                desc:`${[
+                                    `${element.commander!=``?`${element.commander}col`:`Col`}`,
+                                    `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
+                                    options.translate?`Column${element.commander!=``?` ${element.commander}`:``}`:`Colonna${element.commander!=``?` ${element.commander}`:``}`
+                                ][element.player]}`,name:[`${element.commander!=``?(element.commander.includes(`-`)?`${element.commander.replace(`-`,`-\n`)}col`:`${element.commander}col`):`Col`}`,`KG`,`C`][element.player],designation:element.designation==``?element.name:element.designation,commander:element.commander,
+                                icon:element.icon,elements:[],
+                            })
+                            result.contain.adhoc=true
+                            result.contain.units.push(element)
+                            result.contain.units.push(target.contain.units[0])
+                            target.active=false
+                            target.contain.units=[]
+                            result.calculateElements()
+                            result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                            result.parent=this.select.unit.parent
+                            this.units.push(result)
+                            this.select.unit.active=false
+                            if(this.select.unit.parent!=-1){
+                                this.select.unit.parent.contain.units.splice(
+                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                    1
+                                )
+                                this.select.unit.parent.contain.units.push(result)
+                            }
+                            this.select.unit.contain.units=[]
+                            this.select.unit.order.trigger=false
+                            this.select.unit=result
+                            if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
+                                this.select.unit.order.trigger=true
+                            }
+                            if(target.parent!=-1){
+                                target.parent.contain.units.splice(
+                                    target.parent.contain.units.indexOf(target),
+                                    1
+                                )
+                            }
+                        }else{
+                            let target=absorb[this.select.unit.order.absorb%absorb.length]
+                            this.select.unit.contain.units.push(target.contain.units[0])
+                            this.select.unit.calculateElements()
+                            target.active=false
+                            target.contain.units=[]
+                            if(target.parent!=-1){
+                                target.parent.contain.units.splice(
+                                    target.parent.contain.units.indexOf(target),
+                                    1
+                                )
+                            }
+                            this.select.unit.calculateElements()
+                        }
+                    break
+                    case 3:
+                        this.select.unit.order.absorb++
+                    break
+                }
+            }
+        }else if(this.select.unit.contain.middle){
+            if(this.select.unit.contain.units.length>0){
+                switch(input){
+                    case 0:
+                        let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
+                        element.parent=this.select.unit.parent
+                        this.select.unit.parent.contain.units.push(element)
+                        this.select.unit.contain.units.splice(
+                            this.select.unit.contain.units.indexOf(element),
+                            1
+                        )
+                    break
+                    case 1:
+                        this.select.unit.order.detach++
+                    break
+                }
+            }else{
+                if(input==0){
+                    this.select.unit.active=false
+                    this.select.unit.destroy()
+                    this.select.unit.order.trigger=false
+                }
+            }
+            if(absorb.length>0){
+                switch(input){
+                    case 2:
+                        let target=absorb[this.select.unit.order.absorb%absorb.length]
+                        if(target==-1){
+                            let temp=[]
+                            this.select.unit.contain.units.forEach(unit=>{
+                                unit.active=false
+                                unit.destroyStats()
+                                temp.push(...unit.contain.units)
+                                unit.contain.units=[]
+                            })
+                            temp.forEach(unit=>unit.parent=this.select.unit)
+                            this.select.unit.contain.units=temp
+                            this.select.unit.contain.trigger=true
+                            this.select.unit.contain.middle=false
+                            this.select.unit.calculateElements()
+                        }else{
+                            target.parent=this.select.unit
+                            this.select.unit.contain.units.push(target)
+                            this.select.unit.parent.contain.units.splice(
+                                this.select.unit.parent.contain.units.indexOf(target),
+                                1
+                            )
+                        }
+                    break
+                    case 3:
+                        this.select.unit.order.absorb++
+                    break
+                }
+            }
+        }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
+            if(input==0){
+                this.select.unit.active=false
+                this.select.unit.destroy()
+                this.select.unit.order.trigger=false
+            }
+        }
+    }
     onClick(layer,mouse){
         let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
         switch(this.scene){
@@ -529,9 +753,13 @@ export class operation{
                 if(this.turn.time<=0){
                     if(this.turn.start){
                         let flat=flatMap(types.map)
+                        let columns=4
                         for(let a=0,la=flat.length;a<la;a++){
-                            let spread=even(floor(a/2),ceil(la/2))
-                            if(inPointBox(mouse,boxify(layer.width/2-190+a%2*380,layer.height/2+60+spread*100,360,80))){
+                            //let spread=even(floor(a/2),ceil(la/2))
+                            //if(inPointBox(mouse,boxify(layer.width/2-190+a%2*380,layer.height/2+60+spread*100,360,80))){
+                            let spread=even(floor(a/columns),ceil(la/columns))
+                            let left=min(la-floor(a/columns)*columns,columns)
+                            if(inPointBox(mouse,boxify(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80))){
                                 if(flat[a].unit.name==`Legacy Modes`){
                                     window.open(`Legacy/Crusader`)
                                 }else{
@@ -560,175 +788,14 @@ export class operation{
                     }else{
                         if(inPointBox(mouse,boxify(layer.width-230,90,460,180))){
                             if(this.anim.selectTrigger){
-                                if(this.select.unit.contain.trigger){
-                                    let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
-                                    if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
-                                        if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
-                                            if(this.select.unit.contain.units.length<=1){
-                                                let element=this.select.unit.contain.units[0]
-                                                let result=new unit(this,{
-                                                    pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                    level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
-                                                    desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
-                                                    icon:element.icon,elements:[],
-                                                })
-                                                result.contain.units.push(element)
-                                                result.calculateElements()
-                                                result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                                                result.parent=this.select.unit.parent
-                                                result.stats.kills.forEach((set,index,arr)=>arr[index]=this.select.unit.stats.kills[index])
-                                                this.units.push(result)
-                                                this.select.unit.active=false
-                                                if(this.select.unit.parent!=-1){
-                                                    this.select.unit.parent.contain.units.splice(
-                                                        this.select.unit.parent.contain.units.indexOf(this.select.unit),
-                                                        1
-                                                    )
-                                                    this.select.unit.parent.contain.units.push(result)
-                                                }
-                                                this.select.unit.contain.units=[]
-                                                this.select.unit.order.trigger=false
-                                                this.select.unit=result
-                                                if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
-                                                    this.select.unit.order.trigger=true
-                                                }
-                                            }else{
-                                                let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
-                                                for(let a=0,la=100;a<la;a++){
-                                                    let dir=random(0,360)
-                                                    let pos={position:{
-                                                        x:this.select.unit.position.x+lsin(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1),
-                                                        y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
-                                                    }}
-                                                    if(!this.units.some(unit=>unit.active&&distPos(unit,pos)<types.unitLevel[3].size[element.player]+unit.radius)){
-                                                        let result=new unit(this,{
-                                                            pos:[pos.position.x,pos.position.y],
-                                                            level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
-                                                            desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
-                                                            icon:element.icon,elements:[],
-                                                        })
-                                                        result.contain.units.push(element)
-                                                        result.calculateElements()
-                                                        result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                                                        result.parent=this.select.unit.parent
-                                                        this.units.push(result)
-                                                        this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
-                                                        this.select.unit.calculateElements()
-                                                        if(this.select.unit.parent!=-1){
-                                                            this.select.unit.parent.contain.units.push(result)
-                                                        }
-                                                        break
-                                                    }
-                                                }
-                                            }
-                                        }
-                                        if(inPointBox(mouse,boxify(layer.width-120,50,200,60))){
-                                            this.select.unit.order.detach++
-                                        }
-                                    }
-                                    if(absorb.length>0){
-                                        if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
-                                            if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
-                                                let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                                let element=this.select.unit.contain.units[0]
-                                                let typing=element.type.map(type=>types.unitType[type].name)
-                                                absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
-                                                    if(!typing.includes(types.unitType[type].name)){
-                                                        typing.push(types.unitType[type].name)
-                                                    }
-                                                })
-                                                let result=new unit(this,{
-                                                    pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                    level:element.level==4&&target.level==4||element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,2][element.player],type:typing,team:element.team,
-                                                    desc:`${[
-                                                        `${element.commander!=``?`${element.commander}col`:`Col`}`,
-                                                        `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
-                                                        options.translate?`Column${element.commander!=``?` ${element.commander}`:``}`:`Colonna${element.commander!=``?` ${element.commander}`:``}`
-                                                    ][element.player]}`,name:[`${element.commander!=``?(element.commander.includes(`-`)?`${element.commander.replace(`-`,`-\n`)}col`:`${element.commander}col`):`Col`}`,`KG`,`C`][element.player],designation:element.designation==``?element.name:element.designation,commander:element.commander,
-                                                    icon:element.icon,elements:[],
-                                                })
-                                                result.contain.adhoc=true
-                                                result.contain.units.push(element)
-                                                result.contain.units.push(target.contain.units[0])
-                                                target.active=false
-                                                target.contain.units=[]
-                                                result.calculateElements()
-                                                result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                                                result.parent=this.select.unit.parent
-                                                this.units.push(result)
-                                                this.select.unit.active=false
-                                                if(this.select.unit.parent!=-1){
-                                                    this.select.unit.parent.contain.units.splice(
-                                                        this.select.unit.parent.contain.units.indexOf(this.select.unit),
-                                                        1
-                                                    )
-                                                    this.select.unit.parent.contain.units.push(result)
-                                                }
-                                                this.select.unit.contain.units=[]
-                                                this.select.unit.order.trigger=false
-                                                this.select.unit=result
-                                                if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
-                                                    this.select.unit.order.trigger=true
-                                                }
-                                                if(target.parent!=-1){
-                                                    target.parent.contain.units.splice(
-                                                        target.parent.contain.units.indexOf(target),
-                                                        1
-                                                    )
-                                                }
-                                            }else{
-                                                let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                                this.select.unit.contain.units.push(target.contain.units[0])
-                                                this.select.unit.calculateElements()
-                                                target.active=false
-                                                target.contain.units=[]
-                                                if(target.parent!=-1){
-                                                    target.parent.contain.units.splice(
-                                                        target.parent.contain.units.indexOf(target),
-                                                        1
-                                                    )
-                                                }
-                                                this.select.unit.calculateElements()
-                                            }
-                                        }
-                                        if(inPointBox(mouse,boxify(layer.width-120,130,200,60))){
-                                            this.select.unit.order.absorb++
-                                        }
-                                    }
-                                }else if(this.select.unit.contain.middle&&this.select.unit.contain.units.length>0){
-                                    let absorb=this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
-                                    if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
-                                        let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
-                                        element.parent=this.select.unit.parent
-                                        this.select.unit.parent.contain.units.push(element)
-                                        this.select.unit.contain.units.splice(
-                                            this.select.unit.contain.units.indexOf(element),
-                                            1
-                                        )
-                                    }
-                                    if(inPointBox(mouse,boxify(layer.width-120,50,200,60))){
-                                        this.select.unit.order.detach++
-                                    }
-                                    if(absorb.length>0){
-                                        if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
-                                            let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                            target.parent=this.select.unit
-                                            this.select.unit.contain.units.push(target)
-                                            this.select.unit.parent.contain.units.splice(
-                                                this.select.unit.parent.contain.units.indexOf(target),
-                                                1
-                                            )
-                                        }
-                                        if(inPointBox(mouse,boxify(layer.width-120,130,200,60))){
-                                            this.select.unit.order.absorb++
-                                        }
-                                    }
-                                }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
-                                    if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
-                                        this.select.unit.active=false
-                                        this.select.unit.destroy()
-                                        this.select.unit.order.trigger=false
-                                    }
+                                if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
+                                    this.control(0)
+                                }else if(inPointBox(mouse,boxify(layer.width-120,50,200,60))){
+                                    this.control(1)
+                                }else if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
+                                    this.control(2)
+                                }else if(inPointBox(mouse,boxify(layer.width-120,130,200,60))){
+                                    this.control(3)
                                 }
                             }else{
                                 if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
@@ -803,175 +870,14 @@ export class operation{
                         }
                     }else{
                         if(this.anim.selectTrigger){
-                            if(this.select.unit.contain.trigger){
-                                let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
-                                if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
-                                    if(key===`Enter`){
-                                        if(this.select.unit.contain.units.length<=1){
-                                            let element=this.select.unit.contain.units[0]
-                                            let result=new unit(this,{
-                                                pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
-                                                desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
-                                                icon:element.icon,elements:[],
-                                            })
-                                            result.contain.units.push(element)
-                                            result.calculateElements()
-                                            result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                                            result.parent=this.select.unit.parent
-                                            result.stats.kills.forEach((set,index,arr)=>arr[index]=this.select.unit.stats.kills[index])
-                                            this.units.push(result)
-                                            this.select.unit.active=false
-                                            if(this.select.unit.parent!=-1){
-                                                this.select.unit.parent.contain.units.splice(
-                                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
-                                                    1
-                                                )
-                                                this.select.unit.parent.contain.units.push(result)
-                                            }
-                                            this.select.unit.contain.units=[]
-                                            this.select.unit.order.trigger=false
-                                            this.select.unit=result
-                                            if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
-                                                this.select.unit.order.trigger=true
-                                            }
-                                        }else{
-                                            let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
-                                            for(let a=0,la=100;a<la;a++){
-                                                let dir=random(0,360)
-                                                let pos={position:{
-                                                    x:this.select.unit.position.x+lsin(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1),
-                                                    y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
-                                                }}
-                                                if(!this.units.some(unit=>unit.active&&distPos(unit,pos)<types.unitLevel[3].size[element.player]+unit.radius)){
-                                                    let result=new unit(this,{
-                                                        pos:[pos.position.x,pos.position.y],
-                                                        level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
-                                                        desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
-                                                        icon:element.icon,elements:[],
-                                                    })
-                                                    result.contain.units.push(element)
-                                                    result.calculateElements()
-                                                    result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                                                    result.parent=this.select.unit.parent
-                                                    this.units.push(result)
-                                                    this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
-                                                    this.select.unit.calculateElements()
-                                                    if(this.select.unit.parent!=-1){
-                                                        this.select.unit.parent.contain.units.push(result)
-                                                    }
-                                                    break
-                                                }
-                                            }
-                                        }
-                                    }
-                                    if(key==`@`){
-                                        this.select.unit.order.detach++
-                                    }
-                                }
-                                if(absorb.length>0){
-                                    if(key==`Shift`){
-                                        if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
-                                            let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                            let element=this.select.unit.contain.units[0]
-                                            let typing=element.type.map(type=>types.unitType[type].name)
-                                            absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
-                                                if(!typing.includes(types.unitType[type].name)){
-                                                    typing.push(types.unitType[type].name)
-                                                }
-                                            })
-                                            let result=new unit(this,{
-                                                pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                level:element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,1][element.player],type:typing,team:element.team,
-                                                desc:`${[
-                                                    `${element.commander!=``?`${element.commander}col`:`Col`}`,
-                                                    `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
-                                                    options.translate?`Column${element.commander!=``?` ${element.commander}`:``}`:`Colonna${element.commander!=``?` ${element.commander}`:``}`
-                                                ][element.player]}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation==``?element.name:element.designation,commander:element.commander,
-                                                icon:element.icon,elements:[],
-                                            })
-                                            result.contain.adhoc=true
-                                            result.contain.units.push(element)
-                                            result.contain.units.push(target.contain.units[0])
-                                            target.active=false
-                                            target.contain.units=[]
-                                            result.calculateElements()
-                                            result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                                            result.parent=this.select.unit.parent
-                                            this.units.push(result)
-                                            this.select.unit.active=false
-                                            if(this.select.unit.parent!=-1){
-                                                this.select.unit.parent.contain.units.splice(
-                                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
-                                                    1
-                                                )
-                                                this.select.unit.parent.contain.units.push(result)
-                                            }
-                                            this.select.unit.contain.units=[]
-                                            this.select.unit.order.trigger=false
-                                            this.select.unit=result
-                                            if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
-                                                this.select.unit.order.trigger=true
-                                            }
-                                            if(target.parent!=-1){
-                                                target.parent.contain.units.splice(
-                                                    target.parent.contain.units.indexOf(target),
-                                                    1
-                                                )
-                                            }
-                                        }else{
-                                            let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                                this.select.unit.contain.units.push(target.contain.units[0])
-                                                this.select.unit.calculateElements()
-                                                target.active=false
-                                                target.contain.units=[]
-                                                if(target.parent!=-1){
-                                                    target.parent.contain.units.splice(
-                                                        target.parent.contain.units.indexOf(target),
-                                                        1
-                                                    )
-                                                }
-                                                this.select.unit.calculateElements()
-                                        }
-                                    }
-                                    if(key==`#`){
-                                        this.select.unit.order.absorb++
-                                    }
-                                }
-                            }else if(this.select.unit.contain.middle&&this.select.unit.contain.units.length>0){
-                                let absorb=this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
-                                if(key===`Enter`){
-                                    let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
-                                    element.parent=this.select.unit.parent
-                                    this.select.unit.parent.contain.units.push(element)
-                                    this.select.unit.contain.units.splice(
-                                        this.select.unit.contain.units.indexOf(element),
-                                        1
-                                    )
-                                }
-                                if(key==`@`){
-                                    this.select.unit.order.detach++
-                                }
-                                if(absorb.length>0){
-                                    if(key==`Shift`){
-                                        let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                        target.parent=this.select.unit
-                                        this.select.unit.contain.units.push(target)
-                                        this.select.unit.parent.contain.units.splice(
-                                            this.select.unit.parent.contain.units.indexOf(target),
-                                            1
-                                        )
-                                    }
-                                    if(key==`#`){
-                                        this.select.unit.order.absorb++
-                                    }
-                                }
-                            }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
-                                if(key===`Enter`){
-                                    this.select.unit.active=false
-                                    this.select.unit.destroy()
-                                    this.select.unit.order.trigger=false
-                                }
+                            if(key==`Enter`){
+                                this.control(0)
+                            }else if(key==`@`){
+                                this.control(1)
+                            }else if(key==`Shift`){
+                                this.control(2)
+                            }else if(key==`#`){
+                                this.control(3)
                             }
                             if(key==`Backspace`){
                                 this.units.forEach(unit=>unit.order.trigger=false)

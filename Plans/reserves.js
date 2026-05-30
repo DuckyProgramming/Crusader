@@ -766,5 +766,26 @@ reserves=[
             {level:4,type:`Motorized Anti-Tank Company`,team:`German`,desc:[`2nd Company, 33rd Anti-Tank Battalion`,`2./Panzerjäger-Abteilung 33`],name:`2`,designation:`33`,commander:``}, 
             {level:4,type:`Motorized Anti-Tank Company`,team:`German`,desc:[`3rd Company, 33rd Anti-Tank Battalion`,`3./Panzerjäger-Abteilung 33`],name:`3`,designation:`33`,commander:``}, 
         ],
+    },{
+        level:4,type:[`Infantry`],team:`Italian`,
+        desc:[`10th Company, 15th Infantry Regiment`,`10° Compagnia Fucilieri, 15° Reggimento di Fanteria Motorizzata "Savona"`],name:`10`,designation:`15`,commander:``,icon:`savona`,
+        pos:[1217,834],
+        elements:[
+            {type:`Infantry Company`},
+        ],
+    },{
+        level:3,type:[`Tank`],team:`German`,
+        desc:[`1st Battalion, 8th Panzer Regiment`,`I./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:`Kümmel`,icon:`15pz`,
+        pos:[455,1562],
+        elements:[
+            {type:`Medium Tank`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`German`,
+        desc:[`1st Battalion, 33rd Artillery Regiment`,`I./Artillerie-Regiment (mot.) 33`],name:`1`,designation:`33`,commander:`Mayer`,icon:`15pz`,
+        pos:[520,1562],
+        elements:[
+            {type:`Motorized Concentrated Artillery`},
+        ],
     },
 ]

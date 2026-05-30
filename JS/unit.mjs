@@ -86,16 +86,7 @@ export class unit{
                 this.contain.trigger=false
             }
         }
-        if(this.contain.trigger){
-            this.calculateElements()
-        }else{
-            this.contain.stats={
-                speed:max(1,this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0)),
-                artillery:false,engineer:false,recon:false
-            }
-            this.radius=40*types.map[this.operation.map].unitScale
-            this.order.artillery=false
-        }
+        this.calculateElements()
     }
     joinElement(element){
         this.contain.units.push(new unit(this.operation,{
@@ -171,7 +162,7 @@ export class unit{
         this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
         this.width=this.size*1.6
         this.height=this.size
-        this.radius=this.contain.trigger?this.size:40*types.map[this.operation.map].unitScale
+        this.radius=this.contain.trigger?this.size:(this.level==3?30:40)*types.map[this.operation.map].unitScale
 
         this.fade=composite.fade
         this.strength=composite.strength
@@ -297,10 +288,24 @@ export class unit{
             this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
         }
     }
+    destroyStats(){
+        if(this.parent!=-1&&this.parent.contain.units.includes(this)){
+            this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
+        }
+    }
     calculateElements(){
-        this.statistifyElements()
-        this.updateStrength()
-        this.order.artillery=this.contain.stats.artillery
+        if(this.contain.trigger){
+            this.statistifyElements()
+            this.updateStrength()
+            this.order.artillery=this.contain.stats.artillery
+        }else{
+            this.contain.stats={
+                speed:max(1,this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0)),
+                artillery:false,engineer:false,recon:false
+            }
+            this.radius=(this.level==3?30:40)*types.map[this.operation.map].unitScale
+            this.order.artillery=false
+        }
     }
     statistifyElements(){
         let len=max(1,this.contain.units.length)
@@ -1059,7 +1064,7 @@ export class unit{
                                             let moving2={x:target.position.x+lsin(dir)*distance,y:target.position.y+lcos(dir)*distance}
                                             if(this.operation.units.some(other=>{
                                                 let friendly=types.player[target.player].side==types.player[other.player].side
-                                                return other.active&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
+                                                return other.active&&other.contain.trigger&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
                                             })){
                                                 
                                                 let kills=[0,0,0]
@@ -1127,6 +1132,8 @@ export class unit{
                                     this.updateStrength(2)
                                 }
                             }
+                        }else{
+                            this.order.defense=true
                         }
                     }
                 }

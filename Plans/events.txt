@@ -451,16 +451,16 @@ XXX Corps (19 Battalions)
 	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
 
-1st South African Division (9 Battalions)
+1st South African Division (8 Battalions)
 	1st South African Infantry Brigade (3 Infantry Battalions)	
 	5th South African Infantry Brigade (3 Infantry Battalions)
 	3rd South African Field Regiment
 	4th South African Field Regiment
 	Machine Gun Battalion "President Steyn"
 
-XIII Corps (19 Battalions)
+XIII Corps (20 Battalions)
 
-2nd New Zealand Division (9 Battalions)
+2nd New Zealand Division (10 Battalions)
 	28th (Maori) New Zealand Infantry Battalion
 	4th New Zealand Infantry Brigade (3 Battalions)
 	5th New Zealand Infantry Brigade (3 Battalions)
@@ -749,18 +749,17 @@ REDUCTION OF THE FRONTIER:
 	4th New Zealand Field Regiment
 	5th New Zealand Field Regiment
 
-2nd South African Infantry Brigade (3 Infantry Battalions)
-
 
 
 55th Infantry Division "Savona" (4 Battalions)
-	3rd Battalion, 15th Infantry Regiment (With 15th Mortar Company)
+	3rd Battalion, 15th Infantry Regiment/
+	15th Mortar Company
 	3rd Battalion, 12th Artillery Regiemnt (3 Batteries)
 	155th Machine Gun Battalion (2 Companies)
 	300th "Oasis" Battalion Staff z.b.V. (6th and 12th Oasis Companies)
 
 Detachment Bardia (4 Battalions)
-	2nd Battalion, 15th Infantry Regiment
+	2nd Battalion, 15th Infantry Regiment (Minus One Company)
 	2nd Battalion, 16th Infantry Regiment
 	4th Machine Gun Battalion, "Genova Cavalleria" Regiment
 	2nd Company, 39th Engineer Battalion
@@ -775,14 +774,14 @@ SECOND SONNENBLUME:
 
 
 
-8th Army (16 Battalions)
+8th Army (15 Battalions)
 
-XIII Corps (16 Battalions)
+XIII Corps (15 Battalions)
 
-7th Armoured Division (11 Battalions)
+7th Armoured Division (10 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
-	7th Support Group (2 Infantry Battalions, 3 Artillery Battalions)
+	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
 
 4th Indian Division (5 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
@@ -790,26 +789,21 @@ XIII Corps (16 Battalions)
 
 
 
-Deutsches Afrika Korps (10 Battalions)
+Deutsches Afrika Korps (8 Battalions)
 
-15th Panzer Division (9 Battalions)
+15th Panzer Division (5 Battalions)
 	8th Panzer Regiment (1 Battalion)
-	15th Infantry Brigade (3 Battalions)
-		115th Motorized Infantry Regiment (2 Battalions)
-		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion)
-	33rd Reconnaissance Battalion
-	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion)
-	33rd Motorized Engineer Battalion
+	33rd Artillery Regiment (2 Battalions)
 	33rd Anti-Tank Battalion
+	33rd Reconnaissance Battalion
 
-90th Light Division (1 Battalion)
+90th Light Division (3 Battalions)
+	115th Motorized Infantry Regiment (2 Battalions)
 	3rd Battalion, 347th Infantry Regiment
 
 
 
-XXII Army Corps (14 Battalions)
-
-Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
+XXII Army Corps (12 Battalions)
 
 102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
@@ -1162,26 +1156,25 @@ FIRST EL ALAMEIN:
 
 8th Army (40 Battalions)
 
-XXX Corps (16 Battalions)
+XXX Corps (17 Battalions)
 
 1st South African Division (9 Battalions)
 	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	Machine Gun Battalion "President Steyn"
 
-4th Indian Infantry Division (7 Battalions)
-	18th Indian Infantry Brigade (3 Battalions)
+4th Indian Infantry Division (8 Battalions)
+	18th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 
-XIII Corps (24 Battalions)
+XIII Corps (23 Battalions)
 
 7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guards Armoured Cars
-	6th South African Armoured Car Regiment
 	4th Armoured Brigade Group (2 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
-2nd New Zealand Division (14 Battalions)
+2nd New Zealand Division (13 Battalions)
 	27th Machine Gun Battalion
 	28th (Maori) Infantry Battalion
 	4th New Zealand Infantry Brigade (3 Battalions)
@@ -1197,7 +1190,7 @@ XIII Corps (24 Battalions)
 Reinforcements (8 Battalions, Arrived)
 	20th Australian Infantry Brigade (3 Battalions)
 	3rd Indian Motor Brigade (4 Battalions)
-	8th Irish Hussars
+	6th South African Armoured Car Regiment
 
 
 

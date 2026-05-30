@@ -98,6 +98,7 @@ Some sources indicate that after Roske's loss, the battalion was disbanded, whle
 Alternatively, maybe both of these are true. Rocholl could've taken command only for the battalion to end up disbanded a few days later anyway.
 
 I can confirm that Moubray still commanded the 3rd Battalion, Coldstream Guards by the end of Operation Crusader. Only in 1942 was he replaced by Sainthill.
+I can't be sure that he was still around when Rommel launched his second offensive, but given the timeline it seems unlikely that he would have lost command (given his battalion's decent performance.)
 Lucky time to leave command for him, I guess, since otherwise he would've been captured at Tobruk. Or maybe he would've managed to break out like Sainthill did.
 
 Some sources indicate the Giovani Fascisti Regiment and the MILMART battalion as part of the Areite Division. I believe they were corps assets or part of RECAM but were fluidly redeployed within CAM.
@@ -269,3 +270,5 @@ Interestingly, III./I.R. 155, formerly III./I.R. 268, was given instruction by t
 Something I've done out of convenience is to repeatedly ignore the Ras el Medauar salient in the southwest of the Tobruk defenses, held by German troops for much of the siege.
 It was decided that the salient was too stalemated and not worth attacking in again, while the Australian and British units constantly harassed it with small-scale attacks.
 If I did choose to model it, I would put I./S.R. 115 there to back up the various Italian units, for the Battleaxe campaign only.
+
+Wikipedia doesn't list this, but the 18th Indian Infantry Brigade had the 121st Field Regiment, Royal Artillery when it was destroyed.

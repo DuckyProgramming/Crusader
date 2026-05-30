@@ -49,16 +49,27 @@ export class city{
                 })
             }
         }
-        let closest=this.owner==-1?100:min(100,this.getNearSide(types.player[this.owner].side))
-        types.player.forEach((player,index)=>{
-            if(this.near(closest,index)){
-                if(this.supply.connect.some((conn,index2)=>player.side==types.player[index2].side&&conn==1)||this.type==1){
-                    this.owner=index
-                }else{
-                    this.owner=-1
+        if(this.type==1||this.connect.main.length==0){
+            let closest={dist:100,unit:-1}
+            this.operation.units.forEach(unit=>{
+                if(unit.active&&distPos(this,unit)<closest.dist){
+                    closest.dist=distPos(this,unit)
+                    closest.unit=unit
                 }
-            }
-        })
+            })
+            this.owner=closest.unit==-1?this.owner:closest.unit.player
+        }else{
+            let closest=this.owner==-1?100:min(100,this.getNearSide(types.player[this.owner].side))
+            types.player.forEach((player,index)=>{
+                if(this.near(closest,index)){
+                    if(this.supply.connect.some((conn,index2)=>player.side==types.player[index2].side&&conn==1)){
+                        this.owner=index
+                    }else{
+                        this.owner=-1
+                    }
+                }
+            })
+        }
         this.hist.push({owner:this.owner})
     }
     near(dist,player){

@@ -7,7 +7,6 @@ Royal Tank Regiment:
 
 Misc Tanks:
 | 3 Hussars
-| 7 Hussars
 | 8 Hussars
 | 6 Australian Cavalry
 
@@ -63,7 +62,6 @@ South African Infantry:
 | MG President Steyn
 
 Indian Infantry:
-| 2 Royal Lancers
 | 3/2 Punjab Regiment
 | 1/5 Mahratta Light Infantry
 | 2/5 Mahratta Light Infantry
@@ -71,8 +69,11 @@ Indian Infantry:
 | 2/11 Sikh Regiment
 | 4/11 Sikh Regiment
 | 6/13 Frontier Force Rifles
-| 11th Prince Albert Victor's Own Cavalry (11th Frontier Force)
-| 18th King Edward VII's Own Cavalry
+
+Indian Cavalry:
+| 2 Royal Lancers
+| 11 Prince Albert Victor's Own Cavalry (11th Frontier Force)
+| 18 King Edward VII's Own Cavalry
 
 Polish/Czechoslovak:
 | 1 Carpathian
@@ -86,6 +87,7 @@ Royal Artillery:
 | 3
 | 25
 | 60
+| 121
 
 Royal Horse Artillery:
 | 2
