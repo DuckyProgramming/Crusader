@@ -337,7 +337,7 @@ export class operation{
                             layer.textSize(25)
                             layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
                             layer.textSize(20)
-                            layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(columns-1)+a%columns*380,layer.height/2+75+spread*100)
+                            layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
                             layer.textSize(15)
                             layer.text(flat[a].unit.strength.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+90+spread*100)
                         }
@@ -532,6 +532,7 @@ export class operation{
     control(input){
         let absorb=this.select.unit.contain.trigger?
             this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
+            this.select.unit.parent==-1?[]:
             this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
         if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
             absorb.push(-1)
@@ -540,35 +541,6 @@ export class operation{
             if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
                 switch(input){
                     case 0:
-                        /*if(this.select.unit.contain.units.length<=1){
-                            let element=this.select.unit.contain.units[0]
-                            let result=new unit(this,{
-                                pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
-                                desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
-                                icon:element.icon,elements:[],
-                            })
-                            result.contain.units.push(element)
-                            result.calculateElements()
-                            result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
-                            result.parent=this.select.unit.parent
-                            result.stats.kills.forEach((set,index,arr)=>arr[index]=this.select.unit.stats.kills[index])
-                            this.units.push(result)
-                            this.select.unit.active=false
-                            if(this.select.unit.parent!=-1){
-                                this.select.unit.parent.contain.units.splice(
-                                    this.select.unit.parent.contain.units.indexOf(this.select.unit),
-                                    1
-                                )
-                                this.select.unit.parent.contain.units.push(result)
-                            }
-                            this.select.unit.contain.units=[]
-                            this.select.unit.order.trigger=false
-                            this.select.unit=result
-                            if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
-                                this.select.unit.order.trigger=true
-                            }
-                        }else{*/
                         let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
                         for(let a=0,la=100;a<la;a++){
                             let dir=random(0,360)
@@ -605,8 +577,36 @@ export class operation{
                                 }
                                 break
                             }
+                            if(this.select.unit.contain.units.length==1&&a==la-1){
+                                let element=this.select.unit.contain.units[0]
+                                let result=new unit(this,{
+                                    pos:[this.select.unit.position.x,this.select.unit.position.y],
+                                    level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
+                                    desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
+                                    icon:element.icon,elements:[],
+                                })
+                                result.contain.units.push(element)
+                                result.calculateElements()
+                                result.fade=JSON.parse(JSON.stringify(this.select.unit.fade))
+                                result.parent=this.select.unit.parent
+                                result.stats.kills.forEach((set,index,arr)=>arr[index]=this.select.unit.stats.kills[index])
+                                this.units.push(result)
+                                this.select.unit.active=false
+                                if(this.select.unit.parent!=-1){
+                                    this.select.unit.parent.contain.units.splice(
+                                        this.select.unit.parent.contain.units.indexOf(this.select.unit),
+                                        1
+                                    )
+                                    this.select.unit.parent.contain.units.push(result)
+                                }
+                                this.select.unit.contain.units=[]
+                                this.select.unit.order.trigger=false
+                                this.select.unit=result
+                                if(this.turn.partition[this.turn.main].includes(this.select.unit.player)){
+                                    this.select.unit.order.trigger=true
+                                }
+                            }
                         }
-                        //}
                     break
                     case 1:
                         this.select.unit.order.detach++
@@ -630,7 +630,7 @@ export class operation{
                                 level:element.level==4&&target.level==4||element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,2][element.player],type:typing,team:element.team,
                                 desc:`${[
                                     `${element.commander!=``?`${element.commander}col`:`Col`}`,
-                                    `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
+                                    `${options.translate?`Battle Group`:`Kampfgruppe`}${element.commander!=``?` ${element.commander}`:``}`,
                                     options.translate?`Column${element.commander!=``?` ${element.commander}`:``}`:`Colonna${element.commander!=``?` ${element.commander}`:``}`
                                 ][element.player]}`,name:[`${element.commander!=``?(element.commander.includes(`-`)?`${element.commander.replace(`-`,`-\n`)}col`:`${element.commander}col`):`Col`}`,`KG`,`C`][element.player],designation:element.designation==``?element.name:element.designation,commander:element.commander,
                                 icon:element.icon,elements:[],

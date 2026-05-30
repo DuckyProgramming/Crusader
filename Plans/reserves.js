@@ -787,5 +787,33 @@ reserves=[
         elements:[
             {type:`Motorized Concentrated Artillery`},
         ],
+    },{
+        level:3,type:[`Oasis Infantry`],team:`German`,
+        desc:[`300th Special Purpose Battalion Staff "Oasis"`,`Bataillonstab z.b.V. 300 "Oasen"`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Teetz`,icon:`90l`,
+        pos:[1241,710],
+        elements:[
+            {
+                level:4,type:[`Oasis Infantry`],team:`German`,
+                desc:[`6th Oasis Company`,`Oasen Kompanie 6`],name:`6`,designation:`Oasis`,commander:`Ennecerus`,icon:`90l`,
+                pos:[1329,776],
+                elements:[
+                    {type:`Oasis Infantry Company`},
+                ]
+            },
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorcycle`],team:`German`,
+        desc:[`3rd Company, 15th Motorcycle Battalion`,`3./Kradschützen-Bataillon 15`],name:`3`,designation:`15`,commander:``,icon:`15pz`,
+        pos:[1038,754],
+        elements:[
+            {type:`Motorcycle Infantry Company`},
+        ]
+    },{
+        level:4,type:[`Infantry`,`Motorcycle`,`Machine Gun`],team:`German`,
+        desc:[`4th Company, 15th Motorcycle Battalion`,`4./Kradschützen-Bataillon 15`],name:`4`,designation:`15`,commander:`Paulewicz`,icon:`15pz`,
+        pos:[784,658],
+        elements:[
+            {type:`Motorcycle Machine Gun Company`},
+        ]
     },
 ]

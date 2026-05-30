@@ -272,3 +272,11 @@ It was decided that the salient was too stalemated and not worth attacking in ag
 If I did choose to model it, I would put I./S.R. 115 there to back up the various Italian units, for the Battleaxe campaign only.
 
 Wikipedia doesn't list this, but the 18th Indian Infantry Brigade had the 121st Field Regiment, Royal Artillery when it was destroyed.
+
+The Operation Compass Order of Battle on Wikipedia (from Montanari) lists a XXI Libyan Coastal Battalion as part of the Tobruk garrison at the start of the operation.
+However, according to Niehorster, the battalion was part of the GaF and thus would be part of the 2300 that Montanari lists there.
+But since Niehorster's OOB of the 32nd GaF sector's subsectors is incomplete, I have no way to verify this using the numbers.
+Because of this lack of information, I'm just going to ignore this unit until I can find more on it.
+
+Little to no damage was sustained by the Trento division during Operation Brevity, as its elements were either in Bardia (which wasn't attacked) or were late reinforcements.
+The Italian units that were lost seem to all have been from the 8th Bersaglieri Regiment, though they fought hard and surrendered much less than the previous year. About one company was captured.

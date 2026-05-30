@@ -265,7 +265,7 @@ export class unit{
         return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist*unit.getDistMult())
     }
     getParentEffectiveness(){
-        return this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
+        return this.contain.stats.recon||this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
     }
     getDesc(){
         return `${this.contain.temp?``:`the `}${this.desc}`
@@ -277,7 +277,7 @@ export class unit{
         return this.stats.kills[variant]+this.contain.units.reduce((acc,unit)=>acc+unit.getKills(variant),0)
     }
     getDistMult(){
-        return this.contain.stats.recon?2:1
+        return this.contain.stats.recon?1.5:1
     }
     destroy(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
@@ -324,7 +324,7 @@ export class unit{
             speed:this.contain.units.reduce((acc,unit)=>min(acc,types.elementType[unit.elementType].speed),10),
             artillery:this.contain.units.some(unit=>types.elementType[unit.elementType].artillery),
             engineer:this.contain.units.some(unit=>types.elementType[unit.elementType].engineer),
-            recon:this.contain.units.every(unit=>types.elementType[unit.elementType].recon),
+            recon:this.contain.units.some(unit=>types.elementType[unit.elementType].recon),
         }
         this.strength.base.num=[
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?types.elementType[unit.elementType].num:0),0),
@@ -388,9 +388,9 @@ export class unit{
                     }
                 }else{
                     if(this.fade.hover>0){
-                        layer.stroke(...types.player[this.player].color,0.25*this.fade.hover)
                         layer.strokeWeight(8*types.map[this.operation.map].unitScale)
                         this.contain.units.forEach(unit=>{
+                            layer.stroke(...types.player[this.player].color,0.25*this.fade.hover*unit.fade.main)
                             layer.line(this.position.x,this.position.y,unit.position.x,unit.position.y)
                         })
                     }
@@ -548,6 +548,12 @@ export class unit{
                             break
                             case 21:
                                 layer.line(-8,-3.25,8,-3.25)
+                            break
+                            case 22:
+                                layer.line(-8,-3.25,8,-3.25)
+                                layer.line(-8,3.25,8,3.25)
+                                layer.line(-6.25,-5,-6.25,5)
+                                layer.line(6.25,-5,6.25,5)
                             break
                         }
                     }

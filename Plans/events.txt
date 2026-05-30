@@ -252,12 +252,13 @@ BREVITY:
 
 
 
-Western Desert Force (14 Battalions)
+Western Desert Force (16 Battalions)
 
-Brevity Command (8 Battalions)
+Brevity Command (10 Battalions)
 
-7th Support Group (2 Battalions)
+7th Support Group (3 Battalions)
 	2nd Battalion, Rifle Brigade
+	6th Australian Division Cavalry (Light Tanks)
 	60th (North Midland) Field Regiment, Royal Artillery
 
 22nd Guards Brigade (3 Battalions)
@@ -265,10 +266,10 @@ Brevity Command (8 Battalions)
 	2nd Battalion, Scots Guards
 	3rd Battalion, Coldstream Guards
 
-4th Armoured Brigade Group (3 Battalions)
+4th Armoured Brigade Group (4 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Royal Tank Regiment
-	6th Australian Division Cavalry (Light Tanks)
+	2 Jock Columns Formed From the 1st King's Royal Rifle Corps and 4th Royal Horse Artillery
 
 Tobruk Garrison (6 Battalions)
 
@@ -691,11 +692,11 @@ STAND AT GAZALA:
 
 
 
-8th Army (18 Battalions)
+8th Army (20 Battalions)
 
-XIII Corps (18 Battalions)
+XIII Corps (20 Battalions)
 
-7th Armoured Division (6 Battalions)
+7th Armoured Division (8 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade Group (1 Armoured Battalion, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
@@ -712,11 +713,11 @@ Deutsches Afrika Korps (8 Battalions)
 
 15th Panzer Division (7 Battalions)
 	8th Panzer Regiment (1 Battalion)
-	15th Infantry Brigade (2 Battalions)
-		115th Motorized Infantry Regiment (2 Battalions)
-	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion)
+	15th Infantry Brigade (3 Battalions)
+		2nd Battalion, 115th Infantry Regiment
+		33rd Artillery Regiment (1 Battalion, 1 Heavy Battalion)
+	200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
-	33rd Anti-Tank Battalion
 
 90th Light Division (1 Battalion)
 	3rd Battalion, 347th Infantry Regiment
@@ -730,6 +731,7 @@ Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 102nd Infantry Division "Trento" (8 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
+	7th Bersaglieri Regiment (2 Battalions)
 	46th Artillery Regiment (2 Battalions (1,3))
 
 
