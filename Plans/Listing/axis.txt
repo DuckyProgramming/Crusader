@@ -62,10 +62,9 @@ Italian Infantry:
 | 140 Blackshirt "28 Ottobre"
 
 Italian Bersaglieri:
-| 8
+| 8/Mixed
 | 10
 | 11
-| Mixed
 
 Italian Infantry Support:
 | 60
@@ -88,6 +87,7 @@ Italian Artillery:
 | 4/46
 | 1/14 RBV
 | 3/15 RBV
+| Coastal
 
 Italian Corps Artillery:
 | 17

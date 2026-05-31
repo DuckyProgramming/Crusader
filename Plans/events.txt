@@ -31,7 +31,7 @@ Advance Group (4 Battalions)
 	150th Artillery Group (Detached From 25th Corps Artillery Regiment)
 
 Independent Artillery (7 Battalions)
-	10th Corps Artillery Regiment (2 Battalions (17,35))
+	10th Corps Artillery Regiment (2 Battalions (17,25))
 	22nd Corps Artillery Regiment (2 Battalions (42,43))
 	25th Corps Artillery Regiment (2 Heavy Battalions (105,130))
 	3rd Group, 12th Artillery Regiment
@@ -519,18 +519,18 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
 
-55th Infantry Division "Savona" (10 Battalions)
+55th Infantry Division "Savona" (11 Battalions)
 	15th Infantry Regiment (2 Battalions)
 	16th Infantry Regiment (2 Battalions)
 	"Di Bardi" Task Force (2 Battalions, Detached from 15th and 16th Infantry Regiments)
-	12th Artillery Regiment (2 Battalions (2,3))
+	12th Artillery Regiment (2 Battalions (2,3), 1 Coastal Defense Group)
 	4th Machine Gun Battalion, "Genova Cavalleria" Regiment
 	155th Machine Gun Battalion
 
-102nd Infantry Division "Trento" (13 Battalions)
+102nd Infantry Division "Trento" (12 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (3 Battalions)
+	7th Motorized Bersaglieri Regiment (2 Battalions)
 	46th Artillery Regiment (3 Battalions (1,3,4))
 	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 

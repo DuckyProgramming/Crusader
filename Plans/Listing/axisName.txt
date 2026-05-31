@@ -25,7 +25,7 @@ Blackshirt Battalion "Volontari della Libia"
 140th Blackshirt Battalion "Aquilia"
 
 Independent Artillery (8 Battalions)
-	10th Corps Artillery Regiment (2 Battalions (17,35))
+	10th Corps Artillery Regiment (2 Battalions (17,25))
 	22nd Corps Artillery Regiment (2 Battalions (42,43))
 	25th Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
 

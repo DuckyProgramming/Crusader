@@ -815,5 +815,21 @@ reserves=[
         elements:[
             {type:`Motorcycle Machine Gun Company`},
         ]
+    },{
+        level:1,type:[`Infantry`,`Motorized`],team:`British`,
+        desc:`7th Motor Brigade`,name:`7`,designation:``,commander:`Renton`,icon:`7sg`,
+        pos:[1258,1138],
+        elements:[
+            {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, King's Royal Rifle Corps`,name:`2`,designation:`King's Royal\nRifle Corps`,commander:`Erskine`},
+            {level:3,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Edwardes`},
+            {level:3,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+        desc:[`1st Company, 155st Machine Gun Battalion`,`1° Compagnia, 155º Battaglione Mitraglieri`],name:`1`,designation:`155`,commander:``,icon:`savona`,
+        pos:[1051,811],
+        elements:[
+            {type:`Machine Gun Company`},
+        ],
     },
 ]

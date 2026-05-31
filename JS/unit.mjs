@@ -318,9 +318,9 @@ export class unit{
                 this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[2],0),
                 this.contain.units.filter(unit=>types.elementType[unit.elementType].artillery).reduce((acc,unit)=>acc+types.elementType[unit.elementType].damage[3],0)
             ],
-            armor:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].armor,0)/len,
+            armor:sqrt(this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].armor**2,0)/len),
             health:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].health,0),
-            morale:this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].morale,0)/len,
+            morale:sqrt(this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].morale**2,0)/len),
             speed:this.contain.units.reduce((acc,unit)=>min(acc,types.elementType[unit.elementType].speed),10),
             artillery:this.contain.units.some(unit=>types.elementType[unit.elementType].artillery),
             engineer:this.contain.units.some(unit=>types.elementType[unit.elementType].engineer),

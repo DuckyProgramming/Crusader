@@ -212,7 +212,8 @@ Regio Esercito indicates that many of the Army Corps Artillery Regiments of the 
 8th CAR (8,113,114): 22nd CAR (1,42,43)
 10th CAR (7,17,35): 16th CAR (40,44,49), 25th CAR (105,130,148,150)
 Niehorster, however, indicates that the 1st group of the 22nd CAR stayed in Italy. When the regiment arrived in Africa, it gained the 42nd and 43rd groups, plus some anti-air, but left the 1st group behind.
-The 10th CAR also appears reduced in Niehorster's order of battle, with its 7th group gone. I assume it was left in Italy as well or was sunk on transport.
+The 10th CAR also appears reduced in Niehorster's order of battle, with its 7th group gone. I assume it was left in Italy as well or was sunk on transport. Niehorster also shows its 35th group as the 25th.
+I'm inclined to believe this, since another source backs it up. I think this 7th group was lost and the 35th group was a typo on Regio Esercito.
 25th CAR was armed with 149/13 Austro-Hungarian howitzers built in 1914. They were obsolete for sure, but heavier than the rest.
 
 The 20th (1,2,3,4,20) and 21st (1,2,3,4,21) were destroyed in North Africa and didn't have subsidiary elements.
@@ -260,7 +261,8 @@ It doesn't help that Bir Lunes might actually be Bir Junes. And Ras el Madauar h
 For some godforsaken reason, the two mortar companies, the 141st and 142nd, of the 64th "Catanzaro" Infantry Division, made it to Tobruk despite the division being destroyed at the camps and Bardia.
 Regardless of how they got there, I'm going to attach them to the Blackshirt battalions as a sort of "ad-hoc" remnant of earlier destroyed units, but pretend they're independent rather than regimental.
 
-The 140th Blackshirt Battalion was a part of the 238th Blackshirt Legion of the 2nd "28 Ottobre" Blackshirt Division. It was formed using cadres from Salerno, and was nicknamed "Aquilia".
+The 140th Blackshirt Battalion was a part of the 238th Blackshirt Legion of the 2nd "28 Ottobre" Blackshirt Division.
+It was formed using cadres from Salerno, which was sometimes its nickname, and was nicknamed "Aquilia". The regiment had the nickname "Aurelio Padovani".
 As a formably legion it was of the "Desposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
 It appears that this battalion was the only survivor of the division which was otherwise destroyed in Bardia. It would end up in Tobruk where it, too, was destroyed.
 
