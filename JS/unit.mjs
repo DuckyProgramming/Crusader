@@ -555,6 +555,10 @@ export class unit{
                                 layer.line(-6.25,-5,-6.25,5)
                                 layer.line(6.25,-5,6.25,5)
                             break
+                            case 23:
+                                layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
+                                layer.point(0,0)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined){
@@ -803,7 +807,7 @@ export class unit{
                                         kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
                                         unit.strength.morale=max(0,
                                             unit.strength.morale-
-                                            sqrt(damage*unit.battle.battalionVariance/types.team[unit.team].quality)*3/target.contain.stats.morale
+                                            sqrt(damage*unit.battle.battalionVariance/types.team[unit.team].quality)*3*unit.strength.morale/unit.strength.base.morale/target.contain.stats.morale
                                         )
                                     })
                                     let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]

@@ -13,7 +13,6 @@ Misc Tanks:
 Recon:
 | 1 King's Dragoon Guards
 | 6 South African Armoured Car Regiment
-| 13 Lancers
 
 British Infantry:
 | 1 Buffs (Royal East Kent Regiment)
@@ -66,6 +65,7 @@ Indian Infantry:
 | 1/5 Mahratta Light Infantry
 | 2/5 Mahratta Light Infantry
 | 1/6 Rajputana Rifles
+| 2/7 Gurkha Rifles
 | 2/11 Sikh Regiment
 | 4/11 Sikh Regiment
 | 6/13 Frontier Force Rifles
@@ -87,7 +87,7 @@ Royal Artillery:
 | 3
 | 25
 | 60
-| 121
+| 157
 
 Royal Horse Artillery:
 | 2

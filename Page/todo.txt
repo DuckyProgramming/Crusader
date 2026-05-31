@@ -9,6 +9,7 @@ windeyer (brigade)
 
 change penalty scattergun
 change ice cream
+nutter - replace battery lmg - fires a shotgun blast of ballista bolts but lose 25% of your hp on use
 the updated engineer
 - 4-6 sentries
 - 2 dispensers
