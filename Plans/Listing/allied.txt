@@ -16,19 +16,18 @@ Recon:
 
 British Infantry:
 | 1 Buffs (Royal East Kent Regiment)
-| 3 Coldstream Guards
-| 1 Durham Light Infantry
+| 3 Coldstream Guards (Guards)
 | 2/5 Essex
 | 1 King's Own Royal Regiment (Lancaster)
-| 1 King's Royal Rifle Corps
+| 1 King's Royal Rifle Corps (7SG)
 | 2 King's Royal Rifle Corps
 | 1 London Rifle Brigade
 | 2 Queen's Own Cameron Highlanders
-| 2 Rifle Brigade
-| 9 Rifle Brigade (Tower Hamlets Rifles)
-| 2 Scots Guards
+| 2 Rifle Brigade (7SG)
+| 9 Rifle Brigade (Tower Hamlets Rifles) (Guards)
+| 2 Scots Guards (Guards, 4A)
 | 1 Sherwood Foresters
-| 1 Worcestershire Regiment
+| 1 Worcestershire Regiment (29, Guards)
 
 Australian Infantry:
 | 2/13
@@ -45,30 +44,31 @@ New Zealand Infantry:
 | 24
 | 25
 | 26
-| 27
+| 27 MG
 | 28 Māori
 
 South African Infantry:
-| 1 Cape Town Highlanders
-| 1 Duke of Edinburgh's Own Rifles
-| 2 Field Force Battalion
-| 2 General Botha Regiment
-| 1 Natal Mounted Rifles
-| 1 Royal Natal Carabineers
-| 1 South African Irish Regiment
-| 1 Transvaal Scottish Regiment
-| 3 Transvaal Scottish Regiment
+| 1 Cape Town Highlanders (2)
+| 1 Duke of Edinburgh's Own Rifles (1)
+| 2 Field Force (2)
+| 2 General Botha Regiment (5)
+| 1 Natal Mounted Rifles (2)
+| 1 Royal Natal Carabineers (1)
+| 1 South African Irish Regiment (5)
+| 1 Transvaal Scottish Regiment (1)
+| 3 Transvaal Scottish Regiment (5)
 | MG President Steyn
 
 Indian Infantry:
-| 3/2 Punjab Regiment
-| 1/5 Mahratta Light Infantry
-| 2/5 Mahratta Light Infantry
-| 1/6 Rajputana Rifles
-| 2/7 Gurkha Rifles
-| 2/11 Sikh Regiment
-| 4/11 Sikh Regiment
-| 6/13 Frontier Force Rifles
+| 3/2 Punjab Regiment (29)
+| 2/3 Gurkha Rifles (18)
+| 1/5 Mahratta Light Infantry (29)
+| 2/5 Mahratta Light Infantry (11)
+| 3/5 Mahratta Light Infantry (25)
+| 1/6 Rajputana Rifles (11)
+| 2/7 Gurkha Rifles (11)
+| 2/11 Sikh Regiment (25)
+| 4/11 Sikh Regiment (18)
 
 Indian Cavalry:
 | 2 Royal Lancers

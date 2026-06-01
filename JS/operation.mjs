@@ -140,7 +140,7 @@ export class operation{
         this.turn.main=-1
         this.turn.time=constants.turnTime
         this.units.forEach(unit=>unit.startTick())
-        this.turn.order=this.units.sort((a,b)=>a.contain.stats.speed-b.contain.stats.speed)
+        this.turn.order=this.units.sort((a,b)=>b.contain.stats.speed-a.contain.stats.speed)
     }
     endTick(){
         types.player.forEach((player,index)=>{
@@ -329,7 +329,7 @@ export class operation{
                         let spread=even(floor(a/columns),ceil(la/columns))
                         let left=min(la-floor(a/columns)*columns,columns)
                         layer.textSize(15)
-                        layer.text(`1234567890ABCDEF`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
+                        layer.text(`1234567890ABCDEFG`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
                         if(flat[a].unit.strength.num.length==0){
                             layer.textSize(30)
                             layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
@@ -840,7 +840,7 @@ export class operation{
                     if(this.turn.start){
                         let flat=flatMap(types.map)
                         for(let a=0,la=flat.length;a<la;a++){
-                            if(key==`1234567890ABCDEF`[a]){
+                            if(key==`1234567890abcdefg`[a]||key==`1234567890ABCDEFG`[a]){
                                 if(flat[a].unit.name==`Legacy Modes`){
                                     window.open(`Legacy/Crusader`)
                                 }else{

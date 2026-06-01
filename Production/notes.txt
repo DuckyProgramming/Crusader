@@ -283,3 +283,7 @@ Because of this lack of information, I'm just going to ignore this unit until I 
 
 Little to no damage was sustained by the Trento division during Operation Brevity, as its elements were either in Bardia (which wasn't attacked) or were late reinforcements.
 The Italian units that were lost seem to all have been from the 8th Bersaglieri Regiment, though they fought hard and surrendered much less than the previous year. About one company was captured.
+
+I considered giving the Germans access to a company of the "Diana" tank destroyer because I think the whole idea of it is cool: a captured soviet gun on a random truck.
+Unluckily, I don't think this nickname was ever actually given to the unit during this time. A later production run did use it but I don't think they made it to Africa.
+So, I think I'm not gonna end up adding this unit after all.

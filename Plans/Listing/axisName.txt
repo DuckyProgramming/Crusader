@@ -20,7 +20,6 @@ Divisional Command z.b.V. "Afrika" (5 Battalions)
 
 XXII Army Corps (64 Battalions)
 
-Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
 Blackshirt Battalion "Volontari della Libia"
 140th Blackshirt Battalion "Aquilia"
 
@@ -33,11 +32,12 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armoured Car Company, 2 Motorcycle Companies, 52nd Medium Tank Company With 9 Tanks)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
+		Later Renamed to 136th Motorized Artillery Regiment With 14th, 15th, 16th, and 17th Battalions
 
-55th Infantry Division "Savona" (10 Battalions)
+55th Infantry Division "Savona" (11 Battalions)
 	15th Infantry Regiment (3 Battalions)
 	16th Infantry Regiment (3 Battalions)
-	12th Artillery Regiment (2 Battalions (2,3))
+	12th Artillery Regiment (2 Battalions (2,3), 1 Independent Coastal Defense Group)
 	4th Machine Gun Battalion, "Genova Cavalleria" Regiment
 	155th Machine Gun Battalion
 
@@ -57,7 +57,8 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 102nd Infantry Division "Trento" (13 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (3 Battalions)
+	7th Motorized Bersaglieri Regiment (2 Battalions)
+	Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies) (Became 8th Bersaglieri Battalion of 7th Bersaglieri Regiment)
 	46th Artillery Regiment (3 Battalions (1,3,4))
 	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
@@ -67,7 +68,3 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	61st Light Tank Battalion
 
 
-
-Accessory:
-1st Libyan Paratroopers Battalion "Diavoli Neri"
-21st Libyan Coastal Battalion

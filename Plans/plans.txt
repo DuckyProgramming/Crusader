@@ -1,0 +1,26 @@
+Deutsches Afrika Korps (16 Battalions)
+
+Sperrverband Libyen (Cannot Form March Battalion)
+15th Panzer Division
+	Heinrich von Prittwitz und Gaffron - Infantry Speed +20%
+	Hans-Karl Freiherr von Esebeck - Tank Morale +10%
+	Maximilian von Herff - Anti-Tank Damage +50%
+	Walter Hugo Reinhard Neumann-Silkow - Infantry Morale +10%
+	Erwin Menny - Infantry Health +10%
+	Gustav von Värst - Tank Health +10%
+	Eduard Crasemann - Artillery Damage +10%
+	Heinz von Randow - Artillery Health +20%
+
+
+Divisional Command z.b.V. "Afrika" (Cannot Form March Battalion)
+90th Light Afrika Division
+	Max Sümmermann - Infantry Morale +10%
+	Richard Veith - Infantry Speed +20%
+	Ulrich Kleemann - Reconnaissance Health +50%
+	Carl-Hans Lungershausen - Infantry Health +10%
+
+(200) Regimental Staff z.b.V. (Max 2 Battalions)
+Motorized Infantry Regiment
+Light Infantry Regiment (Infantry Gun Company)
+(115) Rifle Regiment (Infantry Gun Company) (Allows Heavy Battalions)
+Panzergrenadier Regiment (Infantry Gun Company, Engineer Company)

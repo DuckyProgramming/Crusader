@@ -287,11 +287,13 @@ export class unit{
             )
             this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
         }
+        this.contain.units.forEach(unit=>unit.contain.middle=false)
     }
     destroyStats(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
             this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
         }
+        this.contain.units.forEach(unit=>unit.contain.middle=false)
     }
     calculateElements(){
         if(this.contain.trigger){

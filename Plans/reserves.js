@@ -831,5 +831,14 @@ reserves=[
         elements:[
             {type:`Machine Gun Company`},
         ],
+    },{
+        level:1,type:[`Artillery`,`Motorized`],team:`New Zealand`,
+        desc:`2nd New Zealand Field Brigade`,name:`2`,designation:``,commander:`Miles`,icon:`2nz`,
+        pos:[976,998],
+        elements:[
+            {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`4th New Zealand Artillery Battalion`,`4th New Zealand Field Regiment`],name:`4`,designation:``,commander:`Duff`},
+            {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`5th New Zealand Artillery Battalion`,`5th New Zealand Field Regiment`],name:`5`,designation:``,commander:`Fraser`},
+            {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`6th New Zealand Artillery Battalion`,`6th New Zealand Field Regiment`],name:`6`,designation:``,commander:`Weir`},
+        ],
     },
 ]

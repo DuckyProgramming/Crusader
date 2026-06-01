@@ -1,12 +1,3 @@
-merge all crusader modes
-
-el alamein - australian commanders:
-windeyer (brigade)
-2/13 Turner
-2/15 Magno
-
-
-
 change penalty scattergun
 change ice cream
 nutter - replace battery lmg - fires a shotgun blast of ballista bolts but lose 25% of your hp on use
@@ -29,8 +20,14 @@ update icathia
 
 
 
+crusader campaign mode
+
+
+
 after i reconnect:
 get sirte division logo
+get 136th division logo
 get 2nd ccnn division logo for 140th blackshirt battalion
 get 3rd armoured brigade logo (if applicable)
 get 2nd support group logo + commander
+get brandenburger logo

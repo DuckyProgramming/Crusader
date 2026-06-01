@@ -23,12 +23,8 @@ XXII Army Corps (36 Battalions)
 
 Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
 155th Machine Gun Battalion
-
-Advance Group (4 Battalions)
-	Blackshirt Battalion "Volontari della Libia" (With 15th Mortar Company Attached)
-	140th Blackshirt Battalion "28 Ottobre" (With 16th Mortar Company Attached)
-	148th Artillery Group (Detached From 25th Corps Artillery Regiment)
-	150th Artillery Group (Detached From 25th Corps Artillery Regiment)
+Blackshirt Battalion "Volontari della Libia" (With 15th Mortar Company Attached)
+140th Blackshirt Battalion "28 Ottobre" (With 16th Mortar Company Attached)
 
 Independent Artillery (7 Battalions)
 	10th Corps Artillery Regiment (2 Battalions (17,25))
@@ -52,6 +48,8 @@ Independent Artillery (7 Battalions)
 	1st Medium Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion
+	148th Artillery Group (Detached From 25th Corps Artillery Regiment)
+	150th Artillery Group (Detached From 25th Corps Artillery Regiment)
 
 
 
@@ -523,7 +521,7 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	15th Infantry Regiment (2 Battalions)
 	16th Infantry Regiment (2 Battalions)
 	"Di Bardi" Task Force (2 Battalions, Detached from 15th and 16th Infantry Regiments)
-	12th Artillery Regiment (2 Battalions (2,3), 1 Coastal Defense Group)
+	12th Artillery Regiment (2 Battalions (2,3), 1 Independent Coastal Defense Group)
 	4th Machine Gun Battalion, "Genova Cavalleria" Regiment
 	155th Machine Gun Battalion
 
@@ -1156,27 +1154,28 @@ FIRST EL ALAMEIN:
 
 
 
-8th Army (40 Battalions)
+8th Army (42 Battalions)
 
-XXX Corps (17 Battalions)
+XXX Corps (18 Battalions)
 
 1st South African Division (9 Battalions)
 	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 	Machine Gun Battalion "President Steyn"
+	6th South African Armoured Car Regiment
 
 4th Indian Infantry Division (8 Battalions)
 	18th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 
-XIII Corps (23 Battalions)
+XIII Corps (24 Battalions)
 
 7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade Group (2 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
 
-2nd New Zealand Division (13 Battalions)
+2nd New Zealand Division (15 Battalions)
 	27th Machine Gun Battalion
 	28th (Maori) Infantry Battalion
 	4th New Zealand Infantry Brigade (3 Battalions)
@@ -1187,16 +1186,14 @@ XIII Corps (23 Battalions)
 	6th New Zealand Field Regiment
 	7th New Zealand Anti-Tank Regiment
 
-
-
-Reinforcements (8 Battalions, Arrived)
-	20th Australian Infantry Brigade (3 Battalions)
-	3rd Indian Motor Brigade (4 Battalions)
-	6th South African Armoured Car Regiment
+Reinforcements (6 Battalions, Arrived)
+	20th Australian Infantry Brigade (4 Battalions)
+	1st Battalion, The Buffs (Royal East Kent Regiment)
+	8th Irish Hussars
 
 
 
-Deutsches Afrika Korps (14 Battalions)
+Deutsches Afrika Korps (15 Battalions)
 
 15th Panzer Division (9 Battalions)
 	8th Panzer Regiment (1 Battalion)
@@ -1211,13 +1208,14 @@ Deutsches Afrika Korps (14 Battalions)
 	288th Motorized Infantry Regiment (2 Battalions)
 	580th Reconnaissance Company
 
+13./Brandenburger Lehr Regiment z.b.V. 800
 
 
-XXII Army Corps (18 Battalions)
+
+XXII Army Corps (16 Battalions)
 
 7th Motorized Bersaglieri Regiment (2 Battalions)
 Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
-Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 
 102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
@@ -1228,6 +1226,22 @@ Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 	85th Infantry Regiment (2 Battalions)
 	86th Infantry Regiment (2 Battalions)
 	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
+
+
+
+
+Reinforcements (6 Battalions, Arrived)
+
+136th Armored Division "Giovani Fascisti" (5 Battalions)
+    136th Motorized Artillery Regiment (4 Battalions (14,15,16,17))
+    3rd Armored Car Group "Cavalleggeri di Monferrato" (Formed From Romolo Gessi Battalion)
+
+
+
+
+
+
+Battle
 
 
 
@@ -1265,5 +1279,15 @@ Other than the 18th Indian Infantry Brigade, though, no British units had been c
 On the other side, Rommel understood his advance was over. The Sabratha and Trento Divisions were so badly mauled they had to be merged into one.
 His German units were doing little better, their strength whittled away by each battle and every British counterattack.
 It was time to dig in and plant some mines.
+
+
+
+Aftermath
+
+
+
+After failing to break through the line and being severely depleted by counterattacks, the axis recognized their offensive was over.
+Auchinleck agreed, as his attempts had resulted in less and less success in the recent weeks. Thus both sides entered a stalemate position.
+Their primary objective now would be to build up resources for a future offensive, a task the British had a significant advantage at.
 
 
