@@ -1,5 +1,9 @@
+martyrs cant hit you instantly
+dead ducks can pick up resup crate
+
 change penalty scattergun
 change ice cream
+change detonator
 nutter - replace battery lmg - fires a shotgun blast of ballista bolts but lose 25% of your hp on use
 the updated engineer
 - 4-6 sentries
@@ -9,6 +13,7 @@ the updated engineer
 
 barbarossa - storm 333 + red beard
 vernal wind - spring wind with a tertiary effect
+sudden dream - discover a card, it costs 0, get dazedf
 
 
 
@@ -31,3 +36,5 @@ get 2nd ccnn division logo for 140th blackshirt battalion
 get 3rd armoured brigade logo (if applicable)
 get 2nd support group logo + commander
 get brandenburger logo
+
+https://www.armoriale.it/wiki/Armoriale_dell%27artiglieria

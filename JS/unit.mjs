@@ -77,7 +77,16 @@ export class unit{
             if(typeof elements[a].type==`string`){
                 this.joinElement(elements[a])
             }else{
-                this.operation.units.push(new unit(this.operation,elements[a]))
+                let temp=elements[a]
+                temp.level=temp.level??this.level
+                temp.type=temp.type??this.type
+                temp.team=temp.team??this.team
+                temp.desc=temp.desc??this.desc
+                temp.name=temp.name??this.name
+                temp.designation=temp.designation??this.designation
+                temp.commander=temp.commander??this.commander
+                temp.icon=temp.icon??this.icon
+                this.operation.units.push(new unit(this.operation,temp))
                 this.contain.units.push(last(this.operation.units))
                 last(this.contain.units).parent=this
                 if(!last(this.contain.units).contain.trigger){
@@ -90,15 +99,15 @@ export class unit{
     }
     joinElement(element){
         this.contain.units.push(new unit(this.operation,{
-            level:element.level==undefined?this.level:element.level,
+            level:element.level??this.level,
             type:types.elementType[findName(element.type,types.elementType)].unitType,
             elementType:findName(element.type,types.elementType),
-            team:element.team==undefined?this.team:element.team,
-            desc:element.desc==undefined?this.desc:element.desc,
-            name:element.name==undefined?this.name:element.name,
-            designation:element.designation==undefined?this.designation:element.designation,
-            commander:element.commander==undefined?this.commander:element.commander,
-            icon:element.icon==undefined?this.icon:element.icon,
+            team:element.team??this.team,
+            desc:element.desc??this.desc,
+            name:element.name??this.name,
+            designation:element.designation??this.designation,
+            commander:element.commander??this.commander,
+            icon:element.icon??this.icon,
             pos:[0,0],
             elements:[],
         }))
@@ -561,6 +570,17 @@ export class unit{
                                 layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
                                 layer.point(0,0)
                             break
+                            case 24:
+                                layer.ellipse(0,0,2)
+                                layer.ellipse(-4,0,2)
+                                layer.ellipse(4,0,2)
+                            break
+                            case 25:
+                                layer.line(-8,0,0,-5)
+                                layer.line(8,0,0,-5)
+                                layer.line(-8,0,0,5)
+                                layer.line(8,0,0,5)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined){
@@ -583,10 +603,10 @@ export class unit{
                     layer.stroke(0,fade)
                     let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
-                    let size=this.designation.length>=20||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art?2:2.5)
+                    let size=this.designation.length>=20||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
                     layer.textSize(size)
                     layer.strokeWeight(size/10)
-                    layer.text(this.designation,this.designation.length>=10&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
+                    layer.text(this.designation,this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
                     size=this.name.length>=15?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
                     layer.textSize(size)
                     layer.strokeWeight(size/10)

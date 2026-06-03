@@ -691,14 +691,6 @@ reserves=[
             {level:4,type:`Mortar Company`,team:`Italian`,desc:[`142nd Mortar Company`,`142° Compagnia Mortaio`],name:`142`,designation:``,commander:``},
         ],
     },{
-        level:3,type:[`Artillery`,`Motorized`],team:`German`,
-        desc:[`2nd "Half and Half" Battalion, 33rd Artillery Regiment`,`II./Artillerie-Regiment (mot.) 33 "Halb und Halb"`],name:`2`,designation:`33`,commander:`Mesmer`,icon:`15pz`,
-        pos:[1986,996],
-        elements:[
-            {level:4,type:`Motorized Small Artillery Battery`,team:`German`,desc:[`4th Battery, 33rd Artillery Regiment`,`4./Artillerie-Regiment (mot.) 33 "Halb und Halb"`],name:`4`,designation:`33`,commander:``},
-            {level:4,type:`Motorized Concentrated Artillery Battery`,team:`German`,desc:[`5th Battery, 33rd Artillery Regiment`,`5./Artillerie-Regiment (mot.) 33 "Halb und Halb"`],name:`5`,designation:`33`,commander:``},
-        ],
-    },{
         level:3,type:[`Infantry`,`Motorized`],team:`German`,
         desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`Zincke`,icon:`15pz`,
         pos:[2160,896],
@@ -729,16 +721,6 @@ reserves=[
         pos:[901,717],
         elements:[
             {level:4,type:`Anti-Tank Company`,team:`Italian`,desc:[`55th Anti-Tank Company`,`55° Compagnia Anticarro`],name:`55`,designation:``,commander:`savona`},
-        ],
-    },{
-        level:3,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-        desc:[`61st Machine Gun Battalion`,`61º Battaglione Mitraglieri`],name:`61`,designation:``,commander:`Pcres`,icon:`sirte`,
-        pos:[1217,344],
-        elements:[
-            {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 61st Machine Gun Battalion`,`1° Compagnia, 61º Battaglione Mitraglieri`],name:`1`,designation:`61`,commander:``},
-            {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 61st Machine Gun Battalion`,`2° Compagnia, 61º Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``},
-            {level:4,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Company, 61st Machine Gun Battalion`,`3° Compagnia, 61º Battaglione Mitraglieri`],name:`3`,designation:`61`,commander:``},
-            {level:4,type:`Heavy Machine Gun Company`,team:`Italian`,desc:[`4th Company, 61st Machine Gun Battalion`,`4° Compagnia, 61º Battaglione Mitraglieri`],name:`4`,designation:`61`,commander:``},
         ],
     },{
         level:3,type:[`Infantry`],team:`Blackshirt`,
@@ -839,6 +821,162 @@ reserves=[
             {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`4th New Zealand Artillery Battalion`,`4th New Zealand Field Regiment`],name:`4`,designation:``,commander:`Duff`},
             {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`5th New Zealand Artillery Battalion`,`5th New Zealand Field Regiment`],name:`5`,designation:``,commander:`Fraser`},
             {level:3,type:`Motorized Artillery`,team:`New Zealand`,desc:[`6th New Zealand Artillery Battalion`,`6th New Zealand Field Regiment`],name:`6`,designation:``,commander:`Weir`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`3rd Group, 12th Artillery Regiment`,`III Gruppo, 12° Reggimento Artiglieria "Sila"`],name:`3`,designation:`12`,commander:`Aliberti`,icon:`savona`,
+        pos:[1455,726],
+        elements:[
+            {level:4,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`7th Battery, 12th Artillery Regiment`,`7° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`7`,designation:`12`,commander:``},
+            {level:4,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`8th Battery, 12th Artillery Regiment`,`8° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`8`,designation:`12`,commander:``},
+            {level:4,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 12th Artillery Regiment`,`9° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`9`,designation:`12`,commander:``},
+        ],
+    },{
+        level:2,type:[`Infantry`],team:`Italian`,
+        desc:[`85th Infantry Regiment`,`85° Reggimento di Fanteria "Sabratha"`],name:`85`,designation:`Sabratha`,commander:`Grimaldi`,icon:`sabratha`,
+        pos:[1033,132],
+        elements:[
+            {level:3,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 85th Infantry Regiment`,`I Battaglione Fucilieri, 85° Reggimento di Fanteria "Sabratha"`],name:`1`,designation:`85`,commander:`Angelozzi`},
+            {level:3,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 85th Infantry Regiment`,`II Battaglione Fucilieri, 85° Reggimento di Fanteria "Sabratha"`],name:`2`,designation:`85`,commander:`Morosini`},
+        ],
+    },{
+        level:2,type:[`Infantry`],team:`Italian`,
+        desc:[`86th Infantry Regiment`,`86° Reggimento di Fanteria "Sabratha"`],name:`86`,designation:`Sabratha`,commander:`Castrignanò`,icon:`sabratha`,
+        pos:[980,254],
+        elements:[
+            {level:3,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 86th Infantry Regiment`,`I Battaglione Fucilieri, 86° Reggimento di Fanteria "Sabratha"`],name:`1`,designation:`86`,commander:`Velosa`},
+            {level:3,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 86th Infantry Regiment`,`II Battaglione Fucilieri, 86° Reggimento di Fanteria "Sabratha"`],name:`2`,designation:`86`,commander:`Piana`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`],team:`Blackshirt`,
+        desc:[`4th Company, Blackshirt Battalion "Volontari della Libia"`,`4° Centuria Mitraglieri, Coorte CC.NN. "Volontari della Libia"`],name:`4`,designation:`Volontari\ndella Libia`,commander:``,icon:``,
+        pos:[613,655],
+        elements:[
+            {level:4,type:`Machine Gun Company`,team:`Blackshirt`,desc:[`4th Company, Blackshirt Battalion "Volontari della Libia"`,`4° Centuria Mitraglieri, Coorte CC.NN. "Volontari della Libia"`],name:`4`,designation:`Volontari\ndella Libia`,commander:``},
+        ],
+    },{
+        level:4,type:[`Engineer`,`Motorized`],team:`British`,
+        desc:[`2nd (Cheshire) Field Company, Royal Engineers`,`2nd (Cheshire) Field Squadron, Royal Engineers`],name:`2`,designation:`Cheshire`,commander:``,icon:`7a`,
+        pos:[960,996],
+        elements:[
+            {type:`Motorized Engineer Company`},
+        ],
+    },{
+        level:2,type:[`Artillery`],team:`Italian`,
+        desc:[`10th Corps Artillery Regiment`,`10° Reggimento Artiglieria di Corpo d'Armata`],name:`10`,designation:`Corps`,commander:`Infante`,icon:``,
+        pos:[1703,374],
+        elements:[
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`17th Group, 10th Corps Artillery Regiment`,`XVII Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`17`,designation:``,commander:`Locarno`},
+            {level:3,type:`Small Artillery`,team:`Italian`,desc:[`25th Group, 10th Corps Artillery Regiment`,`XXV Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`25`,designation:``,commander:`Pirisi`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`25th Group, 10th Corps Artillery Regiment`,`XXV Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`25`,designation:``,commander:`Pirisi`,icon:``,
+        pos:[1650,540],
+        elements:[
+            {level:4,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 25th Artillery Group`,`1° Batteria, XXV Gruppo Artiglieria`],name:`1`,designation:`25`,commander:``},
+            {level:4,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 25th Artillery Group`,`2° Batteria, XXV Gruppo Artiglieria`],name:`2`,designation:`25`,commander:``},
+            {level:4,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 25th Artillery Group`,`3° Batteria, XXV Gruppo Artiglieria`],name:`3`,designation:`25`,commander:``},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`140th Blackshirt Battalion "Aquilia"`,`CXL Coorte CC.NN. "Aquilia"`],name:`140`,designation:`Aquilia`,commander:`Martorana`,icon:`2ccnn`,
+        pos:[1054,364],
+        elements:[
+            {
+                level:4,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`1st Company, 140th Blackshirt Battalion "Aquilia"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`1`,designation:`Aquilia`,commander:``,
+                pos:[1462,342],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:4,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`2nd Company, 140th Blackshirt Battalion "Aquilia"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`2`,designation:`Aquilia`,commander:``,
+                pos:[1175,309],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:4,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`3rd Company, 140th Blackshirt Battalion "Aquilia"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`3`,designation:`Aquilia`,commander:``,
+                pos:[783,292],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:4,type:[`Infantry`,`Heavy`],team:`Blackshirt`,
+                desc:[`4th Company, 140th Blackshirt Battalion "Aquilia"`,`4° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`4`,designation:`Aquilia`,commander:``,
+                pos:[783,292],
+                elements:[
+                    {type:`Heavy Infantry Company`},
+                ],
+            },{
+                level:4,type:[`Mortar`],team:`Italian`,
+                desc:[`85th Mortar Company`,`85° Compagnie Mortaio`],name:`85`,designation:``,commander:``,icon:`sabratha`,
+                pos:[1034,234],
+                elements:[
+                    {type:`Mortar Company`},
+                ],
+            },
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`Blackshirt Battalion "Volontari della Libia"`,`Coorte CC.NN. "Volontari della Libia"`],name:`Volontari\ndella Libia`,designation:``,commander:`Angeleri`,icon:``,
+        pos:[777,381],
+        elements:[
+            {
+                level:4,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`1st Company, Blackshirt Battalion "Volontari della Libia"`,`1° Centuria d'Assalto, Coorte CC.NN. "Volontari della Libia"`],name:`1`,designation:`Volontari\ndella Libia`,commander:``,icon:``,
+                pos:[584,283],
+                elements:[
+                    {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`1st Company, Blackshirt Battalion "Volontari della Libia"`,`1° Centuria d'Assalto, Coorte CC.NN. "Volontari della Libia"`],name:`1`,designation:`Volontari\ndella Libia`,commander:``},
+                ],
+            },{
+                level:4,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`2nd Company, Blackshirt Battalion "Volontari della Libia"`,`2° Centuria d'Assalto, Coorte CC.NN. "Volontari della Libia"`],name:`2`,designation:`Volontari\ndella Libia`,commander:``,icon:``,
+                pos:[600,394],
+                elements:[
+                    {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`2nd Company, Blackshirt Battalion "Volontari della Libia"`,`2° Centuria d'Assalto, Coorte CC.NN. "Volontari della Libia"`],name:`2`,designation:`Volontari\ndella Libia`,commander:``},
+                ],
+            },{
+                level:4,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`3rd Company, Blackshirt Battalion "Volontari della Libia"`,`3° Centuria d'Assalto, Coorte CC.NN. "Volontari della Libia"`],name:`3`,designation:`Volontari\ndella Libia`,commander:``,icon:``,
+                pos:[610,503],
+                elements:[
+                    {level:4,type:`Infantry Company`,team:`Blackshirt`,desc:[`3rd Company, Blackshirt Battalion "Volontari della Libia"`,`3° Centuria d'Assalto, Coorte CC.NN. "Volontari della Libia"`],name:`3`,designation:`Volontari\ndella Libia`,commander:``},
+                ],
+            },{
+                level:4,type:[`Infantry`,`Heavy`],team:`Blackshirt`,
+                desc:[`4th Company, Blackshirt Battalion "Volontari della Libia"`,`4° Centuria Mitraglieri, Coorte CC.NN. "Volontari della Libia"`],name:`4`,designation:`Volontari\ndella Libia`,commander:``,icon:``,
+                pos:[613,655],
+                elements:[
+                    {level:4,type:`Heavy Infantry Company`,team:`Blackshirt`,desc:[`4th Company, Blackshirt Battalion "Volontari della Libia"`,`4° Centuria Mitraglieri, Coorte CC.NN. "Volontari della Libia"`],name:`4`,designation:`Volontari\ndella Libia`,commander:``},
+                ],
+            },{
+                level:4,type:[`Mortar`],team:`Italian`,
+                desc:[`86th Mortar Company`,`86° Compagnie Mortaio`],name:`86`,designation:``,commander:``,icon:`sabratha`,
+                pos:[660,545],
+                elements:[
+                    {level:4,type:`Mortar Company`,team:`Italian`,desc:[`86th Mortar Company`,`86° Compagnie Mortaio`],name:`86`,designation:``,commander:``},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Anti-Tank`],team:`Italian`,
+        desc:[`61st Anti-Tank Company`,`61° Compagnie Anticarro`],name:`61`,designation:``,commander:``,icon:`sirte`,
+        pos:[1259,621],
+        elements:[
+            {level:4,type:`Anti-Tank Company`,team:`Italian`,desc:[`61st Anti-Tank Company`,`61° Compagnie Anticarro`],name:`61`,designation:``,commander:``},
+        ],
+    },{
+        level:2,type:[`Infantry`],team:`Italian`,
+        desc:[`69th Infantry Regiment`,`69° Reggimento di Fanteria "Sirte"`],name:`69`,designation:`Sirte`,commander:`Barberis`,icon:`sirte`,
+        pos:[2523,639],
+        elements:[
+            {level:3,type:`Infantry`,team:`Italian`,desc:[`1st Battalion, 69th Infantry Regiment`,`I Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Sirte"`],name:`1`,designation:`69`,commander:`Rugiu`},
+            {level:3,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 69th Infantry Regiment`,`II Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Sirte"`],name:`2`,designation:`69`,commander:`Guassardo`},
+            {level:3,type:`Infantry`,team:`Italian`,desc:[`3rd Battalion, 69th Infantry Regiment`,`III Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Sirte"`],name:`3`,designation:`69`,commander:`Silvagni`},
         ],
     },
 ]

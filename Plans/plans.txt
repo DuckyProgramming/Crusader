@@ -21,6 +21,6 @@ Divisional Command z.b.V. "Afrika" (Cannot Form March Battalion)
 
 (200) Regimental Staff z.b.V. (Max 2 Battalions)
 Motorized Infantry Regiment
-Light Infantry Regiment (Infantry Gun Company)
-(115) Rifle Regiment (Infantry Gun Company) (Allows Heavy Battalions)
+(115) Rifle Regiment (Infantry Gun Company)
+Light Infantry Regiment (Heavy Infantry Gun Company)
 Panzergrenadier Regiment (Infantry Gun Company, Engineer Company)

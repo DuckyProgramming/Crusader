@@ -369,7 +369,7 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
-                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=(this.select.unit.contain.middle?0:1)){
+                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0/*(this.select.unit.contain.middle?0:1)*/){
                             layer.fill(150,this.anim.main*this.anim.select)
                             layer.rect(layer.width-340,50,200,60,10)
                             layer.fill(0,this.anim.main*this.anim.select)
@@ -377,10 +377,12 @@ export class operation{
                             layer.text(this.select.unit.contain.units.length==0?`Disband HQ`:`Disband`,layer.width-340,50,200)
                             layer.textSize(10)
                             layer.text(`Enter`,layer.width-260,25)
-                        }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0){
+                        }else if(/*this.select.unit.contain.middle||*/this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
-                                this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
+                                this.select.unit.contain.middle?
+                                this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
                             if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
                                 absorb.push(-1)
                             }
@@ -532,8 +534,11 @@ export class operation{
     control(input){
         let absorb=this.select.unit.contain.trigger?
             this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
-            this.select.unit.parent==-1?[]:
-            this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
+            this.select.unit.contain.middle?(
+                this.select.unit.parent==-1?[]:
+                this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
+            ):
+            this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
         if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
             absorb.push(-1)
         }

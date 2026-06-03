@@ -44,7 +44,7 @@ Independent Artillery (7 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-4th Tank Infantry Regiment (3 Battalions)
+4th Tank Infantry Regiment (5 Battalions)
 	1st Medium Tank Battalion
 	60th Light Tank Battalion
 	61st Light Tank Battalion
@@ -107,7 +107,7 @@ Tobruk Garrison (24 Battalions, 64 Companies)
 22nd Bersaglieri Motorcycle Company
 60th Anti-Tank Company
 
-Blackshirt Group (2 Battalions, 7 Companies)
+Blackshirt Group (2 Battalions, 9 Companies)
 	Blackshirt Battalion "Volontari della Libia" (With 85th Mortar Company Attached)
 	140th Blackshirt Battalion "Aquilia" (With 86th Mortar Company Attached) (Minus 1 Company)
 

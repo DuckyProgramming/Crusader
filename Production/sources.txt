@@ -3,8 +3,11 @@ First, I'd like to mention Wikipedia, the most powerful source of them all.
 However, I did end up spending some time in China while making this game. Wikipedia isn't available there, but this proxy is:
 https://everything.explained.today/
 I'd like to point out that this website is otherwise terrible and in every way worse than Wikipedia. If you aren't in China, it is not recommended.
+This one specifically has on images, some text formats incorrectly, and took ages to load (even saved local pages).
 https://en-academic.com/dic.nsf/enwiki/534519
-This page is also a Wikipedia derivative but slightly less bad. It still ain't great though.
+This website works and has images (when they aren't from Wikimedia Commons) but the pages are often incomplete or outdated.
+https://military-history.fandom.com/wiki/
+Another Wikipedia derivative. This one at least has an up to date copy of Wikipedia, but suffers from being a Fandom site. Military History wiki.gg when?
 
 General:
 https://forum.axishistory.com/viewtopic.php?f=56&t=181224&sid=c7740a7c483dc1e174ce393d5c01931c
@@ -57,6 +60,8 @@ https://forum.axishistory.com/viewtopic.php?p=945522
 https://rommelsriposte.com/2014/01/22/bender-law-correction-to-their-uniforms-organization-and-history-of-the-afrikakorps/
 KG Hecker:
 https://warhistory.org/article/panzerarmee-afrikas-sonderkommando
+"Diana":
+https://tanks-encyclopedia.com/7-62-cm-f-k-36r-auf-gp-selbstfahrlafette-sd-kfz-6-3/
 
 Italy:
 https://www.regioesercito.it/pages/restoria.html
@@ -81,6 +86,13 @@ Giovani Fascisti:
 https://www.ernandes.net/savasta/settimo.htm
 Bir Ghirba:
 https://1library.net/article/overview-battle-bir-ghirba-november.nzwe231z
+Corps Artillery:
+https://www.frontedeldon.it/generico/le-artiglierie-darmata-e-di-corpo-darmata-dellarmir/
+XXI/XXXI Libyan Coastal Battalion:
+https://forum.axishistory.com/viewtopic.php?t=234485
+Tobruk:
+https://www.historicalab.it/tobruch.htm
+https://archiviostoricogalvanin.altervista.org/tobruch-tobruk-battaglia-assedio-1941-1942/
 
 NZ:
 https://losthistory.net/rnza/rf/ww2/index.htm

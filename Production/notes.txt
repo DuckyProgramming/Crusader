@@ -145,10 +145,12 @@ It was a also designated both as motorized and as heavy, though when it arrived 
 
 German sources indicate the existence of 255th Anti-Tank Battalion as part of the Savona Division. I couldn't find a single mention of this anywhere else, so its likely an abberration.
 If I had to guess, the German who wrote this heard of the 155th Machine Gun Battalion from the Savona and somehow managed to get both its number and its type wrong. What a bozo.
+Alternatively, this could be the Anti-Tank coermpany of the same division, which was a smaller unit but had an authorized strength of 8 guns (the Germans list 12 guns but some were of different caliber).
 
 To an outside observer, Italian artillery would seem quite obsolete. And I have marked them as obsolete in most orders of battle, because they were. Many guns dated back to the 19th century or to Austria-Hungary.
 Furthermore, Italian artillery units were the same size (12 guns per battalion) as the equivalent German units. Meanwhile British field regiments of artillery had 24 guns.
 That said, while weak, massed Italian artillery could still pack a real punch. For that reason I've kept them in on the updated orders of battle.
+But their stats were certainly be worse than those of any other nation's artillery ,and by a significant margin. Especially in the British Cpature of Tobruk where they did little to nothing.
 
 Some of the British tank battalion commanders are disputed among my sources. I do, however, know for certain that 6th Royal Tank Regiment was led by Lister.
 Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalion since I've seen him mentioned as company commander in the 900th z.b.V. Engineer Battalion. But this isn't that important for this game.
@@ -157,6 +159,12 @@ Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalio
     For Crusader`, I've decided to use the August 20, 1941 organization of the 90th Light Division (then called the Special Purpose Divisional Command "Afrika").
     Its only actual combat units were the 300th Oasis Battalion (just 2 companies) and the 3rd Battalion, 347th Infantry Regiment.
     I may also end up adding attached units to it from the Corps Troops or from 15th Panzer Division.
+
+    It's not fully clear, but I believe this division must have been at the frontier, since III./I.R. 347 was guarding Halfaya in the interim (replaced by Bach/Ennecerus on October 26).
+    Two of the oasis companies were there with it, the 6th and 12th, two were at the Tobruk salient, and the fifth was who knows where. All five would later end up at the frontier.
+    The 10th Oasis Company was known to be at the frontier before Battleaxe, but afterward is unclear. The 6th Oasis Company is known to have been at Qalala for its defense.
+
+    It took some time to build this division's order of battle in-game, since we're operating with some constraints here.
     Here's the original form from Lexikon der Wehrmacht:
 
 
@@ -207,6 +215,9 @@ To add a little flavor, though, I've given the 2nd Battalion, 33rd Artillery Reg
 
 Sonderverband 288, mid-reorganization but prior to becoming the Afrika-Grenadier-Regiment, had two mixed battalions, each with three companies, and a 7th company that acted as reconnaissance.
 However, my sources indicating this are a little difficult to believe. I don't really see how this would've actually been accomplished given the mixed nature of the original Sonderverband companies.
+Instead, I think it was basically in limbo as a pile of random companies until a single major reorganization took place that resulted in it somehow expanding to twelve companies strong.
+Four made up each of two battalions, plus their were four additional support companies, making this Afrika Panzergrenadier Regiment quite powerful.
+I don't think this happened until after First El Alamein or even into 1943, but I've had it happen just before the battle so the unit can reach its final form for the showdown.
 
 Regio Esercito indicates that many of the Army Corps Artillery Regiments of the Italian army were actually formed from each other's depots. Here are some of them:
 8th CAR (8,113,114): 22nd CAR (1,42,43)
@@ -214,6 +225,7 @@ Regio Esercito indicates that many of the Army Corps Artillery Regiments of the 
 Niehorster, however, indicates that the 1st group of the 22nd CAR stayed in Italy. When the regiment arrived in Africa, it gained the 42nd and 43rd groups, plus some anti-air, but left the 1st group behind.
 The 10th CAR also appears reduced in Niehorster's order of battle, with its 7th group gone. I assume it was left in Italy as well or was sunk on transport. Niehorster also shows its 35th group as the 25th.
 I'm inclined to believe this, since another source backs it up. I think this 7th group was lost and the 35th group was a typo on Regio Esercito.
+After having found another mistake on Niehorster's artillery, this is now once again in contention. Regio Esercito has yet to be wrong so I'm going to side with it.
 25th CAR was armed with 149/13 Austro-Hungarian howitzers built in 1914. They were obsolete for sure, but heavier than the rest.
 
 The 20th (1,2,3,4,20) and 21st (1,2,3,4,21) were destroyed in North Africa and didn't have subsidiary elements.
@@ -232,6 +244,7 @@ These batteries were mostly mediocre guns but had been mounted on captured Briti
 
 I am fairly certain that the Savona Division never had any tanks. Some tanks (13?) were alloted but they did not make it to Africa, being sunk on transport.
 Some tanks do appear in Bardia by the end of Operation Crusader. I suspect that these were probably left behind by the Ariete Division during the Dash to the Wire.
+They definitely didn't have a full tank battalion. I couldn't find a reference to one anywhere which suggests their set didn't have time to deploy.
 
 The battery commanders of the 3rd South African Field Regiment were Harris, Berry, and Greenwood (7th-9th).
 
@@ -262,12 +275,16 @@ For some godforsaken reason, the two mortar companies, the 141st and 142nd, of t
 Regardless of how they got there, I'm going to attach them to the Blackshirt battalions as a sort of "ad-hoc" remnant of earlier destroyed units, but pretend they're independent rather than regimental.
 
 The 140th Blackshirt Battalion was a part of the 238th Blackshirt Legion of the 2nd "28 Ottobre" Blackshirt Division.
-It was formed using cadres from Salerno, which was sometimes its nickname, and was nicknamed "Aquilia". The regiment had the nickname "Aurelio Padovani".
-As a formably legion it was of the "Desposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
+It was formed using cadres from Salerno, which its nickname as a battalion. Its source territorial unit was nicknamed "Aquilia".
+The 238th regiment/legion had the nickname "Aurelio Padovani". This man was a previous fascist leader. It included 3 battalions and a machine gun company (but no regimental mortar company)
+As a legion it was of the "Desposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
 It appears that this battalion was the only survivor of the division which was otherwise destroyed in Bardia. It would end up in Tobruk where it, too, was destroyed.
 
+CC.NN. battalions were called coorte (cohort) and companies were called centuria (century) but this applied only to the militia battalions in the territorial army.
+Field-formed battalions were given normal designations in line with the army EXCEPT that regiments were still called legions.
+
 III./I.R. 347 was relieved from its defensive position at Halfaya by I./S.R. 104 and Oasis elements on October 26, about a month before crusader.
-Interestingly, III./I.R. 155, formerly III./I.R. 268, was given instruction by the command based on lessons learned by the Schützen Regiments. Meythaler apparently didn't learn his lesson very well.
+Interestingly, III./I.R. 155, formerly III./I.R. 268, was given instruction by the command based on lessons learned by the Schützen Regiments. Maythaler apparently didn't learn his lesson very well.
 
 Something I've done out of convenience is to repeatedly ignore the Ras el Medauar salient in the southwest of the Tobruk defenses, held by German troops for much of the siege.
 It was decided that the salient was too stalemated and not worth attacking in again, while the Australian and British units constantly harassed it with small-scale attacks.
@@ -280,10 +297,52 @@ The Operation Compass Order of Battle on Wikipedia (from Montanari) lists a XXI 
 However, according to Niehorster, the battalion was part of the GaF and thus would be part of the 2300 that Montanari lists there.
 But since Niehorster's OOB of the 32nd GaF sector's subsectors is incomplete, I have no way to verify this using the numbers.
 Because of this lack of information, I'm just going to ignore this unit until I can find more on it.
+Worse, I've later come accross some forum discussion that claims this unit was actually numbered as the XXXI and Montanari made a mistake.
+At this point, I believe the unit isn't worth the ambiguity to include in my orders of battle. So, it won't be getting added.
+Another source claims that only a single battalion of border guards was actually there. My guess is that the Libyan battalion was still in formation or not official, and thus wasn't counted.
 
 Little to no damage was sustained by the Trento division during Operation Brevity, as its elements were either in Bardia (which wasn't attacked) or were late reinforcements.
 The Italian units that were lost seem to all have been from the 8th Bersaglieri Regiment, though they fought hard and surrendered much less than the previous year. About one company was captured.
 
 I considered giving the Germans access to a company of the "Diana" tank destroyer because I think the whole idea of it is cool: a captured soviet gun on a random truck.
-Unluckily, I don't think this nickname was ever actually given to the unit during this time. A later production run did use it but I don't think they made it to Africa.
-So, I think I'm not gonna end up adding this unit after all.
+The tank destroyer was a bit of a janky mess, had completely useless 4.5mm armor, and was generally not great. Nine were produced, all given to the 605th Anti-Tank Battalion.
+Unluckily, I don't think the "Diana" nickname was ever actually given to the unit during this time. A later production run did use it but I don't think they made it to Africa.
+Also, the nickname may have been given by the British and later adopted by the Germans, which complicates matters.
+So, I think I'm not gonna end up adding this unit after all. It's for a battalion that doesn't exist and is historically quite unclear.
+
+For future reference, a standard Italian tank battalion has a much simpler structure than that of any other nation. There are 46 tanks total, three companies of 15 each, and one command tank.
+
+Niehorster lists an AS1940 autotransportable division as having 232 HMGs which I think is a frankly insane number.
+It has 166 extra compared to the metropolitan type, but has only one extra machine gun battalion with companies that have just 12 HMGs each.
+
+To reduce the confusion listed above about the state of the Guardia alla Frontiera at Tobruk, I'll compile what I know here:
+1. The sectors responsible for the town were the 31st and 32nd. A few stragglers from elsewhere might've been but aren't recorded.
+The sectors were intended to contain 1800 men each. However it appears only 2300 men actually showed up for the defense.
+The XXI or XXXI Libyan Battalions may have been there, but it is entirely unclear which one or if either was actually there at all. These also might not be part of the GaF.
+The 31st had 10 artillery groups and the 32nd had 12. This disagrees with Niehorster but I belive the mistake is over there.
+The 31st had an engineer company that was surely real but might not have been in Tobruk when the battle began. The 32nd also had an engineer company but I cannot locate it.
+
+If I had to guess, the 1800 men number was entirely theoretical. No sources indicate that anywhere near this number of infantry ever showed up (but maybe it includes artillerymen?)
+The 2300 men seems not entirely unreasonable. If you include the 31st GaF Infantry Battalion, 21st/31st Libyan Coastal Battalion, both engineer companies, and lesser support, it about adds up.
+It's probably also the 31st and not the 21st Battalion. Montanari is far from infallible and this type of mistake isn't uncommon, plus 31 is the number of the sector it's in.
+The eastern sector was split into sub-sectors A and B. As we know from the western sector, 1 battalion manned each sub-sector, so there should've been two battalions worth of troops there.
+In this case, I/69 or II/69 (the other was probably destroyed or depleted) defended one while the 31st Frontier Guard Infantry Battalion defended the other.
+The Libyan battalion is supposedly "coastal" so I don't think it would've ended up deployed on the outer ring; it would've been on, well, the coast. I also don't know its structure or even its number.
+
+Regio Esercito claims that the 31st GaF sector had an infantry battalion of the following structure:
+XXXI Battaglione Fanteria Guardia alla Frontiera
+    3 compagnie mitraglieri da posizione
+    1 compagnia cannoni da 37/10
+(3 static machine gun companies, 1 cannon (probably anti-tank gun) company)
+As stated previously, there was probably a Libyan battalion there. A typical Libyan battalion had 4 infantry companies, but this battalion seems to be of special design, so I can't confirm.
+
+Apparently a lot of Italian divisions in North Africa actually had two mortar companies per regiment rather than one.
+It is difficult for me to verify this, however, and only Regio Esercito's order of battle for 10 June actually reflects this.
+Some of these regiments also show up with four infantry battalions which I don't think was ever actually implemented, which further leads me to believe this didn't take place.
+
+Don't be an idiot like me. Compagnia in Italian is the singular, not the plural, form of company.
+
+The Trento division's 2 anti-airctaft batteries were numbered the 412th and 414th. I have no information regarding the batteries of any other division.
+
+I thought Umberto Barberis was the commander of the 69th Infantry Regiment. This was wrong. He was actually commander of the GaF of XXI Corps.
+This confuses me a bit since I don't understand why the GaF would be subordinated to a corps, especially one that wasn't there.
