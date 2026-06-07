@@ -8,14 +8,14 @@ export class unit{
         this.level=data.level
         this.type=data.type.map(type=>findName(type,types.unitType))
         this.elementType=data.elementType==undefined?-1:data.elementType
-        this.team=typeof data.team==`number`?data.team:findName(data.team,types.team)
+        this.team=data.team==`None`?-1:typeof data.team==`number`?data.team:findName(data.team,types.team)
         this.desc=typeof data.desc==`string`?data.desc:data.desc[options.translate?0:1]
         this.name=data.name
         this.designation=data.designation
         this.commander=data.commander
         this.icon=data.icon
 
-        this.player=types.team[this.team].player
+        this.player=this.team==-1?0:types.team[this.team].player
         this.active=true
         this.parent=-1
         this.id=constants.unitId
@@ -61,7 +61,7 @@ export class unit{
         }
     }
     async initialGraphics(){
-        this.img=[graphics.load.team[this.team]]
+        this.img=this.team==-1?[]:[graphics.load.team[this.team]]
         if(this.icon!=``){
             try{
                 this.img.push(graphics.load.unit[findName(this.icon,graphics.load.unit)].img)
@@ -288,6 +288,20 @@ export class unit{
     getDistMult(){
         return this.contain.stats.recon?1.5:1
     }
+    getWidth(){
+        return this.contain.trigger?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
+    }
+    getHeight(){
+        return this.contain.trigger?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+10,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
+    }
+    getData(){
+        return {
+            level:this.level,type:this.elementType==-1?this.type.map(type=>types.unitType[type].name):types.elementType[this.elementType].name,team:types.team[this.team].name,
+            desc:this.desc,name:this.name,designation:this.designation,commander:this.commander,icon:this.icon,
+            pos:[0,0],
+            elements:this.contain.units.map(unit=>unit.getData())
+        }
+    }
     destroy(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
             this.parent.contain.units.splice(
@@ -311,7 +325,8 @@ export class unit{
             this.order.artillery=this.contain.stats.artillery
         }else{
             this.contain.stats={
-                speed:max(1,this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0)),
+                //speed:max(1,this.contain.units.reduce((acc,unit)=>max(acc,unit.contain.stats.speed),0)),
+                speed:this.type.includes(4)?3:this.type.includes(3)||this.type.includes(5)?2.5:this.type.includes(2)?1.75:1,
                 artillery:false,engineer:false,recon:false
             }
             this.radius=(this.level==3?30:40)*types.map[this.operation.map].unitScale
@@ -425,17 +440,91 @@ export class unit{
                 this.displaySub(layer,scene,this.fade.main)
                 layer.pop()
             break
+            case `orderView`:
+                let dim={
+                    x:this.getWidth(),
+                    y:this.getHeight()
+                }
+                layer.push()
+                if(this.parent==-1){
+                    layer.translate(layer.width/2,layer.height/2)
+                    layer.scale(min(layer.width/dim.x,layer.height/dim.y*0.9))
+                    layer.translate(0,-dim.y/2+this.height/2)
+                }else{
+                    layer.translate(0,this.height/2+5)
+                }
+                layer.stroke(0)
+                layer.strokeWeight(2)
+                if(this.contain.units.length>0){
+                    if(this.contain.trigger){
+                        if(this.contain.units[0].desc!=this.desc){
+                            layer.line(0,this.height/2,0,this.getHeight()-this.height/2-10)
+                        }
+                    }else{
+                        if(this.contain.units.length==1){
+                            layer.line(0,this.height/2,0,this.height/2+20)
+                        }else{
+                            layer.line(0,this.height/2,0,this.height/2+10)
+                            let loc=-dim.x/2
+                            let pos=[]
+                            this.contain.units.forEach(unit=>{
+                                let half=unit.getWidth()/2+5
+                                loc+=half
+                                pos.push(loc)
+                                loc+=half
+                            })
+                            pos.forEach(num=>layer.line(num,this.height/2+10,num,this.height/2+20))
+                            layer.line(pos[0],this.height/2+10,last(pos),this.height/2+10)
+                        }
+                    }
+                }
+                layer.scale(this.size/10)
+                this.displaySub(layer,scene,1)
+                layer.scale(10/this.size)
+                if(this.contain.units.length>0){
+                    if(this.contain.trigger){
+                        if(this.contain.units[0].desc!=this.desc){
+                            layer.translate(0,5)
+                            this.contain.units.forEach(unit=>{
+                                let half=unit.height/2+5
+                                layer.translate(0,half)
+                                unit.display(layer,scene)
+                                layer.translate(0,half)
+                            })
+                        }
+                    }else{
+                        if(this.contain.units.length==1){
+                            layer.translate(0,this.height/2+10)
+                            this.contain.units.forEach(unit=>unit.display(layer,scene))
+                        }else{
+                            layer.translate(-dim.x/2,this.height/2+15)
+                            this.contain.units.forEach(unit=>{
+                                let half=unit.getWidth()/2+5
+                                layer.translate(half,0)
+                                unit.display(layer,scene)
+                                layer.translate(half,0)
+                            })
+                        }
+                    }
+                }
+                layer.pop()
+            break
         }
     }
     displaySub(layer,scene,fade){
         switch(scene){
-            case `main`: case `mapAll`: case `hist`:
+            case `main`: case `mapAll`: case `hist`: case `orderView`:
                 if(fade>0){
-                    if(fade<1){
-                        layer.tint(255,fade)
+                    if(this.team!=-1){
+                        if(fade<1){
+                            layer.tint(255,fade)
+                        }
+                        layer.image(this.img[0],0,0,16,10)
+                    }else{
+                        layer.fill(200,fade)
+                        layer.noStroke()
+                        layer.rect(0,0,16,10)
                     }
-                    layer.image(this.img[0],0,0,16,10)
-
                     layer.stroke(40,fade)
                     if(options.headquarters&&!this.contain.trigger){
                         layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
@@ -458,7 +547,11 @@ export class unit{
                                 layer.line(0,-3,-1,-2)
                                 layer.line(0,-3,1,-2)
                                 layer.line(0,-3,0,3)
-                                layer.line(-1.5,0.5,1.5,0.5)
+                                if(this.type.includes(17)){
+                                    layer.line(-1.5,0.5,1.5,0.5)
+                                }else{
+                                    layer.line(-1.5,0,1.5,0)
+                                }
                             break
                             case 2:
                                 layer.ellipse(0,4,1.5,1.5)
@@ -519,12 +612,13 @@ export class unit{
                                 layer.triangle(8,-5,6,-5,6,-3.75)
                             break
                             case 14:
-                                layer.line(-8,5,0,-5)
-                                layer.line(8,5,0,-5)
-                            break
-                            case 15:
                                 layer.line(-8,-5,0,5)
                                 layer.line(8,-5,0,5)
+                            break
+                            case 15:
+                                layer.line(-8,5,0,-5)
+                                layer.line(8,5,0,-5)
+                                layer.line(-4,0,4,0)
                             break
                             case 16:
                                 layer.ellipse(-3,4,1.5,1.5)
@@ -605,18 +699,18 @@ export class unit{
                     layer.fill(255,fade)
                     let size=this.designation.length>=20||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
                     layer.textSize(size)
-                    layer.strokeWeight(size/10)
+                    layer.strokeWeight(size/5)
                     layer.text(this.designation,this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
-                    size=this.name.length>=15?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
+                    size=this.name.length>=25?2.25:this.name.length>=15?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
                     layer.textSize(size)
-                    layer.strokeWeight(size/10)
+                    layer.strokeWeight(max(0.3,size/10))
                     if(this.name.includes(`\n`)){
                         layer.textLeading(3)
                     }
                     layer.text(this.name,art?(this.name.length>=3?-4:-4.5):0,this.name.length>=15?-0.25:0.25)
-                    size=this.commander.length>=18?1.75:this.commander.length>=12?2:2.25
+                    size=this.name.length>=25?1.5:this.commander.length>=18?1.75:this.commander.length>=12?2:2.25
                     layer.textSize(size)
-                    layer.strokeWeight(size*0.2)
+                    layer.strokeWeight(size/5)
                     layer.text(this.commander,0,3.5)
                 }
             break
@@ -813,7 +907,8 @@ export class unit{
                                             this.contain.stats.damage[2],this.contain.stats.damage[3]
                                         )
                                         /sqrt(target.contain.stats.health)
-                                        *types.team[this.team].quality
+                                        *this.contain.units.reduce((acc,unit)=>acc+types.team[unit.team].quality,0)
+                                        /this.contain.units.length
                                         *this.strength.life/this.strength.base.life
                                         *(0.5+this.strength.morale/this.strength.base.morale)
                                         *(2-target.strength.morale/target.strength.base.morale)
@@ -936,7 +1031,8 @@ export class unit{
                                                 this.contain.stats.damage[0],this.contain.stats.damage[1]
                                             )
                                             /target.contain.stats.health
-                                            *types.team[this.team].quality
+                                            *this.contain.units.reduce((acc,unit)=>acc+types.team[unit.team].quality,0)
+                                            /this.contain.units.length
                                             *this.strength.life/this.strength.base.life
                                             *(0.5+this.strength.morale/this.strength.base.morale)
                                             *(2-target.strength.morale/target.strength.base.morale)
@@ -950,7 +1046,8 @@ export class unit{
                                                 target.contain.stats.damage[0],target.contain.stats.damage[1]
                                             )
                                             /this.contain.stats.health
-                                            *types.team[target.team].quality
+                                            *target.contain.units.reduce((acc,unit)=>acc+types.team[unit.team].quality,0)
+                                            /target.contain.units.length
                                             *target.strength.life/target.strength.base.life
                                             *(0.5+target.strength.morale/target.strength.base.morale)
                                             *(2-this.strength.morale/this.strength.base.morale)

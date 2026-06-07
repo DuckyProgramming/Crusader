@@ -664,17 +664,17 @@ reserves=[
         ],
     },{
         level:4,type:[`Mortar`],team:`Italian`,
-        desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`13`,designation:`69`,commander:``,icon:``,
+        desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Verona"`],name:`13`,designation:`69`,commander:``,icon:``,
         pos:[1593,623],
         elements:[
-            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`13`,designation:`69`,commander:``},
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`13th Company, 69st Infantry Regiment`,`13° Compagnia Mortaio, 69° Reggimento di Fanteria Motorizzata "Verona"`],name:`13`,designation:`69`,commander:``},
         ],
     },{
         level:4,type:[`Artillery`,`Infantry`],team:`Italian`,
-        desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`14`,designation:`69`,commander:``,icon:``,
+        desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Verona"`],name:`14`,designation:`69`,commander:``,icon:``,
         pos:[889,629],
         elements:[
-            {level:4,type:`Infantry Gun Company`,team:`Italian`,desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Ancona"`],name:`14`,designation:`69`,commander:``},
+            {level:4,type:`Infantry Gun Company`,team:`Italian`,desc:[`14th Company, 69st Infantry Regiment`,`14° Compagnia Cannone, 69° Reggimento di Fanteria Motorizzata "Verona"`],name:`14`,designation:`69`,commander:``},
         ],
     },{
         level:4,type:[`Mortar`],team:`Italian`,
@@ -977,6 +977,123 @@ reserves=[
             {level:3,type:`Infantry`,team:`Italian`,desc:[`1st Battalion, 69th Infantry Regiment`,`I Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Sirte"`],name:`1`,designation:`69`,commander:`Rugiu`},
             {level:3,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 69th Infantry Regiment`,`II Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Sirte"`],name:`2`,designation:`69`,commander:`Guassardo`},
             {level:3,type:`Infantry`,team:`Italian`,desc:[`3rd Battalion, 69th Infantry Regiment`,`III Battaglione Fucilieri, 69° Reggimento di Fanteria Motorizzata "Sirte"`],name:`3`,designation:`69`,commander:`Silvagni`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Coast`],team:`Italian`,
+        desc:[`Independent Coastal Artillery Group`,`Gruppo Autonomo di Artiglieria Costiera`],name:`Coastal`,designation:``,commander:`Verri`,icon:`savona`,
+        pos:[1271,751],
+        elements:[
+            {level:4,type:`Tiny Coastal Artillery Battery`,team:`Italian`,desc:[`8th Independent Coastal Artillery Battery`,`8° Batteria Autonomo di Artiglieria Costiera`],name:`8`,designation:`Coastal`,commander:``},
+            {level:4,type:`Smaller Coastal Artillery Battery`,team:`Italian`,desc:[`27th Independent Coastal Artillery Battery`,`27° Batteria Autonomo di Artiglieria Costiera`],name:`27`,designation:`Coastal`,commander:``},
+            {level:4,type:`Small Coastal Artillery Battery`,team:`Italian`,desc:[`503rd Independent Coastal Artillery Battery`,`503° Batteria Autonomo di Artiglieria Costiera`],name:`503`,designation:`Coastal`,commander:``},
+            {level:4,type:`Small Coastal Artillery Battery`,team:`Italian`,desc:[`504th Independent Coastal Artillery Battery`,`504° Batteria Autonomo di Artiglieria Costiera`],name:`504`,designation:`Coastal`,commander:``},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`69th Mortar Company`,`69° Compagnia Mortaio`],name:`69`,designation:``,commander:``,icon:`sirte`,
+        pos:[1577,551],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`69th Mortar Company`,`69° Compagnia Mortaio`],name:`69`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Mortar`],team:`Italian`,
+        desc:[`70th Mortar Company`,`70° Compagnia Mortaio`],name:`70`,designation:``,commander:``,icon:`sirte`,
+        pos:[1577,551],
+        elements:[
+            {level:4,type:`Mortar Company`,team:`Italian`,desc:[`70th Mortar Company`,`70° Compagnia Mortaio`],name:`70`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+        desc:[`61st Bersaglieri Company`,`61° Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`,
+        pos:[1427,570],
+        elements:[
+            {level:4,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`61st Bersaglieri Company`,`61° Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`},
+        ],
+    },{
+        level:0,type:[`Infantry`],team:`Italian`,
+        desc:[`60th Infantry Division "Sabratha"`,`60ª Divisione di Fanteria Autotransportabile "Sabratha"`],name:`60`,designation:`Sabratha`,commander:`Soldarelli`,icon:`sabratha`,
+        pos:[52,870],
+        elements:[
+            {
+                level:2,type:[`Infantry`],team:`Italian`,
+                desc:[`85th Infantry Regiment`,`85°  Reggimento di Fanteria "Verona"`],name:`85`,designation:`Verona`,commander:`Grimaldi`,icon:`sabratha`,
+                pos:[212,488],
+                elements:[
+                    {
+                        level:3,type:[`Infantry`],team:`Italian`,
+                        desc:[`1st Battalion, 85th Infantry Regiment`,`I Battaglione Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`1`,designation:`85`,commander:`Angelozzi`,icon:`sabratha`,
+                        pos:[459,346],
+                        elements:[
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`1st Company, 85th Infantry Regiment`,`1° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`1`,designation:`85`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`2nd Company, 85th Infantry Regiment`,`2° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`2`,designation:`85`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`3rd Company, 85th Infantry Regiment`,`3° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`3`,designation:`85`,commander:``},
+                            {level:4,type:`Small Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 85th Infantry Regiment`,`4° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`4`,designation:`85`,commander:``},
+                        ],
+                    },{
+                        level:3,type:[`Infantry`],team:`Italian`,
+                        desc:[`2nd Battalion, 85th Infantry Regiment`,`II Battaglione Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`2`,designation:`85`,commander:`Morosini`,icon:`sabratha`,
+                        pos:[469,522],
+                        elements:[
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`5th Company, 85th Infantry Regiment`,`5° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`5`,designation:`85`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`6th Company, 85th Infantry Regiment`,`6° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`6`,designation:`85`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`7th Company, 85th Infantry Regiment`,`7° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`7`,designation:`85`,commander:``},
+                            {level:4,type:`Small Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 85th Infantry Regiment`,`8° Compagnia Fucilieri, 85° Reggimento di Fanteria Motorizzata "Verona"`],name:`8`,designation:`85`,commander:``},
+                        ],
+                    },
+                ],
+            },{
+                level:2,type:[`Infantry`],team:`Italian`,
+                desc:[`86th Infantry Regiment`,`86°  Reggimento di Fanteria "Verona"`],name:`86`,designation:`Verona`,commander:`Castrignanò`,icon:`sabratha`,
+                pos:[461,908],
+                elements:[
+                    {
+                        level:3,type:[`Infantry`],team:`Italian`,
+                        desc:[`1st Battalion, 86th Infantry Regiment`,`I Battaglione Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`1`,designation:`86`,commander:`Velosa`,icon:`sabratha`,
+                        pos:[486,744],
+                        elements:[
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`1st Company, 86th Infantry Regiment`,`1° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`1`,designation:`86`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`2nd Company, 86th Infantry Regiment`,`2° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`2`,designation:`86`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`3rd Company, 86th Infantry Regiment`,`3° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`3`,designation:`86`,commander:``},
+                            {level:4,type:`Small Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 86th Infantry Regiment`,`4° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`4`,designation:`86`,commander:``},
+                        ],
+                    },{
+                        level:3,type:[`Infantry`],team:`Italian`,
+                        desc:[`2nd Battalion, 86th Infantry Regiment`,`II Battaglione Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`2`,designation:`86`,commander:`Piana`,icon:`sabratha`,
+                        pos:[758,870],
+                        elements:[
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`5th Company, 86th Infantry Regiment`,`5° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`5`,designation:`86`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`6th Company, 86th Infantry Regiment`,`6° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`6`,designation:`86`,commander:``},
+                            {level:4,type:`Small Infantry Company`,team:`Italian`,desc:[`7th Company, 86th Infantry Regiment`,`7° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`7`,designation:`86`,commander:``},
+                            {level:4,type:`Small Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 86th Infantry Regiment`,`8° Compagnia Fucilieri, 86° Reggimento di Fanteria Motorizzata "Verona"`],name:`8`,designation:`86`,commander:``},
+                        ],
+                    },
+                ],
+            },{
+                level:2,type:[`Artillery`],team:`Italian`,
+                desc:[`Artillery Regrouping "Sabratha"`,`Raggruppamento Artiglieria "Sabratha"`],name:`RA`,designation:`Sabratha`,commander:`Ferrario`,icon:`sabratha`,
+                pos:[221,747],
+                elements:[
+                    {
+                        level:3,type:[`Artillery`],team:`Italian`,
+                        desc:[`283rd Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIII Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`283`,designation:`Frontier\nGuard`,commander:`Parrella`,icon:`sabratha`,
+                        pos:[344,608],
+                        elements:[
+                            {level:4,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`1st Battery, 283rd Group, 14th Frontier Guards Artillery Regiment`,`1° Batteria, CCLXXXIII Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`283 FG`,commander:``},
+                            {level:4,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 283rd Group, 14th Frontier Guards Artillery Regiment`,`2° Batteria, CCLXXXIII Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`283 FG`,commander:``},
+                            {level:4,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 283rd Group, 14th Frontier Guards Artillery Regiment`,`3° Batteria, CCLXXXIII Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`283 FG`,commander:``},
+                        ],
+                    },{
+                        level:3,type:[`Artillery`],team:`Italian`,
+                        desc:[`284th Group, 14th Frontier Guards Artillery Regiment`,`CCLXXXIV Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`284`,designation:`Frontier\nGuard`,commander:`Rocchi`,icon:`sabratha`,
+                        pos:[373,836],
+                        elements:[
+                            {level:4,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`1st Battery, 284th Group, 14th Frontier Guards Artillery Regiment`,`1° Batteria, CCLXXXIV Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`284 FG`,commander:``},
+                            {level:4,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 284th Group, 14th Frontier Guards Artillery Regiment`,`2° Batteria, CCLXXXIV Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`284 FG`,commander:``},
+                            {level:4,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 284th Group, 14th Frontier Guards Artillery Regiment`,`3° Batteria, CCLXXXIV Gruppo, 14° Reggimento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`284 FG`,commander:``},
+                        ],
+                    },
+                ],
+            },
         ],
     },
 ]

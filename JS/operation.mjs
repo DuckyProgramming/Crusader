@@ -1,5 +1,5 @@
 import {graphics,constants,dev,types,options} from './variables.mjs'
-import {findName,findAbstract,smoothAnim,inPointBox,boxify,elementArray,findTerm0,distPos,even,last,flatMap} from './../../../JS/functions.mjs'
+import {findName,findAbstract,smoothAnim,inPointBox,boxify,elementArray,distPos,even,last,flatMap} from './../../../JS/functions.mjs'
 import {lsin,lcos} from './../../../JS/graphics.mjs'
 import {transitionManager} from './../../../JS/transitionManager.mjs'
 import {city} from './city.mjs'
@@ -14,11 +14,12 @@ export class operation{
         this.scene=`main`
         this.view={scale:1}
         this.turn={
-            main:0,time:0,total:0,prep:false,start:true,loading:false,order:[],
+            main:0,time:0,total:0,prep:false,start:true,old:false,loading:false,order:[],
             bonus:false,partition:[],translate:-1,
         }
-        this.anim={main:0,prep:0,start:0,select:0,translate:0,selectTrigger:false}
+        this.anim={main:0,prep:0,start:0,startOld:0,select:0,translate:0,selectTrigger:false}
         this.hist={time:0,tick:0,limit:45}
+        this.inspect={units:[]}
         this.select={unit:0}
         this.initialMaps()
 
@@ -28,17 +29,35 @@ export class operation{
 
         constants.init=true
         if(dev.begin>=0){
-            let flat=flatMap(types.map)
+            let flat=flatMap(types.map,-1)
             this.map=flat[dev.begin].mapIndex
             this.loadMap(this.map)
             this.initialComponents()
             this.scene=`mapAll`
             this.initialUnits(flat[dev.begin].index)
+        }else if(dev.reserve!=-1){
+            this.scene=`orderView`
+            if(typeof dev.reserve==`number`){
+                let len=this.units.length
+                this.units.push(new unit(this,types.reserve[dev.reserve]))
+                while(this.units.length>len){
+                    this.inspect.units.push(last(this.units))
+                    this.units.splice(this.units.length-1,1)
+                }
+            }else{
+                let flat=flatMap(types.map,-1)
+                let len=this.units.length
+                this.units.push(new unit(this,flat[dev.reserve[0]].unit.unit[dev.reserve[1]]))
+                while(this.units.length>len){
+                    this.inspect.units.push(last(this.units))
+                    this.units.splice(this.units.length-1,1)
+                }
+            }
         }
     }
     save(){
         let composite={
-            map:types.map[this.map].term,
+            map:types.map[this.map].id,
             set:types.map[this.map].unit[this.set].name,
             cities:this.cities.map(city=>city.save()),
             units:this.units.map(unit=>unit.save()),
@@ -49,6 +68,7 @@ export class operation{
                 total:this.turn.total,
                 prep:this.turn.prep,
                 start:this.turn.start,
+                old:this.turn.old,
                 loading:this.turn.loading,
                 bonus:this.turn.bonus,
                 partition:this.turn.partition,
@@ -66,8 +86,9 @@ export class operation{
     async load(result){
         let composite=JSON.parse(result)
 
-        let map=findTerm0(composite.map,types.map)
+        let map=findAbstract(`id`,composite.map,types.map)
         this.loadMap(map)
+        this.initialComponents()
         this.map=map
         this.nextMap=map
         this.set=findName(composite.set,types.map[this.map].unit)
@@ -77,6 +98,7 @@ export class operation{
         this.turn.total=composite.turn.total
         this.turn.prep=composite.turn.prep
         this.turn.start=composite.turn.start
+        this.turn.old=composite.turn.old
         this.turn.loading=composite.turn.loading
         this.turn.bonus=composite.turn.bonus
         this.turn.partition=composite.turn.partition
@@ -309,37 +331,40 @@ export class operation{
                     layer.text(`e.g. 33rd Reconnaissance Battalion`,layer.width/2,layer.height/2+30)
                     layer.text(`e.g. Aufklärungs-Abteilung 33`,layer.width/2,layer.height/2+130)
                 }
-                if(this.anim.start>0){
-                    let flat=flatMap(types.map)
-                    let columns=4
-                    layer.fill(200,this.anim.start)
-                    layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*100,30)
-                    layer.fill(150,this.anim.start)
-                    for(let a=0,la=flat.length;a<la;a++){
-                        let spread=even(floor(a/columns),ceil(la/columns))
-                        let left=min(la-floor(a/columns)*columns,columns)
-                        layer.rect(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80,20)
-                    }
-                    layer.fill(0,this.anim.start)
-                    layer.textSize(80)
-                    layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
-                    layer.textSize(40)
-                    layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*50)
-                    for(let a=0,la=flat.length;a<la;a++){
-                        let spread=even(floor(a/columns),ceil(la/columns))
-                        let left=min(la-floor(a/columns)*columns,columns)
-                        layer.textSize(15)
-                        layer.text(`1234567890ABCDEFG`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
-                        if(flat[a].unit.strength.num.length==0){
-                            layer.textSize(30)
-                            layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
-                        }else{
-                            layer.textSize(25)
-                            layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
-                            layer.textSize(20)
-                            layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
+                for(let a=0,la=2;a<la;a++){
+                    let anim=[this.anim.start,this.anim.startOld][a]
+                    if(anim>0){
+                        let flat=flatMap(types.map,a==1)
+                        let columns=4
+                        layer.fill(200,anim)
+                        layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*100,30)
+                        layer.fill(150,anim)
+                        for(let a=0,la=flat.length;a<la;a++){
+                            let spread=even(floor(a/columns),ceil(la/columns))
+                            let left=min(la-floor(a/columns)*columns,columns)
+                            layer.rect(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80,20)
+                        }
+                        layer.fill(0,anim)
+                        layer.textSize(80)
+                        layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
+                        layer.textSize(40)
+                        layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*50)
+                        for(let a=0,la=flat.length;a<la;a++){
+                            let spread=even(floor(a/columns),ceil(la/columns))
+                            let left=min(la-floor(a/columns)*columns,columns)
                             layer.textSize(15)
-                            layer.text(flat[a].unit.strength.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+90+spread*100)
+                            layer.text(`1234567890ABCDEFGH`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
+                            if(flat[a].unit.strength.num.length==0){
+                                layer.textSize(30)
+                                layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
+                            }else{
+                                layer.textSize(25)
+                                layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
+                                layer.textSize(20)
+                                layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
+                                layer.textSize(15)
+                                layer.text(flat[a].unit.strength.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+90+spread*100)
+                            }
                         }
                     }
                 }
@@ -369,7 +394,7 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text(`${floor(this.select.unit.getKills(0))} Kills\n${floor(this.select.unit.getKills(1))} Vehicles\n${floor(this.select.unit.getKills(2))} Artillery`,layer.width-80,130,140)
-                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0/*(this.select.unit.contain.middle?0:1)*/){
+                        /*if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0&&(this.select.unit.contain.middle?0:1)){
                             layer.fill(150,this.anim.main*this.anim.select)
                             layer.rect(layer.width-340,50,200,60,10)
                             layer.fill(0,this.anim.main*this.anim.select)
@@ -377,67 +402,78 @@ export class operation{
                             layer.text(this.select.unit.contain.units.length==0?`Disband HQ`:`Disband`,layer.width-340,50,200)
                             layer.textSize(10)
                             layer.text(`Enter`,layer.width-260,25)
-                        }else if(/*this.select.unit.contain.middle||*/this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0){
-                            let absorb=this.select.unit.contain.trigger?
-                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
-                                this.select.unit.contain.middle?
-                                this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
-                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
-                            if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
-                                absorb.push(-1)
-                            }
-                            layer.fill(150,this.anim.main*this.anim.select)
-                            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
-                                layer.rect(layer.width-340,50,200,60,10)
-                                if(this.select.unit.contain.units.length>1){
-                                    layer.rect(layer.width-190,50,60,60,10)
-                                }
-                            }
-                            if(absorb.length>0){
-                                layer.rect(layer.width-340,130,200,60,10)
-                            }
-                            if(absorb.length>1){
-                                layer.rect(layer.width-190,130,60,60,10)
-                            }
-                            layer.fill(0,this.anim.main*this.anim.select)
-                            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
-                                layer.textSize(this.select.unit.contain.units.length<=1?30:15)
-                                layer.text(
-                                    this.select.unit.contain.units.length==0?`Disband HQ`:
-                                    this.select.unit.contain.units.length==1?(this.select.unit.contain.middle?`Disband`:`Detach HQ`):
-                                    `Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200
-                                )
-                                if(this.select.unit.contain.units.length>1){
-                                    layer.textSize(20)
-                                    layer.text(`Next`,layer.width-190,50)
-                                }
-                            }
-                            if(absorb.length>0){
-                                layer.textSize(15)
-                                let target=absorb[this.select.unit.order.absorb%absorb.length]
-                                layer.text(`Absorb ${target==-1?`Subelements`:target.getDesc()}`,layer.width-340,130,200)
-                            }
-                            if(absorb.length>1){
-                                layer.textSize(20)
-                                layer.text(`Next`,layer.width-190,130)
-                            }
-                            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
-                                layer.textSize(10)
-                                layer.text(`Enter`,layer.width-260,25)
-                                if(this.select.unit.contain.units.length>1){
-                                    layer.textSize(15)
-                                    layer.text(`@`,layer.width-180,30)
-                                }
-                            }
-                            if(absorb.length>0){
-                                layer.textSize(10)
-                                layer.text(`Shift`,layer.width-260,105)
-                            }
-                            if(absorb.length>1){
-                                layer.textSize(15)
-                                layer.text(`#`,layer.width-180,110)
-                            }
+                        }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&){*/
+                        let detach=(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc)&&(this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0
+                        let absorb=this.select.unit.contain.trigger?
+                            this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
+                            this.select.unit.contain.middle?
+                            this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
+                            this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
+                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
+                            absorb.push(-1)
                         }
+                        layer.fill(150,this.anim.main*this.anim.select)
+                        if(detach){
+                            layer.rect(layer.width-340,50,200,60,10)
+                            if(this.select.unit.contain.units.length>1){
+                                layer.rect(layer.width-190,50,60,60,10)
+                            }
+                        }else if(this.select.unit.contain.units.length==0||!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
+                            layer.rect(layer.width-340,50,200,60,10)
+                        }
+                        if(absorb.length>0){
+                            layer.rect(layer.width-340,130,200,60,10)
+                        }
+                        if(absorb.length>1){
+                            layer.rect(layer.width-190,130,60,60,10)
+                        }
+                        layer.fill(0,this.anim.main*this.anim.select)
+                        if(detach){
+                            layer.textSize(this.select.unit.contain.units.length<=1?30:15)
+                            layer.text(
+                                this.select.unit.contain.units.length==1?(this.select.unit.contain.middle?`Disband`:`Detach HQ`):
+                                `Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200
+                            )
+                            if(this.select.unit.contain.units.length>1){
+                                layer.textSize(20)
+                                layer.text(`Next`,layer.width-190,50)
+                            }
+                        }else if(this.select.unit.contain.units.length==0){
+                            layer.textSize(30)
+                            layer.text(`Disband HQ`,layer.width-340,50)
+                        }else if(!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
+                            layer.textSize(30)
+                            layer.text(`Inspect`,layer.width-340,50)
+                        }
+                        if(absorb.length>0){
+                            layer.textSize(15)
+                            let target=absorb[this.select.unit.order.absorb%absorb.length]
+                            layer.text(`Absorb ${target==-1?`Subelements`:target.getDesc()}`,layer.width-340,130,200)
+                        }
+                        if(absorb.length>1){
+                            layer.textSize(20)
+                            layer.text(`Next`,layer.width-190,130)
+                        }
+                        if(detach){
+                            layer.textSize(10)
+                            layer.text(`Enter`,layer.width-260,25)
+                            if(this.select.unit.contain.units.length>1){
+                                layer.textSize(15)
+                                layer.text(`@`,layer.width-180,30)
+                            }
+                        }else if(this.select.unit.contain.units.length==0||!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
+                            layer.textSize(10)
+                            layer.text(`Enter`,layer.width-260,25)
+                        }
+                        if(absorb.length>0){
+                            layer.textSize(10)
+                            layer.text(`Shift`,layer.width-260,105)
+                        }
+                        if(absorb.length>1){
+                            layer.textSize(15)
+                            layer.text(`#`,layer.width-180,110)
+                        }
+                        //}
                     }
                 }
             break
@@ -472,6 +508,10 @@ export class operation{
                     layer.pop()
                 }
             break
+            case `orderView`:
+                layer.background(200)
+                this.inspect.units[0].display(layer,this.scene)
+            break
         }
         this.transitionManager.display(layer)
     }
@@ -485,7 +525,8 @@ export class operation{
             case `main`:
                 this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&this.turn.translate==-1&&!this.turn.start&&this.turn.time==0,0,1,5)
                 this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep&&this.turn.translate==-1,0,1,5)
-                this.anim.start=smoothAnim(this.anim.start,this.turn.start&&this.turn.translate==-1,0,1,5)
+                this.anim.start=smoothAnim(this.anim.start,this.turn.start&&!this.turn.old&&this.turn.translate==-1,0,1,5)
+                this.anim.startOld=smoothAnim(this.anim.startOld,this.turn.start&&this.turn.old&&this.turn.translate==-1,0,1,5)
                 this.anim.translate=smoothAnim(this.anim.translate,this.turn.translate>=0,0,1,5)
 
                 this.anim.selectTrigger=this.units.some(unit=>unit.order.trigger)
@@ -530,6 +571,7 @@ export class operation{
                 }
             break
         }
+        this.transitionManager.update()
     }
     control(input){
         let absorb=this.select.unit.contain.trigger?
@@ -539,7 +581,7 @@ export class operation{
                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
             ):
             this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
-        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
+        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1)){
             absorb.push(-1)
         }
         if(this.select.unit.contain.trigger){
@@ -553,7 +595,7 @@ export class operation{
                                 x:this.select.unit.position.x+lsin(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1),
                                 y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
                             }}
-                            if(!this.units.some(unit=>unit.active&&distPos(unit,pos)<types.unitLevel[3].size[element.player]+unit.radius)){
+                            if(!this.units.some(unit=>unit.active&&distPos(unit,pos)<types.unitLevel[this.select.unit.level==3?4:3].size[element.player]+unit.radius)){
                                 let result=new unit(this,{
                                     pos:[pos.position.x,pos.position.y],
                                     level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
@@ -572,6 +614,7 @@ export class operation{
                                         this.select.unit.contain.middle=true
                                     }
                                     this.select.unit.contain.units=[result]
+                                    result.parent=this.select.unit
                                 }else{
                                     this.select.unit.contain.units.splice(this.select.unit.order.detach%this.select.unit.contain.units.length,1)
                                     removed=true
@@ -671,6 +714,7 @@ export class operation{
                             }
                         }else{
                             let target=absorb[this.select.unit.order.absorb%absorb.length]
+                            let artillery=this.select.unit.order.artillery
                             this.select.unit.contain.units.push(target.contain.units[0])
                             this.select.unit.calculateElements()
                             target.active=false
@@ -682,6 +726,7 @@ export class operation{
                                 )
                             }
                             this.select.unit.calculateElements()
+                            this.select.unit.order.artillery=artillery
                         }
                     break
                     case 3:
@@ -743,12 +788,42 @@ export class operation{
                     break
                 }
             }
-        }else if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=1){
-            if(input==0){
+        }else if(!this.select.unit.contain.trigger/*&&this.select.unit.contain.units.length<=0*/){
+            if(this.select.unit.contain.units.length>0){
+                if(input==0){
+                    this.transitionManager.begin(`orderView`)
+                    let len=this.units.length
+                    this.inspect.units=[]
+                    this.units.push(new unit(this,this.select.unit.getData()))
+                    while(this.units.length>len){
+                        this.inspect.units.push(last(this.units))
+                        this.units.splice(this.units.length-1,1)
+                    }
+                }
+            }else{
+                if(input==0){
+                    this.select.unit.active=false
+                    this.select.unit.destroy()
+                    this.select.unit.order.trigger=false
+                }
+            }
+            if(absorb.length>0){
+                switch(input){
+                    case 2:
+                        let target=absorb[this.select.unit.order.absorb%absorb.length]
+                        target.parent=this.select.unit
+                        this.select.unit.contain.units.push(target)
+                    break
+                    case 3:
+                        this.select.unit.order.absorb++
+                    break
+                }
+            }
+            /*if(input==0){
                 this.select.unit.active=false
                 this.select.unit.destroy()
                 this.select.unit.order.trigger=false
-            }
+            }*/
         }
     }
     onClick(layer,mouse){
@@ -757,7 +832,7 @@ export class operation{
             case `main`:
                 if(this.turn.time<=0){
                     if(this.turn.start){
-                        let flat=flatMap(types.map)
+                        let flat=flatMap(types.map,this.turn.old)
                         let columns=4
                         for(let a=0,la=flat.length;a<la;a++){
                             //let spread=even(floor(a/2),ceil(la/2))
@@ -765,15 +840,21 @@ export class operation{
                             let spread=even(floor(a/columns),ceil(la/columns))
                             let left=min(la-floor(a/columns)*columns,columns)
                             if(inPointBox(mouse,boxify(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80))){
-                                if(flat[a].unit.name==`Legacy Modes`){
-                                    window.open(`Legacy/Crusader`)
-                                }else{
-                                    this.map=flat[a].mapIndex
-                                    this.loadMap(this.map)
-                                    this.initialComponents()
-                                    this.turn.start=false
-                                    this.turn.prep=true
-                                    this.turn.translate=flat[a].index
+                                switch(flat[a].unit.name){
+                                    case `Reserve Modes`: case `Standard Modes`:
+                                        this.turn.old=!this.turn.old
+                                    break
+                                    case `Legacy Modes`:
+                                        window.open(`Legacy/Crusader`)
+                                    break
+                                    default:
+                                        this.map=flat[a].mapIndex
+                                        this.loadMap(this.map)
+                                        this.initialComponents()
+                                        this.turn.start=false
+                                        this.turn.prep=true
+                                        this.turn.translate=flat[a].index
+                                    break
                                 }
                             }
                         }
@@ -823,6 +904,11 @@ export class operation{
             case `mapAll`:
                 this.units.forEach(unit=>unit.onClick(layer,this.scene,rel))
             break
+            case `orderView`:
+                if(dev.reserve==-1){
+                    this.transitionManager.begin(`main`)
+                }
+            break
         }
     }
     onDrag(layer,mouse,previous,button){
@@ -843,18 +929,24 @@ export class operation{
             case `main`:
                 if(this.turn.time<=0){
                     if(this.turn.start){
-                        let flat=flatMap(types.map)
+                        let flat=flatMap(types.map,this.turn.old)
                         for(let a=0,la=flat.length;a<la;a++){
-                            if(key==`1234567890abcdefg`[a]||key==`1234567890ABCDEFG`[a]){
-                                if(flat[a].unit.name==`Legacy Modes`){
-                                    window.open(`Legacy/Crusader`)
-                                }else{
-                                    this.map=flat[a].mapIndex
-                                    this.loadMap(this.map)
-                                    this.initialComponents()
-                                    this.turn.start=false
-                                    this.turn.prep=true
-                                    this.turn.translate=flat[a].index
+                            if(key==`1234567890abcdefgh`[a]||key==`1234567890ABCDEFGH`[a]){
+                                switch(flat[a].unit.name){
+                                    case `Reserve Modes`: case `Standard Modes`:
+                                        this.turn.old=!this.turn.old
+                                    break
+                                    case `Legacy Modes`:
+                                        window.open(`Legacy/Crusader`)
+                                    break
+                                    default:
+                                        this.map=flat[a].mapIndex
+                                        this.loadMap(this.map)
+                                        this.initialComponents()
+                                        this.turn.start=false
+                                        this.turn.prep=true
+                                        this.turn.translate=flat[a].index
+                                    break
                                 }
                             }
                         }
@@ -908,6 +1000,11 @@ export class operation{
             case `mapAll`:
                 if(key==` `){
                     this.units.forEach(unit=>unit.onClick(layer,this.scene,rel))
+                }
+            break
+            case `orderView`:
+                if(key==` `&&dev.reserve==-1){
+                    this.transitionManager.begin(`main`)
                 }
             break
         }

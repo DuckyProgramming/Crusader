@@ -2,62 +2,63 @@ COMPASS:
 
 
 
-Western Desert Force (16 Battalions)
+Western Desert Force (18 Battalions)
 
-7th Armoured Division (9 Battalions)
+7th Armoured Division (10 Battalions)
+	1st King's Dragoon Guards Armoured Cars
 	4th Armoured Brigade (3 Battalions)
 	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
 	3rd Battalion, Coldstream Guards
 	7th Royal Tank Regiment
 
-4th Indian Division (7 Battalions)
+4th Indian Division (8 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
 	20th Australian Infantry Brigade (3 Battalions)
 	6th Australian Division Cavalry (Light Tanks)
+	25th Field Regiment, Royal Artillery
 
 
 
-XXII Army Corps (40 Battalions)
+XXII Army Corps (36 Battalions)
 
-Mixed Bersaglieri Battalion (22nd, 51st, and 61st Companies)
-Blackshirt Battalion "Volontari della Libia"
-140th Blackshirt Battalion "Aquilia"
+Mixed Bersaglieri Motorcycle Battalion (22nd, 60th, and 61st Companies)
 155th Machine Gun Battalion
+Blackshirt Battalion "Volontari della Libia" (With 15th Mortar Company Attached)
+140th Blackshirt Battalion "28 Ottobre" (With 16th Mortar Company Attached)
 
-Independent Artillery (12 Battalions)
-	10th Corps Artillery Regiment (2 Battalions (7,17))
-	22nd Corps Artillery Regiment (2 Battalions (1,42))
-	25th Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-	55th "Brescia" Artillery Regiment (3 Battalions (1,2,3))
-	3rd Group, 12th "Sila" Artillery Regiment
+Independent Artillery (7 Battalions)
+	10th Corps Artillery Regiment (2 Battalions (17,25))
+	22nd Corps Artillery Regiment (2 Battalions (42,43))
+	25th Corps Artillery Regiment (2 Heavy Battalions (105,130))
+	3rd Group, 12th Artillery Regiment
+
+60th Infantry Division "Sabratha" (10 Battalions)
+	85th Infantry Regiment (3 Battalions)
+	86th Infantry Regiment (3 Battalions)
+	42nd Artillery Regiment (3 Battalions (1,2,3))
+	60th Machine Gun Battalion
 
 61st Infantry Division "Sirte" (10 Battalions)
-	69th "Ancona" Infantry Regiment (3 Battalions)
-	70th "Ancona" Infantry Regiment (3 Battalions)
+	69th Infantry Regiment (3 Battalions)
+	70th Infantry Regiment (3 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-Guardia alla Fronteria (11 Battalions)
-	31st Libyan Coastal Infantry Battalion
-	31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
-	31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
-    32nd Frontier Guard Artillery Regiment (4 Battalions (321,322,323,324) With (3,3,3,3) Companies)
-    30th (H) Group, 6th Frontier Guard Artillery Regiment
-    31st (H) Group, 7th Frontier Guard Artillery Regiment
-	
-4th Tank Infantry Regiment (3 Battalions)
+4th Tank Infantry Regiment (5 Battalions)
 	1st Medium Tank Battalion
-	21st Light Tank Battalion
 	60th Light Tank Battalion
+	61st Light Tank Battalion
+	148th Artillery Group (Detached From 25th Corps Artillery Regiment)
+	150th Artillery Group (Detached From 25th Corps Artillery Regiment)
 
 
 
 As the war began, Italian Commander Pitassi Mannella of the XXII Army Corps discovered to his horror how unprepared his forces were.
 He had, on paper, an effective corps of strength, but a lack of motorization and poor supply preparedness crippled his force to extreme levels.
 In preparation for a defensive battle, he had gathered tons of artillery, but it wouldn't be able to support an advance of this scale.
-In addition to his original Sirte Division, he had been given command over numerous frontier guard units, and he had more loose troops besides, but all were in a poor state.
+In addition to his original Sirte Division, he had been transfered the Sabratha Division, and he had more loose troops besides, but all units were in a poor state.
 Nevertheless, when the Sirte Division, headed by the 4th Tank Infantry Regiment, attacked, they made rapid progress, before their supply issues caught up.
-Thus, this division and the accompanying tank regiment sat in their camps in the desert, barely supported by anything, least of all each other.
+Thus, this division and the accompanying tank regiment sat in their camps in the desert, barely supported by anything.
 
 British forces in Egypt were caught off guard but wasted little time in preparing a response to the Italian invasion. Richard O'Connor's WDF was formed from what units were already in Egypt.
 The powerful 7th Armoured Divison would lead the attack, followed by the 4th Indian Division, which consisted of assorted units that would be rotated in and out of the line.
@@ -66,21 +67,16 @@ The following operation would be nothing but a rout for the Italians, though the
 First, the 7th Armoured Division circled around the positions of the 4th Tank Infantry Regiment, while the 11th Indian Infantry Brigade pinned Italian infantry in place.
 The two light tank battalions were completely crushed, and 7th Armoured Division followed up with an attack against the blackshirts, causing them to disperse into the desert.
 Their positions suddenly threatened, the units of the Sirte Division gathered up remannts of the destroyed units and retreated to the frontier.
-There, they put up a brief stand, but were eventually broken and retreated further toward Bardia, where Blackshirts and frontier guard units became the garrison.
-By now, the 11th Indian Infantry Brigade was sent away to recover from its light losses, replaced with some Australian elements.
-The 20th Australian Infantry Brigade was fresh but not too experienced. It would soon prove, however, to be a elite formation.
-When it attacked the defenses of Bardia, it easily cut through the central line and took the town. The units left in the defenses, now cut off, all surrendered.
+There, they put up a brief stand, but were eventually broken and retreated further toward Bardia, where the 70th Infantry Regiment was captured.
 
-The 69th Infantry Regiment of the Sirte Division was hardly any more lucky. On its way east it tried to link up with elements of the Savona Division, but was instead trapped in Tobruk.
-There, Mannella had numerous corps artillery groups, three from the Sirte, three from the 55th "Brescia" Artillery Regiment and one loose.
-In addition he had some blackshirts, bersaglieri, and tanks, but it still wasn't enough to stop the Australian attack supported by tanks and artillery.
-The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his Sirte Division and the 4th Tank Infantry Regiment, and tons of artillery surrendered.
-Very little Italian strength was left. The WDF chased the last pieces of the Sirte Division east, cutting most of it off in the Cyrenaica bulge at Beda Fomm.
-The last few tanks of the 21st Tank Battalion (now of medium variety) and the 3rd Battalion, 70th Infantry Regiment were trapped and destroyed, but they bought just enough time.
-The Sirte Division's command, the 70th Regiment's command, and just two depleted battalions of infantry made it to safety.
+By now, the 11th Indian Infantry Brigade was sent away to recover from its light losses, replaced with some Australian elements.
+The 69th Infantry Regiment was hardly any more lucky. On its way east it tried to link up with elements of the Sabratha Division, but was instead trapped in Tobruk.
+There, Mannella had six corps artillery battalions, three from the Sirte, and one loose, plus some blackshirts, bersaglieri, and tanks, but it still wasn't enough.
+The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his two divisions and the 4th Tank Infantry Regiment, and tons of artillery surrendered.
+Very little Italian strength was left. The WDF chased the last pieces of the Sabratha Division east, cutting most of it off in the Cyrenaica bulge at Beda Fomm.
 When the British finally ran out of logistic momentum at El Agheila, it didn't take an expert to decide the battle's outcome.
 
-Of all the units of XXII Army Corps, only the half-strength Sirte Division remained. What was once 40 Battalions was now 2 weak ones.
+Of all the units of XXII Army Corps, only the half-strength Sabratha Division remained. What was once 32 Battalions was now 4 weak ones.
 The British, however, had problems of their own. 7th Armoured Brigade was exhausted and suffered breakdowns, resulting in its replacement with 2nd Armoured Division.
 4th Indian Division was also withdrawn, though it left behind the 20th Australian Infantry Brigade as Benghazi's garrison.
 Now, at El Agheila, a single weak Italian division faced a single weak British division, the 2nd Armoured. Anything could tip the scales...
@@ -547,10 +543,10 @@ Reinforcements (8 Battalions, Failed to Arrive)
 
 Sonderverband 288 (2 Battalions)
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Obsolete Battalions (283,284))
 
 
 
@@ -567,11 +563,11 @@ This wouldn't last, because the second Italian division in the theatre began to 
 This was the 55th "Savona" Infantry Division, which wasn't motorized. In comparison, the Trento Division could at least claim to be motorized, though this was true only on paper.
 Still, the arrival of fresh infantry (who had just marched across the entirety of Cyrenaica) with decent numbers (unlike the Afrika Division) was welcomed.
 They took over the frontier sector next, as it was hoped the Afrika Division, while weak, could, with Italian backup, lead the next assault on Tobruk.
-This increase in strength indicated that it was time for some consolidation. XXII Army Corps was reformed under Enea Navarini's command, taking control of all Italian troops in the sector.
+This increase in strength indicated that it was time for some consolidation. XXII Army Corps was reformed, taking control of all Italian troops in the sector.
 To command both this corps and the DAK, a new Panzergruppe Afrika was formed with Rommel promoted to this command. Ludwig Crüwell became the DAK commander.
 
 THe Italians were further reinforced by the arrival of the XXII Army Corps's Reconaissance Raggruppamento with a mixed force of battalions.
-However, the Sirte Division which had by now been rebuilt from its destruction during Operation Compass was unable to reach the battle in time.
+However, the Sabratha Division which had by now been rebuilt from its destruction during Operation Compass was unable to reach the battle in time.
 Similarly, Sonderverband 288, an elite force prepared for aiding the Iraq Rebellion, was diverted to Africa but also failed to enter Africa in 1941 except for a single company-sized detachment.
 Still, while not all reinforcements had arrived as hoped, Rommel's new Panzer Army commanded an impressive force of 42 battalions.
 
@@ -819,16 +815,16 @@ XXII Army Corps (12 Battalions)
 	62nd Infantry Regiment (2 Infantry Battalions)
 	46th Artillery Regiment (2 Battalions (1,3))
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
 When his troops returned to El Agheila, Rommel had to reckon with their miserable state.
-Of the Savona Division, only one weak regiment, the 16th, with two battalions remained. It was disbanded to refill the Trento and Sirte Divisions.
-Speaking of the Sirte Division, it was finally rated strong enough for use. So, at the very least, the Savona Division would be partially replaced.
+Of the Savona Division, only one weak regiment, the 16th, with two battalions remained. It was disbanded to refill the Trento and Sabratha Divisions.
+Speaking of the Sabratha Division, it was finally rated for use. So, at the very least, the Savona Division would be partially replaced.
 The Trento Division had also taken severe losses and disbanded 3 battalions, and its Bersaglieri Regiment had to be sent to the rear, but the rest could still fight.
 
 German units were also quite beaten. 15th Panzer Division had about 15 panzers left and the infantry were at half strenght or less. Many support battalions were also depleted.
@@ -913,10 +909,10 @@ Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 	46th Artillery Regiment (2 Battalions (1,3))
 	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -1018,10 +1014,10 @@ Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 	62nd Infantry Regiment (2 Infantry Battalions)
 	46th Artillery Regiment (2 Battalions (1,3))
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -1121,10 +1117,10 @@ Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
 	62nd Infantry Regiment (2 Infantry Battalions)
 	46th Artillery Regiment (2 Battalions (1,3))
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -1231,10 +1227,10 @@ Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	62nd Infantry Regiment (2 Infantry Battalions)
 	46th Artillery Regiment (2 Battalions (1,3))
 
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+60th Infantry Division "Sabratha" (6 Battalions)
+	85th Infantry Regiment (2 Battalions)
+	86th Infantry Regiment (2 Battalions)
+	Frontier Guards Artillery Regrouping "Sabratha" (2 Battalions (283,284))
 
 
 
@@ -1268,26 +1264,26 @@ That time, it was the 7th Armoured Division that took the hit. Well-supported by
 Rommel had to call off his first attack and wait for the Italians to catch up. When they did, though, supply issues still crippled his forces.
 The 90th Light once again ran into strong defenses, and the panzers found the enemy dug in atop Ruweisat Ridge. No gains were made.
 Italian units had joined the attack, but many columns were stretched out over the desert and achieved little.
-The Sirte Division had failed in an assault on the Alamein box while the Trento Division was caught near the 90th Light.
+The Sabratha Division had failed in an assault on the Alamein box while the Trento Division was caught near the 90th Light.
 More Italian subunits tried to outflank British positions from the south but ran straight into the 2nd New Zealand Division.
 
 By this point, the Axis attack had well and truly petered out. The Alamein line had not been broken.
 Auchinleck could've taken his defensive success. But with two fresh brigades arriving, he saw a chance to counterattack.
 The 20th Australian Brigade was to hit the Italians on the coast while the 7th Armoured Divsiion hit the enemy center.
-The results were mixed. While the Australians overran the Sirte Division and captured a whole battalion, 7th Armoured did nothing.
+The results were mixed. While the Australians overran the Sabratha Division and captured a whole battalion, 7th Armoured did nothing.
 Once again, 15th Panzer Division had proved unassailable on the defense, though its attack prospects were highly mixed.
 
-Auchinleck had one final operation prepared, Operation Manhood. This time, the 1st Battalion, the Buffs would attack with some tanks.
-The Australians would try again too, driving once again toward the weakly held lines of the Sirte Division.
-The British attack went poorly from the start. They ran into concentrated Italian artillery fire and were overrun by a counterattack.
-The Australians, too, were turned back, as the Sirte Division had finally gotten all of its elements in line and reorganized.
+Auchinleck had one final operation prepared, Operation Manhood.
+This time, the 3rd Indian Motor Brigade would attack with three infantry battalions and one of armoured cars, joined by the Australians.
+The Indian attack went poorly from the start. They ran into concentrated Italian artillery fire and were overrun by a counterattack.
+The Australians, too, were turned back, as the Sabratha Division had finally gotten all of its elements in line and organized.
 With the operation clearly failing, and the 4th Armoured Brigade losing more of the tanks it sent as support, Auchinleck ended the operation.
 
 The First Battle of El Alamein had ended in a costly stalemate for both sides. The New Zealand Division had lost 4,000 men alone.
 Other than the 18th Indian Infantry Brigade, though, no British units had been completely destroyed. It was a much better performance that at Gazala or Matruh.
-On the other side, Rommel understood his advance was over. The Sirte and Trento Divisions were so badly mauled they had to be merged into one.
+On the other side, Rommel understood his advance was over. The Sabratha and Trento Divisions were so badly mauled they had to be merged into one.
 His German units were doing little better, their strength whittled away by each battle and every British counterattack.
-It was time to dig in, plant some mines, and await reinforcements.
+It was time to dig in and plant some mines.
 
 
 

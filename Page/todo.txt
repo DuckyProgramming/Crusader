@@ -1,40 +1,35 @@
-martyrs cant hit you instantly
-dead ducks can pick up resup crate
-
-change penalty scattergun
-change ice cream
-change detonator
-nutter - replace battery lmg - fires a shotgun blast of ballista bolts but lose 25% of your hp on use
-the updated engineer
-- 4-6 sentries
-- 2 dispensers
-- 2 teleportrs
-- 16-24 distinct "build" weapons
-
-barbarossa - storm 333 + red beard
-vernal wind - spring wind with a tertiary effect
-sudden dream - discover a card, it costs 0, get dazedf
+brescia icon
 
 
 
-movebuild shoes
-the last shoe change
+maps to change:
 
-update icathia
--menessa
+british capture of tobruk
+    60th tank battalion had some leftover companies from the 61st
 
+    send 2/15 to the reserves, that's an AA unit
+    15 group anti-air with 1st and 2nd batteries
 
+    51st company bersaglieri motorcyclists
+    61st not sirte division element
 
-crusader campaign mode
+    only 61st mortar company, not 69th
 
+    10th CAR:
+    7,17
 
+    22nd CAR:
+    reduced to just 2 batteries
+    one from the 1st group
+    the other from the 42nd or 43rd group
 
-after i reconnect:
-get sirte division logo
-get 136th division logo
-get 2nd ccnn division logo for 140th blackshirt battalion
-get 3rd armoured brigade logo (if applicable)
-get 2nd support group logo + commander
-get brandenburger logo
+    25th CAR:
+    all 4 were there
 
-https://www.armoriale.it/wiki/Armoriale_dell%27artiglieria
+    26th CAR:
+    32nd group of 100/17
+
+    -1 company for 61st mg and improved field guns
+
+old battleaxe
++1 more

@@ -412,8 +412,8 @@ export function trace(){
     }
 }
 //main
-export function flatMap(set){
-    return set.map((map,mapIndex)=>map.unit.map((unit,index)=>{return {unit:unit,map:map,index:index,mapIndex:mapIndex}})).flat()
+export function flatMap(set,old){
+    return set.map((map,mapIndex)=>map.unit.map((unit,index)=>{return {unit:unit,map:map,index:index,mapIndex:mapIndex}})).flat().filter(unit=>unit.unit.old==old||old==-1)
 }
 export function see(){
     window.current.units.forEach(unit=>{

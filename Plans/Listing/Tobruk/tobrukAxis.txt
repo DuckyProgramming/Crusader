@@ -1,0 +1,167 @@
+Main:
+
+Tobruk Garrison (36 Battalions, 144 Companies)
+
+Artillery (19 Battalions, 59 Companies)
+	10th Army Corps Artillery Regiment (2 Battalions (7,17))
+	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
+    42nd Artillery Regiment (3 Battalions)
+    1st Group, 12th Artillery Regiment
+    31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
+    32nd Frontier Guard Artillery Regiment (4 Battalions (321,322,323,324) With (3,3,3,3) Companies)
+    30th (H) Group, 6th Frontier Guard Artillery Regiment
+    31st (H) Group, 7th Frontier Guard Artillery Regiment
+
+61st Infantry Division "Sirte" (11 Battalions, 42 Companies)
+	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	43rd Artillery Regiment (3 Battalions)
+	61st Machine Gun Battalion (3 Companies)
+    51st Bersaglieri Motorcycle Company
+    61st Mixed Engineer Battalion (1 Company)
+    61st Mortar Company
+    61st Anti-Tank Company
+
+4th Tank Infantry Regiment (2 Battalions, 6 Companies)
+    1st Medium Tank Battalion (39 M11/39s, Mostly Immobilized)
+    60th Light Tank Battalion (32 L3/35s, Mostly Immobilized)
+        Disbanded 61st Light Tank Battalion
+
+Blackshirts (2 Battalions, 8 Companies)
+    Blackshirt Battalion "Volontari della Libia"
+    140th Blackshirt Battalion "Aquilia"
+
+Guardia Alla Frontiera (2 Battalions, 9 Companies)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
+    31st Libyan Coastal Infantry Battalion
+    31st Frontier Guard Mixed Engineer Company
+
+Improvised Artillery (4 Companies):
+    1 Infantry Gun Battery
+    2 Field Gun Batteries
+    1 Naval Gun (Solo Battery)
+
+Independent Naval Batteries (11 Companies):
+    Bejad
+    Grasso
+    Topo
+    Tonno
+    Tordo
+    Toro
+    Dandolo
+    Tortora
+    Bellotti
+    Pilastrino
+    Sidi Mahmud
+
+22nd Bersaglieri Motorcycle Company
+61st Bersaglieri Motorcycle Company
+
+60th Anti-Tank Company
+85th Mortar Company
+86th Mortar Company
+
+
+
+Reduced:
+
+Tobruk Garrison (30 Battalions, 114 Companies)
+
+Artillery (14 Battalions, 41 Companies)
+	10th Army Corps Artillery Regiment (2 Battalions (7,17))
+	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
+    42nd Artillery Regiment (3 Battalions)
+    1st Group, 12th Artillery Regiment
+    31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
+    31st (H) Group, 7th Frontier Guard Artillery Regiment
+
+61st Infantry Division "Sirte" (11 Battalions, 42 Companies)
+	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	43rd Artillery Regiment (3 Battalions)
+	61st Machine Gun Battalion (3 Companies)
+    51st Bersaglieri Motorcycle Company
+    61st Mixed Engineer Company
+    61st Mortar Company
+    61st Anti-Tank Company
+
+4th Tank Infantry Regiment (2 Battalions, 6 Companies)
+    1st Medium Tank Battalion (39 M11/39s, Mostly Immobilized)
+    60th Light Tank Battalion (32 L3/35s, Mostly Immobilized)
+        Disbanded 61st Light Tank Battalion
+
+Blackshirts (2 Battalions, 8 Companies)
+    Blackshirt Battalion "Volontari della Libia"
+    140th Blackshirt Battalion "Aquilia"
+
+Guardia Alla Frontiera (2 Battalions, 9 Companies)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
+    31st Libyan Coastal Infantry Battalion
+    31st Frontier Guard Mixed Engineer Company
+
+Improvised Artillery (4 Companies):
+    1 Infantry Gun Battery
+    1 Field Gun Battery
+    1 Naval Gun (Solo Battery)
+
+22nd Bersaglieri Motorcycle Company
+61st Bersaglieri Motorcycle Company
+
+60th Anti-Tank Company
+85th Mortar Company
+86th Mortar Company
+
+
+
+Implemented:
+
+Tobruk Garrison (20 Battalions, 80 Companies)
+
+Artillery (9 Battalions, 29 Companies)
+	10th Army Corps Artillery Regiment (2 Battalions (7,17))
+	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
+    42nd Artillery Regiment (3 Battalions)
+
+61st Infantry Division "Sirte" (7 Battalions, 29 Companies)
+	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	43rd Artillery Regiment (3 Battalions)
+	61st Machine Gun Battalion (3 Companies)
+    51st Bersaglieri Motorcycle Company
+    61st Mixed Engineer Company
+    61st Mortar Company
+    61st Anti-Tank Company
+
+4th Tank Infantry Regiment (2 Battalions, 6 Companies)
+    1st Medium Tank Battalion (39 M11/39s, Mostly Immobilized)
+    60th Light Tank Battalion (32 L3/35s, Mostly Immobilized)
+        Disbanded 61st Light Tank Battalion
+
+Blackshirts (2 Battalions, 8 Companies)
+    Blackshirt Battalion "Volontari della Libia"
+    140th Blackshirt Battalion "Aquilia"
+
+Improvised Artillery (3 Companies):
+    1 Infantry Gun Battery
+    1 Field Gun Battery
+    1 Naval Gun (Solo Battery)
+
+22nd Bersaglieri Motorcycle Company
+61st Bersaglieri Motorcycle Company
+
+60th Anti-Tank Company
+85th Mortar Company
+86th Mortar Company
+
+
+
+New:
+
+1st Group, 12th Artillery Regiment (Transferred From Savona Division)
+Reorganizations of 10th, 22nd, and 25th Corps Artillery Regiments
+26th Corps Artillery Regiment
+51st Bersaglieri Motorcycle Company (Added to Mixed Bersaglieri Battalion)
+-1 Company, 61st Machine Gun Battalion
+-1 Company, Improvised Field Guns

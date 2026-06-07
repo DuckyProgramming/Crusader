@@ -67,8 +67,8 @@ It appears the remaining machine gun battalions became regular infantry and the 
 
 The XX corps was called the Corpo d' Armata di' Manovra until 1942. But just calling it CAM would be pretty confusing and indistinct.
 
-It appears that Italian Mixed Support (a.a. e a.c.) Battalions varied heavily in number of companies and design. I've made them all the same for abstraction reasons.
-Either way quality sources are hard to find.
+It appears that Italian Mixed Support (a.a. e a.c.) (Support Weapons and Anti-Tank in Italian) Battalions varied heavily in number of companies and design.
+I've made them all the same for abstraction reasons, and because the extra companies don't matter much. Either way, quality sources are hard to find.
 
 One source I have found indicates the 66th Infantry Regiment "Sicilia" had three infantry battalions and lacked a mixed support battalion.
 This feels like a mistake to me, though, since I can't find support anywhere else and it just... doesn't make any sense? So I'll ignore it.
@@ -228,6 +228,12 @@ I'm inclined to believe this, since another source backs it up. I think this 7th
 After having found another mistake on Niehorster's artillery, this is now once again in contention. Regio Esercito has yet to be wrong so I'm going to side with it.
 25th CAR was armed with 149/13 Austro-Hungarian howitzers built in 1914. They were obsolete for sure, but heavier than the rest.
 
+I've found an updated version of Montanari's order of battle for the above. In it, the 25th CAR is confirmed but I can also say with certainty what the 10th CAR had.
+It had the 7th and 17th groups. So it was the 35th group that in fact got lost.
+He also confirms that the 22nd CAR was greatly reduced and only two batteries were left by the time it got stuck in Tobruk.
+But he does confirm that one is of 100/17 and the other is of 105/28. This 100/17 battery must be from the I group, the 105/28 could be 42 or 43.
+He also indicates that the 26th artillery regiment sent its 1st group to the fortress where it was presumably destroyed.
+
 The 20th (1,2,3,4,20) and 21st (1,2,3,4,21) were destroyed in North Africa and didn't have subsidiary elements.
 10th, 22nd, and 25th CAR were all destroyed when they surrendered in Tobruk.
 Navarini's XXI Corps would have the 16th and 24th CAR. Both seem to have survived to be destroyed in Tunisia.
@@ -256,6 +262,7 @@ With so little to go off of, indicating Italian divisional engineers (specialize
 
 The Italian mixed support battalions had either three or four companies. However, it doesn't matter for this game, because the 4th company was an anti-air company and thus not relevant.
 Thus, they will always be represented in-game with three companies: anti-tank, mortar, and machine gun.
+The motorized divisions were distinct from others in that they never had any infantry guns. They were replaced with anti-tank guns in each regiment (probably the right decision).
 
 The air crash that killed Vyvyan Pope prior to Operation Crusader is often discussed as doing significant damage to the operation. What is not often discussed is that it was a double disaster.
 Russell, commander of 7th Armoured Brigade who had just been made Pope's chief of staff, also met his end. As we know, his replacements both in the brigade and in the staff position were not up to scratch.
@@ -329,6 +336,23 @@ The eastern sector was split into sub-sectors A and B. As we know from the weste
 In this case, I/69 or II/69 (the other was probably destroyed or depleted) defended one while the 31st Frontier Guard Infantry Battalion defended the other.
 The Libyan battalion is supposedly "coastal" so I don't think it would've ended up deployed on the outer ring; it would've been on, well, the coast. I also don't know its structure or even its number.
 
+Later sources dispute the above ^. In fact it appears both of the battaslions were on the frontline. And it WAS the 31st, not the 21st.
+He indicates the following frontier guard artillery structure as well:
+XXXI:
+    Infantry battalion with 3 static machine gun companies and one gun company
+    5th Group: 232bis, 242, 243
+    6th Group: 230bis, 231
+    7th Group: 237, 239, 244, 245 (all heavy)
+XXXII:
+    1st Group: 248, 249, 258
+    2nd Group: 246, 246bis, 258bis
+    3rd Group: 240bis, 247, 247bis
+    4th Group: 236bis, 240, 241 (had personnel only at in june 1940 but received 77/28 by 1941)
+5th Artillery Regrouping (idk)
+6th Artillery Regrouping (31st Group)
+7th Artillery Regrouping (30th Group)
+31st Libyan Coastal Battalion
+
 Regio Esercito claims that the 31st GaF sector had an infantry battalion of the following structure:
 XXXI Battaglione Fanteria Guardia alla Frontiera
     3 compagnie mitraglieri da posizione
@@ -346,3 +370,28 @@ The Trento division's 2 anti-airctaft batteries were numbered the 412th and 414t
 
 I thought Umberto Barberis was the commander of the 69th Infantry Regiment. This was wrong. He was actually commander of the GaF of XXI Corps.
 This confuses me a bit since I don't understand why the GaF would be subordinated to a corps, especially one that wasn't there.
+
+I struggle to find much information on the individual batteries and regiments of the Royal Artillery and Royal Horse Artillery, and of imperial artillery forces.
+It appears that RHA regiments began the war with only 16 guns each and RA regiments had 24 but at times RHA regiments had as much as 36.
+
+One battalion of replacements, the 64th "Catanzaro", ended in Tobruk during its fall, according to at least one source that I trust.
+However, we don't do field replacement units here, so that fact is staying in this notes page forever.
+We also don't do anti-air units here, and there were a couple: 15th Anti-Air Group with 2 batteries, and 1 battery of machine anti-air assigned to the 4th Tank Infantry Regiment.
+
+The only source regarding the numbering of the bersaglieri motorcycle companies is the historically quite unreliable Montanari.
+I don't have any other choice so I'll take his word on the 51st and 22nd not being the 61st (bis) and 202nd, but this is still quite suspicious to me.
+But since there's a solid 6 months for these reorganizations to take place during which I have no other evidence on the matter, I can't really do much about it.
+I do have one other source that claims the existence of a 22nd but lacks any kind of date. It helps but not by much.
+
+Montanari lists a 26th Artillery Raggruppamento at Tobruk, but this couldn't've been the 26th CAR because that unit never formed a 100/17 group, contradicting him.
+It might have been the 26th "Pavia" Artillery Regiment, but without further evidence I'm gonna have to discard this unit out of hand.
+
+The 30th and 31st artillery groups of the GaF appear to have been formed by the depot of the 11th Artillery Regiment GaF but were parcelled out to other regiments/raggruppamenti during the war.
+Both were in Tobruk under what seem like random regiments (the 6th and 7th, haha).
+
+Somehow he is never mentioned a single time, but the commander of the 2nd Support Group during Sonnenblume was a Brigadier Henry Latham.
+
+In its original form, 33rd Panzer Pioneer Battalion had 3 companies, with the 2nd detached, and the 3rd with some tanks attached to it.
+These tanks disappear by September. I believe they were used to replace losses in the panzer regiments. This change will be reflected in some orders of battle.
+
+
