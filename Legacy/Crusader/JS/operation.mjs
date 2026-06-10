@@ -640,10 +640,10 @@ export class operation{
                             layer.text(`Enter`,layer.width-260,25)
                         }else if((this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0){
                             let absorb=this.select.unit.contain.trigger?
-                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level==constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side):
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
                             layer.fill(150,this.anim.main*this.anim.select)
-                            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
+                            if(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc){
                                 layer.rect(layer.width-340,50,200,60,10)
                                 if(this.select.unit.contain.units.length>1){
                                     layer.rect(layer.width-190,50,60,60,10)
@@ -656,7 +656,7 @@ export class operation{
                                 layer.rect(layer.width-190,130,60,60,10)
                             }
                             layer.fill(0,this.anim.main*this.anim.select)
-                            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
+                            if(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc){
                                 layer.textSize(this.select.unit.contain.units.length<=1?30:15)
                                 layer.text(this.select.unit.contain.units.length<=1?`Disband`:`Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200)
                                 if(this.select.unit.contain.units.length>1){
@@ -672,7 +672,7 @@ export class operation{
                                 layer.textSize(20)
                                 layer.text(`Next`,layer.width-190,130)
                             }
-                            if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
+                            if(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc){
                                 layer.textSize(10)
                                 layer.text(`Enter`,layer.width-260,25)
                                 if(this.select.unit.contain.units.length>1){
@@ -1021,8 +1021,8 @@ export class operation{
                         if(inPointBox(mouse,boxify(layer.width-230,90,460,180))){
                             if(this.anim.selectTrigger){
                                 if(this.select.unit.contain.trigger){
-                                    let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==3||unit.level==4)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
-                                    if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
+                                    let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level==constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
+                                    if(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc){
                                         if(inPointBox(mouse,boxify(layer.width-340,50,200,60))){
                                             if(this.select.unit.contain.units.length<=1){
                                                 let element=this.select.unit.contain.units[0]
@@ -1088,7 +1088,7 @@ export class operation{
                                     }
                                     if(absorb.length>0){
                                         if(inPointBox(mouse,boxify(layer.width-340,130,200,60))){
-                                            if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
+                                            if((this.select.unit.level==constants.minLevel||this.select.unit.level==constants.minLevel+1)&&!this.select.unit.contain.adhoc){
                                                 let target=absorb[this.select.unit.order.absorb%absorb.length]
                                                 let element=this.select.unit.contain.units[0]
                                                 let typing=element.type.map(type=>types.unitType[type].name)
@@ -1099,7 +1099,7 @@ export class operation{
                                                 })
                                                 let result=new unit(this,{
                                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                    level:element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,1][element.player],type:typing,team:element.team,
+                                                    level:element.level==constants.minLevel&&target.level==constants.minLevel+1||element.level==constants.minLevel+1&&target.level==constants.minLevel?3:[1,2,1][element.player],type:typing,team:element.team,
                                                     desc:`${[
                                                         `${element.commander!=``?`${element.commander}col`:`Col`}`,
                                                         `Kampfgruppe${element.commander!=``?` ${element.commander}`:``}`,
@@ -1453,7 +1453,7 @@ export class operation{
                         if(this.anim.selectTrigger){
                             if(this.select.unit.contain.trigger){
                                 let absorb=this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side)
-                                if(this.select.unit.level!=3&&this.select.unit.level!=4||this.select.unit.contain.adhoc){
+                                if(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc){
                                     if(key===`Enter`){
                                         if(this.select.unit.contain.units.length<=1){
                                             let element=this.select.unit.contain.units[0]
@@ -1519,7 +1519,7 @@ export class operation{
                                 }
                                 if(absorb.length>0){
                                     if(key==`Shift`){
-                                        if((this.select.unit.level==3||this.select.unit.level==4)&&!this.select.unit.contain.adhoc){
+                                        if((this.select.unit.level==constants.minLevel||this.select.unit.level==constants.minLevel+1)&&!this.select.unit.contain.adhoc){
                                             let target=absorb[this.select.unit.order.absorb%absorb.length]
                                             let element=this.select.unit.contain.units[0]
                                             let typing=element.type.map(type=>types.unitType[type].name)
@@ -1530,7 +1530,7 @@ export class operation{
                                             })
                                             let result=new unit(this,{
                                                 pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                                level:element.level==3&&target.level==4||element.level==4&&target.level==3?3:[1,2,1][element.player],type:typing,team:element.team,
+                                                level:element.level==constants.minLevel&&target.level==constants.minLevel+1||element.level==constants.minLevel+1&&target.level==constants.minLevel?3:[1,2,1][element.player],type:typing,team:element.team,
                                                 desc:`${[`Battle Group`,`Kampfgruppe`,`Column`][element.player]}${element.commander!=``?` ${element.commander}`:``}`,name:[`BG`,`KG`,`C`][element.player],designation:element.designation,commander:element.commander,
                                                 icon:element.icon,elements:[],
                                             })

@@ -49,7 +49,7 @@ export class unit{
             units:[],stats:{},trigger:true,middle:false,
             temp:int(this.desc[0])!=int(this.desc[0]),
             /*this.desc.includes(`Sonderverband`)||this.desc.includes(`z.b.V.`)||this.desc.includes(`Task Force`)*/
-            adhoc:this.level==3&&data.elements.length>0&&data.elements.every(element=>element.level==4)
+            adhoc:this.level==constants.minLevel&&data.elements.length>0&&data.elements.every(element=>element.level==constants.minLevel+1)
         }
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
@@ -626,11 +626,11 @@ export class unit{
                     let totalWidth=(this.contain.units.length-1)*10+this.contain.units.reduce((acc,unit)=>acc+unit.width*1.25,0)
                     let totalHeight=this.contain.units.reduce((acc,unit)=>max(acc,unit.height*1.25),0)
                     let tick=0
-                    let base=(this.level==3||this.level==4)&&!this.contain.adhoc?this.position:{
+                    let base=(this.level==constants.minLevel||this.level==constants.minLevel+1)&&!this.contain.adhoc?this.position:{
                         x:constrain(this.position.x,totalWidth+20,layer.width/this.operation.view.scale-totalWidth-20),
                         y:constrain(this.position.y,this.height*1.25+60,layer.height/this.operation.view.scale-totalHeight*2-this.height-60)
                     }
-                    if((this.level==3||this.level==4)&&!this.contain.adhoc){
+                    if((this.level==constants.minLevel||this.level==constants.minLevel+1)&&!this.contain.adhoc){
                         layer.push()
                         layer.translate(this.position.x,this.position.y)
                         layer.fill(255,this.fade.main*this.fade.hover)

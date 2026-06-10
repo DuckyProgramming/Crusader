@@ -6,7 +6,7 @@ Artillery (19 Battalions, 59 Companies)
 	10th Army Corps Artillery Regiment (2 Battalions (7,17))
 	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
 	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-    42nd Artillery Regiment (3 Battalions)
+    55th Artillery Regiment (3 Battalions)
     1st Group, 12th Artillery Regiment
     31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
     32nd Frontier Guard Artillery Regiment (4 Battalions (321,322,323,324) With (3,3,3,3) Companies)
@@ -39,7 +39,7 @@ Guardia Alla Frontiera (2 Battalions, 9 Companies)
 
 Improvised Artillery (4 Companies):
     1 Infantry Gun Battery
-    2 Field Gun Batteries
+    1 Field Gun Batteries
     1 Naval Gun (Solo Battery)
 
 Independent Naval Batteries (11 Companies):
@@ -72,7 +72,7 @@ Artillery (14 Battalions, 41 Companies)
 	10th Army Corps Artillery Regiment (2 Battalions (7,17))
 	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
 	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-    42nd Artillery Regiment (3 Battalions)
+    55th Artillery Regiment (3 Battalions)
     1st Group, 12th Artillery Regiment
     31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
     31st (H) Group, 7th Frontier Guard Artillery Regiment
@@ -123,7 +123,7 @@ Artillery (9 Battalions, 29 Companies)
 	10th Army Corps Artillery Regiment (2 Battalions (7,17))
 	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
 	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-    42nd Artillery Regiment (3 Battalions)
+    55th Artillery Regiment (3 Battalions)
 
 61st Infantry Division "Sirte" (7 Battalions, 29 Companies)
 	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
@@ -154,14 +154,3 @@ Improvised Artillery (3 Companies):
 60th Anti-Tank Company
 85th Mortar Company
 86th Mortar Company
-
-
-
-New:
-
-1st Group, 12th Artillery Regiment (Transferred From Savona Division)
-Reorganizations of 10th, 22nd, and 25th Corps Artillery Regiments
-26th Corps Artillery Regiment
-51st Bersaglieri Motorcycle Company (Added to Mixed Bersaglieri Battalion)
--1 Company, 61st Machine Gun Battalion
--1 Company, Improvised Field Guns

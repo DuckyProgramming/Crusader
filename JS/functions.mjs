@@ -423,11 +423,12 @@ export function see(){
     window.current.cities.forEach(city=>city.fade.revealTrigger=true)
 }
 export function battalions(){
+    let constants={minLevel:4}
     let totals=[0,0,0,0]
     window.current.units.forEach(unit=>{
-        if(unit.active&&!(unit.level==4&&unit.parent.level==3)){
-            //unit.contain.units.forEach(contain=>{if(contain.level!=4){totals[contain.player]++}})
-            if(unit.level==3&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level==4)){
+        if(unit.active&&!(unit.level==constants.minLevel+1&&unit.parent.level==constants.minLevel)){
+            //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
+            if(unit.level==constants.minLevel&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level==constants.minLevel+1)){
                 totals[unit.player]++
                 if(unit.player>=1){
                     totals[3]++
@@ -448,16 +449,17 @@ export function battalions(){
     print(`${totals.map((total,index)=>`${term[index]}: ${total}/${base[index]}`).join(`\n`)}`)
 }
 export function companies(){
+    let constants={minLevel:4}
     let totals=[0,0,0,0]
     window.current.units.forEach(unit=>{
         if(unit.active){
-            //unit.contain.units.forEach(contain=>{if(contain.level!=4){totals[contain.player]++}})
-            if(unit.level==4&&(unit.parent.level==3||unit.parent==-1)){
+            //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
+            if(unit.level==constants.minLevel+1&&(unit.parent.level==constants.minLevel||unit.parent==-1)){
                 totals[unit.player]++
                 if(unit.player>=1){
                     totals[3]++
                 }
-            }/*else if(unit.level==3&&unit.contain.trigger&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level==4)){
+            }/*else if(unit.level==constants.minLevel&&unit.contain.trigger&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level==constants.minLevel+1)){
                 totals[unit.player]+=unit.contain.units.length
                 if(unit.player>=1){
                     totals[3]+=unit.contain.units.length
@@ -465,13 +467,13 @@ export function companies(){
             }*/else if(unit.contain.trigger){
                 unit.contain.units.forEach(contain=>{
                     switch(contain.level){
-                        case 3:
+                        case 4:
                             totals[contain.player]+=4
                             if(unit.player>=1){
                                 totals[3]+=4
                             }
                         break
-                        case 4:
+                        case 5:
                             totals[contain.player]++
                             if(unit.player>=1){
                                 totals[3]++
@@ -488,7 +490,7 @@ export function companies(){
     print(`${totals.map((total,index)=>`${term[index]}: ${total}/${base[index]}`).join(`\n`)}`)
 }
 export function strength(){
-    let totals=[[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0]]]
+    let totals=[[[0,0],[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0],[0,0]]]
     window.current.units.forEach(unit=>{
         if(unit.contain.trigger&&unit.active){
             unit.calculateElements()
@@ -521,7 +523,7 @@ export function strength(){
         }
     })
     let term=[...types.player.map(item=>item.name),`Axis`]
-    print(totals.map((total,index)=>`${term[index]}:\n${total.map((set,index)=>`${set[0]}/${set[1]} ${[`Infantry`,`Vehicles`,`Artillery`][index]}`).join(`\n`)}`).join(`\n\n`))
+    print(totals.map((total,index)=>`${term[index]}:\n${total.map((set,index)=>`${set[0]}/${set[1]} ${[`Infantry`,`Vehicles`,`Artillery`,`Mortars`][index]}`).join(`\n`)}`).join(`\n\n`))
 }
 export function normalize(){
     let tempUnits=types.unit.slice()
@@ -571,7 +573,7 @@ export function kills(){
     window.options.obscureKills=false
     current.units.forEach(unit=>{
         if(!unit.contain.trigger||unit.contain.units.length>0){
-            print(`${unit.desc}: ${round(unit.getKills(0))} Kills, ${round(unit.getKills(1))} Tanks, ${round(unit.getKills(2))} Artillery`)
+            print(`${unit.desc}: ${[0,1,2,3].map(num=>floor(unit.getKills(num))).map((num,index)=>{return {num:num,text:`${num} ${[`Kills`,`Vehicles`,`Artillery`,`Mortars`][index]}`}}).filter(obj=>obj.num>0).map(({text})=>text).join(`, `)}`)
         }
     })
 }
@@ -579,6 +581,13 @@ export function outPos(){
     current.units.forEach(unit=>{
         if(unit.order.trigger){
             print(`${unit.getDesc()}: ${round(unit.position.x)},${round(unit.position.y)}`)
+        }
+    })
+}
+export function filterClass(checkClass){
+    current.units.forEach(unit=>{
+        if(unit.strength.num[checkClass]==0){
+            unit.active=false
         }
     })
 }

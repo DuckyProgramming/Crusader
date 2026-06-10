@@ -1095,5 +1095,35 @@ reserves=[
                 ],
             },
         ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`British`,
+        desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
+        pos:[212,488],
+        elements:[
+            {
+                level:4,type:[`Artillery`,`Motorized`],team:`British`,
+                desc:[`A Battery, 3rd Battalion, Royal Horse Artillery`,`A Battery, 3rd Regiment, Royal Horse Artillery`],name:`A`,designation:`3 RHA`,commander:``,icon:`7sg`,
+                pos:[315,426],
+                elements:[
+                    {level:4,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 3rd Battalion, Royal Horse Artillery`,`A Battery, 3rd Regiment, Royal Horse Artillery`],name:`A`,designation:`3 RHA`,commander:``},
+                ],
+            },{
+                level:4,type:[`Artillery`,`Motorized`],team:`British`,
+                desc:[`B Battery, 3rd Battalion, Royal Horse Artillery`,`B Battery, 3rd Regiment, Royal Horse Artillery`],name:`B`,designation:`3 RHA`,commander:``,icon:`7sg`,
+                pos:[620,957],
+                elements:[
+                    {level:4,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 3rd Battalion, Royal Horse Artillery`,`B Battery, 3rd Regiment, Royal Horse Artillery`],name:`B`,designation:`3 RHA`,commander:``},
+                ],
+            },
+        ],
+    },{
+        level:2,type:[`Tank`],team:`Italian`,
+        desc:[`4th Tank Infantry Regiment`,`4° Reggimento Carri`],name:`4`,designation:``,commander:`Aresca`,icon:``,
+        pos:[2451,841],
+        elements:[
+            {level:3,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`},
+            {level:3,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
+            {level:3,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+        ],
     },
 ]

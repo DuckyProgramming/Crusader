@@ -244,6 +244,8 @@ Both of them came from the 14th Frontier Guards Artillery Regiment's 28th Raggru
 Wikipedia indicates that the Sirte Division at Tobruk had under its command a 51st Bersaglieri Motorcycle Company.
 Given that the Sirte is the 61st Division and all of its other support subunits are numbered as the 61st, I'm gonna say this is a typo.
 This is supported by the fact that the Sabratha Division, the 60th, happens to also have a Bersaglieri Motorcycle Company, and it's numbered as the 60th just like the division.
+However, I've found evidence of a 53rd Company that was at Sicily despite the rest of the 53rd Division being in Yugoslavia.
+This swings the needle for me on this one. I think it's reasonable with the 53rd in existence to say the 51st had done something similar previously (3 years previously in fact).
 
 Note to self: the 14th and 15th groups of the Raggruppamento Batterie Volanti were renamed and somewhat reformed from the old 1st and 3rd groups. They weren't completely new formations.
 These batteries were mostly mediocre guns but had been mounted on captured British trucks. They didn't come from any other artillery unit so can't be amalgamated.
@@ -393,5 +395,75 @@ Somehow he is never mentioned a single time, but the commander of the 2nd Suppor
 
 In its original form, 33rd Panzer Pioneer Battalion had 3 companies, with the 2nd detached, and the 3rd with some tanks attached to it.
 These tanks disappear by September. I believe they were used to replace losses in the panzer regiments. This change will be reflected in some orders of battle.
+
+Ignoring naval batteries (which couldn't be moved to the perimeter), including frontier guard ones (which could), and ignoring anti-air guns (which were probably not at the perimeter), here's what Montanari placed inside:
+
+D.f «Sirte»
+-43º regg. artiglieria
+—I gruppo da 100/17
+—II gruppo 75/27
+—III gruppo da 75/27
+
+10º ragg. di artiglieria
+-VII gruppo da 100/17
+-XVII gruppo da 105/28
+
+22º ragg. di artiglieria
+-btr. da 100/17
+-btr. da 105/28
+
+25º ragg. di artiglieria
+-CXXX gruppo da 149/13
+-CV gruppo da 149/13
+-CXLVIII gruppo da 149/13
+-CL gruppo da 149/13
+
+26º ragg. di artiglieria
+-I gruppo da 100/17
+
+55º regg. artiglieria per divisione fanteria
+-I gruppo da 100/17
+-II gruppo da 75/27
+-III gruppo da 75/27
+
+Raggruppamento est (XXXI settore di copertura della G.a.F.)
+-XXXI ragg. artiglieria m.c. G.a.f.
+—5º gruppo (btr. 232bis da 105/28; 242, 243 da 120/25)
+—6º gruppo (btr. 230bis, 231bis da 120/25)
+—7º gruppo (btr. 238, 239, 244, 245 da 149/35)
+
+Raggruppamento ovest (XXXII settore di copertura della G.a.F.)
+-XXXII ragg. artiglieria G.a.f.
+—1º gruppo (btr. 248, 249, 258 da 77/28)
+—2º gruppo (btr. 246, 246bis, 258bis da 77/28)
+—3º gruppo (btr. 240bis, 247, 247bis da 77/28)
+—4º gruppo (btr. 236bis, 240, 241 da 77/28)
+
+5º ragg. artiglieria G.a.F.
+(Montanari didn't put anything, maybe there just weren't any units assigned)
+
+6º ragg. artiglieria G.a.F.
+-XXXI gruppo da 120/25
+
+7º ragg. artiglieria G.a.F.
+-XXX gruppo da 149/35
+
+That's a total of 20 groups, plus 2 spare batteries, totaling 248 guns. He later gives a number of 340, which probably includes anti-tank, anti-air, naval, etc.
+
+Montanari and Regio Esercito, however, disagree about the exact structure of the GaF batteries and groups. Montanari's OOB is above but Regio Esercito claims that all the groups were renumbered prior to destruction.
+I'm inclined to trust Regio Esercito much more on this one since it's based on war diaries. Montanari's one for the 31st and 32nd regroupings appears to be copied from June 10 and doesn't reflect wartime changes.
+Welp, time to make a million more changes. For the big one, of course, I've lost most interest in the small one.
+
+I'm going to hazard a guess for the confusing setup of some of Montanari's artillery. The XXX and XXXI gruppi don't appear anywhere else with the same guns (the 120/35 is very rare, the 149/35 less so).
+There is a mention of a different XXX and XXXI gruppo, however these were formed in 1939, and the 1940 order of battle lists neither as having the 120/25 gun.
+This makes me think that the XXXI and XXX gruppi he speaks of are actually the 6th and 7th gruppi from the 31st sector, renamed (the XXX might be from elsewhere, I'm not sure).
+The 2 groups left sector 31 and were scheduled to leave but didn't get the chance to. At the same time, the 31st received 3 replacement battalions from the 32nd.
+The 32nd then received replacements of its own that are of mixed caliber but their exact nature is not recorded. This amounted to 2 groups of mixed caliber.
+Since the details of these units is pretty much unknowable, there is little I can do.
+
+I probably could've guessed this, but the position of Zaafran's name in Arabic translates to "Saffron".
+
+Apparently this isn't common knowledge, but all former "cavalry" units in the British Army had a standard establishment of 3 squadrons.
+This includes both tank (RTR) units and the less regular "Hussar" units.
 
 

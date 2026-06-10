@@ -99,7 +99,7 @@ export class city{
                     layer.noFill()
                     this.connect.primary.forEach(connect=>{
                         switch(this.name){
-                            case `Gerawla`:
+                            case `Gerawla`: case `Hagfet el Hariga`:
                                 layer.bezier(
                                     this.position.x,this.position.y,
                                     this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+50,
@@ -152,6 +152,22 @@ export class city{
                                     this.position.x,this.position.y,
                                     this.position.x*0.7+connect.position.x*0.3-40,this.position.y*0.7+connect.position.y*0.3+10,
                                     this.position.x*0.3+connect.position.x*0.7-40,this.position.y*0.3+connect.position.y*0.7+10,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Mersa el Margus`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.7+connect.position.x*0.3-50,this.position.y*0.7+connect.position.y*0.3-10,
+                                    this.position.x*0.3+connect.position.x*0.7-50,this.position.y*0.3+connect.position.y*0.7-10,
+                                    connect.position.x,connect.position.y
+                                )
+                            break
+                            case `Distillation Plant`:
+                                layer.bezier(
+                                    this.position.x,this.position.y,
+                                    this.position.x*0.7+connect.position.x*0.3-100,this.position.y*0.7+connect.position.y*0.3-20,
+                                    this.position.x*0.3+connect.position.x*0.7-100,this.position.y*0.3+connect.position.y*0.7-30,
                                     connect.position.x,connect.position.y
                                 )
                             break

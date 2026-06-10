@@ -1,0 +1,60 @@
+Tobruk Garrison (36 Battalions, 128 Companies)
+
+Artillery (10 Battalions, 32 Companies)
+	10th Army Corps Artillery Regiment (2 Battalions (7,17))
+	22nd Army Corps Artillery Regiment (2 Batteries (3/1,1/42))
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
+    55th Artillery Regiment (3 Battalions)
+    1st Group, 26th Artillery Regiment
+
+61st Infantry Division "Sirte" (10 Battalions, 42 Companies)
+	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	43rd Artillery Regiment (3 Battalions)
+	61st Machine Gun Battalion (3 Companies)
+    51st Bersaglieri Motorcycle Company
+    61st Mixed Engineer Battalion (1 Company)
+    61st Mortar Company
+    61st Anti-Tank Company
+
+4th Tank Infantry Regiment (2 Battalions, 6 Companies)
+    1st Medium Tank Battalion (2 Companies, 32 M11/39s, Immobilized)
+    63rd Light Tank Battalion (29 L3/35s, Immobilized)
+        One Company of the 63rd Light Tank Battalion and one of the 21st Light Tank Battalion
+    Mobile Medium Tank Company (7 M11/39s)
+    Mobile Light Tank Company (3 L3/35s)
+
+Blackshirts (2 Battalions, 8 Companies)
+    Blackshirt Battalion "Volontari della Libia"
+    140th Blackshirt Battalion "Aquilia"
+
+Guardia Alla Frontiera (11 Battalions, 35 Companies)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Horse Infantry Gun Company)
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+    31st Frontier Guard Mixed Engineer Company
+    31st Frontier Guard Artillery Regiment (4 Battalions, 13 Companies)
+        311th Group (248, 249, 258)
+        312th Group (232bis, 242, 243)
+        313th Group (240bis, 245, 247, 247bis)
+        314th Group (236bis, 240, 241)
+    32nd Frontier Guard Artillery Regiment (3 Battalions, 9 Companies)
+        321st Group (246, 246bis, 258bis)
+        322nd Group (238 H, 239 H, 244 H, 245 H)
+        323rd Group (230bis H, 231bis H)
+    30th (H) Group, 6th Frontier Guard Artillery Regiment (57, 64)
+    31st (H) Group, 7th Frontier Guard Artillery Regiment (95, 202, 203)
+
+22nd Bersaglieri Motorcycle Company
+61st Bersaglieri Motorcycle Company
+
+25th Anti-Tank Company
+140th Mortar Company
+141st Mortar Company
+
+
+
+Artillery
+    68 Field/Howitzer Batteries (272)
+    3 Infantry Gun Companies (12)
+    2 Anti-Tank Companies (16)
+        Total 300

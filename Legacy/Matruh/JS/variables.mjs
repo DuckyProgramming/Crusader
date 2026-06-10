@@ -530,7 +530,7 @@ export var options={obscureKills:true,translate:false,headquarters:false}
 export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}
 export var constants={
-    init:false,unitId:0,
+    init:false,unitId:0,minLevel:3,
     turnTime:150,artilleryRange:250,
     battleVariance:1.5,breakVariance:2.5,breakMult:1.2,battalionVariance:1.2,
 }

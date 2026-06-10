@@ -288,17 +288,18 @@ Tobruk Garrison (6 Battalions)
 
 Deutsches Afrika Korps (16 Battalions)
 
-15th Panzer Division (7 Battalions)
+15th Panzer Division (6 Battalions)
 	8th Panzer Regiment (2 Battalions)
-	15th Infantry Brigade (2 Battalions)
-		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
+	15th Infantry Brigade (1 Battalion)
+		200th Regimental Staff z.b.V. (15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
 	1st Battalion, 33rd Artillery Regiment
 	33rd Anti-Tank Battalion
 
-102nd Infantry Division "Trento" (9 Battalions)
+102nd Infantry Division "Trento" (10 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
 	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
+	8th Bersaglieri Battalion
 	46th Artillery Regiment (3 Battalions (1,3,4))
 
 
@@ -349,7 +350,7 @@ Deutsches Afrika Korps (20 Battalions)
 	15th Infantry Brigade (2 Battalions)
 		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
 	33rd Reconnaissance Battalion
-	33rd Motorized Engineer Battalion
+	33rd Engineer Battalion
 	1st Battalion, 33rd Artillery Regiment
 	33rd Anti-Tank Battalion
 

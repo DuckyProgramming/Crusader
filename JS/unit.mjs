@@ -48,10 +48,10 @@ export class unit{
         this.contain={
             units:[],stats:{},trigger:true,middle:false,
             temp:int(this.desc[0])!=int(this.desc[0]),
-            adhoc:this.level==3&&data.elements.length>0&&data.elements.every(element=>element.level==4)
+            adhoc:this.level==constants.minLevel&&data.elements.length>0&&data.elements.every(element=>element.level==constants.minLevel+1)
         }
         this.logs={main:[],trigger:false,width:0,height:0}
-        this.stats={kills:[0,0,0],obscure:random(0.6,1.5)}
+        this.stats={kills:[0,0,0,0],obscure:random(0.6,1.5)}
         this.base={position:{x:this.position.x,y:this.position.y}}
         this.hist=elementArray({active:false,position:{x:this.base.position.x,y:this.base.position.y},strength:{life:100,morale:100,supply:100}},this.operation.turn.total*2)
 
@@ -171,7 +171,7 @@ export class unit{
         this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
         this.width=this.size*1.6
         this.height=this.size
-        this.radius=this.contain.trigger?this.size:(this.level==3?30:40)*types.map[this.operation.map].unitScale
+        this.radius=this.contain.trigger?this.size:(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale
 
         this.fade=composite.fade
         this.strength=composite.strength
@@ -329,7 +329,7 @@ export class unit{
                 speed:this.type.includes(4)?3:this.type.includes(3)||this.type.includes(5)?2.5:this.type.includes(2)?1.75:1,
                 artillery:false,engineer:false,recon:false
             }
-            this.radius=(this.level==3?30:40)*types.map[this.operation.map].unitScale
+            this.radius=(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale
             this.order.artillery=false
         }
     }
@@ -375,19 +375,11 @@ export class unit{
                         this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
                         this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
                         this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
-                        this.strength.num=[
-                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                        ]
+                        this.strength.num=[0,1,2,3].map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0))
                     break
                     case 0:
                         this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
-                        this.strength.num=[
-                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                            this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0),
-                        ]
+                        this.strength.num=[0,1,2,3].map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0))
                     break
                     case 1:
                         this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
@@ -675,6 +667,10 @@ export class unit{
                                 layer.line(-8,0,0,5)
                                 layer.line(8,0,0,5)
                             break
+                            case 26:
+                                layer.line(6.25,3.25,8,3.25)
+                                layer.line(6.25,3.25,6.25,5)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined){
@@ -781,11 +777,11 @@ export class unit{
                     let totalWidth=(this.contain.units.length-1)*10+this.contain.units.reduce((acc,unit)=>acc+unit.width*1.25,0)
                     let totalHeight=this.contain.units.reduce((acc,unit)=>max(acc,unit.height*1.25),0)
                     let tick=0
-                    let base=(this.level==3||this.level==4)&&!this.contain.adhoc?this.position:{
+                    let base=(this.level==constants.minLevel||this.level==constants.minLevel+1)&&!this.contain.adhoc?this.position:{
                         x:constrain(this.position.x,totalWidth+20,layer.width/this.operation.view.scale-totalWidth-20),
                         y:constrain(this.position.y,this.height*1.25+60,layer.height/this.operation.view.scale-totalHeight*2-this.height-60)
                     }
-                    if((this.level==3||this.level==4)&&!this.contain.adhoc){
+                    if((this.level==constants.minLevel||this.level==constants.minLevel+1)&&!this.contain.adhoc){
                         layer.push()
                         layer.translate(this.position.x,this.position.y)
                         layer.fill(255,this.fade.main*this.fade.hover)
@@ -917,7 +913,7 @@ export class unit{
                                         *random(1,constants.battleVariance)
                                         *this.getParentEffectiveness()
                                         *(target.order.defense?0.8:1)
-                                    let kills=[0,0,0]
+                                    let kills=[0,0,0,0]
                                     target.contain.units.forEach(unit=>{
                                         let fall=unit.strength.life*damage*unit.battle.battalionVariance/unit.strength.base.life
                                         unit.strength.life-=fall
@@ -927,7 +923,7 @@ export class unit{
                                             sqrt(damage*unit.battle.battalionVariance/types.team[unit.team].quality)*3*unit.strength.morale/unit.strength.base.morale/target.contain.stats.morale
                                         )
                                     })
-                                    let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                    let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
                                     this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
                                     target.battle.injure=true
                                     target.updateStrength()
@@ -995,7 +991,7 @@ export class unit{
                                         if(!this.logs.main.includes(`Headquarters Captured by ${target.getDesc()}`)){
                                             this.logs.main.push(`Headquarters Captured by ${target.getDesc()}`)
                                         }
-                                    //}else if(!this.contain.stats.recon||target.level>=3&&target.contain.stats.armor<=0.2){
+                                    //}else if(!this.contain.stats.recon||target.level>=constants.minLevel&&target.contain.stats.armor<=0.2){
                                     }else{
                                         hit=true
                                         let fort=false
@@ -1056,7 +1052,7 @@ export class unit{
                                             *target.getParentEffectiveness()
                                             *random(1,constants.battleVariance)
                                         ]
-                                        let kills=[0,0,0]
+                                        let kills=[0,0,0,0]
                                         target.contain.units.forEach(unit=>{
                                             let fall=min(
                                                 unit.strength.life,
@@ -1075,9 +1071,9 @@ export class unit{
                                                 15*unit.battle.battalionVariance/constants.turnTime/(target.battle.enemies.indexOf(this)*2+1)
                                             )
                                         })
-                                        let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                        let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
                                         this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
-                                        let deaths=[0,0,0]
+                                        let deaths=[0,0,0,0]
                                         this.contain.units.forEach(unit=>{
                                             let fall=min(
                                                 unit.strength.life,
@@ -1099,7 +1095,7 @@ export class unit{
                                                 15*unit.battle.battalionVariance/constants.turnTime/(this.battle.enemies.indexOf(target)*2+1)
                                             )
                                         })
-                                        mult=[evens(target.contain.units.length),evens(target.contain.units.length),evens(target.contain.units.length)]
+                                        mult=[evens(target.contain.units.length),evens(target.contain.units.length),evens(target.contain.units.length),evens(target.contain.units.length)]
                                         target.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=deaths[index2]*mult[index2][index]))
 
                                         target.updateStrength()
@@ -1196,7 +1192,7 @@ export class unit{
                                                 return other.active&&other.contain.trigger&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
                                             })){
                                                 
-                                                let kills=[0,0,0]
+                                                let kills=[0,0,0,0]
                                                 target.contain.units.forEach(unit=>{
                                                     let fall=min(
                                                         unit.strength.life,
@@ -1205,7 +1201,7 @@ export class unit{
                                                     unit.strength.life-=fall
                                                     kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
                                                 })
-                                                let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                                let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
                                                 this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
 
                                                 target.updateStrength(0)
