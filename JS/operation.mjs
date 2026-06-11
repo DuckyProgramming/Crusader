@@ -12,7 +12,7 @@ export class operation{
         this.cities=[]
         this.units=[]
         this.scene=`main`
-        this.view={scale:1}
+        this.view={scale:1,scroll:{x:0,y:0},edge:{x:0,y:0}}
         this.turn={
             main:0,time:0,total:0,prep:false,start:true,old:false,loading:false,order:[],
             bonus:false,partition:[],translate:-1,
@@ -33,8 +33,20 @@ export class operation{
             this.map=flat[dev.begin].mapIndex
             this.loadMap(this.map)
             this.initialComponents()
-            this.scene=`mapAll`
             this.initialUnits(flat[dev.begin].index)
+            this.turn.start=false
+            this.units.forEach(unit=>{
+                unit.fade.trigger=true
+                unit.fade.statTrigger=true
+            })
+            this.cities.forEach(city=>city.fade.revealTrigger=true)
+        }else if(dev.view>=0){
+            let flat=flatMap(types.map,-1)
+            this.map=flat[dev.view].mapIndex
+            this.loadMap(this.map)
+            this.initialComponents()
+            this.scene=`mapAll`
+            this.initialUnits(flat[dev.view].index)
         }else if(dev.reserve!=-1){
             this.scene=`orderView`
             if(typeof dev.reserve==`number`){
@@ -288,9 +300,12 @@ export class operation{
             case `main`:
                 img=graphics.load.map[this.map]
                 if(img!=undefined){
-                    this.view.scale=layer.width/img.width
+                    this.view.scale=layer.width/img.width*types.map[this.map].mapScale
+                    this.view.edge.x=img.width
+                    this.view.edge.y=img.height
                     layer.push()
                     layer.scale(this.view.scale)
+                    layer.translate(this.view.scroll.x,this.view.scroll.y)
                     layer.image(img,img.width/2,img.height/2,img.width,img.height)
                     this.cities.forEach(city=>city.display(layer,`road`))
                     this.cities.forEach(city=>city.display(layer,this.scene))
@@ -517,6 +532,10 @@ export class operation{
     }
     update(layer,mouse){
         let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        if(types.map[this.map].mapScale>1){
+            rel.position.x-=this.view.scroll.x
+            rel.position.y-=this.view.scroll.y
+        }
         switch(this.scene){
             case `mapAll`:
                 this.cities.forEach(city=>city.update(layer,this.scene,rel))
@@ -675,7 +694,7 @@ export class operation{
                             })
                             let result=new unit(this,{
                                 pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                level:element.level==constants.minLevel+1&&target.level==constants.minLevel+1||element.level==constants.minLevel&&target.level==constants.minLevel+1||element.level==constants.minLevel+1&&target.level==constants.minLevel?3:[1,2,2][element.player],type:typing,team:element.team,
+                                level:element.level==constants.minLevel+1&&target.level==constants.minLevel+1||element.level==constants.minLevel&&target.level==constants.minLevel+1||element.level==constants.minLevel+1&&target.level==constants.minLevel?4:[2,3,3][element.player],type:typing,team:element.team,
                                 desc:`${[
                                     `${element.commander!=``?`${element.commander}col`:`Col`}`,
                                     `${options.translate?`Battle Group`:`Kampfgruppe`}${element.commander!=``?` ${element.commander}`:``}`,
@@ -811,8 +830,23 @@ export class operation{
                 switch(input){
                     case 2:
                         let target=absorb[this.select.unit.order.absorb%absorb.length]
-                        target.parent=this.select.unit
-                        this.select.unit.contain.units.push(target)
+                        if(target==-1){
+                            let temp=[]
+                            this.select.unit.contain.units.forEach(unit=>{
+                                unit.active=false
+                                unit.destroyStats()
+                                temp.push(...unit.contain.units)
+                                unit.contain.units=[]
+                            })
+                            temp.forEach(unit=>unit.parent=this.select.unit)
+                            this.select.unit.contain.units=temp
+                            this.select.unit.contain.trigger=true
+                            this.select.unit.contain.middle=false
+                            this.select.unit.calculateElements()
+                        }else{
+                            target.parent=this.select.unit
+                            this.select.unit.contain.units.push(target)
+                        }
                     break
                     case 3:
                         this.select.unit.order.absorb++
@@ -828,6 +862,10 @@ export class operation{
     }
     onClick(layer,mouse){
         let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        if(types.map[this.map].mapScale>1){
+            rel.position.x-=this.view.scroll.x
+            rel.position.y-=this.view.scroll.y
+        }
         switch(this.scene){
             case `main`:
                 if(this.turn.time<=0){
@@ -917,7 +955,15 @@ export class operation{
             x:(mouse.position.x-previous.position.x)*(button==`right`?3:1)/this.view.scale,
             y:(mouse.position.y-previous.position.y)*(button==`right`?3:1)/this.view.scale
         }
+        let img
         switch(this.scene){
+            case `main`:
+                if(this.view.scale>0&&types.map[this.map].mapScale>1){
+                    img=graphics.load.map[this.map]
+                    this.view.scroll.x=constrain(this.view.scroll.x+move.x*this.view.scale,-img.width*(types.map[this.map].mapScale-1)/2,0)
+                    this.view.scroll.y=constrain(this.view.scroll.y+move.y*this.view.scale,-img.height*(types.map[this.map].mapScale-1)/2,0)
+                }
+            break
             case `mapAll`:
                 this.units.forEach(unit=>unit.onDrag(layer,this.scene,rel,move))
             break
@@ -925,6 +971,10 @@ export class operation{
     }
     onKey(layer,mouse,key){
         let rel={position:{x:mouse.position.x/this.view.scale,y:mouse.position.y/this.view.scale}}
+        if(types.map[this.map].mapScale>1){
+            rel.position.x-=this.view.scroll.x
+            rel.position.y-=this.view.scroll.y
+        }
         switch(this.scene){
             case `main`:
                 if(this.turn.time<=0){

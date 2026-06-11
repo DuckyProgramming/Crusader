@@ -289,10 +289,10 @@ export class unit{
         return this.contain.stats.recon?1.5:1
     }
     getWidth(){
-        return this.contain.trigger?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
+        return this.contain.trigger||this.contain.adhoc?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
     }
     getHeight(){
-        return this.contain.trigger?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+10,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
+        return this.contain.trigger||this.contain.adhoc?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+10,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
     }
     getData(){
         return {
@@ -448,7 +448,7 @@ export class unit{
                 layer.stroke(0)
                 layer.strokeWeight(2)
                 if(this.contain.units.length>0){
-                    if(this.contain.trigger){
+                    if(this.contain.trigger||this.contain.adhoc){
                         if(this.contain.units[0].desc!=this.desc){
                             layer.line(0,this.height/2,0,this.getHeight()-this.height/2-10)
                         }
@@ -474,7 +474,7 @@ export class unit{
                 this.displaySub(layer,scene,1)
                 layer.scale(10/this.size)
                 if(this.contain.units.length>0){
-                    if(this.contain.trigger){
+                    if(this.contain.trigger||this.contain.adhoc){
                         if(this.contain.units[0].desc!=this.desc){
                             layer.translate(0,5)
                             this.contain.units.forEach(unit=>{
@@ -641,7 +641,11 @@ export class unit{
                                 layer.line(-6,-0.75,-6,0.75)
                             break
                             case 20:
-                                layer.line(-6,-5,-6,5)
+                                if(this.type.includes(22)){
+                                    layer.line(-4.5,-5,-4.5,5)
+                                }else{
+                                    layer.line(-6,-5,-6,5)
+                                }
                             break
                             case 21:
                                 layer.line(-8,-3.25,8,-3.25)
@@ -741,8 +745,8 @@ export class unit{
                     this.logs.width=this.logs.main.reduce((acc,log)=>max(acc,log.length),0)*9+20
                     this.logs.height=this.logs.main.length*20+10
                     let base={
-                        x:constrain(this.position.x,this.logs.width/2+10,layer.width/this.operation.view.scale-this.logs.width/2-10),
-                        y:constrain(this.position.y,this.logs.height/2+10,layer.height/this.operation.view.scale-this.logs.height/2-10)
+                        x:constrain(this.position.x,this.logs.width/2+10,this.operation.view.edge.x-this.logs.width/2-10),
+                        y:constrain(this.position.y,this.logs.height/2+10,this.operation.view.edge.y-this.logs.height/2-10)
                     }
                     layer.noStroke()
                     layer.fill(200,this.fade.logs)
@@ -778,8 +782,8 @@ export class unit{
                     let totalHeight=this.contain.units.reduce((acc,unit)=>max(acc,unit.height*1.25),0)
                     let tick=0
                     let base=(this.level==constants.minLevel||this.level==constants.minLevel+1)&&!this.contain.adhoc?this.position:{
-                        x:constrain(this.position.x,totalWidth+20,layer.width/this.operation.view.scale-totalWidth-20),
-                        y:constrain(this.position.y,this.height*1.25+60,layer.height/this.operation.view.scale-totalHeight*2-this.height-60)
+                        x:constrain(this.position.x,totalWidth+20,this.operation.view.edge.x-totalWidth-20),
+                        y:constrain(this.position.y,this.height*1.25+60,this.operation.view.edge.y-totalHeight*2-this.height-60)
                     }
                     if((this.level==constants.minLevel||this.level==constants.minLevel+1)&&!this.contain.adhoc){
                         layer.push()
@@ -955,7 +959,7 @@ export class unit{
                             this.updateStrength(2)
                         }
                     }else if(!this.order.defense){
-                        if(!this.logs.main.includes(`Moved`)){
+                        if(!this.logs.main.includes(`Moved`)&&options.moved){
                             this.logs.main.push(`Moved`)
                         }
                         this.order.facing=atan2(this.order.position.x-this.position.x,this.order.position.y-this.position.y)

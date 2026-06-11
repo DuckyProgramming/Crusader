@@ -2,22 +2,24 @@ Full:
 
 Tobruk Garrison (36 Battalions, 150 Companies)
 
-Artillery (10 Battalions, 39 Companies)
+Artillery (10 Battalions, 37 Companies)
 	10th Army Corps Artillery Regiment (2 Battalions (7,17))
 	22nd Army Corps Artillery Regiment (2 Batteries (3/1,1/42))
 	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
     55th Artillery Regiment (3 Battalions)
     1st Group, 26th Artillery Regiment
     15th Anti-Aircraft Group (2 Batteries)
-    Improvised (5 Companies)
-        2 Anti-Tank Companies
-        2 Field Gun Batteries
+    Improvised (3 Companies)
+        1 Anti-Tank Company
+        1 Field Gun Battery
         1 Naval Gun (Solo Battery)
 
-61st Infantry Division "Sirte" (11 Battalions, 42 Companies)
+61st Infantry Division "Sirte" (11 Battalions, 44 Companies)
 	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
 	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
 	43rd Artillery Regiment (3 Battalions)
+        61st Anti-Aircraft Battery
+        261st Anti-Aircraft Battery
 	61st Machine Gun Battalion (3 Companies)
     51st Bersaglieri Motorcycle Company
     61st Mixed Engineer Battalion (1 Company)
@@ -86,18 +88,19 @@ Artillery
             Total 325
 
     Anti-Air:
-        2 Anti-Aircraft (75mm) Batteries (16)
-        1 Anti-Aircraft (20mm) Battery (6)
+        2 Anti-Aircraft (75mm) Batteries (32)
+        1 Anti-Aircraft (20mm) Batteries (6)
         6 Naval Anti-Aircraft Batteries (36)
-            Total 58
+            Total 74
 
     Improvised:
-        2 Anti-Tank Companies (16)
-        2 Field Gun Batteries (77/28 A-H) (8)
+        1 Anti-Tank Companies (8)
+        1 Field Gun Batteries (77/28 A-H) (4)
         1 Naval Gun (Solo Battery)
-            Total 25
+            Total 13
 
-Total 400
+Total 412
+I guess
 
 
 

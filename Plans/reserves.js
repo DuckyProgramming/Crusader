@@ -880,33 +880,33 @@ reserves=[
         ],
     },{
         level:3,type:[`Infantry`],team:`Blackshirt`,
-        desc:[`140th Blackshirt Battalion "Aquilia"`,`CXL Coorte CC.NN. "Aquilia"`],name:`140`,designation:`Aquilia`,commander:`Martorana`,icon:`2ccnn`,
+        desc:[`140th Blackshirt Battalion "L'Aquila"`,`CXL Coorte CC.NN. "L'Aquila"`],name:`140`,designation:`L'Aquila`,commander:`Martorana`,icon:`2ccnn`,
         pos:[1054,364],
         elements:[
             {
                 level:4,type:[`Infantry`],team:`Blackshirt`,
-                desc:[`1st Company, 140th Blackshirt Battalion "Aquilia"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`1`,designation:`Aquilia`,commander:``,
+                desc:[`1st Company, 140th Blackshirt Battalion "L'Aquila"`,`1° Centuria d'Assalto, CXL Coorte CC.NN. "L'Aquila"`],name:`1`,designation:`L'Aquila`,commander:``,
                 pos:[1462,342],
                 elements:[
                     {type:`Infantry Company`},
                 ],
             },{
                 level:4,type:[`Infantry`],team:`Blackshirt`,
-                desc:[`2nd Company, 140th Blackshirt Battalion "Aquilia"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`2`,designation:`Aquilia`,commander:``,
+                desc:[`2nd Company, 140th Blackshirt Battalion "L'Aquila"`,`2° Centuria d'Assalto, CXL Coorte CC.NN. "L'Aquila"`],name:`2`,designation:`L'Aquila`,commander:``,
                 pos:[1175,309],
                 elements:[
                     {type:`Infantry Company`},
                 ],
             },{
                 level:4,type:[`Infantry`],team:`Blackshirt`,
-                desc:[`3rd Company, 140th Blackshirt Battalion "Aquilia"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`3`,designation:`Aquilia`,commander:``,
+                desc:[`3rd Company, 140th Blackshirt Battalion "L'Aquila"`,`3° Centuria d'Assalto, CXL Coorte CC.NN. "L'Aquila"`],name:`3`,designation:`L'Aquila`,commander:``,
                 pos:[783,292],
                 elements:[
                     {type:`Infantry Company`},
                 ],
             },{
                 level:4,type:[`Infantry`,`Heavy`],team:`Blackshirt`,
-                desc:[`4th Company, 140th Blackshirt Battalion "Aquilia"`,`4° Centuria d'Assalto, CXL Coorte CC.NN. "Aquilia"`],name:`4`,designation:`Aquilia`,commander:``,
+                desc:[`4th Company, 140th Blackshirt Battalion "L'Aquila"`,`4° Centuria d'Assalto, CXL Coorte CC.NN. "L'Aquila"`],name:`4`,designation:`L'Aquila`,commander:``,
                 pos:[783,292],
                 elements:[
                     {type:`Heavy Infantry Company`},
@@ -1124,6 +1124,149 @@ reserves=[
             {level:3,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`},
             {level:3,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
             {level:3,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+        desc:[`30th Group, 6th Frontier Guard Artillery Regiment`,`XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`30`,designation:`6`,commander:`Zaccaria`,icon:``,
+        pos:[2563,905],
+        elements:[
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`57th Frontier Guard Static Artillery Battery`,`57ª Batteria Obici Campali da Posizione Guardia alla Frontiera`],name:`57`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`64th Frontier Guard Static Artillery Battery`,`64ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`64`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+        desc:[`31st Group, 7th Frontier Guard Artillery Regiment`,`XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:`7`,commander:`Giglio`,icon:``,
+        pos:[2728,830],
+        elements:[
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`95th Frontier Guard Static Artillery Battery`,`95ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`95`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`202nd Frontier Guard Static Artillery Battery`,`202ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`202`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`203rd Frontier Guard Static Artillery Battery`,`203ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`203`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`140th Blackshirt Battalion "Salerno"`,`CXL Battaglione CC.NN. "Salerno"`],name:`140`,designation:`Salerno`,commander:`Martorana`,icon:`2ccnn`,
+        pos:[2055,463],
+        elements:[
+            {
+                level:5,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`1st Company, 140th Blackshirt Battalion "Salerno"`,`1ª Compagnia d'Assalto, CXL Battaglione CC.NN. "Salerno"`],name:`1`,designation:`Salerno`,commander:``,
+                pos:[1692,527],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`2nd Company, 140th Blackshirt Battalion "Salerno"`,`2ª Compagnia d'Assalto, CXL Battaglione CC.NN. "Salerno"`],name:`2`,designation:`Salerno`,commander:``,
+                pos:[2210,415],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`3rd Company, 140th Blackshirt Battalion "Salerno"`,`3ª Compagnia d'Assalto, CXL Battaglione CC.NN. "Salerno"`],name:`3`,designation:`Salerno`,commander:``,
+                pos:[2646,420],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Heavy`],team:`Blackshirt`,
+                desc:[`4th Company, 140th Blackshirt Battalion "L'Aquila"`,`4° Centuria d'Assalto, CXL Battaglione CC.NN. "L'Aquila"`],name:`4`,designation:`L'Aquila`,commander:``,
+                pos:[3095,660],
+                elements:[
+                    {type:`Heavy Infantry Company`},
+                ],
+            },
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`10th Corps Artillery Regiment`,`10° Reggimento Artiglieria di Corpo d'Armata`],name:`10`,designation:`Corps`,commander:`Infante`,icon:``,
+        pos:[1463,1361],
+        elements:[
+            {
+                level:4,type:[`Artillery`],team:`Italian`,
+                desc:[`7th Group, 10th Corps Artillery Regiment`,`VII Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`7`,designation:`10 Corps`,commander:`Polacco`,icon:``,
+                pos:[1301,1327],
+                elements:[
+                    {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 7th Artillery Group`,`1ª Batteria, VII Gruppo Artiglieria`],name:`1`,designation:`7 Corps`,commander:``},
+                    {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 7th Artillery Group`,`2ª Batteria, VII Gruppo Artiglieria`],name:`2`,designation:`7 Corps`,commander:``},
+                    {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 7th Artillery Group`,`3ª Batteria, VII Gruppo Artiglieria`],name:`3`,designation:`7 Corps`,commander:``},
+                ],
+            },{
+                level:4,type:[`Artillery`],team:`Italian`,
+                desc:[`17th Group, 10th Corps Artillery Regiment`,`XVII Gruppo, 10° Reggimento Artiglieria di Corpo d'Armata`],name:`17`,designation:`10 Corps`,commander:`Locarno`,icon:``,
+                pos:[1608,1443],
+                elements:[
+                    {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 17th Artillery Group`,`1ª Batteria, XVII Gruppo Artiglieria`],name:`1`,designation:`17 Corps`,commander:``},
+                    {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 17th Artillery Group`,`2ª Batteria, XVII Gruppo Artiglieria`],name:`2`,designation:`17 Corps`,commander:``},
+                    {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 17th Artillery Group`,`3ª Batteria, XVII Gruppo Artiglieria`],name:`3`,designation:`17 Corps`,commander:``},
+                ],
+            },
+        ],
+    },{
+        level:5,type:[`Mortar`],team:`Italian`,
+        desc:[`140th Mortar Company`,`140ª Compagnia Mortaio`],name:`140`,designation:``,commander:``,icon:`catanzaro`,
+        pos:[3315,784],
+        elements:[
+            {type:`Mortar Company`},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Recon`],team:`Guardia alla Frontiera`,
+        desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:``,icon:``,
+        pos:[3466,1046],
+        elements:[
+            {type:`Pack Infantry Gun Company`},
+        ]
+    },{
+        level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+        desc:[`51st Bersaglieri Company`,`51ª Compagnia Bersaglieri`],name:`51`,designation:`Bersaglieri`,commander:`Zani`,icon:`sirte`,
+        pos:[1327,964],
+        elements:[
+            {type:`Motorcycle Bersaglieri Company`},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`30th Group, 6th Frontier Guard Artillery Regiment`,`XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`30`,designation:`6`,commander:`Zaccaria`,icon:``,
+        pos:[2563,905],
+        elements:[
+            {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`57th Frontier Guard Static Artillery Battery`,`57ª Batteria Obici Campali da Posizione Guardia alla Frontiera`],name:`57`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`64th Frontier Guard Static Artillery Battery`,`64ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`64`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+        desc:[`31st Group, 7th Frontier Guard Artillery Regiment`,`XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:`7`,commander:`Giglio`,icon:``,
+        pos:[2728,830],
+        elements:[
+            {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`95th Frontier Guard Static Artillery Battery`,`95ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`95`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`202nd Frontier Guard Static Heavy Artillery Battery`,`202ª Batteria Cannoni Pesanti Campali da Posizione Guardia alla Frontiera`],name:`202`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`203rd Frontier Guard Static Heavy Artillery Battery`,`203ª Batteria Cannoni Pesanti Campali da Posizione Guardia alla Frontiera`],name:`203`,designation:``,commander:``},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`22nd Corps Artillery Regiment`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Sardi`,icon:``,
+        pos:[777,381],
+        elements:[
+            {
+                level:5,type:[`Artillery`],team:`Italian`,
+                desc:[`3rd Battery, 1st Artillery Group`,`3ª Batteria, I Gruppo Artiglieria`],name:`3`,designation:`1 Corps`,commander:`Gallo`,icon:``,
+                pos:[708,475],
+                elements:[
+                    {type:`Ruined Artillery Battery`}
+                ],
+            },{
+                level:5,type:[`Artillery`],team:`Italian`,
+                desc:[`1st Battery, 42nd Artillery Group`,`1ª Batteria, XLII Gruppo Artiglieria`],name:`1`,designation:`42 Corps`,commander:`Battaglini`,icon:``,
+                pos:[675,299],
+                elements:[
+                    {type:`Ruined Artillery Battery`}
+                ],
+            },{
+                level:5,type:[`Artillery`,`Heavy`],team:`Italian`,
+                desc:[`Composite Battery, 42nd Artillery Group`,`Batteria Composita, XLII Gruppo Artiglieria`],name:`C`,designation:`42 Corps`,commander:`Battaglini`,icon:``,
+                pos:[1407,858],
+                elements:[
+                    {type:`Ruined Heavy Artillery Battery`}
+                ],
+            },
         ],
     },
 ]

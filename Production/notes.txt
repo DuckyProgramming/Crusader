@@ -247,6 +247,13 @@ This is supported by the fact that the Sabratha Division, the 60th, happens to a
 However, I've found evidence of a 53rd Company that was at Sicily despite the rest of the 53rd Division being in Yugoslavia.
 This swings the needle for me on this one. I think it's reasonable with the 53rd in existence to say the 51st had done something similar previously (3 years previously in fact).
 
+Some time later I've finally come to my independent conclusion on this. I have the following evidence:
+I have no idea what happened to the 201st, 202nd, and 203rd companies. I can only assume the 202nd became the 22nd, while the 201st and 203rd were destroyed somewhere.
+The 61st likely did exist. The 60th and 63rd did for sure, and were likely independently formed units sometime between June and December. I think it's reasonable for the 61st to be in the same boat.
+On the other hand, I've lost trust that the 61st ever existed. The 51st Division "Siena" never went anywhere near Africa and there was no reason for it, a regular line division, to have a motorcycle company attached.
+I think this is just a typo by Montanari. Other sources mention the 22nd and "various divisional companies" (maybe including the 61st) but no 51st.
+Furthermore, Montanari himself mentions that Pitassi Mannella formed two reserve groups, each with one such motorcycle company. If the 51st was also there, where did it vanish off to?
+
 Note to self: the 14th and 15th groups of the Raggruppamento Batterie Volanti were renamed and somewhat reformed from the old 1st and 3rd groups. They weren't completely new formations.
 These batteries were mostly mediocre guns but had been mounted on captured British trucks. They didn't come from any other artillery unit so can't be amalgamated.
 
@@ -288,6 +295,7 @@ It was formed using cadres from Salerno, which its nickname as a battalion. Its 
 The 238th regiment/legion had the nickname "Aurelio Padovani". This man was a previous fascist leader. It included 3 battalions and a machine gun company (but no regimental mortar company)
 As a legion it was of the "Desposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
 It appears that this battalion was the only survivor of the division which was otherwise destroyed in Bardia. It would end up in Tobruk where it, too, was destroyed.
+There's a different blackshirt unit, the 130th, with the similar-sounding nickname of "L'Aquila".
 
 CC.NN. battalions were called coorte (cohort) and companies were called centuria (century) but this applied only to the militia battalions in the territorial army.
 Field-formed battalions were given normal designations in line with the army EXCEPT that regiments were still called legions.
@@ -323,6 +331,7 @@ For future reference, a standard Italian tank battalion has a much simpler struc
 
 Niehorster lists an AS1940 autotransportable division as having 232 HMGs which I think is a frankly insane number.
 It has 166 extra compared to the metropolitan type, but has only one extra machine gun battalion with companies that have just 12 HMGs each.
+It's not fully clear, since some claims indicate that the machine gun battalions could have anywhere between 3-5 companies. The 155th for sure had at least 3, I don't know about the rest.
 
 To reduce the confusion listed above about the state of the Guardia alla Frontiera at Tobruk, I'll compile what I know here:
 1. The sectors responsible for the town were the 31st and 32nd. A few stragglers from elsewhere might've been but aren't recorded.
@@ -457,6 +466,8 @@ Welp, time to make a million more changes. For the big one, of course, I've lost
 I'm going to hazard a guess for the confusing setup of some of Montanari's artillery. The XXX and XXXI gruppi don't appear anywhere else with the same guns (the 120/35 is very rare, the 149/35 less so).
 There is a mention of a different XXX and XXXI gruppo, however these were formed in 1939, and the 1940 order of battle lists neither as having the 120/25 gun.
 This makes me think that the XXXI and XXX gruppi he speaks of are actually the 6th and 7th gruppi from the 31st sector, renamed (the XXX might be from elsewhere, I'm not sure).
+This makes more sense, given these are labelled under the 6th and 7th "Raggruppamenti" Artiglieria G.a.F., units I couldn't find anywhere else.
+There are mentions of such units in Regio Esercito, labelled under the 6th and 7th Army Artillery Regiments, but neither of them actually had an XXX or XXXI group sent to Africa.
 The 2 groups left sector 31 and were scheduled to leave but didn't get the chance to. At the same time, the 31st received 3 replacement battalions from the 32nd.
 The 32nd then received replacements of its own that are of mixed caliber but their exact nature is not recorded. This amounted to 2 groups of mixed caliber.
 Since the details of these units is pretty much unknowable, there is little I can do.
@@ -465,5 +476,25 @@ I probably could've guessed this, but the position of Zaafran's name in Arabic t
 
 Apparently this isn't common knowledge, but all former "cavalry" units in the British Army had a standard establishment of 3 squadrons.
 This includes both tank (RTR) units and the less regular "Hussar" units.
+
+The Libyan Parachute Battalion "Black Devils" and National Libyan Parachute Battalion are different units. They were, respectively, the first and second battalions of a regiment-sized force.
+
+According to one source, the XXXI Frontier Guard Sector had a total of 29 batteries:
+16 77/28
+1 105/28
+7 120/25
+1 149/12
+4 149/35
+
+My setup (30th and 31st groups are approximate to meet the above specifications, the others are known):
+311th Group (3 77/28)
+312th Group (1 105/28, 2 120/25)
+313th Group (4 77/28)
+314th Group (3 77/28)
+321st Group (3 77/28)
+322nd Group (4 149/35)
+323rd Group (2 120/25)
+30th Group (3 77/28)
+31st Group (3 120/25, 1 149/12)
 
 
