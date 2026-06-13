@@ -28,7 +28,7 @@ Blackshirts (2 Battalions, 8 Companies)
     140th Blackshirt Battalion "Aquilia"
 
 Guardia Alla Frontiera (11 Battalions, 37 Companies)
-    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Company)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Company (23 Guns))
     31st Libyan Coastal Infantry Battalion (3 Companies)
     31st Frontier Guard Mixed Engineer Company
     31st Frontier Guard Artillery Regiment (4 Battalions, 13 Companies)
@@ -51,10 +51,13 @@ Guardia Alla Frontiera (11 Battalions, 37 Companies)
 
 
 Artillery
-    68 Field/Howitzer Batteries (272)
-    3 Infantry Gun Companies (12)
-    2 Anti-Tank Companies (16)
-        Total 300
+    70 Field/Howitzer Batteries (280)
+        Extra Guns: 7
+    2 Infantry Gun Companies (8)
+        Extra Guns: 5
+    3 Anti-Tank Companies (24)
+        Extra Guns: 19
+        Total 343
 
 
 
@@ -67,11 +70,10 @@ XIII Corps (16 Battalions, 52 Companies)
     7th Support Group (4 Battalions, 12 Companies)
         1st Battalion, King's Royal Rifle Corps
         2nd Battalion, Rifle Brigade
-        1st Regiment, Royal Horse Artillery
-        4th Regiment, Royal Horse Artillery
+        1st Regiment, Royal Horse Artillery (2 Batteries)
+        4th Regiment, Royal Horse Artillery (2 Batteries)
     11th Hussars
-    3rd (Anti-Tank) Regiment, Royal Horse Artillery
-    104th (Essex Yeomanry) Regiment, Royal Horse Artillery
+    3rd (Anti-Tank) Regiment, Royal Horse Artillery (4 Batteries)
     2nd (Cheshire) Field Squadron, Royal Engineers
 
 6th Australian Division (7 Battalions, 26 Companies)

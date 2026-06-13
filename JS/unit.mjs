@@ -697,7 +697,7 @@ export class unit{
                     layer.stroke(0,fade)
                     let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
-                    let size=this.designation.length>=20||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
+                    let size=this.designation.length>=18||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
                     layer.textSize(size)
                     layer.strokeWeight(size/5)
                     layer.text(this.designation,this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)

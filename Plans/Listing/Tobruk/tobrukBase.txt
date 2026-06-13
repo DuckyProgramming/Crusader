@@ -284,3 +284,68 @@ Artillery
     3 Infantry Gun Companies (12)
     2 Anti-Tank Companies (16)
         Total 300
+
+
+
+XIII Corps (16 Battalions, 52 Companies)
+
+7th Armoured Division (9 Battalions, 26 Companies)
+    4th Armoured Brigade (2 Battalions, 6 Companies)
+        7th Hussars
+        2nd Royal Tank Regiment
+    7th Support Group (4 Battalions, 12 Companies)
+        1st Battalion, King's Royal Rifle Corps
+        2nd Battalion, Rifle Brigade
+        1st Regiment, Royal Horse Artillery
+        4th Regiment, Royal Horse Artillery
+    11th Hussars
+    3rd (Anti-Tank) Regiment, Royal Horse Artillery
+    104th (Essex Yeomanry) Regiment, Royal Horse Artillery
+    2nd (Cheshire) Field Squadron, Royal Engineers
+
+6th Australian Division (7 Battalions, 26 Companies)
+    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/1st Australian Battalion
+        2/2nd Australian Battalion
+        2/3rd Australian Battalion
+    W Company, 1st Battalion, Royal Northumberland Fusiliers
+    2/1st Field Regiment, Royal Australian Artillery
+    2/1st Anti-Tank Regiment, Royal Australian Artillery
+    2/1st Field Company, Royal Australian Engineers
+    6th Australian Divisional Cavalry Regiment
+    7th Royal Tank Regiment
+
+
+
+Artillery:
+
+Group East (104/120 Guns)
+
+32nd Frontier Guard Artillery Regiment (36 Guns)
+4th (Anti-Tank) Company, 31st Frontier Guard Infantry Battalion (8 Guns)
+30th (H) Group, 6th Frontier Guard Artillery Regiment (12 Guns)
+31st (H) Group, 7th Frontier Guard Artillery Regiment (16 Guns)
+148th and 150th Groups, 25th Army Corps Artillery Regiment (24 Guns)
+25th Anti-Tank Company (8 Guns)
+    261st Anti-Aircraft Battery (8 Guns)
+    15th Anti-Aircraft Group (2 Batteries of 8 Guns)
+
+Group Center (116/122 Guns)
+
+55th Artillery Regiment (36 Guns)
+31st Frontier Guard Artillery Regiment (52 Guns)
+105th and 130th Groups, 25th Army Corps Artillery Regiment (24 Guns)
+10th (Infantry Gun) Company, 69th Infantry Regiment (4 Guns)
+    104th Anti-Aircraft Battery (6 Guns)
+
+Group West (92/100 Guns)
+
+10th Army Corps Artillery Regiment (24 Guns)
+22nd Army Corps Artillery Regiment (8 Guns)
+43rd Artillery Regiment (36 Guns)
+1st Group, 26th Artillery Regiment (12 Guns)
+61st Anti-Tank Company (8 Guns)
+10th (Infantry Gun) Company, 70th Infantry Regiment (4 Guns)
+    61st Anti-Aircraft Battery (8 Guns)
+
+Total 312/342

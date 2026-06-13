@@ -47,9 +47,9 @@ XIII Corps (42 Battalions)
 	32nd Army Tank Brigade (2 Battalions)
 	Polish Independent Carpathian Rifle Brigade (4 Polish Battalions, 1 Czechoslovak Battalion, 1 Australian Battalion, 1 Artillery Battalion)
 	1st Battalion, The Royal Northumberland Fusiliers
-	1st Field Regiment, Royal Horse Artillery
-	104th Field Regiment, Royal Horse Artillery
-	107th Field Regiment, Royal Horse Artillery
-	144th Field Regiment, Royal Artillery
-	177th Coastal Regiment, Royal Artillery
+	1st Field Regiment, Royal Horse Artillery (A/E,B/O)
+	104th Field Regiment, Royal Horse Artillery (349,414)
+	107th Field Regiment, Royal Horse Artillery (425,426)
+	144th Field Regiment, Royal Artillery (389,390)
+	177th Coastal Regiment, Royal Artillery (206 "Bush",503 "Bush")
 	149th Anti-Tank Regiment, Royal Artillery

@@ -27,6 +27,8 @@ This battalion would be converted to a regular infantry battalion in April 1942 
 I don't know what happened to Warrelmann after that, but I believe he stayed with the battalion since his name does get mentioned later in 1942.
 In fact, his name gets mentioned as a the commander of a Kampfgruppe centered around 3/115, which was the former 2nd Machine Gun Battalion, which confirms he stayed.
 
+I've found later evidence that Warrelmann (first name Hinrich) lasted at least as long as Second El Alamein, confirming the above.
+
 Sonderverband 288 had not fully arrived in Africa by November 1941.
 Only one group, Sperrverband (blocking detachment) Daumiller had actually arrived, but didn't participate in Crusader. I think the unit is cool though, so I made it pickable.
 That detachment basically just spent the entire battle as a guard in Benghazi and consisted of a few infantry-adjacent companies. It withdrew after Benghazi was being given up.
@@ -292,10 +294,12 @@ Regardless of how they got there, I'm going to attach them to the Blackshirt bat
 
 The 140th Blackshirt Battalion was a part of the 238th Blackshirt Legion of the 2nd "28 Ottobre" Blackshirt Division.
 It was formed using cadres from Salerno, which its nickname as a battalion. Its source territorial unit was nicknamed "Aquilia".
+This territorial legion had formed two other battalions. The 240th was sent to Ethiopia but wasn't reformed in WW2. The 540th was kept in Italy as a militia unit.
 The 238th regiment/legion had the nickname "Aurelio Padovani". This man was a previous fascist leader. It included 3 battalions and a machine gun company (but no regimental mortar company)
 As a legion it was of the "Desposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
 It appears that this battalion was the only survivor of the division which was otherwise destroyed in Bardia. It would end up in Tobruk where it, too, was destroyed.
 There's a different blackshirt unit, the 130th, with the similar-sounding nickname of "L'Aquila".
+Actually, I was wrong. The battalion was never at Bardia in the first place and was attached to the Sirte division from the start.
 
 CC.NN. battalions were called coorte (cohort) and companies were called centuria (century) but this applied only to the militia battalions in the territorial army.
 Field-formed battalions were given normal designations in line with the army EXCEPT that regiments were still called legions.
@@ -459,6 +463,9 @@ Raggruppamento ovest (XXXII settore di copertura della G.a.F.)
 
 That's a total of 20 groups, plus 2 spare batteries, totaling 248 guns. He later gives a number of 340, which probably includes anti-tank, anti-air, naval, etc.
 
+Painfully, Wikipedia refers to the 2 raggruppamenti (east and west) as simply "2 groups" which greatly undersells the actual strength (29 batteries, not 6).
+This is a translation issue but it really is a problem around this kind of thing. Translating the Italian sources isn't done very well, to be fair most sources were only opened long after the war itself.
+
 Montanari and Regio Esercito, however, disagree about the exact structure of the GaF batteries and groups. Montanari's OOB is above but Regio Esercito claims that all the groups were renumbered prior to destruction.
 I'm inclined to trust Regio Esercito much more on this one since it's based on war diaries. Montanari's one for the 31st and 32nd regroupings appears to be copied from June 10 and doesn't reflect wartime changes.
 Welp, time to make a million more changes. For the big one, of course, I've lost most interest in the small one.
@@ -487,14 +494,32 @@ According to one source, the XXXI Frontier Guard Sector had a total of 29 batter
 4 149/35
 
 My setup (30th and 31st groups are approximate to meet the above specifications, the others are known):
+
+301st Group (3 77/28)
+302nd Group (3 120/25, 1 149/12)
+
 311th Group (3 77/28)
 312th Group (1 105/28, 2 120/25)
 313th Group (4 77/28)
 314th Group (3 77/28)
+
 321st Group (3 77/28)
 322nd Group (4 149/35)
 323rd Group (2 120/25)
+
+Old:
 30th Group (3 77/28)
 31st Group (3 120/25, 1 149/12)
+
+For some reason, while the average Italian anti-tank company had 8 guns, the anti-tank company of the 31st GaF Infantry Battalion had 23!
+
+The "Volontari della Libia" blackshirt battalion was numbered the 2nd and was formed from one company from each of the existing CC.NN. Libyan legions. Designations:
+1st Company: Tripoli, 2nd Company: Misurata, 3rd Company: Bengasi, 4th Company: Derna
+Based on this, I don't think there was any kind of heavy company in the unit, rather all four companies were identical (and not very large).
+Its commander was Giovanni Rocca.
+
+Guardia alla Frontiera engineers were mostly responsible for the maintenance of fortifications. They seem to have some combat ability but they were by all means "mixed".
+I think for this reason they'll be removed from my orders of battle, just like the rest of the mixed engineer battalions.
+Or maybe not. I'll have to think about this over the next few days, since I don't have a replacement company-sized unit ready.
 
 
