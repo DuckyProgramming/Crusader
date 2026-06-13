@@ -22,6 +22,7 @@ export var types={
         {name:`Machine Gun Company`,unitType:[`Infantry`,`Machine Gun`],class:0,damage:[12,2],armor:0,health:25,morale:1,num:200,speed:0.9,artillery:false,engineer:false,recon:false},
         {name:`Heavy Machine Gun Company`,unitType:[`Infantry`,`Machine Gun`,`Heavy`],class:0,damage:[15,3],armor:0,health:25,morale:1,num:200,speed:0.72,artillery:false,engineer:false,recon:false},
         {name:`Static Machine Gun Company`,unitType:[`Infantry`,`Machine Gun`,`Fortress`],class:0,damage:[12,2],armor:0,health:25,morale:1,num:200,speed:0.45,artillery:false,engineer:false,recon:false},
+        {name:`Static Armed Machine Gun Company`,unitType:[`Infantry`,`Machine Gun`,`Fortress`],class:0,damage:[14,2],armor:0,health:25,morale:1,num:200,speed:0.45,artillery:false,engineer:false,recon:false},
         {name:`Static Infantry`,unitType:[`Infantry`,`Fortress`],class:0,damage:[10,2],armor:0,health:75,morale:1,num:600,speed:0.5,artillery:false,engineer:false,recon:false},
         {name:`Static Infantry Company`,unitType:[`Infantry`,`Fortress`],class:0,damage:[10,2],armor:0,health:25,morale:1,num:200,speed:0.5,artillery:false,engineer:false,recon:false},
 
@@ -665,9 +666,9 @@ export var types={
                                     desc:[`31st Frontier Guard Infantry Battalion`,`XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cecavicchi`,icon:``,
                                     pos:[2528,644],
                                     elements:[
-                                        {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`1st Company, 31st Frontier Guard Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`1`,designation:`31`,commander:``},
-                                        {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`2nd Company, 31st Frontier Guard Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`2`,designation:`31`,commander:``},
-                                        {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`3rd Company, 31st Frontier Guard Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`3`,designation:`31`,commander:``},
+                                        {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`1st Company, 31st Frontier Guard Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`1`,designation:`31`,commander:``},
+                                        {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`2nd Company, 31st Frontier Guard Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`2`,designation:`31`,commander:``},
+                                        {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`3rd Company, 31st Frontier Guard Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`3`,designation:`31`,commander:``},
                                         {level:5,type:`Infantry Gun Company`,team:`Guardia alla Frontiera`,desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:``},
                                     ],
                                 },{
@@ -2252,7 +2253,7 @@ export var types={
                                         {type:`Infantry Company`},
                                     ],
                                 },{
-                                    level:5,type:[`Infantry`,`Heavy`],team:`Blackshirt`,
+                                    level:5,type:[`Infantry`],team:`Blackshirt`,
                                     desc:[`4th Company "Derna", Blackshirt Battalion "Volontari della Libia"`,`4ª Compagnia d'Assalto "Derna", Battaglione CC.NN. "Volontari della Libia"`],name:`4`,designation:`Derna`,commander:``,icon:``,
                                     pos:[613,655],
                                     elements:[
@@ -9725,7 +9726,6 @@ export var types={
                                                 {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`238th Bis Frontier Guard Static Artillery Battery`,`238ª Bis Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`238B`,designation:``,commander:``},
                                                 {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`239th Bis Frontier Guard Static Artillery Battery`,`239ª Bis Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`239B`,designation:``,commander:``},
                                                 {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Static Artillery Battery`,`244ª Bis Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`244B`,designation:``,commander:``},
-                                                {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Bis Frontier Guard Static Heavy Artillery Battery`,`245ª Bis Batteria Obici Pesanti Campali da Posizione Guardia alla Frontiera`],name:`245B`,designation:``,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`,`Fortress`],team:`Guardia alla Frontiera`,
@@ -9737,21 +9737,21 @@ export var types={
                                                     desc:[`1st Company, 31st Frontier Guard Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`1`,designation:`31`,commander:`Parisi`,icon:``,
                                                     pos:[3531,1142],
                                                     elements:[
-                                                        {type:`Static Machine Gun Company`},
+                                                        {type:`Static Armed Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`2nd Company, 31st Frontier Guard Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`2`,designation:`31`,commander:`Desideri`,icon:``,
                                                     pos:[3588,1002],
                                                     elements:[
-                                                        {type:`Static Machine Gun Company`},
+                                                        {type:`Static Armed Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`3rd Company, 31st Frontier Guard Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`3`,designation:`31`,commander:`Mosetti`,icon:``,
                                                     pos:[3482,823],
                                                     elements:[
-                                                        {type:`Static Machine Gun Company`},
+                                                        {type:`Static Armed Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Anti-Tank`,`Fortress`],team:`Guardia alla Frontiera`,
@@ -9791,6 +9791,13 @@ export var types={
                                                 },
                                             ],
                                         },{
+                                            level:5,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+                                            desc:[`245th Bis Frontier Guard Static Heavy Artillery Battery`,`245ª Bis Batteria Obici Pesanti Campali da Posizione Guardia alla Frontiera`],name:`245B`,designation:``,commander:``,icon:``,
+                                            pos:[3213,1093],
+                                            elements:[
+                                                {type:`Ruined Static Heavy Artillery Battery`},
+                                            ]
+                                        },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                             pos:[3102,936],
@@ -9818,8 +9825,8 @@ export var types={
                                             desc:[`63rd Tank Battalion`,`LXIII Battaglione Carri L`],name:`63`,designation:``,commander:`Trivioli`,icon:``,
                                             pos:[2633,1223],
                                             elements:[
-                                                {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`1st Company, 63rd Tank Battalion`,`1ª Compagnia, LXIII Battaglione Carri L`],name:`1`,designation:`63`,commander:``},
-                                                {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`1st Company, 21st Tank Battalion`,`3ª Compagnia, XXI Battaglione Carri L`],name:`1`,designation:`21`,commander:``},
+                                                {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`Composite Company, 63rd Tank Battalion`,`Compagnia Composita, LXIII Battaglione Carri L`],name:`C`,designation:`63`,commander:``},
+                                                {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`Composite Company, 21st Tank Battalion`,`Compagnia Composita, XXI Battaglione Carri L`],name:`C`,designation:`21`,commander:``},
                                             ],
                                         },
                                     ],
@@ -9904,7 +9911,7 @@ export var types={
                                         },{
                                             level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
                                             desc:[`150th Group, 25th Corps Artillery Regiment`,`CL Gruppo Obici Pesanti Campali, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`150`,designation:`25 Corps`,commander:`Lazzarini`,icon:``,
-                                            pos:[3212,1091],
+                                            pos:[3281,916],
                                             elements:[
                                                 {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 150th Heavy Artillery Group`,`1ª Batteria, CL Gruppo Obici Pesanti Campali`],name:`1`,designation:`150 Corps`,commander:``},
                                                 {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 150th Heavy Artillery Group`,`2ª Batteria, CL Gruppo Obici Pesanti Campali`],name:`2`,designation:`150 Corps`,commander:``},
@@ -10017,7 +10024,7 @@ export var types={
                                                 {type:`Infantry Company`},
                                             ],
                                         },{
-                                            level:5,type:[`Infantry`,`Heavy`],team:`Blackshirt`,
+                                            level:5,type:[`Infantry`],team:`Blackshirt`,
                                             desc:[`4th Company "Derna", Blackshirt Battalion "Volontari della Libia"`,`4ª Compagnia d'Assalto "Derna", Battaglione CC.NN. "Volontari della Libia"`],name:`4`,designation:`Derna`,commander:``,icon:``,
                                             pos:[1199,1058],
                                             elements:[

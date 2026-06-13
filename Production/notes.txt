@@ -385,6 +385,8 @@ The Trento division's 2 anti-airctaft batteries were numbered the 412th and 414t
 
 I thought Umberto Barberis was the commander of the 69th Infantry Regiment. This was wrong. He was actually commander of the GaF of XXI Corps.
 This confuses me a bit since I don't understand why the GaF would be subordinated to a corps, especially one that wasn't there.
+I think that this position (commander of GaF XXI Corps) was transferred to the XXII Corps at some point but this wasn't recorded.
+Anyway, he was captured with Pitassi Mannella, Della Mura, and Vietina when the fortress fell.
 
 I struggle to find much information on the individual batteries and regiments of the Royal Artillery and Royal Horse Artillery, and of imperial artillery forces.
 It appears that RHA regiments began the war with only 16 guns each and RA regiments had 24 but at times RHA regiments had as much as 36.
@@ -496,7 +498,8 @@ According to one source, the XXXI Frontier Guard Sector had a total of 29 batter
 My setup (30th and 31st groups are approximate to meet the above specifications, the others are known):
 
 301st Group (3 77/28)
-302nd Group (3 120/25, 1 149/12)
+302nd Group (3 120/25)
+245th Bis Battery (1 149/12)
 
 311th Group (3 77/28)
 312th Group (1 105/28, 2 120/25)
@@ -512,11 +515,14 @@ Old:
 31st Group (3 120/25, 1 149/12)
 
 For some reason, while the average Italian anti-tank company had 8 guns, the anti-tank company of the 31st GaF Infantry Battalion had 23!
+This unit was just generally oversized. Its 3 machine gun companies, which logically would have several hundred men, actually had 611 machine guns.
+They were of the Schwarzlose type, meaning each one needed a three-man crew. I have no idea how a regular battalion managed to do this.
 
-The "Volontari della Libia" blackshirt battalion was numbered the 2nd and was formed from one company from each of the existing CC.NN. Libyan legions. Designations:
+The "Volontari della Libia" blackshirt battalion was formed a few days after the war began, and as its name suggests was formed from various volunteers from Libya.
+It was numbered the 2nd and was formed from one company from each of the existing CC.NN. Libyan legions. Designations:
 1st Company: Tripoli, 2nd Company: Misurata, 3rd Company: Bengasi, 4th Company: Derna
 Based on this, I don't think there was any kind of heavy company in the unit, rather all four companies were identical (and not very large).
-Its commander was Giovanni Rocca.
+The idea to form the unit was from Alberto Venturelli, but its commander in combat was Giovanni Rocca.
 
 Guardia alla Frontiera engineers were mostly responsible for the maintenance of fortifications. They seem to have some combat ability but they were by all means "mixed".
 I think for this reason they'll be removed from my orders of battle, just like the rest of the mixed engineer battalions.

@@ -1409,5 +1409,23 @@ reserves=[
                 ],
             },
         ],
+    },{
+        level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+        desc:[`302nd Group, 30th Frontier Guard Artillery Regiment`,`CCCII° Gruppo, 30° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`302`,designation:`30`,commander:`Giglio`,icon:``,
+        pos:[2728,830],
+        elements:[
+            {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`238th Bis Frontier Guard Static Artillery Battery`,`238ª Bis Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`238B`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`239th Bis Frontier Guard Static Artillery Battery`,`239ª Bis Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`239B`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Static Artillery Battery`,`244ª Bis Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`244B`,designation:``,commander:``},
+            {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Bis Frontier Guard Static Heavy Artillery Battery`,`245ª Bis Batteria Obici Pesanti Campali da Posizione Guardia alla Frontiera`],name:`245B`,designation:``,commander:``},
+        ],
+    },{
+        level:4,type:[`Tank`,`Light`],team:`Italian`,
+        desc:[`63rd Tank Battalion`,`LXIII Battaglione Carri L`],name:`63`,designation:``,commander:`Trivioli`,icon:``,
+        pos:[2633,1223],
+        elements:[
+            {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`1st Company, 63rd Tank Battalion`,`1ª Compagnia, LXIII Battaglione Carri L`],name:`1`,designation:`63`,commander:``},
+            {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`1st Company, 21st Tank Battalion`,`3ª Compagnia, XXI Battaglione Carri L`],name:`1`,designation:`21`,commander:``},
+        ],
     },
 ]
