@@ -1,351 +1,152 @@
-Full:
+Tobruk Garrison (36 Battalions, 122 Companies)
 
-Tobruk Garrison (36 Battalions, 150 Companies)
+Artillery (11 Battalions, 36 Companies)
+	10th Army Corps Artillery Regiment (4 Battalions (7, 17, 1/26, 1/55))
+	22nd Army Corps Artillery Regiment (1 Battalion, 5 Companies)
+        1st Group
+        1st Battery, 42nd Group
+        Provisional Anti-Tank Battery
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105, 130, 148, 150))
+    55th Artillery Regiment (2 Battalions (2, 3), 1 Infantry Gun Battery)
 
-Artillery (10 Battalions, 37 Companies)
-	10th Army Corps Artillery Regiment (2 Battalions (7,17))
-	22nd Army Corps Artillery Regiment (2 Batteries (3/1,1/42))
-	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-    55th Artillery Regiment (3 Battalions)
-    1st Group, 26th Artillery Regiment
-    15th Anti-Aircraft Group (2 Batteries)
-    Improvised (3 Companies)
-        1 Anti-Tank Company
-        1 Field Gun Battery
-        1 Naval Gun (Solo Battery)
-
-61st Infantry Division "Sirte" (11 Battalions, 44 Companies)
-	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
-	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
-	43rd Artillery Regiment (3 Battalions)
-        61st Anti-Aircraft Battery
-        261st Anti-Aircraft Battery
-	61st Machine Gun Battalion (3 Companies)
-    51st Bersaglieri Motorcycle Company
-    61st Mixed Engineer Battalion (1 Company)
-    61st Mortar Company
-    61st Anti-Tank Company
-
-4th Tank Infantry Regiment (2 Battalions, 9 Companies)
-    1st Medium Tank Battalion (3 Companies, 32 M11/39s, Immobilized)
-    63rd Light Tank Battalion (29 L3/35s, Immobilized)
-        Two Companies of the 63rd Light Tank Battalion and 1 of the 21st Light Tank Battalion
-    Mobile Regrouping
-        Mobile Medium Tanks (7 M11/39s)
-        Mobile Light Tanks (3 L3/35s)
-    404th Anti-Aircraft Battery
-
-Blackshirts (2 Battalions, 8 Companies)
-    Blackshirt Battalion "Volontari della Libia"
-    140th Blackshirt Battalion "Aquilia"
-
-Guardia Alla Frontiera (11 Battalions, 36 Companies)
-    Eastern Sector (5 Battalions, 17 Companies)
-        31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Horse Infantry Gun Company)
-        31st Frontier Guard Mixed Engineer Company
-        31st Frontier Guard Artillery Regiment (3 Battalions, 9 Companies)
-            311th Group (232bis, 242, 243)
-            312th Heavy Group (230bis, 231bis)
-            313th Heavy Group (238, 239, 244, 245)
-        30th (H) Group, 6th Frontier Guard Artillery Regiment
-    Western Sector (6 Battalions, 19 Companies)
-        31st Libyan Coastal Infantry Battalion
-        32nd Frontier Guard Artillery Regiment (4 Battalions, 12 Companies)
-            321st Group (248, 249, 258)
-            322nd Group (246, 246bis, 258)
-            323rd Group (240bis, 247, 247bis)
-            324th Group (236bis, 240, 241)
-        31st (H) Group, 7th Frontier Guard Artillery Regiment
-
-Independent Naval Batteries (11 Companies):
-    Topo (6) (AA)
-    Tonno (6) (AA)
-    Tordo (6) (AA)
-    Tora (6) (AA)
-    Pilastrino (6) (AA)
-    Sidi Mahmud (6) (AA)
-    Tortora (6)
-    Bejad (6)
-    Dandolo (5)
-    Grasso (4)
-    Bellotti (4)
-
-22nd Bersaglieri Motorcycle Company
-61st Bersaglieri Motorcycle Company
-
-25th Anti-Tank Company
-140th Mortar Company
-141st Mortar Company
-
-
-
-Artillery
-    Standard:
-        68 Field/Howitzer Batteries (272)
-        3 Infantry Gun Companies (12)
-        2 Anti-Tank Companies (16)
-        5 Naval Batteries (25)
-            Total 325
-
-    Anti-Air:
-        2 Anti-Aircraft (75mm) Batteries (32)
-        1 Anti-Aircraft (20mm) Batteries (6)
-        6 Naval Anti-Aircraft Batteries (36)
-            Total 74
-
-    Improvised:
-        1 Anti-Tank Companies (8)
-        1 Field Gun Batteries (77/28 A-H) (4)
-        1 Naval Gun (Solo Battery)
-            Total 13
-
-Total 412
-I guess
-
-
-
-Original:
-
-Tobruk Garrison (36 Battalions, 144 Companies)
-
-Artillery (10 Battalions, 36 Companies)
-	10th Army Corps Artillery Regiment (2 Battalions (7,17))
-	22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
-	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-    55th Artillery Regiment (3 Battalions)
-    1st Group, 26th Artillery Regiment
-    Improvised (4 Companies)
-        1 Infantry Gun Battery
-        2 Field Gun Batteries
-        1 Naval Gun (Solo Battery)
-
-61st Infantry Division "Sirte" (11 Battalions, 42 Companies)
+61st Infantry Division "Sirte" (10 Battalions, 41 Companies)
 	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
 	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
 	43rd Artillery Regiment (3 Battalions)
 	61st Machine Gun Battalion (3 Companies)
-    51st Bersaglieri Motorcycle Company
-    61st Mixed Engineer Battalion (1 Company)
-    61st Mortar Company
-    61st Anti-Tank Company
-
-4th Tank Infantry Regiment (2 Battalions, 6 Companies)
-    1st Medium Tank Battalion (39 M11/39s, Mostly Immobilized)
-    63rd Light Tank Battalion (32 L3/35s, Mostly Immobilized)
-        Disbanded 21st Light Tank Battalion
-
-Blackshirts (2 Battalions, 8 Companies)
-    Blackshirt Battalion "Volontari della Libia"
-    140th Blackshirt Battalion "Aquilia"
-
-Guardia Alla Frontiera (11 Battalions, 36 Companies)
-    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
-    31st Libyan Coastal Infantry Battalion
-    31st Frontier Guard Mixed Engineer Company
-    Artillery (9 Battalions, 27 Companies)
-        31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
-        32nd Frontier Guard Artillery Regiment (4 Battalions (321,322,323,324) With (3,3,3,3) Companies)
-        30th (H) Group, 6th Frontier Guard Artillery Regiment
-        31st (H) Group, 7th Frontier Guard Artillery Regiment
-
-Independent Naval Batteries (11 Companies):
-    Bejad
-    Grasso
-    Topo
-    Tonno
-    Tordo
-    Toro
-    Dandolo
-    Tortora
-    Bellotti
-    Pilastrino
-    Sidi Mahmud
-
-22nd Bersaglieri Motorcycle Company
-61st Bersaglieri Motorcycle Company
-
-25th Anti-Tank Company
-140th Mortar Company
-141st Mortar Company
-
-
-
-Reduced:
-
-Tobruk Garrison (36 Battalions, 128 Companies)
-
-Western Sector "della Mura" (21 Battalions, 76 Companies)
-
-    61st Infantry Division "Sirte" (11 Battalions, 42 Companies)
-        69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
-        70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
-        43rd Artillery Regiment (3 Battalions)
-        61st Machine Gun Battalion (3 Companies)
-        51st Bersaglieri Motorcycle Company
-        61st Mixed Engineer Battalion (1 Company)
-        61st Mortar Company
-        61st Anti-Tank Company
-
-    Artillery (10 Battalions, 32 Companies)
-        10th Army Corps Artillery Regiment (2 Battalions (7,17))
-        22nd Army Corps Artillery Regiment (2 Batteries (1/1,1/42))
-        25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-        55th Artillery Regiment (3 Battalions)
-        1st Group, 26th Artillery Regiment
-
-    140th Mortar Company
-    141st Mortar Company
-
-Eastern Sector "Barberis" (15 Battalions, 52 Companies)
-
-    Guardia Alla Frontiera (2 Battalions, 9 Companies)
-        31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
-        31st Libyan Coastal Infantry Battalion
-        31st Frontier Guard Mixed Engineer Company
-
-    Artillery (9 Battalions, 27 Companies)
-        31st Frontier Guard Artillery Regiment (3 Battalions (311,312(H),313(H)) With (3,2,4) Companies)
-        32nd Frontier Guard Artillery Regiment (4 Battalions (321,322,323,324) With (3,3,3,3) Companies)
-        30th (H) Group, 6th Frontier Guard Artillery Regiment
-        31st (H) Group, 7th Frontier Guard Artillery Regiment
-
-    4th Tank Infantry Regiment (2 Battalions, 6 Companies)
-        1st Medium Tank Battalion (39 M11/39s, Mostly Immobilized)
-        63rd Light Tank Battalion (32 L3/35s, Mostly Immobilized)
-            Disbanded 21st Light Tank Battalion
-
-    Blackshirts (2 Battalions, 8 Companies)
-        Blackshirt Battalion "Volontari della Libia"
-        140th Blackshirt Battalion "Aquilia"
-
-    22nd Bersaglieri Motorcycle Company
     61st Bersaglieri Motorcycle Company
+    61st Mortar Company
+    61st Anti-Tank Company
+
+4th Tank Infantry Regiment (2 Battalions, 5 Companies)
+    1st Medium Tank Battalion (2 Companies, 32 M11/39s, Immobilized)
+    63rd Light Tank Battalion (32 L3/35s, Immobilized)
+        One Provisional Company Each of the 21st and 63rd Light Tank Battalions
+    Mobile Medium Tank Company (7 M11/39s)
+
+Blackshirts (2 Battalions, 6 Companies)
+    Blackshirt Battalion "Volontari della Libia"
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
+
+Guardia Alla Frontiera (11 Battalions, 30 Companies)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Company (23 Guns))
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+    31st Frontier Guard Artillery Regiment (4 Battalions, 13 Companies)
+        311th Group (248, 249, 258)
+        312th Group (232bis, 242, 243)
+        313th Group (240bis, 245, 247, 247bis)
+        314th Group (236bis, 240, 241)
+    32nd Frontier Guard Artillery Regiment (3 Battalions, 10 Companies)
+        321st Group (230bis H, 231bis H, 245 H)
+        322nd Group (246, 246bis, 258bis)
+        323rd Group (238 H, 239 H, 244 H, 245bis)
+
+22nd Bersaglieri Motorcycle Company
+25th Anti-Tank Battery
+140th Mortar Company (No Mortars)
+141st Mortar Company (No Mortars)
 
 
 
-Alternate Reduced:
+Reduced (28 Battalions, 100 Companies)
 
-Tobruk Garrison (36 Battalions, 128 Companies)
+Artillery (11 Battalions, 35 Companies)
+	10th Army Corps Artillery Regiment (4 Battalions (7, 17, 1/26, 1/55))
+	22nd Army Corps Artillery Regiment (1 Battalion, 4 Companies)
+        1st Group
+        1st Battery, 42nd Group
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105, 130, 148, 150))
+    55th Artillery Regiment (2 Battalions (2, 3), 1 Infantry Gun Battery)
 
-Artillery (10 Battalions, 32 Companies)
-	10th Army Corps Artillery Regiment (2 Battalions (7,17))
-	22nd Army Corps Artillery Regiment (2 Batteries (3/1,1/42))
-	25th Army Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-    55th Artillery Regiment (3 Battalions)
-    1st Group, 26th Artillery Regiment
-
-61st Infantry Division "Sirte" (10 Battalions, 42 Companies)
+61st Infantry Division "Sirte" (10 Battalions, 41 Companies)
 	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
 	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
 	43rd Artillery Regiment (3 Battalions)
 	61st Machine Gun Battalion (3 Companies)
-    51st Bersaglieri Motorcycle Company
+    61st Bersaglieri Motorcycle Company
+    61st Mortar Company
+    61st Anti-Tank Company
+
+4th Tank Infantry Regiment (2 Battalions, 5 Companies)
+    1st Medium Tank Battalion (2 Companies, 32 M11/39s, Immobilized)
+    63rd Light Tank Battalion (32 L3/35s, Immobilized)
+        One Provisional Company Each of the 21st and 63rd Light Tank Battalions
+    Mobile Medium Tank Company (7 M11/39s)
+
+Blackshirts (2 Battalions, 6 Companies)
+    Blackshirt Battalion "Volontari della Libia"
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
+
+Guardia Alla Frontiera (3 Battalions, 9 Companies)
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+    311th Group (242, 244, 245)
+    321st Heavy Group (246, 247, 249)
+
+22nd Bersaglieri Motorcycle Company
+25th Anti-Tank Battery
+140th Mortar Company (No Mortars)
+141st Mortar Company (No Mortars)
+
+
+
+Mediated (33 Battalions, 124 Companies)
+
+Artillery (12 Battalions, 42 Companies)
+	10th Army Corps Artillery Regiment (4 Battalions, 12 Batteries)
+        7th Group
+        17th Group
+        1st Group, 26th Artillery Regiment
+        1st Group, 55th Artillery Regiment
+	22nd Army Corps Artillery Regiment (1 Battalion, 7 Batteries)
+        1st Group
+        1st Battery, 42nd Group
+        13th Anti-Aircraft Battery
+        Provisional Anti-Tank Battery
+        10th Specialist Artillery Company
+	25th Army Corps Artillery Regiment (4 Heavy Battalions (105, 130, 148, 150))
+    55th Artillery Regiment (2 Battalions (2, 3), 1 Infantry Gun Battery)
+    15th Anti-Aircraft Group (4 Batteries)
+        3 Batteries 75/46
+        10th Battery, 20th Corps Artillery Regiment
+
+61st Infantry Division "Sirte" (12 Battalions, 46 Companies)
+	69th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	70th Infantry Regiment (3 Battalions, 1 Infantry Gun Company)
+	43rd Artillery Regiment (3 Battalions, 1 Anti-Air Battery)
+	61st Machine Gun Battalion (3 Companies)
+	61st Replacement Battalion (3 Companies)
     61st Mixed Engineer Battalion (1 Company)
+    61st Bersaglieri Motorcycle Company
     61st Mortar Company
     61st Anti-Tank Company
 
 4th Tank Infantry Regiment (2 Battalions, 6 Companies)
     1st Medium Tank Battalion (2 Companies, 32 M11/39s, Immobilized)
-    63rd Light Tank Battalion (29 L3/35s, Immobilized)
-        One Company of the 63rd Light Tank Battalion and one of the 21st Light Tank Battalion
+    63rd Light Tank Battalion (32 L3/35s, Immobilized)
+        One Provisional Company Each of the 21st and 63rd Light Tank Battalions
+    404th Anti-Aircraft Battery
     Mobile Medium Tank Company (7 M11/39s)
-    Mobile Light Tank Company (3 L3/35s)
 
-Blackshirts (2 Battalions, 8 Companies)
+Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia"
-    140th Blackshirt Battalion "Aquilia"
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
 
-Guardia Alla Frontiera (11 Battalions, 35 Companies)
-    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Horse Infantry Gun Company)
+Guardia Alla Frontiera (4 Battalions, 16 Companies)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Company (23 Guns))
     31st Libyan Coastal Infantry Battalion (3 Companies)
-    31st Frontier Guard Mixed Engineer Company
-    31st Frontier Guard Artillery Regiment (9 Battalions, 27 Companies)
-        311th Group (248, 249, 258)
-        312th Group (232bis, 242, 243)
-        313th Group (240bis, 245, 247, 247bis)
-        314th Group (236bis, 240, 241)
-        315th Group (246, 246bis, 258)
-        316th Group (238 H, 239 H, 244 H, 245 H)
-        317th Group (230bis H, 231bis H)
-        31st/A Sector Group (57, 64)
-        31st/B Sector Group (95, 202, 203)
+    31st Mixed Engineer Detachment
+    31st Frontier Guard Artillery Regiment (2 Battalions, 8 Batteries)
+        6th Group (242, 244, 245)
+        7th (Heavy) Group (246, 247, 249)
+        Training Battery "Derna"
+        Provisional Anti-Tank Battery
+
+64th Replacement Battalion (3 Companies)
+3rd Company, 62nd Replacement Battalion
 
 22nd Bersaglieri Motorcycle Company
-61st Bersaglieri Motorcycle Company
-
-25th Anti-Tank Company
-140th Mortar Company
-141st Mortar Company
+25th Anti-Tank Battery
+140th Mortar Company (No Mortars)
+141st Mortar Company (No Mortars)
 
 
-
-Artillery
-    68 Field/Howitzer Batteries (272)
-    3 Infantry Gun Companies (12)
-    2 Anti-Tank Companies (16)
-        Total 300
-
-
-
-XIII Corps (16 Battalions, 52 Companies)
-
-7th Armoured Division (9 Battalions, 26 Companies)
-    4th Armoured Brigade (2 Battalions, 6 Companies)
-        7th Hussars
-        2nd Royal Tank Regiment
-    7th Support Group (4 Battalions, 12 Companies)
-        1st Battalion, King's Royal Rifle Corps
-        2nd Battalion, Rifle Brigade
-        1st Regiment, Royal Horse Artillery
-        4th Regiment, Royal Horse Artillery
-    11th Hussars
-    3rd (Anti-Tank) Regiment, Royal Horse Artillery
-    104th (Essex Yeomanry) Regiment, Royal Horse Artillery
-    2nd (Cheshire) Field Squadron, Royal Engineers
-
-6th Australian Division (7 Battalions, 26 Companies)
-    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
-        2/1st Australian Battalion
-        2/2nd Australian Battalion
-        2/3rd Australian Battalion
-    W Company, 1st Battalion, Royal Northumberland Fusiliers
-    2/1st Field Regiment, Royal Australian Artillery
-    2/1st Anti-Tank Regiment, Royal Australian Artillery
-    2/1st Field Company, Royal Australian Engineers
-    6th Australian Divisional Cavalry Regiment
-    7th Royal Tank Regiment
-
-
-
-Artillery:
-
-Group East (104/120 Guns)
-
-32nd Frontier Guard Artillery Regiment (36 Guns)
-4th (Anti-Tank) Company, 31st Frontier Guard Infantry Battalion (8 Guns)
-30th (H) Group, 6th Frontier Guard Artillery Regiment (12 Guns)
-31st (H) Group, 7th Frontier Guard Artillery Regiment (16 Guns)
-148th and 150th Groups, 25th Army Corps Artillery Regiment (24 Guns)
-25th Anti-Tank Company (8 Guns)
-    261st Anti-Aircraft Battery (8 Guns)
-    15th Anti-Aircraft Group (2 Batteries of 8 Guns)
-
-Group Center (116/122 Guns)
-
-55th Artillery Regiment (36 Guns)
-31st Frontier Guard Artillery Regiment (52 Guns)
-105th and 130th Groups, 25th Army Corps Artillery Regiment (24 Guns)
-10th (Infantry Gun) Company, 69th Infantry Regiment (4 Guns)
-    104th Anti-Aircraft Battery (6 Guns)
-
-Group West (92/100 Guns)
-
-10th Army Corps Artillery Regiment (24 Guns)
-22nd Army Corps Artillery Regiment (8 Guns)
-43rd Artillery Regiment (36 Guns)
-1st Group, 26th Artillery Regiment (12 Guns)
-61st Anti-Tank Company (8 Guns)
-10th (Infantry Gun) Company, 70th Infantry Regiment (4 Guns)
-    61st Anti-Aircraft Battery (8 Guns)
-
-Total 312/342

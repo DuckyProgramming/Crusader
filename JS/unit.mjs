@@ -78,21 +78,23 @@ export class unit{
                 this.joinElement(elements[a])
             }else{
                 let temp=elements[a]
-                temp.level=temp.level??this.level
-                temp.type=temp.type??this.type
-                temp.team=temp.team??this.team
-                temp.desc=temp.desc??this.desc
-                temp.name=temp.name??this.name
-                temp.designation=temp.designation??this.designation
-                temp.commander=temp.commander??this.commander
-                temp.icon=temp.icon??this.icon
-                this.operation.units.push(new unit(this.operation,temp))
-                this.contain.units.push(last(this.operation.units))
-                last(this.contain.units).parent=this
-                if(!last(this.contain.units).contain.trigger){
-                    last(this.contain.units).contain.middle=true
+                if(temp.pos.length>0){
+                    temp.level=temp.level??this.level
+                    temp.type=temp.type??this.type
+                    temp.team=temp.team??this.team
+                    temp.desc=temp.desc??this.desc
+                    temp.name=temp.name??this.name
+                    temp.designation=temp.designation??this.designation
+                    temp.commander=temp.commander??this.commander
+                    temp.icon=temp.icon??this.icon
+                    this.operation.units.push(new unit(this.operation,temp))
+                    this.contain.units.push(last(this.operation.units))
+                    last(this.contain.units).parent=this
+                    if(!last(this.contain.units).contain.trigger){
+                        last(this.contain.units).contain.middle=true
+                    }
+                    this.contain.trigger=false
                 }
-                this.contain.trigger=false
             }
         }
         this.calculateElements()
@@ -701,7 +703,7 @@ export class unit{
                     layer.textSize(size)
                     layer.strokeWeight(size/5)
                     layer.text(this.designation,this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
-                    size=this.name.length>=25?2.25:this.name.length>=15?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
+                    size=this.name.length>=25?2.25:this.name.length>=(this.name.includes(`\n`)?15:10)?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
                     layer.textSize(size)
                     layer.strokeWeight(max(0.3,size/10))
                     if(this.name.includes(`\n`)){

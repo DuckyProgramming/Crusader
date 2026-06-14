@@ -256,6 +256,8 @@ On the other hand, I've lost trust that the 61st ever existed. The 51st Division
 I think this is just a typo by Montanari. Other sources mention the 22nd and "various divisional companies" (maybe including the 61st) but no 51st.
 Furthermore, Montanari himself mentions that Pitassi Mannella formed two reserve groups, each with one such motorcycle company. If the 51st was also there, where did it vanish off to?
 
+Later evidence from Montanari makes me think the 22nd had nothing to do with the 202nd. He lists the 22nd as destroyed in Tobruk, but the 202nd as part of the Sabratha Division in Mid-January (p. 340).
+
 Note to self: the 14th and 15th groups of the Raggruppamento Batterie Volanti were renamed and somewhat reformed from the old 1st and 3rd groups. They weren't completely new formations.
 These batteries were mostly mediocre guns but had been mounted on captured British trucks. They didn't come from any other artillery unit so can't be amalgamated.
 
@@ -523,9 +525,207 @@ It was numbered the 2nd and was formed from one company from each of the existin
 1st Company: Tripoli, 2nd Company: Misurata, 3rd Company: Bengasi, 4th Company: Derna
 Based on this, I don't think there was any kind of heavy company in the unit, rather all four companies were identical (and not very large).
 The idea to form the unit was from Alberto Venturelli, but its commander in combat was Giovanni Rocca.
+Also, apparently this mess: "1a 2'Y4°" translates to "1st, 2nd, 3rd, and 4th" from Italian.
 
 Guardia alla Frontiera engineers were mostly responsible for the maintenance of fortifications. They seem to have some combat ability but they were by all means "mixed".
 I think for this reason they'll be removed from my orders of battle, just like the rest of the mixed engineer battalions.
 Or maybe not. I'll have to think about this over the next few days, since I don't have a replacement company-sized unit ready.
+After having learned about the utterly uneven sizes of GaF units, I think I'll keep it in. Even if only part of it (it's "mixed" after all) was combat engineers, it's still a roughly company-sized portion.
+
+I have finally obtained the original text of Montanari's writing on the defense of Tobruk. This has been a long time coming.
+I didn't buy it, obviously. There's a copy on the website Issuu, although it appears to be "unavailable".
+There's a solution to this. Before the "unavailability" kicks in, there's a few frames where the original text is readable. Just take a screenshot!
+So, here's the OOB from pages 331-333:
+
+
+
+Garrison on December 9, 1940:
+
+Guardia alla Frontiera
+-Eastern Libyan Command
+--Tobruk Fortress Command
+
+31st Coverage Sector (2 Subsectors)
+-242nd Battery / XXXI/5 (4 120/25)
+-244th Battery / XXXI/7 (4 149/35)
+-245th Battery / XXXI/7 (4 149/35)
+
+Elements of the 32nd Coverage Sector
+-246th Battery / XXXII/2 (4 77/28)
+-247th Battery / XXXII/3 (4 77/28)
+-249th Battery / XXXII/1 (4 75/06)
+
+Training Battery "Derna" (4 75/06)
+
+1 47/32 Gun
+
+3rd Company, 62nd Replacements Battalion
+
+64th Replacements Battalion
+
+31st Libyan Coastal Battalion
+
+63rd Prison Company
+
+31st Mixed Engineer Detachment
+
+(My) Notes:
+This seems to be incredibly incomplete. All the missing batteries were probably there.
+The 75/06 is probably the 75/27 Mod. 06
+
+
+
+XXII Army Corps elements that joined the garrison on December 10, 1940:
+
+XXII Army Corps HQ (Various Elements)
+
+22nd Bersaglieri Motorcycle Company
+
+Blackshirt Battalion "Volontari della Libia"
+
+Sirte Division (Various Elements)
+
+10th Corps Artillery Regrouping/Regiment
+-VII Group (100/17)
+-XVII Group (105/28)
+-I/26th Group (100/17)
+-I/55th Group (100/17)
+
+22nd Corps Artillery Regrouping/Regiment
+-I Group (100/17)
+-1st Battery (105/28)
+-13th Battery (8 20/65 AA)
+-Provisional (Provvisoria) Company (6 47/32)
+-10th Company of Artillery Specialists
+
+25th Corps Artillery Regrouping/Regiment
+-CV Group (149/13)
+-CXXX Group (149/13)
+-CXLVIII Group (149/13)
+-CL Group (149/13)
+
+Services
+-55th Signals Company
+-Various Elements
+
+
+
+Elements of the 61st "Sirte" Division on December 10, 1940
+
+Division HQ (Various Elements)
+
+51st (Likely 61st) Bersaglieri Motorcycle Company
+
+69th Infantry Regiment (3 Battalions of 4 Companies Each, 1 Support Battery)
+70th Infantry Regiment (As Above)
+
+"Solothurn" Shotgun Section
+
+61st Anti-Tank Company (8 47/32)
+
+61st Mortar Company (6 81/14)
+
+61st Machine Gun Battalion (3 Companies)
+
+61st Replacements Battalion
+
+43rd Artillery Regiment
+-I Group (100/17)
+-II Group (75/27)
+-III Group (75/27)
+-1 Battery (20/65 AA)
+
+61st Mixed Engineer Battalion
+-Communications Company
+-Combat Engineer Company
+-Searchlight Section
+
+Services
+-Various Elements
+
+Note: Another Shotgun Section and another Mortar Company were transferred to the Babini Group
+(My) Note: The translation is imperfect but I think these were separate units, not the ones above
+
+
+
+Units assigned to reinforce the Tobruk garrison after December 10, 1940
+
+25th Anti-Tank Company (6 47/32)
+
+140th Blackshirt Battalion
+-Command Company
+-2 Rifle Companies
+
+4th Tank Infantry Regiment
+-1st Medium Tank Battalion (39 M11/39)
+-63rd Light Tank Battalion (32 L3/33)
+-1 Battery (6 20/65 AA)
+
+15th Anti-Aircraft Group (3 Batteries 75/46 AA)
+
+10th Battery of the 20th Corps Artillery Regrouping/Regiment (8 20/65 AA)
+
+141st Mortar Company (0! 81/14)
+142nd Mortar Company (0! 81/14)
+
+55th Artillery Regiment
+-(I Group already deployed)
+-II Group (75/27)
+-III Group (75/27)
+-1 Battery (65/17 Infantry Guns)
+
+8th Labor Battalion
+
+1 Delaying (Combattimenti di Arresto) Company
+
+Mine Engineer Detachment
+
+Services
+-Various Elements
+
+
+
+Changes Entailed:
+
+Umberto Barberis's formation renamed "Piazza/Fortress Tobruch/Tobruk" or "XXII Corps GaF Command"
+
+GaF Artillery:
+    Swap 312th and 313th Group
+
+    321st->322nd->323rd->321st Groups Rotated
+    New 323rd Group Given 245th Bis Battery
+    New 321st Group Given 1 Battery From New 323rd Group
+
+I/55 AR subordinated to 10th CAR
+
+22nd CAR had:
+Full strength I group
+1st battery (from 42nd or 43rd, idk)
+Provisional anti-tank company
+
+61st AT Company had 8
+25th AT Company had 6
+
+140th Blackshirt Battalion had only 2 rifle companies
+
+141st and 142nd Mortar Companies were unarmed
+
+55th Artillery Regiment had a 65/17 battery
+
+
+
+General Berti had pretty high demands for Pitassi Mannella's defense, believing he had access to much more firepower than he actually did.
+He ordered, for example, 100 anti-tank guns to be deployed on the front, with 4 more in reserve and 16 or more mobile. There were probably actually only 80 or less total.
+But at the very least, Berti had the right idea about how the battle should be fought. He wasn't completely incompetent in this regard, though he probably should've been little more realistic.
+
+Also, he claims there were only 198 artillery pieces in the fortress, not 343.
+This lines up with the British claim of 208 pieces captured. Maybe the extra 10 were stragglers or inoperable so Berti didn't count them.
+Strangely, his number of 198 states it doesn't include 120mm or 149mm guns but does include 20mm guns. So for these to line up the number of 120mm and 149mm guns must be 145.
+According to my data, the GaF had 12 batteries of these calibers and the regular army the same number, totaling 96 guns. Not far off, but something is clearly wrong.
+
+Later findings on GaF artillery below:
+I think Montanari was trolling with two of his labelled units. The 31st/6th and 30th/7th units were probably actually the 6th/31st and 7th/31st.
+This makes things a lot simpler. The 6th/31st had 2 batteries of 120/25 (230th bis, 231st bis, both static) and the 7th/31st we've already seen with 4 batteries of 149/35 (238, 239, 244, 245, all static).
+This typo is honestly pretty catastrophic compared to the rest. So I guess these two units really were just aberrations.
 
 

@@ -368,12 +368,12 @@ export class operation{
                             let spread=even(floor(a/columns),ceil(la/columns))
                             let left=min(la-floor(a/columns)*columns,columns)
                             layer.textSize(15)
-                            layer.text(`1234567890ABCDEFGH`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
+                            layer.text(`1234567890ABCDEFGHIJ`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
                             if(flat[a].unit.strength.num.length==0){
                                 layer.textSize(30)
                                 layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
                             }else{
-                                layer.textSize(25)
+                                layer.textSize(flat[a].unit.name.length>=32?22:25)
                                 layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
                                 layer.textSize(20)
                                 layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
@@ -496,6 +496,8 @@ export class operation{
                 img=graphics.load.map[this.map]
                 if(img!=undefined){
                     this.view.scale=layer.width/img.width
+                    this.view.edge.x=img.width
+                    this.view.edge.y=img.height
                     layer.push()
                     layer.scale(this.view.scale)
                     layer.image(img,img.width/2,img.height/2,img.width,img.height)
@@ -981,7 +983,7 @@ export class operation{
                     if(this.turn.start){
                         let flat=flatMap(types.map,this.turn.old)
                         for(let a=0,la=flat.length;a<la;a++){
-                            if(key==`1234567890abcdefgh`[a]||key==`1234567890ABCDEFGH`[a]){
+                            if(key==`1234567890abcdefghij`[a]||key==`1234567890ABCDEFGHIJ`[a]){
                                 switch(flat[a].unit.name){
                                     case `Reserve Modes`: case `Standard Modes`:
                                         this.turn.old=!this.turn.old

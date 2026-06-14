@@ -1427,5 +1427,19 @@ reserves=[
             {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`1st Company, 63rd Tank Battalion`,`1ª Compagnia, LXIII Battaglione Carri L`],name:`1`,designation:`63`,commander:``},
             {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`1st Company, 21st Tank Battalion`,`3ª Compagnia, XXI Battaglione Carri L`],name:`1`,designation:`21`,commander:``},
         ],
+    },{
+        level:5,type:[`Mortar`],team:`Italian`,
+        desc:[`61st Mortar Company`,`61ª Compagnia Mortaio`],name:`61`,designation:``,commander:``,icon:`sirte`,
+        pos:[1279,643],
+        elements:[
+            {type:`Small Mortar Company`},
+        ],
+    },{
+        level:5,type:[`Engineer`],team:`Italian`,
+        desc:[`61st Engineer Company`,`61ª Compagnia Genio`],name:`61`,designation:``,commander:``,icon:`sirte`,
+        pos:[1808,878],
+        elements:[
+            {type:`Engineer Company`},
+        ],
     },
 ]
