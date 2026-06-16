@@ -570,7 +570,7 @@ Training Battery "Derna" (4 75/06)
 31st Mixed Engineer Detachment
 
 (My) Notes:
-This seems to be incredibly incomplete. All the missing batteries were probably there.
+This seems to be incredibly incomplete. The coverage sectors don't have many assigned units or infantry.
 The 75/06 is probably the 75/27 Mod. 06
 
 
@@ -727,5 +727,134 @@ Later findings on GaF artillery below:
 I think Montanari was trolling with two of his labelled units. The 31st/6th and 30th/7th units were probably actually the 6th/31st and 7th/31st.
 This makes things a lot simpler. The 6th/31st had 2 batteries of 120/25 (230th bis, 231st bis, both static) and the 7th/31st we've already seen with 4 batteries of 149/35 (238, 239, 244, 245, all static).
 This typo is honestly pretty catastrophic compared to the rest. So I guess these two units really were just aberrations.
+
+We know for certain that some actual infantry of Italian origin were there since they were captured and weren't from the Libyan Battalion.
+The existence of a battalion is also mentioned here: https://italianiinguerra.wordpress.com/2024/01/22/africa-settentrionale-22-gennaio-1941-gli-australiani-prendono-tobruch/.
+Obviously, this may be the Libyan battalion, but since it's mentioned as part of the Frontier Guard and not as Libyan, this seems quite unlikely to me.
+A different man who was killed there is mentioned in another source which refers to him as an "infantryman", not an artilleryman. And of course he wasn't Libyan.
+This is missing from the above data, from Montanari suggesting its at least somewhat incomplete. It also doesn't mention many artillery units.
+My guess is that at the very least, the XXXI GaF Infantry Battalion was probably there. Otherwise, there would barely even be a frontline in the eastern sector.
+
+However if or if not any artillery was there is hard to say. Outside of the 6 batteries above (242, 244, 245, 246, 247, 249), none are directly mentioned.
+He later also mentions the existence of 2 "raggruppamenti" but no sizes for them are described. He also doesn't include anything about their numbering.
+And to be more unhelpful, his map is wrong and only actually shows the locations of two groups, which lines up with the size of 6 batteries.
+
+It's happened! I've obtained exact artillery numbers. Once again my tertiary sources have drained the detail Montanari provides.
+He lists:
+
+Army:
+48 75/27
+12 75/46
+3 76/30
+2 77/28
+63 100/17
+16 105/28
+12 120/25
+4 120/45
+1 149/12
+48 149/13
+11 149/35
+
+Army Support:
+42 20/65 AA
+10 77/? (Probably 77/28)
+1 76/40
+11 75/? (Probably 75/27)
+13 65/17
+43 47/32
+39 37 (in the tanks)
+
+Naval:
+8 149/17
+18 102/35
+16 76/40
+
+San Giorgio:
+4 254/30
+4 190/45
+
+Layout:
+
+Eastern Group:
+I/26
+XXXI/5th GaF (or Mixed GaF Group)
+CXXX/25 Corps
+CL/25 Corps
+2/XV AA
+
+Central Group:
+II/43
+III/55
+CV/25 Corps
+CXLVIII/25 Corps
+XXXI/6th GaF
+XXXI/7th GaF
+1/XV AA
+Naval: Nembo, Buffolotto
+
+Western Group:
+VII/10 Corps
+XVII/10 Corps
+I/55
+II/55
+III/43
+3/XV AA
+1 "Batteria Mista" of the 22nd Corps
+Naval: Vittoria
+
+Apparently also in the West:
+I/43
+I/22
+Mixed/Composite/22
+
+(Again, I think he has the GaF sets backward)
+
+Mobile Reserve:
+
+22nd and 61st (Ha! I was right!) Bersaglieri Motorcycle Companies
+2 Companies of 1/69 (1 & 3)
+2 20/65 Batteries
+Company of 7 Tanks
+A bunch of small machine gun and anti-tank units
+
+Other Notes:
+
+2/69 was in the frontline, not 1/69
+2/69 had 1 company of 1/69 with it
+
+Extra anti-tank guns were training units
+The 64th replacements battalion with 2 companies (the third detached?) was sent to occupy the Beiad position
+Naval 76/40 gun and mortars (probably 141st and 142nd) were assigned to reinforce 3/69 in the reserve line
+A bunch (4) of training SQUADS formed a reserve at the Piave point. This is so small that it's negligible.
+I'll probably end up replacing this messed-up garrison with a random spare company I have lying around from the 69th Infantry.
+Pt. 144 (manned by 140th CC.NN.) had a battery of artillery (75/27) and some light (heavy support infantry company, not mortar company) mortars
+Pilastrino had one company of the 61st MG battalion, and 12/70, with some bonus light weapons
+The other 2 (with some extra MGs) were on the western sector's frontline or in reserve close to it
+Gabr el Abd had the 61st replacement battalion with one regular company and one heavy company (oh yeah replacement battalions have those now)
+q. 71 (near Airente I think) had 2 companies of the XXXI Libyan Coastal Battalion and a couple light machine and anti-tank guns
+The other company of XXXI Libyan and the third company of the 64th replacements battalion were on coastal defense duty
+It appears that the support companies of the rifle battalions were typically spread out among the toher three companies
+
+Map:
+https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29%20schizzi/page/n41/mode/2up
+
+Composite order of battle of GaF artillery:
+
+XXXI Raggruppamento Artiglieria GaF:
+    V/Mixed Group:
+        (I think it was just the V group but had mixed caliber which confused Montanari)
+        232 Bis (105/28)
+        242 (120/25)
+    VI Group:
+        230 Bis (120/25)
+        231 Bis (120/25)
+    VII Group:
+        244 (149/35)
+        245 (149/35)
+    Front Support:
+        246th Battery (77/28)
+        247th Battery (77/28)
+        249th Battery (75/27)
+    Training Battery (2 77/28, 1 149/12)
 
 

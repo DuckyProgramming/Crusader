@@ -1441,5 +1441,12 @@ reserves=[
         elements:[
             {type:`Engineer Company`},
         ],
+    },{
+        level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Provisional Naval Battery`,`Batteria Navale Provvisoria`],name:`Provvisoria`,designation:`Regia\nMarina`,commander:``,icon:``,
+        pos:[2680,987],
+        elements:[
+            {type:`Larger Ruined Static Artillery Battery`},
+        ],
     },
 ]
