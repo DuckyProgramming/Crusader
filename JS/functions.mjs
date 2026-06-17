@@ -412,8 +412,11 @@ export function trace(){
     }
 }
 //main
-export function flatMap(set,old){
+/*export function flatMap(set,old){
     return set.map((map,mapIndex)=>map.unit.map((unit,index)=>{return {unit:unit,map:map,index:index,mapIndex:mapIndex}})).flat().filter(unit=>unit.unit.old==old||old==-1)
+}*/
+export function flatMap(set,key){
+    return set.map((map,mapIndex)=>map.unit.map((unit,index)=>{return {unit:unit,map:map,index:index,mapIndex:mapIndex}})).flat().filter(unit=>unit.unit.set==key||key==-1)
 }
 export function see(){
     window.current.units.forEach(unit=>{
@@ -590,5 +593,10 @@ export function filterClass(checkClass){
             unit.active=false
         }
     })
+}
+export function destroy(){
+    current.select.unit.contain.units.forEach(unit=>unit.strength.life=0)
+    current.select.unit.calculateElements()
+    current.units.forEach(unit=>unit.order.trigger=0)
 }
 //tool

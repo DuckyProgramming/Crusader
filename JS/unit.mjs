@@ -1283,7 +1283,7 @@ export class unit{
                 if(this.active&&this.operation.turn.partition[this.operation.turn.main].includes(this.player)&&!this.fade.hide){
                     if(this.order.trigger){
                         if(this.contain.stats.artillery){
-                            this.order.artillery=!this.order.artillery
+                            this.order.artillery=this.contain.stats.speed<=0?true:!this.order.artillery
                         }
                         if(distPos(mouse,this)<20){
                             this.order.position.x=this.position.x

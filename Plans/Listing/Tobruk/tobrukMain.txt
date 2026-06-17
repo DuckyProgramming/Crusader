@@ -1,4 +1,4 @@
-Tobruk Garrison (30 Battalions, 108 Companies)
+Tobruk Garrison (30 Battalions, 120 Companies)
 
 Artillery (11 Battalions, 37 Companies)
 	10th Army Corps Artillery Regiment (3 Battalions, 8 Companies)
@@ -57,10 +57,10 @@ Blackshirts (2 Battalions, 6 Companies)
     140th Blackshirt Battalion "Aquilia" (3 Companies)
         2 Rifle Companies
 
-Guardia Alla Frontiera (5 Battalions, 16 Companies)
+Guardia Alla Frontiera (5 Battalions, 17 Companies)
     31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))
     31st Libyan Coastal Infantry Battalion (3 Companies)
-    31st Frontier Guard Artillery Regiment (3 Battalions, 9 Batteries)
+    31st Frontier Guard Artillery Regiment (3 Battalions, 10 Batteries)
         5th Group
             232nd Bis Battery (4 105/28)
             242nd Battery (4 120/25)
@@ -70,15 +70,28 @@ Guardia Alla Frontiera (5 Battalions, 16 Companies)
         7th Group
             244th Battery (4 149/35)
             245th Battery (4 149/35)
-        Provisional Group
-            246th Battery (4 77/28 + 1 Spare Gun)
-            247th Battery (4 77/28 + 1 Spare Gun)
+        246th Battery (4 77/28 + 1 Spare Gun)
+        247th Battery (4 77/28 + 1 Spare Gun)
+        249th Battery (4 75/27)
         Training Battery "Derna" (4 75/27)
 
 22nd Bersaglieri Motorcycle Company
 25th Anti-Tank Battery (6 47/32)
 141st Mortar Company (0 81/14)
 142nd Mortar Company (0 81/14)
+
+Naval Batteries (11 Companies):
+    Beiad (6 102/35, 1 20/65)
+    Bellotti (4 149/47, 2 20/65)
+    Dandolo (5 149/47, 4 20/65)
+    Grasso (4 149/47, 2 20/65)
+    Pilastrino (6 102/35, 1 76/40, 1 20/65)
+    Sidi Mahmud (6 102/35, 1 20/65)
+    Tonno (6 76/40, 2 20/65)
+    Topo (6 76/40, 1 20/65)
+    Tordo (6 76/40, 1 20/65)
+    Toro (6 76/40, 1 20/65)
+    Tortora (6 102/35, 2 20/65)
 
 
 

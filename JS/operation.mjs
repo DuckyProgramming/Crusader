@@ -14,10 +14,12 @@ export class operation{
         this.scene=`main`
         this.view={scale:1,scroll:{x:0,y:0},edge:{x:0,y:0}}
         this.turn={
-            main:0,time:0,total:0,prep:false,start:true,old:false,loading:false,order:[],
+            main:0,time:0,total:0,prep:false,start:true,set:0,loading:false,order:[],
             bonus:false,partition:[],translate:-1,
+            //old:false
         }
-        this.anim={main:0,prep:0,start:0,startOld:0,select:0,translate:0,selectTrigger:false}
+        this.anim={main:0,prep:0,start:[0,0,0],select:0,translate:0,selectTrigger:false}
+        //start:0,startOld:0
         this.hist={time:0,tick:0,limit:45}
         this.inspect={units:[]}
         this.select={unit:0}
@@ -80,7 +82,8 @@ export class operation{
                 total:this.turn.total,
                 prep:this.turn.prep,
                 start:this.turn.start,
-                old:this.turn.old,
+                set:this.turn.set,
+                //old:this.turn.old,
                 loading:this.turn.loading,
                 bonus:this.turn.bonus,
                 partition:this.turn.partition,
@@ -110,7 +113,8 @@ export class operation{
         this.turn.total=composite.turn.total
         this.turn.prep=composite.turn.prep
         this.turn.start=composite.turn.start
-        this.turn.old=composite.turn.old
+        this.turn.set=composite.turn.set
+        //this.turn.old=composite.turn.old
         this.turn.loading=composite.turn.loading
         this.turn.bonus=composite.turn.bonus
         this.turn.partition=composite.turn.partition
@@ -346,10 +350,10 @@ export class operation{
                     layer.text(`e.g. 33rd Reconnaissance Battalion`,layer.width/2,layer.height/2+30)
                     layer.text(`e.g. Aufklärungs-Abteilung 33`,layer.width/2,layer.height/2+130)
                 }
-                for(let a=0,la=2;a<la;a++){
-                    let anim=[this.anim.start,this.anim.startOld][a]
+                for(let a=0,la=this.anim.start.length;a<la;a++){
+                    let anim=this.anim.start[a]//[this.anim.start,this.anim.startOld][a]
                     if(anim>0){
-                        let flat=flatMap(types.map,a==1)
+                        let flat=flatMap(types.map,a)
                         let columns=4
                         layer.fill(200,anim)
                         layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*100,30)
@@ -373,7 +377,7 @@ export class operation{
                                 layer.textSize(30)
                                 layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
                             }else{
-                                layer.textSize(flat[a].unit.name.length>=32?22:25)
+                                layer.textSize(flat[a].unit.name.length>=36?20:flat[a].unit.name.length>=30?22:25)
                                 layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
                                 layer.textSize(20)
                                 layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
@@ -546,8 +550,9 @@ export class operation{
             case `main`:
                 this.anim.main=smoothAnim(this.anim.main,!this.turn.prep&&this.turn.translate==-1&&!this.turn.start&&this.turn.time==0,0,1,5)
                 this.anim.prep=smoothAnim(this.anim.prep,this.turn.prep&&this.turn.translate==-1,0,1,5)
-                this.anim.start=smoothAnim(this.anim.start,this.turn.start&&!this.turn.old&&this.turn.translate==-1,0,1,5)
-                this.anim.startOld=smoothAnim(this.anim.startOld,this.turn.start&&this.turn.old&&this.turn.translate==-1,0,1,5)
+                this.anim.start.forEach((num,index,arr)=>arr[index]=smoothAnim(num,this.turn.start&&this.turn.set==index&&this.turn.translate==-1,0,1,5))
+                //this.anim.start=smoothAnim(this.anim.start,this.turn.start&&!this.turn.old&&this.turn.translate==-1,0,1,5)
+                //this.anim.startOld=smoothAnim(this.anim.startOld,this.turn.start&&this.turn.old&&this.turn.translate==-1,0,1,5)
                 this.anim.translate=smoothAnim(this.anim.translate,this.turn.translate>=0,0,1,5)
 
                 this.anim.selectTrigger=this.units.some(unit=>unit.order.trigger)
@@ -872,7 +877,7 @@ export class operation{
             case `main`:
                 if(this.turn.time<=0){
                     if(this.turn.start){
-                        let flat=flatMap(types.map,this.turn.old)
+                        let flat=flatMap(types.map,this.turn.set)
                         let columns=4
                         for(let a=0,la=flat.length;a<la;a++){
                             //let spread=even(floor(a/2),ceil(la/2))
@@ -881,8 +886,15 @@ export class operation{
                             let left=min(la-floor(a/columns)*columns,columns)
                             if(inPointBox(mouse,boxify(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80))){
                                 switch(flat[a].unit.name){
-                                    case `Reserve Modes`: case `Standard Modes`:
-                                        this.turn.old=!this.turn.old
+                                    case `Standard Modes`:
+                                        this.turn.set=0
+                                        //this.turn.old=!this.turn.old
+                                    break
+                                    case `Reserve Modes`:
+                                        this.turn.set=1
+                                    break
+                                    case `Tobruk Event`:
+                                        this.turn.set=2
                                     break
                                     case `Legacy Modes`:
                                         window.open(`Legacy/Crusader`)
@@ -981,12 +993,19 @@ export class operation{
             case `main`:
                 if(this.turn.time<=0){
                     if(this.turn.start){
-                        let flat=flatMap(types.map,this.turn.old)
+                        let flat=flatMap(types.map,this.turn.set)
                         for(let a=0,la=flat.length;a<la;a++){
                             if(key==`1234567890abcdefghij`[a]||key==`1234567890ABCDEFGHIJ`[a]){
                                 switch(flat[a].unit.name){
-                                    case `Reserve Modes`: case `Standard Modes`:
-                                        this.turn.old=!this.turn.old
+                                    case `Standard Modes`:
+                                        this.turn.set=0
+                                        //this.turn.old=!this.turn.old
+                                    break
+                                    case `Reserve Modes`:
+                                        this.turn.set=1
+                                    break
+                                    case `Tobruk Event`:
+                                        this.turn.set=2
                                     break
                                     case `Legacy Modes`:
                                         window.open(`Legacy/Crusader`)

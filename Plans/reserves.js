@@ -1448,5 +1448,64 @@ reserves=[
         elements:[
             {type:`Motorized Anti-Tank Company`},
         ],
+    },{
+        level:4,type:[`Artillery`,`Coast`],team:`Italian`,
+        desc:[`Port Defense`,`Difesa Portuale`],name:`PD`,designation:`Regia\nMarina`,commander:`Vietina`,icon:``,
+        pos:[1188,228],
+        elements:[
+            {
+                level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                pos:[1225,167],
+                elements:[
+                    {type:`Smaller Static Coastal Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                pos:[754,279],
+                elements:[
+                    {type:`Smallest Static Coastal Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                pos:[1156,206],
+                elements:[
+                    {type:`Small Static Coastal Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                pos:[1457,323],
+                elements:[
+                    {type:`Smallest Static Coastal Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+                desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
+                pos:[1254,271],
+                elements:[
+                    {type:`Heavy Naval Artillery Battery`},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Infantry`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:`Schellino`,icon:``,
+        pos:[2068,492],
+        elements:[
+            {type:`Static Infantry`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st Frontier Guard Infantry Battalion`,`XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cecavicchi`,icon:``,
+        pos:[2528,644],
+        elements:[
+            {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`1st Company, 31st Frontier Guard Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`1`,designation:`31`,commander:`Parisi`},
+            {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`2nd Company, 31st Frontier Guard Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`2`,designation:`31`,commander:`Desideri`},
+            {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`3rd Company, 31st Frontier Guard Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`3`,designation:`31`,commander:`Mosetti`},
+            {level:5,type:`Infantry Gun Company`,team:`Guardia alla Frontiera`,desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:`Proietti`},
+        ],
     },
 ]
