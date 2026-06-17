@@ -834,6 +834,7 @@ Gabr el Abd had the 61st replacement battalion with one regular company and one 
 q. 71 (near Airente I think) had 2 companies of the XXXI Libyan Coastal Battalion and a couple light machine and anti-tank guns
 The other company of XXXI Libyan and the third company of the 64th replacements battalion were on coastal defense duty
 It appears that the support companies of the rifle battalions were typically spread out among the toher three companies
+The 141st and 142nd mortar companies were attached to Barberis's frontline but since they had no mortars with them they were probably used as infantry
 
 Map:
 https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29%20schizzi/page/n41/mode/2up
@@ -856,5 +857,8 @@ XXXI Raggruppamento Artiglieria GaF:
         247th Battery (77/28)
         249th Battery (75/27)
     Training Battery (2 77/28, 1 149/12)
+
+It's clear to me that the V, VI, and VII groups were present. Two of them are directly mentioned by Montanari and while the V group isn't, its calibers match exactly with his "mixed" group.
+I can't say the same for the front support batteries, they aren't diretly shown. However, the gun numbers strongly imply that they were there (maybe disbanded to provide front reinforcement).
 
 

@@ -1442,11 +1442,11 @@ reserves=[
             {type:`Engineer Company`},
         ],
     },{
-        level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-        desc:[`Provisional Naval Battery`,`Batteria Navale Provvisoria`],name:`Provvisoria`,designation:`Regia\nMarina`,commander:``,icon:``,
-        pos:[2680,987],
+        level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+        desc:[`1st Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`1st Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`1`,designation:`2/1`,commander:``,icon:`6a`,
+        pos:[3599,1847],
         elements:[
-            {type:`Larger Ruined Static Artillery Battery`},
+            {type:`Motorized Anti-Tank Company`},
         ],
     },
 ]

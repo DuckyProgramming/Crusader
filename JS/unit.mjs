@@ -239,7 +239,7 @@ export class unit{
         this.order.select=false
         this.order.defense=false
         this.order.artillery=this.contain.stats.artillery
-        if(this.active){
+        if(this.active&&!this.type.includes(27)){
             let pix=round(this.position.x)+round(this.position.y)*graphics.load.map[this.operation.map].width
             if(
                 pix>=0&&floor(pix/8)<graphics.load.water.length&&
@@ -324,6 +324,7 @@ export class unit{
         if(this.contain.trigger){
             this.statistifyElements()
             this.updateStrength()
+            this.radius=this.size
             this.order.artillery=this.contain.stats.artillery
         }else{
             this.contain.stats={
@@ -677,6 +678,11 @@ export class unit{
                                 layer.line(6.25,3.25,8,3.25)
                                 layer.line(6.25,3.25,6.25,5)
                             break
+                            case 27:
+                                layer.line(5,-3,5,1)
+                                layer.line(4,-1.5,6,-1.5)
+                                layer.arc(5,-0.5,4,3,30,150)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined){
@@ -699,7 +705,7 @@ export class unit{
                     layer.stroke(0,fade)
                     let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
-                    let size=this.designation.length>=18||art&&this.designation.length>=10?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
+                    let size=this.designation.length>=18||art&&this.designation.length>=10||this.designation.length>=10&&!this.designation.includes(`\n`)?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
                     layer.textSize(size)
                     layer.strokeWeight(size/5)
                     layer.text(this.designation,this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)

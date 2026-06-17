@@ -1,4 +1,4 @@
-Tobruk Garrison (30 Battalions, 108 Companies)
+Tobruk Garrison (28 Battalions, 100 Companies)
 
 Artillery (11 Battalions, 37 Companies)
 	10th Army Corps Artillery Regiment (3 Battalions, 8 Companies)
@@ -20,20 +20,20 @@ Artillery (11 Battalions, 37 Companies)
             3rd Battery, 150th/25th Corps Group
         150th Group (2 149/13)
     55th Artillery Regiment (3 Battalions, 10 Companies)
-        1st Group (3 100/17 + 3 Spare Guns)
-        2nd Group (3 75/27 + 2 Spare Guns)
-        3rd Group (3 75/27 + 1 Spare Gun)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (3 75/27)
         Provisional Infantry Gun Battery (5 65/17)
 
-61st Infantry Division "Sirte" (10 Battalions, 40 Companies)
+61st Infantry Division "Sirte" (10 Battalions, 38 Companies)
 	69th Infantry Regiment (3 Battalions, 13 Companies)
         1st Battalion (4 Companies)
         2nd Battalion (4 Companies)
         3rd Battalion (4 Companies)
         69th Infantry Gun Battery
-	70th Infantry Regiment (3 Battalions, 13 Companies)
+	70th Infantry Regiment (3 Battalions, 11 Companies)
         1st Battalion (4 Companies)
-        2nd Battalion (4 Companies)
+        2nd Battalion (2 Companies)
         3rd Battalion (4 Companies)
         70th Infantry Gun Battery
 	43rd Artillery Regiment (3 Battalions, 8 Companies)
@@ -57,22 +57,17 @@ Blackshirts (2 Battalions, 6 Companies)
     140th Blackshirt Battalion "Aquilia" (3 Companies)
         2 Rifle Companies
 
-Guardia Alla Frontiera (5 Battalions, 16 Companies)
-    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))
+Guardia Alla Frontiera (3 Battalions, 10 Companies)
     31st Libyan Coastal Infantry Battalion (3 Companies)
-    31st Frontier Guard Artillery Regiment (3 Battalions, 9 Batteries)
-        5th Group
-            232nd Bis Battery (4 105/28)
-            242nd Battery (4 120/25)
+    31st Frontier Guard Artillery Regiment (2 Battalions, 7 Batteries)
         6th Group
-            230th Bis Battery (4 120/25)
-            231st Bis Battery (4 120/25)
-        7th Group
+            242nd Battery (4 120/25)
             244th Battery (4 149/35)
             245th Battery (4 149/35)
-        Provisional Group
-            246th Battery (4 77/28 + 1 Spare Gun)
-            247th Battery (4 77/28 + 1 Spare Gun)
+        7th Group
+            246th Battery (4 77/28)
+            247th Battery (4 77/28)
+            249th Battery (4 75/06)
         Training Battery "Derna" (4 75/27)
 
 22nd Bersaglieri Motorcycle Company
@@ -82,52 +77,7 @@ Guardia Alla Frontiera (5 Battalions, 16 Companies)
 
 
 
-Artillery:
-    47/32 (43)
-        25th Anti-Tank Battery (6)
-        61st Anti-Tank Battery (8)
-        Provisional Anti-Tank Battery (6)
-        4th Company, 31st Frontier Guard Infantry Battalion (23)
-    65/17 (13)
-        69th Infantry Gun Battery (4)
-        70th Infantry Gun Battery (4)
-        Provisional Infantry Gun Battery (5)
-    75/27 (59)
-        22nd Army Corps Artillery Regiment (4)
-        43rd Artillery Regiment (24)
-        55th Artillery Regiment (23)
-        249th Battery (4)
-        Training Battery "Derna" (4)
-    77/28 (12)
-        246th Battery (5)
-        247th Battery (5)
-        Training Battery (2)
-    100/17 (63)
-        10th Corps Artillery Regiment (24)
-        22nd Corps Artillery Regiment (12)
-        43rd Artillery Regiment (12)
-        55th Artillery Regiment (15)
-    105/28 (16)
-        10th Army Corps Artillery Regiment (8)
-        22nd Army Corps Artillery Regiment (4)
-        232nd Bis Battery (4)
-    120/25 (12)
-        230th Bis Battery (4)
-        231st Bis Battery (4)
-        242nd Battery (4)
-    149/12 (1)
-        Training Battery "Derna" (1)
-    149/13 (48)
-        25th Army Corps Artillery Regiment (48)
-    149/35 (11)
-        244th Battery (4)
-        245th Battery (4)
-        Provisional Battery (3)
-    Total 278
-
-
-
-XIII Corps (16 Battalions, 52 Companies)
+XIII Corps (15 Battalions, 50 Companies)
 
 7th Armoured Division (9 Battalions, 26 Companies)
     4th Armoured Brigade (2 Battalions, 6 Companies)
@@ -142,16 +92,14 @@ XIII Corps (16 Battalions, 52 Companies)
     3rd (Anti-Tank) Regiment, Royal Horse Artillery (4 Batteries)
     2nd (Cheshire) Field Squadron, Royal Engineers
 
-6th Australian Division (7 Battalions, 26 Companies)
+6th Australian Division (6 Battalions, 24 Companies)
     16th Australian Infantry Brigade (3 Battalions, 12 Companies)
         2/1st Australian Battalion
         2/2nd Australian Battalion
         2/3rd Australian Battalion
     W Company, 1st Battalion, Royal Northumberland Fusiliers
     2/1st Field Regiment, Royal Australian Artillery
-    2/1st Anti-Tank Regiment, Royal Australian Artillery
+    1st Company, 2/1st Anti-Tank Regiment, Royal Australian Artillery
     2/1st Field Company, Royal Australian Engineers
     6th Australian Divisional Cavalry Regiment
     7th Royal Tank Regiment
-
-
