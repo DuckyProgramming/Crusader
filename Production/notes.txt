@@ -832,6 +832,7 @@ Pilastrino had one company of the 61st MG battalion, and 12/70, with some bonus 
 The other 2 (with some extra MGs) were on the western sector's frontline or in reserve close to it
 Gabr el Abd had the 61st replacement battalion with one regular company and one heavy company (oh yeah replacement battalions have those now)
 q. 71 (near Airente I think) had 2 companies of the XXXI Libyan Coastal Battalion and a couple light machine and anti-tank guns
+It also had 2 77/28 guns attached to it. This was probably half of the 246th or 247th battery, GaF
 The other company of XXXI Libyan and the third company of the 64th replacements battalion were on coastal defense duty
 It appears that the support companies of the rifle battalions were typically spread out among the toher three companies
 The 141st and 142nd mortar companies were attached to Barberis's frontline but since they had no mortars with them they were probably used as infantry
@@ -858,6 +859,8 @@ XXXI Raggruppamento Artiglieria GaF:
         249th Battery (75/27)
     Training Battery (2 77/28, 1 149/12)
 
+A section of 149/35 guns also appears on some maps. I believe this had 2 guns and was deployed at Hagfet Umm Haleiga.
+
 It's clear to me that the V, VI, and VII groups were present. Two of them are directly mentioned by Montanari and while the V group isn't, its calibers match exactly with his "mixed" group.
 I can't say the same for the front support batteries, they aren't diretly shown. However, the gun numbers strongly imply that they were there (maybe disbanded to provide front reinforcement).
 
@@ -878,5 +881,8 @@ I didn't think the video was all that good, and thus left the following correcti
 The research could've been better and I also dislike the perpetuation of some tropes, namely the obsession with tanks and the refusal to admit the times when Italian troops did show promise.
 
 At Bardia, there was a XVII group of 75/27 guns. I have no idea where this came from, but it wasn't from the 10th CAR since that one was of 105/28 guns.
+
+Strangely, Montanari's maps only show the existence of two companies of the 2nd Battalion, 70th Infantry Regiment.
+I want to assume those are the 5th and 6th companies, since the Italians didn't consider the support company of each battalion to be a position-holding unit (rather it was broken up to support the others).
 
 

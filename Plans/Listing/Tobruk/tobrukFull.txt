@@ -114,9 +114,9 @@ Naval Batteries (12 Companies):
 
 
 
-XIII Corps (16 Battalions, 68 Companies)
+XIII Corps (21 Battalions, 72 Companies)
 
-7th Armoured Division (9 Battalions, 26 Companies)
+7th Armoured Division (10 Battalions, 30 Companies)
     4th Armoured Brigade (2 Battalions, 6 Companies)
         7th Hussars
         2nd Royal Tank Regiment
@@ -128,6 +128,7 @@ XIII Corps (16 Battalions, 68 Companies)
     11th Hussars
     3rd (Anti-Tank) Regiment, Royal Horse Artillery (4 Batteries)
     104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2 Batteries)
+    106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery (2 Batteries)
     2nd (Cheshire) Field Squadron, Royal Engineers
 
 6th Australian Division (11 Battalions, 42 Companies)

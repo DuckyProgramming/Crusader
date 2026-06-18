@@ -54,8 +54,7 @@ Artillery (11 Battalions, 37 Companies)
 
 Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia" (4 Companies)
-    140th Blackshirt Battalion "Aquilia" (3 Companies)
-        2 Rifle Companies
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
 
 Guardia Alla Frontiera (5 Battalions, 17 Companies)
     31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))
@@ -140,9 +139,9 @@ Artillery:
 
 
 
-XIII Corps (16 Battalions, 52 Companies)
+XIII Corps (18 Battalions, 60 Companies)
 
-7th Armoured Division (9 Battalions, 26 Companies)
+7th Armoured Division (10 Battalions, 30 Companies)
     4th Armoured Brigade (2 Battalions, 6 Companies)
         7th Hussars
         2nd Royal Tank Regiment
@@ -153,13 +152,16 @@ XIII Corps (16 Battalions, 52 Companies)
         4th Regiment, Royal Horse Artillery (2 Batteries)
     11th Hussars
     3rd (Anti-Tank) Regiment, Royal Horse Artillery (4 Batteries)
+    104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2 Batteries)
+    106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery (2 Batteries)
     2nd (Cheshire) Field Squadron, Royal Engineers
 
-6th Australian Division (7 Battalions, 26 Companies)
-    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
+6th Australian Division (8 Battalions, 30 Companies)
+    16th Australian Infantry Brigade (4 Battalions, 16 Companies)
         2/1st Australian Battalion
         2/2nd Australian Battalion
         2/3rd Australian Battalion
+        2/4th Australian Battalion
     W Company, 1st Battalion, Royal Northumberland Fusiliers
     2/1st Field Regiment, Royal Australian Artillery
     2/1st Anti-Tank Regiment, Royal Australian Artillery

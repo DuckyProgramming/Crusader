@@ -622,6 +622,7 @@ export class operation{
                                 y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
                             }}
                             if(!this.units.some(unit=>unit.active&&distPos(unit,pos)<types.unitLevel[this.select.unit.level==constants.minLevel?4:3].size[element.player]+unit.radius)){
+                                let artillery=this.select.unit.order.artillery
                                 let result=new unit(this,{
                                     pos:[pos.position.x,pos.position.y],
                                     level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
@@ -646,6 +647,7 @@ export class operation{
                                     removed=true
                                 }
                                 this.select.unit.calculateElements()
+                                this.select.unit.order.artillery=artillery
                                 if(removed&&this.select.unit.parent!=-1){
                                     this.select.unit.parent.contain.units.push(result)
                                 }

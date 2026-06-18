@@ -1442,13 +1442,6 @@ reserves=[
             {type:`Engineer Company`},
         ],
     },{
-        level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
-        desc:[`1st Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`1st Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`1`,designation:`2/1`,commander:``,icon:`6a`,
-        pos:[3599,1847],
-        elements:[
-            {type:`Motorized Anti-Tank Company`},
-        ],
-    },{
         level:4,type:[`Artillery`,`Coast`],team:`Italian`,
         desc:[`Port Defense`,`Difesa Portuale`],name:`PD`,designation:`Regia\nMarina`,commander:`Vietina`,icon:``,
         pos:[1188,228],

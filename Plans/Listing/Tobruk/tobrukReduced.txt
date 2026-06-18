@@ -31,7 +31,7 @@ Artillery (11 Battalions, 37 Companies)
         2nd Battalion (4 Companies)
         3rd Battalion (4 Companies)
         69th Infantry Gun Battery
-	70th Infantry Regiment (3 Battalions, 11 Companies)
+	70th Infantry Regiment (3 Battalions, 13 Companies)
         1st Battalion (4 Companies)
         2nd Battalion (2 Companies)
         3rd Battalion (4 Companies)
@@ -54,8 +54,7 @@ Artillery (11 Battalions, 37 Companies)
 
 Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia" (4 Companies)
-    140th Blackshirt Battalion "Aquilia" (3 Companies)
-        2 Rifle Companies
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
 
 Guardia Alla Frontiera (3 Battalions, 10 Companies)
     31st Libyan Coastal Infantry Battalion (3 Companies)
