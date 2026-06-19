@@ -1,6 +1,6 @@
 import {types,graphics,constants,dev,options} from './variables.mjs'
-import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens} from './../../../JS/functions.mjs'
-import {lsin,lcos} from './../../../JS/graphics.mjs'
+import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens} from './functions.mjs'
+import {lsin,lcos} from './graphics.mjs'
 export class unit{
     constructor(operation,data){
         this.operation=operation
