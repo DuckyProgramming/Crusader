@@ -1,6 +1,6 @@
 import {types,graphics} from './variables.mjs'
 export function preload(){
-    let root=`./../`
+    let root=`./`
     //graphics.load.map=[types.map[0].term.map(term=>loadImage(`${root}Assets/${term}/map/main.png`))]
     graphics.load.map=[loadImage(`${root}Assets/${types.map[0].term}/map/main.png`)]
     graphics.load.city.push(loadImage(`${root}Assets/General/city/city.png`))
