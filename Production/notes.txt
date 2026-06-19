@@ -901,6 +901,7 @@ At Bardia, there was a XVII group of 75/27 guns. I have no idea where this came 
 
 Strangely, Montanari's maps only show the existence of two companies of the 2nd Battalion, 70th Infantry Regiment.
 I want to assume those are the 5th and 6th companies, since the Italians didn't consider the support company of each battalion to be a position-holding unit (rather it was broken up to support the others).
+Perhaps the other company had been transferred to the 3rd/69th battalion, since Montanari refers to that one as having been "reinforced".
 
 Some claims give Pitassi Mannella control over 62 light tanks but only 25 medium tanks (of 11/40?). I don't think this tank even exists and this claim is quite frankly absurd.
 
@@ -923,6 +924,12 @@ The 31st Infantry Battalion GaF was probably actually a battalion in size. It ha
 Adding the two engineer units and the 31st Libyan Coastal Battalion, we get pretty close to 2300, which makes me think the 1800 x 2 number also includes artillery.
 This implies that the difference of 1300 was the number of artillerymen. A standard Italian artillery regiment of 9 batteries, 36 guns had 82 officers and 2687 men.
 So that means that the 1300 difference was probably 4-6 batteries, the same ones that Montanari mentions in his late order of battle. But then how did more guns just show up in his map?
+Disregard the above. I've re-read some things and I was certainly not on the mark with those statements.
+
+Montanari actually puts a total of 3300 men in Tobruk in June, 1500 in the XXXI sector and 1800 in the XXXII sector (infantry). By december only 2300 men remain total.
+I assume this was the full XXXI sector (in its infantry battalion) and 800 men in the XXXII sector (location unknown). We could give each sector 2 subsector companies to represent this.
+But the issue with this is that the exactual structure of the subsectors is something I can't reasonable figure out. They also varied from a single machine gun company to several plus fortress units.
+Since the town was one big fortress, there's no reason for the GaF to have additional sub-fortress units. But how many machine gun companies were there is something I can't calculate.
 
 I thought this made sense, but then I read that the XXXII sector, under the Barberis command, had its own machine gun battalion. Maybe this was the Libyan battalion?
 Since I don't have anything else to go off of, and the battalion was after all part of the XXXII sector, I guess it had machine guns now. But this wasn't part of its name, so I wouldn't execute on this.
@@ -956,12 +963,20 @@ The Flying Batteries Group had this organization:
     13th Independent Battery (100/17)
     14th Independent Battery (20/65)
 
+We can't know the exact structure of XXXI Libyan Coastal Battalion but its sister XXXII battalion had 25 officers and 752 men, with 15 MGs (3 heavy).
+A Libyan MG battalion at this time had 18 officers and 518 men from its 4 companies, so it's not really comparable.
+Meanwhile, a standard Libyan battalion had 3 copmanies and a command company, totalling 19 officers and 672 men.
+After later reorganizations, September 1941 battalion had 4 companies with 27 officers and 725 men. I think this is the most comparable unit (though they differ heavily in MGs).
+The coastal battalion had a comparable number of men all the way back in 1940 prior to these changes, so I might see this as a reason to give it 4 companies.
+Or maybe it was just a 1940 battalion and the extra 80 men were made up with some random spare platoon. This I also consider quite reasonable.
+
 After this month-long journey, I think it's appropriate to make a final order of battle so this never happens to anyone else again, and post it to AHF. Here it is!
 
 Changes:
 
 The 51st Bersaglieri Motorcycle Company is a typo, it's the 61st
 Elements of the G.a.F. had been moved elsewhere, leaving only part of the 32nd sector
+Montanari - "After 15 September the gradual displacement of many units of the border guard to reconstitue the garrisons of the border area and in the area of Halfaya and Sidi Barrani" (p. 292)
 The 31st/6th and 30th/7th groups are like a mistake and were the 6th/31st and 7th/31st groups
 Added detail
 
@@ -1065,7 +1080,7 @@ Batteries:
 
 Of the above guns, only 8 149/47, 18 102/35, and 16 75/40 could be used on land
     
--Nembo (4 120/25)
+-Nembo (4 120/40)
 -Vittoria (Unknown)
 
 Cruiser "San Giorgio" (4 254/30, 8 190/45)

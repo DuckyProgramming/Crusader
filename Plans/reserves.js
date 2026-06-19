@@ -1632,5 +1632,33 @@ reserves=[
             {level:5,type:`Motorcycle Infantry Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Ciani`},
             {level:5,type:`Armored Car Company`,team:`Italian`,desc:[`3rd Armored Car Company, Italian Africa Police`,`3ª Compagnia Carri, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Orlando`},
         ],
+    },{
+        level:5,type:[`Artillery`],team:`Italian`,
+        desc:[`Naval Battery "Nembo"`,`Batteria Navale "Nembo"`],name:`Nembo`,designation:`Regia\nMarina`,commander:``,icon:``,
+        pos:[2693,1125],
+        elements:[
+            {type:`Ruined Artillery Battery`},
+        ],
+    },{
+        level:4,type:[`Infantry`],team:`Blackshirt`,
+        desc:[`140th Blackshirt Battalion "Aquilia"`,`CXL Battaglione CC.NN. "Aquilia"`],name:`140`,designation:`Aquilia`,commander:`Martorana`,icon:`2ccnn`,
+        pos:[2265,1059],
+        elements:[
+            {
+                level:5,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`1st Company, 140th Blackshirt Battalion "Aquilia"`,`1ª Compagnia d'Assalto, CXL Battaglione CC.NN. "Aquilia"`],name:`1`,designation:`Aquilia`,commander:``,
+                pos:[2293,1113],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`],team:`Blackshirt`,
+                desc:[`2nd Company, 140th Blackshirt Battalion "Aquilia"`,`2ª Compagnia d'Assalto, CXL Battaglione CC.NN. "Aquilia"`],name:`2`,designation:`Aquilia`,commander:``,
+                pos:[2228,1111],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },
+        ],
     },
 ]

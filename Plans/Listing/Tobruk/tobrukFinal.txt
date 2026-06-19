@@ -1,3 +1,7 @@
+subsectors
+
+
+
 Tobruk Garrison (30 Battalions, 108 Companies)
 
 Artillery (12 Battalions, 37 Companies)
@@ -25,13 +29,13 @@ Artillery (12 Battalions, 37 Companies)
         3rd Group (3 75/27)
         Provisional Infantry Gun Battery (5 65/17)
 
-61st Infantry Division "Sirte" (10 Battalions, 38 Companies)
+61st Infantry Division "Sirte" (10 Battalions, 40 Companies)
 	69th Infantry Regiment (3 Battalions, 13 Companies)
         1st Battalion (4 Companies)
         2nd Battalion (4 Companies)
         3rd Battalion (4 Companies)
         69th Infantry Gun Battery
-	70th Infantry Regiment (3 Battalions, 11 Companies)
+	70th Infantry Regiment (3 Battalions, 13 Companies)
         1st Battalion (4 Companies)
         2nd Battalion (2 Companies)
         3rd Battalion (4 Companies)
@@ -56,10 +60,10 @@ Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia" (4 Companies)
     140th Blackshirt Battalion "Aquilia" (2 Companies)
 
-Guardia Alla Frontiera (4 Battalions, 14 Companies)
+Guardia Alla Frontiera (5 Battalions, 16 Companies)
     31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))
     31st Libyan Coastal Infantry Battalion (3 Companies)
-    31st Frontier Guard Artillery Regiment (2 Battalions, 10 Batteries)
+    31st Frontier Guard Artillery Regiment (2 Battalions, 9 Batteries)
         5th Group
             232nd Bis Battery (4 105/28)
             242nd Battery (4 120/25)
@@ -72,13 +76,16 @@ Guardia Alla Frontiera (4 Battalions, 14 Companies)
         246th Battery (4 77/28 + 1 Spare Gun)
         247th Battery (4 77/28 + 1 Spare Gun)
         249th Battery (4 75/27)
-        Training Battery "Derna" (2 77/28, 1 149/12)
 
 22nd Bersaglieri Motorcycle Company
 25th Anti-Tank Battery (6 47/32)
 141st Mortar Company (0 81/14)
 142nd Mortar Company (0 81/14)
-Naval Artillery Battery "Nembo"
+
+Training Units (Not Counted):
+
+Training Battery "Derna" (4 75/27)
+Training Company "Piave"
 
 
 
