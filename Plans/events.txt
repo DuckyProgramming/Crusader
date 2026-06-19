@@ -22,15 +22,17 @@ XXII Army Corps (36 Battalions)
 Mixed Bersaglieri Battalion (22nd and 61st Companies)
 Blackshirt Battalion "Volontari della Libia"
 140th Blackshirt Battalion "Aquilia"
-155th Machine Gun Battalion
 
-Independent Artillery (14 Battalions)
+Bignami Column (2 Battalions)
+	155th Machine Gun Battalion
+	2nd Group, 12th "Sila" Artillery Regiment
+
+Independent Artillery (13 Battalions)
 	10th Corps Artillery Regiment (2 Battalions (7,17))
 	22nd Corps Artillery Regiment (3 Battalions (1,42,43))
 	25th Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
 	55th "Brescia" Artillery Regiment (3 Battalions (1,2,3))
-	2nd Group, 12th "Sila" Artillery Regiment
-	3rd Group, 12th "Sila" Artillery Regiment
+	1st Group, 12th "Sila" Artillery Regiment
 
 61st Infantry Division "Sirte" (10 Battalions)
 	69th "Ancona" Infantry Regiment (3 Battalions)
@@ -141,14 +143,13 @@ SONNENBLUME:
 
 Cyrenaica Command (13 Battalions)
 
-1st Battalion, King's Royal Rifle Corps
-
-2nd Armoured Division (9 Battalions)
+2nd Armoured Division (10 Battalions)
 	1st King's Dragoon Guards Armoured Cars
-	3rd Armoured Brigade (3 Battalions)
+	3rd Armoured Brigade (4 Battalions)
 		3rd Hussars
 		5th Royal Tank Regiment
 		6th Royal Tank Regiment
+		2nd  Field Regiment, Royal Horse Artillery
 	2nd Support Group (2 Battalions)
 		1st Battalion, Tower Hamlets Rifles
 		104th Field Regiment, Royal Horse Artillery
@@ -174,8 +175,8 @@ Deutsches Afrika Korps (12 Battalions)
 	33rd Motorized Engineer Battalion
 
 102nd Infantry Division "Trento" (6 Battalions)
-	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
+	61st Infantry Regiment (2 Infantry Battalions)
+	62nd Infantry Regiment (2 Infantry Battalions)
 
 
 
@@ -697,12 +698,11 @@ STAND AT GAZALA:
 
 
 
-8th Army (20 Battalions)
+8th Army (22 Battalions)
 
-XIII Corps (20 Battalions)
+XIII Corps (22 Battalions)
 
-7th Armoured Division (8 Battalions)
-	1st King's Dragoon Guards Armoured Cars
+7th Armoured Division (7 Battalions)
 	4th Armoured Brigade Group (1 Armoured Battalion, 1 Infantry Battalion, 1 Artillery Battalion)
 	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
 
@@ -710,6 +710,7 @@ XIII Corps (20 Battalions)
 	11th Indian Infantry Brigade (3 Battalions)
 	200th Guards Brigade (2 Battalions)
 
+5th New Zealand Brigade (3 Battalions)
 Polish Independent Carpathian Rifle Brigade (4 Polish Battalions, 1 Czechoslovak Battalion, 1 Australian Battalion, 1 Artillery Battalion)
 
 
@@ -721,11 +722,9 @@ Deutsches Afrika Korps (8 Battalions)
 	15th Infantry Brigade (3 Battalions)
 		2nd Battalion, 115th Infantry Regiment
 		33rd Artillery Regiment (1 Battalion, 1 Heavy Battalion)
-	200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
+	115th Infantry Regiment (2 Battalions)
+	33rd Anti-Tank Battalion
 	33rd Reconnaissance Battalion
-
-90th Light Division (1 Battalion)
-	3rd Battalion, 347th Infantry Regiment
 
 
 
@@ -749,12 +748,12 @@ REDUCTION OF THE FRONTIER:
 
 
 
-2nd New Zealand Division (9 Battalions)
+2nd New Zealand Division (5 Battalions)
 	28th (Maori) New Zealand Infantry Battalion
 	4th New Zealand Infantry Brigade (3 Battalions)
-	5th New Zealand Infantry Brigade (3 Battalions)
 	4th New Zealand Field Regiment
-	5th New Zealand Field Regiment
+
+2nd South African Infantry Brigade (3 Battalions)
 
 
 
@@ -1161,7 +1160,7 @@ FIRST EL ALAMEIN:
 
 
 
-8th Army (42 Battalions)
+8th Army (45 Battalions)
 
 XXX Corps (18 Battalions)
 
@@ -1175,7 +1174,7 @@ XXX Corps (18 Battalions)
 	18th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 	25th Indian Infantry Brigade (3 Battalions, 1 Artillery Battalion)
 
-XIII Corps (24 Battalions)
+XIII Corps (28 Battalions)
 
 7th Armoured Division (9 Battalions)
 	1st King's Dragoon Guards Armoured Cars
@@ -1193,14 +1192,11 @@ XIII Corps (24 Battalions)
 	6th New Zealand Field Regiment
 	7th New Zealand Anti-Tank Regiment
 
-Reinforcements (6 Battalions, Arrived)
-	20th Australian Infantry Brigade (4 Battalions)
-	1st Battalion, The Buffs (Royal East Kent Regiment)
-	8th Irish Hussars
+20th Australian Infantry Brigade (3 Battalions)
 
 
 
-Deutsches Afrika Korps (15 Battalions)
+Deutsches Afrika Korps (14 Battalions)
 
 15th Panzer Division (9 Battalions)
 	8th Panzer Regiment (1 Battalion)
@@ -1215,14 +1211,11 @@ Deutsches Afrika Korps (15 Battalions)
 	288th Motorized Infantry Regiment (2 Battalions)
 	580th Reconnaissance Company
 
-13./Brandenburger Lehr Regiment z.b.V. 800
 
 
-
-XXII Army Corps (16 Battalions)
+XXII Army Corps (21 Battalions)
 
 7th Motorized Bersaglieri Regiment (2 Battalions)
-Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 
 102nd Infantry Division "Trento" (6 Battalions)
 	61st Infantry Regiment (2 Infantry Battalions)
@@ -1234,17 +1227,10 @@ Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	70th Infantry Regiment (2 Battalions)
 	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
 
-
-
-
-Reinforcements (6 Battalions, Arrived)
-
-136th Armored Division "Giovani Fascisti" (5 Battalions)
-    136th Motorized Artillery Regiment (4 Battalions (14,15,16,17))
-    3rd Armored Car Group "Cavalleggeri di Monferrato" (Formed From Romolo Gessi Battalion)
-
-
-
+136th Armored Division "Giovani Fascisti" (7 Battalions)
+	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+	136th Motorized Artillery Regiment (4 Battalions)
+	3rd Armored Car Squadrons Group, "Cavalleggeri di Monferrato"
 
 
 

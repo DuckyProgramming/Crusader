@@ -257,6 +257,10 @@ I think this is just a typo by Montanari. Other sources mention the 22nd and "va
 Furthermore, Montanari himself mentions that Pitassi Mannella formed two reserve groups, each with one such motorcycle company. If the 51st was also there, where did it vanish off to?
 
 Later evidence from Montanari makes me think the 22nd had nothing to do with the 202nd. He lists the 22nd as destroyed in Tobruk, but the 202nd as part of the Sabratha Division in Mid-January (p. 340).
+The 201st was also there with the 202nd, and both were apparently near Giovani Berta at this time. This was on 10 January, but Tobruk had already been cut off at this time so they couldn't've been the same.
+Strangely, though, the 55th Artillery Regiment is also there and we know that this unit did end up being destroyed in Tobruk, which doesn't make a whole lot of sense. Maybe its headquarters was out but the rest was in?
+Another page mentions that the 60th company was missing 2 platoons but that the 201st company's 2 platoons were in the command reserve. This suggests a renaming took place.
+With this one, I don't think it matters all that much, but either way, it's undecidable with the meager information I have now. Too bad!
 
 Note to self: the 14th and 15th groups of the Raggruppamento Batterie Volanti were renamed and somewhat reformed from the old 1st and 3rd groups. They weren't completely new formations.
 These batteries were mostly mediocre guns but had been mounted on captured British trucks. They didn't come from any other artillery unit so can't be amalgamated.
@@ -369,6 +373,8 @@ XXXII:
 6th Artillery Regrouping (31st Group)
 7th Artillery Regrouping (30th Group)
 31st Libyan Coastal Battalion
+
+(The above was provided by J. Leser. I don't think his reading was very thorough as I strongly disagree with the above.)
 
 Regio Esercito claims that the 31st GaF sector had an infantry battalion of the following structure:
 XXXI Battaglione Fanteria Guardia alla Frontiera
@@ -527,7 +533,11 @@ Based on this, I don't think there was any kind of heavy company in the unit, ra
 The idea to form the unit was from Alberto Venturelli, but its commander in combat was Giovanni Rocca.
 Also, apparently this mess: "1a 2'Y4°" translates to "1st, 2nd, 3rd, and 4th" from Italian.
 
+The companies that formed it were from the 4 existing colonial legions. These were formed in 1935 and were named after the locations they were formed in.
+Prior to this, there were only 3 legions, one each for Tripolitania, Cyrenaica, and Fezzan. Their designations were "Oea" and "Berenice" (3rd unknown).
+
 Guardia alla Frontiera engineers were mostly responsible for the maintenance of fortifications. They seem to have some combat ability but they were by all means "mixed".
+Some sources indicate they consisted exclusively of communications and operators, and lacked any real combat element.
 I think for this reason they'll be removed from my orders of battle, just like the rest of the mixed engineer battalions.
 Or maybe not. I'll have to think about this over the next few days, since I don't have a replacement company-sized unit ready.
 After having learned about the utterly uneven sizes of GaF units, I think I'll keep it in. Even if only part of it (it's "mixed" after all) was combat engineers, it's still a roughly company-sized portion.
@@ -825,6 +835,7 @@ Other Notes:
 Extra anti-tank guns were training units
 The 64th replacements battalion with 2 companies (the third detached?) was sent to occupy the Beiad position
 Naval 76/40 gun and mortars (probably 141st and 142nd) were assigned to reinforce 3/69 in the reserve line
+It also had some machine gunners and a platoon of the 140th Blackshirt Battalion
 A bunch (4) of training SQUADS formed a reserve at the Piave point. This is so small that it's negligible.
 I'll probably end up replacing this messed-up garrison with a random spare company I have lying around from the 69th Infantry.
 Pt. 144 (manned by 140th CC.NN.) had a battery of artillery (75/27) and some light (heavy support infantry company, not mortar company) mortars
@@ -834,8 +845,12 @@ Gabr el Abd had the 61st replacement battalion with one regular company and one 
 q. 71 (near Airente I think) had 2 companies of the XXXI Libyan Coastal Battalion and a couple light machine and anti-tank guns
 It also had 2 77/28 guns attached to it. This was probably half of the 246th or 247th battery, GaF
 The other company of XXXI Libyan and the third company of the 64th replacements battalion were on coastal defense duty
+But some of them were also deployed if necessary to defend the line between the Airente q.71 position and the sea
 It appears that the support companies of the rifle battalions were typically spread out among the toher three companies
 The 141st and 142nd mortar companies were attached to Barberis's frontline but since they had no mortars with them they were probably used as infantry
+The defense of the port was conducted with the depots of the GaF, 116th "Marmarica" Infantry Regiment, some carabinieri, and the 3rd Company of the 62nd Replacement Battalion
+
+I can't find the locations of any of the supposed new naval batteries "Vittoria", "Nembo", "Buffolotto" (section, probably the 149/35 guns)
 
 Map:
 https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29%20schizzi/page/n41/mode/2up
@@ -884,5 +899,48 @@ At Bardia, there was a XVII group of 75/27 guns. I have no idea where this came 
 
 Strangely, Montanari's maps only show the existence of two companies of the 2nd Battalion, 70th Infantry Regiment.
 I want to assume those are the 5th and 6th companies, since the Italians didn't consider the support company of each battalion to be a position-holding unit (rather it was broken up to support the others).
+
+Some claims give Pitassi Mannella control over 62 light tanks but only 25 medium tanks (of 11/40?). I don't think this tank even exists and this claim is quite frankly absurd.
+
+The frontier guard infantry battalions confuse me because there's only a single one in existence in Africa. There are also six in Albania (numbered 1-6), but none in the Italian mainland.
+Since the 31st was the only one in the entirety of Africa, I think we can be a bit less assumptive about its structure since so there's no comparable units. I honestly think it's possible that this single battalion contained all 2300 men Montanari mentions.
+Which is starting to make more sense, as it's said that this force had 600 machine guns and 23 anti-tank guns. A normal battalion couldn't handle that much firepower, even if most of it was dug into the defenses and non-maneuverable.
+In fact, a different kind of Italian machine gun company at this time had 10 Schwarzlose and 13 Breda 30s, from 161 troops. So 3 such companies would have 70 total machine guns. How did 600 get there, then?
+
+However, I do have reason to believe that the GaF had an abnormally large density of such weapons since it was large immobile.
+THe initial strength of the GaF in Europe was 21,000 men from 27 sectors, with 6000 machine guns and several thousand regular guns.
+So if 21,000 men, many of whom were artillerists had 6000 machine guns, I guess its reasonable for a single battalion structure to have so many guns (many of which probably were never fired).
+The GaF later had 50,000 men by June 1940, but this rapid increase was accomplished primarily by adding 22 CC.NN. battalions and didn't reflect much increase in actual organic GaF strength.
+
+Based on how the coverage sectors were organized, artillery would've been split up. Some would've been placed under the command of each fortification and others under a sectoral command.
+I think in Tobruk's case the larger guns were in sectoral positions while the smaller guns were placed inside each fortification and weren't mobile.
+However, no maps I have show these guns in place, and in fact Montanari only mentions 2! 77/28 guns in the entire fortress.
+
+With the number 2300 as the only thing of value in my possession, I'm gonna have to make even more assumptions. No quality book on this topic exists.
+The 31st Infantry Battalion GaF was probably actually a battalion in size. It had an insane amount of firepower, but was highly static and thus could accept such establishment.
+Adding the two engineer units and the 31st Libyan Coastal Battalion, we get pretty close to 2300, which makes me think the 1800 x 2 number also includes artillery.
+This implies that the difference of 1300 was the number of artillerymen. A standard Italian artillery regiment of 9 batteries, 36 guns had 82 officers and 2687 men.
+So that means that the 1300 difference was probably 4-6 batteries, the same ones that Montanari mentions in his late order of battle. But then how did more guns just show up in his map?
+
+I thought this made sense, but then I read that the XXXII sector, under the Barberis command, had its own machine gun battalion. Maybe this was the Libyan battalion?
+Since I don't have anything else to go off of, and the battalion was after all part of the XXXII sector, I guess it had machine guns now. But this wasn't part of its name, so I wouldn't execute on this.
+Apparently there was also a 32nd Libyan Battalion in Tobruk according to some sources? But these claims are relatively unreliable so I wouldn't lend too much credence to that claim.
+
+A form post says the 12th battery of the 42nd "Sabratha" Artillery Regiment was supposed to be one of its 20/65 batteries, but Regio Esercito says it had the 60th and 260th batteries.
+
+Carlo Rostagno was the chief of staff of the 22nd Corps for most of December, but at some point he must have been replaced. Montanari refers to him as "former".
+Instead, it is Adolfo de Leone, Brigadier General, who is listed as having held this position, starting sometime in January, that was captured.
+It does appear that Rostagno was also captured, but not listed elsewhere as he was a colonel, not a general. Meanwhile Brigadier Virginio Villanis, 10th Army Chief of Artillery, might have also been there.
+However Montanari lists Leone as commander of the artillery, not Virginio Villanis. Since I only have two sources about this, they are in disagreement, and one is notoriously unreliable, not much I can do.
+I disagree though. Villanis is mentioned later as leading some kind of column during the Mechili-Beda Fomm campaign. He didn't have a reason to be in Tobruk anyway, that place was hopeless.
+Barberis was captured too, shortly after the fall of the El Adem / Sidi Mahmud position, which his headquarters, along with two regimental headquarters, had been located at.
+
+Notes on total numbers:
+22,000 men given by most Italian sources
+2,000 sailors (not counted by above)
+25,000 British claim total
+The 1,000 difference is probably negligible or a rounding error.
+
+The British 3rd Armoured Brigade has no insignia. It just doesn't. I guess if the unit didn't survive to a specific point in the war, it just never receives such identification.
 
 

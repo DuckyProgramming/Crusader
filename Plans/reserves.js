@@ -1500,5 +1500,128 @@ reserves=[
             {level:5,type:`Static Armed Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`3rd Company, 31st Frontier Guard Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`3`,designation:`31`,commander:`Mosetti`},
             {level:5,type:`Infantry Gun Company`,team:`Guardia alla Frontiera`,desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:`Proietti`},
         ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`],team:`Guardia alla Frontiera`,
+        desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:`Schellino`,icon:``,
+        pos:[2102,733],
+        elements:[
+            {
+                level:5,type:[`Infantry`,`Machine Gun`],team:`Guardia alla Frontiera`,
+                desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``,
+                pos:[1935,779],
+                elements:[
+                    {type:`Machine Gun Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`],team:`Guardia alla Frontiera`,
+                desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                pos:[2055,463],
+                elements:[
+                    {type:`Machine Gun Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`],team:`Guardia alla Frontiera`,
+                desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                pos:[2423,643],
+                elements:[
+                    {type:`Machine Gun Company`},
+                ],
+            },
+        ],
+    },{
+        level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Provisional Naval Battery`,`Batteria Navale Provvisoria`],name:`Provvisoria`,designation:`Regia\nMarina`,commander:``,icon:``,
+        pos:[2637,924],
+        elements:[
+            {type:`Larger Ruined Static Artillery Battery`},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Training Battery`,`Batteria di Formazione`],name:`Training`,designation:``,commander:``,icon:``,
+        pos:[1353,804],
+        elements:[
+            {type:`Ruined Static Artillery Battery`},
+        ]
+    },{
+        level:5,type:[`Anti-Air`,`Coast`],team:`Italian`,
+        desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+        pos:[2379,785],
+        elements:[
+            {type:`Small Anti-Air Company`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`Artillery Regrouping "Sirte"`,`Raggruppamento Artiglieria "Sirte"`],name:`RA`,designation:`Sirte`,commander:`Mascagna`,icon:`sirte`,
+        pos:[130,1492],
+        elements:[
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`30th Group, 6th Frontier Guard Artillery Regiment`,`XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`30`,designation:`6`,commander:`Zaccaria`},
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`31st Group, 7th Frontier Guard Artillery Regiment`,`XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:`7`,commander:`Giglio`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`Artillery Regrouping "Sirte"`,`Raggruppamento Artiglieria "Sirte"`],name:`Sirte`,designation:``,commander:`Mascagna`,icon:`sirte`,
+        pos:[130,1492],
+        elements:[
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Verna`},
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`7st Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Cupidi`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`Artillery Regrouping "Sirte"`,`Raggruppamento Artiglieria "Sirte"`],name:`Sirte`,designation:``,commander:`Mascagna`,icon:`sirte`,
+        pos:[221,747],
+        elements:[
+            {
+                level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                desc:[`30th Group, 6th Frontier Guard Artillery Regiment`,`XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`30`,designation:`6`,commander:`Zaccaria`,icon:`sirte`,
+                pos:[344,608],
+                elements:[
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Battery, 30th Group, 6th Frontier Guards Artillery Regiment`,`1ª Batteria, XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`30`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Battery, 30th Group, 6th Frontier Guards Artillery Regiment`,`2ª Batteria, XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`30`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`3rd Battery, 30th Group, 6th Frontier Guards Artillery Regiment`,`3ª Batteria, XXX Gruppo, 6° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`30`,commander:``},
+                ],
+            },{
+                level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                desc:[`31st Group, 7th Frontier Guard Artillery Regiment`,`XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:`7`,commander:`Giglio`,icon:`sirte`,
+                pos:[373,836],
+                elements:[
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Battery, 31st Group, 7th Frontier Guards Artillery Regiment`,`1ª Batteria, XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`31`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Battery, 31st Group, 7th Frontier Guards Artillery Regiment`,`2ª Batteria, XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`31`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`3rd Battery, 31st Group, 7th Frontier Guards Artillery Regiment`,`3ª Batteria, XXXI Gruppo, 7° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`31`,commander:``},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Halfaya Garrison`,`Colonna Halfaya`],name:`Halfaya`,designation:``,commander:``,icon:`trento`,
+        pos:[1315,806],
+        elements:[
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 8th Bersaglieri Battalion`,`1ª Compagnia, 8° Battaglione Bersaglieri`],name:`1`,designation:`8`,commander:``},
+            {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`102nd Anti-Tank Company`,`102ª Compagnia Cannoni Controcarro`],name:`102`,designation:``,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`10th Battery, 46th Artillery Regiment`,`10ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`10`,designation:`46`,commander:``},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Capuzzo Garrison`,`Colonna Capuzzo`],name:`Capuzzo`,designation:``,commander:``,icon:`trento`,
+        pos:[1071,636],
+        elements:[
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 8th Bersaglieri Battalion`,`2ª Compagnia, 8° Battaglione Bersaglieri`],name:`2`,designation:`8`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`11th Battery, 46th Artillery Regiment`,`11ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`11`,designation:`46`,commander:``},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
+        desc:[`Flying Batteries Regrouping`,`Raggruppamento Batterie Volanti`],name:`RBV`,designation:``,commander:`Nicolardi`,icon:``,
+        pos:[1747,453],
+        elements:[
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I Gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`Volanti`,commander:`da Bino`},
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III Gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`Volanti`,commander:`Abeille`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
+        desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+        pos:[946,961],
+        elements:[
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Mi Scaglio\na Ruina`,commander:`Balisti`},
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Abbi\nFede`,commander:`Benedetti`},
+        ],
     },
 ]

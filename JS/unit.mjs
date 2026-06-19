@@ -310,6 +310,12 @@ export class unit{
                 this.parent.contain.units.indexOf(this),
                 1
             )
+            if(!this.contain.trigger&&this.contain.middle){
+                this.contain.units.forEach(unit=>{
+                    this.parent.contain.units.push(unit)
+                    unit.parent=this.parent
+                })
+            }
             this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
         }
         this.contain.units.forEach(unit=>unit.contain.middle=false)
@@ -910,7 +916,7 @@ export class unit{
                             }
                             this.operation.units.forEach(target=>{
                                 if(target.active&&distPos(target,this.order)<20+target.radius&&target.contain.trigger){
-                                    let damage=0.5*map(
+                                    let damage=constants.damage[1]*map(
                                             target.contain.stats.armor,0,1,
                                             this.contain.stats.damage[2],this.contain.stats.damage[3]
                                         )
@@ -1034,7 +1040,7 @@ export class unit{
                                             first=true
                                         }
                                         let damage=[
-                                            map(
+                                            constants.damage[0]*map(
                                                 target.contain.stats.armor,0,1,
                                                 this.contain.stats.damage[0],this.contain.stats.damage[1]
                                             )
@@ -1049,7 +1055,7 @@ export class unit{
                                             *(target.order.defense?(fort&&!this.contain.stats.engineer?0.4:(target.battle.fortified||target.contain.stats.engineer)&&!this.contain.stats.engineer?0.6:0.8):1)
                                             *this.getParentEffectiveness()
                                             *random(1,constants.battleVariance),
-                                            map(
+                                            constants.damage[0]*map(
                                                 this.contain.stats.armor,0,1,
                                                 target.contain.stats.damage[0],target.contain.stats.damage[1]
                                             )
