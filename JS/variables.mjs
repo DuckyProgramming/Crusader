@@ -2119,7 +2119,7 @@ export var types={
                             pos:[1747,453],
                             elements:[
                                 {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I Gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`Volanti`,commander:`da Bino`},
-                                {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III Gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`Volanti`,commander:`Abeille`},
+                                {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`2nd Group, Flying Batteries Regrouping`,`II Gruppo, Raggruppamento Batterie Volanti`],name:`2`,designation:`Volanti`,commander:`Abeille`},
                             ],
                         },{
                             level:1,type:[`Tank`],team:`British`,
@@ -2310,7 +2310,7 @@ export var types={
                             pos:[1654,722],
                             elements:[
                                 {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I Gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`Volanti`,commander:`da Bino`},
-                                {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III Gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`Volanti`,commander:`Abeille`},
+                                {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`2nd Group, Flying Batteries Regrouping`,`II Gruppo, Raggruppamento Batterie Volanti`],name:`2`,designation:`Volanti`,commander:`Abeille`},
                             ],
                         },{
                             level:1,type:[`Tank`],team:`British`,
@@ -8429,15 +8429,15 @@ export var types={
                                     pos:[660,1038],
                                     elements:[
                                         {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, Flying Batteries Regrouping`,`I Gruppo, Raggruppamento Batterie Volanti`],name:`1`,designation:`Volanti`,commander:`da Bino`},
-                                        {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, Flying Batteries Regrouping`,`III Gruppo, Raggruppamento Batterie Volanti`],name:`3`,designation:`Volanti`,commander:`Abeille`},
+                                        {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`2nd Group, Flying Batteries Regrouping`,`II Gruppo, Raggruppamento Batterie Volanti`],name:`2`,designation:`Volanti`,commander:`Abeille`},
                                     ],
                                 },{
                                     level:4,type:[`Infantry`,`Motorcycle`],team:`Italian`,
                                     desc:[`6th Battalion "Romolo Gessi", Italian Africa Police`,`6° Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`6`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:``,
                                     pos:[1062,1469],
                                     elements:[
-                                        {level:5,type:`Motorcycle Infantry Company`,team:`Italian`,desc:[`1st Motorcycle Company, Italian Africa Police`,`1ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Marini`},
-                                        {level:5,type:`Motorcycle Infantry Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Ciani`},
+                                        {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`1st Motorcycle Company, Italian Africa Police`,`1ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Marini`},
+                                        {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Ciani`},
                                         {level:5,type:`Armored Car Company`,team:`Italian`,desc:[`3rd Armored Car Company, Italian Africa Police`,`3ª Compagnia Carri, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Orlando`},
                                     ],
                                 },

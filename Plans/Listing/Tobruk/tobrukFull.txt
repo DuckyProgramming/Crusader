@@ -63,8 +63,7 @@ Artillery (13 Battalions, 43 Companies)
 
 Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia" (4 Companies)
-    140th Blackshirt Battalion "Aquilia" (3 Companies)
-        2 Rifle Companies
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
 
 Guardia Alla Frontiera (6 Battalions, 21 Companies)
     31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))

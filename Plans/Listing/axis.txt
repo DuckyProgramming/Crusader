@@ -85,8 +85,8 @@ Italian Artillery:
 | 1/55
 | 2/55
 | 3/55
-| 1 RBV / 14/136
-| 3 RBV / 15/136
+| 1 V / 14/136
+| 2 V / 15/136
 
 Italian Corps Artillery:
 | 1

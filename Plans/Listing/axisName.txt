@@ -12,7 +12,7 @@ Deutsches Afrika Korps (16 Battalions)
 
 Divisional Command z.b.V. "Afrika" (5 Battalions)
 	2nd Battalion, 115th Motorized Infantry Regiment (Detached From 15th Panzer Division)
-	3rd Battalion, 347th Infantry Regiment (Armed With Double the Normal Amount of Light Anti-Tank Rifles)
+	3rd Battalion, 347th Infantry Regiment
 	300th "Oasis" Battalion Staff z.b.V. (6th and 12th Oasis Companies, 2nd Company, 39th Engineer Battalion, 580th Reconnaissance Company)
 	Sonderverband 288 (2 Battalions)
 
@@ -40,7 +40,7 @@ Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	Later Formed Into 136th Armored Division "Giovani Fascisti"
 	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armored Car Company, 2 Motorcycle Companies)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
-	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,3))
+	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,2))
 		Later Renamed to 136th Artillery Regiment With 14th, 15th, 16th, and 17th Battalions (16th and 17th From Remnants of Corps Artillery Regiments)
 
 55th Infantry Division "Savona" (10 Battalions)

@@ -280,6 +280,7 @@ With so little to go off of, indicating Italian divisional engineers (specialize
 The Italian mixed support battalions had either three or four companies. However, it doesn't matter for this game, because the 4th company was an anti-air company and thus not relevant.
 Thus, they will always be represented in-game with three companies: anti-tank, mortar, and machine gun.
 The motorized divisions were distinct from others in that they never had any infantry guns. They were replaced with anti-tank guns in each regiment (probably the right decision).
+German units did have infantry guns, even the motorized ones, but in the case of the 115th regiment its company was lost in transport and not replaced until 1942.
 
 The air crash that killed Vyvyan Pope prior to Operation Crusader is often discussed as doing significant damage to the operation. What is not often discussed is that it was a double disaster.
 Russell, commander of 7th Armoured Brigade who had just been made Pope's chief of staff, also met his end. As we know, his replacements both in the brigade and in the staff position were not up to scratch.
@@ -311,6 +312,7 @@ CC.NN. battalions were called coorte (cohort) and companies were called centuria
 Field-formed battalions were given normal designations in line with the army EXCEPT that regiments were still called legions.
 
 III./I.R. 347 was relieved from its defensive position at Halfaya by I./S.R. 104 and Oasis elements on October 26, about a month before crusader.
+I can't be sure, but it must have been reinforced by significant flak and artillery units or some Italian elements since this battalion was slightly short of weaponry (likely sunk on transport).
 Interestingly, III./I.R. 155, formerly III./I.R. 268, was given instruction by the command based on lessons learned by the Schützen Regiments. Maythaler apparently didn't learn his lesson very well.
 
 Something I've done out of convenience is to repeatedly ignore the Ras el Medauar salient in the southwest of the Tobruk defenses, held by German troops for much of the siege.
@@ -942,5 +944,137 @@ Notes on total numbers:
 The 1,000 difference is probably negligible or a rounding error.
 
 The British 3rd Armoured Brigade has no insignia. It just doesn't. I guess if the unit didn't survive to a specific point in the war, it just never receives such identification.
+
+Also found some more notes on what RECAM was doing. It started the battle in the rear in Cyrenaica, and had to spend a week to move forward.
+It then patrolled the area between Bir el Gubi and El Adem providing some support to the Ariete and Pavia divisions. After Ariete moved, RECAM took its place.
+It also made some minor attacks against the New Zealanders but was attacked by German aircraft. After holding off the Indians at Bir el Gubi again, it became combat incapable and had to retreat.
+Other than the 52nd Tank Battalion, Romolo Gessi PAI Battalion (2 MG and 1 Armored Car Company), and Flying Batteries, RECAM had a random motorized machine gun company. There was also an independent experimental L6 tank platoon.
+The Flying Batteries Group had this organization:
+    1st Group (3 65/17)
+    2nd Group (3 65/17, 1 20/35)
+    11th Independent Battery (65/17)
+    13th Independent Battery (100/17)
+    14th Independent Battery (20/65)
+
+After this month-long journey, I think it's appropriate to make a final order of battle so this never happens to anyone else again, and post it to AHF. Here it is!
+
+Changes:
+
+The 51st Bersaglieri Motorcycle Company is a typo, it's the 61st
+Elements of the G.a.F. had been moved elsewhere, leaving only part of the 32nd sector
+The 31st/6th and 30th/7th groups are like a mistake and were the 6th/31st and 7th/31st groups
+Added detail
+
+OOB:
+
+22nd Army Corps (Enrico Pitassi Mannella):
+
+61st Infantry Division "Sirte" (Vincenzo Della Mura)
+-69th Infantry Regiment
+--3 Battalions with 4 companies each, plus one infantry gun battery
+-70th Infantry Regiment (same as 69th)
+-43rd Artillery Regiment
+--1st Group (100/17)
+--2nd Group (75/27)
+--3rd Group (75/27)
+--Anti-Aircraft Battery (Unknown, probably 61st or 261st)
+-61st Mixed Engineer Battalion
+-61st Machine Gun Battalion (3 companies)
+-61st Replacement Battalion
+-61st Bersaglieri Motorcycle Company
+-61st Mortar Company (6 81/14)
+-61st Anti-Tank Battery (8 47/32)
+
+4th Tank Infantry Regiment
+-1st Medium Tank Battalion (7 Mobile and 32 Immobile M11/39)
+-63rd Light Tank Battalion (32 Immobile L3/35)
+--21st Light Tank Battalion (Gave its tanks to the 63rd)
+-Anti-Aircraft Battery (Number Unknown)
+
+10th Army Corps Artillery Raggruppamento
+-7th Group (100/17)
+-17th Group (105/28)
+
+22nd Army Corps Artillery Raggruppamento
+-1st Group (100/17)
+-1 Battery of 105/28 (From the 42nd or 43rd Group)
+--This battery, along with 2 batteries of 105/28 and one of 75/27, was formed into a provisional group
+-13th Anti-Aircraft Battery
+-Provisional Anti-Tank Battery (6 47/32)
+-10th Artillery Specialist Detachment
+
+25th Army Corps Artillery Raggruppamento
+-105th Group (149/13)
+-130th Group (149/13)
+-148th Group (149/13)
+-150th Group (149/13)
+
+55th Artillery Regiment "Brescia"
+-1st Group (100/17)
+-2nd Group (75/27)
+-3rd Group (75/27)
+-Provisional Infantry Gun Battery (5 65/17)
+
+1st Group, 26th Artillery Regiment "Pavia" (100/17)
+15th Anti-Aircraft Group (3 Batteries) (75/46)
+10th Battery, 20th Army Corps Artillery Raggruppamento (8 20/65)
+
+140th Blackshirt Battalion "Aquilia" (2 Companies)
+Blackshirt Battalion "Volontari della Libia" (4 Companies, one formed from each Libyan CC.NN. legion)
+
+64th Replacement Battalion
+3rd Copmany, 62nd Replacement Battalion
+
+22nd Bersaglieri Motorcycle Company
+25th Anti-Tank Battery (6 47/32)
+141st Mortar Company (No mortars in December, may have received some in January)
+142nd Mortar Company (Same)
+
+Guardia alla Frontiera (Umberto Barberis):
+
+31st Coverage Sector
+-31st Frontier Guard Infantry Battalion (4 Companies)
+-31st Mixed Engineer Detachment
+-31st Frontier Guard Artillery Raggruppamento
+--5th Group (232nd Bis (105/28) and 242nd (120/25) Batteries)
+--6th Group (230th Bis (120/25) and 231st Bis (120/25) Batteries)
+--7th Group (244th (149/35) and 245th (149/35) Batteries)
+Elements of the 32nd Coverage Sector
+-31st Libyan Coastal Infantry Battalion
+-246th Battery (77/28)
+-247th Battery (77/28)
+-249th Battery (75/27)
+Artillery Section "Buffolotto" (2 149/35)
+
+The structure of the subsectors is unknown and its unclear if any were removed from the 32nd
+
+Naval Units:
+
+Batteries:
+-Beiad (6 102/35, 1 20/65)
+-Bellotti (4 149/47, 2 20/65)
+-Dandolo (5 149/47, 4 20/65)
+-Grasso (4 149/47, 2 20/65)
+-Pilastrino (6 102/35, 1 76/40, 1 20/65)
+-Sidi Mahmud (6 102/35, 1 20/65)
+-Tonno (6 76/40, 2 20/65)
+-Topo (6 76/40, 1 20/65)
+-Tordo (6 76/40, 1 20/65)
+-Toro (6 76/40, 1 20/65)
+-Tortora (6 102/35, 2 20/65)
+
+Of the above guns, only 8 149/47, 18 102/35, and 16 75/40 could be used on land
+    
+-Nembo (4 120/25)
+-Vittoria (Unknown)
+
+Cruiser "San Giorgio" (4 254/30, 8 190/45)
+
+Training Units:
+
+Battery (2 77/28, 1 149/12)
+"Piave" Strongpoint (Various training platoons of infantry, machine gun, mortars)
+
+Aircraft: 2 (1 RO37 and 1 CA10)
 
 
