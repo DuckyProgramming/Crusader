@@ -1,7 +1,7 @@
 import {graphics,constants,dev,types,options} from './variables.mjs'
 import {findName,findAbstract,smoothAnim,inPointBox,boxify,elementArray,distPos,even,last,flatMap} from './functions.mjs'
-import {lsin,lcos} from './../../../JS/graphics.mjs'
-import {transitionManager} from './../../../JS/transitionManager.mjs'
+import {lsin,lcos} from './JS/graphics.mjs'
+import {transitionManager} from './JS/transitionManager.mjs'
 import {city} from './city.mjs'
 import {unit} from './unit.mjs'
 export class operation{

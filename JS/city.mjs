@@ -1,5 +1,5 @@
 import {graphics,types} from './variables.mjs'
-import {smoothAnim,distPos,elementArray} from './../../../JS/functions.mjs'
+import {smoothAnim,distPos,elementArray} from './JS/functions.mjs'
 export class city{
     constructor(operation,data){
         this.operation=operation

@@ -1,6 +1,6 @@
 import {dev,graphics,constants,inputs,types,options} from './variables.mjs'
-import {see,battalions,companies,strength,normalize,summon,kills,outPos,filterClass,destroy} from './../../../JS/functions.mjs'
-import {setupGraphics,displayMain} from './../../../JS/graphics.mjs'
+import {see,battalions,companies,strength,normalize,summon,kills,outPos,filterClass,destroy} from './JS/functions.mjs'
+import {setupGraphics,displayMain} from './JS/graphics.mjs'
 import {operation} from './operation.mjs'
 var current
 export function setup(){
