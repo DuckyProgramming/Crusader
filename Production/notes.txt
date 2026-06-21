@@ -28,6 +28,7 @@ I don't know what happened to Warrelmann after that, but I believe he stayed wit
 In fact, his name gets mentioned as a the commander of a Kampfgruppe centered around 3/115, which was the former 2nd Machine Gun Battalion, which confirms he stayed.
 
 I've found later evidence that Warrelmann (first name Hinrich) lasted at least as long as Second El Alamein, confirming the above.
+And for my game, since Paul Schütte is unavailable to lead his battle group in Operation Sommernachtstraum, that's another time for Warrelmann to take command of a force.
 
 Sonderverband 288 had not fully arrived in Africa by November 1941.
 Only one group, Sperrverband (blocking detachment) Daumiller had actually arrived, but didn't participate in Crusader. I think the unit is cool though, so I made it pickable.
@@ -225,6 +226,8 @@ Regio Esercito indicates that many of the Army Corps Artillery Regiments of the 
 8th CAR (8,113,114): 22nd CAR (1,42,43)
 10th CAR (7,17,35): 16th CAR (40,44,49), 25th CAR (105,130,148,150)
 Niehorster, however, indicates that the 1st group of the 22nd CAR stayed in Italy. When the regiment arrived in Africa, it gained the 42nd and 43rd groups, plus some anti-air, but left the 1st group behind.
+The 42nd group and 43rd group were likely not mobilized by the same depot and came from elsewhere, maybe even the G.a.F. There are later formations of these recorded but not in Africa and of different caliber.
+It does seem the 43rd came from the depot of the 3rd CAR with 105/28, but I can't confirm if this unit stuck around or was eventually reformed using a different HQ.
 The 10th CAR also appears reduced in Niehorster's order of battle, with its 7th group gone. I assume it was left in Italy as well or was sunk on transport. Niehorster also shows its 35th group as the 25th.
 I'm inclined to believe this, since another source backs it up. I think this 7th group was lost and the 35th group was a typo on Regio Esercito.
 After having found another mistake on Niehorster's artillery, this is now once again in contention. Regio Esercito has yet to be wrong so I'm going to side with it.
@@ -287,6 +290,7 @@ Russell, commander of 7th Armoured Brigade who had just been made Pope's chief o
 
 The 4th "Genova Cavalleria" Machine Gunners Group was originally from the 36th Southeast Tripoli Border Guard sector and was already in Africa when the war began.
 The unit was certainly not actually cavalry, had no armored cars, and wasn't some kind of special redeployment from the mainland. It was simply driven to join the Afrika and Savona divisions.
+I believe the cavalry regiment depots had been responsible for the formation of numerous units, including its representative regiment, but also even dismounted units like this machine gun battalion.
 
 Guardia Alla Fronteria artillery regiments weren't all the same. They had varying numbers of groups, each of which typically had 3 batteries but could have 2 (and possibly 4).
 There were also some independent groups lying around, not subordinated to a specific regiment. And some GaF districts just didn't have any artillery.
@@ -339,7 +343,8 @@ Unluckily, I don't think the "Diana" nickname was ever actually given to the uni
 Also, the nickname may have been given by the British and later adopted by the Germans, which complicates matters.
 So, I think I'm not gonna end up adding this unit after all. It's for a battalion that doesn't exist and is historically quite unclear.
 
-For future reference, a standard Italian tank battalion has a much simpler structure than that of any other nation. There are 46 tanks total, three companies of 15 each, and one command tank.
+For future reference, a standard Italian tank battalion has a much simpler structure than that of any other nation. There are 46 tanks total, in three companies of 15 each, and one command tank.
+Each company had 3 platoons, with 5 tanks each. Later in the war, many companies would receive an additional radio-equipped tank to improve communications, but this wasn't active in 1940.
 
 Niehorster lists an AS1940 autotransportable division as having 232 HMGs which I think is a frankly insane number.
 It has 166 extra compared to the metropolitan type, but has only one extra machine gun battalion with companies that have just 12 HMGs each.
@@ -404,6 +409,9 @@ It appears that RHA regiments began the war with only 16 guns each and RA regime
 One battalion of replacements, the 64th "Catanzaro", ended in Tobruk during its fall, according to at least one source that I trust.
 However, we don't do field replacement units here, so that fact is staying in this notes page forever.
 We also don't do anti-air units here, and there were a couple: 15th Anti-Air Group with 2 batteries, and 1 battery of machine anti-air assigned to the 4th Tank Infantry Regiment.
+
+All the replacement units of the 60th-64th divisions were placed in assorted locations in Cyrenaica.
+The 60th and 61st were with their divisions, the 64th was in Tobruk, the 63rd was around Benghazi, and the 62nd was somewhere around Tobruk.
 
 The only source regarding the numbering of the bersaglieri motorcycle companies is the historically quite unreliable Montanari.
 I don't have any other choice so I'll take his word on the 51st and 22nd not being the 61st (bis) and 202nd, but this is still quite suspicious to me.
@@ -532,6 +540,7 @@ The "Volontari della Libia" blackshirt battalion was formed a few days after the
 It was numbered the 2nd and was formed from one company from each of the existing CC.NN. Libyan legions. Designations:
 1st Company: Tripoli, 2nd Company: Misurata, 3rd Company: Bengasi, 4th Company: Derna
 Based on this, I don't think there was any kind of heavy company in the unit, rather all four companies were identical (and not very large).
+It probably had some kind of machine guns or mortars, but given the lack of a heavy company and its ad-hoc establishment, any weapons can't be known.
 The idea to form the unit was from Alberto Venturelli, but its commander in combat was Giovanni Rocca.
 Also, apparently this mess: "1a 2'Y4°" translates to "1st, 2nd, 3rd, and 4th" from Italian.
 
@@ -543,6 +552,11 @@ Some sources indicate they consisted exclusively of communications and operators
 I think for this reason they'll be removed from my orders of battle, just like the rest of the mixed engineer battalions.
 Or maybe not. I'll have to think about this over the next few days, since I don't have a replacement company-sized unit ready.
 After having learned about the utterly uneven sizes of GaF units, I think I'll keep it in. Even if only part of it (it's "mixed" after all) was combat engineers, it's still a roughly company-sized portion.
+
+I later have turned around on this idea. The engineers are actually separate from the other GaF numbers which are only for infantry.
+I was certainly trolling when I went through this the first time anyway. These engineers were entirely for support tasks and had no combat ability.
+The same also goes for the regular engineer units, as while some did have partial combat ability, the only specialized assault engineers, the Guastatori, were never divisional in nature.
+There were also sometimes artillery engineers, which I hadn't noticed until now. These guys were certainly not meant to be anywhere near a frontline.
 
 I have finally obtained the original text of Montanari's writing on the defense of Tobruk. This has been a long time coming.
 I didn't buy it, obviously. There's a copy on the website Issuu, although it appears to be "unavailable".
@@ -826,7 +840,7 @@ Mobile Reserve:
 22nd and 61st (Ha! I was right!) Bersaglieri Motorcycle Companies
 2 Companies of 1/69 (1 & 3)
 2 20/65 Batteries
-Company of 7 Tanks
+Company of 7 Tanks (known to be organized as a company rather than a platoon because of Montanari p.189)
 A bunch of small machine gun and anti-tank units
 
 Other Notes:
@@ -934,14 +948,17 @@ Since the town was one big fortress, there's no reason for the GaF to have addit
 I thought this made sense, but then I read that the XXXII sector, under the Barberis command, had its own machine gun battalion. Maybe this was the Libyan battalion?
 Since I don't have anything else to go off of, and the battalion was after all part of the XXXII sector, I guess it had machine guns now. But this wasn't part of its name, so I wouldn't execute on this.
 Apparently there was also a 32nd Libyan Battalion in Tobruk according to some sources? But these claims are relatively unreliable so I wouldn't lend too much credence to that claim.
+Also not helping is that Montanari never references a single unit as being part of this subsector other than the few artillery batteries. So maybe it just didn't exist by this point or was in the process of dissolution.
 
 A form post says the 12th battery of the 42nd "Sabratha" Artillery Regiment was supposed to be one of its 20/65 batteries, but Regio Esercito says it had the 60th and 260th batteries.
 
 Carlo Rostagno was the chief of staff of the 22nd Corps for most of December, but at some point he must have been replaced. Montanari refers to him as "former".
+He is the ultimate source for most of my Tobruk order of battle information. I haven't found much that indicates him to be unreliable, at least not as badly as Montanari for sure.
 Instead, it is Adolfo de Leone, Brigadier General, who is listed as having held this position, starting sometime in January, that was captured.
 It does appear that Rostagno was also captured, but not listed elsewhere as he was a colonel, not a general. Meanwhile Brigadier Virginio Villanis, 10th Army Chief of Artillery, might have also been there.
 However Montanari lists Leone as commander of the artillery, not Virginio Villanis. Since I only have two sources about this, they are in disagreement, and one is notoriously unreliable, not much I can do.
 I disagree though. Villanis is mentioned later as leading some kind of column during the Mechili-Beda Fomm campaign. He didn't have a reason to be in Tobruk anyway, that place was hopeless.
+Just like Bergonzoli, Villanis would lead one of several columns ordered to conduct the retreat of the remainder of 10th Army. Both were captured.
 Barberis was captured too, shortly after the fall of the El Adem / Sidi Mahmud position, which his headquarters, along with two regimental headquarters, had been located at.
 
 Notes on total numbers:
@@ -965,10 +982,23 @@ The Flying Batteries Group had this organization:
 
 We can't know the exact structure of XXXI Libyan Coastal Battalion but its sister XXXII battalion had 25 officers and 752 men, with 15 MGs (3 heavy).
 A Libyan MG battalion at this time had 18 officers and 518 men from its 4 companies, so it's not really comparable.
-Meanwhile, a standard Libyan battalion had 3 copmanies and a command company, totalling 19 officers and 672 men.
-After later reorganizations, September 1941 battalion had 4 companies with 27 officers and 725 men. I think this is the most comparable unit (though they differ heavily in MGs).
+Meanwhile, a standard Libyan battalion had 3 companies with 3 rifle platoons each and a command company, totalling 19 officers and 672 men.
+After later reorganizations, September 1941 battalion had 4 companies (varied types) with 27 officers and 725 men. I think this is the most comparable unit (though they differ heavily in MGs).
 The coastal battalion had a comparable number of men all the way back in 1940 prior to these changes, so I might see this as a reason to give it 4 companies.
 Or maybe it was just a 1940 battalion and the extra 80 men were made up with some random spare platoon. This I also consider quite reasonable.
+
+At the same time, the XXX battalion was at Zuara. I don't think it did anything, but somehow had only 459 men by the end of Compass, implying some of its men had been lost.
+The remnants of the XXXII battalion were doing even worse, with just 250 men left. Other battalions had between 400-600 each.
+According to some very shaky data, the XXXIV battalion had 4 companies, or at least 4 company-sized units deployed in 4 towns.
+But, this was a special battalion formed from previously destroyed Maletti units, so it ain't great. It had previously been destroyed and thus its reconstitution was probably abnormal.
+From this, even some non-engaged battalions managed to lose a ton of men and be down to few troops, which makes me think that the organizations were utterly arbitrary and I should use my best judgment.
+
+Other than the two motorized divisions, some claim that the 60th-63rd divisions named after African towns were also given the red shield insignia.
+I really can't be bothered to make this change though, and I think the blue one looks better anyway, so I probably won't do anything about this.
+
+In case I need a name handy, Vito de Caro, a lieutenant, was captured as part of the 69th Regiment of the Sirte Division.
+
+
 
 After this month-long journey, I think it's appropriate to make a final order of battle so this never happens to anyone else again, and post it to AHF. Here it is!
 
@@ -977,7 +1007,8 @@ Changes:
 The 51st Bersaglieri Motorcycle Company is a typo, it's the 61st
 Elements of the G.a.F. had been moved elsewhere, leaving only part of the 32nd sector
 Montanari - "After 15 September the gradual displacement of many units of the border guard to reconstitue the garrisons of the border area and in the area of Halfaya and Sidi Barrani" (p. 292)
-The 31st/6th and 30th/7th groups are like a mistake and were the 6th/31st and 7th/31st groups
+"Deployed in the advanced works with for anti-tank purposes most of the small caliber pieces (65, 75, and 77 mm)"
+The 31st/6th and 30th/7th groups are likely a mistake and were the 6th/31st and 7th/31st groups
 Added detail
 
 OOB:
@@ -1091,5 +1122,87 @@ Battery (2 77/28, 1 149/12)
 "Piave" Strongpoint (Various training platoons of infantry, machine gun, mortars)
 
 Aircraft: 2 (1 RO37 and 1 CA10)
+
+I've been looking at various other bridging phases of the campaign in North Africa. One of them is the sort of "lull" while Rommel is arriving in Tripoli.
+During this time, the Italians began to transport elements to defend Sirte. One such unit was the column "Santamaria", named after Major Camillon Santamaria Niccolini.
+It consisted of one tank company, one machine gun company, and two batteries of 75/27. It shrunk by April to barely a company of strength.
+
+I know that the frontline defense positions had anti-tank guns of 47/32 and 75/27 as well as Breda 20/65s, but you have to count manually to get an exact idea.
+There were 8 47/32 guns of the 61st Anti-Tank battery, as well as 6 guns of the 25th Anti-Tank Battery. I have a decent idea of where these were.
+4 guns, likely from the 61st, were placed in the reserve. 2, which could be from either battery, were with the 31st Libyan Coastal Battalion.
+A total of 43 47/32 guns were registered, while 42 were recorded as anti-tank guns in the eastern sector. Given the above 6 removed, 37 47/32s were part of this anti-tank grouping.
+There were thus just 5 more anti-tank guns, which isn't a whole lot and is hard for me to believe. Something easier for me to believe is that this 42 number ignores the 23 GaF ones, leaving instead 28.
+But then some of them were training too, which might be the "Derna" battery. That could account for maybe 4 of the 28 guns left. We're gonna have to count 20/65s.
+
+Of the 20/65s, there were 42, but of course not all were used here. I can only find information about where 4 were, so I think the information might just be incomplete.
+So, let's instead extrapolate starting with what we have. There were similar numbers of 20/65 and 47/32 guns in total. However, the six initially lost strongpoints had 4 47/32 and only 1 20/65.
+Because of this, it's basically impossible for me to decide how many were deployed to the positions in total. So, let's just give it a guess and assume a ratio of 2.
+With 14 47/32s assumed in those positions, we'll add 8-12 20/65s, with 16-20 spots left for 77/28 and 75/27. I think my original assumption of 3 batteries plus the training one as reasonable.
+Nothing conclusive can be decided, though. I'm gonna have to give up on this one and just accept that we know nothing here. An unlucky situation and a waste of time.
+But at the very least, my setup is something that isn't plain false or insanely unacceptable. And it does agree with the other Montanari claims. Unless I can somehow find more information, that's that for now.
+
+Good news, though, is that there are some calibers we can count. I think I have enough information to find all the 77/28 guns, of which 12 total could be found.
+Two were deployed as artillery in a training battery, leaving 10 used as anti-tank guns. Of those, 2 were used to support the 31st Libyan Coastal Battalion.
+This is one place where the text and the images of Montanari disagree. I think the images are generally more accurate since they were written later so I'll take their word for it.
+That leaves 8 77/28s, which were probably in two G.a.F. batteries assigned to support the fortifications at the outer ring.
+
+What about 75/27s? 11 are listed in an anti-tank role, with 48 used in a firing role. The 48 number makes sense, as there were four groups, 2 each from the 55th and 43rd regiments.
+Of the anti-tank ones, 3 were deployed with the 140th Blackshirt Battalion, leaving 8 which I assume were 249th and "Derna" batteries. I think we're finally making some progress here, these numbers add up well.
+So with 8 75/27s and 8 77/28s, that leaving 26 other calibers, presumably 14 47/32s and 12 20/65s, or maybe some other counting. But since I think Montanari was right about the 47/32s deployed back, I actually disagree.
+I think the actual number is 16 47/32s, 10 20/65s, and 8 of every other caliber. The GaF 23 47/32s aren't counted for somse reason, and an additional 4 47/32s were given to the mobile reserve.
+Finally, I can be confident that my counting is correct. It just took several hours. I'm not to displeased by this since we got results, but this could've been so much smoother.
+
+On a different note, the 260th-263rd batteries of the GaF were armored with massive Skoda 420/12 mortars taken from Austria-Hungary. I don't believe any saw action before the war ended.
+
+But... I might have to reconsider the state of the 230th-232nd bis batteries. I can't find a single mention of a bis battery after 1941, and I think the practice might've been discontinued.
+I found that the 230th non-bis battery was in Albania at this time and contributed to the victory in Greece. However this unit is likely entirely different from its bis version, so this is far from useful.
+The base 231st and 232nd batteries were also in a distinct sector in Albania though it's unclear if they saw combat in Greece. Again, they never made it to Africa.
+
+Now let's count 105/28 and 120/25 guns. The totals offered by Montanari are 16 105/28s and 12 120/25s, so 4 and 3 groups, respectively.
+His maps disagree, though, showing 8 symbols of such gun sizes, plus the Regia Marina 120/45 battery. Of those, 5 are labelled as 105/28 and 3 as 120/25. So there's an extra 105/28 battery.
+But which one is the fake? I genuinely don't think that there would be a hole in the GaF units, but I don't think the mistake would show up in the 22nd Raggruppamento either. I think the issue goes deeper than that.
+So, let's now move two other kinds of gun, the 75/27 field gun and the 100/17 howitzer. Maybe these were miscounted?
+
+11 75/27 AT:
+Point 144 - 4
+249th Battery - 4
+"Derna" Training Battery  -4
+
+48 75/27 A:
+II/43rd Group - 12
+III/43rd Group - 12
+II/55th Group - 12
+III/55th Group - 12
+
+63 100/17:
+VII/10th Corps Group - 12
+I/22nd Corps Group - 12
+I/26th Group - 12
+I/43th Group - 12
+I/55th Group - 12
+-3
+
+16 105/28:
+
+We're missing 3 100/17s. My solution to this is to say that one of the 105/28 batteries marked on Montanari's map must actually be composed of 100/17s. But which one was that?
+I think it could only be the mixed group. There's no proof at all that it was formed from the 232nd bis battery. The other two 105/28 groups, the 17th/10th and 42nd/22nd, are known from their war diaries.
+And in the case of the 42nd/22nd, while even its number is somewhat disputable, what isn't disputable is that Rostagno mentions a 105/28 battery there.
+On the other hand, the reality of the 5th/Mixed Group of the GaF is utterly unclear and Montanari himself might actually be guessing. So was there another battery than the 232nd bis?
+
+I spent like an hour thinking about this and couldn't come to a conclusion. The issue is that Montanari manages to contradict himself not one but two times.
+
+1. On page 182, he mentions the "1 batteria mista del I gruppo del 22o raggruppamento" as part of the artillery complement of one sector for the defense. No elements of the 22o raggruppamento are described in the other sectors. No further mentions of this unit are made in this chapter.
+These descriptions were dated to January 20 by Montanari, but I don't know where he got the information from.
+
+2. On page 332, a report from XXII Corps Chief of Staff Carlo Rostagno mentions the 22o Raggruppamento consisting of "1o gruppo da 100/17, 1a batteria da 105/28" and some support, anti-aircraft, and provisional units.
+This document has a definitive name attached to it but is also oudated from December 10.
+
+3. In sketch 18 of the companion sketches book, the I/22 group is drawn as consisting of 4 batteries (1 field gun, 1 howitzer, and 2 heavy field gun).
+Worse, two nearby groups are both labelled as I/55 (1st group of 55th regiment) making them duplicates. This could be because I/55 was oversized and was split in half when deployed, or it might be a typo and one might actually be from the 22o Raggruppamento.
+This sketch is dated to January 23 by Montanari but I don't know where he got the information from.
+
+So I don't forget, the total number of defensive works was 144.
+
+I'm also gonna recount artillery for a different number I've received, 198. Maybe this is more useful than the 343 value that includes a lot of less-primary guns.
 
 

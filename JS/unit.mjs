@@ -315,10 +315,13 @@ export class unit{
                     this.parent.contain.units.push(unit)
                     unit.parent=this.parent
                 })
+                if(this.parent==-1){
+                    this.contain.units.forEach(unit=>unit.contain.middle=false)
+                }
             }
             this.stats.kills.forEach((num,index)=>this.parent.stats.kills[index]+=this.stats.kills[index])
         }
-        this.contain.units.forEach(unit=>unit.contain.middle=false)
+        //this.contain.units.forEach(unit=>unit.contain.middle=false)
     }
     destroyStats(){
         if(this.parent!=-1&&this.parent.contain.units.includes(this)){
@@ -1202,14 +1205,13 @@ export class unit{
                                             }
                                         }
                                         if(target.battle.broken&&!this.battle.broken){
-                                            distance=min(distance,target.contain.stats.speed*(0.75+target.strength.supply/this.strength.base.supply*0.25))*(fort?0.5:1)
+                                            distance=min(distance,target.contain.stats.speed*(0.75+target.strength.supply/target.strength.base.supply*0.25))*(fort?0.5:1)
                                             moving={x:this.position.x+lsin(dir)*distance,y:this.position.y+lcos(dir)*distance}
                                             let moving2={x:target.position.x+lsin(dir)*distance,y:target.position.y+lcos(dir)*distance}
                                             if(this.operation.units.some(other=>{
                                                 let friendly=types.player[target.player].side==types.player[other.player].side
                                                 return other.active&&other.contain.trigger&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
                                             })){
-                                                
                                                 let kills=[0,0,0,0]
                                                 target.contain.units.forEach(unit=>{
                                                     let fall=min(

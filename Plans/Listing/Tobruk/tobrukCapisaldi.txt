@@ -1,0 +1,60 @@
+Sector East (HQ XXI Corps Guardia alla Frontiera Command)
+    Subsector A (HQ 31st Guardia alla Frontiera Infantry Battalion)
+        Strongpoint Zeitun
+            7th Company, 69th Infantry Regiment
+        Strongpoint Sidi Daud
+            1st Company, 31st Guardia alla Frontiera Infantry Battalion
+        Strongpoint Suesi
+            6th Company, 69th Infantry Regiment
+        Strongpoint Bir Junes
+            2nd Company, 31st Guardia alla Frontiera Infantry Battalion
+    Subsector B (HQ 2nd Battalion, 69th Infantry Regiment)
+        Strongpoint Dahar el Azazi
+            5th Company, 69th Infantry Regiment
+        Strongpoint Bir Umm Haleiga
+            2nd Company, 69th Infantry Regiment
+    Sector Rear (HQ 69th Infantry Regiment)
+        HQ 1st Battalion, 69th Infantry Regiment
+            1st Company, 69th Infantry Regiment
+            3rd Company, 69th Infantry Regiment
+        HQ 3rd Battalion, 69th Infantry Regiment
+            9th Company, 69th Infantry Regiment
+            10th Company, 69th Infantry Regiment
+            11th Company, 69th Infantry Regiment
+            7th Company, 70th Infantry Regiment
+Sector West (HQ 61st "Sirte" Infantry Division)
+    Subsector A/C (HQ 1st Battalion, 69th Infantry Regiment)
+        Strongpoint Hagfet Umm Haleiga
+            2nd Company, 61st Machine Gun Battalion
+        Strongpoint Sidi Cheiralla
+            3rd Company, 61st Machine Gun Battalion
+        Strongpoint Bir el Faras
+            2nd Company, 70th Infantry Regiment
+        Strongpoint Bir el Giasc
+            3rd Company, 70th Infantry Regiment
+        Subsector Reserve
+            1st Company, 70th Infantry Regiment
+    Subsector B/D (HQ 3rd Battalion, 70th Infantry Regiment)
+        Strongpoint Bir el Medauuar
+            3rd Company, 31st Guardia alla Frontiera Infantry Battalion
+        Strongpoint Ras el Medauuar
+            9th Company, 70th Infantry Regiment
+        Strongpoint Ras es Sahel
+            11th Company, 70th Infantry Regiment
+        Subsector Reserve
+            10th Company, 70th Infantry Regiment
+    Subsector C/E (HQ Battalion CC.NN. "Volontari della Libia")
+        Strongpoint Es Sahel
+            1st Company "Tripoli", Battalion CC.NN. "Volontari della Libia"
+        Strongpoint Bir el Maclub
+            2nd Company "Misurata", Battalion CC.NN. "Volontari della Libia"
+        Strongpoint Umm Cuheil
+            3rd Company "Bengasi", Battalion CC.NN. "Volontari della Libia"
+        Subsector Reserve
+            4th Company "Derna", Battalion CC.NN. "Volontari della Libia"
+    Sector Rear (HQ 70th Infantry Regiment)
+        HQ 2nd Battalion, 70th Infantry Regiment
+            5th Company, 70th Infantry Regiment
+            6th Company, 70th Infantry Regiment
+        HQ 61st Machine Gun Battalion
+            1st Company, 61st Machine Gun Battalion

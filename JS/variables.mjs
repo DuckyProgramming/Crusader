@@ -166,7 +166,8 @@ export var types={
         {name:`Engineer Mixed Support`,unitType:[`Machine Gun`,`Mortar`,`Engineer`,`Anti-Tank`],class:0,damage:[10,10],armor:0.1,health:60,morale:1,num:500,speed:1,artillery:false,engineer:true,recon:false},
 
         {name:`Motorcycle Reconnaissance Company`,unitType:[`Recon`,`Motorcycle`],class:0,damage:[8,1],armor:0.1,health:30,morale:1.2,num:200,speed:3,artillery:false,engineer:false,recon:false},
-        {name:`Motorized Heavy Reconnaissance Company`,unitType:[`Recon`,`Heavy`,`Motorized`],class:3,damage:[6,7],armor:0.4,health:15,morale:1,num:10,speed:3,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Heavy Reconnaissance Company`,unitType:[`Recon`,`Heavy`,`Motorized`],class:0,damage:[6,7],armor:0.4,health:15,morale:1,num:200,speed:3,artillery:false,engineer:false,recon:false},
+        {name:`Motorized Heavy Reconnaissance Fire Company`,unitType:[`Recon`,`Heavy`,`Motorized`],class:3,damage:[6,7],armor:0.4,health:15,morale:1,num:10,speed:3,artillery:false,engineer:false,recon:false},
 
         {name:`Mixed Combat`,unitType:[`Infantry`,`Engineer`,`Mountain`],class:0,damage:[9,6],armor:0.1,health:80,morale:1.1,num:500,speed:1.05,artillery:false,engineer:true,recon:false},
         {name:`Mixed Infantry`,unitType:[`Infantry`,`Recon`,`Artillery`],class:0,damage:[8,8],armor:0.2,health:80,morale:1,num:500,speed:1.1,artillery:false,engineer:false,recon:false},
@@ -1762,7 +1763,7 @@ export var types={
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Edwardes`},
                                         {level:4,type:`Motorized Anti-Tank`,team:`British`,desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },{
                                     level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
@@ -2143,7 +2144,7 @@ export var types={
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:4,type:`Motorized Anti-Tank`,team:`British`,desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },
                             ],
@@ -2334,7 +2335,7 @@ export var types={
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:4,type:`Motorized Anti-Tank`,team:`British`,desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },{
                                     level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
@@ -4776,17 +4777,17 @@ export var types={
                             elements:[
                                 {
                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                    desc:[`A Battery, 104th Battalion, Royal Horse Artillery`,`A Battery, 104th Regiment, Royal Horse Artillery`],name:`A`,designation:`104 RHA`,commander:``,icon:``,
+                                    desc:[`339th Battery, 104th Battalion, Royal Horse Artillery`,`339th Battery, 104th Regiment, Royal Horse Artillery`],name:`339`,designation:`104 RHA`,commander:``,icon:``,
                                     pos:[999,555],
                                     elements:[
-                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 104th Battalion, Royal Horse Artillery`,`A Battery, 104th Regiment, Royal Horse Artillery`],name:`A`,designation:`104 RHA`,commander:``},
+                                        {type:`Motorized Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                    desc:[`B Battery, 104th Battalion, Royal Horse Artillery`,`B Battery, 104th Regiment, Royal Horse Artillery`],name:`B`,designation:`104 RHA`,commander:``,icon:``,
+                                    desc:[`414th Battery, 104th Battalion, Royal Horse Artillery`,`414th Battery, 104th Regiment, Royal Horse Artillery`],name:`414`,designation:`104 RHA`,commander:``,icon:``,
                                     pos:[1343,370],
                                     elements:[
-                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 104th Battalion, Royal Horse Artillery`,`B Battery, 104th Regiment, Royal Horse Artillery`],name:`B`,designation:`104 RHA`,commander:``},
+                                        {type:`Motorized Artillery Battery`},
                                     ],
                                 },
                             ],
@@ -5067,7 +5068,7 @@ export var types={
                     set:0,
                     unit:[
                         {
-                            level:1,type:[`Infantry`],team:`British`,
+                            level:1,type:[`Infantry`,`Motorized`],team:`British`,
                             desc:`70th Infantry Division`,name:`70`,designation:``,commander:`Scobie`,icon:`70`,
                             pos:[1106,442],
                             elements:[
@@ -5346,8 +5347,8 @@ export var types={
                                             desc:[`104th Battalion, Royal Horse Artillery`,`104th Regiment, Royal Horse Artillery`],name:`104`,designation:`Royal\nHorse`,commander:`Matthew`,icon:`32a`,
                                             pos:[1240,684],
                                             elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 104th Battalion, Royal Horse Artillery`,`A Battery, 104th Regiment, Royal Horse Artillery`],name:`A`,designation:`104 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 104th Battalion, Royal Horse Artillery`,`B Battery, 104th Regiment, Royal Horse Artillery`],name:`B`,designation:`104 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`339th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`339th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`339`,designation:`104 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`414th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`414th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`414`,designation:`104 RHA`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Engineer`,`Motorized`],team:`British`,
@@ -5658,7 +5659,7 @@ export var types={
                                 },
                             ],
                         },{
-                            level:1,type:[`Infantry`],team:`British`,
+                            level:1,type:[`Infantry`,`Motorized`],team:`British`,
                             desc:`70th Infantry Division`,name:`70`,designation:``,commander:`Scobie`,icon:`70`,
                             pos:[1106,442],
                             elements:[
@@ -5911,21 +5912,21 @@ export var types={
                                             elements:[
                                                 {
                                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                                    desc:[`A Battery, 25th Battalion, Royal Artillery`,`A Battery, 25th Field Regiment, Royal Artillery`],name:`A`,designation:`25 RA`,commander:``,icon:`4id`,
+                                                    desc:`12th Battery, Royal Artillery`,name:`12`,designation:`25 RA`,commander:``,icon:`4id`,
                                                     pos:[1240,684],
                                                     elements:[
                                                         {type:`Motorized Artillery Battery`},
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                                    desc:[`B Battery, 25th Battalion, Royal Artillery`,`B Battery, 25th Field Regiment, Royal Artillery`],name:`B`,designation:`25 RA`,commander:``,icon:`4id`,
+                                                    desc:`31st Battery, Royal Artillery`,name:`31`,designation:`25 RA`,commander:``,icon:`4id`,
                                                     pos:[1506,584],
                                                     elements:[
                                                         {type:`Motorized Artillery Battery`},
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                                    desc:[`C Battery, 25th Battalion, Royal Artillery`,`C Battery, 25th Field Regiment, Royal Artillery`],name:`C`,designation:`25 RA`,commander:``,icon:`4id`,
+                                                    desc:`287th Battery, Royal Artillery`,name:`287`,designation:`25 RA`,commander:``,icon:`4id`,
                                                     pos:[1343,370],
                                                     elements:[
                                                         {type:`Motorized Artillery Battery`},
@@ -6315,12 +6316,12 @@ export var types={
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`,icon:`7sg`,
+                                            desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`,icon:`7sg`,
                                             pos:[1580,845],
                                             elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 60th (North Midland) Battalion, Royal Artillery`,`A Battery, 60th (North Midland) Field Regiment, Royal Artillery`],name:`A`,designation:`60 RA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 60th (North Midland) Battalion, Royal Artillery`,`B Battery, 60th (North Midland) Field Regiment, Royal Artillery`],name:`B`,designation:`60 RA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`C Battery, 60th (North Midland) Battalion, Royal Artillery`,`C Battery, 60th (North Midland) Field Regiment, Royal Artillery`],name:`C`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`237th Battery, Royal Artillery`,name:`237`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`238th Battery, Royal Artillery`,name:`238`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`442nd Battery, Royal Artillery`,name:`442`,designation:`60 RA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Tank`,`Light`],team:`Australian`,
@@ -6383,7 +6384,6 @@ export var types={
                                                 {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 1st King's Dragoon Guards`,name:`A`,designation:`1 KDG`,commander:``},
                                                 {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 1st King's Dragoon Guards`,name:`B`,designation:`1 KDG`,commander:``},
                                                 {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 1st King's Dragoon Guards`,name:`C`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`D Squadron, 1st King's Dragoon Guards`,name:`D`,designation:`1 KDG`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Tank`,`Heavy`],team:`British`,
@@ -6392,6 +6392,7 @@ export var types={
                                             elements:[
                                                 {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 4th Battalion, Royal Tank Regiment`,`A Squadron, 4th Royal Tank Regiment`],name:`A`,designation:`4 RTR`,commander:``},
                                                 {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 4th Battalion, Royal Tank Regiment`,`B Squadron, 4th Royal Tank Regiment`],name:`B`,designation:`4 RTR`,commander:``},
+                                                {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`C Squadron, 4th Battalion, Royal Tank Regiment`,`C Squadron, 4th Royal Tank Regiment`],name:`C`,designation:`4 RTR`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
@@ -6399,7 +6400,7 @@ export var types={
                                             pos:[845,1008],
                                             elements:[
                                                 {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 4th Battalion, Royal Horse Artillery`,`A Battery, 4th Regiment, Royal Horse Artillery`],name:`A`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
@@ -6407,7 +6408,7 @@ export var types={
                                             pos:[969,976],
                                             elements:[
                                                 {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 4th Battalion, Royal Horse Artillery`,`B Battery, 4th Regiment, Royal Horse Artillery`],name:`B`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Motorized`],team:`British`,
@@ -6597,24 +6598,26 @@ export var types={
                                             desc:[`2nd Battalion, Royal Horse Artillery`,`2nd Regiment, Royal Horse Artillery`],name:`2`,designation:`Royal\nHorse`,commander:`Aikenhead`,icon:`7sg`,
                                             pos:[865,1197],
                                             elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 2nd Battalion, Royal Horse Artillery`,`A Battery, 2nd Regiment, Royal Horse Artillery`],name:`A`,designation:`2 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 2nd Battalion, Royal Horse Artillery`,`B Battery, 2nd Regiment, Royal Horse Artillery`],name:`B`,designation:`2 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`H/I Battery, Royal Horse Artillery`,name:`H/I`,designation:`2 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`L/N Battery, Royal Horse Artillery`,name:`L/N`,designation:`2 RHA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
                                             desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
                                             pos:[941,1161],
                                             elements:[
-                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:[`A Battery, 3rd Battalion, Royal Horse Artillery`,`A Battery, 3rd Regiment, Royal Horse Artillery`],name:`A`,designation:`3 RHA`,commander:``},
-                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:[`B Battery, 3rd Battalion, Royal Horse Artillery`,`B Battery, 3rd Regiment, Royal Horse Artillery`],name:`B`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`D Battery, Royal Horse Artillery`,name:`D`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`J Battery, Royal Horse Artillery`,name:`J`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`M Battery, Royal Horse Artillery`,name:`M`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`P Battery, Royal Horse Artillery`,name:`P`,designation:`3 RHA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
                                             desc:[`4th Battalion, Royal Horse Artillery`,`4th Regiment, Royal Horse Artillery`],name:`4`,designation:`Royal\nHorse`,commander:`Campbell`,icon:`7sg`,
                                             pos:[896,1095],
                                             elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 4th Battalion, Royal Horse Artillery`,`A Battery, 4th Regiment, Royal Horse Artillery`],name:`A`,designation:`4 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 4th Battalion, Royal Horse Artillery`,`B Battery, 4th Regiment, Royal Horse Artillery`],name:`B`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                             ],
                                         },
                                     ],
@@ -6626,14 +6629,6 @@ export var types={
                                         {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 1st King's Dragoon Guards`,name:`A`,designation:`1 KDG`,commander:``},
                                         {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 1st King's Dragoon Guards`,name:`B`,designation:`1 KDG`,commander:``},
                                         {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 1st King's Dragoon Guards`,name:`C`,designation:`1 KDG`,commander:``},
-                                        {level:5,type:`Armored Car Company`,team:`British`,desc:`D Squadron, 1st King's Dragoon Guards`,name:`D`,designation:`1 KDG`,commander:``},
-                                    ],
-                                },{
-                                    level:5,type:[`Engineer`,`Motorized`],team:`British`,
-                                    desc:[`4th Field Company, Royal Engineers`,`4th Field Squadron, Royal Engineers`],name:`4`,designation:``,commander:``,icon:`7a`,
-                                    pos:[1597,936],
-                                    elements:[
-                                        {type:`Motorized Engineer Company`},
                                     ],
                                 },
                             ],
@@ -7143,25 +7138,27 @@ export var types={
                                             desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
                                             pos:[1155,1189],
                                             elements:[
-                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:[`A Battery, 3rd Battalion, Royal Horse Artillery`,`A Battery, 3rd Regiment, Royal Horse Artillery`],name:`A`,designation:`3 RHA`,commander:``},
-                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:[`B Battery, 3rd Battalion, Royal Horse Artillery`,`B Battery, 3rd Regiment, Royal Horse Artillery`],name:`B`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`D Battery, Royal Horse Artillery`,name:`D`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`J Battery, Royal Horse Artillery`,name:`J`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`M Battery, Royal Horse Artillery`,name:`M`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`P Battery, Royal Horse Artillery`,name:`P`,designation:`3 RHA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
                                             desc:[`4th Battalion, Royal Horse Artillery`,`4th Regiment, Royal Horse Artillery`],name:`4`,designation:`Royal\nHorse`,commander:`Currie`,icon:`7sg`,
                                             pos:[1359,1087],
                                             elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 4th Battalion, Royal Horse Artillery`,`A Battery, 4th Regiment, Royal Horse Artillery`],name:`A`,designation:`4 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 4th Battalion, Royal Horse Artillery`,`B Battery, 4th Regiment, Royal Horse Artillery`],name:`B`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`,icon:`7sg`,
+                                            desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`,icon:`7sg`,
                                             pos:[1676,1080],
                                             elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`A Battery, 60th (North Midland) Battalion, Royal Artillery`,`A Battery, 60th (North Midland) Field Regiment, Royal Artillery`],name:`A`,designation:`60 RA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`B Battery, 60th (North Midland) Battalion, Royal Artillery`,`B Battery, 60th (North Midland) Field Regiment, Royal Artillery`],name:`B`,designation:`60 RA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`C Battery, 60th (North Midland) Battalion, Royal Artillery`,`C Battery, 60th (North Midland) Field Regiment, Royal Artillery`],name:`C`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`237th Battery, Royal Artillery`,name:`237`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`238th Battery, Royal Artillery`,name:`238`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`442nd Battery, Royal Artillery`,name:`442`,designation:`60 RA`,commander:``},
                                             ],
                                         },
                                     ],
@@ -7173,14 +7170,6 @@ export var types={
                                         {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 1st King's Dragoon Guards`,name:`A`,designation:`1 KDG`,commander:``},
                                         {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 1st King's Dragoon Guards`,name:`B`,designation:`1 KDG`,commander:``},
                                         {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 1st King's Dragoon Guards`,name:`C`,designation:`1 KDG`,commander:``},
-                                        {level:5,type:`Armored Car Company`,team:`British`,desc:`D Squadron, 1st King's Dragoon Guards`,name:`D`,designation:`1 KDG`,commander:``},
-                                    ],
-                                },{
-                                    level:5,type:[`Engineer`,`Motorized`],team:`British`,
-                                    desc:[`4th Field Company, Royal Engineers`,`4th Field Squadron, Royal Engineers`],name:`4`,designation:``,commander:``,icon:`7a`,
-                                    pos:[1597,936],
-                                    elements:[
-                                        {type:`Motorized Engineer Company`},
                                     ],
                                 },
                             ],
@@ -8187,7 +8176,7 @@ export var types={
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`},
                                         {level:4,type:`Motorized Anti-Tank`,team:`British`,desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },{
                                     level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
@@ -8573,7 +8562,7 @@ export var types={
                                     elements:[
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
                                         {level:4,type:`Terrible Tank`,team:`Australian`,desc:[`6th Australian Division Tank Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:``},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },{
                                     level:2,type:[`Infantry`,`Motorized`],team:`British`,
@@ -10131,7 +10120,7 @@ export var types={
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`2/5th Battalion, Essex Regiment`,name:`2/5`,designation:`Essex`,commander:``},
                                         {level:4,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 3rd Gurkha Rifles`,name:`2/3`,designation:`Gurkha`,commander:``},
                                         {level:4,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 11th Sikh Regiment`,name:`4/11`,designation:`Sikh`,commander:``},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },{
                                     level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
@@ -10494,7 +10483,7 @@ export var types={
                                         {level:4,type:`Motorized Infantry`,team:`British`,desc:`2/5th Battalion, Essex Regiment`,name:`2/5`,designation:`Essex`,commander:``},
                                         {level:4,type:`Motorized Infantry`,team:`Indian`,desc:`2nd Battalion, 3rd Gurkha Rifles`,name:`2/3`,designation:`Gurkha`,commander:``},
                                         {level:4,type:`Motorized Infantry`,team:`Indian`,desc:`4th Battalion, 11th Sikh Regiment`,name:`4/11`,designation:`Sikh`,commander:``},
-                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hallifax`},
+                                        {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                                     ],
                                 },{
                                     level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
