@@ -1774,5 +1774,22 @@ reserves=[
         elements:[
             {type:`Motorized Engineer Company`},
         ],
+    },{
+        level:4,type:[`Artillery`],team:`Italian`,
+        desc:[`Composite Group, 22nd Corps Artillery Regiment`,`Gruppo di Composizione, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`C`,designation:`22 Corps`,commander:`Papa`,icon:``,
+        pos:[1531,1450],
+        elements:[
+            {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 42nd Artillery Group`,`1ª Batteria, XLII Gruppo Artiglieria`],name:`1`,designation:`42 Corps`,commander:``},
+            {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
+            {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 17th Artillery Group`,`1ª Batteria, XVII Gruppo Cannoni Pesanti Campali`],name:`1`,designation:`17 Corps`,commander:``},
+            {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 1st Artillery Group`,`2ª Batteria, I Gruppo Obici Campali`],name:`2`,designation:`1 Corps`,commander:``},
+        ],
+    },{
+        level:5,type:[`Anti-Air`],team:`Italian`,
+        desc:[`404th Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`404ª Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`404`,designation:`4 Tank`,commander:``,icon:``,
+        pos:[2546,1105],
+        elements:[
+            {type:`Anti-Air Company`},
+        ],
     },
 ]

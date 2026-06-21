@@ -8,8 +8,8 @@ Artillery (12 Battalions, 37 Companies)
 	22nd Army Corps Artillery Regiment (2 Battalions, 7 Companies)
         1st Group (2 100/17)
         Provisional Group
-            1st Battery, 17th/10th Corps Group (2 105/28)
-            1st Battery, 42nd/22nd Corps Group (2 105/28)
+            1st Battery, 17th/10th Corps Group (105/28)
+            Mixed Battery, 22nd Corps Group (3 100/17)
             2nd Battery, 1st/22nd Corps Group (100/17)
             9th Battery, 3rd/43rd Group (75/27)
         Provisional Anti-Tank Battery (6 47/32)
@@ -46,11 +46,11 @@ Artillery (12 Battalions, 37 Companies)
     61st Anti-Tank Battery (8 47/32)
 
 4th Tank Infantry Regiment (2 Battalions, 5 Companies)
-    1st Medium Tank Battalion (2 Companies, 39 M11/39s, Immobilized)
+    1st Medium Tank Battalion (3 Companies, 39 M11/39s)
         1 Mobile Company (7 M11/39s)
         2 Immobile Companies (32M11/39s)
-    63rd Light Tank Battalion (32 L3/35s, Immobilized)
-        One Provisional Company Each of the 21st and 63rd Light Tank Battalions
+    63rd Light Tank Battalion (32 L3/35s)
+        One Provisional Company Each of the 21st and 63rd Light Tank Battalions, Both Immobilized
 
 Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia" (4 Companies)

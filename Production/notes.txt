@@ -358,6 +358,7 @@ The 31st had 10 artillery groups and the 32nd had 12. This disagrees with Niehor
 The 31st had an engineer company that was surely real but might not have been in Tobruk when the battle began. The 32nd also had an engineer company but I cannot locate it.
 
 If I had to guess, the 1800 men number was entirely theoretical. No sources indicate that anywhere near this number of infantry ever showed up (but maybe it includes artillerymen?)
+Montanari gives this number on page 47 of "Operations in North Africa" but this dates back to the first half of 1940 and is no longer relevant by 1941.
 The 2300 men seems not entirely unreasonable. If you include the 31st GaF Infantry Battalion, 21st/31st Libyan Coastal Battalion, both engineer companies, and lesser support, it about adds up.
 It's probably also the 31st and not the 21st Battalion. Montanari is far from infallible and this type of mistake isn't uncommon, plus 31 is the number of the sector it's in.
 The eastern sector was split into sub-sectors A and B. As we know from the western sector, 1 battalion manned each sub-sector, so there should've been two battalions worth of troops there.
@@ -646,6 +647,7 @@ Division HQ (Various Elements)
 70th Infantry Regiment (As Above)
 
 "Solothurn" Shotgun Section
+(I got baited by Google Translate. "Fuciloni" just translates to "large guns", not "shotguns")
 
 61st Anti-Tank Company (8 47/32)
 
@@ -670,6 +672,7 @@ Services
 -Various Elements
 
 Note: Another Shotgun Section and another Mortar Company were transferred to the Babini Group
+(Same, the Solothurn was an anti-tank rifle, not a shotgun)
 (My) Note: The translation is imperfect but I think these were separate units, not the ones above
 
 
@@ -867,6 +870,7 @@ The 141st and 142nd mortar companies were attached to Barberis's frontline but s
 The defense of the port was conducted with the depots of the GaF, 116th "Marmarica" Infantry Regiment, some carabinieri, and the 3rd Company of the 62nd Replacement Battalion
 
 I can't find the locations of any of the supposed new naval batteries "Vittoria", "Nembo", "Buffolotto" (section, probably the 149/35 guns)
+Actually these guns have been located based on his map. The Buffolotto section is also confirmed to consist of 2 149/35 guns, originally G.a.F. but crewed by naval personnel.
 
 Map:
 https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29%20schizzi/page/n41/mode/2up
@@ -998,15 +1002,14 @@ I really can't be bothered to make this change though, and I think the blue one 
 
 In case I need a name handy, Vito de Caro, a lieutenant, was captured as part of the 69th Regiment of the Sirte Division.
 
-
-
 After this month-long journey, I think it's appropriate to make a final order of battle so this never happens to anyone else again, and post it to AHF. Here it is!
 
 Changes:
 
 The 51st Bersaglieri Motorcycle Company is a typo, it's the 61st
 Elements of the G.a.F. had been moved elsewhere, leaving only part of the 32nd sector
-Montanari - "After 15 September the gradual displacement of many units of the border guard to reconstitue the garrisons of the border area and in the area of Halfaya and Sidi Barrani" (p. 292)
+Montanari - "After 15 September the gradual displacement of many units of the border guard to reconstitute the garrisons of the border area and in the area of Halfaya and Sidi Barrani" (p. 292)
+"Border guard personnel from Tobruk were used, for the most part, to garrison the strongholds along the grid from Giarabub to the sea and other strongholds around Sidi el Barrani and Buq Buq" (p. 171)
 "Deployed in the advanced works with for anti-tank purposes most of the small caliber pieces (65, 75, and 77 mm)"
 The 31st/6th and 30th/7th groups are likely a mistake and were the 6th/31st and 7th/31st groups
 Added detail
@@ -1166,7 +1169,7 @@ So, let's now move two other kinds of gun, the 75/27 field gun and the 100/17 ho
 11 75/27 AT:
 Point 144 - 4
 249th Battery - 4
-"Derna" Training Battery  -4
+"Derna" Training Battery - 4
 
 48 75/27 A:
 II/43rd Group - 12
@@ -1177,12 +1180,39 @@ III/55th Group - 12
 63 100/17:
 VII/10th Corps Group - 12
 I/22nd Corps Group - 12
+Mixed/22nd Corps Group - 3
 I/26th Group - 12
 I/43th Group - 12
 I/55th Group - 12
--3
+
+1 149/12:
+Training Battery - 1
+
+2 77/28:
+Training Battery - 2
+
+10 77/28 AT:
+140th Blackshirt Battalion - 2
+246th Battery - 4
+247th Battery - 4
 
 16 105/28:
+232nd Bis Battery - 4
+17th/10th Corps Group - 12
+
+12 120/25:
+230th Bis Battery - 4
+231st Bis Battery - 4
+242nd Battery - 4
+
+48 149/13:
+25th Corps Group - 48
+
+11 149/35:
+244th Battery - 4
+245th Battery - 4
+Regia Marina / G.a.F. Section "Buffolotto" - -2
+Probably a training formation or something idk - 1
 
 We're missing 3 100/17s. My solution to this is to say that one of the 105/28 batteries marked on Montanari's map must actually be composed of 100/17s. But which one was that?
 I think it could only be the mixed group. There's no proof at all that it was formed from the 232nd bis battery. The other two 105/28 groups, the 17th/10th and 42nd/22nd, are known from their war diaries.
@@ -1202,7 +1232,157 @@ Worse, two nearby groups are both labelled as I/55 (1st group of 55th regiment) 
 This sketch is dated to January 23 by Montanari but I don't know where he got the information from.
 
 So I don't forget, the total number of defensive works was 144.
+Other than blowing up bridges to offer support to his positions, Pitassi Manella also had a series of roadblocks built to given his units more time. Maybe they were built by the GaF, actually, but same point.
 
 I'm also gonna recount artillery for a different number I've received, 198. Maybe this is more useful than the 343 value that includes a lot of less-primary guns.
+
+My mind just got blown. Apparently I can't read, because "meno 2 capisaldi" doesn't mean "with 2 strongpoints" but "minus 2 strongpoints".
+So if the XXXI sector was missing 2 strongpoints, what does that mean? Well the sector originally had two subsectors with 4 and 2 strongpoints. The XXXII sector had the same organization.
+That leaves 12 total strongpoints, which doesn't exactly sync up with the 16 total that we see during the siege. Let's try to reconcile this.
+The best explanation to me is to assume the original two sectors lined up with the later two sectors. So the 6 sectors in the west were split in half to end up forming 10.
+This means that they only had 4 strongpoints left. And while the word "elements" doesn't help much, I'm guessing little infantry from the XXXII sector was backing them up.
+However, Montanari's maps show just 3 of the western strongpoints held by the GaF, plus maybe 2 more in the north. 3 and 5 do not equal 4, so something must have changed.
+That implies that with the eastern (XXXII) sector of the GaF so weak, the XXXI sector moved elements there to fill in two strongpoints. So if this guess (1 strongpoint = 1 company) makes sense, the following is the case:
+
+XXXI - 6 Strongpoints
+XXXII - 1 Strongpoint
+List of Strongpoints Occupied:
+Sidi Daud
+Bir Suesi
+Bir Junes
+Hagfet el Haleiga
+Sidi Cheiralla
+Bir el Medauuar
+Bir el Meclub
+Umm Cuheil
+
+My guess of how this split happened was that the Bir el Maclub sector split off Umm Cuheil, the Medauuars divided, and Subsector A/C was duplicated and made independent.
+The Zeitun sector has 19 and hasn't been split, so any of these mergers would be smaller and thus would be reasonable to have previously existed.
+
+With 12 strongpoints they had 3300 men. Basic math estimates say that just 2300 men would occupy 8 strongpoints, not far from 7.
+That said, I don't intend to execute on this. There's still way too much ambiguity and confusion. How could the "Volontari della Libia" battalion with 600 men only hold 6 forts, when at the same time a single company can hold 9 or more?
+
+Here's another possibility. Suppose there's only 4 from XXXI, and 2 from XXXII. This could... fit if we assume that some remaining stronpoints just accepted being doubled.
+But either way, while all these possibilities make sense, the reality is that we're working with almost nothing here. Even if we know how many strongpoints existed, we can't know what units they even consisted of. Maybe each subsector consisted of one static MG company, but how would I know?
+
+And where does the 31st GaF Infantry Battalion fit into this? It has 4 companies, so maybe it could in real time form into 6 half-company combat groups to fill in 6 strongpoints. If so, I should actually remove part of this company. But ultimately what can be done?
+The above honestly might actually be worth doing. I don't know how the battalion fits into anything, but since 1/3 of the GaF strongpoints were apparently removed, maybe I should remove 1/3 of the MG companies.
+But that's entirely based on assumptions that I don't know if I can make. The battalion to me seems like some kind of experimental reorganization of the subsector system by merging all infantry under this sector into a single battalion.
+If one company was removed, it could've simply been replenished with manpower from the XXXII sector. That fits in more neatly and doesn't create as much confusion.
+And as a fort garrison unit with an absurd amount of machine guns and other firepower, the organization of this battalion can't be compared to any contemporary infantry or static machine gun unit.
+It doesn't help that both sectors initially had the same number of strongpoints, 6, but only a difference of 300 men, which certainly is not the strength of a battalion with 4 companies.
+Unless the 31st Libyan Battalion was actually counted as well despite not being a G.a.F. unit, but at that point there's not much that can really be inferred; it's just too ambiguous at this point.
+
+One final possibility to consider. What if the 5th, 6th, and 7th groups were never real, at least in the case of one of them?
+If so, we have a shortage of 4 120/25 and 4 105/28, as well as 3 100/27. However, I literally can't find any 120/25 guns even close to this area, so where those 4 came from is hard to know.
+Perhaps these batteries had been disbanded and their personnel transferred forward, but the guns were still lying around. Is this likely?
+
+But this does give me more thought, because after re-reading Montanari's "Operations", not once in his Tobruk section does he mention the existence of 105/28 guns of the GaF, only 120/25. Hardly definitive information though.
+
+There's some disagreeing points here:
+
+1. In various sources (other than Montanari) about the order of battle half a year previously in June 1940, the following is said about these batteries:
+1st Group: 248th, 249th, and 258th batteries
+2nd Group: 246th, 246th Bis, and 258th Bis batteries
+3rd Group: 240th, 245th, 247th, and 247th Bis batteries
+4th Group: (Irrelevant)
+5th Group: 232nd Bis, 242nd, and 243rd batteries
+6th Group: 230th Bis and 231st Bis batteries
+7th Group: 238th, 239th, 244th, and 245th batteries
+It's important to note the distinction between the 1st-3rd groups and 5th-7th groups. The first three were all equipped with lighter guns, while the latter three were equipped with heavier guns. Thus it is not difficult to distinguish between them.
+I haven't found any original source for this, but it comes from multiple places and most of them I trust and have few mistakes (compared to Montanari). But it is outdated by January 1941.
+
+2. On page 182, he mentions the 5th, 6th, and 7th Guardia alla Frontiera groups as deployed, but gives no information about their composition.
+These descriptions were dated to January 20 by Montanari, but I don't know where he got the information from.
+
+3. On page 332, a report from XXII Corps Chief of Staff Carlo Rostagno mentions only 6 batteries: 242/5, 244/7, 245/7, 246/2, 247/3, and 249/1.
+This document's exclusive purpose is to be an order of battle and is highly exhaustive. I haven't found any abnormalities with it other than this.
+Three of these are from the 5th-7th groups, while the other 3 are from the 1st-3rd groups.
+Notably, none of these batteries have the "bis" designation. I do not know whether these were renamed, removed, or if he just forgot them.
+This document has a definitive name attached to it but is also oudated from December 10.
+
+4. In sketch 18 of the companion sketches book, the 5th, 6th, and 7th groups are all drawn, though the 5th is shown under the name "mixed group".
+Each group is shown with 2 batteries. The calibers match up with the June 1940 5th-7th groups, except that all have been reduced to the size of 2 batteries (rather than 3, 2, and 4 respectively).
+No numbers or names are shown for the individual batteries, but the calibers match up with some of both the regular and bis batteries.
+This sketch is dated to January 23 by Montanari but I don't know where he got the information from.
+
+I've come up with the following two possibilities, but keep in mind I might have missed another:
+
+1. There were 9 total batteries. The 5th, 6th, and 7th groups had 2 each, and there were 3 more from the 1st-3rd groups.
+Rostagno only mentioned 6 of the batteries because the rest were "bis", and he decided for some reason not to include the "bis" ones.
+Between December and January, the latter 3 batteries were disbanded and thus don't show up any in January reports.
+It's also possible that all of the bis batteries had left the garrison and returned in January for some reason. But they couldn't have gone far, otherwise they would've been trapped outside by the faster British troops, which makes me wonder where they went at all.
+
+2. There were 6 total batteries, 2 each in the 5th-7th groups. Between December and January the 3 in the 1st-3rd groups were rearmed with heavy guns and subordinated to the 5th-7th groups.
+In this possibility, all of the "bis" batteries were already gone by December.
+
+There might not appear to be a significant difference between these options, but what's important is that in one of them, the latter batteries are numbered 230bis-232bis, while in the other, they are numbered 246, 247, and 249.
+
+The key difference is whether you think it was more likely that the Italians "forgot" batteries or "renamed and reequipped" batteries.
+
+It's worth noting that I have also counted up the total artillery gun numbers that Montanari provides, and they are consistent with the 9 initial batteries worth of guns.
+But this doesn't rule out 6 batteries, since the guns could have existed as independent single guns rather than batteries, deployed in the defensive posts.
+In the 2nd possibility, while the batteries were rearmed, their old guns could still be lying around. The difference is the time at which they were disbanded.
+
+This is irrelevant to the above discussion, but I have no idea how Niehorster got the idea of the mixed engineer detachment in XXXII sector in addition to the one in the XXXI sector.
+Not anywhere have I seen this mentioned. He might actually just be extrapolating and making a guess or maybe he just copy-pasted the entire structure of the XXXI sector an called it a day.
+
+I've found more about the reconstitution efforts. The three positions reformed were those of Bir Sheferzen, Fort Maddalena, and some place called Garn um Grein, each with one company.
+If 1000 infantrymen were removed to reconstitute 3 companies of defense, that does imply the companies are much larger than I initially believed. They really were pretty oversized, and backed up with machine guns and anti-tank guns besides.
+So that means that the XXXI Battalion, if it still existed that is, had a similar strength of 1000 men. So where did the other 1300 men go? Where they in a series of strongpoint-type defensive units? I'll see if I can find out.
+But at the very least, I am again considering the 5-company or 5-strongpoint possibility of how the GaF was organized back in Tobruk again. This could use some more thought.
+
+Montanari's "Operations" also mentions a 105/25 gun. This is probably a typo for 105/28 or for 120/25 and I don't know which.
+There was a 105/25 gun later, actually an extended 105/23, but this gun wasn't developed until 1942. It was a rare model that was actually a decently modern gun, but of course few ever made it into combat due to building delays. They ended up used by Semoventi.
+
+Apparently G.a.F. guns of 47/32 and 65/17 had been transferred to the Libyan Divisions Group. I am not aware of the origins of these guns and they could have been from any of the sectors that had these guns.
+At the same time, the Sirte Division's 65/17 batteries appear to have been transferred to the Cirene Division. Based on other information, though, I'm gonna say that these two batteries were reconstituted by the next battle.
+
+Ok, finally some answers! On "Operations" page 258, Montanari includes a chart for all guns that were inside Tobruk, and they are the following:
+16 149/35
+12 120/25
+4 105/28
+36 77/28
+4 75/27
+Except we know there were only 12 77/28s when the battle was actually joined. So this chart must not be very accurate, since Rostagno agrees that only 8 were left in batteries by then.
+If we take it to be true, the only reasonable series of events is this: By December, most batteries had been disbanded, leaving behind guns. By January, those guns had left... for some reason.
+
+This is dated to December 12, and is 72 guns in total. But what is most noticeable is that this implies there were 18 batteries, much more than Rostagno, or anyone, admits.
+We know that the amount of 149/35 fell, as did the amount of 77//28, and by a large margin too. These were likely moved in late December. But the number of 120/25 remains constant.
+Thus we can confirm that at this stage, the G.a.F. mustered 12 120/25 and 4 105/28, while the XXII corps later brought 12 more 105/28. This confirms that Rostagno was inaccurate - these must be the 230th-232nd bis batteries.
+
+Also, I don't think the 611 machine guns and 23 47/32 guns numbers are necessarily accurate. Montanari does not mention of these guns were actually in Tobruk or if they might have been a portion of the garrison of Bardia.
+Instead, I have the number of 18 47/32s, which probably formed the provisional battery. It is likely that the GaF had legitimately been reduced to a single 47/32 gun.
+
+43 47/32:
+GaF Positions - 18
+GaF Training - 1
+Provisional AT Battery - 10
+61st AT Battery - 8
+25th AT Battery - 6
+
+The manpower of the 4th Tank Infantry Regiment must have been greatly reduced. Even with two battalions, it only had about 600 men, and worse, many of its men had been detached to form new units at Benghazi. Maybe only 200 men remained in this "regiment".
+
+Montanari also notes the arrival of the following reinforcements which I'll try to fit into the system:
+Metropolitan Battalion - 140th CC.NN. Battalion
+Libyan Complement Battalion - CC.NN. Battalion "Volontari della Libia"
+A group of 75/46 from Cirene - XV Group CA
+Two groups of 105/28 from Barce - XLII and XLIII groups, or maybe XVII and XXXV groups (one of which later left) (not sure)
+One of 75/27s, partly from Barce and partly from Benghazi - "Derna" Training Battery (not sure)
+
+A "I" group of the 10th CAR was supposedly in Bardia. Given how unreliable Montanari can be I disagree with this, since the 10th CAR never formed such a group according to its war diaries. Instead this is probably the XXV/XXXV group.
+
+On second thoughts, I absolutely have no idea how the subsectors even work. The XXX "Bardia" G.a.F. coverage sector has the fortress of Bardia subordinated to it, and we know that that single fortress unit contained 2500 men, despite being just a portion of a subsector.
+At the same time, the two secotrs at Tobruk had less men total, and for them, the fortress unit contained the subsectors, not the other way around. Again, this is a place of utter ambiguity, and I am certain that deciphering this situation is beyond my capabilities.
+
+To get a better idea, I went and examined on Niehorster's website a ton of the other GaF sectors. Here's what I've learned that gives me a little more confidence:
+What I found out is that the subsectors were functionally administrative units that were responsible for land areas. They didn't have a military organization role.
+Their mobile units varied greatly. Some had machine gun companies, alpini battalions, or artillery groups. Others straight up have nothing, like those of the XXXI and XXXII sectors I've been worrying about.
+That implies that the issue isn't a lack of information. These sectors legitimately just didn't have any units subordinated to them other than individual strongpoints which contained individual fortifications. There were no companies, platoons, etc.
+And since I ignore all units of such small size as part of my game, I think it's safe to ignore them. They had 2300 men, but outside of the XXXI Infantry Battalion, the rest weren't organized in a way that matters for the game.
+
+It might also be the case that the subsectors were merged with the elements of the Sirte Division that took over most of their positions, making their already unclear impact reduced even further.
+
+So basically, the above like 200 lines are just me questioning myself when I already had everything pretty much right. Good job myself!
 
 
