@@ -1,0 +1,115 @@
+Tobruk Garrison (36 Battalions, 144 Companies)
+
+Artillery (13 Battalions, 43 Companies)
+	10th Army Corps Artillery Regiment (3 Battalions, 8 Companies)
+        7th Group (3 100/17)
+        17th Group (2 105/28)
+        1st/26th Group (3 100/17)
+	22nd Army Corps Artillery Regiment (2 Battalions, 9 Companies)
+        1st Group (2 100/17)
+        Provisional Group
+            1st Battery, 17th/10th Corps Group (2 105/28)
+            1st Battery, 42nd/22nd Corps Group (2 105/28)
+            2nd Battery, 1st/22nd Corps Group (100/17)
+            9th Battery, 3rd/43rd Group (75/27)
+        13th Anti-Aircraft Battery
+        Provisional Anti-Tank Battery (6 47/32)
+        10th Artillery Specialist Detachment
+	25th Army Corps Artillery Regiment (4 Battalions, 12 Companies)
+        105th Group (3 149/13)
+        130th Group (3 149/13)
+        148th Group (3 149/13)
+            3rd Battery, 150th/25th Corps Group
+        150th Group (2 149/13)
+    55th Artillery Regiment (3 Battalions, 10 Companies)
+        1st Group (3 100/17 + 3 Spare Guns)
+        2nd Group (3 75/27 + 2 Spare Guns)
+        3rd Group (3 75/27 + 1 Spare Gun)
+        Provisional Infantry Gun Battery (5 65/17)
+    15th Anti-Aircraft Group (4 Batteries)
+        3 Batteries (75/46)
+        10th Battery, 20th Corps Artillery Regiment
+
+61st Infantry Division "Sirte" (12 Battalions, 46 Companies)
+	69th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        69th Infantry Gun Battery
+	70th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        70th Infantry Gun Battery
+	43rd Artillery Regiment (3 Battalions, 9 Companies)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (2 75/27)
+        61st Anti-Aircraft Battery (20/65)
+    61st Mixed Engineer Battalion (1 Company)
+	61st Machine Gun Battalion (3 Companies)
+	61st Replacement Battalion (4 Companies)
+    61st Bersaglieri Motorcycle Company
+    61st Mortar Company (6 81/14)
+    61st Anti-Tank Battery (8 47/32)
+
+4th Tank Infantry Regiment (2 Battalions, 6 Companies)
+    1st Medium Tank Battalion (2 Companies, 39 M11/39s, Immobilized)
+        1 Mobile Company (7 M11/39s)
+        2 Immobile Companies (32M11/39s)
+    63rd Light Tank Battalion (32 L3/35s, Immobilized)
+        One Provisional Company Each of the 21st and 63rd Light Tank Battalions
+    404th Anti-Aircraft Battery
+
+Blackshirts (2 Battalions, 6 Companies)
+    Blackshirt Battalion "Volontari della Libia" (4 Companies)
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
+
+Guardia Alla Frontiera (6 Battalions, 21 Companies)
+    31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+    31st Mixed Engineer Detachment
+    31st Frontier Guard Artillery Regiment (4 Battalions, 13 Batteries)
+        5th Group
+            232nd Bis Battery (4 105/28)
+            242nd Battery (4 120/25)
+        6th Group
+            230th Bis Battery (4 120/25)
+            231st Bis Battery (4 120/25)
+        7th Group
+            244th Battery (4 149/35)
+            245th Battery (4 149/35)
+        Provisional Group
+            246th Battery (4 77/28 + 1 Spare Gun)
+            247th Battery (4 77/28 + 1 Spare Gun)
+            249th Battery (4 75/27)
+        Naval Battery "Nembo" (4 120/40)
+        Training Battery "Derna" (4 75/27)
+        Training Battery (2 77/28, 1 149/12)
+
+Loose Units (1 Battalion, 11 Companies)
+    22nd Corps Engineer Regiment (1 Companies)
+        55th Engineer Company
+    64th Replacement Battalion (4 Companies)
+    3rd Company, 62nd Replacement Battalion
+    22nd Bersaglieri Motorcycle Company
+    25th Anti-Tank Battery (6 47/32)
+    141st Mortar Company (0 81/14)
+    142nd Mortar Company (0 81/14)
+    Training Company "Piave"
+
+Naval Batteries (12 Companies):
+    Beiad (6 102/35, 1 20/65)
+    Bellotti (4 149/47, 2 20/65)
+    Dandolo (5 149/47, 4 20/65)
+    Grasso (4 149/47, 2 20/65)
+    Pilastrino (6 102/35, 1 76/40, 1 20/65)
+    Sidi Mahmud (6 102/35, 1 20/65)
+    Tonno (6 76/40, 2 20/65)
+    Topo (6 76/40, 1 20/65)
+    Tordo (6 76/40, 1 20/65)
+    Toro (6 76/40, 1 20/65)
+    Tortora (6 102/35, 2 20/65)
+    San Giorgio (Floating) (4 254/30, 8 190/45)
+
+

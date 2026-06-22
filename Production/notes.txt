@@ -582,6 +582,10 @@ Elements of the 32nd Coverage Sector
 -247th Battery / XXXII/3 (4 77/28)
 -249th Battery / XXXII/1 (4 75/06)
 
+(My) Notes:
+In the original text this is a mess, in fact the title card "31st Coverage Sector" is duplicated
+Also I'm completely wrong above. He didn't say "2 subsectors", but rather "minus two strongpoints"
+
 Training Battery "Derna" (4 75/06)
 
 1 47/32 Gun
@@ -960,6 +964,7 @@ Carlo Rostagno was the chief of staff of the 22nd Corps for most of December, bu
 He is the ultimate source for most of my Tobruk order of battle information. I haven't found much that indicates him to be unreliable, at least not as badly as Montanari for sure.
 Instead, it is Adolfo de Leone, Brigadier General, who is listed as having held this position, starting sometime in January, that was captured.
 It does appear that Rostagno was also captured, but not listed elsewhere as he was a colonel, not a general. Meanwhile Brigadier Virginio Villanis, 10th Army Chief of Artillery, might have also been there.
+Rostagno, just like Di Giorgis, would return to Italy after the war and enjoy a fairly successful end to his career leading a branch of the Italian military, in this case the Guardia alla Finanza.
 However Montanari lists Leone as commander of the artillery, not Virginio Villanis. Since I only have two sources about this, they are in disagreement, and one is notoriously unreliable, not much I can do.
 I disagree though. Villanis is mentioned later as leading some kind of column during the Mechili-Beda Fomm campaign. He didn't have a reason to be in Tobruk anyway, that place was hopeless.
 Just like Bergonzoli, Villanis would lead one of several columns ordered to conduct the retreat of the remainder of 10th Army. Both were captured.
@@ -1274,8 +1279,9 @@ It doesn't help that both sectors initially had the same number of strongpoints,
 Unless the 31st Libyan Battalion was actually counted as well despite not being a G.a.F. unit, but at that point there's not much that can really be inferred; it's just too ambiguous at this point.
 
 One final possibility to consider. What if the 5th, 6th, and 7th groups were never real, at least in the case of one of them?
-If so, we have a shortage of 4 120/25 and 4 105/28, as well as 3 100/27. However, I literally can't find any 120/25 guns even close to this area, so where those 4 came from is hard to know.
+If so, we have a shortage of 8 120/25 and 4 105/28, as well as 3 100/27. However, I literally can't find any 120/25 guns even close to this area, so where those 4 came from is hard to know.
 Perhaps these batteries had been disbanded and their personnel transferred forward, but the guns were still lying around. Is this likely?
+Actually I messed up the math. Let's do this again at the bottom...
 
 But this does give me more thought, because after re-reading Montanari's "Operations", not once in his Tobruk section does he mention the existence of 105/28 guns of the GaF, only 120/25. Hardly definitive information though.
 
@@ -1384,5 +1390,83 @@ And since I ignore all units of such small size as part of my game, I think it's
 It might also be the case that the subsectors were merged with the elements of the Sirte Division that took over most of their positions, making their already unclear impact reduced even further.
 
 So basically, the above like 200 lines are just me questioning myself when I already had everything pretty much right. Good job myself!
+
+Briefly going back to Crusader, by the end of that battle the 7th Support Group only had a single infantry battalion and 1.5 battalions of artillery. I don't know which ones they were.
+
+When the Pilastrino and Solaro positions fell, the Australian troops had reached there from Point. 98 (Tordo Battery) and the Gabr el Abd position.
+It is strange to see that the Pilastrino position with Della Mura somehow managed to hold out. Montanari claims that a reserve managed to retake the position just before they had to surrender, but I find this hard to believe given that the reserve was quite small and weak.
+
+I've made yet another attempt to track where the 120/25 guns went. 12 of them existing implies that there were 3 batteries. Can I find any proof of this? There were originally 7 batteries, according to Montanari, and 4, according to Regio Esercito.
+I am certain that the 242nd battery had 4 of such guns. But 8 left seems like quite a lot to be missing.
+
+Prior to the war, Tobruk's naval batteries were far weaker, consisting of just 6 batteries: 1 149/47, 1 102/33, and 4 75/60. I think 102/33 is a typo for 102/35.
+I can't tell exactly which of the 149/47 and 102/35 batteries were old and which ones were built later, but either way the number was expanded up to 11 by late 1940.
+
+I read a document about the "San Giorgio", honestly this was a very impressive find! Here's the takeaways.
+1. The ship was nicknamed the "Lioness of Tobruk" or "Leonessa di Tobruk".
+2. The naval battery "Nembo" used guns taken from the sunken destroyer of the same name. Wikipedia says they were sent to Bardia instead but I don't see how that happened. The calibers match up too.
+3. Somehow little damage was sustained by the ship, in fact only one of its guns was lost and that was due to wearing out by firing too much.
+4. Not only was the ship ordered to fight to the end rather than try to escape, it was also given some contradictory orders that contributed to the lack of action. This was caused by its subordination both to naval command Libia and the Tobruk Fortress.
+5. This article claims the XXII Army Corps' engineer raggruppamento contained a 55th Engineer Company.
+6. The scuttling attempt was apparently unsuccessful to the point that none of the guns were damaged and the ship could be rapidly refloated. Two sailors were killed in the process, though.
+7. Its name references the patron saint and flag of the republic of Genoa.
+
+Just to be prudent once again, let's give another consideration to the nonexistance of the three batteries Rostagno missed.
+We have a shortage of 8 120/25, as well as 3 100/27. The latter can be considered relatively inconsequential, but I don't think the same can be said for the former.
+There really is no solution to this. The 120/25 gun was a naval gun that was used only by a few units. Maybe some appeared from Tripoli but I have absolutely zero evidence in that direction.
+Also, these batteries were definitely not disbanded or reorganized in any way, since we know they were used as direct fire artillery in batteries rather than as anti-tank guns.
+
+The question can also now be reframed in a different way. Rather than 9-battery vs 6-battery, the real debate is over the identities of these batteries.
+
+I have been reading Mario Montanari's "La Prima Offensiva Britannica in Africa Settentrionale" published in 1979. I couldn't find a version in English, but I've gotten through it fine.
+However, there is something that is seriously confusing me about his description of the loss of Tobruk in January 1941, and that is the numbers of the Guardia alla Frontiera's artillery batteries.
+
+The sources say the following:
+
+1. There were originally many batteries responsible for Tobruk's defense. However many of them were removed between June 1940 and January 1941. Here's the order as of June 1940:
+1st Group: 249 and 2 others
+2nd Group: 246 and 2 others
+3rd Group: 247 and 3 others
+4th Group: 3 others
+5th Group: 232 bis, 242, and 1 other
+6th Group: 230 bis and 231 bis
+7th Group: 244, 245, and 2 others
+The others are not unknown; I do know their numbers. However, I am certain they had left the garrison by January so they aren't relevant to this question.
+It's important to note the distinction between the 1st-3rd groups and 5th-7th groups. The first three were all equipped with lighter guns, while the latter three were equipped with heavier guns.
+
+2. On page 182, Montanari mentions the 5th, 6th, and 7th Guardia alla Frontiera groups as deployed, but gives no information about their composition.
+These descriptions were dated to January 20 by Montanari, but I don't know where he got the information from.
+
+3. On page 332, a report from XXII Corps Chief of Staff Carlo Rostagno mentions only 6 batteries: 242/5, 244/7, 245/7, 246/2, 247/3, and 249/1.
+This document's exclusive purpose is to be an order of battle and is highly exhaustive. I haven't found any major abnormalities with it other than this.
+This document has a definitive name attached to it but is also oudated from December 10.
+
+4. In sketch 18 of the companion sketches book, the 5th, 6th, and 7th groups are all drawn, though the 5th is shown under the name "mixed group".
+Each group is shown with 2 batteries. The calibers match up with the June 1940 5th-7th groups, except that all have been reduced to the size of 2 batteries (rather than 3, 2, and 4 respectively).
+No numbers or names are shown for the individual batteries, but the calibers match up with the original 5th-7th groups shown above.
+This sketch is dated to January 23 by Montanari but I don't know where he got the information from.
+
+One more thing is known: the guns of all 9 batteries were in the fortress. However, the guns of the three lighter ones were sent to the forward defensive positions rather than being used in batteries behind the lines.
+The question is not of what guns were there, but rather, what the numbers of the remaining 6 batteries were. The first three were almost certainly the 242nd, 244th, and 245th, but what about the other three?
+I've come up with the following two possibilities, but keep in mind I might have missed another:
+
+1. The batteries shown in the sketches were numbered the 230th-232nd bis.
+This requires Rostagno to have missed them in his document for some reason. Maybe he made an honest mistake, maybe he was confused about the "bis" designation, or maybe he was unfamiliar with the G.a.F.
+
+2. The batteries shown in the sketches were numbered the 246th, 247th, and 249th.
+This requires the Italian Army or G.a.F. to rename, rearm, and reorganize these three batteries.
+
+The XXII Corps (Pitassi Manella) and Tobruk Military Fortress (Umberto Barberis) were originally separate commands, but on December 10, the date of this document, the commands were merged under Pitassi Manella, with Barberis becoming his subordinate.
+I don't know how this merger worked, and it might not have been complete in just one day. Barberis also held the concurrent commands of the Tobruk Military Fortress and the XXI Corps G.a.F. command, which doesn't help.
+Ultimately, both me and the AIs I asked came to the conclusion that possibility 1 is more likely. The whole renaming and rearming shebang is quite frankly insane and much less likely than just three batteries slipping through.
+Rearming is also unreasonable given the active external threat faced. If the bis batteries left, why didn't they take their guns with them? And if not, how did some guns show up out of nowhere? It's unanswerable.
+And no such rearmament is mentioned by any of Montanari's books. I could search harder but at this point I really don't think this insane possibility was real.
+
+And anyway, what could I replace these 3 batteries with? Maybe these three? I guess this is a reserve possibility to keep around in case a huge turnabout occurs.
+1. Training Battery "Derna"
+2. Training Company "Piave"
+3. Naval Battery "Nembo"
+
+Either way, I'm gonna test a 105/45 map to see how it goes.
 
 

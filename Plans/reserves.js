@@ -1791,5 +1791,23 @@ reserves=[
         elements:[
             {type:`Anti-Air Company`},
         ],
+    },{
+        level:4,type:[`Tank`,`Heavy`],team:`British`,
+        desc:[`2nd Battalion, Royal Tank Regiment`,`2nd Royal Tank Regiment`],name:`2`,designation:`Royal Tank\nRegiment`,commander:`Chute`,icon:`4ab`,
+        pos:[2004,1802],
+        elements:[
+            {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 2nd Battalion, Royal Tank Regiment`,`A Squadron, 2nd Royal Tank Regiment`],name:`A`,designation:`2 RTR`,commander:``},
+            {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 2nd Battalion, Royal Tank Regiment`,`B Squadron, 2nd Royal Tank Regiment`],name:`B`,designation:`2 RTR`,commander:``},
+            {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`C Squadron, 2nd Battalion, Royal Tank Regiment`,`C Squadron, 2nd Royal Tank Regiment`],name:`C`,designation:`2 RTR`,commander:``},
+        ],
+    },{
+        level:4,type:[`Tank`,`Heavy`],team:`British`,
+        desc:`7th Queen's Own Hussars`,name:`7`,designation:`Queen's Own\nHussars`,commander:`Byass`,icon:`4ab`,
+        pos:[2754,1833],
+        elements:[
+            {level:5,type:`Heavy Tank Company`,team:`British`,desc:`A Squadron, 7th Queen's Own Hussars`,name:`A`,designation:`7 Hussars`,commander:``},
+            {level:5,type:`Heavy Tank Company`,team:`British`,desc:`B Squadron, 7th Queen's Own Hussars`,name:`B`,designation:`7 Hussars`,commander:``},
+            {level:5,type:`Heavy Tank Company`,team:`British`,desc:`C Squadron, 7th Queen's Own Hussars`,name:`C`,designation:`7 Hussars`,commander:``},
+        ],
     },
 ]
