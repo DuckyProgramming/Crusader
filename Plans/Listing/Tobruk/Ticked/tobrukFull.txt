@@ -69,24 +69,23 @@ Guardia Alla Frontiera (6 Battalions, 21 Companies)
     31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 Guns))
     31st Libyan Coastal Infantry Battalion (3 Companies)
     31st Mixed Engineer Detachment
-    31st Frontier Guard Artillery Regiment (3 Battalions, 6 Batteries)
+    31st Frontier Guard Artillery Regiment (4 Battalions, 13 Batteries)
         5th Group
+            232nd Bis Battery (4 105/28)
             242nd Battery (4 120/25)
-            Training Battery "Derna" (4 75/27)
         6th Group
-            244th Bis Battery (4 120/25)
-            245th Bis Battery (4 120/25)
+            230th Bis Battery (4 120/25)
+            231st Bis Battery (4 120/25)
         7th Group
             244th Battery (4 149/35)
             245th Battery (4 149/35)
-    Anti-Tank Group (3 Batteries):
-        246th Battery (4 77/28 + 1 Spare Gun)
-        247th Battery (4 77/28 + 1 Spare Gun)
-        249th Battery (4 75/27)
-    Naval Battery "Nembo" (4 120/40)
-    Naval Battery "Vittoria" (4 120/40)
-    Training Battery "Derna" (4 75/27)
-    Training Battery (2 77/28, 1 149/12)
+        Provisional Group
+            246th Battery (4 77/28 + 1 Spare Gun)
+            247th Battery (4 77/28 + 1 Spare Gun)
+            249th Battery (4 75/27)
+        Naval Battery "Nembo" (4 120/40)
+        Training Battery "Derna" (4 75/27)
+        Training Battery (2 77/28, 1 149/12)
 
 Loose Units (1 Battalion, 11 Companies)
     22nd Corps Engineer Regiment (1 Companies)

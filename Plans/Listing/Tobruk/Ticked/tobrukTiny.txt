@@ -1,4 +1,4 @@
-Group Barberis (20 Battalions, 66 Companies)
+Group Barberis (19 Battalions, 66 Companies)
 
 Artillery (10 Battalions, 30 Companies)
 	22nd Army Corps Artillery Regiment (2 Battalions, 5 Companies)
@@ -33,19 +33,18 @@ Artillery (10 Battalions, 30 Companies)
     63rd Light Tank Battalion (32 L3/35s)
         One Provisional Company Each of the 21st and 63rd Light Tank Battalions, Both Immobilized
 
-Guardia Alla Frontiera (5 Battalions, 13 Companies)
+Guardia Alla Frontiera (4 Battalions, 13 Companies)
     31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Anti-Tank Battery (23 47/32))
-    31st Frontier Guard Artillery Regiment (3 Battalions, 6 Batteries)
+    31st Frontier Guard Artillery Regiment (3 Battalions, 9 Batteries)
         5th Group
+            232nd Bis Battery (4 105/28)
             242nd Battery (4 120/25)
-            Training Battery "Derna" (4 75/27)
         6th Group
-            244th Bis Battery (4 120/25)
-            245th Bis Battery (4 120/25)
+            230th Bis Battery (4 120/25)
+            231st Bis Battery (4 120/25)
         7th Group
             244th Battery (4 149/35)
             245th Battery (4 149/35)
-    Anti-Tank Group (3 Batteries):
         246th Battery (4 77/28 + 1 Spare Gun)
         247th Battery (4 77/28 + 1 Spare Gun)
         249th Battery (4 75/27)

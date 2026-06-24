@@ -1809,5 +1809,68 @@ reserves=[
             {level:5,type:`Heavy Tank Company`,team:`British`,desc:`B Squadron, 7th Queen's Own Hussars`,name:`B`,designation:`7 Hussars`,commander:``},
             {level:5,type:`Heavy Tank Company`,team:`British`,desc:`C Squadron, 7th Queen's Own Hussars`,name:`C`,designation:`7 Hussars`,commander:``},
         ],
+    },{
+        level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Military Fortress "Tobruk"`,`Piazza Militare "Tobruch"`],name:`Tobruk`,designation:`Piazza`,commander:`Barberis`,icon:``,
+        pos:[2681,1061],
+        elements:[],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+        desc:[`4th Infantry Battalion, 8th Australian Expeditionary Force`,`2/4th Australian Infantry Battalion`],name:`2/4`,designation:``,commander:`Dougherty`,icon:`4aub`,
+        pos:[3719,1567],
+        elements:[
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 4th Infantry Battalion, 8th Australian Expeditionary Force`,`A Company, 2/4th Australian Infantry Battalion`],name:`A`,designation:`2/4`,commander:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 4th Infantry Battalion, 8th Australian Expeditionary Force`,`B Company, 2/4th Australian Infantry Battalion`],name:`B`,designation:`2/4`,commander:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 4th Infantry Battalion, 8th Australian Expeditionary Force`,`C Company, 2/4th Australian Infantry Battalion`],name:`C`,designation:`2/4`,commander:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 4th Infantry Battalion, 8th Australian Expeditionary Force`,`D Company, 2/4th Australian Infantry Battalion`],name:`D`,designation:`2/4`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+        desc:[`5th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/5th Australian Infantry Battalion`],name:`2/5`,designation:``,commander:`Wrigley`,icon:`5aub`,
+        pos:[3569,1717],
+        elements:[
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 5th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/5th Australian Infantry Battalion`],name:`A`,designation:`2/5`,commander:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 5th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/5th Australian Infantry Battalion`],name:`B`,designation:`2/5`,commander:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 5th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/5th Australian Infantry Battalion`],name:`C`,designation:`2/5`,commander:`Griffiths`},
+            {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 5th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/5th Australian Infantry Battalion`],name:`D`,designation:`2/5`,commander:`Smith`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+        desc:[`7th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/7th Australian Infantry Battalion`],name:`2/7`,designation:``,commander:`Walker`,icon:`7aub`,
+        pos:[3769,1717],
+        elements:[
+            {level:7,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 7th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/7th Australian Infantry Battalion`],name:`A`,designation:`2/7`,commander:`Savige`},
+            {level:7,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 7th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/7th Australian Infantry Battalion`],name:`B`,designation:`2/7`,commander:`Green`},
+            {level:7,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 7th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/7th Australian Infantry Battalion`],name:`C`,designation:`2/7`,commander:``},
+            {level:7,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 7th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/7th Australian Infantry Battalion`],name:`D`,designation:`2/7`,commander:`Halliday`},
+        ],
+    },{
+        level:5,type:[`Anti-Tank`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:`Proietti`,icon:``,
+        pos:[1557,507],
+        elements:[
+            {type:`Huge Static Anti-Tank Company`},
+        ]
+    },{
+        level:4,type:[`Infantry`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st Frontier Guard Infantry Battalion`,`XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cecavicchi`,icon:``,
+        pos:[1506,584],
+        elements:[
+            {
+                level:5,type:[`Anti-Tank`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:`Proietti`,icon:``,
+                pos:[1557,507],
+                elements:[
+                    {type:`Massive Static Anti-Tank Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`4th Company, 31st Frontier Guard Infantry Battalion`,`4ª Compagnia, XXXI Battaglione Fanteria Guardia alla Frontiera`],name:`4`,designation:`31`,commander:`Proietti`,icon:``,
+                pos:[1557,507],
+                elements:[
+                    {type:`Static Infantry Gun Company`},
+                ]
+            },
+        ],
     },
 ]

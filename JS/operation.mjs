@@ -49,6 +49,7 @@ export class operation{
             this.initialComponents()
             this.scene=`mapAll`
             this.initialUnits(flat[dev.view].index)
+            print(flat[dev.view].unit.name)
         }else if(dev.reserve!=-1){
             this.scene=`orderView`
             if(typeof dev.reserve==`number`){
