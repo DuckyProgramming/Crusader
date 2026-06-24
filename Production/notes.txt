@@ -1696,7 +1696,7 @@ I was wrong about the 23 anti-tank guns in the GaF 31st Infantry Battalion. In r
 I have found some info about 17 June, which is one whole reorganization after 10 June.
 How this was actually implemented will take some more time to figure out. But here's what I have so far:
 
-June 10 1940
+June 10 1940:
 
 XXXI:
     5th Group: 232bis (105/28), 242, 243 (120/25)
@@ -1708,7 +1708,26 @@ XXXII:
     3rd Group: 240bis, 247, 247bis (77/28)
     4th Group: 236bis, 240, 241 (77/28)
 
-June 17 1940
+June 17 1940:
+
+XXXI (East):
+242,243,244,245,246,248
+I/203 (75/27)
+I/22 CAR (100/17)
+XLII/22 CAR or XLIII/22 CAR (105/28)
+
+XXXII (West):
+238, 239, 247
+230/b, 291/b (probably a typo lol)
+II/203 (75/27)
+III/203 (100/17)
+XLII/22 CAR or XLIII/22 CAR (105/28) (whichever one wasn't in the eastern sector)
+
+Anti-Tank:
+240, 241, 246, 249
+236/b, 240/b, 247/b, 258/b
+
+Merged:
 
 XXXI: (3 77/28, 3 120/25)
     1st Group: 248 (77/28)
@@ -1721,7 +1740,7 @@ XXXII: (1 77/28, 2 120/25, 2 149/35)
     7th Group: 238, 239 (149/35)
 Anti-Tank (Raggruppamento Pezzi Anticarro): (8 77/28)
     1st Group: 249 (77/28)
-    2nd Group: 246bis, 258bis (77/28)
+    2nd Group: 258bis (77/28)
     3rd Group: 240bis, 247bis (77/28)
     4th Group: 236bis, 240, 241 (77/28)
 
@@ -1763,5 +1782,22 @@ Restructure 5th and 6th Groups - 232nd Bis becomes "Derna", 230th Bis and 231st 
 Form a new "Raggruppamento Pezzi Anticarro" command to manage the loose batteries
 
 For the full version, I'm gonna need to find a new company to replace this since I don't have a spare handy. It's a good thing we prepared at least a little in advance.
+
+The above changes are courtesy of La Guardia alla Frontiera, a book by Massimo Ascoli from the same official publishing office as Montanari's books.
+I've started reading through this. Obviously a lot of the book is about the European and Albanian GaF which I don't consider all that interesting, but there's still plenty to see.
+
+Some more information on the units that the Tobruk GaF were withdrawn to replace:
+150th CC.NN. Battalion, 75/27 and 47/32 batteries from Maddalena and Garn ul Grein (75/27 were replaced iwth 77/28)
+
+There's also an OOB for the 340th GaF Artillery Raggruppamento:
+    342nd Group (818, 819, 837)
+    344th Group (842, 843, 844)
+    352nd Group (12, 16, 163)
+    351st Group (852, 853, 856)
+On pages, 202 and 203, the same is stored for the 290th, 330th, and 350th, but I can't be bothered to transcribe them.
+
+An order on 1 June 1940 was meant to disband numerous GaF units, including the 14th Artillery Regiment, 1st Infantry Regiment, and the 31st and 32nd Infantry Battalions.
+I don't know when this was carried out, and I think it wasn't fully carried out at all, with many of these units remaining around until later, including the 31st Infantry Battalion.
+At the same time, the depot of the 14th Artillery Regiment was kept around and used to deploy the other Raggruppamenti. So, for sure, this unit was disbanded successfully.
 
 
