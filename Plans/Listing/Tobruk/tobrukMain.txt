@@ -1,4 +1,4 @@
-Tobruk Garrison (34 Battalions, 112 Companies)
+Tobruk Garrison (33 Battalions, 112 Companies)
 
 Artillery (12 Battalions, 37 Companies)
 	10th Army Corps Artillery Regiment (3 Battalions, 8 Companies)
@@ -57,10 +57,11 @@ Blackshirts (2 Battalions, 6 Companies)
     140th Blackshirt Battalion "Aquilia" (2 Companies)
 
 21st Corps Guardia Alla Frontiera Command (7 Battalions, 20 Companies)
-    31st Coverage Sector (6 Battalions, 14 Companies)
+    31st Coverage Sector (5 Battalions, 14 Companies)
         31st/A Subsector (4 Companies)
-        32nd/A Subsector (3 Companies)
-        32nd/B Subsector (1 Companies)
+        31st/B Subsector (2 Companies)
+        Strongpoint Hagfet Umm Haleiga
+        Strongpoint Ras El Meduauar
         31st Artillery Regiment (3 Battalions, 6 Batteries)
             5th Group
                 242nd Battery (4 120/25)

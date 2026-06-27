@@ -105,7 +105,7 @@ export class unit{
         this.rules.art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
         this.rules.size=[
             this.designation.length>=18||this.rules.art&&this.designation.length>=10||this.designation.length>=10&&!this.designation.includes(`\n`)?1.25:this.designation.length>=5?1.5:(this.rules.art||this.name.includes(`\n`)?2:2.5),
-            this.name.length>=25?2.25:this.name.length>=(this.name.includes(`\n`)?15:10)?3:this.name.length>=(this.rules.art?3:7)?3.5:this.name.length>=(this.rules.art?2:5)?4:5,
+            this.name.length>=(this.name.includes(`\n`)&&this.commander.length==0?25:20)?2.25:this.name.includes(`\n`)&&this.commander.length>0||this.name.length>=(this.name.includes(`\n`)&&this.commander.length==0?20:15)?2.75:this.name.length>=(this.name.includes(`\n`)&&this.commander.length==0?15:10)?3:this.name.length>=(this.rules.art?3:7)?3.5:this.name.length>=(this.rules.art?2:5)?4:5,
             this.name.length>=25?1.5:this.commander.length>=18?1.75:this.commander.length>=12?2:2.25,
         ]
         this.rules.pos=[
@@ -738,7 +738,7 @@ export class unit{
                     layer.textSize(this.rules.size[1])
                     layer.strokeWeight(max(0.3,this.rules.size[1]/10))
                     if(this.name.includes(`\n`)){
-                        layer.textLeading(3)
+                        layer.textLeading(min(3,this.rules.size[1]*0.9))
                     }
                     layer.text(this.name,this.rules.pos[1].x,this.rules.pos[1].y)
                     layer.textSize(this.rules.size[2])

@@ -1,4 +1,4 @@
-Group Barberis (22 Battalions, 70 Companies)
+Group Barberis (21 Battalions, 70 Companies)
 
 Artillery (10 Battalions, 30 Companies)
 	22nd Army Corps Artillery Regiment (2 Battalions, 5 Companies)
@@ -33,7 +33,7 @@ Artillery (10 Battalions, 30 Companies)
     63rd Light Tank Battalion (32 L3/35s)
         One Provisional Company Each of the 21st and 63rd Light Tank Battalions, Both Immobilized
 
-21st Corps Guardia Alla Frontiera Command (7 Battalions, 17 Companies)
+21st Corps Guardia Alla Frontiera Command (6 Battalions, 17 Companies)
     31st Coverage Sector (5 Battalions, 14 Companies)
         31st/A Subsector (4 Companies)
         31st/B Subsector (4 Companies)

@@ -795,6 +795,7 @@ Army:
 1 149/12
 48 149/13
 11 149/35
+Total: 220
 
 Army Support:
 42 20/65 AA
@@ -803,7 +804,8 @@ Army Support:
 11 75/? (Probably 75/27)
 13 65/17
 43 47/32
-39 37 (in the tanks)
+39 37/? (in the tanks)
+Total: 120
 
 Naval:
 8 149/17
@@ -1801,6 +1803,9 @@ However I don't have any information on what was left behind. Maybe the 2nd, 4th
 It's also possible that some of these companies corresponded with those from the 31st GaF Infantry Battalion. But again, I can't know for sure because of the inclarity of it all.
 And other companies were transferred to Maddalena and random Egyptian rear areas, which I also can't track. So unfortunately this is useful information but not enough.
 
+About the 20/65 guns, they might have been from the DICAT, or the militia for territorial anti-air defense. 2 groups of this force armed with 20/65s are said to be in Tobruk in June.
+After that, they are never mentioned again, so I will presume they are among the units that were transferred out to replenish other garrisons.
+
 There's also an OOB for the 340th GaF Artillery Raggruppamento:
     342nd Group (818, 819, 837)
     344th Group (842, 843, 844)
@@ -1924,16 +1929,35 @@ It's entirely projective, but if so, clears up a lot. The 31st sector had been f
 Here's my final reading of events:
 
 June:
-XXXI Sector: 6 Strongpoints, 1800 men
-XXXII Sector: 6 Strongpoints, 1500 men
+XXXI Sector: 6 Strongpoints, 1500 men
+XXXII Sector: 6 Strongpoints, 1800 men
+
+(Strange that XXXII is larger, as it had a shorter front to hold. But it would have been facing the most likely direction of an attack so it might have been prioritized.)
 
 December:
-XXXI Sector: 4 Strongpoints, 1300 men
-XXXII Sector: 4 Strongpoints, 1000 men
+XXXI Sector: 4 Strongpoints, 1000 men
+XXXII Sector: 4 Strongpoints, 1300 men
 
-January:
+Early January:
 XXXI Sector: 8 Strongpoints, 2300 men
-Assuming 4 Strongpoints per Subsector
+    XXXI/A Subsector: 2 Strongpoints, 500 men
+    XXXI/B Subsector: 2 Strongpoints, 500 men
+    XXXII/A Subsector: 2 Strongpoints, 600 men
+    XXXII/B Subsector: 2 Strongpoints, 600 men
+    +About 100 Men Somewhere
+(XXXII Sector is never mentioned again)
+
+This, above, is what the geographic analysis would give. However, I do have another method of analysis that I think gives me more valuable information.
+That comes in the form of the final subsectors. Subsectors A and B are marked in Montanari's map with nothing, while Subsectors C, D, and E are marked with the 1st/70th, 3rd/70th, and "Volontari della Libia" Battalion HQs.
+This makes me think that in contradiction to the geographic approach, in reality these other subsectors that were of the former XXXII Sector had all been disbanded. Only A and B were left and they were part of the XXXI Sector.
+
+After Pitassi Mannella's Reorganization:
+XXXI Sector: 8 Strongpoints, 2300 men
+    XXXI/A Subsector: 4 Strongpoints, 1100 men
+    XXXI/B Subsector: 2 Strongpoints, 600 men
+    Strongpoint Hagfet Umm Haleiga: 300 Men
+    Strongpoint Ras El Meduauar: 300 Men
+(XXXII Sector is never mentioned again)
 
 Hooray for cleanliness!
 
@@ -1959,5 +1983,20 @@ This is quite apparently a typo and its the first crack in this map. And I think
 There's also the 26th Corps Artillery Raggruppamento from Albania, but this had only the 18th, 32nd, 115th, and 116th Heavy Howitzer Groups, none of which are the 5th.
 Again, yet another thing that cannot possibly be true. The reliability of this map is truly impressive in how poor it is.
 In "The First British Offensive" a similar map shows that this unit is actually the 105th Battery of the 25th CAR. How 105 became 5 and 25 became 26 is anybody's guess. A truly immense mistranscription.
+
+I've managed to identify where almost all of the Libyan Coastal battalions were located. Here they are:
+30th Libyan Coastal Battalion: XXVIII Coverage Sector
+31st Libyan Coastal Battalion: Tobruk, XXXII Coverage Sector
+32nd Libyan Coastal Battalion: XXIX Coverage Sector
+33rd Libyan Coastal Battalion: Spread Out From Agedabia to the Libyan Sahara
+34th Libyan Coastal Battalion: Bengasi-Barce Area, Later Reformed With Remnants, Maletti Group
+35th Libyan Coastal Battalion: XXXI Coverage Sector (Later Moved)
+
+This is not perfect, as it relies on Montanari's unreliable maps and an unreliable forum post, but it's better than nothing and proves that most of these units did exist.
+
+Just learned some more Italian. Apparently, the reason for the abbreviations GG.FF. and CC.NN. with the doubled letters is because they were plural. A single "young fascist" would just be a G.F.
+
+A standard Blackshirt battalion in 1940 had just 3 companies, but this was no longer the case for the African divisions, each of which was formed with 4 companies.
+So, while the African Blackshirt Legions were by no means strong, they at least had 12 infantry companies rather than just 6, totalling almost 3000 men like a normal regiment rather than having half strength like most legions.
 
 

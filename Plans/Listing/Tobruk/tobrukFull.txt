@@ -12,7 +12,7 @@ Artillery (13 Battalions, 42 Companies)
             1st Battery, 42nd/22nd Corps Group (2 105/28)
             2nd Battery, 1st/22nd Corps Group (100/17)
             9th Battery, 3rd/43rd Group (75/27)
-        13th Anti-Aircraft Battery
+        13th Anti-Aircraft Battery (20/65)
         Provisional Anti-Tank Battery (6 47/32)
 	25th Army Corps Artillery Regiment (4 Battalions, 12 Companies)
         105th Group (3 149/13)
@@ -58,7 +58,7 @@ Artillery (13 Battalions, 42 Companies)
         2 Immobile Companies (32M11/39s)
     63rd Light Tank Battalion (32 L3/35s, Immobilized)
         One Composite Company Each of the 21st and 63rd Light Tank Battalions
-    27th Anti-Aircraft Battery
+    27th Anti-Aircraft Battery (20/65)
 
 Blackshirts (2 Battalions, 6 Companies)
     Blackshirt Battalion "Volontari della Libia" (4 Companies)
@@ -67,7 +67,9 @@ Blackshirts (2 Battalions, 6 Companies)
 21st Corps Guardia Alla Frontiera Command (8 Battalions, 23 Companies)
     31st Coverage Sector (5 Battalions, 15 Companies)
         31st/A Subsector (4 Companies)
-        31st/B Subsector (4 Companies)
+        31st/B Subsector (2 Companies)
+        Strongpoint Hagfet Umm Haleiga
+        Strongpoint Ras El Meduauar
         31st Mixed Engineer Detachment
         31st Artillery Regiment (3 Battalions, 6 Batteries)
             5th Group

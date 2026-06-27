@@ -2869,33 +2869,33 @@ export var types={
                                 },{
                                     level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
                                     desc:[`31st/A Frontier Guard Subsector`,`XXXI/A Sottosettore Guardia alla Frontiera`],name:`A`,designation:`31`,commander:`Cecavicchi`,icon:``,
-                                    pos:[1469,582],
+                                    pos:[1553,451],
                                     elements:[
                                         {
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`1st Strongpoint, 31st/A Frontier Guard Subsector`,`1ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`1`,designation:`A`,commander:`Montesanti`,icon:``,
-                                            pos:[1456,791],
+                                            desc:[`Strongpoint Zeitun, 31st/A Frontier Guard Subsector`,`Capisaldo Zeitun, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Zeitun`,designation:`A`,commander:`Montesanti`,icon:``,
+                                            pos:[1553,360],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`2nd Strongpoint, 31st/A Frontier Guard Subsector`,`2ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`2`,designation:`A`,commander:`Desideri`,icon:``,
-                                            pos:[1532,769],
+                                            desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Capisaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`A`,commander:`Desideri`,icon:``,
+                                            pos:[1722,381],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`3rd Strongpoint, 31st/A Frontier Guard Subsector`,`3ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`3`,designation:`A`,commander:`Mosetti`,icon:``,
-                                            pos:[1602,727],
+                                            desc:[`Strongpoint Suesi, 31st/A Frontier Guard Subsector`,`Capisaldo Suesi, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Suesi`,designation:`XXXI/A`,commander:`Mosetti`,icon:``,
+                                            pos:[1738,488],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`4th Strongpoint, 31st/A Frontier Guard Subsector`,`4ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`4`,designation:`A`,commander:`Proietti`,icon:``,
-                                            pos:[1660,663],
+                                            desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Capisaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`XXXI/A`,commander:`Proietti`,icon:``,
+                                            pos:[1709,585],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
@@ -2904,38 +2904,38 @@ export var types={
                                 },{
                                     level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
                                     desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
-                                    pos:[1553,451],
+                                    pos:[1469,582],
                                     elements:[
                                         {
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`1st Strongpoint, 31st/B Frontier Guard Subsector`,`1ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`1`,designation:`B`,commander:`Salvitti`,icon:``,
-                                            pos:[1709,585],
+                                            desc:[`Strongpoint Dahar el Azazi, 31st/B Frontier Guard Subsector`,`Capisaldo Dahar el Azazi, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Dahar el\nAzazi`,designation:`XXXI/B`,commander:`Salvitti`,icon:``,
+                                            pos:[1660,663],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`2nd Strongpoint, 31st/B Frontier Guard Subsector`,`2ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`2`,designation:`B`,commander:`Ticconi`,icon:``,
-                                            pos:[1738,488],
-                                            elements:[
-                                                {type:`Static Machine Gun Company`},
-                                            ]
-                                        },{
-                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`3rd Strongpoint, 31st/B Frontier Guard Subsector`,`3ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`3`,designation:`B`,commander:`Costantini`,icon:``,
-                                            pos:[1722,381],
-                                            elements:[
-                                                {type:`Static Machine Gun Company`},
-                                            ]
-                                        },{
-                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`4th Strongpoint, 31st/B Frontier Guard Subsector`,`4ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`4`,designation:`B`,commander:`Adiutori`,icon:``,
-                                            pos:[1553,360],
+                                            desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Capisaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`XXXI/B`,commander:`Ticconi`,icon:``,
+                                            pos:[1602,727],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
                                         },
                                     ],
+                                },{
+                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`XXXI`,commander:`Costantini`,icon:``,
+                                    pos:[1532,769],
+                                    elements:[
+                                        {type:`Static Machine Gun Company`},
+                                    ]
+                                },{
+                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:`Adiutori`,icon:``,
+                                    pos:[1456,791],
+                                    elements:[
+                                        {type:`Static Machine Gun Company`},
+                                    ]
                                 },
                             ],
                         },{
@@ -19669,31 +19669,31 @@ export var types={
                                                     elements:[
                                                         {
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`1st Strongpoint, 31st/A Frontier Guard Subsector`,`1ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`1`,designation:`A`,commander:`Montesanti`,icon:``,
+                                                            desc:[`Strongpoint Zeitun, 31st/A Frontier Guard Subsector`,`Capisaldo Zeitun, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Zeitun`,designation:`A`,commander:`Montesanti`,icon:``,
                                                             pos:[3486,771],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`2nd Strongpoint, 31st/A Frontier Guard Subsector`,`2ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`2`,designation:`A`,commander:`Desideri`,icon:``,
+                                                            desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Capisaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`A`,commander:`Desideri`,icon:``,
                                                             pos:[3563,1065],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`3rd Strongpoint, 31st/A Frontier Guard Subsector`,`3ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`3`,designation:`A`,commander:`Mosetti`,icon:``,
+                                                            desc:[`Strongpoint Suesi, 31st/A Frontier Guard Subsector`,`Capisaldo Suesi, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Suesi`,designation:`XXXI/A`,commander:`Mosetti`,icon:``,
                                                             pos:[3411,1352],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`4th Strongpoint, 31st/A Frontier Guard Subsector`,`4ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`4`,designation:`A`,commander:`Proietti`,icon:``,
+                                                            desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Capisaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`XXXI/A`,commander:`Proietti`,icon:``,
                                                             pos:[3280,1466],
                                                             elements:[
-                                                                {type:`Static Ruined Anti-Tank Company`},
+                                                                {type:`Static Machine Gun Company`},
                                                             ]
                                                         },
                                                     ],
@@ -19704,34 +19704,34 @@ export var types={
                                                     elements:[
                                                         {
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`1st Strongpoint, 31st/B Frontier Guard Subsector`,`1ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`1`,designation:`B`,commander:`Salvitti`,icon:``,
+                                                            desc:[`Strongpoint Dahar el Azazi, 31st/B Frontier Guard Subsector`,`Capisaldo Dahar el Azazi, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Dahar el\nAzazi`,designation:`XXXI/B`,commander:`Salvitti`,icon:``,
                                                             pos:[2979,1586],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`2nd Strongpoint, 31st/B Frontier Guard Subsector`,`2ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`2`,designation:`B`,commander:`Ticconi`,icon:``,
+                                                            desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Capisaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`XXXI/B`,commander:`Ticconi`,icon:``,
                                                             pos:[2840,1632],
-                                                            elements:[
-                                                                {type:`Static Machine Gun Company`},
-                                                            ]
-                                                        },{
-                                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`3rd Strongpoint, 31st/B Frontier Guard Subsector`,`3ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`3`,designation:`B`,commander:`Costantini`,icon:``,
-                                                            pos:[2464,1736],
-                                                            elements:[
-                                                                {type:`Static Machine Gun Company`},
-                                                            ]
-                                                        },{
-                                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`4th Strongpoint, 31st/B Frontier Guard Subsector`,`4ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`4`,designation:`B`,commander:`Adiutori`,icon:``,
-                                                            pos:[1396,1600],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },
                                                     ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`XXXI`,commander:`Costantini`,icon:``,
+                                                    pos:[2464,1736],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:`Adiutori`,icon:``,
+                                                    pos:[1396,1600],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
                                                 },
                                             ],
                                         },{
@@ -20722,31 +20722,31 @@ export var types={
                                                     elements:[
                                                         {
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`1st Strongpoint, 31st/A Frontier Guard Subsector`,`1ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`1`,designation:`A`,commander:`Montesanti`,icon:``,
+                                                            desc:[`Strongpoint Zeitun, 31st/A Frontier Guard Subsector`,`Capisaldo Zeitun, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Zeitun`,designation:`A`,commander:`Montesanti`,icon:``,
                                                             pos:[3486,771],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`2nd Strongpoint, 31st/A Frontier Guard Subsector`,`2ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`2`,designation:`A`,commander:`Desideri`,icon:``,
+                                                            desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Capisaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`A`,commander:`Desideri`,icon:``,
                                                             pos:[3563,1065],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`3rd Strongpoint, 31st/A Frontier Guard Subsector`,`3ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`3`,designation:`A`,commander:`Mosetti`,icon:``,
+                                                            desc:[`Strongpoint Suesi, 31st/A Frontier Guard Subsector`,`Capisaldo Suesi, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Suesi`,designation:`XXXI/A`,commander:`Mosetti`,icon:``,
                                                             pos:[3411,1352],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`4th Strongpoint, 31st/A Frontier Guard Subsector`,`4ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`4`,designation:`A`,commander:`Proietti`,icon:``,
+                                                            desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Capisaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`XXXI/A`,commander:`Proietti`,icon:``,
                                                             pos:[3280,1466],
                                                             elements:[
-                                                                {type:`Static Ruined Anti-Tank Company`},
+                                                                {type:`Static Machine Gun Company`},
                                                             ]
                                                         },
                                                     ],
@@ -20757,34 +20757,34 @@ export var types={
                                                     elements:[
                                                         {
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`1st Strongpoint, 31st/B Frontier Guard Subsector`,`1ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`1`,designation:`B`,commander:`Salvitti`,icon:``,
+                                                            desc:[`Strongpoint Dahar el Azazi, 31st/B Frontier Guard Subsector`,`Capisaldo Dahar el Azazi, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Dahar el\nAzazi`,designation:`XXXI/B`,commander:`Salvitti`,icon:``,
                                                             pos:[2979,1586],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },{
                                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`2nd Strongpoint, 31st/B Frontier Guard Subsector`,`2ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`2`,designation:`B`,commander:`Ticconi`,icon:``,
+                                                            desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Capisaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`XXXI/B`,commander:`Ticconi`,icon:``,
                                                             pos:[2840,1632],
-                                                            elements:[
-                                                                {type:`Static Machine Gun Company`},
-                                                            ]
-                                                        },{
-                                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`3rd Strongpoint, 31st/B Frontier Guard Subsector`,`3ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`3`,designation:`B`,commander:`Costantini`,icon:``,
-                                                            pos:[2464,1736],
-                                                            elements:[
-                                                                {type:`Static Machine Gun Company`},
-                                                            ]
-                                                        },{
-                                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`4th Strongpoint, 31st/B Frontier Guard Subsector`,`4ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`4`,designation:`B`,commander:`Adiutori`,icon:``,
-                                                            pos:[1396,1600],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
                                                             ]
                                                         },
                                                     ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`XXXI`,commander:`Costantini`,icon:``,
+                                                    pos:[2464,1736],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:`Adiutori`,icon:``,
+                                                    pos:[1396,1600],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
                                                 },{
                                                     level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
                                                     desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,

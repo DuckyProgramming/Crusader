@@ -1947,5 +1947,75 @@ reserves=[
             {level:4,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 85th Training Volunteer Regiment`,`I Battaglione Fucilieri, 85° Reggimento di Addestramento Volontari "Verona"`],name:`1`,designation:`85`,commander:`Angelozzi`},
             {level:4,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 85th Training Volunteer Regiment`,`II Battaglione Fucilieri, 85° Reggimento di Addestramento Volontari "Verona"`],name:`2`,designation:`85`,commander:`Morosini`},
         ],
+    },{
+        level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st/A Frontier Guard Subsector`,`XXXI/A Sottosettore Guardia alla Frontiera`],name:`A`,designation:`31`,commander:`Cecavicchi`,icon:``,
+        pos:[1469,582],
+        elements:[
+            {
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`1st Strongpoint, 31st/A Frontier Guard Subsector`,`1ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`1`,designation:`A`,commander:`Montesanti`,icon:``,
+                pos:[1456,791],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`2nd Strongpoint, 31st/A Frontier Guard Subsector`,`2ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`2`,designation:`A`,commander:`Desideri`,icon:``,
+                pos:[1532,769],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`3rd Strongpoint, 31st/A Frontier Guard Subsector`,`3ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`3`,designation:`A`,commander:`Mosetti`,icon:``,
+                pos:[1602,727],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`4th Strongpoint, 31st/A Frontier Guard Subsector`,`4ª Capisaldo, XXXI/A Sottosettore Guardia alla Frontiera`],name:`4`,designation:`A`,commander:`Proietti`,icon:``,
+                pos:[1660,663],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+        pos:[1553,451],
+        elements:[
+            {
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`1st Strongpoint, 31st/B Frontier Guard Subsector`,`1ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`1`,designation:`B`,commander:`Salvitti`,icon:``,
+                pos:[1709,585],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`2nd Strongpoint, 31st/B Frontier Guard Subsector`,`2ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`2`,designation:`B`,commander:`Ticconi`,icon:``,
+                pos:[1738,488],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`3rd Strongpoint, 31st/B Frontier Guard Subsector`,`3ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`3`,designation:`B`,commander:`Costantini`,icon:``,
+                pos:[1722,381],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`4th Strongpoint, 31st/B Frontier Guard Subsector`,`4ª Capisaldo, XXXI/B Sottosettore Guardia alla Frontiera`],name:`4`,designation:`B`,commander:`Adiutori`,icon:``,
+                pos:[1553,360],
+                elements:[
+                    {type:`Static Machine Gun Company`},
+                ]
+            },
+        ],
     },
 ]
