@@ -1872,5 +1872,80 @@ reserves=[
                 ]
             },
         ],
+    },{
+        level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`XXI Corps Frontier Guard Command`,`XXI Comando di Corpo d'Armata di Guardia alla Frontiera`],name:`21`,designation:`Corps\nCommand`,commander:`Barberis`,icon:``,
+        pos:[2681,1061],
+        elements:[
+        ],
+    },{
+        level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
+        pos:[1406,566],
+        elements:[
+            {
+                level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+                desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Cupidi`,icon:``,
+                pos:[1429,726],
+                elements:[
+                    {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``},
+                    {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                ],
+            },{
+                level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
+                desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Tramontin`,icon:``,
+                pos:[1549,626],
+                elements:[
+                    {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Static Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali da Posizione Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
+                    {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Static Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali da Posizione Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                ],
+            },{
+                level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Verna`,icon:``,
+                pos:[1480,522],
+                elements:[
+                    {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard Static Heavy Artillery Battery`,`244ª Batteria Cannoni Pesanti Campali da Posizione Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
+                    {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard Static Heavy Artillery Battery`,`245ª Batteria Cannoni Pesanti Campali da Posizione Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Infantry`],team:`British`,
+        desc:`9th Battalion, Durham Light Infantry`,name:`9`,designation:`Durham\nLight`,commander:`Percy`,icon:``,
+        pos:[965,250],
+        elements:[
+            {type:`Infantry`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
+        pos:[2447,658],
+        elements:[
+            {level:4,type:`Small Heavy Artillery`,team:`Guardia alla Frontiera`,desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V° Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Tramontin`},
+            {level:4,type:`Small Heavy Artillery`,team:`Guardia alla Frontiera`,desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI° Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Verna`},
+            {level:4,type:`Small Artillery`,team:`Guardia alla Frontiera`,desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII° Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Cupidi`},
+        ],
+    },{
+        level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`XXII Corps Frontier Guard Command`,`XXII Comando di Corpo d'Armata di Guardia alla Frontiera`],name:`22`,designation:`Corps\nCommand`,commander:`Barberis`,icon:``,
+        pos:[2136,577],
+        elements:[
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Italian`,
+        desc:[`70th Training Volunteer Regiment`,`70° Reggimento Addestramento Volontari "Ancona"`],name:`70`,designation:`Training\nVolunteers`,commander:`Tenti`,icon:`sirte`,
+        pos:[280,1492],
+        elements:[
+            {level:4,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 70th Training Volunteer Regiment`,`I Battaglione Fucilieri, 70° Reggimento di Addestramento Volontari "Ancona"`],name:`1`,designation:`70`,commander:`Gonzaga`},
+            {level:4,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 70th Training Volunteer Regiment`,`II Battaglione Fucilieri, 70° Reggimento di Addestramento Volontari "Ancona"`],name:`2`,designation:`70`,commander:`Macri`},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Italian`,
+        desc:[`85th Training Volunteer Regiment`,`85° Reggimento Addestramento Volontari "Verona"`],name:`85`,designation:`Training\nVolunteers`,commander:`Grimaldi`,icon:`sabratha`,
+        pos:[280,1492],
+        elements:[
+            {level:4,type:`Small Infantry`,team:`Italian`,desc:[`1st Battalion, 85th Training Volunteer Regiment`,`I Battaglione Fucilieri, 85° Reggimento di Addestramento Volontari "Verona"`],name:`1`,designation:`85`,commander:`Angelozzi`},
+            {level:4,type:`Small Infantry`,team:`Italian`,desc:[`2nd Battalion, 85th Training Volunteer Regiment`,`II Battaglione Fucilieri, 85° Reggimento di Addestramento Volontari "Verona"`],name:`2`,designation:`85`,commander:`Morosini`},
+        ],
     },
 ]

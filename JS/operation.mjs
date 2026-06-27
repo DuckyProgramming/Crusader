@@ -42,6 +42,14 @@ export class operation{
                 unit.fade.statTrigger=true
             })
             this.cities.forEach(city=>city.fade.revealTrigger=true)
+        }else if(typeof dev.view==`string`){
+            let flat=flatMap(types.map,-1)
+            dev.view=findName(dev.view,flat.map(set=>set.unit))
+            this.map=flat[dev.view].mapIndex
+            this.loadMap(this.map)
+            this.initialComponents()
+            this.scene=`mapAll`
+            this.initialUnits(flat[dev.view].index)
         }else if(dev.view>=0){
             let flat=flatMap(types.map,-1)
             this.map=flat[dev.view].mapIndex
@@ -373,7 +381,7 @@ export class operation{
                             let spread=even(floor(a/columns),ceil(la/columns))
                             let left=min(la-floor(a/columns)*columns,columns)
                             layer.textSize(15)
-                            layer.text(`1234567890ABCDEFGHIJ`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
+                            layer.text(`1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
                             if(flat[a].unit.strength.num.length==0){
                                 layer.textSize(30)
                                 layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
@@ -998,7 +1006,7 @@ export class operation{
                     if(this.turn.start){
                         let flat=flatMap(types.map,this.turn.set)
                         for(let a=0,la=flat.length;a<la;a++){
-                            if(key==`1234567890abcdefghij`[a]||key==`1234567890ABCDEFGHIJ`[a]){
+                            if(key==`1234567890abcdefghijklmnopqrstuvwxyz`[a]||key==`1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`[a]){
                                 switch(flat[a].unit.name){
                                     case `Standard Modes`:
                                         this.turn.set=0

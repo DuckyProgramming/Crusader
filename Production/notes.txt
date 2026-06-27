@@ -1786,8 +1786,17 @@ For the full version, I'm gonna need to find a new company to replace this since
 The above changes are courtesy of La Guardia alla Frontiera, a book by Massimo Ascoli from the same official publishing office as Montanari's books.
 I've started reading through this. Obviously a lot of the book is about the European and Albanian GaF which I don't consider all that interesting, but there's still plenty to see.
 
-Some more information on the units that the Tobruk GaF were withdrawn to replace:
-150th CC.NN. Battalion, 75/27 and 47/32 batteries from Maddalena and Garn ul Grein (75/27 were replaced iwth 77/28)
+Some more information on the units that the Tobruk GaF were withdrawn to replace, based  on Salvatore Castagna's (commander of Giarabub) book:
+150th CC.NN. Battalion (of the 250th CC.NN. Legion, of the 4th CC.NN. Division "3 Gennaio"), 75/27 and 47/32 batteries from Maddalena and Garn ul Grein (75/27 were replaced with 77/28)
+Prior to this, the 150th CC.NN. Battalion had been split up into its four companies, with the positions of Giarabub, Garn ul Grein, Maddalena, and and Sheferzen each receiving one. 
+There were also other elements of the 4th CC.NN. Division in the form of 75/27 batteries. These were presumably also replaced with 77/28 guns from Tobruk.
+So, if he is to be believed, four companies, or company-sized units, were withdrawn from Tobruk to defend this position until surrendering
+They were also joined by Castagna's original Libyan machine gun companies, but it seems many of them took the chance to desert since they disappear later in his book.
+
+Salvatore Castagna claims that the GaF companies transferred to Giarabub's defense from Tobruk were the 1st, 3rd, 7th, and 10th GaF companies, as well as some 47/32 and 20/65 guns.
+However I don't have any information on what was left behind. Maybe the 2nd, 4th, 5th, 6th, 8th, and 9th companies were kept around but I can't know for sure.
+It's also possible that some of these companies corresponded with those from the 31st GaF Infantry Battalion. But again, I can't know for sure because of the inclarity of it all.
+And other companies were transferred to Maddalena and random Egyptian rear areas, which I also can't track. So unfortunately this is useful information but not enough.
 
 There's also an OOB for the 340th GaF Artillery Raggruppamento:
     342nd Group (818, 819, 837)
@@ -1797,7 +1806,131 @@ There's also an OOB for the 340th GaF Artillery Raggruppamento:
 On pages, 202 and 203, the same is stored for the 290th, 330th, and 350th, but I can't be bothered to transcribe them.
 
 An order on 1 June 1940 was meant to disband numerous GaF units, including the 14th Artillery Regiment, 1st Infantry Regiment, and the 31st and 32nd Infantry Battalions.
+The 1st Infantry Regiment had been formed in Tripoli and effectively carried out all of tasks that the GaF had accross the entirely of Libya, or at least Tripolitania. Its depot was maintained for infantry and engineers.
 I don't know when this was carried out, and I think it wasn't fully carried out at all, with many of these units remaining around until later, including the 31st Infantry Battalion.
 At the same time, the depot of the 14th Artillery Regiment was kept around and used to deploy the other Raggruppamenti. So, for sure, this unit was disbanded successfully.
+More information about the 14th Artillery Regiment: It is not to be confused with the 14th Artillery Raggruppamento, which was a distinct unit that remained exclusively on the Italian mainland's coast.
+
+At formation, in June, the 31st GaF Artillery Raggruppamento was designated medium, or "medio calibro", while the 32nd was designated light, or "piccoli calibro".
+
+If the 31st Infantry Battalion was disbanded, that does explain a lot, but also leaves just as many fresh questions. Perhaps this unit really was a temporary move like the 1st Infantry Regiment and would be returned back to sector control.
+That said, because we know nearly nothing about the organization of these sectors, I'd like to keep it as it is.
+It's possible to say that 4 infantry companies => 4 capisaldi and just create these new companies, but given I don't know which capisaldi they were, it's more trouble than it's worth.
+
+The GaF artillery in Europe had a similar structure. Artillery regiments existed to serve as depots but in combat the artillery would be subordinate to the sector/strongpoint/fortification commands.
+It appears that some fortifications were classified based on the types and number of guns contained within, but this was discontinued or didn't apply to Africa because those units do not fit into this schema.
+This was later changed when the GaF's artillery was merged with existing static artillery. Now medium and small guns could be added with numbers varying from 3-8 for small and 3-6 for medium, though this still didn't apply to African units.
+Some batteries were denoted as SP, "sempre pronte", or "always ready". This wasn't really the case though, as these "always ready" batteries took several hours to activate. Still, they were better than regular batteries that could take days.
+The average artillery regiment prior to their dissolution down to depots included around 10 or 20 such sempre pronte batteries. None have been found in Africa.
+
+GaF engineer units were truly mixed in nature, including both the men responsible for maintaining field fortifications, as well as those responsible for maintianing electricity, lights, and communication lines.
+It appears these units were intended to be roughly company-sized, in fact they had originally been named companies. There were also some loose platoons but these were mostly absorbed. Each subsector would have one platoon from these companies.
+Most were trained and equipped at GaF depots, but I've found some evidence indicating that some companies had the privilege of forming at regular army engineer regiment depots.
+
+It seems only the XXI Corps in Cyrenaica had its own GaF command, or any GaF units at all. The others received some attached units, but that was it.
+The chronology on this is a bit messed up. According to some, the Tobruk Fortress command was subordinate to this XXI Corps GaF Command role, while according to others it remained independent and later reached Pitassi Manella. Both could be true.
+As for Tripolitania, the former Tripoli Fortress command was decisively converted to the XX Corps GaF Command. I don't think this "Tripoli Fortress" formation was ever reformed.
+
+I think only A squadrons of the 6th Australian Division Reconaissance Regiment actually fought at Tobruk. The other 2 squadrons were responsible for the attack on Giarabub.
+But like... who cares? The actions of the Australians, ultimately, are not all too relevant to me. They were given one of the easiest victories of the entire war and are still gloating about it.
+No such sympathy for the Italians, they can't even get a decent book written about their part in this battle. The best we have is Montanari from last century.
+
+I've also decided to look over some of Montanari's sketches from his second book, "the Second British Offensive in North Africa", which covers the Crusader period. Here's some takeaways:
+
+It appears that the frontier area was not entirely under the command of Di Giorgis. Rather, the frontier was split into three sectors, with regular sectors for Halfaya and Sidi Omar and a special "Fortress Bardia".
+"Fortress Bardia" was originally controlled by the Division z.b.V. "Afrika" but after it was relieved by elements of the Savona Division, Di Giorgis was effectively in control of all three.
+It is interesting to know, though, that Major Bach really did have his own privileged command separate from the Savona Division that also included the 300th Oasis Battalion.
+
+Not all of RECAM was available to support the Giovani Fascisti Regiment at Bir el Gubi. Most of it had moved north to hold the flank against the 7th Armored Division and was confused in its return.
+To be fair, the mediocre amount of support elements and the confused and ad-hoc structure of RECAM itself likely greatly restricted its movement. I'm not surprised that its actions are far from impressive.
+During the retreat, both Antelat and Sceleidima received detachments from the 90th Light Africa Division to guard the flank of the retreat. They were presumably pushed aside by the stronger detachments of 7th Support Group.
+
+I also looked at the sketches for El Alamein and the retreat ot Tunisia but there wasn't too much to see. The one thing I did discover is detail about Menton's Kampfgruppe, which stayed out of El Alamein and screened the retreat.
+In terms of the GaF, I think finding the exact names of the companies is a fool's task. But there is something we can do. We could consider that maybe the companies were numbered in order.
+
+The GaF unit that was sent to support the Libyan Divisions was a provisional company with 10 47/32 guns. They were somewhere around the Tummar positions but were mixed in with some "regular" anti-tank companies.
+According to a random guy on the internet's tests, the 100/17 howitzer is much worse than the 100/28 gun, which has a shell with 12% more mass and 45% more range.
+
+Based on a tentative mapping, I would assume the GaF companies were numbered from sea to sea, with 1 at Umm Cuheil and 12 at Es Zeitun.
+Moving 1, 3, 7, and 10, and moving the remaining XXXI sectors in taken spots to the former XXXII sector positions, we get the following tentative report:
+2nd Company at Bir Junes, 4th Company at Ras el Meduauar, 5th Company at Sidi Daud, 6th Company at Hagfet Umm Haleiga (half).
+This is entirely conjecturous, though, which doesn't sit well with me. But it might be the best we can do given we know the XXXI Infantry Battalion had been disbanded.
+Alternately I could simply refer to the subunits as capisaldi and establish 4 of them, with 1 at each of the remaining points. However I don't know if they would keep their original names or change when they moved.
+I'm gonna need more time to think about this. Perhaps keeping a sort of "infantry battalion" but under a new name is the solution?
+
+Apparently I was wrong that all GaF artillery was static. In fact, despite the lack of SP batteries, most Libyan aritllery that wasn't deployed in the fortified works was motorized.
+It was kind of a necessity at this point. I think regular artillery units and corps artillery were also motorized in theory (but often not in practice due to deficiencies in transport).
+The best solution to this is not to motorize them, but to at least not condemn them to death as hopelessly static units. And in fact giving them mobile artillery might make their actions at least a little more interesting.
+
+Information on the 22nd CAR beyond its original order of battle is very hard to find. But at the very least I did find a first world war image of one of its siege batteries, the 238th.
+
+Upon its reformation, the Sabratha Division had managed to find about 5000 men from various areas of Libya and replacements coming from Italy. Despite this, it was still highly depleted.
+Its 86th "Verona" (both had this designation) Regiment was designated as a "addestramento volontari" or training volunteers regiment due to its chaotic reformation using fresh troops.
+It appears to have been formed to a relatively normal template and I can't find anything weird about it other than that it was understrength (but they all were).
+Unlike that, the 86th "Verona" Regiment was established from the temporary Infantry Regiment "Sabratha" from a battalion of each as well as their mortar, anti-tank, and infantry gun companies.
+It also had the attached units: 340th Anti-Tank Company, 18th and 42nd Artillery Groups (unknown), spare 88/55 and 75/46 batteries, a MILMART battery, and of course the 3rd San Marco Marine Battalion and Giovani Fascisti Regiment.
+Since in my world the Sirte Division follows this lineage, what units should I attach to it? I'm gonna work on just the battalions for now and not worry about the support. It has:
+61st "Sirte" Infantry Division: (auto-transportable type AS)
+    69th "Ancona" Training Volunteers Regiment
+    70th "Ancona" Infantry Regiment
+        Former Infantry Regiment "Sirte"
+    Artillery Raggruppamento "Sirte" (Listed as 42nd Artillery Regiment but this was disbanding)
+    61st Mixed Enginer Battalion
+    Infantry Regiment "Giovani Fascisti" (Only Temporarily)
+Not Added:
+    3rd "San Marco" Battalion
+    18th Artillery Group
+    42nd Artillery Group
+Companies:
+    340th 65/17 Battery
+    75/46 Battery (Unknown Number)
+    German 88mm Battery (Unknown Number)
+    14th (76/30) Regia Marina MILMART Battery
+I don't have a clue where either of these groups appeared or what happened to them. Maybe they were corps artillery?
+
+Back to the GaF companies and the phantom 31st battalion. By this point I don't see any realistic timeline where the battalion survives. It has no reason to exist and is never seen again.
+But I think now it's time to maybe step back and see the ambiguity in a different light. I know for a fact that this battalion was gone. And I have no idea what replaced it.
+But if I don't know after all this digging, only the archives of the XXI Corps GaF Command in Italy know. They might even not. And I'm not going there. Nobody is anymore.
+By all means, I am now the trailblazer in this field. I might actually be at the forefront of it. There might be nobody in the world, at least on the internet, who is at this point. I... have won.
+No more need to read forums. I have all the knowledge I need to write those answers myself. It's been a long journey since the von Barby incident.
+So yes. I am going to make my own semi-arbitrary decision regarding these areas. And if anyone wants to dispute me, let them try! They'll find my evidence for me.
+I can only gain from going out on a limb. Let's go!
+
+Let's return to reason.
+There were 3300 men in June and 2300 in December.
+Initially, the strongpoints of the 31st Sector had 300 men on average and those of the 32nd Sector had 250 men on average.
+1000 men left Tobruk. They must necessarily be equal or similar in strength to the 4 GaF companies that replaced the 150th CC.NN. battalion. So each company had 250 men.
+The reasonable math says that each sector must have lost 2 strongpoints, leaving 8. This doesn't align with the map, but there's another option.
+Why would Barberis be so stupid as to have no reserves? If he deployed all 4 of his reinforcement companies, no reserve exists until the El Adem position. That's the thing I've been missing.
+The 32nd Sector must have had more men. The full 4 strongpoints in fact, covering the positions alongside the reinforcement infantry. Another 2 from the 31st sector backed them up.
+The remaining 2 from the 31st sector secured Meduauar and Sidi Cheiralla. In effect, the 31st sector took over the entirety of subsector 32/B.
+That does mean, though, that I have to fit 4 more company-sized units into my order of battle. Unless we allow ourselves a little suspension of disbelief and... disappear the 32nd sector's 4 companies.
+
+So the final result of all this? Instead of the 31st Infantry Battalion, we have the 31st/A Subsector. Nothing consequential happened.
+
+Let's try to figure out some directionality in the subsectors. Nothing is provided for those of Tobruk, so instead I took a look at those of Tripoli.
+For the 35th Coverage Sector, the subsectors move clockwise around the fortress. But that's it. None of the others gave me anything of value.
+I guess I'll just go with the clean assumption. They went clockwise in Tobruk as well, to ensure a clean move from GaF to XXII command, these sectors were kept (except for a new one getting created).
+But that means the 31st/A sector with 4 strongpoints covered the Acroma direction, while the 31st/B sector covered the Derna road. This one was replaced by the VdL battalion, so it's gone, leaving just the 31st/A.
+
+One final wrench in the works is Montanari's claim that the XXXII sector just... didn't show up? Like it was assigned to cover the east, yet it is never mentioned as actually defending that area in the battle.
+Rather, the XXXI sector gets the credit even though it was meant to be on the other side of the defensive network. It would've made absolutely no sense for them to swap, so what happened?
+Perhaps the XXXII sector had just vanished by this point and, with few units left to handle, it was decided to merge the 2 sectors into a single one. I'm gonna take this as my guess.
+It's entirely projective, but if so, clears up a lot. The 31st sector had been fully reorganized by Pitassi Mannella to take on the new organization of the defense. Thus the XXXII sector was entirely forgotten.
+
+Here's my final reading of events:
+
+June:
+XXXI Sector: 6 Strongpoints, 1800 men
+XXXII Sector: 6 Strongpoints, 1500 men
+
+December:
+XXXI Sector: 4 Strongpoints, 1300 men
+XXXII Sector: 4 Strongpoints, 1000 men
+
+January:
+XXXI Sector: 8 Strongpoints, 2300 men
+
+Hooray for cleanliness!
 
 

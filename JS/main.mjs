@@ -10,10 +10,16 @@ export function setup(){
     window.current=current
 }
 export function draw(){
+    //let startTime=performance.now()
     if(!dev.close){
         current.display(graphics.main)
     }
+    /*let endTime=performance.now()
+    print(`Display: ${endTime - startTime} milliseconds`)*/
+    //startTime=performance.now()
     current.update(graphics.main,{position:{...inputs.mouse.rel}})
+    /*endTime=performance.now()
+    print(`Update: ${endTime - startTime} milliseconds`)*/
     displayMain(graphics.main,inputs)
 }
 export function windowResized(){

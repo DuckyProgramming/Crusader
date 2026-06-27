@@ -28,7 +28,7 @@ German Engineers:
 
 Italian Tanks:
 | 1 M
-| 21 L/21 M
+| 21 L
 | 52 M
 | 61 L
 
@@ -55,10 +55,9 @@ Italian Infantry:
 Italian Irregular Infantry:
 | 1 "Giovani Fascisti"
 | 2 "Giovani Fascisti"
-| 2 Blackshirt "Volontari della Libia"
+| Blackshirt "Volontari della Libia"
 | 140 Blackshirt "Aquilia"/238 "Aurelio Padovani"/2 "28 Ottobre"
-| 31/A Frontier Guard
-| 31/B Frontier Guard
+| 31 Frontier Guard
 | 31 Libyan Coastal
 
 Italian Bersaglieri:
@@ -73,7 +72,7 @@ Italian Infantry Support:
 | 551
 
 Italian Artillery:
-| 1/12 / 2 V / 15/136
+| 1/12
 | 2/12
 | 3/12
 | 1/43
@@ -86,13 +85,15 @@ Italian Artillery:
 | 1/55
 | 2/55
 | 3/55
+| 1 V / 14/136
+| 2 V / 15/136
 
 Italian Corps Artillery:
 | 1
-| 7 / 313 G.a.F. / 313 "Sirte"
-| 17 / 314 G.a.F. / 314 "Sirte"
-| 42 / 311 G.a.F. / 16/136
-| 43 / 312 G.a.F. / 17/136
+| 7
+| 17
+| 42 / 16/136
+| 43 / 17/136
 | 105
 | 130
 | 148
@@ -102,7 +103,6 @@ Italian Frontier Guard Artillery:
 | 5/31
 | 6/31
 | 7/31
-| Anti-Tank / 1 V / 14/136
 
 Italian Reconaissance:
 | 6 PAI "Romolo Gessi

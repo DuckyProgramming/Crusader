@@ -19,7 +19,6 @@ Western Desert Force (16 Battalions)
 
 XXII Army Corps (36 Battalions)
 
-Mixed Bersaglieri Battalion (22nd and 61st Companies)
 Blackshirt Battalion "Volontari della Libia"
 140th Blackshirt Battalion "Aquilia"
 
@@ -40,8 +39,9 @@ Independent Artillery (13 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-31st Frontier Guard Coverage Sector (5 Battalions)
-	31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
+31st Frontier Guard Coverage Sector (6 Battalions)
+	31st/A Frontier Guard Subsector
+	31st/B Frontier Guard Subsector
 	31st Libyan Coastal Infantry Battalion
 	31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
 	

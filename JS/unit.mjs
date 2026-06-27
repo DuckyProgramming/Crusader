@@ -59,6 +59,7 @@ export class unit{
         if(data.elements.length>0){
             this.initialElements(data.elements)
         }
+        this.initialRules()
     }
     async initialGraphics(){
         this.img=this.team==-1?[]:[graphics.load.team[this.team]]
@@ -98,6 +99,24 @@ export class unit{
             }
         }
         this.calculateElements()
+    }
+    initialRules(){
+        this.rules={}
+        this.rules.art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
+        this.rules.size=[
+            this.designation.length>=18||this.rules.art&&this.designation.length>=10||this.designation.length>=10&&!this.designation.includes(`\n`)?1.25:this.designation.length>=5?1.5:(this.rules.art||this.name.includes(`\n`)?2:2.5),
+            this.name.length>=25?2.25:this.name.length>=(this.name.includes(`\n`)?15:10)?3:this.name.length>=(this.rules.art?3:7)?3.5:this.name.length>=(this.rules.art?2:5)?4:5,
+            this.name.length>=25?1.5:this.commander.length>=18?1.75:this.commander.length>=12?2:2.25,
+        ]
+        this.rules.pos=[
+            {
+                x:this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,
+                y:this.designation.length<=4&&!this.rules.art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(this.rules.art&&this.designation.length>=10?-3.375:-3):-3.5,
+            },{
+                x:this.rules.art?(this.name.length>=3?-4:-4.5):0,
+                y:this.name.length>=15?-0.25:0.25,
+            }
+        ]
     }
     joinElement(element){
         this.contain.units.push(new unit(this.operation,{
@@ -712,22 +731,18 @@ export class unit{
                     layer.textSize(2)
                     layer.text(this.symbol,0,-4)
                     layer.stroke(0,fade)
-                    let art=this.type.includes(6)&&this.type.length<=4&&this.name.length<5&&!this.type.includes(7)
                     layer.fill(255,fade)
-                    let size=this.designation.length>=18||art&&this.designation.length>=10||this.designation.length>=10&&!this.designation.includes(`\n`)?1.25:this.designation.length>=5?1.5:(art||this.name.includes(`\n`)?2:2.5)
-                    layer.textSize(size)
-                    layer.strokeWeight(size/5)
-                    layer.text(this.designation,this.designation.length>=10&&this.designation.length<=15&&this.name.length>=3?-5.5:this.designation.length>=10?-4.5:-5,this.designation.length<=4&&!art&&!this.name.includes(`\n`)?-3.25:this.designation.split(`\n`).length>=3?-2.25:this.designation.includes(`\n`)?(art&&this.designation.length>=10?-3.375:-3):-3.5)
-                    size=this.name.length>=25?2.25:this.name.length>=(this.name.includes(`\n`)?15:10)?3:this.name.length>=(art?3:7)?3.5:this.name.length>=(art?2:5)?4:5
-                    layer.textSize(size)
-                    layer.strokeWeight(max(0.3,size/10))
+                    layer.textSize(this.rules.size[0])
+                    layer.strokeWeight(this.rules.size[0]/5)
+                    layer.text(this.designation,this.rules.pos[0].x,this.rules.pos[0].y)
+                    layer.textSize(this.rules.size[1])
+                    layer.strokeWeight(max(0.3,this.rules.size[1]/10))
                     if(this.name.includes(`\n`)){
                         layer.textLeading(3)
                     }
-                    layer.text(this.name,art?(this.name.length>=3?-4:-4.5):0,this.name.length>=15?-0.25:0.25)
-                    size=this.name.length>=25?1.5:this.commander.length>=18?1.75:this.commander.length>=12?2:2.25
-                    layer.textSize(size)
-                    layer.strokeWeight(size/5)
+                    layer.text(this.name,this.rules.pos[1].x,this.rules.pos[1].y)
+                    layer.textSize(this.rules.size[2])
+                    layer.strokeWeight(this.rules.size[2]/5)
                     layer.text(this.commander,0,3.5)
                 }
             break

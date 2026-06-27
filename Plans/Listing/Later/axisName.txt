@@ -19,7 +19,7 @@ Divisional Command z.b.V. "Afrika" (4 Battalions)
 
 XXII Army Corps (64 Battalions)
 
-2nd Blackshirt Battalion "Volontari della Libia"
+Blackshirt Battalion "Volontari della Libia"
 140th Blackshirt Battalion "Aquilia"
 3rd Armored Car Squadrons Group, "Cavalleggeri di Monferrato"
 4th Machine Gun Squadrons Group, "Genova Cavalleria" Regiment
@@ -30,22 +30,17 @@ Independent Artillery (12 Battalions)
 	25th Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
 	55th "Brescia" Artillery Regiment (3 Battalions (1,2,3))
 
-22nd Army Corps Frontier Guard Command (7 Battalions)
-	31st Frontier Guard Coverage Sector (5 Battalions)
-		31st/A Coverage Sector (4 Static Machine Gun Companies)
-		31st/B Coverage Sector (4 Static Machine Gun Companies)
-		31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
-	Frontier Guard Anti-Tank Group (3 Companies)
+31st Frontier Guard Coverage Sector (5 Battalions)
+	31st Frontier Guard Infantry Battalion (3 Static Machine Gun Companies, 1 Infantry Gun Company)
 	31st Libyan Coastal Infantry Battalion
+	31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
 
-Army Corps Reconnaissance Regrouping (RECA) (3 Battalions)
+Army Corps Reconnaissance Regrouping (RECA) (5 Battalions)
 	Later Formed Into 136th Armored Division "Giovani Fascisti"
 	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armored Car Company, 2 Motorcycle Companies)
 	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
 	Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (1,2))
-		Formed From Remnants, Frontier Guard Anti-Tank Group and 1st Battalion, 12th "Sila" Artillery Regiment
-		Later Renamed to 136th Artillery Regiment With 14th, 15th, 16th, and 17th Battalions
-		16th and 17th From Remnants of 22nd Corps Artillery Regiment That Had Been Briefly Transferred to the Frontier Guard
+		Later Renamed to 136th Artillery Regiment With 14th, 15th, 16th, and 17th Battalions (16th and 17th From Remnants of Corps Artillery Regiments)
 
 55th Infantry Division "Savona" (10 Battalions)
 	15th "Savona" Infantry Regiment (3 Battalions)
@@ -58,7 +53,7 @@ Army Corps Reconnaissance Regrouping (RECA) (3 Battalions)
 	70th "Ancona" Infantry Regiment (3 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	Artillery Regrouping "Sirte" (2 Battalions)
-		Formed From Remnants of the 10th Corps Artillery Regiment That Had Been Briefly Transferred to the Frontier Guard
+		Formed From Remnants of the 6th and 7th Frontier Guards Artillery Groups
 	61st Machine Gun Battalion
 	
 102nd Infantry Division "Trento" (14 Battalions)
