@@ -57,8 +57,8 @@ Italian Irregular Infantry:
 | 2 "Giovani Fascisti"
 | 2 Blackshirt "Volontari della Libia"
 | 140 Blackshirt "Aquilia"/238 "Aurelio Padovani"/2 "28 Ottobre"
-| 31/A Frontier Guard
-| 31/B Frontier Guard
+| 31/A Frontier Guard Subsector
+| 31/B Frontier Guard Subsector
 | 31 Libyan Coastal
 
 Italian Bersaglieri:

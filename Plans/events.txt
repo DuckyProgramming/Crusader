@@ -19,12 +19,11 @@ Western Desert Force (16 Battalions)
 
 XXII Army Corps (36 Battalions)
 
-Blackshirt Battalion "Volontari della Libia"
+2nd Blackshirt Battalion "Volontari della Libia"
 140th Blackshirt Battalion "Aquilia"
 
-Bignami Column (2 Battalions)
+Bignami Column (1 Battalion)
 	155th Machine Gun Battalion
-	2nd Group, 12th "Sila" Artillery Regiment
 
 Independent Artillery (13 Battalions)
 	10th Corps Artillery Regiment (2 Battalions (7,17))
@@ -39,25 +38,33 @@ Independent Artillery (13 Battalions)
 	43rd Artillery Regiment (3 Battalions (1,2,3))
 	61st Machine Gun Battalion
 
-31st Frontier Guard Coverage Sector (6 Battalions)
-	31st/A Frontier Guard Subsector
-	31st/B Frontier Guard Subsector
+22nd Army Corps Frontier Guard Command (7 Battalions)
+	31st Frontier Guard Coverage Sector (5 Battalions)
+		31st/A Subsector (4 Static Machine Gun Companies)
+		31st/B Subsector (4 Static Machine Gun Companies)
+		31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
+	Frontier Guard Anti-Tank Group (3 Companies)
 	31st Libyan Coastal Infantry Battalion
-	31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
 	
 4th Tank Infantry Regiment (3 Battalions)
 	1st Medium Tank Battalion
-	21st Light Tank Battalion
+	21st Light Tank Battalion (Later Reformed as 21st Medium Tank Battalion)
 	61st Light Tank Battalion
 
 
 
-As the war began, Italian Commander Pitassi Mannella of the XXII Army Corps discovered to his horror how unprepared his forces were.
+As the war began, Italian Commander Pitassi Mannella of the XXII Army Corps discovered to his horror how unprepared his forces were for the attack he had been ordered to carry out.
 He had, on paper, an effective corps of strength, but a lack of motorization and poor supply preparedness crippled his force to extreme levels.
 In preparation for a defensive battle, he had gathered tons of artillery, but it wouldn't be able to support an advance of this scale.
 In addition to his original Sirte Division, he had been given command over numerous frontier guard units, and he had more loose troops besides, but all were in a poor state.
 Nevertheless, when the Sirte Division, headed by the 4th Tank Infantry Regiment, attacked, they made rapid progress, before their supply issues caught up.
 Thus, this division and the accompanying tank regiment sat in their camps in the desert, barely supported by anything, least of all each other.
+
+At this point, we can take a brief look at the dispositions of the various Italian elements. They were quite poor, despite Pitassi Mannella's best efforts.
+The Guardia alla Frontiera, under the command of Umberto Barberis, had a subsector each in Tobruk and Bardia. A Libyan coastal battalion was far behind the lines at Cyrene.
+The 10th, 22nd, 25th, 55th, and 1st/12th Artillery Reigments were spread out in a huge traffic jam all the way to Benghazi, with the 155th Machine Gun Battalion at Agedabia.
+In reserve in Bardia was the 140th Blackshirt Battalion, while the 2nd "Volontari della Libia" Blackshirt battalion was moving up from Derna.
+The 4th Tank Infantry Regiment with the 61st Machine Gun Battalion was deployed at the Nibeiwa camp, while the rest of the Sirte Division stayed between the Tummar and Sidi Barrani camps.
 
 British forces in Egypt were caught off guard but wasted little time in preparing a response to the Italian invasion. Richard O'Connor's WDF was formed from what units were already in Egypt.
 The powerful 7th Armoured Divison would lead the attack, followed by the 4th Indian Division, which consisted of assorted units that would be rotated in and out of the line.
@@ -77,7 +84,7 @@ In addition he had some blackshirts, bersaglieri, and tanks, but it still wasn't
 The British captured Tobruk after a brief assault. Pitassi Mennella, elements of his Sirte Division and the 4th Tank Infantry Regiment, and tons of artillery surrendered.
 Very little Italian strength was left. The WDF chased the last pieces of the Sirte Division east, cutting most of it off in the Cyrenaica bulge at Beda Fomm.
 The last few tanks of the 21st Tank Battalion (now of medium variety) and the 3rd Battalion, 70th Infantry Regiment were trapped and destroyed, but they bought just enough time.
-The Sirte Division's command, the 70th Regiment's command, and just two depleted battalions of infantry made it to safety.
+The Sirte Division's command, the 70th Regiment's command, and just two depleted battalions of infantry, one from each regiment, made it to safety.
 When the British finally ran out of logistic momentum at El Agheila, it didn't take an expert to decide the battle's outcome.
 
 Of all the units of XXII Army Corps, only the half-strength Sirte Division remained. What was once 40 Battalions was now 2 weak ones.
@@ -91,22 +98,21 @@ FALL OF TOBRUK:
 
 
 
-Western Desert Force (12 Battalions, 32 Companies)
+Western Desert Force (7 Battalions, 30 Companies)
 
-7th Armoured Division (5 Battalions, 14 Companies)
-	7th Support Group (2 Infantry Battalions, 2 Artillery Battalions)
-	7th Royal Tank Regiment (Minus 1 Company)
-	2nd (Cheshire) Field Company, Royal Engineers
+7th Armoured Division (3 Battalions, 12 Companies)
+	7th Support Group (2 Infantry Battalions, 1 Artillery Battalion)
 
 4th Indian Division (4 Battalions, 18 Companies)
 	20th Australian Infantry Brigade (3 Battalions)
-	6th Australian Division Cavalry (Light Tanks)
 	20th Australian Anti-Tank Company
 	2/7th Field Company, Royal Australian Engineers
+	A Squadron, 6th Australian Division Cavalry (Light Tanks)
+	7th Royal Tank Regiment
 
 
 
-Tobruk Garrison (18 Battalions, 64 Companies)
+Tobruk Garrison (22 Battalions, 70 Companies)
 
 22nd Bersaglieri Motorcycle Company
 61st Bersaglieri Motorcycle Company
@@ -120,16 +126,30 @@ Independent Artillery (10 Battalions, 30 Companies)
 	55th "Brescia" Artillery Regiment (1,2,3)
 	1st Group, 12th Artillery Regiment
 
-31st Frontier Guard Coverage Sector (3 Battalions, 11 Companies)
-	31st Frontier Guard Infantry Battalion
-	31st Frontier Guard Artillery Regiment (2 Battalions (6,7))
-	Training Battery "Derna"
+21st Corps Guardia Alla Frontiera Command (7 Battalions, 17 Companies)
+    31st Coverage Sector (5 Battalions, 14 Companies)
+        31st/A Subsector (4 Companies)
+        31st/B Subsector (4 Companies)
+        31st Artillery Regiment (3 Battalions, 6 Batteries)
+            5th Group
+                242nd Battery (4 120/25)
+                Training Battery "Derna" (4 75/27)
+            6th Group
+                244th Bis Battery (4 120/25)
+                245th Bis Battery (4 120/25)
+            7th Group
+                244th Battery (4 149/35)
+                245th Battery (4 149/35)
+    Anti-Tank Group (3 Batteries)
+        246th Battery (4 77/28 + 1 Spare Gun)
+        247th Battery (4 77/28 + 1 Spare Gun)
+        249th Battery (4 75/27)
 
-69th Infantry Regiment (3 Battalions, 14 Companies)
+69th Infantry Regiment (3 Battalions, 13 Companies)
 
 4th Tank Infantry Regiment (2 Battalions, 5 Companies)
 	1st Medium Tank Battalion
-	61st Light Tank Battalion
+	61st Light Tank Battalion (2 Composite Companies)
 
 
 

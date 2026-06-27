@@ -60,10 +60,10 @@ Artillery (10 Battalions, 30 Companies)
 
 
 
-XIII Corps (8 Battalions, 30 Companies)
+XIII Corps (7 Battalions, 30 Companies)
 
-7th Armored Division (4 Battalions, 12 Companies)
-    7th Support Group (4 Battalions, 12 Companies)
+7th Armored Division (3 Battalions, 12 Companies)
+    7th Support Group (3 Battalions, 12 Companies)
         1st Battalion, King's Royal Rifle Corps
         2nd Battalion, Rifle Brigade
         3rd Regiment, Royal Horse Artillery (2 Batteries)

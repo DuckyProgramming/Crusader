@@ -32,8 +32,8 @@ Independent Artillery (12 Battalions)
 
 22nd Army Corps Frontier Guard Command (7 Battalions)
 	31st Frontier Guard Coverage Sector (5 Battalions)
-		31st/A Coverage Sector (4 Static Machine Gun Companies)
-		31st/B Coverage Sector (4 Static Machine Gun Companies)
+		31st/A Subsector (4 Static Machine Gun Companies)
+		31st/B Subsector (4 Static Machine Gun Companies)
 		31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
 	Frontier Guard Anti-Tank Group (3 Companies)
 	31st Libyan Coastal Infantry Battalion

@@ -1290,6 +1290,9 @@ And as a fort garrison unit with an absurd amount of machine guns and other fire
 It doesn't help that both sectors initially had the same number of strongpoints, 6, but only a difference of 300 men, which certainly is not the strength of a battalion with 4 companies.
 Unless the 31st Libyan Battalion was actually counted as well despite not being a G.a.F. unit, but at that point there's not much that can really be inferred; it's just too ambiguous at this point.
 
+Also, there were also some units moved as far as Sidi Barrani. But this may be a confused mention of the 150th CC.NN. Battalion that moved there or it may be non-combat units.
+Nothing concrete has been said about this, unlike the redoubts of Capuzzo, Maddalena, Garn ul Grein, or Giarabub, so while I am aware that something when near Sidi Barrani, nothing will be done.
+
 One final possibility to consider. What if the 5th, 6th, and 7th groups were never real, at least in the case of one of them?
 If so, we have a shortage of 8 120/25 and 4 105/28, as well as 3 100/27. However, I literally can't find any 120/25 guns even close to this area, so where those 4 came from is hard to know.
 Perhaps these batteries had been disbanded and their personnel transferred forward, but the guns were still lying around. Is this likely?
@@ -1930,7 +1933,31 @@ XXXII Sector: 4 Strongpoints, 1000 men
 
 January:
 XXXI Sector: 8 Strongpoints, 2300 men
+Assuming 4 Strongpoints per Subsector
 
 Hooray for cleanliness!
+
+Another interesting question, not related to research but something to relax moreover, is the deployments in this alternate state. I kinda half-assed them but how would Pitassi Mannella as overall commander deploy his forces?
+I'll probably just add this to events.txt though. No need clogging up my effective research log with entirely hypothetical material.
+
+Some claims have indicated that two battalions of blackshirts and a machine gun battalion were sent to Tobruk in the early phases (Summer 1940) to bolster the ineffective GaF.
+I'm well aware of what these two blackshirt battalions are. It could also be a typo for the two companies of the 140th Battalion, or it could be a reference to two that were later moved.
+But for this machine gun battalion, I have no idea. Maybe it was just the native machine gun battalion of one of the divisions? It wasn't the Sirte since that was in Tunisia, but could easily be the Catanzaro.
+
+There are translated versions of several of Montanari's books that can be found on Archive, but most of them are quite poor.
+It's quite obvious that the translator, while somewhat fluent in Italian, has little to no knowledge about the actual structure and units of the Italian Army and shows little consistency with them.
+There is at least some good news though. The scanning on these is somewhat higher quality, so I can see the illustrations with more detail. We can finally read the weird Tobruk map from "Operations" book 1.
+Unfortunately, it's barely a help. There are 2 units that before confused me, and now I can read them clearly as 5/26 and 1/35. Both are labelled as artillery groups/battalions.
+
+But this solves nothing. Let's look at 1/35 first because it's more obvious. There are a couple units the "35" might be, but all are false and here's why:
+1. 35th Artillery Regiment. This was part of the 20th "Friuli" Infantry Division. None of this division ever went to North Africa.
+2. 35th Coastal Artillery Raggruppamento. This was in the dodecanese, along with the 36th and 55th Raggruppamenti of the same type.
+But... they had the 18th, 23rd, 29th, 30th, 32nd, 34th, 35th, 36th, 39th, 40th, and 41st groups. None are the 1st, so none of them could have contributed 1/35.
+This is quite apparently a typo and its the first crack in this map. And I think another is right there with it:
+
+5/26 quite obviously can't exist either. The 26th Artillery Regiment was from the Pavia Division and was definitely involved in the fighting, but it had no 5th group.
+There's also the 26th Corps Artillery Raggruppamento from Albania, but this had only the 18th, 32nd, 115th, and 116th Heavy Howitzer Groups, none of which are the 5th.
+Again, yet another thing that cannot possibly be true. The reliability of this map is truly impressive in how poor it is.
+In "The First British Offensive" a similar map shows that this unit is actually the 105th Battery of the 25th CAR. How 105 became 5 and 25 became 26 is anybody's guess. A truly immense mistranscription.
 
 

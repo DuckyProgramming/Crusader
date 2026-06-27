@@ -20103,7 +20103,7 @@ export var types={
                     ],
                 },{
                     name:`Capture of Tobruk - FULL`,
-                    strength:{name:`Companies`,num:[[68],[0,148]]},partition:[[0],[2]],bonus:1,
+                    strength:{name:`Companies`,num:[[64],[0,144]]},partition:[[0],[2]],bonus:1,
                     set:2,
                     unit:[
                         {
@@ -20304,7 +20304,7 @@ export var types={
                                                         },{
                                                             level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
                                                             desc:[`8th Company, 70th Infantry Regiment`,`8ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`70`,commander:``,icon:`sirte`,
-                                                            pos:[2484,1015],
+                                                            pos:[2448,1148],
                                                             elements:[
                                                                 {type:`Heavy Infantry Company`},
                                                             ],
@@ -20520,13 +20520,6 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
                                                         {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 17th Artillery Group`,`1ª Batteria, XVII Gruppo Cannoni Pesanti Campali`],name:`1`,designation:`17 Corps`,commander:``},
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 1st Artillery Group`,`2ª Batteria, I Gruppo Obici Campali`],name:`2`,designation:`1 Corps`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Artillery`,`Mixed`],team:`Italian`,
-                                                    desc:[`10th Corps Specialist Detachment`,`10° Reparto Specialisti di Corpo d'Armata`],name:`10`,designation:`Corps`,commander:``,icon:``,
-                                                    pos:[3098,1297],
-                                                    elements:[
-                                                        {type:`Elite Small Artillery Battery`},
                                                     ],
                                                 },{
                                                     level:5,type:[`Anti-Air`],team:`Italian`,
@@ -20792,6 +20785,13 @@ export var types={
                                                             ]
                                                         },
                                                     ],
+                                                },{
+                                                    level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                                                    desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                                    pos:[3341,878],
+                                                    elements:[
+                                                        {type:`Mixed Engineer Company`},
+                                                    ],
                                                 },
                                             ],
                                         },{
@@ -20853,7 +20853,7 @@ export var types={
                                         },{
                                             level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`Naval Battery "Vittoria"`,`Batteria Navale "Vittoria"`],name:`Vittoria`,designation:`Regia\nMarina`,commander:``,icon:``,
-                                            pos:[1353,804],
+                                            pos:[1287,655],
                                             elements:[
                                                 {type:`Ruined Static Artillery Battery`},
                                             ]
@@ -20863,20 +20863,6 @@ export var types={
                                             pos:[2637,924],
                                             elements:[
                                                 {type:`Larger Ruined Static Artillery Battery`},
-                                            ],
-                                        },{
-                                            level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                            desc:[`Training Battery`,`Batteria di Formazione`],name:`Training`,designation:``,commander:``,icon:``,
-                                            pos:[1287,655],
-                                            elements:[
-                                                {type:`Ruined Static Artillery Battery`},
-                                            ]
-                                        },{
-                                            level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
-                                            pos:[3341,878],
-                                            elements:[
-                                                {type:`Mixed Engineer Company`},
                                             ],
                                         },
                                     ],
@@ -20910,24 +20896,10 @@ export var types={
                                             ]
                                         },{
                                             level:5,type:[`Anti-Air`],team:`Italian`,
-                                            desc:[`404th Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`404ª Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`404`,designation:`4 TI`,commander:``,icon:``,
+                                            desc:[`27th Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`27ª Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`27`,designation:`4 TI`,commander:``,icon:`brescia`,
                                             pos:[2546,1105],
                                             elements:[
                                                 {type:`Anti-Air Company`},
-                                            ],
-                                        },
-                                    ],
-                                },{
-                                    level:3,type:[`Engineer`],team:`Italian`,
-                                    desc:[`22nd Corps Engineer Regiment`,`22° Raggruppamento Genio di Corpo d'Armata`],name:`22`,designation:``,commander:`Fenoglio`,icon:``,
-                                    pos:[2210,415],
-                                    elements:[
-                                        {
-                                            level:5,type:[`Engineer`],team:`Italian`,
-                                            desc:[`55th Engineer Company`,`55ª Compagnia Genio`],name:`55`,designation:``,commander:``,icon:``,
-                                            pos:[2179,538],
-                                            elements:[
-                                                {level:5,type:`Engineer Company`,team:`Italian`,desc:[`55th Engineer Company`,`55ª Compagnia Genio`],name:`55`,designation:``,commander:``},
                                             ],
                                         },
                                     ],
@@ -21025,13 +20997,6 @@ export var types={
                                     elements:[
                                         {type:`Ruined Mortar Company`},
                                     ],
-                                },{
-                                    level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
-                                    pos:[2448,1148],
-                                    elements:[
-                                        {type:`Small Ruined Infantry Company`},
-                                    ]
                                 },
                             ],
                         },{
@@ -21250,7 +21215,6 @@ export var types={
                                             elements:[
                                                 {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`1st Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`1st Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`1`,designation:`2/1`,commander:``},
                                                 {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`2nd Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2nd Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`2`,designation:`2/1`,commander:``},
-                                                {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`3rd Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`3rd Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`3`,designation:`2/1`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Motorized`],team:`British`,
@@ -21349,15 +21313,6 @@ export var types={
                                                 },
                                             ],
                                         },{
-                                            level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
-                                            desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
-                                            pos:[3683,1230],
-                                            elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
-                                            ],
-                                        },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
                                             desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7a`,
                                             pos:[2340,1974],
@@ -21378,7 +21333,7 @@ export var types={
                                         },{
                                             level:5,type:[`Engineer`,`Motorized`],team:`British`,
                                             desc:[`2nd (Cheshire) Field Company, Royal Engineers`,`2nd (Cheshire) Field Squadron, Royal Engineers`],name:`2`,designation:`Cheshire`,commander:``,icon:`7a`,
-                                            pos:[991,1287],
+                                            pos:[3683,1230],
                                             elements:[
                                                 {type:`Motorized Engineer Company`},
                                             ],
