@@ -19958,7 +19958,7 @@ export var types={
                                         },{
                                             level:4,type:[`Tank`,`Heavy`],team:`British`,
                                             desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:`7a`,
-                                            pos:[3599,1847],
+                                            pos:[3463,1711],
                                             elements:[
                                                 {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
                                                 {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
@@ -19990,7 +19990,7 @@ export var types={
                                         },{
                                             level:5,type:[`Engineer`,`Motorized`],team:`Australian`,
                                             desc:[`1st Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/1st Field Company, Royal Australian Engineers`],name:`2/1`,designation:``,commander:``,icon:`6a`,
-                                            pos:[3463,1711],
+                                            pos:[3599,1847],
                                             elements:[
                                                 {type:`Motorized Engineer Company`},
                                             ],
@@ -20070,15 +20070,6 @@ export var types={
                                                 },
                                             ],
                                         },{
-                                            level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
-                                            desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
-                                            pos:[3683,1230],
-                                            elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
-                                            ],
-                                        },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
                                             desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
                                             pos:[2340,1974],
@@ -20089,11 +20080,20 @@ export var types={
                                                 {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`P Battery, Royal Horse Artillery`,name:`P`,designation:`3 RHA`,commander:``},
                                             ],
                                         },{
-                                            level:5,type:[`Engineer`,`Motorized`],team:`British`,
-                                            desc:[`2nd (Cheshire) Field Company, Royal Engineers`,`2nd (Cheshire) Field Squadron, Royal Engineers`],name:`2`,designation:`Cheshire`,commander:``,icon:`7a`,
+                                            level:4,type:[`Artillery`,`Motorized`],team:`British`,
+                                            desc:[`104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`104`,designation:`Royal\nHorse`,commander:`Matthew`,icon:`7a`,
                                             pos:[3871,946],
                                             elements:[
-                                                {type:`Motorized Engineer Company`},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`339th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`339th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`339`,designation:`104 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`414th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`414th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`414`,designation:`104 RHA`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                            desc:[`106th (Lancashire Yeomanry) Battalion, Royal Horse Artillery`,`106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery`],name:`106`,designation:`Royal\nHorse`,commander:`Matthew`,icon:`7a`,
+                                            pos:[3683,1230],
+                                            elements:[
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:[`423th Battery, 106th (Lancashire Yeomanry) Battalion, Royal Horse Artillery`,`423th Battery, 106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery`],name:`423`,designation:`106 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:[`424th Battery, 106th (Lancashire Yeomanry) Battalion, Royal Horse Artillery`,`424th Battery, 106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery`],name:`424`,designation:`106 RHA`,commander:``},
                                             ],
                                         },
                                     ],
