@@ -1,4 +1,4 @@
-Group Barberis (21 Battalions, 70 Companies)
+Group Barberis (21 Battalions, 60 Companies)
 
 Artillery (10 Battalions, 30 Companies)
 	22nd Army Corps Artillery Regiment (2 Battalions, 5 Companies)
@@ -13,11 +13,6 @@ Artillery (10 Battalions, 30 Companies)
         148th Group (3 149/13)
             3rd Battery, 150th/25th Corps Group
         150th Group (2 149/13)
-    55th Artillery Regiment (3 Battalions, 10 Companies)
-        1st Group (3 100/17)
-        2nd Group (3 75/27)
-        3rd Group (3 75/27)
-        Provisional Infantry Gun Battery (5 65/17)
     1st Group, 26th Artillery Regiment (3 Companies)
 
 69th Infantry Regiment (3 Battalions, 13 Companies)

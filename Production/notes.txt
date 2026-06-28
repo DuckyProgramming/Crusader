@@ -1144,6 +1144,13 @@ Battery (2 77/28, 1 149/12)
 
 Aircraft: 2 (1 RO37 and 1 CA10)
 
+Defense of the Tobruk Port:
+116th Infantry Regiment Depot
+31st G.a.F. Mixed Depot
+3rd Company, 62nd Replacement Battalion
+3 Carabinieri Sections
+Total 160 Men
+
 I've been looking at various other bridging phases of the campaign in North Africa. One of them is the sort of "lull" while Rommel is arriving in Tripoli.
 During this time, the Italians began to transport elements to defend Sirte. One such unit was the column "Santamaria", named after Major Camillon Santamaria Niccolini.
 It consisted of one tank company, one machine gun company, and two batteries of 75/27. It shrunk by April to barely a company of strength.
@@ -1684,7 +1691,7 @@ This all came from Comando Supremo forum, and infuriatingly enough, none of it a
 GaF Positions - 18
 GaF Training - 1
 Provisional AT Battery - 6
-25th AT Battery - 
+25th AT Battery - ?
 27th AT Battery - 8
 61st AT Battery - 8
 Sum: 47???
@@ -1804,7 +1811,10 @@ It's also possible that some of these companies corresponded with those from the
 And other companies were transferred to Maddalena and random Egyptian rear areas, which I also can't track. So unfortunately this is useful information but not enough.
 
 About the 20/65 guns, they might have been from the DICAT, or the militia for territorial anti-air defense. 2 groups of this force armed with 20/65s are said to be in Tobruk in June.
+Montanari mentions this but fails to specifically point out that they were part of the DICAT, so when I read this the first few times I thought it referred to army units. Thanks for the confusion pal.
 After that, they are never mentioned again, so I will presume they are among the units that were transferred out to replenish other garrisons.
+12 20/65 guns are mentioned as joining the Giarabub garrison, though some such guns may have already been present. I think it's fair to say these were likely the DICAT groups. Let's see what Castagna says.
+In his book, he confirms that there were 12 20/65 guns and one loose 77/28 for some reason. He does not mention their place of origin.
 
 There's also an OOB for the 340th GaF Artillery Raggruppamento:
     342nd Group (818, 819, 837)

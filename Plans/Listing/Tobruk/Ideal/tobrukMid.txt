@@ -1,0 +1,127 @@
+Tobruk Garrison (37 Battalions, 132 Companies)
+
+Artillery (13 Battalions, 42 Batteries)
+	10th Army Corps Artillery Regiment (3 Battalions, 7 Batteries)
+        7th Group (3 100/17)
+        17th Group (2 105/28)
+        1st/26th Group (3 100/17)
+	22nd Army Corps Artillery Regiment (2 Battalions, 8 Batteries)
+        1st Group (2 100/17)
+        Composite Group
+            1st Battery, 17th/10th Corps Group (2 105/28)
+            1st Battery, 42nd/22nd Corps Group (2 105/28)
+            2nd Battery, 1st/22nd Corps Group (100/17)
+            9th Battery, 3rd/43rd Group (75/27)
+        13th Anti-Aircraft Battery (20/65)
+        Provisional Anti-Tank Battery (6 47/32)
+	25th Army Corps Artillery Regiment (4 Battalions, 12 Batteries)
+        105th Group (3 149/13)
+        130th Group (3 149/13)
+        148th Group (3 149/13)
+            3rd Battery, 150th/25th Corps Group
+        150th Group (2 149/13)
+    55th Artillery Regiment (3 Battalions, 10 Batteries)
+        1st Group (3 100/17 + 3 Spare Guns)
+        2nd Group (3 75/27 + 2 Spare Guns)
+        3rd Group (3 75/27 + 1 Spare Gun)
+        Provisional Infantry Gun Battery (5 65/17)
+    15th Anti-Aircraft Group (4 Batteries)
+        3 Batteries (75/46)
+        10th Battery, 20th Corps Artillery Regiment (20/65)
+
+61st Infantry Division "Sirte" (11 Battalions, 45 Companies)
+	69th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        69th Infantry Gun Battery
+	70th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        70th Infantry Gun Battery
+	43rd Artillery Regiment (3 Battalions, 9 Companies)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (2 75/27)
+        61st Anti-Aircraft Battery (20/65)
+	61st Machine Gun Battalion (3 Companies)
+	61st Replacement Battalion (4 Companies)
+    61st Bersaglieri Motorcycle Company
+    61st Mortar Company (6 81/14)
+    61st Anti-Tank Battery (8 47/32)
+
+4th Tank Infantry Regiment (2 Battalions, 6 Companies)
+    1st Medium Tank Battalion (2 Companies, 39 M11/39s, Immobilized)
+        1 Mobile Company (7 M11/39s)
+        2 Immobile Companies (32M11/39s)
+    63rd Light Tank Battalion (32 L3/35s, Immobilized)
+        One Composite Company Each of the 21st and 63rd Light Tank Battalions
+    27th Anti-Aircraft Battery (20/65)
+
+Blackshirts (2 Battalions, 6 Companies)
+    Blackshirt Battalion "Volontari della Libia" (4 Companies)
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
+
+21st Corps Guardia Alla Frontiera Command (8 Battalions, 24 Companies)
+    31st Coverage Sector (5 Battalions, 14 Companies)
+        31st/A Subsector (4 Companies)
+        31st/B Subsector (2 Companies)
+        Strongpoint Hagfet Umm Haleiga
+        Strongpoint Ras El Meduauar
+        31st Artillery Regiment (3 Battalions, 6 Batteries)
+            5th Group
+                242nd Battery (4 120/25)
+                Training Battery "Derna" (4 75/27)
+            6th Group
+                244th Bis Battery (4 120/25)
+                245th Bis Battery (4 120/25)
+            7th Group
+                244th Battery (4 149/35)
+                245th Battery (4 149/35)
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+    Anti-Tank Group (3 Batteries)
+        246th Battery (4 77/28 + 1 Spare Gun)
+        247th Battery (4 77/28 + 1 Spare Gun)
+        249th Battery (4 75/27)
+    Training Battery (2 77/28, 1 149/12)
+    Mixed Anti-tank Battery (1 47/32, 1 76/40)
+    Battery "Nembo" (4 120/40)
+    Battery "Vittoria" (3 76/30)
+
+Loose Units (1 Battalion, 9 Companies)
+    64th Replacement Battalion (4 Companies)
+    3rd Company, 62nd Replacement Battalion
+    22nd Bersaglieri Motorcycle Company
+    25th Anti-Tank Battery (6 47/32)
+    141st Mortar Company (0 81/14)
+    142nd Mortar Company (0 81/14)
+
+
+
+XIII Corps (12 Battalions, 44 Companies)
+
+7th Armoured Division (7 Battalions, 22 Companies)
+    4th Armoured Brigade (2 Battalions, 6 Companies)
+        7th Hussars
+        2nd Royal Tank Regiment
+    7th Support Group (4 Battalions, 12 Companies)
+        1st Battalion, King's Royal Rifle Corps
+        2nd Battalion, Rifle Brigade
+        1st Regiment, Royal Horse Artillery (2 Batteries)
+        4th Regiment, Royal Horse Artillery (2 Batteries)
+    3rd (Anti-Tank) Regiment, Royal Horse Artillery (4 Batteries)
+
+6th Australian Division (5 Battalions, 22 Companies)
+    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/1st Australian Battalion
+        2/2nd Australian Battalion
+        2/3rd Australian Battalion
+    W Company, 1st Battalion, Royal Northumberland Fusiliers
+    2/1st Field Regiment, Royal Australian Artillery
+    1st Company, 2/1st Anti-Tank Regiment, Royal Australian Artillery
+    A Squadron, 6th Australian Divisional Cavalry Regiment
+    2/1st Field Company, Royal Australian Engineers
+    7th Royal Tank Regiment
+
+

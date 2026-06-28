@@ -711,6 +711,10 @@ export class unit{
                                 layer.line(4,-1.5,6,-1.5)
                                 layer.arc(5,-0.5,4,3,30,150)
                             break
+                            case 28:
+                                layer.line(-6,-1.5,-6,0.25)
+                                layer.point(-6,1.5)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined){

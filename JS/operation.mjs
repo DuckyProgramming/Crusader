@@ -30,7 +30,20 @@ export class operation{
         this.initialComponents()
 
         constants.init=true
-        if(dev.begin>=0){
+        if(typeof dev.begin==`string`){
+            let flat=flatMap(types.map,-1)
+            dev.begin=findName(dev.begin,flat.map(set=>set.unit))
+            this.map=flat[dev.begin].mapIndex
+            this.loadMap(this.map)
+            this.initialComponents()
+            this.initialUnits(flat[dev.begin].index)
+            this.turn.start=false
+            this.units.forEach(unit=>{
+                unit.fade.trigger=true
+                unit.fade.statTrigger=true
+            })
+            this.cities.forEach(city=>city.fade.revealTrigger=true)
+        }else if(dev.begin>=0){
             let flat=flatMap(types.map,-1)
             this.map=flat[dev.begin].mapIndex
             this.loadMap(this.map)
