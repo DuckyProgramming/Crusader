@@ -1227,10 +1227,51 @@ export class unit{
                                             distance=min(distance,target.contain.stats.speed*(0.75+target.strength.supply/target.strength.base.supply*0.25))*(fort?0.5:1)
                                             moving={x:this.position.x+lsin(dir)*distance,y:this.position.y+lcos(dir)*distance}
                                             let moving2={x:target.position.x+lsin(dir)*distance,y:target.position.y+lcos(dir)*distance}
-                                            if(this.operation.units.some(other=>{
+                                            let push=this.operation.units.filter(other=>{
                                                 let friendly=types.player[target.player].side==types.player[other.player].side
-                                                return other.active&&other.contain.trigger&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
-                                            })){
+                                                return other.active/*&&other.contain.trigger*/&&distPos({position:moving2},other)<(target.radius*(target.contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&target.id!=other.id
+                                            })
+                                            if(push.length==1&&!push[0].contain.trigger){
+                                                let moving3={x:push[0].position.x+lsin(dir)*distance,y:push[0].position.y+lcos(dir)*distance}
+                                                let push2=this.operation.units.filter(other=>{
+                                                    let friendly=types.player[push[0].player].side==types.player[other.player].side
+                                                    return other.active/*&&other.contain.trigger*/&&distPos({position:moving3},other)<(push[0].radius*(push[0].contain.trigger||!friendly?1:0.75)+other.radius*(other.contain.trigger||!friendly?1:0.75))*(friendly?0.9:1)&&push[0].id!=other.id&&target.id!=other.id
+                                                })
+                                                if(push2.length>0){
+                                                    let kills=[0,0,0,0]
+                                                    target.contain.units.forEach(unit=>{
+                                                        let fall=min(
+                                                            unit.strength.life,
+                                                            damage[0]*unit.battle.battalionVariance/types.team[unit.team].quality*(target.battle.broken?constants.breakMult+max(0,this.contain.stats.speed-target.contain.stats.speed)*0.4:1)
+                                                        )
+                                                        unit.strength.life-=fall
+                                                        kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
+                                                    })
+                                                    let mult=[evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length),evens(this.contain.units.length)]
+                                                    this.contain.units.forEach((unit,index)=>unit.stats.kills.forEach((element,index2,arr)=>arr[index2]+=kills[index2]*mult[index2][index]))
+
+                                                    target.updateStrength(0)
+                                                    if(target.strength.life<=0||target.strength.morale<=0||!target.active){
+                                                        target.active=false
+                                                        target.destroy()
+                                                        if(!target.logs.main.includes(`Destroyed by ${this.getDesc()}`)){
+                                                            target.logs.main=target.logs.main.filter(log=>!log.includes(this.getDesc()))
+                                                            target.logs.main.push(`Destroyed by ${this.getDesc()}`)
+                                                        }
+                                                        if(!this.logs.main.includes(`Destroyed ${target.getDesc()}`)){
+                                                            this.logs.main=this.logs.main.filter(log=>!log.includes(target.getDesc()))
+                                                            this.logs.main.push(`Destroyed ${target.getDesc()}`)
+                                                        }
+                                                    }
+                                                }else{
+                                                    this.position.x=moving.x
+                                                    this.position.y=moving.y
+                                                    target.position.x=moving2.x
+                                                    target.position.y=moving2.y
+                                                    push[0].position.x=moving3.x
+                                                    push[0].position.y=moving3.y
+                                                }
+                                            }else if(push.length>0){
                                                 let kills=[0,0,0,0]
                                                 target.contain.units.forEach(unit=>{
                                                     let fall=min(

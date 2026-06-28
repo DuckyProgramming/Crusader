@@ -22277,7 +22277,7 @@ export var types={
                                                         },{
                                                             level:5,type:[`Infantry`],team:`Italian`,
                                                             desc:[`7th Company, 70th Infantry Regiment`,`7ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`7`,designation:`70`,commander:``,icon:`sirte`,
-                                                            pos:[3029,1065],
+                                                            pos:[1809,1022],
                                                             elements:[
                                                                 {type:`Infantry Company`},
                                                             ],
@@ -22594,7 +22594,7 @@ export var types={
                                                 {
                                                     level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
                                                     desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
-                                                    pos:[3045,963],
+                                                    pos:[3029,1065],
                                                     elements:[
                                                         {
                                                             level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
