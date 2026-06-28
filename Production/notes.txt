@@ -605,6 +605,10 @@ Training Battery "Derna" (4 75/06)
 
 63rd Prison Company
 
+(My Notes):
+The translation on this unit is quite poor. While its name when brute forced looks like something used to guard prisoners, that's not the case.
+The original term "Presidiaria" instead refers to a generic multiple-purpose garrison unit.
+
 31st Mixed Engineer Detachment
 
 (My) Notes:

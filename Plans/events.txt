@@ -984,72 +984,68 @@ SECOND "SIEGE" OF TOBRUK:
 
 
 
-8th Army (32 Battalions)
-
-Tobruk Garrison (10 Battalions)
-	201st Guards Brigade (3 Battalions)
-	11th Indian Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
-	32nd Army Tank Brigade (2 Battalions)
-	Beergroup (Composite Battalion, 1st South African Division)
-
-XIII Corps (22 Battalions)
-
-2nd Battalion, Scots Guards
-8th Irish Hussars
-
-7th Armoured Division (10 Battalions)
-	1st King's Dragoon Guards Armoured Cars
-	4th Armoured Brigade Group (3 Armoured Battalions, 1 Infantry Battalion, 1 Artillery Battalion)
-	7th Motor Brigade (3 Infantry Battalions, 1 Artillery Battalion)
-
-1st South African Division (10 Battalions)
-	1st South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
-	2nd South African Infantry Brigade (3 Infantry Battalions, 1 Artillery Battalion)
-	Machine Gun Battalion "President Steyn"
-	6th South African Armoured Car Regiment
+Tobruk Garrison (10 Battalions, 36 Companies)
+	201st Guards Brigade (3 Battalions, 12 Companies)
+		1st Battalion, Worcester Regiment
+		1st Battalion, Sherwood Foresters
+		3rd Battalion, Coldstream Guards
+	11th Indian Infantry Brigade (5 Battalions, 18 Companies)
+		2nd Battalion, Queen's Own Cameron Highlanders
+		2nd Battalion, 5th Mahratta Light Infantry
+		2nd Battalion, 7th Gurkha Rifles
+		25th Field Regiment, Royal Artillery (3 Batteries)
+		Beergroup (3 Composite Companies)
+	32nd Army Tank Brigade (2 Battalions, 4 Companies)
+		4th Royal Tank Regiment (2 Squadrons)
+		7th Royal Tank Regiment (2 Squadrons)
+	"Bush" Artillery Battery
+	"Spigot" Mortar Company
 
 
 
-Deutsches Afrika Korps (10 Battalions)
+Deutsches Afrika Korps (5 Battalions, 20 Companies)
 
-15th Panzer Division (10 Battalions)
-	Kampfgruppe Baade (HQ 115th Motorized Infantry Regiment) (5 Battalions)
-		8th Panzer Regiment (1 Battalion)
-		115th Motorized Infantry Regiment (2 Battalions)
-		33rd Artillery Regiment (1 Half-and-Half Battalion, 1 Heavy Battalion)
-	Kampfgruppe Menny (HQ 15th Infantry Brigade) (5 Battalions)
-		200th Regimental Staff z.b.V. (2 Battalions)
-		33rd Anti-Tank Battalion
-		33rd Motorized Engineer Battalion
-		1st Battalion, 33rd Artillery Regiment
-
-
-
-XXII Army Corps (16 Battalions)
-
-7th Motorized Bersaglieri Regiment (2 Battalions)
-Flying Batteries Regrouping (RBV) (2 Motorized Artillery Battalions (14,15))
-
-102nd Infantry Division "Trento" (6 Battalions)
-	61st Infantry Regiment (2 Infantry Battalions)
-	62nd Infantry Regiment (2 Infantry Battalions)
-	46th Artillery Regiment (2 Battalions (1,3))
-
-61st Infantry Division "Sirte" (6 Battalions)
-	69th Infantry Regiment (2 Battalions)
-	70th Infantry Regiment (2 Battalions)
-	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions (323,324))
+15th Panzer Division (5 Battalions, 20 Companies)
+	Kampfgruppe Baade (HQ 115th Motorized Infantry Regiment) (3 Battalions, 9 Companies)
+		1st Battalion, 8th Panzer Regiment (4 Companies)
+		33rd Motorized Engineer Battalion (2 Companies)
+		3rd Battalion, 33rd Artillery Regiment (3 Companies)
+	Kampfgruppe Menny (HQ 15th Infantry Brigade) (2 Battalions, 11 Companies)
+		200th Regimental Staff z.b.V. (2 Battalions, 9 Companies)
+			1st Battalion (4 Companies)
+			2nd Battalion (4 Companies)
+			708th Heavy Infantry Gun Company
+		33rd Anti-Tank Battalion (2 Companies)
 
 
 
-Outer Ring (6 Battalions)
+XXII Army Corps (12 Battalions, 40 Companies)
 
-Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+102nd Infantry Division "Trento" (6 Battalions, 20 Companies)
+	61st Infantry Regiment (2 Battalions, 7 Companies)
+		1st Battalion (3 Companies)
+		2nd Battalion (3 Companies)
+		7th (Mortar) Company
+	62nd Infantry Regiment (2 Battalions, 7 Companies)
+		1st Battalion (3 Companies)
+		2nd Battalion (3 Companies)
+		7th (Mortar) Company
+	46th Artillery Regiment (2 Battalions, 6 Companies)
+		1st Group (3 Batteries 100/17)
+		3rd Group (3 Batteries 75/27)
 
-90th Light Division (2 Battalions)
-	Sonderverband 288 (2 Battalions)
-	33rd Reconnaissance Battalion
-	580th Reconnaissance Company
+61st Infantry Division "Sirte" (6 Battalions, 20 Companies)
+	69th Infantry Regiment (2 Battalions, 7 Companies)
+		1st Battalion (3 Companies)
+		2nd Battalion (3 Companies)
+		9th (Mortar) Company
+	70th Infantry Regiment (2 Battalions, 7 Companies)
+		1st Battalion (3 Companies)
+		2nd Battalion (3 Companies)
+		9th (Mortar) Company
+	Frontier Guards Artillery Regrouping "Sirte" (2 Battalions, 6 Companies)
+		6th/31st Group (3 Batteries 75/27)
+		7th/31st Group (3 Batteries 75/27)
 
 
 

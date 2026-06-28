@@ -2017,5 +2017,22 @@ reserves=[
                 ]
             },
         ],
+    },{
+        level:2,type:[`Tank`],team:`German`,
+        desc:[`Battle Group Teege`,`Kampfgruppe Teege`],name:`KG`,designation:`115`,commander:`Teege`,icon:`15pz`,
+        pos:[1906,1155],
+        elements:[
+            {
+                level:4,type:[`Tank`],team:`German`,
+                desc:[`1st Battalion, 8th Panzer Regiment`,`I./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:`Kümmel`,icon:`15pz`,
+                pos:[1710,1037],
+                elements:[
+                    {level:5,type:`Medium Tank Company`,team:`German`,desc:[`1st Company, 8th Panzer Regiment`,`1./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:``},
+                    {level:5,type:`Medium Tank Company`,team:`German`,desc:[`2nd Company, 8th Panzer Regiment`,`2./Panzer-Regiment 8`],name:`2`,designation:`8`,commander:``},
+                    {level:5,type:`Medium Tank Company`,team:`German`,desc:[`3rd Company, 8th Panzer Regiment`,`3./Panzer-Regiment 8`],name:`3`,designation:`8`,commander:``},
+                    {level:5,type:`Armed Medium Tank Company`,team:`German`,desc:[`4th Company, 8th Panzer Regiment`,`4./Panzer-Regiment 8`],name:`4`,designation:`8`,commander:``},
+                ],
+            },
+        ],
     },
 ]
