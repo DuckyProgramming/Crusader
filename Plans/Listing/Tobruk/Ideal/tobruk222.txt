@@ -1,0 +1,160 @@
+XIII Corps (25 Battalions, 94 Companies)
+
+7th Armoured Division (7 Battalions, 23 Companies)
+    4th Armoured Brigade (2 Battalions, 6 Companies)
+        7th Hussars
+        2nd Royal Tank Regiment
+    7th Support Group (2 Battalions, 10 Companies)
+        1st Battalion, King's Royal Rifle Corps
+        2nd Battalion, Rifle Brigade
+        M Battery, 3rd Regiment, Royal Horse Artillery
+        C Battery, 4th Regiment, Royal Horse Artillery
+    3rd Regiment, Royal Horse Artillery (3 Batteries (D,J,P))
+    4th Regiment, Royal Horse Artillery (1 Battery (F))
+    106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery (2 Batteries (423,424))
+    2nd (Cheshire) Field Squadron, Royal Engineers
+
+6th Australian Division (16 Battalions, 68 Companies)
+    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/1st Australian Battalion
+        2/2nd Australian Battalion
+        2/3rd Australian Battalion
+    17th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/5th Australian Battalion
+        2/6th Australian Battalion
+        2/7th Australian Battalion
+    19th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/4th Australian Battalion
+        2/8th Australian Battalion
+        2/11th Australian Battalion
+    Artillery Command (4 Battalions, 13 Companies)
+        2/1st Field Regiment, Royal Australian Artillery
+        2/2nd Field Regiment, Royal Australian Artillery
+        2/3rd Field Regiment, Royal Australian Artillery
+        2/1st Anti-Tank Regiment, Royal Australian Artillery (4 Batteries)
+    Engineer Command (3 Companies)
+        2/1st Field Company, Royal Australian Engineers
+        2/2nd Field Company, Royal Australian Engineers
+        2/8th Field Company, Royal Australian Engineers
+    1st Battalion, Royal Northumberland Fusiliers (4 Companies)
+    1st Battalion, Cheshire Regiment (4 Companies)
+    A Squadron, 6th Australian Divisional Cavalry Regiment
+    7th Royal Tank Regiment
+    7th Medium Regiment, Royal Artillery (2 Batteries (25/26, 27/28))
+    51st (Westmoreland and Cumberland) Field Regiment (2 Batteries (204,369))
+
+Corps Assets (2 Battalions, 3 Companies)
+    104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2 Batteries (339,414))
+    64th (London) Medium Regiment, Royal Artillery (1 Battery (211))
+
+
+
+22nd Army Corps / Tobruk Fortress Garrison (34 Battalions, 128 Companies)
+
+61st Infantry Division "Sirte" (11 Battalions, 41 Companies)
+	69th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        69th Infantry Gun Battery
+	70th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        70th Infantry Gun Battery
+	43rd Artillery Regiment (3 Battalions, 8 Companies)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (2 75/27) (1 Battery Detached)
+    61st Mixed Engineer Battalion (1 Company)
+	61st Machine Gun Battalion (3 Companies)
+    61st Bersaglieri Motorcycle Company
+    61st Mortar Company (6 81/14)
+    61st Anti-Tank Battery (8 47/32)
+
+22nd Army Corps Artillery Command (12 Battalions, 40 Companies)
+	10th Army Corps Artillery Regiment (3 Battalions, 8 Companies)
+        7th Group (3 100/17)
+        17th Group (2 105/28) (1 Battery Detached)
+        1st/26th Group (3 100/17)
+	22nd Army Corps Artillery Regiment (2 Battalions, 7 Companies)
+        1st Group (2 100/17) (1 Battery Detached)
+        Composite Group (4 Companies)
+            1st Battery, 17th/10th Corps Group (105/28)
+            Mixed Battery, 22nd Corps Group (3 100/17)
+            2nd Battery, 1st/22nd Corps Group (100/17)
+            9th Battery, 3rd/43rd Group (75/27)
+        Provisional Anti-Tank Battery (6 47/32)
+	25th Army Corps Artillery Regiment (4 Battalions, 12 Companies)
+        105th Group (3 149/13)
+        130th Group (3 149/13)
+        148th Group (3 149/13)
+            3rd Battery, 150th/25th Corps Group
+        150th Group (2 149/13)
+    55th Artillery Regiment (3 Battalions, 10 Companies)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (3 75/27)
+        Provisional Infantry Gun Battery (5 65/17)
+    25th Anti-Tank Battery (6 47/32)
+    Naval Field Battery "Nembo" (4 120/40)
+    Naval Field Battery "Vittoria" (3 76/30)
+
+21st Corps Guardia Alla Frontiera Command (7 Battalions, 22 Companies)
+    31st Coverage Sector (5 Battalions, 13 Companies)
+        31st Artillery Regiment (3 Battalions, 5 Batteries)
+            5th Group (1 Battery)
+                242nd Battery (4 120/25)
+            6th Group (2 Batteries)
+                244th Battery (4 149/35)
+                245th Battery (4 149/35)
+            7th Group (2 Batteries)
+                244th Battery (4 149/35)
+                245th Battery (4 149/35)
+        31st/A Subsector (4 Strongpoints)
+            Strongpoint Zeitun
+            Strongpoint Sidi Daud
+            Strongpoint Suesi
+            Strongpoint Bir Junes
+        31st/B Subsector (2 Strongpoints)
+            Strongpoint Dahar el Azazi
+            Strongpoint Bir Umm Haleiga
+        Independent Strongpoint Hagfet Umm Haleiga
+        Independent Strongpoint Ras El Meduauar
+    Anti-Tank Group (5 Companies)
+        246th Battery (4 77/28)
+        247th Battery (4 77/28)
+        249th Battery (4 75/27)
+        Training Battery "Derna" (4 75/27)
+        Training Battery "Nahiba" (2 77/28, 1 149/12)
+    31st Mixed Engineer Detachment
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+
+4th Tank Infantry Regiment (2 Battalions, 5 Companies)
+    1st Medium Tank Battalion (3 Companies, 39 M11/39s)
+        1 Mobile Company (7 M11/39s)
+        2 Immobile Companies (32M11/39s)
+    63rd Light Tank Battalion (32 L3/35s)
+        One Composite Company Each of the 21st and 63rd Light Tank Battalions, Both Immobilized
+
+Coastal Defense (10 Companies)
+    Port Defense Mixed Volunteer Company (3rd Company, 62nd Replacement Battalion, Reinforced With Garrison Units, Replacements, Depot Personnel, and Carabinieri)
+    Naval Battery "Bellotti" (4 149/47)
+    Naval Battery "Grasso" (4 149/47)
+    Naval Battery "Beiad" (6 102/35)
+    Naval Battery "Sidi Mahmud" (6 102/35)
+    Naval Battery "Pilastrino" (6 102/35, 1 76/40)
+    Naval Battery "Tordo" (6 76/40)
+    Naval Battery "Toro" (6 76/40)
+    Naval Battery "Topo" (3 76/40)
+    Cruiser "San Giorgio" (4 254/30, 4 190/45)
+
+Blackshirt Battalion "Volontari della Libia" (4 Companies)
+140th Blackshirt Battalion "Aquilia" (2 Companies)
+
+22nd Bersaglieri Motorcycle Company
+141st Mortar Company (0 81/14)
+142nd Mortar Company (0 81/14)
+Delaying Action Company "Piave"
+
+

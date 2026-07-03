@@ -1,0 +1,53 @@
+XIII Corps (27 Battalions, 100 Companies)
+
+7th Armoured Division (7 Battalions, 24 Companies)
+    4th Armoured Brigade (2 Battalions, 6 Companies)
+        7th Hussars
+        2nd Royal Tank Regiment
+    7th Support Group (2 Battalions, 11 Companies)
+        1st Battalion, King's Royal Rifle Corps
+        2nd Battalion, Rifle Brigade
+        1st Battery, 2nd Light Anti-Aircraft Regiment, Royal Artillery
+        M Battery, 3rd Regiment, Royal Horse Artillery
+        C Battery, 4th Regiment, Royal Horse Artillery
+    3rd Regiment, Royal Horse Artillery (3 Batteries (D,J,P))
+    4th Regiment, Royal Horse Artillery (1 Battery (F))
+    106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery (2 Batteries (423,424))
+    2nd (Cheshire) Field Squadron, Royal Engineers
+
+6th Australian Division (16 Battalions, 68 Companies)
+    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/1st Australian Battalion
+        2/2nd Australian Battalion
+        2/3rd Australian Battalion
+    17th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/5th Australian Battalion
+        2/6th Australian Battalion
+        2/7th Australian Battalion
+    19th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/4th Australian Battalion
+        2/8th Australian Battalion
+        2/11th Australian Battalion
+    Artillery Command (4 Battalions, 13 Companies)
+        2/1st Field Regiment, Royal Australian Artillery
+        2/2nd Field Regiment, Royal Australian Artillery
+        2/3rd Field Regiment, Royal Australian Artillery
+        2/1st Anti-Tank Regiment, Royal Australian Artillery (4 Batteries)
+    Engineer Command (3 Companies)
+        2/1st Field Company, Royal Australian Engineers
+        2/2nd Field Company, Royal Australian Engineers
+        2/8th Field Company, Royal Australian Engineers
+    1st Battalion, Royal Northumberland Fusiliers (4 Companies)
+    1st Battalion, Cheshire Regiment (4 Companies)
+    A Squadron, 6th Australian Divisional Cavalry Regiment
+    7th Royal Tank Regiment
+    7th Medium Regiment, Royal Artillery (2 Batteries (25/26, 27/28))
+    51st (Westmoreland and Cumberland) Field Regiment (2 Batteries (204,369))
+
+Corps Assets (4 Battalions, 8 Companies)
+    104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2 Batteries (339,414))
+    64th Medium Regiment, Royal Artillery (1 Battery (211))
+    13th Light Anti-Aircarft Regiment, Royal Artillery (2 Batteries (37,38))
+    51st (London) Heavy Anti-Aircraft Regiment, Royal Artillery (3 Batteries (16,152,153))
+
+

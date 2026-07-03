@@ -72,6 +72,8 @@ https://warhistory.org/article/panzerarmee-afrikas-sonderkommando
 https://tanks-encyclopedia.com/7-62-cm-f-k-36r-auf-gp-selbstfahrlafette-sd-kfz-6-3/
 
 Italy:
+https://tacticalorganization.com/wp-content/uploads/2023/07/Italy-Infantry.pdf
+(TOEs)
 https://issuu.com/rivista.militare1/docs/la_guerra_in_africa_settentrionale/338?e=339&o=1
 (Various Italian documents, paid but bypassable)
 https://archive.org/details/le-operazioni-in-africa-settentrionale-vol-i-p-1/Le%20operazioni%20in%20africa%20settentrionale%20vol%20I%20%20p1/page/296/mode/2up
@@ -142,6 +144,8 @@ https://www.tapatalk.com/groups/missinglynx/query-regarding-bersagliere-units-on
 https://web.archive.org/web/20260119122053/comandosupremo.com/forums/index.php?threads/bersaglieri-motocyclisti-compagnia.249/
 Successes:
 https://forum.axishistory.com/viewtopic.php?f=75&t=210001&p=1982641&hilit=bersaglieri+motorcycle+company#p1982641
+21st CAR:
+https://web.archive.org/web/20250422222300/https://comandosupremo.com/forums/index.php?threads/21st-corps-artillery-1940.1114/
 22nd CAR:
 https://forum.axishistory.com/viewtopic.php?t=235788
 https://generalstab.org/military_history/second_world_war/italian-army/italian_artillery_in_witd/
@@ -177,12 +181,15 @@ Battalion Structure:
 https://www.bayonetstrength.uk/BritishArmy/BritInfBn/Org%20of%20the%20British%20Inf%20Bn%201938-45.pdf
 2nd Support Group:
 https://www.quartermastersection.com/british/divisions/4061/2armdiv
-Royal Horse Artillery:
-https://ra39-45.co.uk/units/royal-horse-artillery
+Royal Artillery:
+https://ra39-45.co.uk/units/
 11th Indian Brigade / 2nd Cameron Highlanders:
 https://rommelsriposte.com/2008/11/30/11th-indian-brigade-in-crusader/
-Jock Column:
+Jock Columns:
 https://rommelsriposte.com/2010/10/24/reorganising-7-support-group-for-the-pursuit-13-dec-1941/
+Compass January 1941:
+https://www.historyofwar.org/articles/battles_compass3.html
+https://ww2talk.com/index.php?threads/2nd-light-anti-aircraft-regiment-r-a.44765/#post-528542
 
 South Africa:
 https://pdfs.semanticscholar.org/8010/cf4c2582713bb80c31bfe31331cead9a6464.pdf
@@ -194,3 +201,6 @@ http://www.warinangola.com/WWII/SidiRezegh/OOB.htm
 
 Czech Battalion:
 http://www.rothwell.force9.co.uk/11th.htm
+
+Misc:
+https://clever-geek.imtqy.com/articles/6173815/index.html (Group Gorokhov)

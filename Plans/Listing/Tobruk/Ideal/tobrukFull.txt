@@ -46,9 +46,9 @@ Artillery (13 Battalions, 43 Batteries)
         2nd Group (3 75/27)
         3rd Group (2 75/27)
         61st Anti-Aircraft Battery (20/65)
-    61st Mixed Engineer Battalion (2 Company)
+    61st Mixed Engineer Battalion (2 Companies)
         61st Pioneer Company
-        61st Signal Company
+        61st Signals Company
 	61st Machine Gun Battalion (3 Companies)
 	61st Replacement Battalion (4 Companies)
     61st Bersaglieri Motorcycle Company
