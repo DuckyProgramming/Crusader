@@ -47,7 +47,7 @@ XIII Corps (27 Battalions, 100 Companies)
 Corps Assets (4 Battalions, 8 Companies)
     104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2 Batteries (339,414))
     64th Medium Regiment, Royal Artillery (1 Battery (211))
-    13th Light Anti-Aircarft Regiment, Royal Artillery (2 Batteries (37,38))
+    13th Light Anti-Aircraft Regiment, Royal Artillery (2 Batteries (37,38))
     51st (London) Heavy Anti-Aircraft Regiment, Royal Artillery (3 Batteries (16,152,153))
 
 

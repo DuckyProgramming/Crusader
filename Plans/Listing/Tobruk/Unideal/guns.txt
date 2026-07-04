@@ -1,0 +1,78 @@
+Field Guns
+    48 75/27
+        2nd/43rd Artillery Regiment (12)
+        3rd/43rd Artillery Regiment (12)
+        2nd/55th Artillery Regiment (12)
+        3rd/55th Artillery Regiment (12)
+    12 75/46
+        15th Anti-Aircraft Group (12)
+    2 77/28
+        Training Battery "Vittoria" (2)
+    60 100/17
+        1st/22nd Corps Artillery Regiment (12)
+        7th/10th Corps Artillery Regiment (12)
+        1st/26th Artillery Regiment (12)
+        1st/43rd Artillery Regiment (12)
+        1st/55th Artillery Regiment (12)
+    16 105/28
+        17th/10th Corps Artillery Regiment (12)
+        1st Battery/22nd Corps Artillery Regiment (4)
+    4 120/25
+        242nd Battery (4)
+    4 120/45
+        Naval Battery "Nembo" (4)
+    1 149/12
+        Training Battery "Vittoria" (1)
+    48 149/13
+        105th/25th Corps Artillery Regiment (12)
+        130th/25th Corps Artillery Regiment (12)
+        148th/25th Corps Artillery Regiment (16)
+        150th/25th Corps Artillery Regiment (8)
+    8 149/35
+        244th Battery (4)
+        245th Battery (4)
+    Total: 203
+
+Anti-Tank Guns
+    8 77/28
+        246th Battery (4)
+        247th Battery (4)
+    8 75/27
+        249th Battery (4)
+        Training Battery "Derna" (4)
+    13 65/17
+        69th Infantry Gun Company (4)
+        70th Infantry Gun Company (4)
+        Provisional Infantry Gun Company (5)
+    21 47/32
+        25th Anti-Tank Battery (6)
+        61st Anti-Tank Battery (8)
+        Provisional Anti-Tank Battery (6)
+        GaF Spare Gun (1)
+    Total: 50
+
+Navy
+    8 149/17
+        Naval Battery "Bellotti" (4)
+        Naval Battery "Grasso" (4)
+    18 102/35
+        Naval Battery "Beiad" (6)
+        Naval Battery "Sidi Mahmud" (6)
+        Naval Battery "Pilastrino" (6)
+    16 76/40
+        Naval Battery "Tordo" (6)
+        Naval Battery "Toro" (6)
+        Naval Battery "Topo" (3)
+        Naval Battery "Pilastrino" (1)
+    4 254/30
+        Floating Battery "San Giorgio" (4)
+    4 190/45
+        Floating Battery "San Giorgio" (4)
+
+Tanks
+    39 37/32
+        1st Medium Tank Battalion (39)
+
+Grand Total: 342
+
+
