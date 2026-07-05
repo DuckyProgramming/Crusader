@@ -1,0 +1,38 @@
+XIII Corps (22 Battalions, 75 Companies)
+
+7th Armoured Division (6 Battalions, 20 Companies)
+    4th Armoured Brigade (2 Battalions, 6 Companies)
+        7th Hussars
+        2nd Royal Tank Regiment
+    7th Support Group (2 Battalions, 11 Companies)
+        1st Battalion, King's Royal Rifle Corps
+        2nd Battalion, Rifle Brigade
+        M Battery, 3rd Regiment, Royal Horse Artillery
+        C Battery, 4th Regiment, Royal Horse Artillery
+    3rd Regiment, Royal Horse Artillery (3 Batteries (D,J,P))
+    4th Regiment, Royal Horse Artillery (1 Battery (F))
+
+6th Australian Division (16 Battalions, 55 Companies)
+    16th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/1st Australian Battalion
+        2/2nd Australian Battalion
+        2/3rd Australian Battalion
+    17th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/5th Australian Battalion
+        2/6th Australian Battalion
+        2/7th Australian Battalion
+    19th Australian Infantry Brigade (3 Battalions, 12 Companies)
+        2/4th Australian Battalion
+        2/8th Australian Battalion
+        2/11th Australian Battalion
+    Artillery Command (3 Battalions, 9 Companies)
+        2/1st Field Regiment, Royal Australian Artillery
+        2/2nd Field Regiment, Royal Australian Artillery
+        2/3rd Field Regiment, Royal Australian Artillery
+    1st Battalion, Royal Northumberland Fusiliers (4 Companies)
+    A Squadron, 6th Australian Divisional Cavalry Regiment
+    7th Royal Tank Regiment (2 Squadrons)
+    51st (Westmoreland and Cumberland) Field Regiment (2 Batteries (204,369))
+    64th Medium Regiment, Royal Artillery (1 Battery (211))
+
+

@@ -2357,8 +2357,9 @@ So, I guess I was wrong about that, since the 23rd CAR was never established at 
 Unless... this was a mistake by Maurizio. It's certainly a possibility. I'll make sure never to include this 23rd CAR in any of my Orders of Battle.
 In addition, he notes two 149/35 batteries (238 GaF, 239 GaF) and a 105/28 battery (232 bis GaF), and the 15th and 16th 20mm batteries, also from the 22nd CAR.
 
-Somebody has mentioned a 502nd 20/65 battery under the command of the Brescia Division. This probably was part of the replacement for its old artillery lost at Tobruk.
+Somebody has mentioned a 502nd 20/65 Battery under the command of the Brescia Division. This probably was part of the replacement for its old artillery lost at Tobruk.
 Nobody in the archives responded to him, so I have nothing else to go on. I couldn't find anything on the internet either.
+The numbering is also quite weird. This unit has nothing in common with any of the units in the Brescia Division, so its very existence if so would be an abberation.
 
 I haven't mentioned this previously, I believe, but I just thought about how thin the defenders actually were. It's a surprise they even tried.
 On a frontline of 54,000 meters, they had 24,000 men, 340 guns, and 23,000 mines. And only about half of those men would have actually been frontline troops, and many of the mines were defective.
@@ -2558,12 +2559,51 @@ Elements of the 32nd Coverage Sector
 -247th Battery / XXXII/3 (4 77/28)
 (More elements)
 
+I looked but I don't think Rostagno's document is anywhere. Only in the archives in Rome can they be found, and I doubt anybody has that around. I searched all over the internet but found nothing.
+With that, there's no way to find if this is his mistake or if it is Montanari's. It's a very strange mistake too, so I really cannot understand how this could've possibly happened.
+
 Given the 243rd Battery was part of XXXI/5 and never appears, the best solution is to finally accept that the 230th and 231st bis batteries were there.
+Maybe they had been renamed, but there's nothing I can do about that. No sources say anything about the GaF bis batteries, but at least until 1943 this designation existed, so I see no reason to think this happened.
+In fact, even by early 1942 some bis units still appeared, though not in large numbers. The designation was certainly still in use, however, and I don't think any mass renaming occurred.
 After so long... this might be it.
 
 There is no updated version of "The First Offensive". I painstakingly went back to the Issuu version but it seems to be entirely identical.
 I also looked through "La Guardia alla Frontiera" but didn't find much.
 
 The 251st and 254th GaF batteries weren't at Tobruk but appear to have been part of the defense of either Derna or Benghazi since they reappaer at Berta with the Sabratha Division.
+
+Part of the Sirte Division's transport to from Tripoli to Benghazi took place aboard the transport "Calitea" in mid-July 1940.
+Tomasso Mosetti, a prisoner from the Sirte Division, was a member of the 2nd Battery, 1st Group, 22nd Corps Artillery Raggruppamento (100/17).
+
+I found a collection of postcards from the Sirte Division's prisoners of war. Given most of the division was captured these should reflect the makeup of the division. Let's see what we get:
+Subunits:
+61st "Sirte" Infantry Division
+    69th Infantry Regiment
+        (Many postcards with only regiment identification)
+        2nd Battalion
+            7th Company - Corporal Major Antonio Schipani
+    70th Infantry Regiment
+        (Many postcards with only regiment identification)
+        1st Battalion
+            1st Company - Soldato Pasquale Miusi
+            3rd Company - Soldato Tommaso Fruci
+        2nd Battalion
+            6th Company - Soldato Pasquale Materazzo
+            7th Company - Fante (Private) Gaetano Friio
+            (The recruit title is Soldato, but this is replaced when a soldier joins a specialized unit, in this case infantry)
+        3rd Battalion
+            Soldato Gennaro Scicchitano
+            9th Company
+                Soldato Giuseppe Ammirati
+                Soldato Francesco Drago
+            12th Company - Corporal Trentino Jorfida
+    43rd Artillery Regiment
+        (Many postcards with only regiment identification)
+
+The one thing I gain from this is to know that the 70th Infantry Regiment had two of its rifle companies, the 6th and 7th (haha). I don't know where its 5th is but there's now no reason to believe it was elsewhere.
+
+It's not exact, but it's noted that the 140th Blackshirt Battalion had "2 rifle companies". The 4th company was a support weapons company, so this implies (which I agree with) that the 2 companies were the 1st and 2nd.
+
+The 2/1st Anti-Tank regiment did not participate in Operation Crusader as it had only just arrived. That's a mistake on my part to assume it was in action.
 
 

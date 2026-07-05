@@ -9075,7 +9075,7 @@ export var types={
                                             pos:[969,976],
                                             elements:[
                                                 {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Motorized`],team:`British`,
@@ -9284,7 +9284,7 @@ export var types={
                                             pos:[896,1095],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                             ],
                                         },
                                     ],
@@ -9816,7 +9816,7 @@ export var types={
                                             pos:[1359,1087],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
@@ -14515,7 +14515,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -15507,7 +15507,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -16430,7 +16430,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -17466,7 +17466,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -18694,7 +18694,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -19949,7 +19949,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -21091,7 +21091,7 @@ export var types={
                                                     pos:[3871,946],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -22045,7 +22045,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -23112,7 +23112,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -24329,7 +24329,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -25239,7 +25239,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -26172,7 +26172,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -27121,7 +27121,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -28367,7 +28367,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
                                                     ],
                                                 },
                                             ],

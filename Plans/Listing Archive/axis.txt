@@ -67,13 +67,10 @@ Italian Bersaglieri:
 | 11
 
 Italian Infantry Support:
+| 4 "Genova Cavalleria"
 | 61
 | 155
 | 551
-
-Italian Cavalry:
-| 3 AC "Cavalleggeri di Monferrato"
-| 4 MG "Genova Cavalleria"
 
 Italian Artillery:
 | 1/12 / 2 V / 15/136
@@ -92,19 +89,16 @@ Italian Artillery:
 
 Italian Corps Artillery:
 | 1
-| 7 / 311 G.a.F. / 16/136
-| 17 / 312 G.a.F. / 17/136
-| 42
-| 43
+| 7 / 313 G.a.F. / 313 "Sirte"
+| 17 / 314 G.a.F. / 314 "Sirte"
+| 42 / 311 G.a.F. / 16/136
+| 43 / 312 G.a.F. / 17/136
 | 105
 | 130
 | 148
 | 150
 
 Italian Frontier Guard Artillery:
-| 1/32 / 313 G.a.F. / 313 "Sirte"
-| 2/32 / 314 G.a.F. / 314 "Sirte"
-| 3/32
 | 5/31
 | 6/31
 | 7/31
@@ -112,3 +106,4 @@ Italian Frontier Guard Artillery:
 
 Italian Reconaissance:
 | 6 PAI "Romolo Gessi
+| 3 "Cavalleggeri di Monferrato"

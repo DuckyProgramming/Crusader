@@ -2034,5 +2034,13 @@ reserves=[
                 ],
             },
         ],
+    },{
+        level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+        desc:`Jock Column`,name:`Jock`,designation:``,commander:`Currie`,icon:`7sg`,
+        pos:[969,976],
+        elements:[
+            {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
+            {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+        ],
     },
 ]

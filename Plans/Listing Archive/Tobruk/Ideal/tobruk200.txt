@@ -27,9 +27,9 @@
         1st/26th Group (3 100/17)
 	22nd Army Corps Artillery Regiment (2 Battalions, 7 Companies)
         1st Group (2 100/17) (1 Battery Detached)
-        Composite Group (4 Companies)
-            1st Battery, 17th/10th Corps Group (105/28)
-            Provisional Battery, 22nd Corps Group (3 100/17)
+        Mixed Group
+            Provisional Battery, 22nd Corps Group (4 105/28)
+            1st Battery, 17th/10th Corps Group (4 105/28)
             2nd Battery, 1st/22nd Corps Group (100/17)
             9th Battery, 3rd/43rd Group (75/27)
         Provisional Anti-Tank Battery (6 47/32)
@@ -38,7 +38,7 @@
         130th Group (3 149/13)
         148th Group (3 149/13)
             3rd Battery, 150th/25th Corps Group
-        150th Group (2 149/13)
+        150th Group (2 149/13) (1 Battery Detached)
     55th Artillery Regiment (3 Battalions, 10 Companies)
         1st Group (3 100/17)
         2nd Group (3 75/27)

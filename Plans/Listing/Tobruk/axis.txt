@@ -1,0 +1,310 @@
+XXII Army Corps / Tobruk Fortress Garrison (125) - Enrico Pitassi Mannella
+
+Sector East (HQ 21st Corps Guardia Alla Frontiera Command) (52) - Umberto Barberis
+    Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (26)
+        Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (7)
+            | Guardia alla Frontiera Strongpoint Zeitun
+            | Guardia alla Frontiera Strongpoint Sidi Daud
+            | Guardia alla Frontiera Strongpoint Suesi
+            | Guardia alla Frontiera Strongpoint Bir Junes
+            | 6th Company, 69th Infantry Regiment
+            | 7th Company, 69th Infantry Regiment
+            | 8th Company, 69th Infantry Regiment
+
+        Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (4)
+            | Guardia alla Frontiera Strongpoint Dahar el Azazi
+            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+            | 2nd Company, 69th Infantry Regiment
+            | 5th Company, 69th Infantry Regiment
+
+        Sector Rear (HQ 69th Infantry Regiment) (15)
+            Position El Adem (HQ 4th Tank Infantry Regiment) (8)
+                1st Medium Tank Battalion (2)
+                    | 2nd Company, 1st Medium Tank Battalion (16 37/10) ++++++++++++++++
+                    | 3rd Company, 1st Medium Tank Battalion (16 37/10) ++++++++++++++++
+                63rd Light Tank Battalion (2)
+                    | Composite Company, 21st Light Tank Battalion
+                    | Composite Company, 63rd Light Tank Battalion
+                3rd Battalion, 69th Infantry Regiment (4)
+                    | 9th Copmany, 69th Infantry Regiment
+                    | 10th Copmany, 69th Infantry Regiment
+                    | 11th Copmany, 69th Infantry Regiment
+                    | 12th Copmany, 69th Infantry Regiment
+            Position Ras Bejad (1)
+                | 8th Company, 70th Infantry Regiment
+            Sector Reserve (HQ 1st Battalion, 69th Infantry Regiment) (6)
+                | 1st Company, 1st Medium Tank Battalion (7 37/10) +++++++
+                | 22nd Bersaglieri Motorcycle Company
+                | 61st Bersaglieri Motorcycle Company
+                | 1st Company, 69th Infantry Regiment
+                | 3rd Company, 69th Infantry Regiment
+                | 4th Company, 69th Infantry Regiment
+
+    Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (9)
+        1st Group, 26th Artillery Regiment (3)
+            | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
+        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1)
+            | 230th Bis Battery Guardia alla Frontiera (4 105/28) ++++
+        130th Group, 25th Army Corps Artillery Raggruppamento (3)
+            | 7th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 8th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 9th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+        150th Group, 25th Army Corps Artillery Raggruppamento (2)
+            | 1st Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 2nd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+
+    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (17)
+        2nd Group, 43rd Artillery Regiment (3)
+            | 4th Battery, 43rd Artillery Regiment (4 75/27) ++++
+            | 5th Battery, 43rd Artillery Regiment (4 75/27) ++++
+            | 6th Battery, 43rd Artillery Regiment (4 75/27) ++++
+        3rd Group, 55th Artillery Regiment (3)
+            | 7th Battery, 55th Artillery Regiment (4 75/27) ++++
+            | 8th Battery, 55th Artillery Regiment (4 75/27) ++++
+            | 9th Battery, 55th Artillery Regiment (4 75/27) ++++
+        6th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2)
+            | 230th Bis Battery Guardia alla Frontiera (4 105/28) ++++
+            | 231st Bis Battery Guardia alla Frontiera (4 105/28) ++++
+        7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2)
+            | 244th Battery Guardia alla Frontiera (4 149/35) ++++
+            | 245th Battery Guardia alla Frontiera (4 149/35) ++++
+        105th Group, 25th Army Corps Artillery Raggruppamento (3)
+            | 10th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 11th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 12th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+        148th Group, 25th Army Corps Artillery Raggruppamento (4)
+            | 3rd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 4th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 5th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 6th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+
+Sector West (HQ 61st Infantry Division "Sirte") (48)
+    Infantry Command (HQ 70th Infantry Regiment) (25)
+        Subsector C (HQ 1st Battalion, 70th Infantry Regiment) (7)
+            | Guardia alla Frontiera Independent Strongpoint Hagfet Umm Haleiga
+            | 2nd Company, 61st Machine Gun Battalion
+            | 3rd Company, 61st Machine Gun Battalion
+            1st Battalion, 70th Infantry Regiment (4)
+                | 1st Company, 70th Infantry Regiment
+                | 2nd Company, 70th Infantry Regiment
+                | 3rd Company, 70th Infantry Regiment
+                | 4th Company, 70th Infantry Regiment
+
+        Subsector D (HQ 3rd Battalion, 70th Infantry Regiment) (5)
+            | Guardia alla Frontiera Independent Strongpoint Ras el Medauuar
+            3rd Battalion, 70th Infantry Regiment (4)
+                | 9th Company, 70th Infantry Regiment
+                | 10th Company, 70th Infantry Regiment
+                | 11th Company, 70th Infantry Regiment
+                | 12th Company, 70th Infantry Regiment
+        
+        Subsector E (HQ 2nd Battalion CC.NN. "Volontari della Libia") (4)
+            2nd Battalion CC.NN. "Volontari della Libia" (4)
+                | 1st Company "Tripoli", Battalion CC.NN. "Volontari della Libia"
+                | 2nd Company "Misurata", Battalion CC.NN. "Volontari della Libia"
+                | 3rd Company "Bengasi", Battalion CC.NN. "Volontari della Libia"
+                | 4th Company "Derna", Battalion CC.NN. "Volontari della Libia"
+
+        Sector Rear (HQ 2nd Battalion, 70th Infantry Regiment) (9)
+            Position Pilastrino (HQ 61st Machine Gun Battalion) (3)
+                | 1st Company, 61st Machine Gun Battalion
+                | 5th Company, 70th Infantry Regiment
+                | 6th Company, 70th Infantry Regiment
+                | Naval Battery "Nembo" (4 120/45) ++++
+            Position 144 (HQ 140th Battalion CC.NN. "Aquilia") (3)
+                | 1st Company, 140th Battalion CC.NN. "Aquilia"
+                | 2nd Company, 140th Battalion CC.NN. "Aquilia"
+                | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ++++
+            Position Gabr el Abd (1)
+                | 7th Company, 70th Infantry Regiment
+            Position Piave (1)
+                | Delaying Action Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
+
+    Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (23)
+        HQ 10th Army Corps Artillery Raggruppamento (5)
+            7th Group, 10th Army Corps Artillery Raggruppamento (3)
+                | 1st Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
+                | 2nd Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
+                | 3rd Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
+            17th Group, 10th Army Corps Artillery Raggruppamento (2)
+                | 4th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
+                | 5th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
+
+        HQ 22nd Army Corps Artillery Raggruppamento (7)
+            1st Group, 22nd Army Corps Artillery Raggruppamento (2)
+                | 7th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
+                | 8th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
+            Composite Group, 22nd Army Corps Artillery Raggruppamento (4)
+                | 1st Battery, 22nd Army Corps Artillery Raggruppamento (4 105/28) ++++
+                | 9th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
+                | 6th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
+                | 9th Battery, 43rd Artillery Regiment (4 75/27) ++++
+            | Naval Training Battery "Vittoria" (2 77/28, 1 149/12) +++
+
+        HQ 43rd Artillery Regiment (5)
+            1st Group, 43rd Artillery Regiment (3)
+                | 1st Battery, 43rd Artillery Regiment (4 100/17) ++++
+                | 2nd Battery, 43rd Artillery Regiment (4 100/17) ++++
+                | 3rd Battery, 43rd Artillery Regiment (4 100/17) ++++
+            3rd Group, 43rd Artillery Regiment (2)
+                | 7th Battery, 43rd Artillery Regiment (4 75/27) ++++
+                | 8th Battery, 43rd Artillery Regiment (4 75/27) ++++
+
+        HQ 55th Artillery Regiment (6) - Giuseppe Tramontin
+            1st Group, 55th Artillery Regiment (3)
+                | 1st Battery, 55th Artillery Regiment (4 100/17) ++++
+                | 2nd Battery, 55th Artillery Regiment (4 100/17) ++++
+                | 3rd Battery, 55th Artillery Regiment (4 100/17) ++++
+            2nd Group, 55th Artillery Regiment (3)
+                | 4th Battery, 55th Artillery Regiment (4 75/27) ++++
+                | 5th Battery, 55th Artillery Regiment (4 75/27) ++++
+                | 6th Battery, 55th Artillery Regiment (4 75/27) ++++
+
+Coastal Defense Sector (HQ Naval Port Command) (13) - Massimiliano Vietina
+    Position 71 (HQ 31st Libyan Coastal Battalion) (3)
+        | 1st Company, 31st Libyan Coastal Battalion
+        | 2nd Company, 31st Libyan Coastal Battalion
+        | 3rd Company, 31st Libyan Coastal Battalion
+    | Port Defense Mixed Volunteer Company (160 Men) (3rd Company, 62nd Replacement Battalion, Reinforced With Garrison Units, Replacements, Depot Personnel, and Carabinieri)
+    | Naval Battery "Bellotti" (4 149/47) ++++
+    | Naval Battery "Grasso" (4 149/47) ++++
+    | Naval Battery "Beiad" (6 102/35) ++++++
+    | Naval Battery "Sidi Mahmud" (6 102/35) ++++++
+    | Naval Battery "Pilastrino" (6 102/35, 1 76/40) +++++++
+    | Naval Battery "Tordo" (6 76/40) ++++++
+    | Naval Battery "Toro" (6 76/40) ++++++
+    | Naval Battery "Topo" (3 76/40) +++
+    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ++++++++
+
+Support Weapons (9)
+    | 61st Mortar Company (6 81/14) ++++++
+    | 141st Mortar Company (0 81/14)
+    | 142nd Mortar Company (0 81/14)
+
+    | 25th Anti-Tank Battery (6 47/32) ++++++
+    | 61st Anti-Tank Battery (8 47/32) ++++++++
+    | Provisional Anti-Tank Battery (6 47/32) ++++++
+
+    | 69th Infantry Gun Battery (4 65/17) ++++
+    | 70th Infantry Gun Battery (4 65/17) ++++
+    | Provisional Infantry Gun Battery (5 65/17) +++++
+
+Anti-Tank Raggruppamento (3)
+    | 246th Battery Guardia alla Frontiera (4 77/28) ++++
+    | 247th Battery Guardia alla Frontiera (4 77/28) ++++
+    | 249th Battery Guardia alla Frontiera (4 75/27) ++++
+
+
+
+22nd Army Corps / Tobruk Fortress Garrison (36 Battalions, 125 Companies)
+
+61st Infantry Division "Sirte" (10 Battalions, 40 Companies)
+	69th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        69th Infantry Gun Battery
+	70th Infantry Regiment (3 Battalions, 13 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        3rd Battalion (4 Companies)
+        70th Infantry Gun Battery
+	43rd Artillery Regiment (3 Battalions, 8 Companies)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (2 75/27) (1 Battery Detached)
+	61st Machine Gun Battalion (3 Companies)
+    61st Bersaglieri Motorcycle Company
+    61st Mortar Company (6 81/14)
+    61st Anti-Tank Battery (8 47/32)
+
+21st Army Corps Artillery Command (12 Battalions, 40 Companies)
+	10th Army Corps Artillery Regiment (3 Battalions, 8 Companies)
+        7th Group (3 100/17)
+        17th Group (2 105/28) (1 Battery Detached)
+        1st/26th Group (3 100/17)
+	22nd Army Corps Artillery Regiment (2 Battalions, 7 Companies)
+        1st Group (2 100/17) (1 Battery Detached)
+        Mixed Group
+            Provisional Battery, 22nd Corps Group (4 105/28)
+            1st Battery, 17th/10th Corps Group (4 105/28)
+            2nd Battery, 1st/22nd Corps Group (4 100/17)
+            9th Battery, 3rd/43rd Group (4 75/27)
+        Provisional Anti-Tank Battery (6 47/32)
+	25th Army Corps Artillery Regiment (4 Battalions, 12 Companies)
+        105th Group (3 149/13)
+        130th Group (3 149/13)
+        148th Group (3 149/13)
+            3rd Battery, 150th/25th Corps Group
+        150th Group (2 149/13) (1 Battery Detached)
+    55th Artillery Regiment (3 Battalions, 10 Companies)
+        1st Group (3 100/17)
+        2nd Group (3 75/27)
+        3rd Group (3 75/27)
+        Provisional Infantry Gun Battery (5 65/17)
+    25th Anti-Tank Battery (6 47/32)
+    Naval Battery "Nembo" (4 120/45)
+    Naval Training Battery "Vittoria" (1 149/12, 2 77/28)
+
+21st Corps Guardia Alla Frontiera Command (9 Battalions, 20 Companies)
+    31st Coverage Sector (5 Battalions, 13 Companies)
+        31st Artillery Regiment (3 Battalions, 5 Batteries)
+            5th Group (1 Battery)
+                242nd Battery (4 120/25)
+            6th Group (2 Batteries)
+                230th Bis Battery (4 120/25)
+                231st Bis Battery (4 120/25)
+            7th Group (2 Batteries)
+                244th Battery (4 149/35)
+                245th Battery (4 149/35)
+        31st/A Subsector (4 Strongpoints)
+            Strongpoint Zeitun
+            Strongpoint Sidi Daud
+            Strongpoint Suesi
+            Strongpoint Bir Junes
+        31st/B Subsector (2 Strongpoints)
+            Strongpoint Dahar el Azazi
+            Strongpoint Bir Umm Haleiga
+        Independent Strongpoint Hagfet Umm Haleiga
+        Independent Strongpoint Ras El Meduauar
+    Anti-Tank Group (3 Battalions, 4 Batteries)
+        1st Group (1 Battery)
+            249th Battery (4 75/27)
+        2nd Group (1 Battery)
+            246th Battery (4 77/28)
+        3rd Group (1 Battery)
+            247th Battery (4 77/28)
+        Training Battery "Derna" (4 75/27)
+    31st Libyan Coastal Infantry Battalion (3 Companies)
+
+4th Tank Infantry Regiment (2 Battalions, 5 Companies)
+    1st Medium Tank Battalion (3 Companies, 39 M11/39s)
+        1 Mobile Company (7 M11/39s)
+        2 Immobile Companies (32M11/39s)
+    63rd Light Tank Battalion (32 L3/35s)
+        One Composite Company Each of the 21st and 63rd Light Tank Battalions, Both Immobilized
+
+Coastal Defense Sector (10 Companies)
+    Port Defense Mixed Volunteer Company (3rd Company, 62nd Replacement Battalion, Reinforced With Garrison Units, Replacements, Depot Personnel, and Carabinieri)
+    Naval Battery "Bellotti" (4 149/47)
+    Naval Battery "Grasso" (4 149/47)
+    Naval Battery "Beiad" (6 102/35)
+    Naval Battery "Sidi Mahmud" (6 102/35)
+    Naval Battery "Pilastrino" (6 102/35, 1 76/40)
+    Naval Battery "Tordo" (6 76/40)
+    Naval Battery "Toro" (6 76/40)
+    Naval Battery "Topo" (3 76/40)
+    Cruiser "San Giorgio" (4 254/30, 4 190/45)
+
+Loose Units (2 Battalions, 10 Companies)
+    Blackshirt Battalion "Volontari della Libia" (4 Companies)
+    140th Blackshirt Battalion "Aquilia" (2 Companies)
+
+    22nd Bersaglieri Motorcycle Company
+    141st Mortar Company (0 81/14)
+    142nd Mortar Company (0 81/14)
+    Delaying Action Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
+
+

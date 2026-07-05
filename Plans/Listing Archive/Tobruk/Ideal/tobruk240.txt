@@ -30,9 +30,9 @@
         1st/26th Group (3 100/17)
 	22nd Army Corps Artillery Regiment (2 Battalions, 8 Companies)
         1st Group (2 100/17)
-        Provisional Group
-            1st Battery, 17th/10th Corps Group (2 105/28)
-            1st Battery, 42nd/22nd Corps Group (2 105/28)
+        Mixed Group
+            Provisional Battery, 22nd Corps Group (4 105/28)
+            1st Battery, 17th/10th Corps Group (4 105/28)
             2nd Battery, 1st/22nd Corps Group (100/17)
             9th Battery, 3rd/43rd Group (75/27)
         13th Anti-Aircraft Battery (8 20/65)

@@ -27,9 +27,9 @@
         1st/26th Group (3 100/17)
 	22nd Army Corps Artillery Regiment (2 Battalions, 7 Companies)
         1st Group (2 100/17) (1 Battery Detached)
-        Composite Group (4 Companies)
-            1st Battery, 17th/10th Corps Group (105/28)
-            Provisional Battery, 22nd Corps Group (3 100/17)
+        Mixed Group
+            Provisional Battery, 22nd Corps Group (4 105/28)
+            1st Battery, 17th/10th Corps Group (4 105/28)
             2nd Battery, 1st/22nd Corps Group (100/17)
             9th Battery, 3rd/43rd Group (75/27)
         Provisional Anti-Tank Battery (6 47/32)
@@ -96,7 +96,7 @@ Port Defense (10 Companies)
     Naval Battery "Topo" (3 76/40, 1 20/65)
     Cruiser "San Giorgio" (4 254/30, 4 190/45)
 
-Blackshirt Battalion "Volontari della Libia" (4 Companies)
+2nd Blackshirt Battalion "Volontari della Libia" (4 Companies)
 140th Blackshirt Battalion "Aquilia" (2 Companies)
 
 22nd Bersaglieri Motorcycle Company
