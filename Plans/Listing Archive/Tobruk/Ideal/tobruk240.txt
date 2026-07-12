@@ -92,8 +92,8 @@
     Naval Battery "Nembo" (4 120/40)
     Training Battery "Vittoria" (2 77/28, 1 149/12)
 
-Loose Units (3 Battalion, 14 Companies)
-    Blackshirt Battalion "Volontari della Libia" (4 Companies)
+Loose Units (3 Battalions, 14 Companies)
+    2nd Blackshirt Battalion "Volontari della Libia" (4 Companies)
     140th Blackshirt Battalion "Aquilia" (2 Companies)
     64th Replacement Battalion (4 Companies)
     3rd Company, 62nd Replacement Battalion

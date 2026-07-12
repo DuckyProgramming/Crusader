@@ -11073,11 +11073,11 @@ export var types={
                                     ],
                                 },{
                                     level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
-                                    desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+                                    desc:[`Battalion Regrouping "Giovani Fascisti"`,`Raggruppamento Battaglioni "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
                                     pos:[946,961],
                                     elements:[
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion "Giovani Fascisti"`,`I Battaglione "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion "Giovani Fascisti"`,`II Battaglione "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
@@ -11092,14 +11092,14 @@ export var types={
                                     desc:[`6th Battalion "Romolo Gessi", Italian Africa Police`,`6° Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`6`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:``,
                                     pos:[1062,1469],
                                     elements:[
-                                        {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`1st Motorcycle Company, Italian Africa Police`,`1ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Marini`},
-                                        {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Ciani`},
-                                        {level:5,type:`Armored Car Company`,team:`Italian`,desc:[`3rd Armored Car Company, Italian Africa Police`,`3ª Compagnia Carri, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Orlando`},
+                                        {level:5,type:`Armored Car Company`,team:`Italian`,desc:[`1st Armored Car Company, Italian Africa Police`,`1ª Compagnia Carri, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Orlando`},
+                                        {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Marini`},
+                                        {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`3rd Motorcycle Company, Italian Africa Police`,`3ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Ciani`},
                                     ],
                                 },
                             ],
                         },{
-                            level:1,type:[`Infantry`],team:`Italian`,
+                            level:1,type:[`Infantry`],team:`Italiang`,
                             desc:[`55th Infantry Division "Savona"`,`55ª Divisione di Fanteria Autotransportabile "Savona"`],name:`55`,designation:`Savona`,commander:`de Giorgis`,icon:`savona`,
                             pos:[2202,1078],
                             elements:[
@@ -11112,8 +11112,8 @@ export var types={
                                         {level:4,type:`Infantry`,team:`Italian`,desc:[`3rd Battalion, 15th Infantry Regiment`,`III Battaglione Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`3`,designation:`15`,commander:`Ugolini`},
                                     ],
                                 },{
-                                    level:3,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Task Force di Bardi`,`Raggruppamento di Bardi`],name:`TF`,designation:``,commander:`di Bardi`,icon:`savona`,
+                                    level:3,type:[`Infantry`],team:`German`,
+                                    desc:[`Fortress Bardia`,`Piazza di Bardia`],name:`Bardia`,designation:``,commander:`Schmitt`,icon:``,
                                     pos:[2254,671],
                                     elements:[
                                         {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 15th Infantry Regiment`,`II Battaglione Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`2`,designation:`15`,commander:`Russo`},
@@ -11941,11 +11941,11 @@ export var types={
                             elements:[
                                 {
                                     level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
-                                    desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+                                    desc:[`Battalion Regrouping "Giovani Fascisti"`,`Raggruppamento Battaglioni "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
                                     pos:[456,1241],
                                     elements:[
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion "Giovani Fascisti"`,`I Battaglione "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion "Giovani Fascisti"`,`II Battaglione "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
@@ -12445,11 +12445,11 @@ export var types={
                             elements:[
                                 {
                                     level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
-                                    desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+                                    desc:[`Battalion Regrouping "Giovani Fascisti"`,`Raggruppamento Battaglioni "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
                                     pos:[128,767],
                                     elements:[
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion "Giovani Fascisti"`,`I Battaglione "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion "Giovani Fascisti"`,`II Battaglione "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
@@ -12920,16 +12920,16 @@ export var types={
                             ],
                         },{
                             level:1,type:[`Tank`],team:`Italian`,
-                            desc:[`136th Armored Division "Giovani Fascisti"`,`136a Divisione Corazzata "Giovani Fascisti"`],name:`136`,designation:`Giovani\nFascisti`,commander:`di Nisio`,icon:``,
+                            desc:[`136th Armored Division "Giovani Fascisti"`,`136ª Divisione Corazzata "Giovani Fascisti"`],name:`136`,designation:`Giovani\nFascisti`,commander:`di Nisio`,icon:``,
                             pos:[78,556],
                             elements:[
                                 {
                                     level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
-                                    desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+                                    desc:[`136th Infantry Regiment "Giovani Fascisti"`,`136° Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
                                     pos:[450,1307],
                                     elements:[
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, 136th Infantry Regiment "Giovani Fascisti"`,`I Battaglione, 136° Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, 136th Infantry Regiment "Giovani Fascisti"`,`II Battaglione, 136° Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
@@ -13288,11 +13288,11 @@ export var types={
                             elements:[
                                 {
                                     level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
-                                    desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+                                    desc:[`Battalion Regrouping "Giovani Fascisti"`,`Raggruppamento Battaglioni "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
                                     pos:[450,1307],
                                     elements:[
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
-                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion "Giovani Fascisti"`,`I Battaglione "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+                                        {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion "Giovani Fascisti"`,`II Battaglione "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
@@ -18375,7 +18375,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[2448,1148],
                                     elements:[
                                         {type:`Small Ruined Infantry Company`},
@@ -19630,7 +19630,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[2448,1148],
                                     elements:[
                                         {type:`Small Ruined Infantry Company`},
@@ -28048,7 +28048,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[2448,1148],
                                     elements:[
                                         {type:`Small Ruined Infantry Company`},

@@ -1,0 +1,44 @@
+Commander of Troops in Zara (13 Battalions, 40 Companies)
+
+Land Front (4 Battalions, 12 Companies)
+    Static Machine Gun Battalion "Armando Diaz" (3 Companies)
+    Static Machine Gun Battalion "Luigi Cardorna" (3 Companies)
+    Static Machine Gun Volunte Battalion "Francesco Rismondo" (3 Companies)
+    Motorcycle Bersaglieri Battalion "Zara" (3 Companies)
+
+Sea Front (5 Companies)
+    1st Static Machine Gun Company
+    2nd Static Machine Gun Company
+    2nd Battery, 3rd Air Defense Militia Group
+    Zara Coastal Battery (149/17, 76/40)
+    Naval Battery "Zara" (100/17)
+
+Zara Corps Artillery Raggruppamento (3 Battaions, 9 Companies)
+    Artillery Group "Fadini" (2 105/28 Batteries, 1 149/35 Battery)
+    Artillery Group "Chiarle" (3 75/27 Batteries)
+    Artillery Group "Ederle" (3 100/17 Batteries)
+
+Headquarters Reserve (5 Battalions, 14 Companies)
+    Artillery Group "Zara" (3 65/17 Batteries)
+    103rd GaF Artillery Group (3 75/27 Batteries)
+    3rd Air Defense Militia Group (2 Batteries) (1 Battery Detached)
+    Static Machine Gun Battalion "Zara" (3 Companies)
+    30th "Zara" Mixed Engineer Battalion (1 Engineer Company, 1 Signals Company)
+    107th CC.NN. Machine Gun Company
+    Light Tank Company "Zara"
+
+
+
+12th Infantry Division "Jadranska" (65 Companies)
+    34th Infantry Regiment (3 Battalions, 13 Companies)
+    35th Infantry Regiment (3 Battalions, 13 Companies)
+    36th Infantry Regiment (3 Battalions, 13 Companies)
+    12th Artillery Regiment (4 Battalions, 16 Companies)
+    12th Cavalry Battalion (3 Companies)
+    12th Engineer Battalion (3 Companies)
+    12th Anti-Tank Company
+    12th Machine Gun Company
+    12th Anti-Aircraft Machine Gun Company
+    12th Signals Company
+
+

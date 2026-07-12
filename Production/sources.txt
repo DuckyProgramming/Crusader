@@ -25,6 +25,8 @@ http://electronicsandbooks.com/edt/manual/Publischer/G/German%20Miltary%20WW2/Ro
 (Book about German organizations and operations)
 https://maps.lib.utexas.edu/maps/ams/north_africa/
 (Maps)
+https://www.panzerdivisiongames.com/news/categories/attack-at-dawn-north-africa
+(Simplified Battle Maps)
 
 Battleaxe:
 https://dn790003.ca.archive.org/0/items/GermanDefensive/GermanDefensive.pdf
@@ -46,6 +48,7 @@ https://forum.axishistory.com/viewtopic.php?f=36&t=290358&hilit=Raggruppamento+A
 http://www.ritterkreuztraeger.info/rk/b/B064Barby.pdf
 https://forum.axishistory.com/viewtopic.php?t=177538&start=15
 https://forum.axishistory.com/viewtopic.php?f=56&t=212219
+https://web.archive.org/web/20100409175449/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=2119
 3/347:
 https://www.tracesofwar.com/persons/28705/Panzenhagen-Albert-Panzergrenadier-Regiment-361.htm
 Commanders (Unreliable):
@@ -62,6 +65,8 @@ https://www.warrelics.eu/forum/photos-papers-propaganda-third-reich/post-your-de
 https://forum.axishistory.com/viewtopic.php?f=56&t=128748&hilit=tobruk+1941&start=30
 361st Regiment:
 https://forum.axishistory.com/viewtopic.php?t=76279
+361st Artillery Battalion:
+https://web.archive.org/web/20100409175519/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=2119&start=15
 580th Reconnaissance Company:
 https://forum.axishistory.com/viewtopic.php?p=945522
 115th Rifle Regiment:
@@ -72,8 +77,8 @@ https://warhistory.org/article/panzerarmee-afrikas-sonderkommando
 https://tanks-encyclopedia.com/7-62-cm-f-k-36r-auf-gp-selbstfahrlafette-sd-kfz-6-3/
 
 Italy:
-https://tacticalorganization.com/wp-content/uploads/2023/07/Italy-Infantry.pdf
-(TOEs)
+https://tacticalorganization.com/tactical-organization-in-world-war-ii/
+(TOEs, including numerous individual documents)
 https://issuu.com/rivista.militare1/docs/la_guerra_in_africa_settentrionale/338?e=339&o=1
 (Various Italian documents, paid but bypassable)
 https://archive.org/details/le-operazioni-in-africa-settentrionale-vol-i-p-1/Le%20operazioni%20in%20africa%20settentrionale%20vol%20I%20%20p1/page/296/mode/2up
@@ -83,6 +88,8 @@ https://archive.org/details/italian-army-official-history-operations-in-north-af
 (Translated)
 https://archive.org/details/STOR-ART/SDA-vol16/page/278/mode/2up
 (Artillery book)
+https://archive.org/details/STOR-G/Storia-Genio%20vol7/page/276/mode/2up?q=tobruk
+(Engineer book)
 https://archive.org/details/la-guardia-alla-frontiera
 (GaF book)
 https://www.regioesercito.it/pages/restoria.html
@@ -92,10 +99,16 @@ https://nuovadifesa.altervista.org/regio-esercito-nel-1940-africa-grecia/
 (June 10 OOB)
 https://web.archive.org/web/20251114090332/https://comandosupremo.com/forums/index.php?threads%2F1940-ob-in-a-s.982%2F
 (How was this so hard to find)
+https://web.archive.org/web/20190821030359/https://comandosupremo.com/oob/
+(Various OOBs)
+https://www.combattentiliberazione.it/tag/africa-settentrionale-ddm
+(Random Individuals)
 Unclear Commander:
 https://cgsc.contentdm.oclc.org/digital/collection/p15040coll6/id/5050/rec/18
 Genova Cavalleria:
+https://web.archive.org/web/20100412231808/https://www.comandosupremo.com/forum/viewtopic.php?f=11&t=953
 https://forum.axishistory.com/viewtopic.php?t=177538&start=15
+https://web.archive.org/web/20100409175526/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=2119&start=30
 Anti-Tank Units:
 https://forum.axishistory.com/viewtopic.php?f=75&t=172381
 End of Battle:
@@ -136,8 +149,10 @@ https://generals.dk/general/Barberis/Umberto/Italy.html
 https://centrostudisalvatori.blogspot.com/2019/03/memorie-di-un-prigioniero-di-guerra.html
 https://famigliaguido.altervista.org/la-guardia-alla-frontiera/
 https://www.cdsconlus.it/index.php/2016/09/23/memorie-dalla-guerra-dafrica-lavventura-di-luigi-macioce-se-quellauto-colonna/
-31st Guardia Alla Frontiera Infantry Battalion:
+31st Guardia alla Frontiera Infantry Battalion:
 https://web.archive.org/web/20250908023029/https://comandosupremo.com/forums/index.php?threads/tobruk-garrison-january-1941.967/
+12th Guardia alla Frontiera Artillery Raggruppamento:
+https://web.archive.org/web/20100409175538/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=2119&start=45
 Blackshirts:
 https://www.regioesercito.it/pages/mvsnas40-43.html
 https://www.ernandes.net/savasta/terzo.htm
@@ -162,6 +177,13 @@ Sirte Division:
 https://www.pastorevito.it/category/guerre-mondiali/2a-guerra-mondiale/page/18/
 1943 OOB "Bis" Units:
 https://www.academia.edu/39697165/Italian_Army_8_September_1943_Regio_Esercito_8_Settembre_1943_Part_III_4th_ARMY_FRANCE_ITALY?sm=b&rhid=41188188321
+Labor Battalions:
+https://web.archive.org/web/20100409172216/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=6354
+https://web.archive.org/web/20101106211818/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=7271
+Replacement Battalions:
+https://web.archive.org/web/20100409165326/http://www.comandosupremo.com/forum/viewtopic.php?f=11&t=7006
+25th Mixed Engineer Battalion:
+https://www.generalstaff.org/NAF/Pt_I_1939-1940/939ixcc.pdf
 
 NZ:
 https://losthistory.net/rnza/rf/ww2/index.htm
@@ -184,6 +206,7 @@ Mahratta Light Infantry:
 https://www.ww2talk.com/index.php?threads/1st-battalion-5th-mahratta-light-infantry.34006/page-2
 Rifle Brigade:
 https://www.flamesofwar.com/Default.aspx?tabid=112&art_id=578&kb_cat_id=34
+https://www.ww2talk.com/index.php?threads/s-company-2-rifle-brigade.40636/
 Commanders (Unreliable):
 https://2ndbn5thmar.com/wp-content/uploads/2023/09/Br8thArmy1941.pdf
 Highland Light Infantry:
@@ -201,6 +224,14 @@ https://rommelsriposte.com/2010/10/24/reorganising-7-support-group-for-the-pursu
 Compass January 1941:
 https://www.historyofwar.org/articles/battles_compass3.html
 https://ww2talk.com/index.php?threads/2nd-light-anti-aircraft-regiment-r-a.44765/#post-528542
+Free French Marine Battalion:
+https://museedelaresistanceenligne.org/media10426-Le-Bataillon-dInfanterie-de-Marine-1940-1942
+Bedfordshire & Hertfordshire Regiment:
+https://rommelsriposte.com/2014/06/05/battalion-kolbeckthe-other-side-of-the-hill/
+South Staffordshire Regiment:
+https://ww2talk.com/index.php?threads/1st-battalion-south-staffordshire-regiment.42831/
+Machine Gun Battalions:
+https://vickersmg.blog/in-use/british-service/the-british-army/mgbn/
 
 South Africa:
 https://pdfs.semanticscholar.org/8010/cf4c2582713bb80c31bfe31331cead9a6464.pdf

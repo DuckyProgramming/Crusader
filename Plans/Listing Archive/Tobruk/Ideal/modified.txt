@@ -103,7 +103,7 @@ Loose Units (3 Battalion, 10 Companies)
 
 
 
-XIII Corps (23 Battalions, 80 Companies)
+XIII Corps (25 Battalions, 80 Companies)
 
 7th Armoured Division (6 Battalions, 20 Companies)
     4th Armoured Brigade (2 Battalions, 6 Companies)
@@ -117,7 +117,7 @@ XIII Corps (23 Battalions, 80 Companies)
     3rd Regiment, Royal Horse Artillery (3 Batteries (D,J,P))
     4th Regiment, Royal Horse Artillery (1 Battery (F))
 
-6th Australian Division (17 Battalions, 60 Companies)
+6th Australian Division (19 Battalions, 60 Companies)
     16th Australian Infantry Brigade (3 Battalions, 12 Companies)
         2/1st Australian Battalion
         2/2nd Australian Battalion
@@ -130,14 +130,16 @@ XIII Corps (23 Battalions, 80 Companies)
         2/4th Australian Battalion
         2/8th Australian Battalion
         2/11th Australian Battalion
-    Artillery Command (3 Battalions, 9 Companies)
-        2/1st Field Regiment, Royal Australian Artillery
-        2/2nd Field Regiment, Royal Australian Artillery
-        2/3rd Field Regiment, Royal Australian Artillery
+    Artillery Command (3 Battalions, 6 Companies)
+        2/1st Field Regiment, Royal Australian Artillery (2 Batteries)
+        2/2nd Field Regiment, Royal Australian Artillery (2 Batteries)
+        2/3rd Field Regiment, Royal Australian Artillery (2 Batteries)
     1st Battalion, Royal Northumberland Fusiliers (4 Companies)
     1st Marine Infantry Battalion (French) (4 Companies)
-    51st (Westmoreland and Cumberland) Field Regiment (2 Batteries (204,369))
     7th Medium Regiment, Royal Artillery (2 Batteries (25/26,27/28))
+    64th Medium Regiment, Royal Artillery (1 Battery (211))
+    51st (Westmoreland and Cumberland) Field Regiment (2 Batteries (204,369))
+    106th (Lancashire Yeomanry) Regiment, Royal Horse Artillery (2 Batteries (423,424))
     7th Royal Tank Regiment (2 Squadrons)
     A Squadron, 6th Australian Divisional Cavalry Regiment
 

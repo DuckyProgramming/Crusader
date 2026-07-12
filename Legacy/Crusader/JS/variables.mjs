@@ -1581,7 +1581,7 @@ export var types={
                                     desc:`14th Infantry Brigade`,name:`14`,designation:``,commander:`Chappell`,icon:`70`,
                                     pos:[965,250],
                                     elements:[
-                                        {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Bedfordshire and Hertfordshire Regiment`,name:`1`,designation:`Bedford &\nHertford`,commander:`Eason`},
+                                        {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Bedfordshire and Hertfordshire Regiment`,name:`1`,designation:`Bedford &\nHertford`,commander:`Hassell`},
                                         {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, Black Watch`,name:`2`,designation:`Black\nWatch`,commander:`Rusk`},
                                         {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, York and Lancaster Regiment`,name:`2`,designation:`York &\nLancaster`,commander:`Gilroy`},
                                     ],

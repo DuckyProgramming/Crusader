@@ -2042,5 +2042,46 @@ reserves=[
             {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
             {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
         ],
+    },{
+        level:3,type:[`Infantry`],team:`Italian`,
+        desc:[`Task Force di Bardi`,`Raggruppamento di Bardi`],name:`TF`,designation:``,commander:`di Bardi`,icon:`savona`,
+        pos:[2254,671],
+        elements:[
+            {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 15th Infantry Regiment`,`II Battaglione Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`2`,designation:`15`,commander:`Russo`},
+            {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 16th Infantry Regiment`,`II Battaglione Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`2`,designation:`16`,commander:`Aveta`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+        desc:[`6th Battalion "Romolo Gessi", Italian Africa Police`,`6° Battaglione "Romolo Gessi", Polizia dell’Africa Italiana`],name:`6`,designation:`Romolo\nGessi`,commander:`Diamante`,icon:``,
+        pos:[1062,1469],
+        elements:[
+            {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`1st Motorcycle Company, Italian Africa Police`,`1ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Marini`},
+            {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Ciani`},
+            {level:5,type:`Armored Car Company`,team:`Italian`,desc:[`3rd Armored Car Company, Italian Africa Police`,`3ª Compagnia Carri, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Orlando`},
+        ],
+    },{
+        level:1,type:[`Infantry`],team:`British`,
+        desc:`14th Infantry Brigade`,name:`14`,designation:``,commander:`Chappell`,icon:`70`,
+        pos:[965,250],
+        elements:[
+            {level:3,type:`Infantry`,team:`British`,desc:`1st Battalion, Bedfordshire and Hertfordshire Regiment`,name:`1`,designation:`Bedford &\nHertford`,commander:`Eason`},
+            {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, Black Watch`,name:`2`,designation:`Black\nWatch`,commander:`Rusk`},
+            {level:3,type:`Infantry`,team:`British`,desc:`2nd Battalion, York and Lancaster Regiment`,name:`2`,designation:`York &\nLancaster`,commander:`Gilroy`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
+        desc:[`Infantry Regiment "Giovani Fascisti"`,`Reggimento di Fanteria "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+        pos:[456,1241],
+        elements:[
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion, Infantry Regiment "Giovani Fascisti"`,`I Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion, Infantry Regiment "Giovani Fascisti"`,`II Battaglione Fucilieri, Reggimento di Fanteria "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+        ],
+    },{
+        level:5,type:[`Infantry`],team:`Italian`,
+        desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
+        pos:[2448,1148],
+        elements:[
+            {type:`Small Ruined Infantry Company`},
+        ]
     },
 ]

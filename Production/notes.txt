@@ -235,6 +235,7 @@ The 10th CAR also appears reduced in Niehorster's order of battle, with its 7th 
 I'm inclined to believe this, since another source backs it up. I think this 7th group was lost and the 35th group was a typo on Regio Esercito.
 After having found another mistake on Niehorster's artillery, this is now once again in contention. Regio Esercito has yet to be wrong so I'm going to side with it.
 25th CAR was armed with 149/13 Austro-Hungarian howitzers built in 1914. They were obsolete for sure, but heavier than the rest.
+Some time later, I've seen ever more mentions of XXV and none of XXXV. I'm starting to think Regio Esercito and its source book were the ones responsible for this mistake.
 
 I've found an updated version of Montanari's order of battle for the above. In it, the 25th CAR is confirmed but I can also say with certainty what the 10th CAR had.
 It had the 7th and 17th groups. So it was the 35th group that in fact got lost.
@@ -277,11 +278,14 @@ They definitely didn't have a full tank battalion. I couldn't find a reference t
 
 The battery commanders of the 3rd South African Field Regiment were Harris, Berry, and Greenwood (7th-9th).
 
-About the Italian Mixed Engineer battalions, I originally had each one as its own battalion, giving the Italians a lot of engineer support.
+About the Italian Mixed Engineer battalions, I originally though had each division had its own battalion, giving the Italians a lot of engineer support.
 However, I changed my mind about this when I realized that the "Mixed" part included signals units. Each battalion only actually represented a single company of "combat" engineers.
 For a time, I combined all such engineers into a single company, but that wasn't right either. It didn't represent any kind of real-life unit and the companies were non-homogenous.
 It didn't help that little information exists about most of these engineer companies, down to their numbers (only the battalions numbers are known).
 With so little to go off of, indicating Italian divisional engineers (specialized ones notwithstanding) didn't do much of anything, I've finally made the decision to remove them altogether.
+
+So I was entirely off on this. There was a single company of construction engineers "genio artieri" in each mixed engineer battalion, but these men were not for combat.
+They were not armed with any kind of heavy weapons. The men who fulfilled the pioneer role that other nations' engineers complete were considered part of the infantry.
 
 The Italian mixed support battalions had either three or four companies. However, it doesn't matter for this game, because the 4th company was an anti-air company and thus not relevant.
 Thus, they will always be represented in-game with three companies: anti-tank, mortar, and machine gun.
@@ -304,6 +308,10 @@ There were also some independent groups lying around, not subordinated to a spec
 In this game, the only GaF units present are the ones of the 28th "Zuara" district with the 280th regiment, and it does seem that all four of its groups had 3 batteries.
 Of those four groups, two of these groups made up Raggruppamento Artiglieria "Sabratha" (the 283rd and 284th).
 
+(Later Note)
+Heh. Many, many hours later, I probably know a thousand times more about the G.a.F. then when I wrote the above^. None of it is wrong, but it's quite useless in retrospect.
+I've also switched my focus onto another battle, which has a ton of GaF units involved, so that part is certainly now untrue.
+
 King's Cross (Tobruk) is sometimes referred to as Sidi Mahmud. Just to add some confusion.
 It doesn't help that Bir Lunes might actually be Bir Junes. And Ras el Madauar has a million spellings.
 
@@ -314,7 +322,7 @@ The 140th Blackshirt Battalion was a part of the 238th Blackshirt Legion of the 
 It was formed using cadres from Salerno, which its nickname as a battalion. Its source territorial unit was nicknamed "Aquilia".
 This territorial legion had formed two other battalions. The 240th was sent to Ethiopia but wasn't reformed in WW2. The 540th was kept in Italy as a militia unit.
 The 238th regiment/legion had the nickname "Aurelio Padovani". This man was a previous fascist leader. It included 3 battalions and a machine gun company (but no regimental mortar company)
-As a legion it was of the "Desposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
+As a legion it was of the "Deposito" or depot variety, but as a battalion it was the "d'Assalto" or assault variety.
 It appears that this battalion was the only survivor of the division which was otherwise destroyed in Bardia. It would end up in Tobruk where it, too, was destroyed.
 There's a different blackshirt unit, the 130th, with the similar-sounding nickname of "L'Aquila".
 
@@ -572,6 +580,7 @@ I later have turned around on this idea. The engineers are actually separate fro
 I was certainly trolling when I went through this the first time anyway. These engineers were entirely for support tasks and had no combat ability.
 The same also goes for the regular engineer units, as while some did have partial combat ability, the only specialized assault engineers, the Guastatori, were never divisional in nature.
 There were also sometimes artillery engineers, which I hadn't noticed until now. These guys were certainly not meant to be anywhere near a frontline.
+(Note: this is not true, there were no artillery engineers. This is due to the translation on Bing being terrible, as the term "artieri" actually translates to "builders" or "artisans".)
 
 I have finally obtained the original text of Montanari's writing on the defense of Tobruk. This has been a long time coming.
 I didn't buy it, obviously. There's a copy on the website Issuu, although it appears to be "unavailable".
@@ -980,7 +989,8 @@ Since I don't have anything else to go off of, and the battalion was after all p
 Apparently there was also a 32nd Libyan Battalion in Tobruk according to some sources? But these claims are relatively unreliable so I wouldn't lend too much credence to that claim.
 Also not helping is that Montanari never references a single unit as being part of this subsector other than the few artillery batteries. So maybe it just didn't exist by this point or was in the process of dissolution.
 
-A form post says the 12th battery of the 42nd "Sabratha" Artillery Regiment was supposed to be one of its 20/65 batteries, but Regio Esercito says it had the 60th and 260th batteries.
+A forum post says the 12th battery of the 42nd "Sabratha" Artillery Regiment was supposed to be one of its 20/65 batteries, but Regio Esercito says it had the 60th and 260th batteries
+There was also supposedly a 4th battery from the Bologna Division, which also doesn't make a lot of sense since this was before the division was partially reconstituted with a ton of random units.
 
 Carlo Rostagno was the chief of staff of the 22nd Corps for most of December, but at some point he must have been replaced. Montanari refers to him as "former".
 He is the ultimate source for most of my Tobruk order of battle information. I haven't found much that indicates him to be unreliable, at least not as badly as Montanari for sure.
@@ -1011,7 +1021,37 @@ The Flying Batteries Group had this organization:
     2nd Group (3 65/17, 1 20/35)
     11th Independent Battery (65/17)
     13th Independent Battery (100/17)
-    14th Independent Battery (20/65)
+    14th Independent Battery (20/35)
+In May 1942, it was reformed into the 136th Artillery Regiment, with the following organization:
+    14th Group
+        1st 65/17 Battery
+        2nd 65/17 Battery
+        3rd 65/17 Battery
+        20/65 Section
+    15th Group
+        4th 65/17 Battery
+        5th 65/17 Battery
+        6th 65/17 Battery
+        20/65 Section
+    16th Group
+        7th 75/27 Battery
+        8th 75/27 Battery
+        9th 75/27 Battery
+    17th Group
+        10th 100/17 Battery
+        11th 100/17 Battery
+        12th 100/17 Battery
+    13th 20/65 Battery
+
+So, um, I screwed thsi up. While the RBV order of battle is mostly correct, I made some misplays with the structure of the rest of RECAM. Let's give this another attempt.
+There is no random motorzied machine gun battalion. The Romolo Gessi Battalion was a machine gun unit, as it was possible to mount the MGs on the handlbars of the motorcycles.
+It had a command platoon rather than company, and it appears the armored car company was numbered as the first rather than any of the motorcycle machine gun companies.
+There was also extra artillery not part of the RBV (so not motorized very well) of the following composition. All are listed as "missing" for some reason however, I don't know what that exactly means.
+1 20/35 AA Group with 2 batteries
+1 88/56 Battery (German gun, Italian crews)
+1 105/28 Group with 2 batteries
+1 Engineer Company from the CAM Engineer Raggruppamento
+1 Mixed Truck Group
 
 We can't know the exact structure of XXXI Libyan Coastal Battalion but its sister XXXII battalion had 25 officers and 752 men, with 15 MGs (3 heavy).
 A Libyan MG battalion at this time had 18 officers and 518 men from its 4 companies, so it's not really comparable.
@@ -1853,7 +1893,7 @@ Montanari mentions this but fails to specifically point out that they were part 
 After that, they are never mentioned again, so I will presume they are among the units that were transferred out to replenish other garrisons.
 12 20/65 guns are mentioned as joining the Giarabub garrison, though some such guns may have already been present. I think it's fair to say these were likely the DICAT groups. Let's see what Castagna says.
 In his book, he confirms that there were 12 20/65 guns and one loose 77/28 for some reason. He does not mention their place of origin.
-The batteries of the DICAT groups were the 201st-203rd for the 1st group and 204th-206th for the 2nd group.
+The batteries of the DICAT groups were the 201st-203rd for the 1st group and 204th-206th for the 2nd group, all batteries having 8 20/65 guns.
 
 There's also an OOB for the 340th GaF Artillery Raggruppamento:
     342nd Group (818, 819, 837)
@@ -2323,6 +2363,10 @@ That said, these claims are on internet forums by people who really don't sound 
 With no decent evidence that this actually happened and had a major impact on the battle, I have no reason to execute on this potential change.
 The Italians do seem to agree that some units of Free French were on the western direction, at least according to Montanari. Their identity remains unknown but it lends credence to French claims.
 
+With more research having been done, this decision will be reversed. I now have much more information on this unit and know it was at Tobruk.
+It was formed from a total of 500 personnel, defectors who escaped in two groups, one of 150 men from Lebanon and the other of 350 men from Cyprus.
+The resulting battalion, the 1st Marine Infantry Battalion (1er Bataillon d'Infanterie de Marine), had two companies and was commanded by a Captain Folliot.
+
 On another note, it appears the Royal Northumberland Fusiliers (1st MG Battalion) were transferred immediately from 4th Indian to 6th Australian Division when the swap occurred.
 On the other hand, the Cheshire Regiment's 1st Battalion, another MG Battalion, appears to have been attached to the same division only in mid-January.
 
@@ -2473,6 +2517,10 @@ An interesting thing I found was that the 256th GaF Battery, which consisted of 
 A truly unlucky unit, given that none of its compatriots from up there met the same fate until 1943 or later.
 Actually no, because the 252nd GaF Battery actually did meet the same fate. Imagine being one of these gunners, sent to another continent just to be captured in the conclusion to a great disaster.
 
+The entire 12th GaF artillery regiment from which these batteries (252-257) came from had been sent to North Africa near the end of 1940 and deployed forward to the 10th Army.
+It was on the French front at the beginning of the war and reached Naples by the 24th of June. Their ship left on December 26 and they joined combat on the 5th of January with the Sabratha Division.
+Only two batteries escaped Beda Fomm, one of the 257th. This battery would ultimately be destroyed along with the rest of the Savona Division when it ran out of supplies at Halfaya.
+
 To this day, I still can't figure out what the artillery specialist companies actually did. I can take a guess, but without much information about that, I'd probably do well to not add it to any listings.
 
 The 65/17 batteries of the Sirte Division were sent to support the Cirene Division in June. As we know, by the later battle two such batteries still existed, which raises osme questions.
@@ -2487,7 +2535,7 @@ My check indicates that the two batteries of the Sabratha Division stuck around 
 One of them was part of the 1st "nucleo motorizzato" of the Sabratha Division's deployment, while the other doesn't appear in OOBs but does appear in maps and was presumably transferred to Babini's control.
 
 Also, Maurizio, the above source, admits himself that his information is erroneous in some parts. And I'm gonna have to agree.
-It makes much more sense for the 2 batteries sent to the Cirene Division to be the ones from the Bologna Division. Why rob a fellow division in the theatre when you could rob the 5th Army instead?
+It makes much more sense for the 2 batteries sent to the Cirene Division to be the ones from the Bologna Division. Why rob a fellow division in the theater when you could rob the 5th Army instead?
 
 Based on similar circumstances from Bardia, the 4 companies deployed to support the GaF in Barberis's sector were probably not actually deployed in the strongpoints.
 At Bardia, the 63rd Machine Gun Battalion had its 4 companies split into company strongpoints behind the lines. It seems fairly reasonable for the Tobruk Garrison to make the same decision.
@@ -2577,6 +2625,7 @@ Part of the Sirte Division's transport to from Tripoli to Benghazi took place ab
 Tomasso Mosetti, a prisoner from the Sirte Division, was a member of the 2nd Battery, 1st Group, 22nd Corps Artillery Raggruppamento (100/17).
 
 I found a collection of postcards from the Sirte Division's prisoners of war. Given most of the division was captured these should reflect the makeup of the division. Let's see what we get:
+I later also found some mail that was sent by families of the prisoners to the office of the Vatican, which gives similarly fragmentary information.
 Subunits:
 61st "Sirte" Infantry Division
     69th Infantry Regiment
@@ -2600,11 +2649,618 @@ Subunits:
             12th Company - Corporal Trentino Jorfida
     43rd Artillery Regiment
         (Many postcards with only regiment identification)
+        2nd Group
+            6th Battery - Sorrentini
+    61st Machine Gun Battalion
+        3rd Company - Vincenzo Modaffari
+4th Tank Infantry Regiment
+    Marcello Floriani
+    Pietro Mittica
 
 The one thing I gain from this is to know that the 70th Infantry Regiment had two of its rifle companies, the 6th and 7th (haha). I don't know where its 5th is but there's now no reason to believe it was elsewhere.
 
 It's not exact, but it's noted that the 140th Blackshirt Battalion had "2 rifle companies". The 4th company was a support weapons company, so this implies (which I agree with) that the 2 companies were the 1st and 2nd.
 
 The 2/1st Anti-Tank regiment did not participate in Operation Crusader as it had only just arrived. That's a mistake on my part to assume it was in action.
+
+Other than the 55th Artillery Regiment, the Brescia Division also gave up its 2 infantry gun companies and its anti-tank company to the 10th Army, all of which would be slowly replaced.
+The new anti-tank companies (yes, there were multiple now) were numbered the 5th, 71st, and 227th, all with 47/32 guns.
+The infantry gun companies were also replaced, respectively, with the 34th "Livorno" and 38th "Ravenna", both of 65/17 (as normal).
+The 55th Artillery Regiment in Rostagno's report has at least one 65/17 company, but of unknown number. If I find more about this in the future I could assign that company a number.
+If so, however, it would have escaped destruction at Sidi Barrani and Bardia under either the 1st Libyan or the 62nd "Marmarica" Divisions, which seems like a tall order but not an impossible task.
+
+The Savona Division also had just a single infantry gun company that was subordinated to the 16th Infantry Regiment. I couldn't find anything about its number.
+
+On reformation with the 283rd and 284th groups, the Artillery Raggruppamento "Sabratha" had just 5 batteries, with 3 and 2 respectively in the groups.
+All were of 75/27. There were some spare anti-tank, anti-air, and infantry guns but no more regular field guns or howitzers. But it's fair for a division with just 4 infantry battalions (Regio Esercito describes them as companies but that's unlikely).
+By May 1942, though, the division might have returned mostly to normalcy. Its artillery regiment had once again a full headquarters and number as the 42nd, and there were now three groups with the new 3rd having 100/17 guns.
+
+On the 17th of August, 1939, so quite far off, the 31st Mixed Engineer Detachment (part of the GaF, and subordinated to the 31st Coverage Sector) had a strength of 4 officers, 14 NCOs, and 97 enlisted men. (115 total)
+These groups do see to vary in size. The one for Tripoli had a total of 177 men, while the one for Nalut (the middle of nowhere) had just 61. Overall, though, they all seem to be at least on part with company size.
+
+I never realized for while that the numbers given to "points" by the Germans and British are not arbitrary. They simply refer to the altitude of the position, which simplifies decisions for commanders.
+The Italians do similar, although they use the term "quota", abbreviated "q.", but it means the same thing and is used for the exact same purpose.
+
+I'm currently reading "Storia della Fanterie Italiane", more specifically volume 14, which is one of the two volumes about WW2.
+However, this one isn't on archive.org in a decent manner, so I'm stuck reading page by page on Issuu. So we're gonna need some notes for this.
+https://issuu.com/rivista.militare1/docs/storia-delle-fanterie-vol-14-testo/97?e=438&o=1%20 (the page number?e=very large number)
+Part 1 - The Armored and Parachute Forces
+    Page 29 - The Armoured Forces
+        Page 41 - The Motorized and Armored Elements
+        Page 61 - The Evolution of the Armoured Force
+        Page 75 - The Tank Infantry Regiments
+            Page 79 - The 4th Tank Infantry Regiment
+        Page 97 - "Centauro" Division
+        Page 111 - "Ariete" Division
+        Page 127 - "Littorio" Division
+    Page 302 - State of the Army at the Start of the War
+    Page 324 - The War Against France
+    Page 350 - The First Operations in North Africa
+        Page 360 - The First British Offensive and the Italo-German Counteroffensive (Compass & Sonnenblume)
+Part 2 - Combat Histories
+    Page 4 - The East African Campaign
+        Page 10 - The British Counteroffensive
+    Page 26 - The War Against Greece
+    Page 62 - The War Against Russia
+        Page 82 - The Operations of the ARMIR
+        Page 100 - The Second Battle of the Don
+    Page 118 - The Defense of Sicily
+
+Other than providing unit histories, though, this source is quite terrible. It doesn't have much from the British point of view and engages in quite a bit of glorification.
+While bringing nothing new to the Tobruk table, it repeats the insane claim that the British had five divisions and the Free French a brigade in the attack force.
+The accompanying map is also entirely irrelevant as it's Montanari's map from almost a year later during Operation Crusader. Safe to say it's not very helpful.
+
+Other than the 52nd Medium Tank Battalion of RECAM, there was also 51st Medium Tank Battalion that was part of the Littorio Division and was commanded by Salvatore Zappalà.
+This division was highly incomplete upon it joining the battle of June 19, 1942. Many of its elements had been taken to replenish the Ariete Division, so it would be missing many elements until they were rebuilt by Second El Alamein.
+Those units that were left were the 12th Bersaglieri Regiment, the 51st Medium Tank Battalion, and a single battery of 75/27 guns. The 12th Bersaglieri were also down their mixed support battalion.
+Some elements had also been lost on transport or had failed to be transported in the first place, further weakening what was left of this division, down to barely brigade strength.
+Thus, it's order of battle was this sorry jumble of incomplete units:
+133rd "Littorio" Armored Division (Gervasio Bitossi)
+    12th Bersaglieri Regiment
+        23rd Motorized Bersaglieri Battalion
+        36th Motorized Bersaglieri Battalion (1/3 Strength in 1 Company)
+        12th Bersaglieri Motorcycle Company
+    51st Medium Tank Battalion (2 Companies)
+    1 Battery / 321st Artillery Group (4 75/27)
+Total: 7 Companies. That's about the same strength as the Division z.b.V. "Afrika" was on deployment.
+A 12th Medium Tank Battalion had also been arrived and unlike the 10th and 11th, weren't robbed by the Ariete and Trieste Divisions, but had its own deficiency: all its tanks had been lost en route.
+
+The 4th Tank Infantry Regiment was outlasted by its child formation, as it was responsible for the formation of the headquarters of the 132nd Tank Infantry Regiment.
+It did get reconstituted and again meet its end in Operation Achse, but until then it functioned only as training formation and did not see any combat of real proportions.
+The 1st Medium Tank Battalion had gotten into an engagement of November 19, 1940, where it saved some motorized men from ambush at huge losses to itself. I now see why many of the its tanks were in a state of utter disrepair, with only 7 operational.
+While the tanks that were mobile, all 7 of them, were organized into a company, the 3 tanks that were semi-mobile were only enough to form a platoon. So at least there was a realistic appreciation of their strengths.
+Remaining elements of the 4th Tank Infantry Regiment that were to begin rebuilding it were lost on the troopship "Conte Rosso" (Red Count) that was sunk on May 24, 1941.
+
+The third Tobruk line, or green line, according to the British, was the one built around the old forts of Perrone, Airente, Solaro, and Marcucci.
+Neither the Italians nor the British were very successful with defending this line, and the forts were barely positions in the first place. The whole third line was honestly pretty useless.
+
+I recently did a small, shallow bit of research on the operations around Zara during World War II, which didn't amount to much. Both sides planned for operations but not much of scale.
+The Yugoslav 12th "Jadranska" Infantry Division was scheduled to attack from its base at Knin (yes, that Knin) but failed to do anything. This allowed the Italians to advance from Zara and link up with others elements coming from Slovenia.
+That was it. The rest of the Yugoslav Army had completed its disintegration by then and the 9000 men of the Zara garrison commanded by BG Emilio Gilioli achieved a complete success.
+
+A while ago, I discovered an order of battle for the "di Bardi" task force that has no context behind it in the very unreliable Nafziger Collection. Let's try to make sense of it.
+The unit is titled "Command Piazza di Bardi". This is very likely a mistranslation, as all my Italian sources call this organization the "Piazza di Bardia".
+It's probably the predecessor to Schmitt's "Division Bardia", and in fact Montanari's "The Second British Offensive" indicates that Schmitt was in command of something in the area.
+I think it's fair to put him in command, making this a German command with no German units. Moving on to the rest of the Nafziger document, let's look at the order of battle for this "task force" (it wasn't one).
+
+Task Force HQ (probably not real)
+    475th (German) Communications Platoon (probaby real but I couldn't find it, it's too small)
+
+Piazza di Bardia Command:
+    2nd Battalion, 15th "Savona" Infantry Regiment (4)
+    2nd Battalion, 16th "Savona" Infantry Regiment (4)
+    3rd Battalion, 40th "Bologna" Infantry Regiment (4)
+        9th 20/35 AA Company
+        10th 47/32 AT Company
+        11th 81/14 Mortar Company
+        12th Machine Gun Company
+    4th Machine Gun Squadrons Group, "Genova Cavalleria" Regiment (1 Company Strength)
+    HQ and 3 Mixed Companies from the 28th G.a.F. Coverage Sector (I finally know what this means)
+    282nd Group, 280th G.a.F. Artillery Regiment (75/27)
+    342nd Group, 340th G.a.F. Artillery Regiment (75/27)
+    28th G.a.F. Mixed Engineer Detachment (1 Company Strength)
+
+General Staff (Savona Division HQ)
+    55th Post Office
+    45th Medical Section
+    68th Field Hospital
+    69th Field Hospital
+    55th Supply Section
+    27th Bakery Section
+    155th Mixed Truck Section
+
+One benefit of this document, though, is that it has a clear order for one of the elusive AA/AT battalions at this time. Somewhat helpful, although way too late.
+In a stroke of insane luck, I already got it right. It's just that my numbers are all one off, since they don't account for the AA company which my game often ignores out of convenience.
+
+Also, I was wrong about the strength of the 3rd Battalion, 347th Infantry Regiment. A standard German rifle company in 1941 had 12 LMGs, 3 light mortars, and 3 anti-tank rifles.
+A smaller variant of this rifle company, the type e, had 9 less men and just a single mortar with no anti-tank rifles.
+The standard machine gun company had 12 HMGs and 6 mortars, with a variant, the type f, having the full 12 HMGs but no mortars, though it did save 52 men worth of manpower.
+Depending on whether it used normal type c of everything or if it was using the variant types with weaker armament, here are the ranges for firepower of a single infantry battalion:
+LMGs: 36
+HMGs: 12
+Mortars: 3-15
+Anti-Tank Rifles: 0-9
+The 3rd Battalion, 347th Infantry Regiment had the following strength:
+LMGs: 45 (Some Captured)
+HMGs: 12
+Mortars: 12
+Anti-Tank Rifles: 18
+So, it's strenght was around normal or even above standard in all respects. It perhaps could be given a sort of "buffed" status as early as Crusader, but at the same time its parent Division was lacking in support.
+For all the company-level and battalion-level firepower they could leverage, communications were poor, the engineers were Italians subbing in for the 2nd Company/39th Engineer Battalion which was in Bardia, and there wasn't any artillery.
+As a siege formation working in tandem with Italian units and corps-level forces (not represented in my game), it's not bad, but were it and the rest of its division to fight a battle on their own it would be completely over.
+
+We've tracked artillery, we've tracked mortars, we've tracked personnel. I wanted to track machine guns next, but I'm sure the splitting up of the 61st Machine Gun Battalion will greatly complicate things.
+Expected Count:
+48 HMGs from the 2 infantry regiments (8 for each battalion's Ad'A company)
+40 HMGs from the artillery regiment (2 per battery) (I don't know how this works for the corps units, but I'll ignore these anyway)
+36 HMGs from the MG battalion
+10 HMGs from the 2 bersaglieri motorcycle companies
+18 HMGs from the 2 replacement battalions
+Infantry-adjacent total: 102
+Total: 152
+The specific model of HMG is the Fiat-Revelli Model.35, or just the Fiat 35
+Other smaller machine guns varied in caliber and build, and the calibers that Montanari gives don't match up with models I could find, so we won't worry about them
+
+Anyway, here's the counts Montanari gives:
+18 reinforcing the MG battalion (the MG battalion itself had 2 companies) (probably from 2 of the Ad'A companies, perhaps 4/70 and 12/70)
+Ras Beiad: 8 (probably from an Ad'A company, likely 8/69)
+3rd Battalion, 69th Infantry Regiment: 8 (probably from a spare Ad'A company or its organic company, i'd prefer 12/69)
+Pilastrino: 8 (same, likely from 8/70)
+Actually, these were probably from 12/70, since that's... exactly what Montanari says in his book. He doesn't mince any words about it.
+Gabr el Abd: 8 (same, likely from 1/61MG)
+Point. 71: 8 (same, likely from 1/61MG)
+Mobile Reserve: 2 platoons = 8 (same, likely from 4/69)
+We have 5 of what are almost certianly Ad'A companies. So that tells us where most of them went. The rest is a little wishy-washy but the numbers don't seem completely off.
+The missing machine guns are probably where Montanari puts many of them - inside the defense pits. I can't come up with any numbers, so here the train of thought ends.
+Those are probably all from the MG battalion, though, so those could probably be subtracted from the calculations.
+What I can say confidently, though, is that while the Ad'A companies of many of these infantry battalions are not placed anywhere on Montanari's map, I am nearly certain that they were still within the Tobruk Fortress.
+
+Niehorster's site lacks an OOB for the 1941 AS Autotransportable Division, a mostly-transient structure that was rendered impossible by the severity of losses during Crusader.
+Here it is:
+Divisional HQ, divisional services, and motorized transport
+2 Infantry Regiments, each:
+    2 Infantry Battalions, each:
+        3 Rifle Companies
+        1 Support Weapons Company
+    1 Support Weapons Battalion, with:
+        1 20/35 AA Company
+        1 47/32 Anti-Tank Company
+        1 81/12 Mortar Company
+        1 Machine Gun Company
+    (No infantry guns, as they all were lost during Compass)
+Artillery Regiment, with:
+    1 Group 100/17
+    2 Groups 75/27
+    1 Mixed Anti-Aircraft Group
+Division Support Weapons Battalion (Same structure, but without the 20/35 company)
+Mixed Engineer Battalion
+
+German reconaissance units did come to the support of the Savona Division's HQ at Bir Ghirba, according to Montanari.
+For me, that gives another excuse to keep the 580th Reconaissance Company near the frontier even though it wasn't there in reality.
+
+Also, Montanari's book on Crusader gives some orders of battle that shine light on the mixed and severely cursed state of many axis units in the preparatory stages of the battle.
+In fact, his orders of battle are the origin for Nafziger's "di Bardi" task force. What a mess. An order of battle for this German unit became corrupted to a nearly unrecognizable name.
+And yes, there are still no German units in the division except for the communications platoon. But Montanari does add something we didn't have before: information about Bardia's defense.
+Regia Marina Garrison: 1 120/45 battery, 1 76/40 battery, 2 13mm machine guns
+Regio Esercito Garrison: 1 105/28 battery, a single 75/27 gun with a G.a.F crew
+3 mixed detachments with assorted recovered and captured weapons, and the infantry of the 3 battalions present and the Genova Cavalleria squadrons group
+
+It's worth noting that Montanari refers to the heavy companies of German units as "compagnia d'arresto" which may be relatted to the "compagnia combattimenti d'arresto" we've seen previously.
+The rest of what he has aren't groundbreaking. Here are the takeaways:
+The Brescia Division had the normal 2 infantry gun companies, and as previously known they had been taken from 2 divisions in metropolitan Italy. It also had a cadre of a divisional motorcycle company (not bersaglieri).
+Funny that the Italian word for radio operators is "marconisti". They truly are proud of their (fascist) countryman.
+155th Artillery Regiment had two normal 105mm howitzer groups and 1 mixed group with 1 100mm gun battery and 2 105mm howitzer batteries.
+Meanwhile, the 33rd Artillery Regiment was entirely normal with 2 105mm howitzer groups and a 155mm howitzer group (abteilungen in German).
+On November 1, the 361st Infantry Regiment wasn't assigned to the Divison z.b.V. "Afrika". That, or Montanari just missed it.
+The Trieste Division's formation on November 1 shows only the 65th and not the 66th Infantry Regiment with a 3rd support weapons battalion.
+Also, its Bersaglieri battalions (all 3 non-support ones), formerly with just 2 motorized companies or 3 motorcycle companies, had begun receiving or reorganizing into a 3rd support weapons company.
+The Bersaglieri support weapons battalion also had the exact same structure as those of the regular infantry regiments, with four companies.
+
+There are no more axis orders of battle other than this one, though there are some mentions of British dispositions in the documents attached to the book, and a full OOB for them later.
+
+So... I might have screwed up ever single replacement unit. I still have to this date not found any proof that any of them had four companies. Here's what I have:
+The 55th Replacement Battalion had 2 companies, but both were in Naples anyway.
+A random Alpini Replacement Battalion, the 7th, had 3 companies with high ordinal numbers.
+An Alpini Replacement Regiment during the campaign in the Soviet Union had an unknown number of companies, but did have a support weapons company.
+Some replacement unit that I can't identify had 4 total companies, three rifle and one support weapons, just like a regular infantry battalion.
+It seems to me that when in doubt, I should go with the replacement battalion having the same strength as a regular battalion of the same type, so 4 companies for infantry and 3 for alpini (except +1 for the ARMIR).
+The Savona's case is probably an anomaly and that order of battle is on the suspicious side anyway. Perhaps the replacement battalion, as it wasn't overseas yet, wasn't yet fully established.
+
+Some say replacement battalions were meant to handle replacement companies. They themselves never replaced anything and were chiefly administrative, and were also entirely permanent and stood in for depots (which were not overseas).
+In contrast, march companies were formed at the replacement battalion from personnel sent from Italy. There, they would be trained and equipped in preparation to join the unit they were replacing.
+
+The Savona Division appears to have a single infantry gun company with 5 guns during Crusader, at least according to a German Source. Other places indicate that its artillery regiment had two batteries of 65/17 after rebuilding.
+I believe at least one of the batteries was numbered the 267th, which certainly was a replacement unit and probably hadn't come from any existing infantry regiment.
+Apparently, some sources indicate a 266th battery as well, which would complete the set. I can't find any confirmation of its existence but I think it's not unreasonable to assume it did.
+
+Previously, I had thought the 2nd Battalion, Bedfordshire and Hertfordshire Regiment was commanded by a Lt-Col. Eason. I had no proof of this but I had seen his name and rank somewhere and that was the best I could find.
+I'd like to complian briefly that this was an awful experience to research. While it was a few months, British sources suck and it doesn't help that there's a similarly named Hertfordshire Regiment elsewhere.
+The good news is that Rommel's Riposte has solved this problem by confirming the commanding officer was a Lt-Col. Hassell. Maybe this was the guy who later commanded 69th Infantry Brigade later, though his name is spelled different.
+Also, this unit is not in the Crusader game, but the commander of the 3rd County of London Yeomanry was a Major Dickens. Major's a low rank, so maybe he only took command after the previous man became a casualty.
+
+From tacticalorganization.com, there are a ton of documents that have so far seemed on the reliable side. These have now been reached on the reading list, so let's get to them. Things of note:
+Off-topic, but between June 10 and July 1940, the East African Southern Zone formed a series of colonial divisions to handle its numerous independent brigades, numbered the 21st-24th.
+The Eritrea HQ later did the same, forming the 1st, 2nd, and 4th Colonial Divisions, as well as some additional brigades from reserve elements.
+
+The XXXI Libyan Coastal Battalion was formed by the mobilization center at Derna, the same as the XI Libyan Battalion, 7th AA Battery, 14th and 15th Static Machine Gun Companies, and 22nd/7th Artillery Battery.
+While most of the Libyan Battalions had nicknames, mostly after places, I couldn't find any such name for the XXXI or the other coastal battalions. They are truly obscure.
+Finally news about this unit's structure though: it had a 44 man hq with no weapons, and 3 companies of 151 men each, containing two rifle platoons and a machine gun platoon.
+So I was at least right about the 3-company structure. But with a total strength of just 497 men, these were much, much weaker than a regular divisional battalion of 662 men.
+But at least it's stronger than some blackshirt units, with their support weapons battalions sometimes having as few as 313 personnel.
+
+About the Libyan Machine Gun companies, 19 existed. 13 were placed on the Tunisian border, while 14, 15, 18, and 19 were sent to Giarabub, and 16 was deployed to Kufra. 17's doesn't seem to have existed, for some reason.
+There were also Static Libyan Machine Gun companies, 13 numbered 50-62. Most survived into 1942, except for 59 and 69 which were lost at Kufra. They had no fixed organization.
+The "Croatian Legion" that appears in some returns for the Italian 8th Army was not the same one that went to Stalingrad. Instead it was a militia force formed by the Italians.
+
+The "depot" legions such as the 140th Salerno one were called that because their active battalions were elsewhere (in this case North Africa), hence they were to act as depots and not as combat HQs.
+So, a single field legion such as the 238th "Aurelio Padovani" with three battalions would have three depot legions back in Italy supporting it.
+The "Assault" legions were the ones that were given to the army divisions, a change that occurred into October 1940, though it resulted in no actual combat difference.
+The Roman size designations such as "Centuria" and "Coorte" were discontinued for most of the blackshirt field units, except for a minorly cursed Raggruppamento formed from the forestry militia.
+
+The Bersaglieri Motorized Battalions with just 2 companies apiece had a rather small strength of just 463 men but made it for it in eliteness.
+The motorcycle battalions were stronger with 731 men, while I have nothing on the strength of individual companies or the ones given to the Type AS Divisions.
+The AS 1941 Bersaglieri organization that appeared during Crusader had 2 motorized battalions with 3 companies each (2 rifle and one heavy) along with a support weapons battalion (missing its anti-tank company) and motorcycle company.
+
+While my mixed bersaglieri battalion was a bit of a cursed unit, a similar unit did exist. As part of the Babini Group, a motorcycle bersaglieri battalion was formed from the 10th and 60th companies.
+It didn't have a number, as an ad-hoc headquarters, and was instead termed "provisional". Its organization is also in doubt as some say the 201st and 202nd companeis were with it as well.
+A third motorcycle company, the 17th, was part of the Babini Group but was put under the command of the tanks rather than the bersaglieri headquarters. Neither was part of the 10th Bersaglieri Regiment (which hadn't shown up yet).
+The 4th Tank Infantry Regiment headquarters had served as the basis for the Babini Group's 1st Tank Battle Group (probably termed a Raggruppamento) when it went to its destruction with its 1st Battalion.
+And yes, the 20/65 battery that I KNOW THE REGIMENT HAD is listed but predictably without a number. It might be the 13th from the Savona Division that disappears but that disappearance may be a typo.
+It's like this is some kind of intentional coverup operation. For none of these regiments with a 20/65 battery can I find the number. It's actually immensely miserable.
+I genuinely don't think this could possibly be the case. There's no way a single number could be collectively forgotten by every source I have. The only answer... was that there was no number.
+
+The Carabinieri Parachute Battalion was the third such battalion formed, as only after the two Libyan Battalions and it were formed were any metropolitan battalions formed.
+This battalion was destroyed in its rearguard role in the days following Crusader, but the pieces of it that survived were able to rejoin the Folgore Division as a single company.
+
+It's strange that Montanari at one point mentions that the 100/28 guns were "the best". On paper, in terms of range and firepower, maybe.
+tacticalorganization.com's Leland Ness disagrees, arguing that its outdated design and poor mobility and versatility made it near use-less and necessary to replace with the more modern 105/40.
+The sometimes-menationed 105/32 is not a mistake, but a rare redesigned Austro-Hungarian 104/32 field gun. I feel as if I've seen this gun somewhere but I don't remember where.
+The 149/12 was also distinct from the 149/13 and was a German gun licensed by the Italians. It had absolutely abysmal range, worse than even the 149/13, so it's not surprising that the only one at Tobruk was for training.
+The two models of CAR for North Africa were as follows:
+Type 1 (2 100/17, 2 75/27): 20th CAR, 21st CAR
+Type 2 (2 105/28, 1 100/17): 10th CAR, 22nd CAR
+(These numbers weren't the ones used, I am just arbitrarily numbering them. More variants from Types A-G were used for metropolitan CARs).
+The Type 1 was the original North African design that were formed prior to the war, while the Type 2 ones were later reinforcements sent directly from Italy.
+
+A typical corps artillery group in europe had 546 personnel, while even with its support elements, those in Africa had a total of just 426 men handling its 12 guns.
+Despite a pretty unimpressive record as commander of the Sabratha Division, though that wasn't completely his fault, Guido Della Bona survived to command XXVI Army Corps occupying Epirus.
+
+I've also finally received information about the "reparto specialisti di artiglieria di corpo d'armata", or artillery specialist units. These were observation and target acquisition elements attached to each CAR (depot).
+The strength of such a unit was 254 men, who served in, you guessed it, a series of specialized roles such topographics, sound ranging, or even meteorology.
+
+Compared to the abysmal quality of most Italian artillery units, the 20/65 and 75/46, the anti-air guns at Tobruk, were both 30s designs that were high quality but couldn't be produced in quantity in time.
+The XV Group of 75/46 which would be destroyed at Tobruk was in fact not originally deployed there but was instead shipped to Derna. That does put into doubt that it is the same one later mentioned at Cyrene, however.
+
+Overall, it's a truly impressive amount of stuff that Ness has been able to collect. You can tell he actually went to the archives in Rome and NARA, which certainly means I won't need to do the same.
+Still nothing on the replacement units, though. I'll have to read through his information on the infantry again, spend some more hours digging, and probably end up making my own judgement anyway.
+
+The 3rd Battalion of the 20th "Brescia" Infantry Regiment was commanded during Crusader by a Major Bocchino and managed to survive some rearguard actions.
+Knight of the 1st Battalion, Worcestershire Regiment had the full name "John Oldham Knight". His second in command was a Major Robert Tuckey.
+
+More information on the deployment of the Savona Division. From west to east, its elements were as follows:
+Cirener: 1/15
+D'Avanzo: ?
+Cova: 3/15, 13 Oasis, 257th GaF 65/17
+Frongia (Omar Nuovo): 3/16, HQ + 2 MG Companies, 2 75/27 Batteries, 503rd 20/65 Battery, 1/18 FLAK
+Sidi (Libyan) Omar: HQ 16 IR, 1/16, 3 MG Companies, 2 105/28 Batteries, 267th 65/17 Company, 12 Oasis
+The 266th 65/17 Company was probably at Bardia, if at existed at all.
+The cause of much confusion is that Sidi Omar on the Libyan side is called Libyan Omar by the British and Sidi Omar by the Axis.
+Meanwhile, Sidi Omar on the Egyptian side is called Sidi Omar by the British and Omar Nuovo by the Italians. There were only two such Omars, not three like the names might suggest.
+Faltembacher (subordinated to Schmitt): 6 Oasis
+
+I've also found an older series of conversations from Comando Supremo. For some reason it seems the site was wiped and restarted later, so a lot was lost but is now archived in the waybackmachine.
+
+The 10th AAR (not CAR) appears to have been originally deployed in France and was disbanded after the French campaign, reappearing in Tobruk on July 1940.
+
+The anti-air battery of the artillery regiments often appears numbered in line with the regiment's batteries rather than in total, like using 10th/43rd for the Sirte Division's rather than 61st.
+This took effect only in North Africa, however. Divisions that were used in Europe did not have this, and the North African divisions also began life without this change yet having been made.
+By July, though, the battery appears to have been given away and replaced with the 77th battery, from the Pavia Division.
+Prior to becoming the 136th Regiment, the Giovani Fascisti seem to have been organized only as a Raggruppamento Battaglioni "Giovani Fascisti", so I severely backdated that one. My mistake.
+The 9th Independent Infantry Battalion might have actually been a former G.a.F. unit and was under the command of a Major Gelli who would be killed in combat during the Tunisian Campaign.
+It appears the number change that resulted in all G.a.F. artillery groups getting multiplied by 10 occurred in Spring 1941. Units lost during Compass were unaffected.
+
+One source about 3rd Battalion, 255th Infantry Regiment and 3rd Battalion, 347th Infantry Regiment notes they were full of "older men and young recruits".
+This is probably just referring to the fact that the divisions these battalions and regiments came from were formed in later deployment waves and thus used lower quality manpower, not an intentional weakening of these two battalions.
+Prior to joining the 361st "Afrika" Infantry Regiment, the 361st "Afrika" Artillery Battalion had been the 1st Battalion, 190th Motorized Artillery Regiment.
+The two heavy infantry gun companies, the 707th and 708th, landed in early 1942, the 708th in February and the 707th in April, and each was equipped with 6 self-propelled guns.
+
+About the battle that resulted in Mickl's capture, he was enclosed in a pocket along with other elements of Kampfgruppe Böttcher, including the 361st "Afrika" Infantry Regiment.
+Nearby, Belhamed was held by the 900th Pioneer Battalion and elements of the 9th Bersaglieri Regiment. 4th New Zealand Brigade with its 18th and 20th Battalions cleared that feature on the 25th-26th of November.
+On the 28th, Mickl's pocket was finally overrun by the 44th Royal Tank Regiment of 1st Army Tank Brigade, resulting in the capture of 637 unwounded men including Mickl, most of whom later broke free with him.
+
+There is a discussion on the Replacement Battalions, although even the experts and buffs there are really struggling to find much of value. But there's not entirely nothing to say about this.
+Noted are replacement battalions for ever division in North Africa, and it seems that this was standard procedure. A special fortress replacement battalion also existed in Tripoli in 1941.
+I used the Issuu reload tactic to read the organization tables of each division type from the book about the Italian army between the two world wars, but it didn't include the number of companies in each battalion.
+
+I wanted a video by Kings and Generals about the Italian Invasion of Egypt. This video was pretty terrible, failing to understand which Italian weapons were outdated and which were honestly pretty good.
+They also made some other mistakes about the status of units and their movements:
+8:24 The 11th Hussars were a battalion-sized unit. The British army still used old regiment designations for some of its battalions. Same for the 7th Hussars at 8:37.
+12:43 The Italian "motor-transportable" divisions like the 60th, 61st, 62nd, 63rd, and 64th were not actually motorized. The artillery and other heavy weapons were motorized, but most of the regular troops were on foot.
+18:22 It's true that the Italian command had made significant mistakes, but encircling a much faster enemy in the desert was functionally impossible for an army that was almost entirely on foot. 
+
+I'm gonna be honest, I think Regio Esercito's source book that claims the existence of 310th and 320th Artillery Regiments with new structures and groupings are just straight up wrong.
+No proof exists that the reorganizations that would have resulted in these units existing occurred prior to their destruction in January, and if they were ordered to reorganize there was absolutely no chance that it was carried out.
+
+Bonus information regarding the Romolo Gessi Battalion: it wasn't actually disbanded, just removed from the front. Rather than becoming a company, it split into 2 companies with one taking a different name.
+Both were employed in rear area guard duties in Africa at least until 1943, with records showing that it in fact was reinforced rather than being consumed for reinforcements to Rommel.
+
+I've found some more information about the labor battalions. Certainly the 8th, 9th, and 4th existed in various positions at times.
+These battalions were army assets and were simply formed from random manpower. It had no combat ability and the personnel were considered unfit for service on the frontline.
+Two raggruppamenti (named as if they contained copmanies, for some reason) were formed from these labor batatlions: the 1st with the 5th-7th battalions and the 2nd with 1st-4th battalions.
+The 8th of Tobruk fame arrived in May 1940 along with the 9th. Nothing else is known of the things of value it did other than maybe some ineffective maintanance on the Tobruk defenses.
+
+It's possible to find a mention to GaF replacement elements, which were roughly the size of a weak company or 80 men
+One has been located for the X Coverage Sector and I think it makes sense for similar sectors to have their own. But this doesn't tell us much about army replacements or the GaF in Africa.
+
+It seems that while machine gun companies often had irregular number of companies, the 4 numbered from the 60th-63rd fro the original XX and XXI Corps all had 3 companies in their structure.
+
+I'm going to attempt to ascertain the personnel of the replacement battalion in the AS 1940 Type by just counting all of them. Here's the attempt:
+
+From Montanari:
+Total 10978 Men
+
+From Ness:
+Infantry Regiment:
+    HQ: 134 Men
+    Infantry Battalion:
+        HQ: 115 Men
+        Rifle Company: 156 Men
+        Heavy Company: 181 Men
+        Total: 764 Men
+    Infantry Gun Battery: 113 Men
+    Mortar Company: 199 Men
+    Total: 2738 Men
+x 2 = 5476 Men
+Artillery Regiment:
+    HQ: 113 Men
+    Artillery Group:
+        HQ: 84 Men
+        Battery: 87 Men
+        Total: 345 Men
+    Anti-Aircraft Battery: 100 Men
+    Service Battery: 55 Men
+    Total: 1403 Men
+Machine Gun Battalion:
+    HQ: 58 Men
+    MG Company: 200 Men
+    Total: 658 Men
+Anti-Tank Company: 134 Men
+Total Listed: 7671 Men
+
+Approximate:
+Division HQ: 358 Men
+Light Tank Battalion: 190 Men
+Motorcycle Bersaglieri Company: 100 Men (Leser gives 133 Men)
+Engineer Battalion: 527 Men
+Services: 235 Men
+Total Approximate: 1410 Men (1443 Men)
+
+Total Exclusion: 9081 Men (9114 Men)
+
+Left:
+Replacement Battalion: 1897 Men?
+That's much too high. Certainly many of the assorted units would've been expanded significantly between the 1939 and 1940 TOEs, but there's no clear information.
+Let's try this again, starting with the AS 1941 design rather than the AS 1939 design that might have diverged more. Not going to do the math here, but the sum is:
+Rest of the Division: 10208 Men
+Infantry Battalion: 886 Men
+Replacement Battalion: 770 Men
+With this information, I think it's fair to say that the replacement battalion had a fairly standard 4-company structure, not one of the much weaker 3-company battalions which fielded 500-600 men apiece.
+Also, 770 men is barely different from the infantry battalion standard of 764 men. It's safe to say that the difference is within the error bars and is negligible.
+For that reason, I think I'm going to assume from now on that the structure of the replacement battalion was identical or nearly identical to that of a regular infantry battalion.
+
+Also, if we assume that the rifle company strength was 156 men like that of a regular infantry battalion, we realize that when Montanari noted that 160 men were avilable to defend the port, I misinterpreted his statement.
+Those 160 men were a company-strength force, but with 156 men in the 3rd Company, 62nd Replacement Battalion, the only reasonable solution is that the replacement were not counted in the 160.
+Thus, the 160 men are exclusively from the 3 Carabinieri sections (~65 men each) and the two depots (116th Infantry Regiment, G.a.F. Tobruk Unified).
+On the other hand, there's no reason to 100% believe that the Carabinieri sections were at full strength and entirely committed. The replacement company may also have been weak.
+So there's still a way for the total to add up to 160 men even if both the replacements and the carabinieri are there, plus a couple extra loose men from the depots who likely contributed little.
+
+The Sirte Division did NOT have the 61st Engineer (artieri) Company as this was part of the 24th "Pinerolo" Infantry Division in Greece. The actual number is unknown.
+Below, I'll start tracking some of the engineer companies and see if I can find a gap that will represent the location of the companies of the North African divisions (60th-63rd).
+
+Some more information on tracking which 2 120/25 batteries formed the 6th Group that Rostagno missed. I'm still leaning on 230bis and 231bis, but it's not certain.
+I thought that maybe the solution would be to fill in the gaps in the existing numbers of 242, 244, 245, 246, 247, and 249, leaving 243 and 248.
+However, a 248th Battery appears in Albania on 6 April, and then in Montenegro, and I don't think it would've been formed so quickly (just 2 months after Tobruk fell to form it).
+The original 248th Battery is also a 77/28 battery and this timeline requires it to be retooled into a 120/25 battery, destroyed, and then reformed as a 149/12 battery in Albania.
+Alternately, if the battery was disbanded sometime in late 1940, it would have several months to be reformed into a 149/12 battery and the personnel would be available for this change.
+But maybe this matters not, as the 242nd and 243rd Batteries appear in the alps and then in Africa within 7 days of each other (June 1, 1940 - June 8, 1940), which must be impossible.
+I can only guess that this means the transfer of batteries could in fact be very quick, or that the numbers in these two theaters had no need to be distinct from one another.
+
+And like an idiot I forgot to just go back to the base source about all this. Montanari doesn't actually leave much ambiguity with the structures of these two battalions.
+The LXI Replacement Battalion is noted as having 3 rifle companies and 1 support weapons company, split up between Point. 71 (2 rifle) and the strongpoint of Gabr el Abd (1 rifle, support weapons).
+The LXIV Replacement Battalion is noted as having 2 rifle companies, with some additional elements (likely its other 2 companies) part of the coastal defense command.
+
+Other than its two battalions, each formed from 3 rifle companies, the Giovani Fascisti battalion regrouping also had a machine gun company and platoons of infantry guns and mortars.
+This machine gun company, however, appears to have been disbanded with the wider AS 42 decentralizations of weapons and was gone by the 24th of May 1942, in time for Gazala.
+
+Just reading through stuff, I found some more information about the positioning of German and Italian defensive positions during Battleaxe.
+At Qalala, other than the 6th Oasis Company, there was one battery of Italian guns from the 1st Group, 2nd Fast Artillery Regiment.
+
+It's known the 1st Battalion, Royal Northumberland Fusiliers, a machine gun battalion, definitely took part in the attack on Tobruk. Whether the 1st Battalion, Chester Regiment did the same is unknown.
+
+And with that, we have found all the information about the units that I need. It is time to construct a final order of battle for the British Capture of Tobruk so that this problem is never anybody else's.
+All the numbers have finally been found. There is no more confusion. Everything is done. And what a satisfying journey it has been, despite all the misery!
+
+But for the units I haven't kept track of, maybe there's a bit of value in attempting to bring more information to the collective world.
+For that reason, I'll do a bit of work in tracking the companies of artieri (builders) who unlike the companies of signals didn't share the number of their mixed engineer battalions.
+Format: [Artieri] Company: [Division] ([Regiments])
+
+[1]
+2nd Company: 13th "Re" Infantry Division (1, 2, 23) (Poor Source)
+[3]
+6th Company: 205th Coastal Division (127, 128, 129) (Poor Source)
+7th Company: 29th "Piemonte" Infantry Division (3, 4, 24) (Likely Typo)
+[1]
+9th Company: 10th "Piave" Auto-Transportable Division (57, 58, 20) (Poor Source)
+10th Company: 30th "Sabauda" Infantry Division (45, 46, 16)
+11th Company: 48th "Taro" Infantry Division (207, 208, 48)
+[1]
+13th Company: 31st "Calabria" Infantry Division (59, 60, 31)
+14th Company: 1st "Superga" Infantry Division (91, 92, 5)
+15th Company: 59th "Cagliari" Infantry Division (63, 64 59)
+16th Company: 2nd "Sforzesca" Infantry Division (53, 54, 17)
+[1]
+18th Company: 3rd "Ravenna" Infantry Division (37, 38, 11)
+19th Company: 37th "Modena" Infantry Division (41, 42, 29)
+20th Company: 4th "Livorno" Infantry Division (33, 34, 28)
+[1]
+22nd Company: 28th "Aosta" Infantry Division (5, 6, 22) (Poor Source)
+23rd Company: 5th "Cosseria" Infantry Division (89, 90, 37)
+24th Company: 6th "Cuneo" Infantry Division (7, 8, 27)
+25th Company: 58th "Legnano" Infantry Division (67, 68, 58)
+26th Company: 7th "Lupi di Toscana" Infantry Division (77, 78, 30)
+[1]
+28th Company: 102nd "Trieste" Motorized Division (65, 66, 9, 21)
+[1]
+30th Company: 9th "Pasubio" Auto-Transportable Division (79, 80, 8)
+31st Company: 33rd "Acqui" Infantry Division (17, 18, 33)
+32nd Company: 11th "Brennero" Infantry Division (231, 232, 9)
+33rd Company: ARMIR (Poor Source)
+34th Company: 12th "Sassari" Infantry Division (151, 152, 34)
+[1]
+36th Company: 15th "Bergamo" Infantry Division (25, 26, 4)
+37th Company: 57th "Lombardia" Infantry Division (73, 74, 57)
+38th Company: 13th "Re" Infantry Division (1, 2, 23)
+39th Company: 32nd "Marche" Infantry Division (55, 56, 32)
+40th Company: 14th "Isonzo" Infantry Division (23, 24, 6)
+[1]
+42nd Company: 10th "Piave" Auto-Transportable Division (57, 58, 20)
+43rd Company: 38th "Puglie" Infantry Division (71, 72, 25)
+44th Company: 16th "Pistoia" Infantry Division (35, 36, 3)
+[1]
+46th Company: 17th "Pavia" Type AS Division (11, 12, 56)
+47th Company: 56th "Casale" Infantry Division (11, 12, 56)
+48th Company: 18th "Messina" Infantry Division (93, 94, 2)
+49th Company: 49th "Parma" Infantry Division (49, 50, 49)
+[1]
+51st Company: 102nd "Trento" Motorized Division (61, 62, 7, 46)
+52nd Company: 20th "Friuli" Infantry Division (87, 88, 35)
+53rd Company: 41st "Firenze" Infantry Division (127, 128, 41)
+54th Company: 21st "Granatieri di Sardegna" Infantry Division (1G, 2G, 13)
+55th Company: 47th "Bari" Infantry Division (139, 140, 47)
+56th Company: 22nd "Cacciatori delle Alpi" Infantry Division (51, 52, 1)
+57th Company: 52nd "Torino" Infantry Division (81, 82, 52)
+58th Company: 23rd "Ferrara" Infantry Division (47, 48, 14)
+[1]
+60th Company: 65th "Granatieri di Savoia" Infantry Division (10G, 11G, 60)
+61st Company: 24th "Pinerolo" Infantry Division (13, 14, 18)
+62nd Company: 25th "Bologna" Infantry Division (39, 40, 10) (Later Transferred to 136th "Giovani Fascisti" Armored Division (136, 8, 136)) (Poor Source)
+[1]
+64th Company: 26th "Assietta" Infantry Division (29, 30, 25)
+[1]
+66th Company: 36th "Forli" Infantry Division (43, 44, 36)
+[1]
+68th Company: 28th "Aosta" Infantry Division (5, 6, 22)
+[1]
+70th Company: 29th "Piemonte" Infantry Division (3, 4, 24)
+71st Company: 54th "Napoli" Infantry Division (75, 76, 54)
+[4, Possible]
+76th Company: 19th "Venezia" Infantry Division (83, 84, 19)
+77th Company: 44th "Cremona" Infantry Division (21, 22, 7)
+78th Company: 103rd "Piacenza" Auto-Transportable Division (111, 112, 37)
+79th Company: 104th "Mantova" Auto-Transportable Division (113, 114, 11)
+80th Company: 105th "Rovigo" Auto-Transportable Division (227, 228, 117)
+[1]
+82nd Company: 27th "Brescia" Type AS Division (27, 28, 26)
+83rd Company: 51st "Siena" Infantry Division (31, 32, 51)
+[5, Unlikely]
+89th Company: 131st "Centauro" Armored Division (31, 5, 131) (Poor Source)
+[1]
+91st Company: 50th "Regina" Infantry Division (9, 10, 50)
+[2]
+94th Company: 53rd "Arezzo" Infantry Division (225, 226, 53)
+[6, Unlikely]
+101st Company: 1st "Eugenio di Savoia" Cavalry Division (12, 14, 11, 1) (Later Transferred to 6th "Alpi Graie" Alpine Division (3AG, 4AG, 6A))
+102nd Company: 2nd "Emanuele Filiberto Testa di Ferro" Cavalry Division (1, 2, 1, 2->134) (Later Transferred to 80th "La Spezia" Air-Transportable Division (125, 126, 80))
+[1]
+104th Company: 4th "Cuneense" Alpine Division (1A, 2A, 4A) (Poor Source)
+105th Company: 3rd "Amedeo Duca d'Aosta" Cavalry Division (3, 5, 3, 3->120)
+[15, Unlikely]
+121st Company: 1st "Taurinense" Alpine Division (3A, 4A, 1A)
+122nd Company: 2nd "Tridentina" Alpine Division (5A, 6A, 2A)
+123rd Company: 3rd "Julia" Alpine Division (8A, 9A, 3A)
+124th Company: 4th "Cuneense" Alpine Division (1A, 2A, 4A)
+125th Company: 5th "Pusteria" Alpine Division (7A, 11A, 5A)
+[1]
+127th Company: 55th "Savona" Type AS Division (15, 16, 12)
+[2]
+130th Company: 2nd CC.NN. Division "28 Ottobre" (231, 238, 202)
+131st Company: 131st "Centauro" Armored Division (31, 5, 131)
+132nd Company: 132nd "Ariete" Armored Division (32, 8, 132)
+[1]
+134th Company: 132nd "Ariete" Armored Division (32, 8, 132) (Poor Source)
+[16, Unlikely]
+151st Company: 151st "Perugia" Garrison Division (129, 130, 151)
+152nd Company: 152nd "Piceno" Garrison Division (235, 236, 336)
+153rd Company: 153rd "Macerata" Garrison Division (121, 122, 153)
+154th Company: 154th "Murge" Garrison Division (259, 260, 311)
+155th Company: 155th "Emilia" Garrison Division (119, 120, 155)
+156th Company: 156th "Vicenza" Garrison Division (277, 278, 156)
+157th Company: 157th "Novara" Garrison Division (153, 154, 157)
+158th Company: 158th "Zara" Garrison Division (291, 292, 158)
+159th Company: 159th "Veneto" Garrison Division (255, 256, 159)
+[1]
+161st Company: 102nd "Trento" Motorized Division (61, 62, 7, 46)
+[22, Unlikely]
+184th Company: 184th "Nembo" Parachute Division (183, 184, 185, 184)
+185th Company: 185th "Folgore" Parachute Division (186, 187, 185)
+[64, Unlikely]
+201st Company: Formed by the 15th Engineer Regiment, probably for the 1st "23 Marzo" CC.NN. Division
+250th Company: 50th "Regina" Infantry Division (9, 10, 50) (Poor Source)
+[Any, Unlikely]
+
+Not Included:
+40th "Cacciatori d'Africa" Infantry Division (African Engineer Company)
+Artieri Battalions - they had their own internal companies
+Blackshirt Divisions - unknown, if I were to guess they were numbered 200+
+For example the 4th Artieri Battalion had 1st, 2nd, and 3rd Companies, and the 15th Artieri Battalion had the 1st, 2nd, and 104th Companies. The Alpini Corps also had its own specialized battalion.
+
+This is for the companies only, which were assigned to the divisions. Each (most) corps had a raggruppamento of engineers including a battalion of artieri.
+
+The commander of the 3rd Company, 28th "Pavia" Infantry Regiment was a Francesco Coco. He was killed during the siege of Tobruk on 30 November 1941.
+The commander of the 203rd Artillery Regiment which was part of the 64th "Catanzaro" Infantry Division was an Ermenegildo Farfaneti, killed on 11 December 1940.
+The commander of an unknown group of the 44th "Marmarica" Artillery Regiment was a Giuseppe Ghione, killed on an unknown day in January 1940.
+The commander of the 1st Medium (M11/39) Tank Company, 4th Tank Infantry Regiment was a Giuseppe Locatelli, killed on 19 November 1940.
+The chief of staff of Bergonzoli's XXIII Army Corps was a Achille Meneghini, killed on an unknown day in January 1940.
+The commander of the 157th Infantry Regiment, 63rd "Cirene" Infantry Division was a Alfredo Marone. He survived the war.
+The commander of one group of 105/28 guns in the 24th Corps Artillery Raggruppamento was a Giuseppe Pasquali. He died on 26 December 1941.
+The commander of the 3rd Battalion, 157th "Cirene" Infantry Regiment was a Michele Purrello. He was killed on 3 January 1941.
+Three members of the 61st Light Tank Battalion (for the 61st "Sirte" Infantry Division but ended up with the Babini Group) were Adelio Ponce de Leon, Aldo Bruni, and Claudio d'Amico.
+
+The VIII Battaglione Lavoratori, or 8th Labor Battalion, was initially subordinated to the XX Army Corps Engineer Raggruppamento. Its commander was Vincenzo Fusco, who was killed 9 Decmeber 1940.
+Rostagno notes that this battalion was in Tobruk. If it was, it was certainly not at full strength and didn't have its original commander with it. I don't know much about its actions in either battle.
+
+About the mixed engineer battalions in North Africa, I don't have all that much information, but I believe these are the most likely realities:
+60th "Sabratha" Infantry Division: 72nd Engineer Company, Mobilized by the 20th Engineer Regiment
+61st "Sirte" Infantry Division: 73rd Engineer Company, Mobilized by the 20th Engineer Regiment
+62nd "Marmarica" Infantry Division: 74th Engineer Company, Mobilized by the 21st Engineer Regiment
+63rd "Cirene" Infantry Division: 75th Engineer Company, Mobilized by the 21st Engineer Regiment
+64th "Catanzaro" Infantry Division: Former blackshirt engineer company
+
+The official Italian General Staff Historical Office book about the engineers adds a bit more but doesn't include concrete numbers. But here's what it includes:
+The LXI Mixed Engineer Battalion was initially formed in Bir Ghinea and then transferred to Misurata by 30 April 1938. Until its formation, the Sirte Division had no engineer units.
+Still no detail about the component elements of the LXI Mixed Engineer Battalion, but I stand by my number of 73 for the artieri company and the normal 61 for the signals company.
+
+Another big mistake by me that I should probably own up to here: I mistranslated "reparto" as "detachment" many times. That's not what it means. It just means "unit". Like, any unit.
+
+Of the 6th Australian Division's 3 field regiments (2/1st, 2/2nd, and 2/3rd), only the first 2 were available at Bardia but the 2/3rd managed to join the division at Tobruk.
+Among the 3 Infantry Brigades of the Division, there was a total of just 11 anti-tank guns, the strength of a single battery from an anti-tank regiment. (The actual 2/1st Anti-Tank Regiment had not arrived.)
+
+The structure of the 7th Support Group isn't detailed to the smallest subunit in any of my sources, but we can learn a bit from the similar 1st Support Group of 1st Armoured Division, on September 1939.
+The unit's headquarters was termed a battery rather than a company. The 1st Support Group's infantrymen were the 1st Rifle Brigade and 2nd King's Royal Rifle Corps, each with 4 motorized companies.
+Its two field regiments, the 1st and 2nd RHA, had 2 batteries of 2 troops of 4 guns apiece. Each battery also had 6 anti-aircraft machine guns and 4 light anti-tank rifles.
+The engineer component consisted of little: just a single engineer company and field park troop (platoon level). The Commander, Royal Engineers was also subordinated to the Support Group for some reason.
+Worst of all, the divisional headquarters had a divisional signals "battalion" but it consisted of just a single company, the 1st Company, Royal Corps of Signals.
+
+By the May 1940 reforms, most of the idiosynchracies of the above establishment had been fixed. The engineers were no longer part of the support group.
+The signals unit had been expanded massively. Each of the two armored brigades got its own company, unlikely the single one split among all brigades of an infantry division. The total thus came to 4 companies.
+Honestly this was a rare moment of insight in the organization of British Armoured Divisions during this period of the war. They at least understood the value of good communications.
+
+I also read the original text of Playfair's "The Mediterranean and Middle East: Volume 1" but in all honesty he adds very little. Few orders of battle and unit details are included.
+
+The 1st Battalion, South Staffordshire Regiment had the most miniscule possible role to play in the North African Campaign.
+Just the A Comapny of this battalion joined Selby Force and struck Sidi Barrani. Afterward, the battalion just escorted prisoners and did rear-line duties until being sent to India, leaving the theater.
+The 67th (Suffolk) and 68th (4th West Lancashire) Medium Regiments, Royal Artillery were both sent to reinforce Klopper's force defending Tobruk and both were captured in the subsequent defeat.
+
+3rd Regiment, Royal Horse Artillery had its P and J companies detached to 4th Indian Division in October 1940. I don't know if the batteries were eventually returned but it seems unlikely that they left for East Africa.
 
 
