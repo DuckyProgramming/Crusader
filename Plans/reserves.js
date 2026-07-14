@@ -2083,5 +2083,124 @@ reserves=[
         elements:[
             {type:`Small Ruined Infantry Company`},
         ]
+    },{
+        level:1,type:[`Infantry`],team:`Italian`,
+        desc:[`102nd Infantry Division "Trento"`,`102ª Divisione di Fanteria Motorizzata "Trento"`],name:`102`,designation:`Trento`,commander:`Stampioni`,icon:`trento`,
+        pos:[80,1422],
+        elements:[
+            {
+                level:3,type:[`Infantry`],team:`Italian`,
+                desc:[`61st Infantry Regiment`,`61° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`61`,designation:`Sicilia`,commander:`Giorgetti`,icon:`trento`,
+                pos:[160,1422],
+                elements:[
+                    {level:4,type:`Infantry`,team:`Italian`,desc:[`1st Battalion, 61st Infantry Regiment`,`I Battaglione Fucilieri, 61° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`1`,designation:`61`,commander:`Pittau`},
+                    {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 61st Infantry Regiment`,`II Battaglione Fucilieri, 61° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`2`,designation:`61`,commander:`Menzio`},
+                    {level:4,type:`Mixed Support`,team:`Italian`,desc:[`3rd Mixed Support Battalion, 61st Motorized Infantry Regiment`,`III Battaglione Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`3`,designation:`61`,commander:`Rabezzana`},
+                ],
+            },{
+                level:3,type:[`Infantry`],team:`Italian`,
+                desc:[`62nd Infantry Regiment`,`62° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`62`,designation:`Sicilia`,commander:`Gatti`,icon:`trento`,
+                pos:[235,1422],
+                elements:[
+                    {level:4,type:`Infantry`,team:`Italian`,desc:[`1st Battalion, 62nd Infantry Regiment`,`I Battaglione Fucilieri, 62° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`1`,designation:`62`,commander:`Scolli`},
+                    {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 62nd Infantry Regiment`,`II Battaglione Fucilieri, 62° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`2`,designation:`62`,commander:`de Polis`},
+                    {level:4,type:`Mixed Support`,team:`Italian`,desc:[`3rd Mixed Support Battalion, 62nd Motorized Infantry Regiment`,`III Battaglione Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzata "Sicilia"`],name:`3`,designation:`62`,commander:`Gennaro`},
+                ],
+            },
+        ],
+    },{
+        level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
+        pos:[2447,658],
+        elements:[
+            {level:4,type:`Small Heavy Artillery`,team:`Guardia alla Frontiera`,desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V° Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Tramontin`},
+            {level:4,type:`Small Heavy Artillery`,team:`Guardia alla Frontiera`,desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI° Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Verna`},
+            {level:4,type:`Small Heavy Artillery`,team:`Guardia alla Frontiera`,desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII° Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Cupidi`},
+        ],
+    },{
+        level:4,type:[`Artillery`],team:`Polish`,
+        desc:[`Carpathian Artillery Regiment`,`Karpacki Pułk Artylerii`],name:`C`,designation:``,commander:`Gliwicz`,icon:`70`,
+        pos:[840,510],
+        elements:[
+            {level:5,type:`Artillery Battery`,desc:[`A Battery, Carpathian Artillery Regiment`,`Bateria A, Karpacki Pułk Artylerii`],name:`A`,designation:`KPA`,commander:``},
+            {level:5,type:`Artillery Battery`,desc:[`B Battery, Carpathian Artillery Regiment`,`Bateria B, Karpacki Pułk Artylerii`],name:`B`,designation:`KPA`,commander:``},
+            {level:5,type:`Artillery Battery`,desc:[`C Battery, Carpathian Artillery Regiment`,`Bateria C, Karpacki Pułk Artylerii`],name:`C`,designation:`KPA`,commander:``},
+        ],
+    },{
+        level:5,type:[`Artillery`],team:`Australian`,
+        desc:`"Bush" Artillery" "Mr. Clarke’s Guns"`,name:`Bush`,designation:``,commander:`Clarke`,icon:``,
+        pos:[716,475],
+        elements:[
+            {type:`Small Artillery Battery`},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Motorized`],team:`British`,
+        desc:[`25th Battalion, Royal Artillery`,`25th Field Regiment, Royal Artillery`],name:`25`,designation:``,commander:`Pope`,icon:`4id`,
+        pos:[1397,554],
+        elements:[
+            {
+                level:5,type:[`Artillery`,`Motorized`],team:`British`,
+                desc:`12th Battery, Royal Artillery`,name:`12`,designation:`25 RA`,commander:``,icon:`4id`,
+                pos:[1240,684],
+                elements:[
+                    {type:`Motorized Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Motorized`],team:`British`,
+                desc:`31st Battery, Royal Artillery`,name:`31`,designation:`25 RA`,commander:``,icon:`4id`,
+                pos:[1506,584],
+                elements:[
+                    {type:`Motorized Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Motorized`],team:`British`,
+                desc:`287th Battery, Royal Artillery`,name:`287`,designation:`25 RA`,commander:``,icon:`4id`,
+                pos:[1343,370],
+                elements:[
+                    {type:`Motorized Artillery Battery`},
+                ],
+            },
+        ],
+    },{
+        level:1,type:[`Infantry`,`Tank`],team:`British`,
+        desc:`Frontier Force`,name:`Frontier`,designation:``,commander:`Gott`,icon:``,
+        pos:[1676,1080],
+        elements:[
+        ],
+    },{
+        level:4,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+        desc:[`1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`2/1`,designation:``,commander:`St. John`,icon:`6a`,
+        pos:[3599,1847],
+        elements:[
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`1st Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`1st Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`1`,designation:`2/1`,commander:``},
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`2nd Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2nd Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`2`,designation:`2/1`,commander:``},
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`3rd Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`3rd Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`3`,designation:`2/1`,commander:``},
+        ],
+    },{
+        level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+        desc:[`1st Battery, 1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`1st Battery, 2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`1`,designation:`2/1`,commander:``,icon:`6a`,
+        pos:[3540,1988],
+        elements:[
+            {type:`Motorized Anti-Tank Company`},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Halfaya`,`Capisaldo Halfaya`],name:`Halfaya`,designation:``,commander:``,icon:`trento`,
+        pos:[1301,834],
+        elements:[
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 10th Bersaglieri Battalion`,`1ª Compagnia, 10° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
+            {level:5,type:`Motorcycle Infantry Company`,team:`German`,desc:[`2nd Company, 15th Motorcycle Battalion`,`2./Kradschützen-Bataillon 15`],name:`2`,designation:`15`,commander:``},
+            {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`1st Company, 551st Mixed Support Battalion`,`1ª Compagnia Cannoni Controcarro, DLI Battaglione Armi d'Accompagnamento`],name:`1`,designation:`551`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`7th Battery, 46th Artillery Regiment`,`7ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`7`,designation:`46`,commander:``},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Musaid`,`Capisaldo Musaid`],name:`Musaid`,designation:``,commander:``,icon:`trento`,
+        pos:[1152,670],
+        elements:[
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`11`,commander:``},
+            {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`9th Company, 61st Motorized Infantry Regiment "Sicilia"`,`9ª Compagnia Cannoni Controcarro, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`9`,designation:`61`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`6th Battery, 46th Artillery Regiment`,`6ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`6`,designation:`46`,commander:``},
+        ],
     },
 ]

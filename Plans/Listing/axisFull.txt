@@ -1,76 +1,115 @@
-Deutsches Afrika Korps (16 Battalions)
+German Tanks:
+| 1/8
+| 2/8
 
-15th Panzer Division (12 Battalions)
-	8th Panzer Regiment (2 Battalions) (7th Company Composed of Captured Tanks)
-	15th Infantry Brigade (4 Battalions)
-		115th Motorized Infantry Regiment (2 Battalions) (2nd Company Mechanized)
-		200th Regimental Staff z.b.V. (2nd Machine Gun Battalion, 15th Motorcycle Battalion)
-	33rd Reconnaissance Battalion
-	33rd Artillery Regiment (1 Battalion, 1 Half-and-Half Battalion, 1 Heavy Battalion)
-	33rd Motorized Engineer Battalion
-	33rd Anti-Tank Battalion
+German Infantry:
+| 1/115
+| 2/115
+| 3/347 / 2/200
+| 2 MG / 3/115
+| 15 Motorcycle / 1/100
+| 300 "Oasis"
+| 1 Replacement
 
-Divisional Command z.b.V. "Afrika" (4 Battalions)
-	3rd Battalion, 347th Infantry Regiment
-	300th "Oasis" Battalion Staff z.b.V. (6th and 12th Oasis Companies, 2nd Company, 39th Engineer Battalion, 580th Reconnaissance Company)
-	Sonderverband 288 (2 Battalions)
+German Artillery:
+| 1/33
+| 2/33
+| 3/33
 
+German Reconaissance:
+| 33
 
+German Anti-Tank:
+| 33
 
-XXII Army Corps (64 Battalions)
+German Engineers:
+| 33
 
-2nd Blackshirt Battalion "Volontari della Libia"
-140th Blackshirt Battalion "Aquilia"
-3rd Armored Car Squadrons Group, "Cavalleggeri di Monferrato"
-64th Replacement Battalion
+German Anti-Air:
+| 1/43
 
-XXII Army Corps Artillery Command (13 Battalions)
-	10th Corps Artillery Regiment (2 Battalions (7,17))
-	22nd Corps Artillery Regiment (2 Battalions (1,Composite))
-	25th Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
-	55th Artillery Regiment "Brescia" (3 Battalions (1,2,3))
-	1st Group, 26th Artillery Regiment "Pavia"
-	15th Anti-Aircraft Group
+Italian Tanks:
+| 1 M
+| 21 L/21 M
+| 52 M
+| 61 L
 
-22nd Army Corps Frontier Guard Command (9 Battalions)
-	31st Frontier Guard Coverage Sector (5 Battalions)
-		31st/A Subsector (4 Static Machine Gun Companies)
-		31st/B Subsector (2 Static Machine Gun Companies)
-		31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (1,2,2) Companies)
-	Frontier Guard Anti-Tank Group (3 Battalions (1,2,3) With (1,1,1) Companies)
-	31st Libyan Coastal Infantry Battalion
+Italian Infantry:
+| 1/61
+| 2/61
+| 3/61
+| 1/62
+| 2/62
+| 3/62
+| 1/69
+| 2/69
+| 3/69
+| 1/70
+| 2/70
+| 3/70
+| 61 Replacement
+| 64 Replacement
 
-Army Corps Reconnaissance Regrouping (RECA) (7 Battalions)
-	Later Formed Into 136th Armored Division "Giovani Fascisti"
-	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armored Car Company, 2 Motorcycle Companies)
-	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
-	Flying Batteries Regrouping (RBV) (4 Motorized Artillery Battalions (1/14,2/15,16,17))
-		Later Renamed to 136th Artillery Regiment With 14th, 15th, 16th, and 17th Battalions
+Italian Irregular Infantry:
+| 1 "Giovani Fascisti"
+| 2 "Giovani Fascisti"
+| 2 CC.NN. "Volontari della Libia"
+| 140 CC.NN. "Aquilia"/238 "Aurelio Padovani"/2 "28 Ottobre"
+| 31/A Frontier Guard Subsector
+| 31/B Frontier Guard Subsector
+| 31 Libyan Coastal
 
-61st Infantry Division "Sirte" (12 Battalions)
-	69th "Ancona" Infantry Regiment (3 Battalions)
-	70th "Ancona" Infantry Regiment (3 Battalions)
-	43rd Artillery Regiment (3 Battalions (1,2,3))
-	Artillery Regrouping "Sirte" (2 Battalions)
-		Formed From Remnants of 1st and 2nd Frontier Guard Artillery Groups
-	61st Machine Gun Battalion
-	61st Replacement Battalion
-	61st Mixed Engineer Battalion
-	
-102nd Infantry Division "Trento" (15 Battalions)
-	61st "Sicilia" Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	62nd "Sicilia" Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (3 Battalions)
-		8th Bersaglieri Battalion Formed From Independent Bersaglieri Motorcycle Companies (22nd, 61st)
-	46th Artillery Regiment (4 Battalions (1,2,3,4))
-	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
-	51st Mixed Engineer Battalion
+Italian Bersaglieri:
+| Rapid
+| 8
+| 10
+| 11
 
-4th Tank Infantry Regiment (4 Battalions)
-	1st Medium Tank Battalion
-	21st Light Tank Battalion
-		Later Formed into 21st Medium Tank Battalion
-	52nd Medium Tank Battalion
-	61st Light Tank Battalion
+Italian Infantry Support:
+| 61
+| 551
 
+Italian Cavalry:
+| 3 AC "Cavalleggeri di Monferrato"
 
+Italian Artillery:
+| 1/26
+| 1/43
+| 2/43
+| 3/43
+| 1/46
+| 2/46
+| 3/46
+| 4/46
+| 1/55
+| 2/55
+| 3/55
+| 1 V / 14/136
+| 2 V / 15/136
+| 16/136
+| 17/136
+
+Italian Corps Artillery:
+| 1
+| 7
+| 17
+| 105
+| 130
+| 148
+| 150
+| Composite
+
+Italian Frontier Guard Artillery:
+| 1/32 / 313 G.a.F. / 313 "Sirte"
+| 2/32 / 314 G.a.F. / 314 "Sirte"
+| 3/32
+| 5/31
+| 6/31
+| 7/31
+| Coast Sector
+
+Italian Reconaissance:
+| 6 PAI "Romolo Gessi
+
+Italian Anti-Air:
+| 15

@@ -1,0 +1,150 @@
+Eastern Libya Guardia Alla Frontiera Command (20/64) - Umberto Barberis
+    Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (26)
+        Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (6) #
+            | Guardia alla Frontiera Strongpoint Zeitun
+            | Guardia alla Frontiera Strongpoint Sidi Daud
+            | Guardia alla Frontiera Strongpoint Suesi
+            | Guardia alla Frontiera Strongpoint Bir Junes
+            Subsector Reserve (HQ 2nd Battalion, 69th Infantry Regiment) (2) #
+                | 6th Company, 69th Infantry Regiment
+                | 7th Company, 69th Infantry Regiment
+
+        Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (4) #
+            | Guardia alla Frontiera Strongpoint Dahar el Azazi
+            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+            Subsector Reserve (HQ 1st Battalion, 69th Infantry Regiment) (2) #
+                | 2nd Company, 69th Infantry Regiment
+                | 5th Company, 69th Infantry Regiment
+
+        Sector Rear (HQ 69th Infantry Regiment, "Ancona") (16) - Angelo Cascino
+            Position El Adem (HQ 4th Tank Infantry Regiment) (11)
+                1st Medium Tank Battalion (2) #
+                    | 2nd Company, 1st Medium Tank Battalion (16 37/10)
+                    | 3rd Company, 1st Medium Tank Battalion (16 37/10)
+                63rd Light Tank Battalion (2) #
+                    | Composite Company, 21st Light Tank Battalion
+                    | Composite Company, 63rd Light Tank Battalion
+                3rd Battalion, 69th Infantry Regiment (5) #
+                    | 7th Company, 70th Infantry Regiment
+                    | 9th Company, 69th Infantry Regiment
+                    | 10th Company, 69th Infantry Regiment
+                    | 11th Company, 69th Infantry Regiment
+                    | 12th Company, 69th Infantry Regiment
+                | Naval Battery "Nembo" (4 120/45) ++++
+                | Naval/Guardia alla Frontiera Mixed Battery "Buffolotto" (2 149/35, 1 76/40, 1 47/32) ++++
+            Position Ras Beiad (HQ 64th Replacement Battalion) (3) #
+                | 1st Company, 64th Replacement Battalion
+                | 2nd Company, 64th Replacement Battalion
+                | 8th Company, 69th Infantry Regiment
+            | 141st Mortar Company (0 81/14)
+            | 142nd Mortar Company (0 81/14)
+
+    Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
+        1st Group, 26th Artillery Regiment "Pavia" (3) #
+            | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
+        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) # - Guido Baggini
+            | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
+        130th Group, 25th Army Corps Artillery Raggruppamento (3) #
+            | 7th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 8th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 9th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+        150th Group, 25th Army Corps Artillery Raggruppamento (2) #
+            | 1st Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 2nd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+        | 2nd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
+
+    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (18)
+        2nd Group, 43rd Artillery Regiment "Sirte" (3) #
+            | 4th Battery, 43rd Artillery Regiment (4 75/27) ++++
+            | 5th Battery, 43rd Artillery Regiment (4 75/27) ++++
+            | 6th Battery, 43rd Artillery Regiment (4 75/27) ++++
+        3rd Group, 55th Artillery Regiment "Brescia" (3) #
+            | 7th Battery, 55th Artillery Regiment (4 75/27) ++++
+            | 8th Battery, 55th Artillery Regiment (4 75/27) ++++
+            | 9th Battery, 55th Artillery Regiment (4 75/27) ++++
+        6th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
+            | 230th Bis Battery Guardia alla Frontiera (4 120/25) ++++
+            | 231st Bis Battery Guardia alla Frontiera (4 120/25) ++++
+        7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
+            | 244th Battery Guardia alla Frontiera (4 149/35) ++++
+            | 245th Battery Guardia alla Frontiera (4 149/35) ++++
+        105th Group, 25th Army Corps Artillery Raggruppamento (3) #
+            | 10th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 11th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 12th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+        148th Group, 25th Army Corps Artillery Raggruppamento (4) #
+            | 3rd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 4th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 5th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | 6th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+        | 1st Battery, 15th Anti-Aircraft Group (4 75/46) ++++
+
+    Rapid Column (7) #
+        | 1st Company, 1st Medium Tank Battalion (7 37/10)
+        | 22nd Bersaglieri Motorcycle Company (Motorized)
+        | 61st Bersaglieri Motorcycle Company (Motorized)
+        | 1st Company, 69th Infantry Regiment (Motorized)
+        | 3rd Company, 69th Infantry Regiment (Motorized)
+        | 4th Company, 69th Infantry Regiment (Motorized)
+        | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) ++++++
+    
+    Support Weapons (3) (HQ 15th Anti-Aircraft Group) #
+        | 25th Anti-Tank Battery (6 47/32) ++++++
+        | 69th Infantry Gun Battery (4 65/17) ++++
+        | 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (8 20/65) ++++++++
+
+
+
+6th Australian Division (10/36) - Iven McKay
+    16th Australian Infantry Brigade - Arthur Allen (19)
+        2/1st Australian Infantry Battalion (4) %
+            : A Company, 2/1st Australian Infantry Battalion
+            : B Company, 2/1st Australian Infantry Battalion
+            : C Company, 2/1st Australian Infantry Battalion
+            : D Company, 2/1st Australian Infantry Battalion
+        2/2nd Australian Infantry Battalion (4) %
+            : A Company, 2/2nd Australian Infantry Battalion
+            : B Company, 2/2nd Australian Infantry Battalion
+            : C Company, 2/2nd Australian Infantry Battalion
+            : D Company, 2/2nd Australian Infantry Battalion
+        2/3rd Australian Infantry Battalion (4) %
+            : A Company, 2/3rd Australian Infantry Battalion
+            : B Company, 2/3rd Australian Infantry Battalion
+            : C Company, 2/3rd Australian Infantry Battalion
+            : D Company, 2/3rd Australian Infantry Battalion
+        2/1st Field Regiment, Royal Australian Artillery (2) %
+            : 1st Battery, Royal Australian Artillery
+            : 2nd Battery, Royal Australian Artillery
+        2/2nd Field Regiment, Royal Australian Artillery (2) %
+            : 3rd Battery, Royal Australian Artillery
+            : 4th Battery, Royal Australian Artillery
+        7th Royal Tank Regiment (3) %
+            : A Squadron, 7th Royal Tank Regiment
+            : B Squadron, 7th Royal Tank Regiment
+            : C Squadron, 7th Royal Tank Regiment
+    7th Support Group - William Gott (10)
+        1st Battalion, King's Royal Rifle Corps (4) %
+            : A Company, 1st Battalion, King's Royal Rifle Corps
+            : B Company, 1st Battalion, King's Royal Rifle Corps
+            : C Company, 1st Battalion, King's Royal Rifle Corps
+            : D Company, 1st Battalion, King's Royal Rifle Corps
+        2nd Battalion, Rifle Brigade (4) %
+            : A Company, 2nd Battalion, Rifle Brigade
+            : B Company, 2nd Battalion, Rifle Brigade
+            : C Company, 2nd Battalion, Rifle Brigade
+            : D Company, 2nd Battalion, Rifle Brigade
+        : M Battery, 3rd Regiment, Royal Horse Artillery
+        : C Battery, 4th Regiment, Royal Horse Artillery
+    1st Free French Marine Infantry Battalion (2) %
+        : 1st Company, 1st Free French Marine Infantry Battalion
+        : 2nd Company, 1st Free French Marine Infantry Battalion
+    51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (2) %
+        : 203rd Battery, Royal Artillery
+        : 370th Battery, Royal Artillery
+    : 2/1st Field Company, Royal Australian Engineers
+    : 1st Light Anti-Aircraft Battery, Royal Artillery
+    : A Squadron, 6th Australian Divisional Cavalry Regiment
+
+

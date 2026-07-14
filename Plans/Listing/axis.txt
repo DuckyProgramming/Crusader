@@ -94,8 +94,6 @@ Italian Corps Artillery:
 | 1
 | 7 / 311 G.a.F. / 16/136
 | 17 / 312 G.a.F. / 17/136
-| 42
-| 43
 | 105
 | 130
 | 148
@@ -108,7 +106,6 @@ Italian Frontier Guard Artillery:
 | 5/31
 | 6/31
 | 7/31
-| Anti-Tank / 1 V / 14/136
 
 Italian Reconaissance:
 | 6 PAI "Romolo Gessi

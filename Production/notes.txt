@@ -1066,6 +1066,9 @@ According to some very shaky data, the XXXIV battalion had 4 companies, or at le
 But, this was a special battalion formed from previously destroyed Maletti units, so it ain't great. It had previously been destroyed and thus its reconstitution was probably abnormal.
 From this, even some non-engaged battalions managed to lose a ton of men and be down to few troops, which makes me think that the organizations were utterly arbitrary and I should use my best judgment.
 
+The XXXIV Battalion that was to be reformed may be the one that Montanari mentions on page 205 of "The First British Offensive". There, it's referred to as "battalion of 600 men to be constituted".
+The book also includes the name of its probably first commander, a Colonel Colpani. He could be a survivor from Nibeiwa or a random staff officer found in Cyrenaica.
+
 Other than the two motorized divisions, some claim that the 60th-63rd divisions named after African towns were also given the red shield insignia.
 I really can't be bothered to make this change though, and I think the blue one looks better anyway, so I probably won't do anything about this.
 
@@ -1453,6 +1456,7 @@ Montanari also notes the arrival of the following reinforcements which I'll try 
 Metropolitan Battalion - 140th CC.NN. Battalion
 This is a bit of a weird way to say it, but that's just how "Operations" is. "The First British Offensive" just calls it an infantry battalion
 Libyan Complement/Reserve Battalion - CC.NN. Battalion "Volontari della Libia"
+(This is probably wrong. Some actual Libyan Complement Battalions have been identified and are distinct units.)
 A group of 75/46 from Cyrene (the city, not the division) - XV Group CA
 Two groups of 105/28 from Barce - XLII and XLIII groups, or maybe XVII and XXXV groups (one of which later left) (not sure)
 (Actually this was possibly the 20th CAR, which didn't make it in time, since we know where the 22nd CAR was earlier at)
@@ -1880,7 +1884,7 @@ Some more information on the units that the Tobruk GaF were withdrawn to replace
 150th CC.NN. Battalion (of the 250th CC.NN. Legion, of the 4th CC.NN. Division "3 Gennaio"), 75/27 and 47/32 batteries from Maddalena and Garn ul Grein (75/27 were replaced with 77/28)
 Prior to this, the 150th CC.NN. Battalion had been split up into its four companies, with the positions of Giarabub, Garn ul Grein, Maddalena, and and Sheferzen each receiving one. 
 There were also other elements of the 4th CC.NN. Division in the form of 75/27 batteries. These were presumably also replaced with 77/28 guns from Tobruk.
-So, if he is to be believed, four companies, or company-sized units, were withdrawn from Tobruk to defend this position until surrendering
+So, if he is to be believed, four companies, or company-sized units, were withdrawn from Tobruk to defend this position until surrendering.
 They were also joined by Castagna's original Libyan machine gun companies, but it seems many of them took the chance to desert since they disappear later in his book.
 
 Salvatore Castagna claims that the GaF companies transferred to Giarabub's defense from Tobruk were the 1st, 3rd, 7th, and 10th GaF companies, as well as some 47/32 and 20/65 guns.
@@ -2110,7 +2114,7 @@ I'm not very well read in the Albanian-Greek campaigns and even if I were, odds 
 
 It's time to return the favor. I've finally worked up the courage to return to Wikipedia (which I haven't been on for a while) and return all I've gained so that future researchers won't have to do the same.
 
-On tracking Lomax's 16th infantry Brigade, after joining in the destruction of the Libyan Divisions Group at Sidi Barrani, appears to have moved to take a peripheral role in the battle of Bardia.
+On tracking Lomax's 16th Infantry Brigade, after joining in the destruction of the Libyan Divisions Group at Sidi Barrani, appears to have moved to take a peripheral role in the battle of Bardia.
 After that however, it appears to have returned to base to join the rest of the 6th/70th Division in planned operations against Syria. It wouldn't got to Tobruk until late 1941.
 
 The Maletti Group's commonly cited order of battle at Nibeiwa is not the correct one. While it is true that the Raggruppamento had a mixed tank battalion with two companies of different types on formation, this changed.
@@ -2577,6 +2581,7 @@ The Savona Division's infantry gun batteries also later reappear despite having 
 GaF artillery commander identities have been found (mostly Lt-Col.s):
 31st GaFAR - Guido Baggini
 32nd GaFAR - Gaetano Mesiano
+(There's also data in this book for the rest of the GaFARs, but I'm not going to transcribe them here as they are irrelevant.)
 
 The commander of the 17th Battery of the VI Libyan Artillery Group (from the 1st Libyan Division) was an Amadio. The battery was destroyed in June just as the war began.
 The VI Libyan Group's commander was a Paolo Sabbataini. He did not survive the attack on the Tummars and his command was wiped out.
@@ -2788,6 +2793,8 @@ Anti-Tank Rifles: 18
 So, it's strenght was around normal or even above standard in all respects. It perhaps could be given a sort of "buffed" status as early as Crusader, but at the same time its parent Division was lacking in support.
 For all the company-level and battalion-level firepower they could leverage, communications were poor, the engineers were Italians subbing in for the 2nd Company/39th Engineer Battalion which was in Bardia, and there wasn't any artillery.
 As a siege formation working in tandem with Italian units and corps-level forces (not represented in my game), it's not bad, but were it and the rest of its division to fight a battle on their own it would be completely over.
+
+I started doing this at some point and it's really confusing. Ad'A is an abbreviation for "Armi d'Accompagnamento" or support/heavy weapons.
 
 We've tracked artillery, we've tracked mortars, we've tracked personnel. I wanted to track machine guns next, but I'm sure the splitting up of the 61st Machine Gun Battalion will greatly complicate things.
 Expected Count:
@@ -3220,6 +3227,7 @@ The commander of the 3rd Company, 28th "Pavia" Infantry Regiment was a Francesco
 The commander of the 203rd Artillery Regiment which was part of the 64th "Catanzaro" Infantry Division was an Ermenegildo Farfaneti, killed on 11 December 1940.
 The commander of an unknown group of the 44th "Marmarica" Artillery Regiment was a Giuseppe Ghione, killed on an unknown day in January 1940.
 The commander of the 1st Medium (M11/39) Tank Company, 4th Tank Infantry Regiment was a Giuseppe Locatelli, killed on 19 November 1940.
+(I thought this wouldn't be relevant, but I remembered that many of the base maps, including Operation Compass, are out of date, so that's no longer the case.)
 The chief of staff of Bergonzoli's XXIII Army Corps was a Achille Meneghini, killed on an unknown day in January 1940.
 The commander of the 157th Infantry Regiment, 63rd "Cirene" Infantry Division was a Alfredo Marone. He survived the war.
 The commander of one group of 105/28 guns in the 24th Corps Artillery Raggruppamento was a Giuseppe Pasquali. He died on 26 December 1941.
@@ -3241,6 +3249,7 @@ The LXI Mixed Engineer Battalion was initially formed in Bir Ghinea and then tra
 Still no detail about the component elements of the LXI Mixed Engineer Battalion, but I stand by my number of 73 for the artieri company and the normal 61 for the signals company.
 
 Another big mistake by me that I should probably own up to here: I mistranslated "reparto" as "detachment" many times. That's not what it means. It just means "unit". Like, any unit.
+Also, "aliquota", while the translation is kinda screwy, just means "part" or "portion". It can also be abbreviated "aliq.", meaning that a unit is incomplete in its deployment.
 
 Of the 6th Australian Division's 3 field regiments (2/1st, 2/2nd, and 2/3rd), only the first 2 were available at Bardia but the 2/3rd managed to join the division at Tobruk.
 Among the 3 Infantry Brigades of the Division, there was a total of just 11 anti-tank guns, the strength of a single battery from an anti-tank regiment. (The actual 2/1st Anti-Tank Regiment had not arrived.)
@@ -3262,5 +3271,71 @@ Just the A Comapny of this battalion joined Selby Force and struck Sidi Barrani.
 The 67th (Suffolk) and 68th (4th West Lancashire) Medium Regiments, Royal Artillery were both sent to reinforce Klopper's force defending Tobruk and both were captured in the subsequent defeat.
 
 3rd Regiment, Royal Horse Artillery had its P and J companies detached to 4th Indian Division in October 1940. I don't know if the batteries were eventually returned but it seems unlikely that they left for East Africa.
+
+The 2nd Battalion, Rifle Brigade was a unique battalion that followed an axis-style structure with a heavy company (in British terminology, this was called the "S" company).
+It seems that some regiments and their battalions decided to conduct this reform at some point and that it wasn't followed by most of the army which stuck with companies A-D. All of them also had companies lettered HQ.
+
+According to Montanari, only a portion of the G.a.F. personnel and anti-tank guns were committed to the first line of the Eastern Sector. I'm going to not worry about this, though, as I can't track it.
+Instead, the four rifle companies attached to the sector's frontline will be the interval troops. And yes, they are necessary, as the 500 meter intervals were seriously in need of defense.
+I was thinking that this might mean the strength of the G.a.F. in this sector was less than 6 companies, maybe because of Rostagno's report claiming that it was down 2 strongpoitns, but there's no justification.
+If this did happen, I would have to find where these personnel went, and there's nowhere. We know only about 4 companies of strength were sent to the frontier and that was it in terms of drawdowns.
+Those 1000 men were never followed by another force. So there's no chance for the defense of Tobruk to decrease even further.
+
+Out of interest, I've attempted to transcribe the order of battle for Ras el Dai, a position held by Pescatori's 2nd Libyan Division:
+2nd "Orfella" Libyan Battalion, 16th "Azizia" Libyan Battalion, 2 77/28 Batteries (divisional), 1 105/28 Battery (from II/21st CAR), 1 20/65 Battery with 6 Guns, 1 47/32 Company With 6 Guns
+
+I think by now there's no more appetite for changes to the G.a.F. infantry, so let's just recap everything and make sure it's all consistent and going well.
+There were initially 3300 personnel, 1500 in the XXXI sector and 1800 in the XXXII sector. Each had 6 strongpoitns, so the XXXI sector had 250 each and the XXXII sector had 300 each.
+Montanari notes 3 positions were reconstituted, each with a "heavily reinforced company". It's like the same happened to Giarabub, resulting in a fourth company.
+These personnel replaced the troops of the 150th Blackshirt Battalion which were tied down acting as the garrison, freeing them up to get destroyed deeper into Egypt.
+These 4 companies were taken evenly, with two taken from the XXXI sector and two from the XXXII sector. This decreased the strength of the Tobruk garrison by 1000 men.
+With all of these changes, the XXXII sector's command had been moved forward to handle the reconstituting troops, or had been disbanded entirely, leaving behind its four strongpoints.
+At this point, Rostagno made his report. He noted that two strongpoints had been taken from the XXXI sector but lacked any information on the composition of the XXII sector.
+
+When the 2nd "Volontari della Libia" Blackshirt Battalion arrived, it was slotted into subsector C/E. The existing two companies/strongpoints of G.a.F. there were sent to subsector A.
+This resulted in a final defense of six strongpoints for subsector XXXI/A, two for subsector XXXI/B, and two loose remnant strongpoints that were probably directly subordinate to the XXXI sector.
+While this doesn't align with Rostagno's report as changes had been made, it's safe to assume that Pitassi Mannella made the above changes, as they certainly do improve the defense dispositions.
+Montanari also doesn't give anything of value regarding the "Volontari della Libia" battalion and in fact manages to show it with just one company. I'm gonna disagree on that one. Unless...
+
+I suspect from the cursed counting that the naval battery "Vittoria", armed with three 76/40 (misspelled by Montaari as 76/30) guns, was actually detached from one of the existing naval batteries.
+I have no other idea where its origin would be. There's no ship "Vittoria" that went anywhere near Tobruk and there's no record anywhere else of such a battery.
+
+I'm going to put together a sort of cursed mixed battery to deal with the loose anti-tank gun elements that were lying around the fortress.
+This battery is composed of the 2 149/35s of the "Buffolotto" section, 1 76/40 found in the naval stores, and 1 47/32 from the G.a.F., totaling 4 disparate guns.
+Since the only named element in its composition is the "Buffolotto" section, I'm going to use that name for the mixed battery in total.
+Also, the term Montanari uses to refer to the Tobruk reserve is "Unità Celere", or "Rapid Unit". This unit was split into two halves, each of which was roughly a battalion in size. The state of its headquarters is unknown.
+
+Admiral Vietina's command isn't exactly clear and I lack an Italian name for it, but the one Niehorster gives for the local area is "Tobruk Coastal Sector" or "Settore Costiero di Tobruch" (translated by me).
+I was able to find some additional information about him. In February 1937 he was the commander of the Cruiser "Eugenio di Savoia". He died according to this information in 1967.
+
+A loose signal company is listed alongside the various units of the Babini group (many tanks and artillery, Bersaglieri battalion, 2 random machine guns lying around).
+The 55th Signal Company is never mentioned anywhere else in the book except in Rostagno's document. I think it's then reasonable to say that this is where the company was at previously.
+
+While the headquarters company of the 140th Blackshirt Battalion was at Tobruk, one rifle company and the support weapons company were at Bardia where they were destroyed.
+In his sketches, Montanari even shows the position of the battalion as equivalent to the others, though we know that it was only a half-sized detachment there.
+
+There's a cursed possible interpretation of what Montanari gives in his sketch 18 on Tobruk. He shows only a single company from the "Volontari della Libia" battalion at the Ras es Sehel strongpoint.
+If this is to be taken at face value (which I certainly don't), this implies that the XXXII Coverage Sector maintained all four of its strongpoints in the west and none were sent to the east.
+Also, this seems a little cooked, since Montanari refers to the XXXI Coverage Sector as "reinforced" first, then "reinforced with four companies" implying it was reinforced first with personnel from the XXII Coverage Sector.
+He also does give subsector lengths which I think are to be believed. He gives 12km for A, 8km for B, 8km for C, 12km for D, 8km for E.
+
+John Muirhead is typically known as the commander of the 4th Anti-Aircraft Brigade thanks to the unreliable Australian sources. But he wasn't always in command.
+Until September, this brigade was commanded by a different brigadier, J. Slater. I really do think that Australian sources regarding the North African Campaign tend to be poor quality.
+
+Immediately after Sonnenblume, when attacks against Tobruk were underway, Gott's force, then called the "Mobile Force" (no translation, duh), consisted of the following elements:
+22nd Guards Brigade Group (1st DLI, 2nd SG, 3rd CG, 4th RTR)
+4 Jock Columns (1 Battery + 1 Company Each)
+1 Company of the Free French Motor Battalion (Playfair doesn't identify which one or what the battalion was)
+
+Upon being trapped in Tobruk, the 3rd Armoured Brigade had the following composition:
+1 Regiment of Armoured Cars, 1 Composite Light Tank Regiment, 1 Composite Cruiser Tank Regiment, 1 Infantry Tank Troop
+Playfair also includes an OOB for Gott's forces during Brevity, but all it adds is that 2nd RTR and 4th each had a strength of 2 squadrons.
+I also found a page that includes the full list of embarkations for the 6th Australian Division. This would be useful if it included any combat record whatsoever.
+
+The 7th Motor Brigade was reformed from the 7th Support Group on 9 February 1942. Most of its artillery elements had been taken away the day before to be given to other units.
+
+It's worth saying that I have no idea how the 1st Medium Tank Battalion summoned tanks from nowhere, as on 21 September, they only had 9 mobile and 23 immobile tanks.
+Some tanks must have arrived in Tobruk to reinforce them, then, as they would soon have as many as 39 total tanks. Either these were from the 2nd Medium Tank Battalion or they were entirely new.
+I'm leaning more to the second. It makes sense for the 32 existing tanks to be mostly intact but ineffective while the 7 extra tanks were brought in from elsewhere, likely in a fresh shipment from Italy.
 
 
