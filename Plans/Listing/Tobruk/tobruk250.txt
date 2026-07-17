@@ -1,6 +1,6 @@
 XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
 
-Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (53) - Umberto Barberis
+Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Barberis
     Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (24)
         Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (6) #
             | Guardia alla Frontiera Strongpoint Zeitun
@@ -40,14 +40,12 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (53) - Umberto Bar
             | 142nd Mortar Company (0 81/14)
 
     Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
-        Guns: 45/45
         1st Group, 26th Artillery Regiment "Pavia" (3) #
-            | 1st Battery, 26th Artillery Regiment (5 100/17) +++++
-            | 2nd Battery, 26th Artillery Regiment (5 100/17) +++++
-            | 3rd Battery, 26th Artillery Regiment (5 100/17) +++++
+            | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) # - Guido Baggini
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
-            [Section From Mixed Battery, 22nd Army Corps Artillery Raggruppamento (4 105/28) ++]
         130th Group, 25th Army Corps Artillery Raggruppamento (3) #
             | 7th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 8th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
@@ -57,8 +55,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (53) - Umberto Bar
             | 2nd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
         | 2nd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
 
-    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (19) - Guido Baggini
-        Guns: 78/78
+    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (20) - Guido Baggini
         2nd Group, 43rd Artillery Regiment "Sirte" (3) #
             | 4th Battery, 43rd Artillery Regiment (4 75/27) ++++
             | 5th Battery, 43rd Artillery Regiment (4 75/27) ++++
@@ -85,9 +82,9 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (53) - Umberto Bar
         HQ 15th Anti-Aircraft Group (2) #
             | 1st Battery, 15th Anti-Aircraft Group (4 75/46) ++++
         | Naval Battery "Nembo" (4 120/45) ++++
-        [Guardia alla Frontiera Section "Buffolotto" (2 149/35) ++]
+        | Guardia alla Frontiera Mixed Battery "Buffolotto" (2 149/35, 1 76/40, 1 47/32) ++++
 
-Sector West (HQ 61st Infantry Division "Sirte") (55) - Vincenzo Della Mura
+Sector West (HQ 61st Infantry Division "Sirte") (54) - Vincenzo Della Mura
     Infantry Command (HQ 70th Infantry Regiment "Ancona") (30) - Gaetano Maltese
         Subsector C (HQ 1st Battalion, 70th Infantry Regiment) (7) #
             | Guardia alla Frontiera Independent Strongpoint Hagfet Umm Haleiga
@@ -135,8 +132,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (55) - Vincenzo Della Mura
             Position Piave (1)
                 | Delaying Action Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
 
-    Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (25) - Adolfo de Leone
-        Guns: 97/97
+    Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (24) - Adolfo de Leone
         HQ 10th Army Corps Artillery Raggruppamento (5)
             7th Group, 10th Army Corps Artillery Raggruppamento (3) #
                 | 1st Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
@@ -146,17 +142,16 @@ Sector West (HQ 61st Infantry Division "Sirte") (55) - Vincenzo Della Mura
                 | 4th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 5th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
 
-        HQ 22nd Army Corps Artillery Raggruppamento (8)
+        HQ 22nd Army Corps Artillery Raggruppamento (7)
             1st Group, 22nd Army Corps Artillery Raggruppamento (2) #
                 | 7th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
                 | 8th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
             Composite Group, 22nd Army Corps Artillery Raggruppamento (4) #
-                | Mixed Battery, 22nd Army Corps Artillery Raggruppamento (2 105/28) ++
+                | 1st Battery, 22nd Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 9th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
                 | 6th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 9th Battery, 43rd Artillery Regiment (4 75/27) ++++
-            | Naval Battery "Vittoria" (3 76/40, 1 149/35) ++++
-            | Training Battery (2 77/28, 1 149/12) +++
+            | Naval Training Battery "Vittoria" (2 77/28, 1 149/12) +++
 
         HQ 43rd Artillery Regiment "Sirte" (5) - Gildo Bonfanti
             1st Group, 43rd Artillery Regiment (3) #
@@ -187,7 +182,7 @@ Rapid Column (7) #
     | 4th Company, 69th Infantry Regiment (Motorized)
     | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) ++++++
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
+Coastal Defense Sector (HQ Tobruk Coast Sector) (16) - Massimiliano Vietina
     Infantry Command (4)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
@@ -207,7 +202,10 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
         | Naval Battery "Toro" (6 76/40 AA) ++++++
         | Naval Battery "Topo" (6 76/40 AA) ++++++
         | Naval Battery "Tonno" (6 76/40 AA) ++++++
-    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 8 190/45) - Stefano Pugliese
+    Floating Battery (Cruiser) "San Giorgio" (3) - Stefano Pugliese
+        | Fore Battery (4 254/30) ++++
+        | Broadside Battery (8 190/45) ++++++++
+        | AA Battery (9 100/47) +++++++++
 
 Support Weapons (13)
     | 25th Anti-Tank Battery (6 47/32) ++++++
@@ -230,6 +228,13 @@ Support Weapons (13)
         | 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (8 20/65) ++++++++
         | 13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (8 20/65) ++++++++
         | 77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia" (10 20/65) ++++++++++
+
+Engineer Command (HQ Detached From XXII Corps HQ) (4)
+    61st Mixed Engineer Battalion (2) #
+        | 73rd Engineer Company
+        | 61st Signals Company
+    | 31st Guardia alla Frontiera Mixed Engineer Unit
+    | 55th Signals Company
 
 
 

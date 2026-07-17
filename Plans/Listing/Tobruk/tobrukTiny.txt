@@ -28,7 +28,7 @@ Artillery (7 Battalions, 20 Companies)
     63rd Light Tank Battalion (32 L3/35s) #
         || One Composite Company Each of the 21st and 63rd Light Tank Battalions, Both Immobilized
 
-Eastern Libya Frontier Guard Command (8 Battalions, 16 Companies)
+Eastern Libya Frontier Guard Command (8 Battalions, 17 Companies)
     31st Coverage Sector (5 Battalions, 13 Companies)
         31st Artillery Regiment (3 Battalions, 5 Batteries)
             5th Group (1 Battery) #
@@ -56,13 +56,13 @@ Eastern Libya Frontier Guard Command (8 Battalions, 16 Companies)
             | 246th Battery (4 77/28 + 1 Spare Gun)
         3rd Group (1 Battery) #
             | 247th Battery (4 77/28 + 1 Spare Gun)
+    Tranining Battery "Derna"
 
 | 22nd Bersaglieri Motorcycle Company
 | 61st Bersaglieri Motorcycle Company
 | 25th Anti-Tank Battery (6 47/32)
 | 141st Mortar Company (0 81/14)
 | 142nd Mortar Company (0 81/14)
-| Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ++++++++ - Stefano Pugliese
 
 
 

@@ -48,7 +48,7 @@ export class unit{
         this.contain={
             units:[],stats:{},trigger:true,middle:false,
             temp:int(this.desc[0])!=int(this.desc[0]),
-            adhoc:this.level==constants.minLevel&&data.elements.length>0&&data.elements.every(element=>element.level==constants.minLevel+1)
+            adhoc:this.level==constants.minLevel&&data.elements.length>0&&data.elements.every(element=>element.level>=constants.minLevel)
         }
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0,0],obscure:random(0.6,1.5)}

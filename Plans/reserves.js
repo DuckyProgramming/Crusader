@@ -2202,5 +2202,90 @@ reserves=[
             {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`9th Company, 61st Motorized Infantry Regiment "Sicilia"`,`9ª Compagnia Cannoni Controcarro, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`9`,designation:`61`,commander:``},
             {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`6th Battery, 46th Artillery Regiment`,`6ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`6`,designation:`46`,commander:``},
         ],
+    },{
+        level:4,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+        desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
+        pos:[2516,519],
+        elements:[
+            {
+                level:5,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+                desc:[`Fore Battery`,`Batteria di Prua`],name:`Prua`,designation:``,commander:``,icon:``,
+                pos:[2454,539],
+                elements:[
+                    {type:`Heavy Naval Artillery Battery`},
+                ],
+            },{
+                level:5,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+                desc:[`Side Battery`,`Batteria di Bordo`],name:`Bordo`,designation:``,commander:``,icon:``,
+                pos:[2578,499],
+                elements:[
+                    {type:`8-Gun Heavy Naval Artillery Battery`},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Recon`],team:`Italian`,
+        desc:[`Rapid Unit`,`Unità Celere`],name:`Celere`,designation:``,commander:``,icon:``,
+        pos:[2398,881],
+        elements:[
+            {
+                level:5,type:[`Tank`],team:`Italian`,
+                desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``,icon:`4ti`,
+                pos:[2520,881],
+                elements:[
+                    {type:`Small Medium Tank Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+                desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``,
+                pos:[2459,846],
+                elements:[
+                    {type:`Motorcycle Bersaglieri Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+                desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`,
+                pos:[2581,846],
+                elements:[
+                    {type:`Motorcycle Bersaglieri Company`},
+                ],
+            },{
+                level:5,type:[`Anti-Air`,`Motorized`],team:`Italian`,
+                desc:[`Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`AA`,designation:`4 TI`,commander:``,icon:``,
+                pos:[2520,811],
+                elements:[
+                    {type:`Motorized Anti-Air Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Motorized`],team:`Italian`,
+                desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`,
+                pos:[2459,916],
+                elements:[
+                    {type:`Motorized Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Motorized`],team:`Italian`,
+                desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`,
+                pos:[2581,916],
+                elements:[
+                    {type:`Motorized Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Motorized`,`Heavy`],team:`Italian`,
+                desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`,
+                pos:[2520,951],
+                elements:[
+                    {type:`Motorized Heavy Infantry Company`},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+        desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
+        pos:[2516,519],
+        elements:[
+            {level:5,type:`Heavy Naval Artillery Battery`,team:`Italian`,desc:[`Fore Battery`,`Batteria di Prua`],name:`Prua`,designation:``,commander:``,icon:``},
+            {level:5,type:`8-Gun Heavy Naval Artillery Battery`,team:`Italian`,desc:[`Side Battery`,`Batteria di Bordo`],name:`Bordo`,designation:``,commander:``,icon:``},
+        ],
     },
 ]

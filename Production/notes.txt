@@ -564,6 +564,8 @@ Based on this, I don't think there was any kind of heavy company in the unit, ra
 It probably had some kind of machine guns or mortars, but given the lack of a heavy company and its ad-hoc establishment, any weapons can't be known.
 The idea to form the unit was from Alberto Venturelli, but its commander in combat was Giovanni Rocca.
 Also, apparently this mess: "1a 2'Y4°" translates to "1st, 2nd, 3rd, and 4th" from Italian.
+By the way, I don't believe the personnel came from the existing legions, the existing legions just served as formation places. There are records of new recruits forming this unit.
+So, it's training and experience were probably even more lackluster than a typical blackshirt unit, and there were few heavy weapons. Truly an impressive fighting force.
 
 Important - these were formed from Italian men, not Libyans. They just happened to be living in Libya and thus could only amass the men to form 4 legions.
 
@@ -1489,6 +1491,7 @@ I am certain that the 242nd battery had 4 of such guns. But 8 left seems like qu
 Prior to the war, Tobruk's naval batteries were far weaker, consisting of just 6 batteries: 1 149/47, 1 102/33, and 4 75/60. I think 102/33 is a typo for 102/35.
 I can't tell exactly which of the 149/47 and 102/35 batteries were old and which ones were built later, but either way the number was expanded up to 11 by late 1940.
 
+https://www.arsmilitaris.org/pubblicazioni/arremba.pdf (I lost it once, may that never occur again)
 I read a document about the "San Giorgio", honestly this was a very impressive find! Here's the takeaways.
 1. The ship was nicknamed the "Lioness of Tobruk" or "Leonessa di Tobruk".
 2. The naval battery "Nembo" used guns taken from the sunken destroyer of the same name. Wikipedia says they were sent to Bardia instead but I don't see how that happened. The calibers match up too.
@@ -1497,6 +1500,7 @@ I read a document about the "San Giorgio", honestly this was a very impressive f
 5. This article claims the XXII Army Corps' engineer raggruppamento contained a 55th Engineer Company.
 6. The scuttling attempt was apparently unsuccessful to the point that none of the guns were damaged and the ship could be rapidly refloated. Two sailors were killed in the process, though.
 7. Its name references the patron saint and flag of the republic of Genoa.
+8. After Pugliese, the second-in-command was a Lieutenant Commander Pane.
 
 Just to be prudent once again, let's give another consideration to the nonexistance of the three batteries Rostagno missed.
 We have a shortage of 8 120/25, as well as 3 100/27. The latter can be considered relatively inconsequential, but I don't think the same can be said for the former.
@@ -1604,8 +1608,9 @@ Raggruppamento Maletti
     65/17 Group
     75/27 Group
     2 47/32 Companies
-    81/12 Company
+    81/14 Company
     105/28 Battery
+(I incorrectly noted 81/14 as 81/12 and that spawned a couple subsequent mistakes in my listings. Oops!)
 
 62nd Infantry Division "Marmarica"
     2 65/17 Batteries
@@ -2811,11 +2816,14 @@ Other smaller machine guns varied in caliber and build, and the calibers that Mo
 Anyway, here's the counts Montanari gives:
 18 reinforcing the MG battalion (the MG battalion itself had 2 companies) (probably from 2 of the Ad'A companies, perhaps 4/70 and 12/70)
 Ras Beiad: 8 (probably from an Ad'A company, likely 8/69)
+Actually, this is probably the Ad'A company from the 64th Replacement Battalion
 3rd Battalion, 69th Infantry Regiment: 8 (probably from a spare Ad'A company or its organic company, i'd prefer 12/69)
 Pilastrino: 8 (same, likely from 8/70)
 Actually, these were probably from 12/70, since that's... exactly what Montanari says in his book. He doesn't mince any words about it.
 Gabr el Abd: 8 (same, likely from 1/61MG)
+Actually, this is probably the Ad'A company from the 61st Replacement Battalion
 Point. 71: 8 (same, likely from 1/61MG)
+(Not much option left, so I'm giving these to 8/69)
 Mobile Reserve: 2 platoons = 8 (same, likely from 4/69)
 We have 5 of what are almost certianly Ad'A companies. So that tells us where most of them went. The rest is a little wishy-washy but the numbers don't seem completely off.
 The missing machine guns are probably where Montanari puts many of them - inside the defense pits. I can't come up with any numbers, so here the train of thought ends.
@@ -2832,7 +2840,7 @@ Divisional HQ, divisional services, and motorized transport
     1 Support Weapons Battalion, with:
         1 20/35 AA Company
         1 47/32 Anti-Tank Company
-        1 81/12 Mortar Company
+        1 81/14 Mortar Company
         1 Machine Gun Company
     (No infantry guns, as they all were lost during Compass)
 Artillery Regiment, with:
@@ -2914,7 +2922,9 @@ A third motorcycle company, the 17th, was part of the Babini Group but was put u
 The 4th Tank Infantry Regiment headquarters had served as the basis for the Babini Group's 1st Tank Battle Group (probably termed a Raggruppamento) when it went to its destruction with its 1st Battalion.
 And yes, the 20/65 battery that I KNOW THE REGIMENT HAD is listed but predictably without a number. It might be the 13th from the Savona Division that disappears but that disappearance may be a typo.
 It's like this is some kind of intentional coverup operation. For none of these regiments with a 20/65 battery can I find the number. It's actually immensely miserable.
+
 I genuinely don't think this could possibly be the case. There's no way a single number could be collectively forgotten by every source I have. The only answer... was that there was no number.
+In fact, Leland Ness includes an OOB for the Babini Group with every single company-sized or larger unit numbered, except this one 20/65 battery. If it did have a number this would be a real travesty.
 
 The Carabinieri Parachute Battalion was the third such battalion formed, as only after the two Libyan Battalions and it were formed were any metropolitan battalions formed.
 This battalion was destroyed in its rearguard role in the days following Crusader, but the pieces of it that survived were able to rejoin the Folgore Division as a single company.
@@ -3337,5 +3347,169 @@ The 7th Motor Brigade was reformed from the 7th Support Group on 9 February 1942
 It's worth saying that I have no idea how the 1st Medium Tank Battalion summoned tanks from nowhere, as on 21 September, they only had 9 mobile and 23 immobile tanks.
 Some tanks must have arrived in Tobruk to reinforce them, then, as they would soon have as many as 39 total tanks. Either these were from the 2nd Medium Tank Battalion or they were entirely new.
 I'm leaning more to the second. It makes sense for the 32 existing tanks to be mostly intact but ineffective while the 7 extra tanks were brought in from elsewhere, likely in a fresh shipment from Italy.
+
+Even now I still struggle to find an adequate translation for the word "autotransportabile". After all, auto-transportable isn't a term most English speakers were readily recognize.
+"Truck-movable" is what Niehorster uses, but I think it's not clear. While the unit could be moved with trucks, it often lacked much organic transport to a crippling degree.
+I prefer "semi-motorized". While this is vague, it's at least true, as parts of the division were motorized and others weren't. But it does somewhat give the illusion that motorization was even, which was no true.
+"Partially-motorized" has the same problem and "mixed motorization" sounds awful to the ears. There's not really a good option I can think of so far.
+
+Niehorster shows two strange CC.NN. units in Turin. These are neither legions nor are they independent cohorts, but rather, entirely unique units.
+The first is the "Lavoratori Fiat", composed of Fiat factory workers. The second is the Coorte Autnoma Mutilati, composed of soldiers wounded in WW1.
+It's a shame neither of these were formed in different versions elsewhere or saw any combat. Such unique units, entirely wasted by history.
+
+Montanari claims that the 4th Tank Infantry Reigment was reinforced with "long-range and curved-range support weapons". In all honestly I have no idea what these are.
+In his other book a bit of clarification is added but doesn't justify the previous statement. All it includes in the set are 4 81/14 mortars and 12 MGs.
+
+Also, the "Buffolotto" section was entirely a G.a.F. unit. Going back to read through, I couldn't find a single mention of this unit having any actual naval identity.
+But it gets worse. The later book changes its name to "Buffolotti". And neither of these is an actual word in Italian. I'm not joking, they both translate to nothing.
+I think that this is ultimately a pluralization (of a nonexistent word, though) and thus it makes more sense in light of other battery names to use to singular "Buffolotto".
+At the very least, though, its composition is not in doubt. It was a section (in my game upgraded to mixed battery) with 2 149/35 guns. A platoon, or firing battery, consisted of two of these (4 guns).
+That was the attacking portion of a battery (company-sized unit). The other elements of the battery other than the platoon/firing battery were all support components.
+
+After many changes, I think it's time to release my updated version of the previous OOB.
+
+22nd Army Corps (Enrico Pitassi Mannella)
+
+61st Infantry Division "Sirte" (Vincenzo Della Mura)
+-69th Infantry Regiment
+--3 Battalions with 4 companies each, plus one infantry gun battery
+-70th Infantry Regiment (same as 69th)
+-43rd Artillery Regiment
+--1st Group (100/17)
+--2nd Group (75/27)
+--3rd Group (75/27)
+--77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia"
+-61st Mixed Engineer Battalion (2 companies)
+-61st Machine Gun Battalion (3 companies)
+-61st Replacement Battalion (4 companies)
+-61st Bersaglieri Motorcycle Company
+-61st Mortar Company (6 81/14)
+-61st Anti-Tank Battery (8 47/32)
+
+4th Tank Infantry Regiment
+-1st Medium Tank Battalion (7 Mobile and 32 Immobile M11/39)
+-63rd Light Tank Battalion (32 Immobile L3/35)
+--21st Light Tank Battalion (Gave its tanks to the 63rd and sent to Benghazi)
+-Anti-Aircraft Battery (Number Unknown)
+
+10th Army Corps Artillery Raggruppamento
+-7th Group (100/17)
+-17th Group (105/28)
+
+22nd Army Corps Artillery Raggruppamento
+-1st Group (100/17)
+-Mixed Battery (105/28)
+--This battery, along with 2 batteries of 105/28 and one of 75/27, was formed into a composite group
+-13th Anti-Aircraft Battery
+-Provisional Anti-Tank Battery (6 47/32)
+-10th Artillery Specialist Detachment
+
+25th Army Corps Artillery Raggruppamento
+-105th Group (149/13)
+-130th Group (149/13)
+-148th Group (149/13)
+-150th Group (149/13)
+
+55th Artillery Regiment "Brescia"
+-1st Group (100/17)
+-2nd Group (75/27)
+-3rd Group (75/27)
+-Provisional Infantry Gun Battery (65/17)
+
+1st Group, 26th Artillery Regiment "Pavia" (100/17)
+15th Anti-Aircraft Group (3 Batteries) (75/46)
+10th Battery, 20th Army Corps Artillery Raggruppamento (8 20/65)
+
+140th Blackshirt Battalion "Aquilia" (2 Companies)
+Blackshirt Battalion "Volontari della Libia" (4 Companies, one formed from each Libyan CC.NN. legion)
+
+64th Replacement Battalion (4 companies)
+3rd Company, 62nd Replacement Battalion
+
+22nd Bersaglieri Motorcycle Company
+25th Anti-Tank Battery (6 47/32)
+141st Mortar Company (No mortars in December, may have received some in January)
+142nd Mortar Company (Same)
+
+Eastern Libya Guardia alla Frontiera Command (Umberto Barberis):
+
+31st Coverage Sector
+-31st/A Subsector (4 strongpoints)
+-31st/B Subsector (2 strongpoints)
+-31st Mixed Engineer Detachment
+-31st Frontier Guard Artillery Raggruppamento
+--5th Group (242nd (120/25) Battery)
+--6th Group (230th Bis (120/25) and 231st Bis (120/25) Batteries)
+--7th Group (244th (149/35) and 245th (149/35) Batteries)
+
+Elements of the 32nd Coverage Sector
+-2 strongpoints
+-31st Libyan Coastal Infantry Battalion (3 companies)
+-Elements of the 32nd Frontier Guard Artillery Raggruppamento
+--1st Group (249th Battery (75/27))
+--2nd Group (246th Battery (77/28))
+--3rd Group (247th Battery (77/28))
+Artillery Section "Buffolotto" (2 149/35)
+
+Tobruk Coast Sector - Massimiliano Vietina
+-11 regular naval batteries
+--"Dandolo", "Bellotti", "Grasso" of 149/47
+--"Tortora", "Beiad", "Sidi Mahmud", "Pilastrino" of 102/35
+--"Tordo", "Toro", "Topo", "Tonno" of 76/40
+-Naval battery "Nembo" formed from 120/45 guns taken from the sunk destroyer "Nembo"
+-Training battery "Vittoria" formed from spare guns from the depots
+-Cruiser "San Giorgio" (4 254/30, 8 190/45) used as a floating battery
+
+An interesting debate exists around whether to model "San Giorgio" as multiple batteries or just one. Here are some arguments on both sides:
+Multiple:
+They can shoot independently
+They have different fields of fire (not modeled in game)
+Number of guns (invalidated by British battery numbers and naval branch)
+One:
+They can move independently (invalidated because they can't move)
+They take up too much space
+(This debate would have resulted in the relacement of the "Buffolotto" battery that is also partially fictional)
+They can reorganize separately (invalidated because I intend to disable reorganizing on ships altogether)
+
+One of the anti-aircraft groups responsible for defending the Dodecanese islands had a total of 21 subordinate batteries yet was still a battalion-level unit.
+So I think it wouldn't be a stretch to call the Tobruk coastal sector, consisting of 11 batteries and a ship, a battalion-level unit as well.
+
+By my estimations, the engineers at Tobruk did little. The British and Australian ones had to contend with a minefield that barely existed at all and no anti-tank ditch.
+For the Italians, things were not much better. Not once are the engineers mentioned outside of an order of battle. They were probably little more than laborers or maintenance workers.
+
+To my horror, I am now once again forced to count artillery pieces.
+The reason for this is that the 337 vs 343 controversy has now been resolved. The answer was that the Wikipedians screwed up.
+Rather than 123 guns in each of the two eastern artillery groups, there were 123 TOTAL between them. Thus 123+97 results in the total of 220 field guns.
+Missing (Still): 3 76/30, 1 149/35, 3 100/17. I think at this point we might as well give most of these to the "Vittoria" battery and then try to jank everything else into place.
+Also, I think the only real way to make this all fit with both the numbers and Montanari's sketch is to say that the 105/28 battery of the 22nd CAR was actually split.
+That way, half of it can be with the mixed group of the G.a.F. without there being too many 105/28 guns in total. I can't think of any other way for this to work.
+
+I'm gonna go back to the WDF map of Tobruk, which graciously includes the armnament of each individual strongpoint and see what I can gather about the dispositions.
+Sector East - 49 AT Guns (Montanari gives 42, I'm assuming the G.a.F. reorganizations and reinforcement G.a.F. batteries and 20/65s changed things up)
+    Subsector A - 26 AT Guns
+        Strongpoint Zeitun - 0 AT Guns
+        Strongpoint Sidi Daud - 7 AT Guns
+        Strongpoint Suesi - 7 AT Guns
+        Strongpoint Bur (I)Junes - 12 AT Guns
+    Subsector B - 23 AT Guns
+        Strongpoint Dahar el Azazi - 10 AT Guns
+        Strongpoint Bir Umm Haleiga - 13 AT Guns
+Sector West - 74 AT Guns (Montanari gives no numbers for this so it doesn't matter)
+    Subsector A - 26 AT Guns
+        Strongpoint Hagfet Umm Haleiga - 6 AT Guns
+        Strongpoint Sidi Cheiralla - 6 AT Guns
+        Strongpoint Bir el Faras - 7 AT Guns
+        Strongpoint Bir eg Giasc - 7 AT Guns
+    Subsector B - 29 AT Guns
+        Strongpoint Bir el Medauuar - 10 AT Guns
+        Strongpoint Ras el Medauuar - 10 AT Guns
+        Strongpoint Ras es Sehel - 9 AT Guns
+    Subsector C - 19 AT Guns
+        Strongpoint Es Sehel - 6 AT Guns
+        Strongpoint Bir el Meclub - 7 AT Guns
+        Strongpoint Umm Cuheil - 6 AT Guns
+(There are also a bunch of weird positions labelled around the Tobruk harbor area and at positions like Point 71 and Solaro)
+I'll also try to triangulate the data that Montanari gives of the 6 initially lost positions (Rs 52,54,55,56,57,59) had 4 47/32s, 1 75/27, and 1 20/65. The map shows these positions with a total of 6 guns, which lines up.
+The issue is that I'm not sure how 49 became 42, especially given that this map is from January 12, far too late for the garrison to have made any further reorganizations. The G.a.F. frontier move had already happened.
 
 
