@@ -3486,30 +3486,67 @@ That way, half of it can be with the mixed group of the G.a.F. without there bei
 
 I'm gonna go back to the WDF map of Tobruk, which graciously includes the armnament of each individual strongpoint and see what I can gather about the dispositions.
 Sector East - 49 AT Guns (Montanari gives 42, I'm assuming the G.a.F. reorganizations and reinforcement G.a.F. batteries and 20/65s changed things up)
-    Subsector A - 26 AT Guns
+    Subsector A - 26 AT Guns, 37 Fortifications (24 With AT Guns)
         Strongpoint Zeitun - 0 AT Guns
         Strongpoint Sidi Daud - 7 AT Guns
         Strongpoint Suesi - 7 AT Guns
         Strongpoint Bur (I)Junes - 12 AT Guns
-    Subsector B - 23 AT Guns
+    Subsector B - 23 AT Guns, 21 Fortifications
         Strongpoint Dahar el Azazi - 10 AT Guns
         Strongpoint Bir Umm Haleiga - 13 AT Guns
 Sector West - 74 AT Guns (Montanari gives no numbers for this so it doesn't matter)
     Subsector A - 26 AT Guns
-        Strongpoint Hagfet Umm Haleiga - 6 AT Guns
-        Strongpoint Sidi Cheiralla - 6 AT Guns
-        Strongpoint Bir el Faras - 7 AT Guns
-        Strongpoint Bir eg Giasc - 7 AT Guns
+        [Former Merged Strongpoint - 12 AT Guns]
+            Strongpoint Hagfet Umm Haleiga - 6 AT Guns
+            Strongpoint Sidi Cheiralla - 6 AT Guns
+        [Former Merged Strongpoint - 14 AT Guns]
+            Strongpoint Bir el Faras - 7 AT Guns
+            Strongpoint Bir eg Giasc - 7 AT Guns
     Subsector B - 29 AT Guns
         Strongpoint Bir el Medauuar - 10 AT Guns
-        Strongpoint Ras el Medauuar - 10 AT Guns
-        Strongpoint Ras es Sehel - 9 AT Guns
+        [Former Merged Strongpoint - 19 AT Guns]
+            Strongpoint Ras el Medauuar - 10 AT Guns
+            Strongpoint Ras es Sehel - 9 AT Guns
     Subsector C - 19 AT Guns
+        [Honestly I have no idea which strongpoints would've been formerly merged]
         Strongpoint Es Sehel - 6 AT Guns
         Strongpoint Bir el Meclub - 7 AT Guns
         Strongpoint Umm Cuheil - 6 AT Guns
 (There are also a bunch of weird positions labelled around the Tobruk harbor area and at positions like Point 71 and Solaro)
 I'll also try to triangulate the data that Montanari gives of the 6 initially lost positions (Rs 52,54,55,56,57,59) had 4 47/32s, 1 75/27, and 1 20/65. The map shows these positions with a total of 6 guns, which lines up.
 The issue is that I'm not sure how 49 became 42, especially given that this map is from January 12, far too late for the garrison to have made any further reorganizations. The G.a.F. frontier move had already happened.
+
+Here's my guess for the composition of the 42 guns Montanari claims in the Eastern Sector during the battle, as well as the 117 total AT Guns he lists:
+
+AT Guns:
+42 20/65
+    14-18 (2 Batteries of Unknown Size) in the Rapid Unit
+    24-28 Free
+10 77/28
+    2 at Point 71
+    8 (246th and 247th Batteries) Free
+1 76/40 (At El Adem Crossroads Position)
+11 75/27
+    3 at Point 144
+    8 (249th and "Derna" Batteries) Free
+13 65/17 (All Free)
+43 47/32
+    2 at Point 71
+    4 in the Rapid Unit
+    37 Free
+39 37/10 (All in tanks, at El Adem Crossroads Position)
+Total Guns: 159 (117 Non-20/65)
+Total Free: 90-94
+
+42 Eastern Sector:
+8 77/28
+8 75/27
+10 20/65
+16 47/32
+
+Yet somehow, the WDF/XIII Corps map managed to find a total of 123 guns, way more than this. They couldn't have been taken by the G.a.F., so where are they?
+Honestly, I'm gonna go ahead and just disregard this map. It seems outdated and a lot of stuff just doesn't make sense.
+For example, there are 6 or more 120/25 batteries shown, as well as some coastal 120/25 batteries, and also 6 or more 105/28 batteries. None of that matches up.
+One solution to this problem is to not have it. I'll go for this for now by downright ignoring all the anti-tank guns and integrating them into the strongpoint units.
 
 
