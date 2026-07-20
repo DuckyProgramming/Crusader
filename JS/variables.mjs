@@ -22613,7 +22613,7 @@ export var types={
                 {
                     name:`Capture of Tobruk - COMPOSITE`,
                     strength:{name:`Companies`,num:[[72],[0,128]]},partition:[[0],[2]],bonus:1,
-                    set:3,
+                    set:2,
                     unit:[
                         {
                             level:0,type:[`Infantry`],team:`Italian`,

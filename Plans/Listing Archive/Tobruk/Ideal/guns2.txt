@@ -4,8 +4,6 @@ Field Guns
         3rd/43rd Artillery Regiment (12)
         2nd/55th Artillery Regiment (12)
         3rd/55th Artillery Regiment (12)
-    12 75/46
-        15th Anti-Aircraft Group (12)
     63 100/17
         1st/22nd Corps Artillery Regiment (15)
         7th/10th Corps Artillery Regiment (12)
@@ -16,7 +14,7 @@ Field Guns
         17th/10th Corps Artillery Regiment (12)
         1st Battery/22nd Corps Artillery Regiment (4)
     2 77/28
-        Training Battery (2)
+        Training Battery "Vittoria" (2)
     12 120/25
         242nd Battery (4)
         230th Bis Battery (4)
@@ -24,44 +22,37 @@ Field Guns
     4 120/45
         Naval Battery "Nembo" (4)
     1 149/12
-        Training Battery (1)
+        Training Battery "Vittoria" (1)
     48 149/13
         105th/25th Corps Artillery Regiment (12)
         130th/25th Corps Artillery Regiment (12)
         148th/25th Corps Artillery Regiment (16)
         150th/25th Corps Artillery Regiment (8)
-    11 149/35
+    10 149/35
         244th Battery (4)
         245th Battery (4)
         Section "Buffolotto" (2)
-        Naval Battery "Vittoria" (1)
-    3 76/40
-        Naval Battery "Vittoria" (3)
-    Total: 220
+    Total: 204
 
 Anti-Tank Guns
-    10 77/28
+    8 77/28
         246th Battery (4)
         247th Battery (4)
-        Strongpoint Point 71 (2)
-    11 75/27
+    8 75/27
         249th Battery (4)
         Training Battery "Derna" (4)
-        Strongpoint Point 144 (3)
     13 65/17
         69th Infantry Gun Company (4)
         70th Infantry Gun Company (4)
         Provisional Infantry Gun Company (5)
-    43 47/32
+    21 47/32
         25th Anti-Tank Battery (6)
         61st Anti-Tank Battery (8)
         Provisional Anti-Tank Battery (6)
-        Guardia alla Frontiera Strongpoints (23)
-    1 76/40
-        Strongpoint El Adem Crossroads (1)
+        Strongpoint Dahar el Azazi (1)
     39 37/10
         1st Medium Tank Battalion (in the tanks) (39)
-    Total: 117
+    Total: 89
 
 Navy
     8 149/17
@@ -82,6 +73,6 @@ Navy
         Floating Battery "San Giorgio" (4)
     Total: 50
 
-Grand Total: 387
+Grand Total: 343
 
 

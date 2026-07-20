@@ -309,11 +309,14 @@ export class unit{
     getDistMult(){
         return this.contain.stats.recon?1.5:1
     }
+    getCompact(){
+        return this.contain.adhoc&&this.contain.units.every(unit=>unit.level>=constants.minLevel+1)
+    }
     getWidth(){
-        return this.contain.trigger||this.contain.adhoc?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
+        return this.contain.trigger||this.getCompact()?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
     }
     getHeight(){
-        return this.contain.trigger||this.contain.adhoc?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+10,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
+        return this.contain.trigger||this.getCompact()?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+10,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
     }
     getData(){
         return {
@@ -479,7 +482,7 @@ export class unit{
                 layer.stroke(0)
                 layer.strokeWeight(2)
                 if(this.contain.units.length>0){
-                    if(this.contain.trigger||this.contain.adhoc){
+                    if(this.contain.trigger||this.getCompact()){
                         if(this.contain.units[0].desc!=this.desc){
                             layer.line(0,this.height/2,0,this.getHeight()-this.height/2-10)
                         }
@@ -505,7 +508,7 @@ export class unit{
                 this.displaySub(layer,scene,1)
                 layer.scale(10/this.size)
                 if(this.contain.units.length>0){
-                    if(this.contain.trigger||this.contain.adhoc){
+                    if(this.contain.trigger||this.getCompact()){
                         if(this.contain.units[0].desc!=this.desc){
                             layer.translate(0,5)
                             this.contain.units.forEach(unit=>{
@@ -955,7 +958,7 @@ export class unit{
                                         *(target.order.defense?0.8:1)
                                     let kills=[0,0,0,0]
                                     target.contain.units.forEach(unit=>{
-                                        let fall=unit.strength.life*damage*unit.battle.battalionVariance/unit.strength.base.life
+                                        let fall=(target.type.includes(27)?1:unit.strength.life/unit.strength.base.life)*damage*unit.battle.battalionVariance
                                         unit.strength.life-=fall
                                         kills[types.elementType[unit.elementType].class]+=fall/unit.strength.base.life*types.elementType[unit.elementType].num
                                         unit.strength.morale=max(0,
