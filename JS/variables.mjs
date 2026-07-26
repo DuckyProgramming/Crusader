@@ -3270,7 +3270,7 @@ export var types={
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
                                             desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
-                                            pos:[1314,505],
+                                            pos:[1314,501],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
@@ -7895,6 +7895,348 @@ export var types={
                                         {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
                                     ],
                                 },
+                            ],
+                        },
+                    ],
+                },{
+                    name:`British Capture of Tobruk - OLD 8`,
+                    strength:{name:`Companies`,num:[[15],[0,30]]},partition:[[0],[2]],bonus:1,
+                    set:1,
+                    unit:[
+                        {
+                            level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                            desc:[`Eastern Libya Army Corps Frontier Guard Command`,`Comando Guardia alla Frontiera della Libia Orientale`],name:`Libia\nOrientale`,designation:`XXII`,commander:`Barberis`,icon:``,
+                            pos:[1106,442],
+                            elements:[
+                                {
+                                    level:2,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`31st Frontier Guard Coverage Sector`,`XXXI Settore di Copertura "Tobruch"`],name:`31`,designation:`Sector`,commander:`Cilento`,icon:``,
+                                    pos:[1153,511],
+                                    elements:[
+                                        {
+                                            level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
+                                            pos:[1201,442],
+                                            elements:[
+                                                {
+                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Cupidi`,icon:``,
+                                                    pos:[1601,552],
+                                                    elements:[
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Tramontin`,icon:``,
+                                                    pos:[1240,684],
+                                                    elements:[
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Verna`,icon:``,
+                                                    pos:[1410,569],
+                                                    elements:[
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                                                    ],
+                                                },
+                                            ],
+                                        },{
+                                            level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st/A Frontier Guard Subsector`,`XXXI/A Sottosettore Guardia alla Frontiera`],name:`A`,designation:`31`,commander:`Cecavicchi`,icon:``,
+                                            pos:[1506,584],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Capisaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`31/A`,commander:`Montesanti`,icon:``,
+                                                    pos:[1738,488],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Suesi, 31st/A Frontier Guard Subsector`,`Capisaldo Suesi, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Suesi`,designation:`31/A`,commander:`Desideri`,icon:``,
+                                                    pos:[1651,677],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },
+                                            ],
+                                        },{
+                                            level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+                                            pos:[1359,701],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Capisaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`31/A`,commander:`Mosetti`,icon:``,
+                                                    pos:[1487,781],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Capisaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`31/A`,commander:`Proietti`,icon:``,
+                                                    pos:[1321,824],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Capisaldo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`31`,commander:`Salvitti`,icon:``,
+                                            pos:[1097,794],
+                                            elements:[
+                                                {type:`Static Machine Gun Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Capisaldo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`31`,commander:`Ticconi`,icon:``,
+                                            pos:[865,760],
+                                            elements:[
+                                                {type:`Static Machine Gun Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Strongpoint Es Sehel, 31st Frontier Guard Coverage Sector`,`Capisaldo Es Sehel, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Es\nSehel`,designation:`31`,commander:`Costantini`,icon:``,
+                                            pos:[616,717],
+                                            elements:[
+                                                {type:`Static Machine Gun Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Strongpoint Umm Cuehil, 31st Frontier Guard Coverage Sector`,`Capisaldo Umm Cuehil, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Umm\nCuheil`,designation:`31`,commander:`Adiutori`,icon:``,
+                                            pos:[602,400],
+                                            elements:[
+                                                {type:`Static Machine Gun Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            pos:[1557,456],
+                                            elements:[
+                                                {type:`Mixed Engineer Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`Anti-Tank Gun Group`,`Raggruppamento Pezzi Anticarro`],name:`Anticarro`,designation:``,commander:`Icardi`,icon:``,
+                                    pos:[1019,683],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`1st Group, 32nd Frontier Guard Artillery Regiment`,`I Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`32`,commander:`Fossa`,icon:``,
+                                            pos:[1555,700],
+                                            elements:[
+                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`246th Frontier Guard Static Artillery Battery`,`246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`246`,designation:`2`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`2nd Group, 32nd Frontier Guard Artillery Regiment`,`II Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`32`,commander:`Monsurrò`,icon:``,
+                                            pos:[950,714],
+                                            elements:[
+                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`247th Frontier Guard Static Artillery Battery`,`247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`247`,designation:`3`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`3rd Group, 32nd Frontier Guard Artillery Regiment`,`III Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`32`,commander:`Iannicelli`,icon:``,
+                                            pos:[1392,757],
+                                            elements:[
+                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`249th Frontier Guard Static Artillery Battery`,`249ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`249`,designation:`1`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``,
+                                            pos:[695,623],
+                                            elements:[
+                                                {type:`Ruined Static Artillery Battery`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Training Battery"`,`Batteria di Formazione`],name:`Formazione`,designation:``,commander:``,icon:``,
+                                            pos:[678,443],
+                                            elements:[
+                                                {type:`3-Gun Ruined Static Artillery Battery`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Guardia alla Frontiera Section "Buffolotto"`,`Sezione Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`,designation:``,commander:``,icon:``,
+                                            pos:[1248,789],
+                                            elements:[
+                                                {type:`Ruined Static Artillery Section`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Anti-Tank`],team:`Guardia alla Frontiera`,
+                                            desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`Gun`,designation:`47/32`,commander:``,icon:``,
+                                            pos:[763,724],
+                                            elements:[
+                                                {type:`Ruined Single Weak Anti-Tank Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Coast`],team:`Italian`,
+                                    desc:[`Tobruk Coastal Sector`,`Settore Costiero di Tobruch`],name:`Settore\nCostiero`,designation:`Regia\nMarina`,commander:`Vietina`,icon:``,
+                                    pos:[1196,244],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`,
+                                            pos:[1308,180],
+                                            elements:[
+                                                {type:`Small Ruined Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 64th Replacement Battalion`,`3ª Compagnia, LXIV Battaglione Complementi`],name:`3`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1555,358],
+                                            elements:[
+                                                {type:`Ruined Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                                            pos:[882,241],
+                                            elements:[
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`64th Replacement Battalion`,`LXIV Battaglione Complementi`],name:`64`,designation:`Replacement`,commander:``,icon:`catanzaro`,
+                                    pos:[1317,554],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1458,501],
+                                            elements:[
+                                                {type:`Ruined Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,desc:[`2nd Company, 64th Replacement Battalion`,`2ª Compagnia, LXIV Battaglione Complementi`],name:`2`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1343,622],
+                                            elements:[
+                                                {type:`Ruined Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,desc:[`4th Company, 64th Replacement Battalion`,`4ª Compagnia, LXIV Battaglione Complementi`],name:`4`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1191,626],
+                                            elements:[
+                                                {type:`Ruined Heavy Infantry Company`},
+                                            ]
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:``,icon:``,
+                                    pos:[1015,466],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``,
+                                            pos:[974,565],
+                                            elements:[
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                                            pos:[968,389],
+                                            elements:[
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:5,type:[`Infantry`],team:`Italian`,
+                                    desc:[`63rd Garrison Company`,`63ª Compagnia Presidiaria`],name:`63`,designation:`Garrison`,commander:``,icon:`cirene`,
+                                    pos:[905,508],
+                                    elements:[
+                                        {type:`Small Ruined Infantry Company`},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:2,type:[`Infantry`,`Motorized`],team:`Australian`,
+                            desc:`20th Australian Infantry Brigade`,name:`20`,designation:``,commander:`Murray`,icon:`9a`,
+                            pos:[1923,996],
+                            elements:[
+                                {
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`,icon:`9a`,
+                                    pos:[1923,896],
+                                    elements:[
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/13th Australian Infantry Battalion`],name:`A`,designation:`2/13`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/13th Australian Infantry Battalion`],name:`B`,designation:`2/13`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/13th Australian Infantry Battalion`],name:`C`,designation:`2/13`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/13th Australian Infantry Battalion`],name:`D`,designation:`2/13`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`,icon:`9a`,
+                                    pos:[1823,996],
+                                    elements:[
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/15th Australian Infantry Battalion`],name:`B`,designation:`2/15`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/15th Australian Infantry Battalion`],name:`C`,designation:`2/15`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/15th Australian Infantry Battalion`],name:`D`,designation:`2/15`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`,icon:`9a`,
+                                    pos:[461,908],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`A Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/17th Australian Infantry Battalion`],name:`A`,designation:`2/17`,commander:``,icon:`9a`,
+                                            pos:[443,394],
+                                            elements:[
+                                                {type:`Motorized Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`B Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/17th Australian Infantry Battalion`],name:`B`,designation:`2/17`,commander:``,icon:`9a`,
+                                            pos:[486,744],
+                                            elements:[
+                                                {type:`Motorized Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`C Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/17th Australian Infantry Battalion`],name:`C`,designation:`2/17`,commander:``,icon:`9a`,
+                                            pos:[996,905],
+                                            elements:[
+                                                {type:`Motorized Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`D Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/17th Australian Infantry Battalion`],name:`D`,designation:`2/17`,commander:``,icon:`9a`,
+                                            pos:[1915,486],
+                                            elements:[
+                                                {type:`Motorized Infantry Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+                                    desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``,icon:`9a`,
+                                    pos:[1823,896],
+                                    elements:[
+                                        {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:4,type:[`Tank`,`Heavy`],team:`British`,
+                            desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:`7a`,
+                            pos:[1723,796],
+                            elements:[
+                                {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
+                                {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
                             ],
                         },
                     ],

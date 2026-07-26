@@ -377,34 +377,65 @@ export class operation{
                     if(anim>0){
                         let flat=flatMap(types.map,a)
                         let columns=4
-                        layer.fill(200,anim)
-                        layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*100,30)
-                        layer.fill(150,anim)
-                        for(let a=0,la=flat.length;a<la;a++){
-                            let spread=even(floor(a/columns),ceil(la/columns))
-                            let left=min(la-floor(a/columns)*columns,columns)
-                            layer.rect(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80,20)
-                        }
-                        layer.fill(0,anim)
-                        layer.textSize(80)
-                        layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
-                        layer.textSize(40)
-                        layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*50)
-                        for(let a=0,la=flat.length;a<la;a++){
-                            let spread=even(floor(a/columns),ceil(la/columns))
-                            let left=min(la-floor(a/columns)*columns,columns)
-                            layer.textSize(15)
-                            layer.text(`1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
-                            if(flat[a].unit.strength.num.length==0){
-                                layer.textSize(30)
-                                layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
-                            }else{
-                                layer.textSize(flat[a].unit.name.length>=36?20:flat[a].unit.name.length>=30?22:25)
-                                layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
-                                layer.textSize(20)
-                                layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
+                        if(a==1){
+                            layer.fill(200,anim)
+                            layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*80,30)
+                            layer.fill(150,anim)
+                            for(let a=0,la=flat.length;a<la;a++){
+                                let spread=even(floor(a/columns),ceil(la/columns))
+                                let left=min(la-floor(a/columns)*columns,columns)
+                                layer.rect(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*80,360,60,20)
+                            }
+                            layer.fill(0,anim)
+                            layer.textSize(80)
+                            layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*40)
+                            layer.textSize(40)
+                            layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*40)
+                            for(let a=0,la=flat.length;a<la;a++){
+                                let spread=even(floor(a/columns),ceil(la/columns))
+                                let left=min(la-floor(a/columns)*columns,columns)
                                 layer.textSize(15)
-                                layer.text(flat[a].unit.strength.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+90+spread*100)
+                                layer.text(`1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+45+spread*80)
+                                if(flat[a].unit.strength.num.length==0){
+                                    layer.textSize(25)
+                                    layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*80)
+                                }else{
+                                    layer.textSize(flat[a].unit.name.length>=36?18:flat[a].unit.name.length>=30?20:22)
+                                    layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*80)
+                                    layer.textSize(16)
+                                    layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `)+` ${flat[a].unit.strength.name}`,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*80)
+                                }
+                            }
+                        }else{
+                            layer.fill(200,anim)
+                            layer.rect(layer.width/2,layer.height/2,40+columns*380,140+ceil(flat.length/columns)*100,30)
+                            layer.fill(150,anim)
+                            for(let a=0,la=flat.length;a<la;a++){
+                                let spread=even(floor(a/columns),ceil(la/columns))
+                                let left=min(la-floor(a/columns)*columns,columns)
+                                layer.rect(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80,20)
+                            }
+                            layer.fill(0,anim)
+                            layer.textSize(80)
+                            layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
+                            layer.textSize(40)
+                            layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*50)
+                            for(let a=0,la=flat.length;a<la;a++){
+                                let spread=even(floor(a/columns),ceil(la/columns))
+                                let left=min(la-floor(a/columns)*columns,columns)
+                                layer.textSize(15)
+                                layer.text(`1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`[a],layer.width/2-190*(left-1)+160+a%columns*380,layer.height/2+35+spread*100)
+                                if(flat[a].unit.strength.num.length==0){
+                                    layer.textSize(30)
+                                    layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100)
+                                }else{
+                                    layer.textSize(flat[a].unit.name.length>=36?20:flat[a].unit.name.length>=30?22:25)
+                                    layer.text(flat[a].unit.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+50+spread*100)
+                                    layer.textSize(20)
+                                    layer.text(flat[a].unit.strength.num.map(set=>set.filter(set=>set>0).join(` + `)).join(` vs `),layer.width/2-190*(left-1)+a%columns*380,layer.height/2+75+spread*100)
+                                    layer.textSize(15)
+                                    layer.text(flat[a].unit.strength.name,layer.width/2-190*(left-1)+a%columns*380,layer.height/2+90+spread*100)
+                                }
                             }
                         }
                     }
@@ -435,7 +466,7 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text([0,1,2,3].map(num=>floor(this.select.unit.getKills(num))).map((num,index)=>{return {num:num,text:`${num} ${[`Kills`,`Vehicles`,`Artillery`,`Mortars`][index]}`}}).filter(obj=>obj.num>0).map(({text})=>text).join(`\n`),layer.width-80,130,140)
-                        if(this.select.unit.type.includes(27)){
+                        if(!this.select.unit.type.includes(27)){
                             /*if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0&&(this.select.unit.contain.middle?0:1)){
                                 layer.fill(150,this.anim.main*this.anim.select)
                                 layer.rect(layer.width-340,50,200,60,10)
@@ -728,6 +759,7 @@ export class operation{
                                 this.select.unit.contain.units[0].strength.life=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)
                                 this.select.unit.contain.units[0].strength.morale=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/this.select.unit.contain.units.length
                                 this.select.unit.contain.units[0].strength.supply=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/this.select.unit.contain.units.length
+                                this.select.unit.contain.units[0].stats.kills.forEach((num,index,arr)=>arr[index]=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.stats.kills[index],0))
                                 this.select.unit.contain.units=[this.select.unit.contain.units[0]]
                                 this.select.unit.calculateElements()
                             }else if((this.select.unit.level==constants.minLevel||this.select.unit.level==constants.minLevel+1)&&!this.select.unit.contain.adhoc){
@@ -923,7 +955,10 @@ export class operation{
                             //if(inPointBox(mouse,boxify(layer.width/2-190+a%2*380,layer.height/2+60+spread*100,360,80))){
                             let spread=even(floor(a/columns),ceil(la/columns))
                             let left=min(la-floor(a/columns)*columns,columns)
-                            if(inPointBox(mouse,boxify(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80))){
+                            if(
+                                this.turn.set==1&&inPointBox(mouse,boxify(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*80,360,60))||
+                                this.turn.set!=1&&inPointBox(mouse,boxify(layer.width/2-190*(left-1)+a%columns*380,layer.height/2+60+spread*100,360,80))
+                            ){
                                 switch(flat[a].unit.name){
                                     case `Standard Modes`:
                                         this.turn.set=0

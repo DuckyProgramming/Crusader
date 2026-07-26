@@ -1668,6 +1668,7 @@ One source claims that the 25th CAR disembarked in Tobruk on the 18th of Decembe
 That said, maybe guns this big were so difficult to move for the paltry Italian logistics that sailing them was the better option. An order for this to happen does seem to have been sent.
 By that time (December 1), the "Volontari della Libia" battalion had already met up with the Sirte Division and probably joined its order of battle, although both were back at Martuba and would take some time to get to Sidi Daud.
 The XV Anti-Aircraft group was also in Appolonia and reached the same fate of the other units. It had what seems to be the longest journey out of all of them, though.
+(I trolled, the city is actually spelled Apollonia. What I was thinking when I typed this we can never know)
 
 The 63rd Light Tank Battalion managed to retreat all the way from Buq Buq and somehow not become destroyed. While all its tanks were eventually rendered inefficient (inoperable), the fact that the made it to Tobruk at all is impressive.
 Or, perhaps, it had many less tanks and the vast majority came from the XXI battalion that probably wasn't nearly as badly positioned as its tripled-number counterpart.
@@ -3999,4 +4000,43 @@ I'm still not sure what the term for a G.a.F. corps command was. Did it include 
 I think that the need for the words "army corps" was never real and was an invention by my head. Which does make me look kinda goofy to be honest to have made this mistake.
 But at least in my case it's already a solved problem, as I've been using the term "Easter Libya G.a.F. Command" and ignoring the number and parent army corps entirely.
 
-[4000 Lines!]
+With how much searching I'm done, I think this is probably the time to put to bed a very long obsession of mine: https://www.mercari.com/us/item/m53680487151/
+It may not be a definitive answer. It sure isn't visually confirmable. But if there's one thing I learned from researching Crusader, it's that often times that's what you have to settle for.
+
+Niehorster.org is down right now. If it doesn't intend to come back up, that's probably fine, since much of it is still preserved in the Waybackmachine, which I'm using for the time being.
+However, it's not all that great. A lot of the deeper pages are just completely inaccessible since while the page contents are archived, the image that includes the actual OOB is unavailable.
+Curse this guy for his style of site-making. While I think visually it does look great, the fact that making edits in this system must be abysmal was never apparent to him.
+
+The famous Pasta Rule from The Campaign For North Africa (a game I consider generally historically suspect and outdated in its research) was probably a lie and added entirely as a joke by the developer.
+There's little to no historical basis that this would ever be true. Water shortages in the Italian military in North Africa were already severe and there wouldn't have been spare water for pasta-making.
+Also, pre-cooked pasta was often included in the rations they received, and many times they would have to do entirely with dry foods of varying quality.
+
+Crusader uses a free-movement system. As the game is entirely digitized, there is no need to establish exact positions for units or literally anything since the code handles this problem itself.
+On the other hand, there's the interesting case of Movebuild/26. I read some information on redbloblgames/com.grids/hexagons and apparently the system I used is called "axial coordinates".
+The alternatives are offest coordinates (I think this system sucks), cube coordinates (axial with slightly more redundancy), and doubled coordinates (useful but very unintuitive).
+I think based on this information that I managed to get the best option. Three years ago me who began Movebuild's development was an idiot, but at least he got this right.
+While Movebuild/26 is long past the point where this is necessary, a lot of the things it offers, particularly in algorithms, are actually very helpful and worth keeping in the back of my mind.
+
+The 10th Corps Artillery Raggruppamento was just outside Tobruk on the 1st of December 1940. While the unit was probably within the perimeter it was under Pitassi Manella's command, not Barberis's.
+So that does mean there are elements of confusion regarding the actual state of units INSIDE Tobruk at the start of December, since some in the area weren't officially part of the garrison.
+This wasn't true for all of it, however. Some parts of the raggruppamento are labelled as located at Soluch moving throguh El Abiar and Barce toward Tobruk.
+It was able to complete this journey by the end of the month. The 25th Corps Artillery Raggruppamento with a couple attached I Groups was also on the way at Berta.
+
+Let's clarify some things about the concept of the "static machine gun company". These were interval units, holding between fortifications, not the fortifications themselves.
+Thus it is wrong to call the strongpoints of the G.a.F. static machine gun companies since they were not that. They were static, and had machine guns, but were organized differently and had artillery as well.
+So, none of these companies showed up in the major fortifications of Tripoli, Tobruk, and Bardia. Instead they were positioned along the extending borders with Egypt and Tunisia.
+Also, the static ones were numbered 50 or more. Those numbered less than 50 were not static though they defintely still were lacking in terms of mobility.
+I won't bother transcribing the location of all of these companies since some aren't known anyway, but Montanari's "The First British Offensive" has sketches with many of their locations.
+
+Also worth noting that I've given up on the project of having a single conclusive Tobruk final OOB. I have released several and I think they all complement one another without replacing.
+Here's a listing for what each one refers to:
+tobrukComposite:
+tobrukDecember: Units of the "Piazza di Tobruch" on the 9th of December, plus naval garrison units
+tobrukField:
+tobrukFull:
+tobrukTiny: The Eastern Sector Only
+
+The Volontari della Libia CC.NN. Battalion and unknown elements of the Sirte Division were together at Martuba on the 1st of December 1940.
+At the same time, the XV Anti-Aircraft Group was at Apollonia and a labor battalion of unknown designation was at d'Annunzio, and the 1st Libyan Complement Battalion (a unique unit) was at Benghazi.
+
+
