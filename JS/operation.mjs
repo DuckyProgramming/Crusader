@@ -430,89 +430,94 @@ export class operation{
                         layer.text(`Enter`,layer.width-260,30)
                         layer.text(`Shift`,layer.width-260,110)
                     }
-                    if(this.anim.select>0&&!this.select.unit.type.includes(27)){
+                    if(this.anim.select>0){
                         layer.fill(0,this.anim.main*this.anim.select)
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text([0,1,2,3].map(num=>floor(this.select.unit.getKills(num))).map((num,index)=>{return {num:num,text:`${num} ${[`Kills`,`Vehicles`,`Artillery`,`Mortars`][index]}`}}).filter(obj=>obj.num>0).map(({text})=>text).join(`\n`),layer.width-80,130,140)
-                        /*if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0&&(this.select.unit.contain.middle?0:1)){
+                        if(this.select.unit.type.includes(27)){
+                            /*if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0&&(this.select.unit.contain.middle?0:1)){
+                                layer.fill(150,this.anim.main*this.anim.select)
+                                layer.rect(layer.width-340,50,200,60,10)
+                                layer.fill(0,this.anim.main*this.anim.select)
+                                layer.textSize(30)
+                                layer.text(this.select.unit.contain.units.length==0?`Disband HQ`:`Disband`,layer.width-340,50,200)
+                                layer.textSize(10)
+                                layer.text(`Enter`,layer.width-260,25)
+                            }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&){*/
+                            let detach=(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc)&&(this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0
+                            let absorb=this.select.unit.contain.trigger?
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level==constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
+                                this.select.unit.contain.middle?
+                                this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
+                            if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))){
+                                absorb.push(-1)
+                            }
+                            if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
+                                absorb.push(-2)
+                            }
                             layer.fill(150,this.anim.main*this.anim.select)
-                            layer.rect(layer.width-340,50,200,60,10)
+                            if(detach){
+                                layer.rect(layer.width-340,50,200,60,10)
+                                if(this.select.unit.contain.units.length>1){
+                                    layer.rect(layer.width-190,50,60,60,10)
+                                }
+                            }else if(this.select.unit.contain.units.length==0||!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
+                                layer.rect(layer.width-340,50,200,60,10)
+                            }
+                            if(absorb.length>0){
+                                layer.rect(layer.width-340,130,200,60,10)
+                            }
+                            if(absorb.length>1){
+                                layer.rect(layer.width-190,130,60,60,10)
+                            }
                             layer.fill(0,this.anim.main*this.anim.select)
-                            layer.textSize(30)
-                            layer.text(this.select.unit.contain.units.length==0?`Disband HQ`:`Disband`,layer.width-340,50,200)
-                            layer.textSize(10)
-                            layer.text(`Enter`,layer.width-260,25)
-                        }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&){*/
-                        let detach=(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc)&&(this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0
-                        let absorb=this.select.unit.contain.trigger?
-                            this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level==constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
-                            this.select.unit.contain.middle?
-                            this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
-                            this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
-                        if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))){
-                            absorb.push(-1)
-                        }
-                        layer.fill(150,this.anim.main*this.anim.select)
-                        if(detach){
-                            layer.rect(layer.width-340,50,200,60,10)
-                            if(this.select.unit.contain.units.length>1){
-                                layer.rect(layer.width-190,50,60,60,10)
+                            if(detach){
+                                layer.textSize(this.select.unit.contain.units.length<=1?30:15)
+                                layer.text(
+                                    this.select.unit.contain.units.length==1?(this.select.unit.contain.middle?`Disband`:`Detach HQ`):
+                                    `Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200
+                                )
+                                if(this.select.unit.contain.units.length>1){
+                                    layer.textSize(20)
+                                    layer.text(`Next`,layer.width-190,50)
+                                }
+                            }else if(this.select.unit.contain.units.length==0){
+                                layer.textSize(30)
+                                layer.text(`Disband HQ`,layer.width-340,50)
+                            }else if(!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
+                                layer.textSize(30)
+                                layer.text(`Inspect`,layer.width-340,50)
                             }
-                        }else if(this.select.unit.contain.units.length==0||!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
-                            layer.rect(layer.width-340,50,200,60,10)
-                        }
-                        if(absorb.length>0){
-                            layer.rect(layer.width-340,130,200,60,10)
-                        }
-                        if(absorb.length>1){
-                            layer.rect(layer.width-190,130,60,60,10)
-                        }
-                        layer.fill(0,this.anim.main*this.anim.select)
-                        if(detach){
-                            layer.textSize(this.select.unit.contain.units.length<=1?30:15)
-                            layer.text(
-                                this.select.unit.contain.units.length==1?(this.select.unit.contain.middle?`Disband`:`Detach HQ`):
-                                `Detach ${this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length].desc}`,layer.width-340,50,200
-                            )
-                            if(this.select.unit.contain.units.length>1){
-                                layer.textSize(20)
-                                layer.text(`Next`,layer.width-190,50)
-                            }
-                        }else if(this.select.unit.contain.units.length==0){
-                            layer.textSize(30)
-                            layer.text(`Disband HQ`,layer.width-340,50)
-                        }else if(!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
-                            layer.textSize(30)
-                            layer.text(`Inspect`,layer.width-340,50)
-                        }
-                        if(absorb.length>0){
-                            layer.textSize(15)
-                            let target=absorb[this.select.unit.order.absorb%absorb.length]
-                            layer.text(`Absorb ${target==-1?`Subelements`:target.getDesc()}`,layer.width-340,130,200)
-                        }
-                        if(absorb.length>1){
-                            layer.textSize(20)
-                            layer.text(`Next`,layer.width-190,130)
-                        }
-                        if(detach){
-                            layer.textSize(10)
-                            layer.text(`Enter`,layer.width-260,25)
-                            if(this.select.unit.contain.units.length>1){
+                            if(absorb.length>0){
                                 layer.textSize(15)
-                                layer.text(`@`,layer.width-180,30)
+                                let target=absorb[this.select.unit.order.absorb%absorb.length]
+                                layer.text(target==-2?`Consolidate`:`Absorb ${target==-1?`Subelements`:target.getDesc()}`,layer.width-340,130,200)
                             }
-                        }else if(this.select.unit.contain.units.length==0||!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
-                            layer.textSize(10)
-                            layer.text(`Enter`,layer.width-260,25)
-                        }
-                        if(absorb.length>0){
-                            layer.textSize(10)
-                            layer.text(`Shift`,layer.width-260,105)
-                        }
-                        if(absorb.length>1){
-                            layer.textSize(15)
-                            layer.text(`#`,layer.width-180,110)
+                            if(absorb.length>1){
+                                layer.textSize(20)
+                                layer.text(`Next`,layer.width-190,130)
+                            }
+                            if(detach){
+                                layer.textSize(10)
+                                layer.text(`Enter`,layer.width-260,25)
+                                if(this.select.unit.contain.units.length>1){
+                                    layer.textSize(15)
+                                    layer.text(`@`,layer.width-180,30)
+                                }
+                            }else if(this.select.unit.contain.units.length==0||!this.select.unit.contain.trigger&&!this.select.unit.contain.middle){
+                                layer.textSize(10)
+                                layer.text(`Enter`,layer.width-260,25)
+                            }
+                            if(absorb.length>0){
+                                layer.textSize(10)
+                                layer.text(`Shift`,layer.width-260,105)
+                            }
+                            if(absorb.length>1){
+                                layer.textSize(15)
+                                layer.text(`#`,layer.width-180,110)
+                            }
                         }
                         //}
                     }
@@ -633,6 +638,9 @@ export class operation{
             if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))){
                 absorb.push(-1)
             }
+            if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
+                absorb.push(-2)
+            }
             if(this.select.unit.contain.trigger){
                 if(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc){
                     switch(input){
@@ -715,8 +723,14 @@ export class operation{
                 if(absorb.length>0){
                     switch(input){
                         case 2:
-                            if((this.select.unit.level==constants.minLevel||this.select.unit.level==constants.minLevel+1)&&!this.select.unit.contain.adhoc){
-                                let target=absorb[this.select.unit.order.absorb%absorb.length]
+                            let target=absorb[this.select.unit.order.absorb%absorb.length]
+                            if(target==-2){
+                                this.select.unit.contain.units[0].strength.life=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)
+                                this.select.unit.contain.units[0].strength.morale=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/this.select.unit.contain.units.length
+                                this.select.unit.contain.units[0].strength.supply=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/this.select.unit.contain.units.length
+                                this.select.unit.contain.units=[this.select.unit.contain.units[0]]
+                                this.select.unit.calculateElements()
+                            }else if((this.select.unit.level==constants.minLevel||this.select.unit.level==constants.minLevel+1)&&!this.select.unit.contain.adhoc){
                                 let element=this.select.unit.contain.units[0]
                                 let typing=element.type.map(type=>types.unitType[type].name)
                                 absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
@@ -764,7 +778,6 @@ export class operation{
                                     )
                                 }
                             }else{
-                                let target=absorb[this.select.unit.order.absorb%absorb.length]
                                 let artillery=this.select.unit.order.artillery
                                 this.select.unit.contain.units.push(target.contain.units[0])
                                 this.select.unit.calculateElements()

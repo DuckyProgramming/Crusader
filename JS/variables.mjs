@@ -103,6 +103,7 @@ export var types={
         {name:`Largest Buried Immobile Medium Tank Company`,unitType:[`Tank`,`Immobile`],class:1,damage:[10,10],armor:0.7,health:13,morale:0.9,num:16,speed:0.2,artillery:false,engineer:false,recon:false},
         {name:`Inefficient Medium Tank Company`,unitType:[`Tank`,`Immobile`],class:1,damage:[10,10],armor:0.7,health:5,morale:0.9,num:13,speed:0,artillery:false,engineer:false,recon:false},
         {name:`Heavy Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
+        {name:`Half Heavy Tank Company`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:13,morale:0.6,num:9,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Heavy Tank Company`,unitType:[`Tank`,`Heavy`],class:1,damage:[15,12],armor:1,health:25,morale:0.6,num:17,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Slow Tank`,unitType:[`Tank`,`Heavy`],class:1,damage:[12,10],armor:1,health:75,morale:0.6,num:50,speed:1.125,artillery:false,engineer:false,recon:false},
         {name:`Slow Tank Company`,unitType:[`Tank`,`Heavy`],class:1,damage:[12,10],armor:1,health:25,morale:0.6,num:17,speed:1.125,artillery:false,engineer:false,recon:false},
@@ -215,6 +216,7 @@ export var types={
         {name:`Larger Small Anti-Tank Company`,unitType:[`Anti-Tank`],class:2,damage:[4,20],armor:0.1,health:22,morale:1,num:12,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Ruined Anti-Tank Company`,unitType:[`Anti-Tank`],class:2,damage:[4,12],armor:0.1,health:5,morale:0.8,num:5,speed:0.9,artillery:false,engineer:false,recon:false},
         {name:`Ruined Single Anti-Tank Company`,unitType:[`Anti-Tank`],class:2,damage:[4,16],armor:0.1,health:2,morale:0.8,num:1,speed:0.8,artillery:false,engineer:false,recon:false},
+        {name:`Ruined Single Weak Anti-Tank Company`,unitType:[`Anti-Tank`],class:2,damage:[4,12],armor:0.1,health:1,morale:0.8,num:1,speed:0.8,artillery:false,engineer:false,recon:false},
         {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,24],armor:0.1,health:40,morale:1,num:24,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Motorized Anti-Tank Company`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,24],armor:0.1,health:15,morale:1,num:8,speed:2.5,artillery:false,engineer:false,recon:false},
         {name:`Tiny Static Anti-Tank Company`,unitType:[`Anti-Tank`,`Fortress`],class:2,damage:[4,24],armor:0.1,health:3,morale:1,num:1,speed:0.5,artillery:false,engineer:false,recon:false},
@@ -1870,6 +1872,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.2},
                 {name:`Italian`,term:`italy`,player:2,quality:0.85},
             ],player:[
@@ -2505,6 +2508,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.2},
                 {name:`Italian`,term:`italy`,player:2,quality:0.85},
                 {name:`Blackshirt`,term:`blackshirt`,player:2,quality:0.6},
@@ -3037,6 +3041,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.8},
                 {name:`Blackshirt`,term:`blackshirt`,player:2,quality:0.6},
@@ -3051,7 +3056,7 @@ export var types={
             ],unit:[
                 {
                     name:`British Capture of Tobruk`,
-                    strength:{name:`Companies`,num:[[30],[0,60]]},partition:[[0],[2]],bonus:2,
+                    strength:{name:`Companies`,num:[[20],[0,40]]},partition:[[0],[2]],bonus:1,
                     set:0,
                     unit:[
                         {
@@ -3062,24 +3067,24 @@ export var types={
                                 {
                                     level:2,type:[`Fortress`],team:`Guardia alla Frontiera`,
                                     desc:[`31st Frontier Guard Coverage Sector`,`XXXI Settore di Copertura "Tobruch"`],name:`31`,designation:`Sector`,commander:`Cilento`,icon:``,
-                                    pos:[1163,515],
+                                    pos:[1153,511],
                                     elements:[
                                         {
                                             level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
-                                            pos:[1423,613],
+                                            pos:[1201,442],
                                             elements:[
                                                 {
-                                                    level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
                                                     desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Cupidi`,icon:``,
-                                                    pos:[1427,689],
+                                                    pos:[1601,552],
                                                     elements:[
                                                         {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
                                                     desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Tramontin`,icon:``,
-                                                    pos:[1590,577],
+                                                    pos:[1240,684],
                                                     elements:[
                                                         {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
                                                         {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
@@ -3087,7 +3092,7 @@ export var types={
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
                                                     desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Verna`,icon:``,
-                                                    pos:[1656,463],
+                                                    pos:[1410,569],
                                                     elements:[
                                                         {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
                                                         {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
@@ -3102,28 +3107,28 @@ export var types={
                                                 {
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Strongpoint Zeitun, 31st/A Frontier Guard Subsector`,`Capisaldo Zeitun, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Zeitun`,designation:`31/A`,commander:`Montesanti`,icon:``,
-                                                    pos:[1725,389],
+                                                    pos:[1738,488],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Capisaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`31/A`,commander:`Desideri`,icon:``,
-                                                    pos:[1734,508],
+                                                    pos:[1651,677],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Strongpoint Suesi, 31st/A Frontier Guard Subsector`,`Capisaldo Suesi, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Suesi`,designation:`31/A`,commander:`Mosetti`,icon:``,
-                                                    pos:[1677,638],
+                                                    pos:[1487,781],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Capisaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`31/A`,commander:`Proietti`,icon:``,
-                                                    pos:[1582,741],
+                                                    pos:[1321,824],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
                                                     ]
@@ -3132,19 +3137,19 @@ export var types={
                                         },{
                                             level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
-                                            pos:[1359,701],
+                                            pos:[1019,683],
                                             elements:[
                                                 {
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Strongpoint Dahar el Azazi, 31st/B Frontier Guard Subsector`,`Capisaldo Dahar el Azazi, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Dahar el\nAzazi`,designation:`31/B`,commander:`Salvitti`,icon:``,
-                                                    pos:[1431,796],
+                                                    pos:[1097,794],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
                                                     ]
                                                 },{
                                                     level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Capisaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`31/B`,commander:`Ticconi`,icon:``,
-                                                    pos:[1289,831],
+                                                    pos:[865,760],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
                                                     ]
@@ -3153,527 +3158,328 @@ export var types={
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`31`,commander:`Costantini`,icon:``,
-                                            pos:[1151,845],
+                                            pos:[616,717],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`31`,commander:`Adiutori`,icon:``,
-                                            pos:[778,773],
+                                            pos:[602,400],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
                                             ]
+                                        },{
+                                            level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            pos:[1557,456],
+                                            elements:[
+                                                {type:`Mixed Engineer Company`},
+                                            ],
                                         },
                                     ],
                                 },{
                                     level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                     desc:[`Anti-Tank Gun Group`,`Raggruppamento Pezzi Anticarro`],name:`Anticarro`,designation:``,commander:`Icardi`,icon:``,
-                                    pos:[1510,671],
+                                    pos:[1451,667],
                                     elements:[
                                         {
                                             level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`1st Group, 32nd Frontier Guard Artillery Regiment`,`I Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`32`,commander:`Fossa`,icon:``,
-                                            pos:[1493,741],
+                                            pos:[1555,700],
                                             elements:[
                                                 {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`246th Frontier Guard Static Artillery Battery`,`246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`246`,designation:`2`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`2nd Group, 32nd Frontier Guard Artillery Regiment`,`II Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`32`,commander:`Monsurrò`,icon:``,
-                                            pos:[1596,659],
+                                            pos:[950,714],
                                             elements:[
                                                 {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`247th Frontier Guard Static Artillery Battery`,`247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`247`,designation:`3`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`3rd Group, 32nd Frontier Guard Artillery Regiment`,`III Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`32`,commander:`Iannicelli`,icon:``,
-                                            pos:[1664,561],
+                                            pos:[1387,747],
                                             elements:[
                                                 {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`249th Frontier Guard Static Artillery Battery`,`249ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`249`,designation:`1`,commander:``},
                                             ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``,
+                                            pos:[1215,774],
+                                            elements:[
+                                                {type:`Ruined Static Artillery Battery`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Training Battery"`,`Batteria di Formazione`],name:`Formazione`,designation:``,commander:``,icon:``,
+                                            pos:[678,443],
+                                            elements:[
+                                                {type:`3-Gun Ruined Static Artillery Battery`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Anti-Tank`],team:`Guardia alla Frontiera`,
+                                            desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`Gun`,designation:`47/32`,commander:``,icon:``,
+                                            pos:[763,724],
+                                            elements:[
+                                                {type:`Ruined Single Weak Anti-Tank Company`},
+                                            ],
                                         },
                                     ],
                                 },{
-                                    level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                    desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``,
-                                    pos:[678,443],
+                                    level:4,type:[`Coast`],team:`Italian`,
+                                    desc:[`Tobruk Coastal Sector`,`Settore Costiero di Tobruch`],name:`Settore\nCostiero`,designation:`Regia\nMarina`,commander:`Vietina`,icon:``,
+                                    pos:[1196,244],
                                     elements:[
-                                        {type:`3-Gun Ruined Static Artillery Battery`},
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`,
+                                            pos:[1308,180],
+                                            elements:[
+                                                {type:`Small Ruined Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 64th Replacement Battalion`,`3ª Compagnia, LXIV Battaglione Complementi`],name:`3`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1618,368],
+                                            elements:[
+                                                {type:`Ruined Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                                            pos:[1021,206],
+                                            elements:[
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
+                                            pos:[754,279],
+                                            elements:[
+                                                {type:`Smallest Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
+                                            pos:[1029,523],
+                                            elements:[
+                                                {type:`Small Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
+                                            pos:[1314,505],
+                                            elements:[
+                                                {type:`Small Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
+                                            pos:[1488,382],
+                                            elements:[
+                                                {type:`Small Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
+                                            pos:[1052,339],
+                                            elements:[
+                                                {type:`3-Gun Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
+                                            pos:[1189,392],
+                                            elements:[
+                                                {type:`Small Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
+                                            pos:[1457,318],
+                                            elements:[
+                                                {type:`Smallest Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                            desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
+                                            pos:[1270,333],
+                                            elements:[
+                                                {type:`Small Static Coastal Artillery Battery`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+                                            desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
+                                            pos:[1258,269],
+                                            elements:[
+                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`64th Replacement Battalion`,`LXIV Battaglione Complementi`],name:`64`,designation:`Replacement`,commander:``,icon:`catanzaro`,
+                                    pos:[1317,554],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1458,501],
+                                            elements:[
+                                                {type:`Ruined Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,desc:[`2nd Company, 64th Replacement Battalion`,`2ª Compagnia, LXIV Battaglione Complementi`],name:`2`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1343,622],
+                                            elements:[
+                                                {type:`Ruined Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,desc:[`4th Company, 64th Replacement Battalion`,`4ª Compagnia, LXIV Battaglione Complementi`],name:`4`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            pos:[1191,626],
+                                            elements:[
+                                                {type:`Ruined Heavy Infantry Company`},
+                                            ]
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:``,icon:``,
+                                    pos:[1015,466],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``,
+                                            pos:[974,565],
+                                            elements:[
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                                            pos:[968,389],
+                                            elements:[
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:5,type:[`Infantry`],team:`Italian`,
+                                    desc:[`63rd Garrison Company`,`63ª Compagnia Presidiaria`],name:`63`,designation:`Garrison`,commander:``,icon:`cirene`,
+                                    pos:[905,508],
+                                    elements:[
+                                        {type:`Small Ruined Infantry Company`},
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Fortress`],team:`Italian`,
+                                    desc:[`Naval Battery "Nembo"`,`Batteria Navale "Nembo"`],name:`Nembo`,designation:`Regia\nMarina`,commander:``,icon:``,
+                                    pos:[1251,575],
+                                    elements:[
+                                        {type:`Larger Ruined Static Artillery Battery`},
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Fortress`],team:`Italian`,
+                                    desc:[`Naval Battery "Vittoria"`,`Batteria Navale "Vittoria"`],name:`Vittoria`,designation:`Regia\nMarina`,commander:``,icon:``,
+                                    pos:[720,621],
+                                    elements:[
+                                        {type:`Ruined Static Artillery Battery`},
                                     ]
                                 },
                             ],
                         },{
-                            level:2,type:[`Artillery`],team:`Italian`,
-                            desc:[`Fortress Artillery Command`,`Comando Artiglieria Della Piazza`],name:`Artillery`,designation:`Piazza`,commander:`de Leone`,icon:``,
-                            pos:[1054,364],
+                            level:2,type:[`Infantry`,`Motorized`],team:`Australian`,
+                            desc:`20th Australian Infantry Brigade`,name:`20`,designation:``,commander:`Murray`,icon:`9a`,
+                            pos:[2073,946],
                             elements:[
                                 {
-                                    level:3,type:[`Artillery`],team:`Italian`,
-                                    desc:[`22nd Corps Artillery Regiment`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Sardi`,icon:``,
-                                    pos:[796,643],
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`,icon:`9a`,
+                                    pos:[2073,846],
                                     elements:[
-                                        {
-                                            level:4,type:[`Artillery`],team:`Italian`,
-                                            desc:[`1st Group, 22nd Corps Artillery Regiment`,`I Gruppo Obici Campali, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`1`,designation:`22 Corps`,commander:`Mosetti`,icon:``,
-                                            pos:[712,588],
-                                            elements:[
-                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
-                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 1st Artillery Group`,`3ª Batteria, I Gruppo Obici Campali`],name:`3`,designation:`1 Corps`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Artillery`],team:`Italian`,
-                                            desc:[`Composite Group, 22nd Corps Artillery Regiment`,`Gruppo di Composizione, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`C`,designation:`22 Corps`,commander:`Papa`,icon:``,
-                                            pos:[720,706],
-                                            elements:[
-                                                {level:5,type:`Small Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Regiment`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
-                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 1st Artillery Group`,`2ª Batteria, I Gruppo Obici Campali`],name:`2`,designation:`1 Corps`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Anti-Tank`],team:`Italian`,
-                                            desc:[`Provisional Anti-Tank Company`,`Compagnia Provvisoria Cannoni Anticarro`],name:`Provvisoria`,designation:``,commander:``,icon:``,
-                                            pos:[841,733],
-                                            elements:[
-                                                {type:`Smaller Anti-Tank Company`},
-                                            ],
-                                        },
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/13th Australian Infantry Battalion`],name:`A`,designation:`2/13`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/13th Australian Infantry Battalion`],name:`B`,designation:`2/13`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/13th Australian Infantry Battalion`],name:`C`,designation:`2/13`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/13th Australian Infantry Battalion`],name:`D`,designation:`2/13`,commander:``},
                                     ],
                                 },{
-                                    level:3,type:[`Artillery`],team:`Italian`,
-                                    desc:[`25th Corps Artillery Regiment`,`25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`25`,designation:`Corps`,commander:`Bellini`,icon:``,
-                                    pos:[1240,684],
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`,icon:`9a`,
+                                    pos:[1986,896],
                                     elements:[
-                                        {
-                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
-                                            desc:[`105th Group, 25th Corps Artillery Regiment`,`CV Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`105`,designation:`25 Corps`,commander:`Manca`,icon:``,
-                                            pos:[1156,712],
-                                            elements:[
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 105th Artillery Group`,`1ª Batteria, CV Gruppo Artiglieria`],name:`1`,designation:`105 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 105th Artillery Group`,`2ª Batteria, CV Gruppo Artiglieria`],name:`2`,designation:`105 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 105th Artillery Group`,`3ª Batteria, CV Gruppo Artiglieria`],name:`3`,designation:`105 Corps`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
-                                            desc:[`130th Group, 25th Corps Artillery Regiment`,`CXXX Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`130`,designation:`25 Corps`,commander:`Sulis`,icon:``,
-                                            pos:[1226,778],
-                                            elements:[
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 130th Artillery Group`,`1ª Batteria, CXXX Gruppo Artiglieria`],name:`1`,designation:`130 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 130th Artillery Group`,`2ª Batteria, CXXX Gruppo Artiglieria`],name:`2`,designation:`130 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 130th Artillery Group`,`3ª Batteria, CXXX Gruppo Artiglieria`],name:`3`,designation:`130 Corps`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
-                                            desc:[`148th Group, 25th Corps Artillery Regiment`,`CXLVIII Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`148`,designation:`25 Corps`,commander:`Petitti`,icon:``,
-                                            pos:[1356,780],
-                                            elements:[
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 148th Artillery Group`,`1ª Batteria, CXLVIII Gruppo Artiglieria`],name:`1`,designation:`148 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 148th Artillery Group`,`2ª Batteria, CXLVIII Gruppo Artiglieria`],name:`2`,designation:`148 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 148th Artillery Group`,`3ª Batteria, CXLVIII Gruppo Artiglieria`],name:`3`,designation:`148 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 150th Artillery Group`,`3ª Batteria, CL Gruppo Artiglieria`],name:`3`,designation:`150 Corps`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
-                                            desc:[`150th Group, 25th Corps Artillery Regiment`,`CL Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`150`,designation:`25 Corps`,commander:`Lazzarini`,icon:``,
-                                            pos:[1467,518],
-                                            elements:[
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 150th Artillery Group`,`1ª Batteria, CL Gruppo Artiglieria`],name:`1`,designation:`150 Corps`,commander:``},
-                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 150th Artillery Group`,`2ª Batteria, CL Gruppo Artiglieria`],name:`2`,designation:`150 Corps`,commander:``},
-                                            ],
-                                        },
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/15th Australian Infantry Battalion`],name:`B`,designation:`2/15`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/15th Australian Infantry Battalion`],name:`C`,designation:`2/15`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/15th Australian Infantry Battalion`],name:`D`,designation:`2/15`,commander:``},
                                     ],
                                 },{
-                                    level:4,type:[`Artillery`],team:`Italian`,
-                                    desc:[`1st Group, 12th Artillery Regiment`,`I Gruppo, 12° Reggimento Artiglieria "Sila"`],name:`1`,designation:`12`,commander:`Baumgarten`,icon:`savona`,
-                                    pos:[1521,442],
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`,icon:`9a`,
+                                    pos:[1986,996],
                                     elements:[
-                                        {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 12th Artillery Regiment`,`1° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`1`,designation:`12`,commander:``},
-                                        {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 12th Artillery Regiment`,`2° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`2`,designation:`12`,commander:``},
-                                        {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 12th Artillery Regiment`,`3° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`3`,designation:`12`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/17th Australian Infantry Battalion`],name:`A`,designation:`2/17`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/17th Australian Infantry Battalion`],name:`B`,designation:`2/17`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/17th Australian Infantry Battalion`],name:`C`,designation:`2/17`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/17th Australian Infantry Battalion`],name:`D`,designation:`2/17`,commander:``},
+                                    ],
+                                },{
+                                    level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+                                    desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``,icon:`9a`,
+                                    pos:[2073,1046],
+                                    elements:[
+                                        {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``},
                                     ],
                                 },
                             ],
                         },{
-                            level:3,type:[`Infantry`],team:`Italian`,
-                            desc:[`69th Infantry Regiment`,`69° Reggimento di Fanteria "Ancona"`],name:`69`,designation:`Ancona`,commander:`Randone`,icon:`sirte`,
-                            pos:[999,555],
+                            level:4,type:[`Infantry`,`Motorized`],team:`British`,
+                            desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`,icon:`7sg`,
+                            pos:[461,908],
                             elements:[
                                 {
-                                    level:4,type:[`Infantry`],team:`Italian`,
-                                    desc:[`1st Battalion, 69th Infantry Regiment`,`I Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:`Rugiu`,icon:`sirte`,
-                                    pos:[840,510],
+                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                    desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                    pos:[443,394],
                                     elements:[
-                                        {
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[616,727],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`2nd Company, 69th Infantry Regiment`,`2ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[617,575],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 69th Infantry Regiment`,`2ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`69`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[601,393],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[777,381],
-                                            elements:[
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``},
-                                            ],
-                                        },
+                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``},
                                     ],
                                 },{
-                                    level:4,type:[`Infantry`],team:`Italian`,
-                                    desc:[`2nd Battalion, 69th Infantry Regiment`,`II Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`69`,commander:`Guassardo`,icon:`sirte`,
-                                    pos:[1343,370],
+                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                    desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                    pos:[486,744],
                                     elements:[
-                                        {
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`5th Company, 69th Infantry Regiment`,`5ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`5`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[1298,734],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 69th Infantry Regiment`,`5ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`5`,designation:`69`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`6th Company, 69th Infantry Regiment`,`6ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`6`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[1576,501],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 69th Infantry Regiment`,`6ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`6`,designation:`69`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`7th Company, 69th Infantry Regiment`,`7ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`7`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[1425,444],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 69th Infantry Regiment`,`7ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`7`,designation:`69`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`8th Company, 69th Infantry Regiment`,`8ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`69`,commander:``,icon:`sirte`,
-                                            pos:[1518,366],
-                                            elements:[
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 69th Infantry Regiment`,`8ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`69`,commander:``},
-                                            ],
-                                        },
+                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``},
                                     ],
                                 },{
-                                    level:4,type:[`Infantry`],team:`Italian`,
-                                    desc:[`3rd Battalion, 70th Infantry Regiment`,`III Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`70`,commander:`Zanussi`,icon:`sirte`,
-                                    pos:[1015,667],
+                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                    desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                    pos:[996,905],
                                     elements:[
-                                        {
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``,icon:`sirte`,
-                                            pos:[917,751],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`10th Company, 70th Infantry Regiment`,`10ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`10`,designation:`70`,commander:``,icon:`sirte`,
-                                            pos:[1070,748],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`10th Company, 70th Infantry Regiment`,`10ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`10`,designation:`70`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`11th Company, 70th Infantry Regiment`,`11ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`11`,designation:`70`,commander:``,icon:`sirte`,
-                                            pos:[891,634],
-                                            elements:[
-                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`11th Company, 70th Infantry Regiment`,`11ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`11`,designation:`70`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`12th Company, 70th Infantry Regiment`,`12ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`12`,designation:`70`,commander:``,icon:`sirte`,
-                                            pos:[1129,622],
-                                            elements:[
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 70th Infantry Regiment`,`12ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`12`,designation:`70`,commander:``},
-                                            ],
-                                        },
+                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``},
                                     ],
                                 },{
-                                    level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
-                                    desc:[`69th Infantry Gun Company`,`69ª Compagnia Cannoni`],name:`69`,designation:``,commander:``,icon:`sirte`,
-                                    pos:[1623,389],
+                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                    desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                    pos:[1915,486],
                                     elements:[
-                                        {level:5,type:`Infantry Gun Company`,team:`Italian`,desc:[`69th Infantry Gun Company`,`69ª Compagnia Cannoni`],name:`69`,designation:``,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
                                     ],
                                 },
                             ],
                         },{
-                            level:3,type:[`Tank`],team:`Italian`,
-                            desc:[`4th Tank Infantry Regiment`,`4° Reggimento Carri`],name:`4`,designation:``,commander:`Aresca`,icon:`4ti`,
-                            pos:[1256,433],
+                            level:4,type:[`Tank`,`Heavy`],team:`British`,
+                            desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:`7a`,
+                            pos:[1812,796],
                             elements:[
-                                {
-                                    level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
-                                    pos:[1307,604],
-                                    elements:[
-                                        {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
-                                        {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`3rd Company, 1st Tank Battalion`,`3ª Compagnia, I Battaglione Carri M`],name:`3`,designation:`1`,commander:``},
-                                    ],
-                                },{
-                                    level:4,type:[`Tank`,`Light`],team:`Italian`,
-                                    desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`,
-                                    pos:[1367,544],
-                                    elements:[
-                                        {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`Composite Company, 21st Tank Battalion`,`Compagnia di Composizione, XXI Battaglione Carri L`],name:`C`,designation:`61`,commander:``},
-                                        {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`Composite Company, 61st Tank Battalion`,`Compagnia di Composizione, LXI Battaglione Carri L`],name:`C`,designation:`61`,commander:``},
-                                    ],
-                                },{
-                                    level:5,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``,icon:`4ti`,
-                                    pos:[1277,514],
-                                    elements:[
-                                        {type:`Small Medium Tank Company`},
-                                    ]
-                                },
+                                {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
+                                {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
                             ],
                         },{
-                            level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
-                            desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``,
-                            pos:[1237,569],
+                            level:5,type:[`Tank`,`Light`],team:`Australian`,
+                            desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
+                            pos:[1906,1155],
                             elements:[
-                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`},
-                            ],
-                        },{
-                            level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
-                            desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`,
-                            pos:[1332,474],
-                            elements:[
-                                {type:`Motorcycle Bersaglieri Company`},
-                            ],
-                        },{
-                            level:5,type:[`Anti-Tank`],team:`Italian`,
-                            desc:[`55th Anti-Tank Company`,`55ª Compagnia Cannoni Controcarro`],name:`55`,designation:``,commander:``,icon:`savona`,
-                            pos:[1008,614],
-                            elements:[
-                                {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`55th Anti-Tank Company`,`55ª Compagnia Cannoni Controcarro`],name:`55`,designation:``},
-                            ],
-                        },{
-                            level:5,type:[`Mortar`],team:`Italian`,
-                            desc:[`15th Mortar Company`,`15ª Compagnia Mortai`],name:`15`,designation:``,commander:``,icon:`savona`,
-                            pos:[930,536],
-                            elements:[
-                                {type:`Ruined Mortar Company`},
-                            ],
-                        },{
-                            level:5,type:[`Mortar`],team:`Italian`,
-                            desc:[`16th Mortar Company`,`16ª Compagnia Mortai`],name:`16`,designation:``,commander:``,icon:`savona`,
-                            pos:[966,371],
-                            elements:[
-                                {type:`Ruined Mortar Company`},
-                            ],
-                        },{
-                            level:1,type:[`Tank`],team:`British`,
-                            desc:[`7th Armored Division`,`7th Armoured Division`],name:`7`,designation:``,commander:`Creagh`,icon:`7a`,
-                            pos:[150,1237],
-                            elements:[
-                                {
-                                    level:2,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
-                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Gott`,icon:`7sg`,
-                                    pos:[975,1250],
-                                    elements:[
-                                        {
-                                            level:4,type:[`Infantry`,`Motorized`],team:`British`,
-                                            desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`,icon:`7sg`,
-                                            pos:[212,488],
-                                            elements:[
-                                                {
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``,icon:`7sg`,
-                                                    pos:[425,318],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``,icon:`7sg`,
-                                                    pos:[439,516],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``,icon:`7sg`,
-                                                    pos:[486,744],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``,icon:`7sg`,
-                                                    pos:[758,870],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
-                                                    ],
-                                                },
-                                            ],
-                                        },{
-                                            level:4,type:[`Infantry`,`Motorized`],team:`British`,
-                                            desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`,icon:`7sg`,
-                                            pos:[2086,768],
-                                            elements:[
-                                                {
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`A Company, 2nd Battalion, Rifle Brigade`,name:`A`,designation:`2 RB`,commander:``,icon:`7sg`,
-                                                    pos:[1146,955],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 2nd Battalion, Rifle Brigade`,name:`A`,designation:`2 RB`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`B Company, 2nd Battalion, Rifle Brigade`,name:`B`,designation:`2 RB`,commander:``,icon:`7sg`,
-                                                    pos:[1531,889],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 2nd Battalion, Rifle Brigade`,name:`B`,designation:`2 RB`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
-                                                    desc:`C Company, 2nd Battalion, Rifle Brigade`,name:`C`,designation:`2 RB`,commander:``,icon:`7sg`,
-                                                    pos:[1771,729],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 2nd Battalion, Rifle Brigade`,name:`C`,designation:`2 RB`,commander:``},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Infantry`,`Motorized`,`Heavy`],team:`British`,
-                                                    desc:`S Company, 2nd Battalion, Rifle Brigade`,name:`S`,designation:`2 RB`,commander:``,icon:`7sg`,
-                                                    pos:[1915,486],
-                                                    elements:[
-                                                        {level:5,type:`Motorized Heavy Infantry Company`,team:`British`,desc:`S Company, 2nd Battalion, Rifle Brigade`,name:`S`,designation:`2 RB`,commander:``},
-                                                    ],
-                                                },
-                                            ],
-                                        },{
-                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
-                                            desc:[`M Battery, 3rd Battalion, Royal Horse Artillery`,`M Battery, 3rd Regiment, Royal Horse Artillery`],name:`M`,designation:`3 RHA`,commander:``,icon:`7sg`,
-                                            pos:[2000,676],
-                                            elements:[
-                                                {type:`Motorized Anti-Tank Company`},
-                                            ],
-                                        },{
-                                            level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``,icon:`7sg`,
-                                            pos:[1674,929],
-                                            elements:[
-                                                {type:`Motorized Artillery Battery`},
-                                            ],
-                                        },
-                                    ],
-                                },{
-                                    level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
-                                    desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
-                                    pos:[461,908],
-                                    elements:[
-                                        {
-                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
-                                            desc:[`D Battery, 3rd Battalion, Royal Horse Artillery`,`D Battery, 3rd Regiment, Royal Horse Artillery`],name:`D`,designation:`3 RHA`,commander:``,icon:`7sg`,
-                                            pos:[315,426],
-                                            elements:[
-                                                {type:`Motorized Anti-Tank Company`},
-                                            ],
-                                        },{
-                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
-                                            desc:[`J Battery, 3rd Battalion, Royal Horse Artillery`,`J Battery, 3rd Regiment, Royal Horse Artillery`],name:`J`,designation:`3 RHA`,commander:``,icon:`7sg`,
-                                            pos:[620,957],
-                                            elements:[
-                                                {type:`Motorized Anti-Tank Company`},
-                                            ],
-                                        },{
-                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
-                                            desc:[`P Battery, 3rd Battalion, Royal Horse Artillery`,`P Battery, 3rd Regiment, Royal Horse Artillery`],name:`P`,designation:`3 RHA`,commander:``,icon:`7sg`,
-                                            pos:[1355,1011],
-                                            elements:[
-                                                {type:`Motorized Anti-Tank Company`},
-                                            ],
-                                        },
-                                    ],
-                                },{
-                                    level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                    desc:[`4th Battalion, Royal Horse Artillery`,`4th Regiment, Royal Horse Artillery`],name:`4`,designation:`Royal\nHorse`,commander:`Campbell`,icon:`7sg`,
-                                    pos:[820,1017],
-                                    elements:[
-                                        {
-                                            level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``,icon:`7sg`,
-                                            pos:[933,944],
-                                            elements:[
-                                                {type:`Motorized Artillery Battery`},
-                                            ],
-                                        },
-                                    ],
-                                },{
-                                    level:2,type:[`Infantry`,`Motorized`],team:`Australian`,
-                                    desc:`20th Australian Infantry Brigade`,name:`20`,designation:``,commander:`Murray`,icon:`9a`,
-                                    pos:[2073,946],
-                                    elements:[
-                                        {
-                                            level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
-                                            desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`,icon:`9a`,
-                                            pos:[2073,846],
-                                            elements:[
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/13th Australian Infantry Battalion`],name:`A`,designation:`2/13`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/13th Australian Infantry Battalion`],name:`B`,designation:`2/13`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/13th Australian Infantry Battalion`],name:`C`,designation:`2/13`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/13th Australian Infantry Battalion`],name:`D`,designation:`2/13`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
-                                            desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`,icon:`9a`,
-                                            pos:[1986,896],
-                                            elements:[
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/15th Australian Infantry Battalion`],name:`B`,designation:`2/15`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/15th Australian Infantry Battalion`],name:`C`,designation:`2/15`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/15th Australian Infantry Battalion`],name:`D`,designation:`2/15`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
-                                            desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`,icon:`9a`,
-                                            pos:[1986,996],
-                                            elements:[
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/17th Australian Infantry Battalion`],name:`A`,designation:`2/17`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/17th Australian Infantry Battalion`],name:`B`,designation:`2/17`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/17th Australian Infantry Battalion`],name:`C`,designation:`2/17`,commander:``},
-                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/17th Australian Infantry Battalion`],name:`D`,designation:`2/17`,commander:``},
-                                            ],
-                                        },{
-                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
-                                            desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``,icon:`9a`,
-                                            pos:[2073,1046],
-                                            elements:[
-                                                {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``},
-                                            ],
-                                        },
-                                    ],
-                                },{
-                                    level:4,type:[`Tank`,`Heavy`],team:`British`,
-                                    desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:`7a`,
-                                    pos:[1899,846],
-                                    elements:[
-                                        {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
-                                        {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
-                                    ],
-                                },{
-                                    level:5,type:[`Tank`,`Light`],team:`Australian`,
-                                    desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
-                                    pos:[1906,1155],
-                                    elements:[
-                                        {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
-                                    ],
-                                },
+                                {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
                             ],
                         },
                     ],
@@ -3977,7 +3783,7 @@ export var types={
                             elements:[
                                 {
                                     level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                     pos:[1317,554],
                                     elements:[
                                         {level:5,type:`Immobile Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -4657,7 +4463,7 @@ export var types={
                             elements:[
                                 {
                                     level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                     pos:[1317,554],
                                     elements:[
                                         {level:5,type:`Immobile Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -5242,7 +5048,7 @@ export var types={
                             elements:[
                                 {
                                     level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                     pos:[1317,554],
                                     elements:[
                                         {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -5982,7 +5788,7 @@ export var types={
                             elements:[
                                 {
                                     level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                     pos:[1317,554],
                                     elements:[
                                         {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -6628,7 +6434,7 @@ export var types={
                             elements:[
                                 {
                                     level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                     pos:[1317,554],
                                     elements:[
                                         {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -7231,7 +7037,7 @@ export var types={
                             elements:[
                                 {
                                     level:4,type:[`Tank`],team:`Italian`,
-                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                     pos:[1317,554],
                                     elements:[
                                         {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -7464,6 +7270,634 @@ export var types={
                             ],
                         },
                     ],
+                },{
+                    name:`British Capture of Tobruk - OLD 7`,
+                    strength:{name:`Companies`,num:[[30],[0,60]]},partition:[[0],[2]],bonus:2,
+                    set:1,
+                    unit:[
+                        {
+                            level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                            desc:[`Eastern Libya Army Corps Frontier Guard Command`,`Comando Guardia alla Frontiera della Libia Orientale`],name:`Libia\nOrientale`,designation:`XXII`,commander:`Barberis`,icon:``,
+                            pos:[1106,442],
+                            elements:[
+                                {
+                                    level:2,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`31st Frontier Guard Coverage Sector`,`XXXI Settore di Copertura "Tobruch"`],name:`31`,designation:`Sector`,commander:`Cilento`,icon:``,
+                                    pos:[1163,515],
+                                    elements:[
+                                        {
+                                            level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
+                                            pos:[1423,613],
+                                            elements:[
+                                                {
+                                                    level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                                    desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Cupidi`,icon:``,
+                                                    pos:[1427,689],
+                                                    elements:[
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Tramontin`,icon:``,
+                                                    pos:[1590,577],
+                                                    elements:[
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Verna`,icon:``,
+                                                    pos:[1656,463],
+                                                    elements:[
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
+                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                                                    ],
+                                                },
+                                            ],
+                                        },{
+                                            level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st/A Frontier Guard Subsector`,`XXXI/A Sottosettore Guardia alla Frontiera`],name:`A`,designation:`31`,commander:`Cecavicchi`,icon:``,
+                                            pos:[1506,584],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Zeitun, 31st/A Frontier Guard Subsector`,`Capisaldo Zeitun, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Zeitun`,designation:`31/A`,commander:`Montesanti`,icon:``,
+                                                    pos:[1725,389],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Capisaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`31/A`,commander:`Desideri`,icon:``,
+                                                    pos:[1734,508],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Suesi, 31st/A Frontier Guard Subsector`,`Capisaldo Suesi, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Suesi`,designation:`31/A`,commander:`Mosetti`,icon:``,
+                                                    pos:[1677,638],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Capisaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`31/A`,commander:`Proietti`,icon:``,
+                                                    pos:[1582,741],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },
+                                            ],
+                                        },{
+                                            level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+                                            pos:[1359,701],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Dahar el Azazi, 31st/B Frontier Guard Subsector`,`Capisaldo Dahar el Azazi, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Dahar el\nAzazi`,designation:`31/B`,commander:`Salvitti`,icon:``,
+                                                    pos:[1431,796],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },{
+                                                    level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Capisaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`31/B`,commander:`Ticconi`,icon:``,
+                                                    pos:[1289,831],
+                                                    elements:[
+                                                        {type:`Static Machine Gun Company`},
+                                                    ]
+                                                },
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`31`,commander:`Costantini`,icon:``,
+                                            pos:[1151,845],
+                                            elements:[
+                                                {type:`Static Machine Gun Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Capisaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`31`,commander:`Adiutori`,icon:``,
+                                            pos:[778,773],
+                                            elements:[
+                                                {type:`Static Machine Gun Company`},
+                                            ]
+                                        },
+                                    ],
+                                },{
+                                    level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`Anti-Tank Gun Group`,`Raggruppamento Pezzi Anticarro`],name:`Anticarro`,designation:``,commander:`Icardi`,icon:``,
+                                    pos:[1510,671],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`1st Group, 32nd Frontier Guard Artillery Regiment`,`I Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`32`,commander:`Fossa`,icon:``,
+                                            pos:[1493,741],
+                                            elements:[
+                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`246th Frontier Guard Static Artillery Battery`,`246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`246`,designation:`2`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`2nd Group, 32nd Frontier Guard Artillery Regiment`,`II Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`32`,commander:`Monsurrò`,icon:``,
+                                            pos:[1596,659],
+                                            elements:[
+                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`247th Frontier Guard Static Artillery Battery`,`247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`247`,designation:`3`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`3rd Group, 32nd Frontier Guard Artillery Regiment`,`III Gruppo, 32° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`32`,commander:`Iannicelli`,icon:``,
+                                            pos:[1664,561],
+                                            elements:[
+                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`249th Frontier Guard Static Artillery Battery`,`249ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`249`,designation:`1`,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                    desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``,
+                                    pos:[678,443],
+                                    elements:[
+                                        {type:`3-Gun Ruined Static Artillery Battery`},
+                                    ]
+                                },
+                            ],
+                        },{
+                            level:2,type:[`Artillery`],team:`Italian`,
+                            desc:[`Fortress Artillery Command`,`Comando Artiglieria Della Piazza`],name:`Artillery`,designation:`Piazza`,commander:`de Leone`,icon:``,
+                            pos:[1054,364],
+                            elements:[
+                                {
+                                    level:3,type:[`Artillery`],team:`Italian`,
+                                    desc:[`22nd Corps Artillery Regiment`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Sardi`,icon:``,
+                                    pos:[796,643],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Artillery`],team:`Italian`,
+                                            desc:[`1st Group, 22nd Corps Artillery Regiment`,`I Gruppo Obici Campali, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`1`,designation:`22 Corps`,commander:`Mosetti`,icon:``,
+                                            pos:[712,588],
+                                            elements:[
+                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
+                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 1st Artillery Group`,`3ª Batteria, I Gruppo Obici Campali`],name:`3`,designation:`1 Corps`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`],team:`Italian`,
+                                            desc:[`Composite Group, 22nd Corps Artillery Regiment`,`Gruppo di Composizione, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`C`,designation:`22 Corps`,commander:`Papa`,icon:``,
+                                            pos:[720,706],
+                                            elements:[
+                                                {level:5,type:`Small Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Regiment`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
+                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 1st Artillery Group`,`2ª Batteria, I Gruppo Obici Campali`],name:`2`,designation:`1 Corps`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Anti-Tank`],team:`Italian`,
+                                            desc:[`Provisional Anti-Tank Company`,`Compagnia Provvisoria Cannoni Anticarro`],name:`Provvisoria`,designation:``,commander:``,icon:``,
+                                            pos:[841,733],
+                                            elements:[
+                                                {type:`Smaller Anti-Tank Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:3,type:[`Artillery`],team:`Italian`,
+                                    desc:[`25th Corps Artillery Regiment`,`25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`25`,designation:`Corps`,commander:`Bellini`,icon:``,
+                                    pos:[1240,684],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
+                                            desc:[`105th Group, 25th Corps Artillery Regiment`,`CV Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`105`,designation:`25 Corps`,commander:`Manca`,icon:``,
+                                            pos:[1156,712],
+                                            elements:[
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 105th Artillery Group`,`1ª Batteria, CV Gruppo Artiglieria`],name:`1`,designation:`105 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 105th Artillery Group`,`2ª Batteria, CV Gruppo Artiglieria`],name:`2`,designation:`105 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 105th Artillery Group`,`3ª Batteria, CV Gruppo Artiglieria`],name:`3`,designation:`105 Corps`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
+                                            desc:[`130th Group, 25th Corps Artillery Regiment`,`CXXX Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`130`,designation:`25 Corps`,commander:`Sulis`,icon:``,
+                                            pos:[1226,778],
+                                            elements:[
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 130th Artillery Group`,`1ª Batteria, CXXX Gruppo Artiglieria`],name:`1`,designation:`130 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 130th Artillery Group`,`2ª Batteria, CXXX Gruppo Artiglieria`],name:`2`,designation:`130 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 130th Artillery Group`,`3ª Batteria, CXXX Gruppo Artiglieria`],name:`3`,designation:`130 Corps`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
+                                            desc:[`148th Group, 25th Corps Artillery Regiment`,`CXLVIII Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`148`,designation:`25 Corps`,commander:`Petitti`,icon:``,
+                                            pos:[1356,780],
+                                            elements:[
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 148th Artillery Group`,`1ª Batteria, CXLVIII Gruppo Artiglieria`],name:`1`,designation:`148 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 148th Artillery Group`,`2ª Batteria, CXLVIII Gruppo Artiglieria`],name:`2`,designation:`148 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 148th Artillery Group`,`3ª Batteria, CXLVIII Gruppo Artiglieria`],name:`3`,designation:`148 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 150th Artillery Group`,`3ª Batteria, CL Gruppo Artiglieria`],name:`3`,designation:`150 Corps`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
+                                            desc:[`150th Group, 25th Corps Artillery Regiment`,`CL Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`150`,designation:`25 Corps`,commander:`Lazzarini`,icon:``,
+                                            pos:[1467,518],
+                                            elements:[
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 150th Artillery Group`,`1ª Batteria, CL Gruppo Artiglieria`],name:`1`,designation:`150 Corps`,commander:``},
+                                                {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 150th Artillery Group`,`2ª Batteria, CL Gruppo Artiglieria`],name:`2`,designation:`150 Corps`,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Artillery`],team:`Italian`,
+                                    desc:[`1st Group, 12th Artillery Regiment`,`I Gruppo, 12° Reggimento Artiglieria "Sila"`],name:`1`,designation:`12`,commander:`Baumgarten`,icon:`savona`,
+                                    pos:[1521,442],
+                                    elements:[
+                                        {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 12th Artillery Regiment`,`1° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`1`,designation:`12`,commander:``},
+                                        {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 12th Artillery Regiment`,`2° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`2`,designation:`12`,commander:``},
+                                        {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 12th Artillery Regiment`,`3° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`3`,designation:`12`,commander:``},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:3,type:[`Infantry`],team:`Italian`,
+                            desc:[`69th Infantry Regiment`,`69° Reggimento di Fanteria "Ancona"`],name:`69`,designation:`Ancona`,commander:`Randone`,icon:`sirte`,
+                            pos:[999,555],
+                            elements:[
+                                {
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`1st Battalion, 69th Infantry Regiment`,`I Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:`Rugiu`,icon:`sirte`,
+                                    pos:[840,510],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[616,727],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`2nd Company, 69th Infantry Regiment`,`2ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[617,575],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 69th Infantry Regiment`,`2ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`69`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[601,393],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+                                            desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[777,381],
+                                            elements:[
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`2nd Battalion, 69th Infantry Regiment`,`II Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`69`,commander:`Guassardo`,icon:`sirte`,
+                                    pos:[1343,370],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`5th Company, 69th Infantry Regiment`,`5ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`5`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[1298,734],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 69th Infantry Regiment`,`5ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`5`,designation:`69`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`6th Company, 69th Infantry Regiment`,`6ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`6`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[1576,501],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 69th Infantry Regiment`,`6ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`6`,designation:`69`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`7th Company, 69th Infantry Regiment`,`7ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`7`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[1425,444],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 69th Infantry Regiment`,`7ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`7`,designation:`69`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+                                            desc:[`8th Company, 69th Infantry Regiment`,`8ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[1518,366],
+                                            elements:[
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 69th Infantry Regiment`,`8ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`69`,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`3rd Battalion, 70th Infantry Regiment`,`III Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`70`,commander:`Zanussi`,icon:`sirte`,
+                                    pos:[1015,667],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``,icon:`sirte`,
+                                            pos:[917,751],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`10th Company, 70th Infantry Regiment`,`10ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`10`,designation:`70`,commander:``,icon:`sirte`,
+                                            pos:[1070,748],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`10th Company, 70th Infantry Regiment`,`10ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`10`,designation:`70`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`11th Company, 70th Infantry Regiment`,`11ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`11`,designation:`70`,commander:``,icon:`sirte`,
+                                            pos:[891,634],
+                                            elements:[
+                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`11th Company, 70th Infantry Regiment`,`11ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`11`,designation:`70`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+                                            desc:[`12th Company, 70th Infantry Regiment`,`12ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`12`,designation:`70`,commander:``,icon:`sirte`,
+                                            pos:[1129,622],
+                                            elements:[
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 70th Infantry Regiment`,`12ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`12`,designation:`70`,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
+                                    desc:[`69th Infantry Gun Company`,`69ª Compagnia Cannoni`],name:`69`,designation:``,commander:``,icon:`sirte`,
+                                    pos:[1623,389],
+                                    elements:[
+                                        {level:5,type:`Infantry Gun Company`,team:`Italian`,desc:[`69th Infantry Gun Company`,`69ª Compagnia Cannoni`],name:`69`,designation:``,commander:``},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:3,type:[`Tank`],team:`Italian`,
+                            desc:[`4th Tank Infantry Regiment`,`4° Reggimento Carri`],name:`4`,designation:``,commander:`Aresca`,icon:`4ti`,
+                            pos:[1256,433],
+                            elements:[
+                                {
+                                    level:4,type:[`Tank`],team:`Italian`,
+                                    desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
+                                    pos:[1307,604],
+                                    elements:[
+                                        {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
+                                        {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`3rd Company, 1st Tank Battalion`,`3ª Compagnia, I Battaglione Carri M`],name:`3`,designation:`1`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Tank`,`Light`],team:`Italian`,
+                                    desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`,
+                                    pos:[1367,544],
+                                    elements:[
+                                        {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`Composite Company, 21st Tank Battalion`,`Compagnia di Composizione, XXI Battaglione Carri L`],name:`C`,designation:`61`,commander:``},
+                                        {level:5,type:`Buried Immobile Terrible Tank Company`,team:`Italian`,desc:[`Composite Company, 61st Tank Battalion`,`Compagnia di Composizione, LXI Battaglione Carri L`],name:`C`,designation:`61`,commander:``},
+                                    ],
+                                },{
+                                    level:5,type:[`Tank`],team:`Italian`,
+                                    desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``,icon:`4ti`,
+                                    pos:[1277,514],
+                                    elements:[
+                                        {type:`Small Medium Tank Company`},
+                                    ]
+                                },
+                            ],
+                        },{
+                            level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+                            desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``,
+                            pos:[1237,569],
+                            elements:[
+                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`},
+                            ],
+                        },{
+                            level:5,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+                            desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`,
+                            pos:[1332,474],
+                            elements:[
+                                {type:`Motorcycle Bersaglieri Company`},
+                            ],
+                        },{
+                            level:5,type:[`Anti-Tank`],team:`Italian`,
+                            desc:[`55th Anti-Tank Company`,`55ª Compagnia Cannoni Controcarro`],name:`55`,designation:``,commander:``,icon:`savona`,
+                            pos:[1008,614],
+                            elements:[
+                                {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`55th Anti-Tank Company`,`55ª Compagnia Cannoni Controcarro`],name:`55`,designation:``},
+                            ],
+                        },{
+                            level:5,type:[`Mortar`],team:`Italian`,
+                            desc:[`15th Mortar Company`,`15ª Compagnia Mortai`],name:`15`,designation:``,commander:``,icon:`savona`,
+                            pos:[930,536],
+                            elements:[
+                                {type:`Ruined Mortar Company`},
+                            ],
+                        },{
+                            level:5,type:[`Mortar`],team:`Italian`,
+                            desc:[`16th Mortar Company`,`16ª Compagnia Mortai`],name:`16`,designation:``,commander:``,icon:`savona`,
+                            pos:[966,371],
+                            elements:[
+                                {type:`Ruined Mortar Company`},
+                            ],
+                        },{
+                            level:1,type:[`Tank`],team:`British`,
+                            desc:[`7th Armored Division`,`7th Armoured Division`],name:`7`,designation:``,commander:`Creagh`,icon:`7a`,
+                            pos:[150,1237],
+                            elements:[
+                                {
+                                    level:2,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Gott`,icon:`7sg`,
+                                    pos:[975,1250],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Infantry`,`Motorized`],team:`British`,
+                                            desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`,icon:`7sg`,
+                                            pos:[212,488],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                                    pos:[425,318],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                                    pos:[439,516],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                                    pos:[486,744],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``,icon:`7sg`,
+                                                    pos:[758,870],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
+                                                    ],
+                                                },
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Motorized`],team:`British`,
+                                            desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`,icon:`7sg`,
+                                            pos:[2086,768],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`A Company, 2nd Battalion, Rifle Brigade`,name:`A`,designation:`2 RB`,commander:``,icon:`7sg`,
+                                                    pos:[1146,955],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 2nd Battalion, Rifle Brigade`,name:`A`,designation:`2 RB`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`B Company, 2nd Battalion, Rifle Brigade`,name:`B`,designation:`2 RB`,commander:``,icon:`7sg`,
+                                                    pos:[1531,889],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 2nd Battalion, Rifle Brigade`,name:`B`,designation:`2 RB`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Motorized`],team:`British`,
+                                                    desc:`C Company, 2nd Battalion, Rifle Brigade`,name:`C`,designation:`2 RB`,commander:``,icon:`7sg`,
+                                                    pos:[1771,729],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 2nd Battalion, Rifle Brigade`,name:`C`,designation:`2 RB`,commander:``},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Motorized`,`Heavy`],team:`British`,
+                                                    desc:`S Company, 2nd Battalion, Rifle Brigade`,name:`S`,designation:`2 RB`,commander:``,icon:`7sg`,
+                                                    pos:[1915,486],
+                                                    elements:[
+                                                        {level:5,type:`Motorized Heavy Infantry Company`,team:`British`,desc:`S Company, 2nd Battalion, Rifle Brigade`,name:`S`,designation:`2 RB`,commander:``},
+                                                    ],
+                                                },
+                                            ],
+                                        },{
+                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                            desc:[`M Battery, 3rd Battalion, Royal Horse Artillery`,`M Battery, 3rd Regiment, Royal Horse Artillery`],name:`M`,designation:`3 RHA`,commander:``,icon:`7sg`,
+                                            pos:[2000,676],
+                                            elements:[
+                                                {type:`Motorized Anti-Tank Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Artillery`,`Motorized`],team:`British`,
+                                            desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:`Goschen`,icon:`7sg`,
+                                            pos:[1674,929],
+                                            elements:[
+                                                {type:`Motorized Artillery Battery`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                    desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
+                                    pos:[461,908],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                            desc:[`D Battery, 3rd Battalion, Royal Horse Artillery`,`D Battery, 3rd Regiment, Royal Horse Artillery`],name:`D`,designation:`3 RHA`,commander:``,icon:`7sg`,
+                                            pos:[315,426],
+                                            elements:[
+                                                {type:`Motorized Anti-Tank Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                            desc:[`J Battery, 3rd Battalion, Royal Horse Artillery`,`J Battery, 3rd Regiment, Royal Horse Artillery`],name:`J`,designation:`3 RHA`,commander:``,icon:`7sg`,
+                                            pos:[620,957],
+                                            elements:[
+                                                {type:`Motorized Anti-Tank Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                            desc:[`P Battery, 3rd Battalion, Royal Horse Artillery`,`P Battery, 3rd Regiment, Royal Horse Artillery`],name:`P`,designation:`3 RHA`,commander:``,icon:`7sg`,
+                                            pos:[1355,1011],
+                                            elements:[
+                                                {type:`Motorized Anti-Tank Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Artillery`,`Motorized`],team:`British`,
+                                    desc:[`4th Battalion, Royal Horse Artillery`,`4th Regiment, Royal Horse Artillery`],name:`4`,designation:`Royal\nHorse`,commander:`Campbell`,icon:`7sg`,
+                                    pos:[820,1017],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Artillery`,`Motorized`],team:`British`,
+                                            desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`,icon:`7sg`,
+                                            pos:[933,944],
+                                            elements:[
+                                                {type:`Motorized Artillery Battery`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:2,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                    desc:`20th Australian Infantry Brigade`,name:`20`,designation:``,commander:`Murray`,icon:`9a`,
+                                    pos:[2073,946],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`,icon:`9a`,
+                                            pos:[2073,846],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/13th Australian Infantry Battalion`],name:`A`,designation:`2/13`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/13th Australian Infantry Battalion`],name:`B`,designation:`2/13`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/13th Australian Infantry Battalion`],name:`C`,designation:`2/13`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 13th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/13th Australian Infantry Battalion`],name:`D`,designation:`2/13`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`,icon:`9a`,
+                                            pos:[1986,896],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/15th Australian Infantry Battalion`],name:`A`,designation:`2/15`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/15th Australian Infantry Battalion`],name:`B`,designation:`2/15`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/15th Australian Infantry Battalion`],name:`C`,designation:`2/15`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 15th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/15th Australian Infantry Battalion`],name:`D`,designation:`2/15`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Motorized`],team:`Australian`,
+                                            desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`,icon:`9a`,
+                                            pos:[1986,996],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`A Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`A Company, 2/17th Australian Infantry Battalion`],name:`A`,designation:`2/17`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`B Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`B Company, 2/17th Australian Infantry Battalion`],name:`B`,designation:`2/17`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`C Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`C Company, 2/17th Australian Infantry Battalion`],name:`C`,designation:`2/17`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`Australian`,desc:[`D Company, 17th Infantry Battalion, 2nd Australian Expeditionary Force`,`D Company, 2/17th Australian Infantry Battalion`],name:`D`,designation:`2/17`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+                                            desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``,icon:`9a`,
+                                            pos:[2073,1046],
+                                            elements:[
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Tank`,`Heavy`],team:`British`,
+                                    desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:`7a`,
+                                    pos:[1899,846],
+                                    elements:[
+                                        {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
+                                        {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
+                                    ],
+                                },{
+                                    level:5,type:[`Tank`,`Light`],team:`Australian`,
+                                    desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
+                                    pos:[1906,1155],
+                                    elements:[
+                                        {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
+                                    ],
+                                },
+                            ],
+                        },
+                    ],
                 },
             ],
         },{
@@ -7612,6 +8046,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.8},
             ],player:[
@@ -9825,6 +10260,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.8},
             ],player:[
@@ -9948,7 +10384,7 @@ export var types={
                                             desc:`Jock Column`,name:`Jock`,designation:``,commander:`Wilson`,icon:`7sg`,
                                             pos:[920,1043],
                                             elements:[
-                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``},
                                                 {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`M Battery, Royal Horse Artillery`,name:`M`,designation:`3 RHA`,commander:``},
                                             ],
                                         },{
@@ -9965,7 +10401,7 @@ export var types={
                                             pos:[969,976],
                                             elements:[
                                                 {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Motorized`],team:`British`,
@@ -10234,7 +10670,7 @@ export var types={
                                             pos:[969,976],
                                             elements:[
                                                 {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Motorized`],team:`British`,
@@ -10443,7 +10879,7 @@ export var types={
                                             pos:[896,1095],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                             ],
                                         },
                                     ],
@@ -10914,6 +11350,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.8},
             ],player:[
@@ -10926,8 +11363,156 @@ export var types={
             ],unit:[
                 {
                     name:`Operation Sommernachtstraum`,
-                    strength:{name:`Companies`,num:[[24],[26,0]]},partition:[[1],[0]],bonus:1,
+                    strength:{name:`Companies`,num:[[20],[20,0]]},partition:[[1],[0]],bonus:1,
                     set:0,
+                    unit:[
+                        {
+                            level:1,type:[`Tank`],team:`British`,
+                            desc:[`7th Armored Division`,`7th Armoured Division`],name:`7`,designation:``,commander:`Gott`,icon:`7a`,
+                            pos:[2026,959],
+                            elements:[
+                                {
+                                    level:2,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+                                    desc:`7th Support Group`,name:`7`,designation:``,commander:`Campbell`,icon:`7sg`,
+                                    pos:[1578,1191],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+                                            desc:`Jock Column`,name:`Jock`,designation:``,commander:`Aikenhead`,icon:`7sg`,
+                                            pos:[1453,828],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 1st Battalion, King's Royal Rifle Corps`,name:`A`,designation:`1 KRRC`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`H/I Battery, Royal Horse Artillery`,name:`H/I`,designation:`2 RHA`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+                                            desc:`Jock Column`,name:`Jock`,designation:``,commander:`de Salis`,icon:`7sg`,
+                                            pos:[1597,936],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 1st Battalion, King's Royal Rifle Corps`,name:`B`,designation:`1 KRRC`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`L/N Battery, Royal Horse Artillery`,name:`L/N`,designation:`2 RHA`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+                                            desc:`Jock Column`,name:`Jock`,designation:``,commander:`Campbell`,icon:`7sg`,
+                                            pos:[845,1008],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 1st Battalion, King's Royal Rifle Corps`,name:`C`,designation:`1 KRRC`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
+                                            desc:`Jock Column`,name:`Jock`,designation:``,commander:`Currie`,icon:`7sg`,
+                                            pos:[969,976],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`D Company, 1st Battalion, King's Royal Rifle Corps`,name:`D`,designation:`1 KRRC`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
+                                            ],
+                                        },{
+                                            level:4,type:[`Infantry`,`Motorized`],team:`British`,
+                                            desc:`2nd Battalion, Rifle Brigade`,name:`2`,designation:`Rifle\nBrigade`,commander:`Renton`,icon:`7sg`,
+                                            pos:[1125,1002],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`A Company, 2nd Battalion, Rifle Brigade`,name:`A`,designation:`2 RB`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`B Company, 2nd Battalion, Rifle Brigade`,name:`B`,designation:`2 RB`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`British`,desc:`C Company, 2nd Battalion, Rifle Brigade`,name:`C`,designation:`2 RB`,commander:``},
+                                                {level:5,type:`Motorized Heavy Infantry Company`,team:`British`,desc:`S Company, 2nd Battalion, Rifle Brigade`,name:`S`,designation:`2 RB`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
+                                            desc:[`3rd Battalion, Royal Horse Artillery`,`3rd Regiment, Royal Horse Artillery`],name:`3`,designation:`Royal\nHorse`,commander:`Wilson`,icon:`7sg`,
+                                            pos:[1155,1189],
+                                            elements:[
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`D Battery, Royal Horse Artillery`,name:`D`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`J Battery, Royal Horse Artillery`,name:`J`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`M Battery, Royal Horse Artillery`,name:`M`,designation:`3 RHA`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank Company`,team:`British`,desc:`P Battery, Royal Horse Artillery`,name:`P`,designation:`3 RHA`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Motorized`],team:`British`,
+                                            desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`,icon:`7sg`,
+                                            pos:[1676,1080],
+                                            elements:[
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`237th Battery, Royal Artillery`,name:`237`,designation:`60 RA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`238th Battery, Royal Artillery`,name:`238`,designation:`60 RA`,commander:``},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
+                                    desc:`1st King's Dragoon Guards`,name:`1`,designation:`King's\nDragoon\nGuards`,commander:`McCorquodale`,icon:`7a`,
+                                    pos:[744,1248],
+                                    elements:[
+                                        {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 1st King's Dragoon Guards`,name:`A`,designation:`1 KDG`,commander:``},
+                                        {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 1st King's Dragoon Guards`,name:`B`,designation:`1 KDG`,commander:``},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:1,type:[`Tank`],team:`German`,
+                            desc:[`15th Panzer Division`,`15. Panzer-Division`],name:`15`,designation:``,commander:`Neumann-Silkow`,icon:`15pz`,
+                            pos:[844,405],
+                            elements:[
+                                {
+                                    level:3,type:[`Tank`],team:`German`,
+                                    desc:[`Battle Group Cramer`,`Kampfgruppe Cramer`],name:`KG`,designation:`8`,commander:`Cramer`,icon:`15pz`,
+                                    pos:[875,753],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Tank`],team:`German`,
+                                            desc:[`1st Battalion, 8th Panzer Regiment`,`I./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:`Crohn`,icon:`15pz`,
+                                            pos:[658,915],
+                                            elements:[
+                                                {level:5,type:`Medium Tank Company`,team:`German`,desc:[`1st Company, 8th Panzer Regiment`,`1./Panzer-Regiment 8`],name:`1`,designation:`8`,commander:``},
+                                                {level:5,type:`Medium Tank Company`,team:`German`,desc:[`2nd Company, 8th Panzer Regiment`,`2./Panzer-Regiment 8`],name:`2`,designation:`8`,commander:``},
+                                                {level:5,type:`Medium Tank Company`,team:`German`,desc:[`3rd Company, 8th Panzer Regiment`,`3./Panzer-Regiment 8`],name:`3`,designation:`8`,commander:``},
+                                                {level:5,type:`Armed Medium Tank Company`,team:`German`,desc:[`4th Company, 8th Panzer Regiment`,`4./Panzer-Regiment 8`],name:`4`,designation:`8`,commander:``},
+                                                {level:5,type:`Motorized Engineer Company`,team:`German`,desc:[`1st Company, 33rd Engineer Battalion`,`1./Panzer-Pionier-Bataillon 33`],name:`1`,designation:`33`,commander:``},
+                                                {level:5,type:`Motorized Machine Gun Company`,team:`German`,desc:[`3rd Company, 2nd Machine Gun Battalion`,`3./Maschinengewehr-Bataillon 2`],name:`3`,designation:`2 MG`,commander:``},
+                                            ]
+                                        },{
+                                            level:4,type:[`Tank`],team:`German`,
+                                            desc:[`2nd Battalion, 8th Panzer Regiment`,`II./Panzer-Regiment 8`],name:`2`,designation:`8`,commander:`Wahl`,icon:`15pz`,
+                                            pos:[904,885],
+                                            elements:[
+                                                {level:5,type:`Medium Tank Company`,team:`German`,desc:[`5th Company, 8th Panzer Regiment`,`5./Panzer-Regiment 8`],name:`5`,designation:`8`,commander:``},
+                                                {level:5,type:`Medium Tank Company`,team:`German`,desc:[`6th Company, 8th Panzer Regiment`,`6./Panzer-Regiment 8`],name:`6`,designation:`8`,commander:``},
+                                                {level:5,type:`Captured Medium Tank Company`,team:`German`,desc:[`7th Company, 8th Panzer Regiment`,`7./Panzer-Regiment 8`],name:`7`,designation:`8`,commander:``},
+                                                {level:5,type:`Armed Medium Tank Company`,team:`German`,desc:[`8th Company, 8th Panzer Regiment`,`8./Panzer-Regiment 8`],name:`8`,designation:`8`,commander:``},
+                                                {level:5,type:`Motorized Anti-Tank`,team:`German`,desc:[`1st Company, 33rd Anti-Tank Battalion`,`1./Panzerjäger-Abteilung 33`],name:`1`,designation:`33`,commander:``},
+                                            ]
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Tank`,`Recon`],team:`German`,
+                                    desc:[`Battle Group Héraucourt`,`Kampfgruppe Héraucourt`],name:`KG`,designation:`3 R`,commander:`Héraucourt`,icon:`15pz`,
+                                    pos:[352,1071],
+                                    elements:[
+                                        {level:5,type:`Armored Car Company`,team:`German`,desc:[`1st Company, 33rd Reconnaissance Battalion`,`1./Aufklärungs-Abteilung 33`],name:`1`,designation:`33`,commander:``},
+                                        {level:5,type:`Motorcycle Reconnaissance Company`,team:`German`,desc:[`2nd Company, 33rd Reconnaissance Battalion`,`2./Aufklärungs-Abteilung 33`],name:`2`,designation:`33`,commander:``},
+                                        {level:5,type:`Motorized Heavy Reconnaissance Company`,team:`German`,desc:[`3rd Company, 33rd Reconnaissance Battalion`,`3./Aufklärungs-Abteilung 33`],name:`3`,designation:`33`,commander:``},
+                                        {level:5,type:`Motorized Concentrated Artillery Battery`,team:`German`,desc:[`2nd Battery, 33rd Artillery Regiment`,`2./Artillerie-Regiment (mot.) 33`],name:`2`,designation:`33`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`German`,
+                                    desc:[`Battle Group Panzenhagen`,`Kampfgruppe Panzenhagen`],name:`KG`,designation:`347`,commander:`Panzenhagen`,icon:`90l`,
+                                    pos:[1311,803],
+                                    elements:[
+                                        {level:5,type:`Infantry Company`,team:`German`,desc:[`9th Company, 347th Infantry Regiment`,`9./Infanterie-Regiment 347`],name:`9`,designation:`347`,commander:``},
+                                        {level:5,type:`Infantry Company`,team:`German`,desc:[`10th Company, 347th Infantry Regiment`,`10./Infanterie-Regiment 347`],name:`10`,designation:`347`,commander:``},
+                                        {level:5,type:`Infantry Company`,team:`German`,desc:[`11th Company, 347th Infantry Regiment`,`11./Infanterie-Regiment 347`],name:`11`,designation:`347`,commander:``},
+                                        {level:5,type:`Heavy Infantry Company`,team:`German`,desc:[`12th Company, 347th Infantry Regiment`,`12./Infanterie-Regiment 347`],name:`12`,designation:`347`,commander:``},
+                                        {level:5,type:`Motorized Concentrated Artillery Battery`,team:`German`,desc:[`3rd Battery, 33rd Artillery Regiment`,`3./Artillerie-Regiment (mot.) 33`],name:`3`,designation:`33`,commander:``,icon:`15pz`},
+                                        {level:5,type:`Motorized Anti-Tank`,team:`German`,desc:[`3rd Company, 33rd Anti-Tank Battalion`,`3./Panzerjäger-Abteilung 33`],name:`3`,designation:`33`,commander:``,icon:`15pz`},
+                                    ],
+                                },
+                            ],
+                        },
+                    ],
+                },{
+                    name:`Operation Sommernachtstraum - OLD`,
+                    strength:{name:`Companies`,num:[[24],[26,0]]},partition:[[1],[0]],bonus:1,
+                    set:1,
                     unit:[
                         {
                             level:1,type:[`Tank`],team:`British`,
@@ -10975,7 +11560,7 @@ export var types={
                                             pos:[1359,1087],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
@@ -11271,6 +11856,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.9},
             ],player:[
@@ -11434,10 +12020,10 @@ export var types={
                                     desc:[`4th Machine Gun Squadrons Group "Genova Cavalleria"`,`IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova\nCavalleria`,commander:`Pierucci`,icon:`savona`,
                                     pos:[1196,414],
                                     elements:[
-                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`1° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`1`,designation:`4 GC`,commander:``},
-                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`2° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`2`,designation:`4 GC`,commander:``},
-                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Company, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`3° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`3`,designation:`4 GC`,commander:``},
-                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`4th Company, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`4° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`4`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`1° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`1`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`2° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`2`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`3° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`3`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`4th Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`4° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`4`,designation:`4 GC`,commander:``},
                                     ],
                                 },{
                                     level:5,type:[`Engineer`,`Motorized`],team:`German`,
@@ -11969,6 +12555,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.8},
             ],player:[
@@ -12933,6 +13520,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:0.9},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.2},
                 {name:`Italian`,term:`italy`,player:2,quality:0.85},
             ],player:[
@@ -13386,6 +13974,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.25},
                 {name:`Italian`,term:`italy`,player:2,quality:0.9},
             ],player:[
@@ -13837,6 +14426,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1},
                 {name:`Indian`,term:`india`,player:0,quality:0.9},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.3},
                 {name:`Italian`,term:`italy`,player:2,quality:0.95},
             ],player:[
@@ -14840,6 +15430,7 @@ export var types={
                 {name:`Czechoslovak`,term:`czechoslovakia`,player:0,quality:1},
                 {name:`Māori`,term:`maori`,player:0,quality:1.05},
                 {name:`Indian`,term:`india`,player:0,quality:1},
+                {name:`French`,term:`french`,player:0,quality:1.1},
                 {name:`German`,term:`germany`,player:1,quality:1.1},
                 {name:`Italian`,term:`italy`,player:2,quality:0.8},
                 {name:`Blackshirt`,term:`blackshirt`,player:2,quality:0.6},
@@ -15412,7 +16003,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2756,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -15680,7 +16271,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -15689,9 +16280,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -16241,7 +16832,7 @@ export var types={
                                             ]
                                         },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                             pos:[3102,936],
                                             elements:[
                                                 {type:`Mixed Engineer Company`},
@@ -16255,7 +16846,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2721,1092],
                                             elements:[
                                                 {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -16672,7 +17263,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -16681,9 +17272,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -17162,7 +17753,7 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                             pos:[2639,1694],
                                             elements:[
                                                 {type:`Mixed Engineer Company`},
@@ -17176,7 +17767,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2721,1092],
                                             elements:[
                                                 {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``},
@@ -17595,7 +18186,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -17604,9 +18195,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -18267,7 +18858,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2756,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -18376,77 +18967,77 @@ export var types={
                             elements:[
                                 {
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                     pos:[2450,305],
                                     elements:[
                                         {type:`Smaller Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
                                     pos:[2614,442],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:``,commander:``,icon:``,
                                     pos:[2313,412],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                     pos:[1508,559],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                     pos:[1917,1031],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                     pos:[2659,988],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                     pos:[2976,725],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                     pos:[2105,679],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                     pos:[2379,785],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                     pos:[2914,606],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                     pos:[2540,616],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
@@ -18631,7 +19222,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -18640,9 +19231,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -19413,7 +20004,7 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                             pos:[3361,1261],
                                             elements:[
                                                 {type:`Mixed Engineer Company`},
@@ -19427,7 +20018,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2756,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -19554,77 +20145,77 @@ export var types={
                             elements:[
                                 {
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                     pos:[2450,305],
                                     elements:[
                                         {type:`Smaller Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
                                     pos:[2614,442],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:``,commander:``,icon:``,
                                     pos:[2313,412],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                     pos:[1508,559],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                     pos:[1917,1031],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                     pos:[2659,988],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                     pos:[2976,725],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                     pos:[2105,679],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                     pos:[2379,785],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                     pos:[2914,606],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                     pos:[2540,616],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
@@ -19859,7 +20450,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -19868,9 +20459,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -20641,7 +21232,7 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                             pos:[3361,1261],
                                             elements:[
                                                 {type:`Mixed Engineer Company`},
@@ -20655,7 +21246,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -20809,77 +21400,77 @@ export var types={
                             elements:[
                                 {
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                     pos:[2450,305],
                                     elements:[
                                         {type:`Smaller Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
                                     pos:[2614,442],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:``,commander:``,icon:``,
                                     pos:[2313,412],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                     pos:[1508,559],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                     pos:[1917,1031],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                     pos:[2659,988],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                     pos:[2976,725],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                     pos:[2105,679],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                     pos:[2379,785],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                     pos:[2914,606],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                     pos:[2540,616],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
@@ -21114,7 +21705,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -21123,9 +21714,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -22381,8 +22972,8 @@ export var types={
                                                     desc:[`7th Battalion, Royal Tank Regiment`,`7th Royal Tank Regiment`],name:`7`,designation:`Royal Tank\nRegiment`,commander:`Groves`,icon:`7a`,
                                                     pos:[3258,1756],
                                                     elements:[
-                                                        {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
-                                                        {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
+                                                        {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
+                                                        {level:5,type:`Half Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -22470,7 +23061,7 @@ export var types={
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\nand Cumberland`,commander:``,icon:``,
+                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\n& Cumberland`,commander:``,icon:``,
                                             pos:[3055,1778],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`203rd Battery, Royal Artillery`,name:`203`,designation:`51 RA`,commander:``},
@@ -22595,7 +23186,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                                    desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``,icon:`7sg`,
+                                                    desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:`Goschen`,icon:`7sg`,
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {type:`Motorized Artillery Battery`},
@@ -23412,56 +24003,56 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                             pos:[1508,559],
                                             elements:[
                                                 {type:`Smallest Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                             pos:[2058,1047],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                             pos:[2628,1011],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                             pos:[2976,725],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                             pos:[2105,679],
                                             elements:[
                                                 {type:`3-Gun Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                             pos:[2379,785],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                             pos:[2914,606],
                                             elements:[
                                                 {type:`Smallest Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                             pos:[2540,636],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
@@ -23666,7 +24257,7 @@ export var types={
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\nand Cumberland`,commander:``,icon:``,
+                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\n& Cumberland`,commander:``,icon:``,
                                             pos:[3055,1778],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`203rd Battery, Royal Artillery`,name:`203`,designation:`51 RA`,commander:``},
@@ -23798,7 +24389,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                                    desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``,icon:`7sg`,
+                                                    desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:`Goschen`,icon:`7sg`,
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {type:`Motorized Artillery Battery`},
@@ -24721,77 +25312,77 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                             pos:[2450,305],
                                             elements:[
                                                 {type:`Smaller Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
                                             pos:[2614,442],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:``,commander:``,icon:``,
                                             pos:[2313,412],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                             pos:[1508,559],
                                             elements:[
                                                 {type:`Smallest Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                             pos:[2058,1047],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                             pos:[2628,1011],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                             pos:[2976,725],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                             pos:[2105,679],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                             pos:[2379,785],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                             pos:[2914,606],
                                             elements:[
                                                 {type:`Smallest Static Coastal Artillery Battery`},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                            desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                            desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                             pos:[2540,636],
                                             elements:[
                                                 {type:`Small Static Coastal Artillery Battery`},
@@ -24996,7 +25587,7 @@ export var types={
                                             ],
                                         },{
                                             level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\nand Cumberland`,commander:``,icon:``,
+                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\n& Cumberland`,commander:``,icon:``,
                                             pos:[3055,1778],
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`203rd Battery, Royal Artillery`,name:`203`,designation:`51 RA`,commander:``},
@@ -25128,7 +25719,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Motorized`],team:`British`,
-                                                    desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``,icon:`7sg`,
+                                                    desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:`Goschen`,icon:`7sg`,
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {type:`Motorized Artillery Battery`},
@@ -25741,7 +26332,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -25952,7 +26543,7 @@ export var types={
                                                     pos:[3871,946],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -26577,7 +27168,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -26837,7 +27428,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -27500,7 +28091,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -27770,7 +28361,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -27779,9 +28370,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -28449,7 +29040,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -28719,7 +29310,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -28728,9 +29319,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -29433,7 +30024,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -29699,7 +30290,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -30472,7 +31063,7 @@ export var types={
                                             ]
                                         },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                             pos:[3341,878],
                                             elements:[
                                                 {type:`Mixed Engineer Company`},
@@ -30486,7 +31077,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -30640,77 +31231,77 @@ export var types={
                             elements:[
                                 {
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                     pos:[2450,305],
                                     elements:[
                                         {type:`Smaller Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
                                     pos:[2614,442],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:``,commander:``,icon:``,
                                     pos:[2313,412],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                     pos:[1508,559],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                     pos:[1917,1031],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                     pos:[2659,988],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                     pos:[2976,725],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                     pos:[2105,679],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                     pos:[2379,785],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                     pos:[2914,606],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                     pos:[2540,616],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
@@ -30945,7 +31536,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -30954,9 +31545,9 @@ export var types={
                                             desc:`11th Hussars (Prince Albert's Own)`,name:`11`,designation:`Hussars`,commander:`Combe`,icon:`7a`,
                                             pos:[3683,1230],
                                             elements:[
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
-                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`A Squadron, 11th Hussars (Prince Albert's Own)`,name:`A`,designation:`1 KDG`,commander:`Smail`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:`Miller`},
+                                                {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:`Ward`},
                                             ],
                                         },{
                                             level:4,type:[`Anti-Tank`,`Motorized`],team:`British`,
@@ -31683,7 +32274,7 @@ export var types={
                                                     ]
                                                 },{
                                                     level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                                    desc:[`31st Frontier Guard Engineer Detachment`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                                    desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
                                                     pos:[3341,878],
                                                     elements:[
                                                         {type:`Mixed Engineer Company`},
@@ -31769,7 +32360,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -31902,77 +32493,77 @@ export var types={
                             elements:[
                                 {
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                     pos:[2450,305],
                                     elements:[
                                         {type:`Smaller Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
                                     pos:[2614,442],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tortora"`,`Batteria di Artiglieria Costiera "Tortora"`],name:`Tortora`,designation:``,commander:``,icon:``,
                                     pos:[2313,412],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                     pos:[1508,559],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                     pos:[1917,1031],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                     pos:[2659,988],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                     pos:[2976,725],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                     pos:[2105,679],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                     pos:[2379,785],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                     pos:[2914,606],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                     pos:[2540,616],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
@@ -32204,7 +32795,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],
@@ -32917,7 +33508,7 @@ export var types={
                                     elements:[
                                         {
                                             level:4,type:[`Tank`],team:`Italian`,
-                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Cascino`,icon:`4ti`,
+                                            desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`,icon:`4ti`,
                                             pos:[2761,1092],
                                             elements:[
                                                 {level:5,type:`Largest Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
@@ -33033,56 +33624,56 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Bellotti"`,`Batteria di Artiglieria Costiera "Bellotti"`],name:`Bellotti`,designation:``,commander:``,icon:``,
                                     pos:[1508,559],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Pilastrino"`,`Batteria di Artiglieria Costiera "Pilastrino"`],name:`Pilastrino`,designation:``,commander:``,icon:``,
                                     pos:[1917,1031],
                                     elements:[
                                         {type:`Slightly Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Sidi Mahmud"`,`Batteria di Artiglieria Costiera "Sidi Mahmud"`],name:`Sidi\nMahmud`,designation:``,commander:``,icon:``,
                                     pos:[2718,1152],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Beiad"`,`Batteria di Artiglieria Costiera "Beiad"`],name:`Beiad`,designation:``,commander:``,icon:``,
                                     pos:[2976,725],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Toro"`,`Batteria di Artiglieria Costiera "Toro"`],name:`Toro`,designation:``,commander:``,icon:``,
                                     pos:[2105,679],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Tordo"`,`Batteria di Artiglieria Costiera "Tordo"`],name:`Tordo`,designation:``,commander:``,icon:``,
                                     pos:[2379,785],
                                     elements:[
                                         {type:`Small Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Grasso"`,`Batteria di Artiglieria Costiera "Grasso"`],name:`Grasso`,designation:``,commander:``,icon:``,
                                     pos:[2914,606],
                                     elements:[
                                         {type:`Smallest Static Coastal Artillery Battery`},
                                     ],
                                 },{
                                     level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:`Coastal`,commander:``,icon:``,
+                                    desc:[`Coastal Artillery Battery "Topo"`,`Batteria di Artiglieria Costiera "Topo"`],name:`Topo`,designation:``,commander:``,icon:``,
                                     pos:[2540,626],
                                     elements:[
                                         {type:`3-Gun Static Coastal Artillery Battery`},
@@ -33270,7 +33861,7 @@ export var types={
                                                     pos:[1484,1875],
                                                     elements:[
                                                         {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`C Battery, Royal Horse Artillery`,name:`C`,designation:`4 RHA`,commander:``},
-                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:``},
+                                                        {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`F (Sphinx) Battery, Royal Horse Artillery`,name:`F`,designation:`4 RHA`,commander:`Lomas`},
                                                     ],
                                                 },
                                             ],

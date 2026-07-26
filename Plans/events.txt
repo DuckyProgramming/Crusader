@@ -459,48 +459,35 @@ SOMMERNACHTSTRAUM:
 
 
 
-8th Army (15 Battalions)
+Mobile Force (20 Companies)
+	7th Support Group (17 Companies)
+		1st Battalion, King's Royal Rifle Corps (4 Companies)
+		2nd Battalion, Rifle Brigade (4 Companies)
+		2nd Regiment, Royal Horse Artillery (2 Batteries)
+		3rd Regiment, Royal Horse Artillery (4 Batteries)
+		4th Regiment, Royal Horse Artillery (1 Battery)
+		60th (North Midland) Regiment, Royal Artillery (2 Batteries)
+		(These units were mixed into a series of Jock Columns or held back in reserve)
+	1st King's Dragoon Guards (3 Companies)
 
-XXX Corps (6 Battalions)
-
-1st King's Dragoon Guards Armoured Cars
-7th Support Group (2 Infantry Battalions, 3 Artillery Battalions)
-
-70th Infantry Division (9 Battalions)
-	Polish Independent Carpathian Rifle Brigade (4 Polish Battalions, 1 Czechoslovak Battalion, 1 Australian Battalion, 1 Artillery Battalion)
-	3rd Hussars
-	104th Field Regiment, Royal Horse Artillery
-
-
-
-Deutsches Afrika Korps (25 Battalions)
-
-15th Panzer Division (6 Battalions)
-	Kampfgruppe Cramer (2 Battalions)
-		1st Battalion, 8th Panzer Regiment
-		1st Battalion, 33rd Artillery Regiment
-	Kampfgruppe Warrelmann (3 Battalions)
-		2nd Machine Gun Battalion
-		33rd Anti-Tank Battalion
-		2nd Battalion, 33rd Artillery Regiment
-	Kampfgruppe Panzenhagen (1 Battalion)
-		3rd Battalion, 347th Infantry Regiment
-
-Divisional Command z.b.V. "Afrika" (7 Battalions)
-	2nd Battalion, 8th Panzer Regiment
-	15th Infantry Brigade (3 Battalions)
-		115th Motorized Infantry Regiment (2 Battalions)
-		200th Regimental Staff z.b.V. (15th Motorcycle Battalion)
-	33rd Reconnaissance Battalion
-	33rd Artillery Regiment (1 Heavy Battalion)
-	33rd Motorized Engineer Battalion
-
-102nd Infantry Division "Trento" (12 Battalions)
-	61st Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	62nd Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
-	7th Motorized Bersaglieri Regiment (3 Battalions)
-	46th Artillery Regiment (3 Battalions (1,3,4))
-	551st Mixed Support Battalion (Machine Gun Company, Mortar Company, Anti-Tank Company)
+15th Panzer Division (20 Companies)
+	Kampfgruppe Cramer (11 Companies)
+		1st Battalion, 8th Panzer Regiment (4 Companies)
+		2nd Battalion, 8th Panzer Regiment (4 Companies)
+		1st Company, 33rd Engineer Battalion
+		1st Company, 33rd Anti-Tank Battalion
+		4th Company, 15th Motorcycle Battalion
+	Kampfgruppe Héraucourt (4 Companies)
+		1st Company, 33rd Reconaissance Battalion
+		2nd Company, 33rd Reconaissance Battalion
+		3rd Company, 33rd Reconaissance Battalion
+		7th Battery, 33rd Artillery Regiment
+	Kampfgruppe Panzenhagen (5 Companies)
+		10th Company, 347th Infantry Regiment
+		11th Company, 347th Infantry Regiment
+		12th Company, 347th Infantry Regiment
+		2nd Company, 33rd Anti-Tank Battalion
+		8th Battery, 33rd Artillery Regiment
 
 
 

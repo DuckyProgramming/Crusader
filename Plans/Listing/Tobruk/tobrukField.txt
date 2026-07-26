@@ -1,12 +1,14 @@
-XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
+XXII Army Corps / Tobruk Fortress Garrison (40/150) - Enrico Pitassi Mannella
 
-Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Barberis
-    Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (28)
-        Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (8) #
+Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (60) - Umberto Barberis
+    Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (31)
+        Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (10) #
             | Guardia alla Frontiera Strongpoint Zeitun
-            | Guardia alla Frontiera Strongpoint Sidi Daud (2 47/32, 1 20/65) __$
-            | Guardia alla Frontiera Strongpoint Suesi (2 47/32, 1 20/65) __$
-            | Guardia alla Frontiera Strongpoint Bir Junes (4 47/32, 3 20/76) ____$$$
+            | Guardia alla Frontiera Strongpoint Sidi Daud
+            | Guardia alla Frontiera Strongpoint Suesi
+            | Guardia alla Frontiera Strongpoint Bir Junes
+            | Guardia alla Frontiera Formation Anti-Aircraft Battery (10 20/76) $$$$$$$$$$
+            | Guardia alla Frontiera Formation Anti-Tank Company (8 47/32) ________
             1st Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
                 | 249th Battery Guardia alla Frontiera (4 75/27) ____
             2nd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
@@ -15,9 +17,10 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
                 | 6th Company, 69th Infantry Regiment
                 | 7th Company, 69th Infantry Regiment
 
-        Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (6) #
-            | Guardia alla Frontiera Strongpoint Dahar el Azazi (4 47/32, 2 20/65) ____$$
-            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (4 47/32, 3 20/76) ____$$$
+        Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (7) #
+            | Guardia alla Frontiera Strongpoint Dahar el Azazi
+            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+            | Guardia alla Frontiera Formation Anti-Tank Company (8 47/32) ________
             3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
                 | 247th Battery Guardia alla Frontiera (4 77/28) ____        
             | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
@@ -26,7 +29,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
                 | 5th Company, 69th Infantry Regiment
 
         Sector Rear (HQ 69th Infantry Regiment "Ancona") (14) - Angelo Cascino
-            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (11) - Pietro Aresca
+            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (9) - Pietro Aresca
                 1st Medium Tank Battalion (2) #
                     | 2nd Company, 1st Medium Tank Battalion (16 37/10) ________________
                     | 3rd Company, 1st Medium Tank Battalion (16 37/10) ________________
@@ -197,8 +200,8 @@ Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
                 | 5th Battery, 55th Artillery Regiment (4 75/27) ++++
                 | 6th Battery, 55th Artillery Regiment (4 75/27) ++++
             | 3rd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
-    
-Rapid Column (8) #
+
+Rapid Column (8)
     | 1st Company, 1st Medium Tank Battalion (7 37/10) _______
     | 22nd Bersaglieri Motorcycle Company (Motorized)
     | 61st Bersaglieri Motorcycle Company (Motorized)
@@ -210,7 +213,7 @@ Rapid Column (8) #
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
+Coastal Defense Sector (HQ Tobruk Coast Sector) (17) - Massimiliano Vietina
     Infantry Command (4)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
@@ -230,7 +233,14 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
         | Naval Battery "Toro" (3 76/40 AA) ===
         | Naval Battery "Topo" (6 76/40 AA) ======
         | Naval Battery "Tonno" (0 76/40 AA)
-    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
+    Floating Battery (Cruiser) "San Giorgio" (2) # - Stefano Pugliese
+        | Fore Battery (4 254/30) ====
+        | Broadside Battery (4 190/45) ====
+
+Engineer Command (HQ Detached From XXII Corps HQ) (2)
+    61st Mixed Engineer Battalion (1) #
+        | 29th Engineer Company
+    | 31st Guardia alla Frontiera Mixed Engineer Unit
 
 
 
@@ -322,10 +332,14 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
     1st Free French Marine Infantry Battalion (2) %
         : 1st Company, 1st Free French Marine Infantry Battalion
         : 2nd Company, 1st Free French Marine Infantry Battalion
-    51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (2) %
+    51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (3) %
         : 203rd Battery, Royal Artillery
+        : 211th (Medium) Battery, Royal Artillery
         : 370th Battery, Royal Artillery
-    Commander, Royal Australian Engineers (3) %
+    104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2) %
+        : 339th Battery, Royal Horse Artillery
+        : 414th Battery, Royal Horse Artillery
+    Commander, Royal Australian Engineers (3)
         : 2/1st Field Company, Royal Australian Engineers
         : 2/2nd Field Company, Royal Australian Engineers
         : 2/8th Field Company, Royal Australian Engineers

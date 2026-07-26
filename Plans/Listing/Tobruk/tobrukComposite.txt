@@ -1,19 +1,46 @@
 XXII Army Corps / Tobruk Fortress Garrison (36/128) - Enrico Pitassi Mannella
 
-Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Barberis
+Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (53) - Umberto Barberis
     Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (24)
         Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (6) #
-            | Guardia alla Frontiera Strongpoint Zeitun
-            | Guardia alla Frontiera Strongpoint Sidi Daud
-            | Guardia alla Frontiera Strongpoint Suesi
-            | Guardia alla Frontiera Strongpoint Bir Junes
+            Strongpoint Zeitun (1)
+                | Guardia alla Frontiera Strongpoint Zeitun
+            Strongpoint Sidi Daud (1)
+                | Guardia alla Frontiera Strongpoint Sidi Daud
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Section, 249th Guardia alla Frontiera Battery (2 75/27) __ ]
+                [ Guardia alla Frontiera Section (2 20/65) $$ ]
+            Strongpoint Suesi (1)
+                | Guardia alla Frontiera Strongpoint Suesi
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Section, 246th Guardia alla Frontiera Battery (2 77/28) __ ]
+                [ Guardia alla Frontiera Section (2 20/65) $$ ]
+            Strongpoint Bir Junes (1)
+                | Guardia alla Frontiera Strongpoint Bir Junes
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Section, 249th Guardia alla Frontiera Battery (2 75/27) __ ]
+                [ Section, 246th Guardia alla Frontiera Battery (2 77/28) __ ]
+                [ Guardia alla Frontiera Section (2 20/65) $$ ]
             Subsector Reserve (HQ 2nd Battalion, 69th Infantry Regiment) (2) #
                 | 6th Company, 69th Infantry Regiment
                 | 7th Company, 69th Infantry Regiment
 
         Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (4) #
-            | Guardia alla Frontiera Strongpoint Dahar el Azazi
-            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+            Strongpoint Dahar el Azazi (1)
+                | Guardia alla Frontiera Strongpoint Dahar el Azazi
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Section, Guardia alla Frontiera Training Battery "Derna" (2 77/28) __ ]
+                [ Section, 247th Guardia alla Frontiera Battery (2 77/28) __ ]
+                [ Guardia alla Frontiera Section (2 20/65) $$ ]
+            Strongpoint Bir Umm Haleiga (1)
+                | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+                [ Section, Guardia alla Frontiera Training Battery "Derna" (2 77/28) __ ]
+                [ Section, 247th Guardia alla Frontiera Battery (2 77/28) __ ]
+                [ Guardia alla Frontiera Section (2 20/65) $$ ]
             Subsector Reserve (HQ 1st Battalion, 69th Infantry Regiment) (2) #
                 | 2nd Company, 69th Infantry Regiment
                 | 5th Company, 69th Infantry Regiment
@@ -21,8 +48,8 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Bar
         Sector Rear (HQ 69th Infantry Regiment "Ancona") (14) - Angelo Cascino
             Position El Adem (HQ 4th Tank Infantry Regiment) (11) - Pietro Aresca
                 1st Medium Tank Battalion (2) #
-                    | 2nd Company, 1st Medium Tank Battalion (16 37/10)
-                    | 3rd Company, 1st Medium Tank Battalion (16 37/10)
+                    | 2nd Company, 1st Medium Tank Battalion (16 37/10) ________________
+                    | 3rd Company, 1st Medium Tank Battalion (16 37/10) ________________
                 63rd Light Tank Battalion (2) #
                     | Composite Company, 21st Light Tank Battalion
                     | Composite Company, 63rd Light Tank Battalion
@@ -32,6 +59,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Bar
                     | 10th Company, 69th Infantry Regiment
                     | 11th Company, 69th Infantry Regiment
                     | 12th Company, 69th Infantry Regiment
+                    [ Spare Naval Gun (1 76/40) _ ]
             Position Ras Beiad (HQ 64th Replacement Battalion) (3) #
                 | 1st Company, 64th Replacement Battalion
                 | 2nd Company, 64th Replacement Battalion
@@ -40,13 +68,14 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Bar
             | 142nd Mortar Company (0 81/14)
 
     Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
-        Guns: 45/45
+        45/45 Guns
         1st Group, 26th Artillery Regiment "Pavia" (3) #
             | 1st Battery, 26th Artillery Regiment (5 100/17) +++++
             | 2nd Battery, 26th Artillery Regiment (5 100/17) +++++
             | 3rd Battery, 26th Artillery Regiment (5 100/17) +++++
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) # - Guido Baggini
-            | 242nd Battery Guardia alla Frontiera (4 120/25, 2 105/28) ++++++
+            | 242nd Guardia alla Frontiera Battery (4 120/25) ++++
+            [ Section, Mixed Battery, 22nd Corps Artillery Raggruppamento (2 105/28) ++ ]
         130th Group, 25th Army Corps Artillery Raggruppamento (3) #
             | 7th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 8th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
@@ -56,8 +85,8 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Bar
             | 2nd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
         | 2nd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
 
-    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (20) - Guido Baggini
-        Guns: 78/78
+    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (19) - Guido Baggini
+        78/78 Guns
         2nd Group, 43rd Artillery Regiment "Sirte" (3) #
             | 4th Battery, 43rd Artillery Regiment (4 75/27) ++++
             | 5th Battery, 43rd Artillery Regiment (4 75/27) ++++
@@ -67,11 +96,11 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Bar
             | 8th Battery, 55th Artillery Regiment (4 75/27) ++++
             | 9th Battery, 55th Artillery Regiment (4 75/27) ++++
         6th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
-            | 230th Bis Battery Guardia alla Frontiera (4 120/25) ++++
-            | 231st Bis Battery Guardia alla Frontiera (4 120/25) ++++
+            | 230th Bis Guardia alla Frontiera Battery (4 120/25) ++++
+            | 231st Bis Guardia alla Frontiera Battery (4 120/25) ++++
         7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
-            | 244th Battery Guardia alla Frontiera (4 149/35) ++++
-            | 245th Battery Guardia alla Frontiera (4 149/35) ++++
+            | 244th Guardia alla Frontiera Battery (4 149/35) ++++
+            | 245th Guardia alla Frontiera Battery (4 149/35) ++++
         105th Group, 25th Army Corps Artillery Raggruppamento (3) #
             | 10th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 11th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
@@ -81,35 +110,71 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (54) - Umberto Bar
             | 4th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 5th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 6th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            [ Guardia alla Frontiera Section "Buffolotto" (2 149/35) ++ ]
         HQ 15th Anti-Aircraft Group (2) #
             | 1st Battery, 15th Anti-Aircraft Group (4 75/46) ++++
         | Naval Battery "Nembo" (4 120/45) ++++
-        | Guardia alla Frontiera Section "Buffolotto" (2 149/35) ++
 
 Sector West (HQ 61st Infantry Division "Sirte") (54) - Vincenzo Della Mura
     Infantry Command (HQ 70th Infantry Regiment "Ancona") (29) - Gaetano Maltese
         Subsector C (HQ 1st Battalion, 70th Infantry Regiment) (7) #
-            | Guardia alla Frontiera Independent Strongpoint Hagfet Umm Haleiga (1 75/27, 1 77/28) --
-            | 2nd Company, 61st Machine Gun Battalion
-            | 2nd Company, 70th Infantry Regiment
-            | 3rd Company, 70th Infantry Regiment
-            | 4th Company, 70th Infantry Regiment
-            Subsector Reserve (No HQ) (2)
+            Strongpoint Hagfet Umm Haleiga (1)
+                | Guardia alla Frontiera Independent Strongpoint Hagfet Umm Haleiga
+                [ Platoon, 61st Anti-Tank Company (2 47/32) __ ]
+                [ Section, 69th Infantry Gun Battery (2 65/17) __ ]
+                [ Section, 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Strongpoint Sidi Cheiralla (1)
+                | 2nd Company, 61st Machine Gun Battalion
+                [ Platoon, 61st Anti-Tank Company (2 47/32) __ ]
+                [ Section, 69th Infantry Gun Battery (2 65/17) __ ]
+                [ Section, 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Strongpoint Bir el Faras (1)
+                | 2nd Company, 70th Infantry Regiment
+                [ Platoon, 61st Anti-Tank Company (2 47/32) __ ]
+                [ Section, 70th Infantry Gun Battery (2 65/17) __ ]
+                [ Section, 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Strongpoint Bir el Giasc (1)
+                | 3rd Company, 70th Infantry Regiment
+                [ Platoon, 61st Anti-Tank Company (2 47/32) __ ]
+                [ Section, 70th Infantry Gun Battery (2 65/17) __ ]
+                [ Section, 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Subsector Reserve (No HQ) (3)
                 | 1st Company, 70th Infantry Regiment
                 | 3rd Company, 61st Machine Gun Battalion
+                | 4th Company, 70th Infantry Regiment
+                [ Spare Guardia alla Frontiera Anti-Tank Gun (1 47/32) _ ]
 
         Subsector D (HQ 3rd Battalion, 70th Infantry Regiment) (5) #
-            | Guardia alla Frontiera Independent Strongpoint Ras el Medauuar (1 75/27, 1 77/28) --
-            | 9th Company, 70th Infantry Regiment
-            | 11th Company, 70th Infantry Regiment
-            | 8th Company, 70th Infantry Regiment
-            Subsector Reserve (No HQ) (1)
+            Strongpoint Bir el Medauuar (1)
+                | Guardia alla Frontiera Independent Strongpoint Bir el Medauuar
+                [ Platoon, 25th Anti-Tank Company (2 47/32) __ ]
+                [ Section, Provisional Infantry Gun Battery (2 65/17) __ ]
+                [ Section, 13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Strongpoint Ras el Medauuar (1)
+                | 9th Company, 70th Infantry Regiment
+                [ Platoon, 25th Anti-Tank Company (2 47/32) __ ]
+                [ Section, Provisional Infantry Gun Battery (2 65/17) __ ]
+                [ Section, 13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Strongpoint Ras es Sehel (1)
+                | 11th Company, 70th Infantry Regiment
+                [ Platoon, 25th Anti-Tank Company (2 47/32) __ ]
+                [ Spare Gun, Provisional Infantry Gun Battery (1 65/17) _ ]
+                [ Section, 13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Subsector Reserve (No HQ) (2)
+                | 8th Company, 70th Infantry Regiment
                 | 10th Company, 70th Infantry Regiment
         
         Subsector E (HQ 2nd Battalion CC.NN. "Volontari della Libia") (4) # - Giovanni Rocca
-            | 1st Company "Tripoli", Battalion CC.NN. "Volontari della Libia"
-            | 2nd Company "Misurata", Battalion CC.NN. "Volontari della Libia"
-            | 3rd Company "Bengasi", Battalion CC.NN. "Volontari della Libia"
+            Strongpoint Es Sehel (1)
+                | 1st Company "Tripoli", Battalion CC.NN. "Volontari della Libia"
+                [ Platoon, Provisional Anti-Tank Company (2 47/32) __ ]
+                [ Section, 13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (2 20/65) $$ ]
+            Strongpoint Bir el Meclub (1)
+                | 2nd Company "Misurata", Battalion CC.NN. "Volontari della Libia"
+                [ Platoon, Provisional Anti-Tank Company (2 47/32) __ ]
+            Strongpoint Umm Cuheil (1)
+                | 3rd Company "Bengasi", Battalion CC.NN. "Volontari della Libia"
+                [ Platoon, Provisional Anti-Tank Company (2 47/32) __ ]
             Subsector Reserve (No HQ) (1)
                 | 4th Company "Derna", Battalion CC.NN. "Volontari della Libia"
 
@@ -122,6 +187,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (54) - Vincenzo Della Mura
             Position 144 (HQ 140th Battalion CC.NN. "Aquilia") (2) #
                 | 1st Company, 140th Battalion CC.NN. "Aquilia"
                 | 2nd Company, 140th Battalion CC.NN. "Aquilia"
+                [ Guardia alla Frontiera Section (3 75/27) ___ ]
             Position Gabr el Abd (HQ 61st Replacement Battalion) (2) #
                 | 3rd Company, 61st Replacement Battalion
                 | 4th Company, 61st Replacement Battalion
@@ -130,11 +196,13 @@ Sector West (HQ 61st Infantry Division "Sirte") (54) - Vincenzo Della Mura
                 | 1st Company, 61st Replacement Battalion
                 | 2nd Company, 61st Replacement Battalion
                 | 8th Company, 69th Infantry Regiment
+                [ Guardia alla Frontiera Section (2 77/28) __ ]
+                [ Guardia alla Frontiera Platoon (2 47/32) __ ]
             Position Piave (1)
                 | Delaying Action Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
 
     Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (25) - Adolfo de Leone
-        Guns: 97/97
+        97/97 Guns
         HQ 10th Army Corps Artillery Raggruppamento (5)
             7th Group, 10th Army Corps Artillery Raggruppamento (3) #
                 | 1st Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
@@ -153,8 +221,8 @@ Sector West (HQ 61st Infantry Division "Sirte") (54) - Vincenzo Della Mura
                 | 9th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
                 | 6th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 9th Battery, 43rd Artillery Regiment (4 75/27) ++++
-            | Naval Battery "Vittoria" (3 76/40, 1 149/35) ++++
-            | Training Battery Guardia alla Frontiera "Derna" (2 77/28, 1 149/12) +++
+            | Naval Battery "Vittoria" (3 76/30, 1 149/35) ++++
+            | Guardia alla Frontiera Training Battery (2 77/28, 1 149/12) +++
 
         HQ 43rd Artillery Regiment "Sirte" (5) - Gildo Bonfanti
             1st Group, 43rd Artillery Regiment (3) #
@@ -177,20 +245,23 @@ Sector West (HQ 61st Infantry Division "Sirte") (54) - Vincenzo Della Mura
             | 3rd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
 
 Rapid Column (7) #
-    | 1st Company, 1st Medium Tank Battalion (7 37/10)
+    | 1st Company, 1st Medium Tank Battalion (7 37/10) _______
     | 22nd Bersaglieri Motorcycle Company (Motorized)
     | 61st Bersaglieri Motorcycle Company (Motorized)
     | 1st Company, 69th Infantry Regiment (Motorized)
     | 3rd Company, 69th Infantry Regiment (Motorized)
     | 4th Company, 69th Infantry Regiment (Motorized)
-    | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) ______
+    | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) $$$$$$
+    | 77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia" (10 20/65) $$$$$$$$$$
+    [ Guardia alla Frontiera Platoon (2 47/32) __ ]
+    [ Guardia alla Frontiera Platoon (2 47/32) __ ]
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (13) - Massimiliano Vietina
-    Infantry Command (4)
+Coastal Defense Sector (HQ Tobruk Coast Sector) (14) - Massimiliano Vietina
+    Infantry Command (5)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
 
-        | 3rd Company, 62nd Replacement Battalion (Reinforced with a Carabinieri station)
+        | 3rd Company, 62nd Replacement Battalion (Reinforced by Carabinieri and Personnel of the Depots of the Guardia alla Frontiera and the 116th "Marmarica" Infantry Regiment)
 
         | 3rd Company, 64th Replacement Battalion
     Artillery Command (8)

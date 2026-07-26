@@ -251,7 +251,7 @@ export class unit{
             this.strength.rebuild=10
         }else if(this.contain.trigger){
             this.contain.units.forEach(unit=>unit.strength.morale=min(unit.strength.morale+this.strength.rebuild,unit.strength.base.morale))
-            this.strength.rebuild+=5
+            this.strength.rebuild+=10
         }
         this.order.position.x=this.position.x
         this.order.position.y=this.position.y
@@ -1226,7 +1226,7 @@ export class unit{
                                                 }
                                             }
                                         }
-                                        if(target.battle.broken&&!this.battle.broken){
+                                        if(target.battle.broken&&!this.battle.broken&&!this.active){
                                             distance=min(distance,target.contain.stats.speed*(0.75+target.strength.supply/target.strength.base.supply*0.25))*(fort?0.5:1)
                                             moving={x:this.position.x+lsin(dir)*distance,y:this.position.y+lcos(dir)*distance}
                                             let moving2={x:target.position.x+lsin(dir)*distance,y:target.position.y+lcos(dir)*distance}

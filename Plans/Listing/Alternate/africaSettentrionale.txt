@@ -1,0 +1,90 @@
+North Africa Command (100 Battalions)
+
+X Army Corps (50 Battalions)
+
+	Independent Artillery (6 Battalions)
+		10th Corps Artillery Regiment (2 Battalions (7,17))
+		25th Corps Artillery Regiment (4 Heavy Battalions (105,130,148,150))
+
+	55th Infantry Division "Savona" (11 Battalions)
+		15th "Savona" Infantry Regiment (3 Battalions)
+		16th "Savona" Infantry Regiment (3 Battalions)
+		12th "Sila" Artillery Regiment (3 Battalions (1,2,3))
+		155th Machine Gun Battalion
+		55th Replacement Battalion
+
+	20th Army Corps Frontier Guard Command (31 Battalions)
+		33rd Frontier Guard Coverage Sector (10 Battalions)
+			33rd/A Subsector (3 Strongpoints)
+			33rd/B Subsector (3 Strongpoints)
+			33rd/C Subsector (3 Strongpoints)
+			33rd/D Subsector (2 Strongpoints)
+			330th Frontier Guard Artillery Regiment (6 Groups, 16 Batteries)
+		34th Frontier Guard Coverage Sector (8 Battalions)
+			34th/A Subsector (3 Strongpoints)
+			34th/B Subsector (5 Strongpoints)
+			340th Frontier Guard Artillery Regiment (6 Groups, 15 Batteries)
+		35th Frontier Guard Coverage Sector (6 Battalions)
+			35th/A Subsector (3 Strongpoints)
+			35th/B Subsector (2 Strongpoints)
+			35th/C Subsector (2 Strongpoints)
+			350th Frontier Guard Artillery Regiment (3 Groups, 9 Batteries)
+		Southeast Front (4 Battalions)
+			36th/A Subsector (2 Battalions)
+				4th Machine Gun Squadrons Group "Genova Cavalleria"
+				31st/1st Frontier Guard Independent Artillery Group
+			36th/B Subsector (2 Battalions)
+				6th Machine Gun Squadrons Group "Lancieri di Aosta"
+				31st/2nd Frontier Guard Independent Artillery Group
+		10th Blackshirt Forest Legion
+		30th Blackshirt Coastal Artillery Regiment (2 Battalions (100, 101))
+
+XXII Army Corps (30 Battalions)
+
+	2nd Blackshirt Battalion "Volontari della Libia"
+	140th Blackshirt Battalion "Aquilia"
+	64th Replacement Battalion
+
+	Independent Artillery (4 Battalions)
+		22nd Corps Artillery Regiment (3 Battalions (1,42,43))
+		15th Anti-Aircraft Group
+
+	61st Infantry Division "Sirte" (11 Battalions)
+		69th "Ancona" Infantry Regiment (3 Battalions)
+		70th "Ancona" Infantry Regiment (3 Battalions)
+		43rd "Sirte" Artillery Regiment (3 Battalions (1,2,3))
+		61st Machine Gun Battalion
+		61st Replacement Battalion
+
+	22nd Army Corps Frontier Guard Command (9 Battalions)
+		31st Frontier Guard Coverage Sector (5 Battalions)
+			31st/A Subsector (4 Strongpoints)
+			31st/B Subsector (2 Strongpoints)
+			31st Frontier Guard Artillery Regiment (3 Battalions (5,6,7) With (2,2,2) Companies)
+		32nd Frontier Guard Coverage Sector (4 Battalions)
+			Frontier Guard Anti-Tank Group (3 Battalions, 3 Batteries)
+			31st Libyan Coastal Infantry Battalion
+		
+	4th Tank Infantry Regiment (3 Battalions)
+		1st Medium Tank Battalion
+		21st Light Tank Battalion
+		61st Light Tank Battalion
+
+Mobile Army Corps (20 Battalions)
+
+3rd Armored Car Squadrons Group "Cavalleggeri di Monferrato"	
+43rd Anti-Aircraft Group
+52nd Medium Tank Battalion
+
+Army Corps Reconnaissance Regrouping (RECA) (3 Battalions)
+	"Romolo Gessi" Motorcycle Battalion, Italian Africa Police (1 Armored Car Company, 2 Motorcycle Companies)
+	Infantry Regiment "Giovani Fascisti" (2 Motorized Militia Battalions)
+
+102nd Infantry Division "Trento" (14 Battalions)
+	61st "Sicilia" Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
+	62nd "Sicilia" Infantry Regiment (2 Infantry Battalions, 1 Mixed Support Battalion)
+	7th Motorized Bersaglieri Regiment (3 Battalions)
+	46th Artillery Regiment (4 Battalions (1,2,3,4))
+	551st Mixed Support Battalion
+
+
