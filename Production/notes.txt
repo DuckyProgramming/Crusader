@@ -2909,6 +2909,7 @@ While most of the Libyan Battalions had nicknames, mostly after places, I couldn
 Finally news about this unit's structure though: it had a 44 man hq with no weapons, and 3 companies of 151 men each, containing two rifle platoons and a machine gun platoon.
 So I was at least right about the 3-company structure. But with a total strength of just 497 men, these were much, much weaker than a regular divisional battalion of 662 men.
 But at least it's stronger than some blackshirt units, with their support weapons battalions sometimes having as few as 313 personnel.
+Also, the 32nd-35th Libyan Battalions were all formed initially as coastal untis as well, probably, but were then reorganized into regular field battalions.
 
 About the Libyan Machine Gun companies, 19 existed. 13 were placed on the Tunisian border, while 14, 15, 18, and 19 were sent to Giarabub, and 16 was deployed to Kufra. 17's doesn't seem to have existed, for some reason.
 There were also Static Libyan Machine Gun companies, 13 numbered 50-62. Most survived into 1942, except for 59 and 69 which were lost at Kufra. They had no fixed organization.
@@ -4038,5 +4039,39 @@ tobrukTiny: The Eastern Sector Only
 
 The Volontari della Libia CC.NN. Battalion and unknown elements of the Sirte Division were together at Martuba on the 1st of December 1940.
 At the same time, the XV Anti-Aircraft Group was at Apollonia and a labor battalion of unknown designation was at d'Annunzio, and the 1st Libyan Complement Battalion (a unique unit) was at Benghazi.
+
+If I ever need information about the combat in Yugoslavia, note that the Italians made use of numerous auxiliary elements formed from the local population.
+For details about these units, they're at the end of Ness's document about Italian foreign and colonial units on tacticalorganization.com, in a chart for each sponsoring division.
+
+A while ago I attempted to decipher Montanari's 13 January map. I think I didn't do the best job, so here's another attempt.
+G.a.F {
+    18 20mm
+        This is way too many for the G.a.F alone, so I'm guessing that guns given to the fortifications were classified here
+        or
+        13th Anti-Aircraft Battery, 22nd CAR
+        Guardia alla Frontiera Formation Battery
+    8 77mm
+        246th Battery
+        247th Battery
+    32 47mm
+        This is way too many for the G.a.F alone, so I'm guessing that guns given to the fortifications were classified here
+        If that did in fact occur, I don't really have a way to figure out which batteries were and weren't counted in this number
+    11 100mm
+        Hard to say, but I believe this was the I/22 Group
+    8 75mm
+        249th Battery
+        Formation Battery "Derna"
+    8 149mm
+        244th Battery
+        245th Battery
+}
+1 Group 105/28 + 4 pieces
+    I Group, 22nd CAR
+    Mixed Battery, 22nd CAR
+12 Pieces 120/25
+    230th Bis Battery
+    231st Bis Battery
+    242nd Battery
+This is a slight improvement over the last time I attempted to go over this map, but it's not too much better.
 
 

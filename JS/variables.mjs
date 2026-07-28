@@ -3070,32 +3070,32 @@ export var types={
                                     pos:[1153,511],
                                     elements:[
                                         {
-                                            level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                            level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Cocco`,icon:``,
                                             pos:[1201,442],
                                             elements:[
                                                 {
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:`Cupidi`,icon:``,
                                                     pos:[1601,552],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Tramontin`,icon:``,
                                                     pos:[1240,684],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`230th Bis Frontier Guard Static Artillery Battery`,`230ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`230B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`231st Bis Frontier Guard Static Artillery Battery`,`231ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`231B`,designation:`6`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
                                                     desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Verna`,icon:``,
                                                     pos:[1410,569],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard Static Heavy Artillery Battery`,`244ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`244`,designation:`7`,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard Static Heavy Artillery Battery`,`245ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`245`,designation:`7`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -22577,7 +22577,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
-                                                    desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+                                                    desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:``,icon:``,
                                                     pos:[2776,1471],
                                                     elements:[
                                                         {
@@ -22634,11 +22634,11 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 26th Artillery Regiment`,`3ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`3`,designation:`26`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:``,icon:``,
                                                     pos:[3167,1067],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -22660,7 +22660,7 @@ export var types={
                                                 },
                                             ],
                                         },{
-                                            level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                            level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Baggini`,icon:``,
                                             pos:[2807,1397],
                                             elements:[
@@ -22683,20 +22683,20 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 55th Artillery Regiment`,`9ª Batteria Cannoni Campali, 55° Reggimento Artiglieria "Brescia"`],name:`9`,designation:`55`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:``,icon:``,
                                                     pos:[2663,1371],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`230th Bis Frontier Guard Static Artillery Battery`,`230ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`230B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`231st Bis Frontier Guard Static Artillery Battery`,`231ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`231B`,designation:`6`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Heavy`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:``,icon:``,
                                                     pos:[2893,1174],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard Static Heavy Artillery Battery`,`244ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`244`,designation:`7`,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard Static Heavy Artillery Battery`,`245ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`245`,designation:`7`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -23732,7 +23732,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
-                                                    desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+                                                    desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:``,icon:``,
                                                     pos:[2776,1471],
                                                     elements:[
                                                         {
@@ -23789,11 +23789,11 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 26th Artillery Regiment`,`3ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`3`,designation:`26`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:``,icon:``,
                                                     pos:[3167,1067],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                                                        {level:5,type:`Ruined Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -23822,7 +23822,7 @@ export var types={
                                                 },
                                             ],
                                         },{
-                                            level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                            level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Baggini`,icon:``,
                                             pos:[2807,1397],
                                             elements:[
@@ -23845,20 +23845,20 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 55th Artillery Regiment`,`9ª Batteria Cannoni Campali, 55° Reggimento Artiglieria "Brescia"`],name:`9`,designation:`55`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:``,icon:``,
                                                     pos:[2663,1371],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`230th Bis Frontier Guard Static Artillery Battery`,`230ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`230B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`231st Bis Frontier Guard Static Artillery Battery`,`231ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`231B`,designation:`6`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
                                                     desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:``,icon:``,
                                                     pos:[2893,1174],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard Static Heavy Artillery Battery`,`244ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`244`,designation:`7`,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard Static Heavy Artillery Battery`,`245ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`245`,designation:`7`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -24943,7 +24943,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
-                                                    desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+                                                    desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:``,icon:``,
                                                     pos:[2776,1471],
                                                     elements:[
                                                         {
@@ -25000,11 +25000,11 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 26th Artillery Regiment`,`3ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`3`,designation:`26`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`5th Group, 31st Frontier Guard Artillery Regiment`,`V Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`5`,designation:`31`,commander:``,icon:``,
                                                     pos:[3167,1067],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Artillery Battery`,`242ª Batteria Cannoni Campali Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -25033,7 +25033,7 @@ export var types={
                                                 },
                                             ],
                                         },{
-                                            level:3,type:[`Artillery`],team:`Guardia alla Frontiera`,
+                                            level:3,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Artillery Regiment`,`31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`31`,designation:``,commander:`Baggini`,icon:``,
                                             pos:[2807,1397],
                                             elements:[
@@ -25056,20 +25056,20 @@ export var types={
                                                         {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 55th Artillery Regiment`,`9ª Batteria Cannoni Campali, 55° Reggimento Artiglieria "Brescia"`],name:`9`,designation:`55`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:``,icon:``,
                                                     pos:[2663,1371],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Bis Frontier Guard Heavy Artillery Battery`,`244ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244B`,designation:`6`,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245st Bis Frontier Guard Heavy Artillery Battery`,`245ª Bis Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`230th Bis Frontier Guard Static Artillery Battery`,`230ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`230B`,designation:`6`,commander:``},
+                                                        {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`231st Bis Frontier Guard Static Artillery Battery`,`231ª Bis Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`231B`,designation:`6`,commander:``},
                                                     ],
                                                 },{
-                                                    level:4,type:[`Artillery`,`Heavy`],team:`Guardia alla Frontiera`,
+                                                    level:4,type:[`Artillery`,`Fortress`,`Heavy`],team:`Guardia alla Frontiera`,
                                                     desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:``,icon:``,
                                                     pos:[2893,1174],
                                                     elements:[
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard StaticArtillery Battery`,`244ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`244`,designation:``,commander:``},
-                                                        {level:5,type:`Ruined Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard StaticArtillery Battery`,`245ª Batteria Cannoni Pesanti Campali Guardia alla Frontiera`],name:`245`,designation:``,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`244th Frontier Guard Static Heavy Artillery Battery`,`244ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`244`,designation:`7`,commander:``},
+                                                        {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard Static Heavy Artillery Battery`,`245ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`245`,designation:`7`,commander:``},
                                                     ],
                                                 },{
                                                     level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
