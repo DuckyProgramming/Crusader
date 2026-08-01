@@ -1,4 +1,4 @@
-The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
+/The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
 For the Battleaxe scenario ONLY can this 8th battalion be used. It's worth noting the battalion did attempt to reform, but was destroyed again at Gialo (technically part of Crusader, but very far off.)
 On the other hand, the 9th Bersaglieri Battalion had four battalions. It likely had three back in Italy (which appears on most orders of battle) but received a fourth in Africa.
 Two of them were disbanded or destroyed due to the severe losses suffered by this regiment during Crusader.
@@ -2913,6 +2913,9 @@ So I was at least right about the 3-company structure. But with a total strength
 But at least it's stronger than some blackshirt units, with their support weapons battalions sometimes having as few as 313 personnel.
 Also, the 32nd-35th Libyan Battalions were all formed initially as coastal untis as well, probably, but were then reorganized into regular field battalions.
 
+That said, while the Libyan Coastal Battalions were stronger than the blackshirt support battalions, they were weaker than blackshirt garrison battalions of 517 men (also with no weapons).
+A slightly more mobile version of those garrison battalions with just 499 men but at least they had a few heavier machine guns (6) plus some SMGs.
+
 About the Libyan Machine Gun companies, 19 existed. 13 were placed on the Tunisian border, while 14, 15, 18, and 19 were sent to Giarabub, and 16 was deployed to Kufra. 17's doesn't seem to have existed, for some reason.
 There were also Static Libyan Machine Gun companies, 13 numbered 50-62. Most survived into 1942, except for 59 and 69 which were lost at Kufra. They had no fixed organization.
 The "Croatian Legion" that appears in some returns for the Italian 8th Army was not the same one that went to Stalingrad. Instead it was a militia force formed by the Italians.
@@ -3259,6 +3262,7 @@ Three members of the 61st Light Tank Battalion (for the 61st "Sirte" Infantry Di
 
 The VIII Battaglione Lavoratori, or 8th Labor Battalion, was initially subordinated to the XX Army Corps Engineer Raggruppamento. Its commander was Vincenzo Fusco, who was killed 9 Decmeber 1940.
 Rostagno notes that this battalion was in Tobruk. If it was, it was certainly not at full strength and didn't have its original commander with it. I don't know much about its actions in either battle.
+One company was noted as located at Capuzzo. Given the fates of other units that ended up in that area I wouldn't be surprised if this company was destroyed and little left of the battalion made it to Tobruk.
 
 About the mixed engineer battalions in North Africa, I don't have all that much information, but I believe these are the most likely realities:
 60th "Sabratha" Infantry Division: 72nd Engineer Company, Mobilized by the 20th Engineer Regiment
@@ -4094,5 +4098,30 @@ In the case of the XXXI Mixed Engineer Unit, this implies that it had just two p
 These platoons were also named according to this system, so their names would've been "A" and "B". It is important to remember that this structure was administrative only and did not apply in combat.
 
 I hate my life. It's spelled "Caposaldo" not "Capisaldo". However, the plural has both of the "o"s replaced by "i"s which creates confusion. I'm still not that familiar with Italian.
+Structure of the "Piave" strongpoint:
+Training HMG Platoon (Breda 59mm)
+Training HMG Platoon (Breda 59mm)
+Training LMG Squad (Breda-SAFAT 12.7mm)
+Training Rifle Platoon
+Training Light Mortar Platoon (45/5)
+Training Heavy Mortar Squad (81/14)
+Also, Niehorster is back up. That's good news that link rot hasn't worsened by too much.
+The Libyan Coastal Battalions had absolutely zero heavy weapons. They did have a few machine guns in their rifle platoons, but they had no mortars or anti-tank guns.
+
+I've been trying to track the origin of the Mixed Battery composed of 2 77/28 guns and a 149/12 gun. This may have been the "Mixed Battery" supposedly part of the 22nd CAR.
+At the same time, both the 77/28 and 149/12 were guns used by the G.a.F., as no other 149/12 guns appear anywhere in Africa as part of the regular army.
+The G.a.F. in Tripoli was noted having several 149/12 units by Montanari while there was also a battery in Tobruk. While this "battery" managed to only have one gun, it still existed.
+This makes it seem like these guns had been in the G.a.F. depots from previously disbanded batteries. Thus in the "december" scenario it's fair to assume the guns could still be found.
+But so was the entirety of the 22nd CAR. And I haven't deployed any of those units because they weren't part of the G.a.F. And this opens the door to a thousand more units that I can't all track.
+This gives the 22nd CAR the total OOB of:
+1st Group (11 100/17)
+Composite Battery (4 105/28)
+Mixed Training Battery (2 77/28, 1 149/12)
+13th Anti-Aircraft Battery (8 20/65)
+Provisional Anti-Tank Battery (6 47/32)
+This totals 32 guns, a cool number I guess. They are from 7 batteries, a significantly less cool number. In designing the "december" scenario I can't really add these.
+
+I've some information (possibly because of mistakes by me) that shows 120/40 guns in Africa. I don't thinks ever happened, least of all in the "Nembo" battery.
+The "Nembo" itself was built not with 120/40 guns but with 120/45. This was a naval model and was effectively never seen on land. The 120/40 itself was generally a pretty normal artillery gun.
 
 

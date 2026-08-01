@@ -677,8 +677,10 @@ export class operation{
                     switch(input){
                         case 0:
                             let element=this.select.unit.contain.units[this.select.unit.order.detach%this.select.unit.contain.units.length]
-                            for(let a=0,la=100;a<la;a++){
-                                let dir=random(0,360)
+                            let dir=random(0,360)
+                            let swivel=floor(random(0,2))*2-1
+                            for(let a=0,la=60;a<la;a++){
+                                dir+=a/la*360*swivel
                                 let pos={position:{
                                     x:this.select.unit.position.x+lsin(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1),
                                     y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
@@ -712,6 +714,9 @@ export class operation{
                                     this.select.unit.order.artillery=artillery
                                     if(removed&&this.select.unit.parent!=-1){
                                         this.select.unit.parent.contain.units.push(result)
+                                    }
+                                    if(this.select.unit.contain.units.length==1&&this.select.unit.contain.units[0].level==this.select.unit.level){
+                                        this.select.unit.contain.adhoc=false
                                     }
                                     break
                                 }

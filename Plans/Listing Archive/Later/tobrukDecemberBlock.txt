@@ -1,0 +1,166 @@
+Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
+    Tobruk Fortress Command (24)
+        31st Coverage Sector (10)
+            31st/A Subsector (2)
+                | Strongpoint Sidi Daud
+                | Strongpoint Suesi
+            31st/B Subsector (2)
+                | Strongpoint Bir Junes
+                | Strongpoint Bir Umm Haleiga
+            31st Artillery Raggruppamento (5) - Guido Baggini
+                5th Artillery Group (1)
+                    | 242nd Artillery Battery
+                6th Artillery Group (2)
+                    | 230th Bis Artillery Battery
+                    | 231st Bis Artillery Battery
+                7th Artillery Group (2)
+                    | 244th Artillery Battery
+                    | 245th Artillery Battery
+            | 31st Mixed Engineer Unit
+        Elements, 32nd Coverage Sector (4)
+            | Strongpoint Hagfet Umm Haleiga
+            | Strongpoint Bir el Medauuar
+            | Strongpoint Es Sehel
+            | Strongpoint Umm Cuheil
+        Anti-Tank Raggruppamento (10)
+            1st Artillery Group (1)
+                | 249th Artillery Battery
+            2nd Artillery Group (1)
+                | 246th Artillery Battery
+            3rd Artillery Group (1)
+                | 247th Artillery Battery
+            | Training Battery "Derna"
+            | Mixed Training Battery
+            | 47/32 Platoon "q. 71"
+            | 77/28 Section "q. 71"
+            | Section "Buffolotto"
+            | Spare 47/32 Gun
+            | Spare 76/40 Gun
+    Tobruk Coastal Sector (12) - Massimiliano Vietina
+        | Naval Battery "Dandolo"
+        | Naval Battery "Tortora"
+        | Naval Battery "Bellotti"
+        | Naval Battery "Grasso"
+        | Naval Battery "Beiad"
+        | Naval Battery "Sidi Mahmud"
+        | Naval Battery "Pilastrino"
+        | Naval Battery "Tordo"
+        | Naval Battery "Toro"
+        | Naval Battery "Topo"
+        | Naval Battery "Tonno"
+        | Fsloating Battery (Cruiser) "San Giorgio"
+    Loose Units (12)
+        31st Libyan Coastal Battalion (3)
+            | 1st Company, 31st Libyan Coastal Battalion
+            | 2nd Company, 31st Libyan Coastal Battalion
+            | 3rd Company, 31st Libyan Coastal Battalion
+        64th Replacement Battalion (4)
+            | 1st Company, 62nd Replacement Battalion
+            | 2nd Company, 62nd Replacement Battalion
+            | 3rd Company, 62nd Replacement Battalion
+            | 4th Company, 62nd Replacement Battalion
+        | 3rd Company, 62nd Replacement Battalion
+        | 63rd Garrison Company
+        | Training Company "Piave"
+            Machine Gun Platoon
+            Machine Gun Platoon
+            Heavy Machine Gun Squad
+            Infantry Platoon
+            Light Mortar Platoon
+            Heavy Mortar Squad
+        | Formation Naval Battery "Nembo"
+        | Formation Naval Battery "Vittoria"
+
+        
+
+Field Guns
+    3 76/40
+        Naval Battery "Vittoria" (3)
+    2 77/28
+        Mixed Training Battery (2)
+    12 120/25
+        230th Bis Battery (4)
+        231st Bis Battery (4)
+        242nd Battery (4)
+    4 120/45
+        Naval Battery "Nembo" (4)
+    1 149/12
+        Mixed Training Battery (1)
+    11 149/35
+        244th Battery (4)
+        245th Battery (4)
+        Section "Buffolotto" (2)
+        Naval Battery "Vittoria" (1)
+    Total: 33
+
+Anti-Tank Guns
+    10 77/28
+        246th Battery (4)
+        247th Battery (4)
+        Section "q. 71" (2)
+    8 75/27
+        249th Battery (4)
+        Training Battery "Derna" (4)
+    19 47/32
+        Platoon "q. 71" (2)
+        Strongpoints (16)
+        Spare Gun (1)
+    1 76/40
+        Spare Gun (1)
+    10 20/65
+        Strongpoints (10)
+    1 81/14
+        Training Company "Piave" (1)
+    Total: 49
+
+Navy
+    8 149/17
+        Naval Battery "Bellotti" (4)
+        Naval Battery "Grasso" (4)
+    18 102/35
+        Naval Battery "Beiad" (6)
+        Naval Battery "Sidi Mahmud" (6)
+        Naval Battery "Pilastrino" (6)
+    16 76/40
+        Naval Battery "Tordo" (6)
+        Naval Battery "Toro" (6)
+        Naval Battery "Topo" (3)
+        Naval Battery "Pilastrino" (1)
+    4 254/30
+        Floating Battery "San Giorgio" (4)
+    4 190/45
+        Floating Battery "San Giorgio" (4)
+    Total: 50
+
+Grand Total: 132
+
+
+
+20th Australian Infantry Brigade - John Murray (5/20)
+    2/13th Australian Infantry Battalion (4) %
+        : A Company, 2/13th Australian Infantry Battalion
+        : B Company, 2/13th Australian Infantry Battalion
+        : C Company, 2/13th Australian Infantry Battalion
+        : D Company, 2/13th Australian Infantry Battalion
+    2/15th Australian Infantry Battalion (4) %
+        : A Company, 2/15th Australian Infantry Battalion
+        : B Company, 2/15th Australian Infantry Battalion
+        : C Company, 2/15th Australian Infantry Battalion
+        : D Company, 2/15th Australian Infantry Battalion
+    2/17th Australian Infantry Battalion (4) %
+        : A Company, 2/17th Australian Infantry Battalion
+        : B Company, 2/17th Australian Infantry Battalion
+        : C Company, 2/17th Australian Infantry Battalion
+        : D Company, 2/17th Australian Infantry Battalion
+    1st Battalion, King's Royal Rifle Corps (4) %
+        : A Company, 1st Battalion, King's Royal Rifle Corps
+        : B Company, 1st Battalion, King's Royal Rifle Corps
+        : C Company, 1st Battalion, King's Royal Rifle Corps
+        : D Company, 1st Battalion, King's Royal Rifle Corps
+    7th Royal Tank Regiment (3) %
+        : A Squadron, 7th Royal Tank Regiment
+        : B Squadron, 7th Royal Tank Regiment
+    : 20th Australian Anti-Tank Company
+    : A Squadron, 6th Australian Divisional Cavalry Regiment
+
+

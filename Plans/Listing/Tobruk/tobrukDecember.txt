@@ -35,9 +35,12 @@ Sector West (6)
     
     Position Pilastrino (HQ 31st Libyan Coastal Battalion) (1) #
         | 1st Company, 31st Libyan Coastal Battalion
+    Position Piave (1)
+        | Delaying Action Company "Piave" (2 Heavy Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon, 1 Light Machine Gun Training Squad, 1 Heavy Mortar Training Squad)
 
 Coastal Defense Sector (HQ Tobruk Coast Sector) (14) # - Massimiliano Vietina
-    | 2nd Company, 31st Libyan Coastal Battalion
+    Position Point 71
+        | 2nd Company, 31st Libyan Coastal Battalion (1 47/32) _
     | 3rd Company, 31st Libyan Coastal Battalion
     | 3rd Company, 62nd Replacement Battalion
     | 3rd Company, 64th Replacement Battalion
@@ -60,7 +63,6 @@ Anti-Tank Group (5)
     3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
         | 247th Battery Guardia alla Frontiera (4 77/28) ____        
     | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
-    | Spare 47/32 Gun (1 47/32) _
 
 | 31st Guardia alla Frontiera Mixed Engineer Unit
 
@@ -147,6 +149,14 @@ Navy
         Floating Battery "San Giorgio" (4)
     Total: 50
 
-Grand Total: 128
+Mortars:
+    21 45/5
+        64th Replacement Battalion (18)
+        Training Company "Piave" (3)
+    1 81/14
+        Training Company "Piave" (1)
+    Total: 22
+
+Grand Total: 150
 
 

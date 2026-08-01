@@ -1,0 +1,34 @@
+Swiss Observation Corps (37)
+    11th Coverage Sector "Varese" (23)
+        11th/A Subsector "Domodossola" (5)
+            Alpini Company "Val Toce", 4th Alpini Regiment
+            29th Blackshirt Mountain Battalion "Arona" (4)
+        11th/B Subsector "Como" (8)
+            8th Blackshirt Mountain Battalion "Varese" (4)
+            16th Blackshirt Mountain Battalion "Como" (4)
+        104th Sector Artillery Group (2)
+            174th Static Battery (210/8)
+            356th Static Battery (75/27)
+        104th Static Machine Gun Battalion (7)
+            513rd Static Machine Gun Company
+            542th Static Machine Gun Company
+            613rd Static Machine Gun Company
+            614th Static Machine Gun Company
+            615th Static Machine Gun Company
+            616th Static Machine Gun Company
+            617th Static Machine Gun Company
+        11th Mixed Engineer Unit
+    12th Coverage Sector "Sondrio" (14)
+        12nd/A Subsector "Chiavenna" (5)
+            511th Static Machine Gun Company
+            9th Blackshirt Mountain Battalion "Sondrio" (4)
+        12nd/B Subsector "Madonna di Tirano" (5)
+            512th Static Machine Gun Company
+            41st Blackshirt Mountain Battalion "Trento" (4)
+        40th Sector Artillery Group (3)
+            520th Static Battery (149/35)
+            521st Static Battery (149/35)
+            522nd Static Battery (120/40)
+        12th Mixed Engineer Unit
+
+

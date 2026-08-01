@@ -469,7 +469,7 @@ export function companies(){
                         totals[3]+=unit.contain.units.length
                     }
                 }*/else if(unit.contain.trigger){
-                    if(unit.contain.units.some(contain=>contain.level==unit.level)){
+                    if(unit.contain.units.some(contain=>contain.level==unit.level)||unit.level>=constants.minLevel+1){
                         totals[unit.player]++
                         if(unit.player>=1){
                             totals[3]++

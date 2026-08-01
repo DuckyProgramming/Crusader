@@ -310,7 +310,7 @@ export class unit{
         return this.contain.stats.recon?1.5:1
     }
     getCompact(){
-        return this.contain.adhoc&&this.contain.units.every(unit=>unit.level>=constants.minLevel+1)
+        return this.contain.adhoc&&this.contain.units.every(unit=>unit.contain.trigger&&unit.contain.units.length<=1&&unit.level>=constants.minLevel+1&&unit.level>this.level)
     }
     getWidth(){
         return this.contain.trigger||this.getCompact()?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
@@ -483,7 +483,7 @@ export class unit{
                 layer.strokeWeight(2)
                 if(this.contain.units.length>0){
                     if(this.contain.trigger||this.getCompact()){
-                        if(this.contain.units[0].desc!=this.desc){
+                        if(this.contain.units.length>1||this.contain.units[0].desc!=this.desc){
                             layer.line(0,this.height/2,0,this.getHeight()-this.height/2-10)
                         }
                     }else{
@@ -509,7 +509,7 @@ export class unit{
                 layer.scale(10/this.size)
                 if(this.contain.units.length>0){
                     if(this.contain.trigger||this.getCompact()){
-                        if(this.contain.units[0].desc!=this.desc){
+                        if(this.contain.units.length>1||this.contain.units[0].desc!=this.desc){
                             layer.translate(0,5)
                             this.contain.units.forEach(unit=>{
                                 let half=unit.height/2+5
