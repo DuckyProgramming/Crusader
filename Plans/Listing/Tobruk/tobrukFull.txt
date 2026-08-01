@@ -6,7 +6,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
             | Guardia alla Frontiera Strongpoint Zeitun
             | Guardia alla Frontiera Strongpoint Sidi Daud (2 47/32, 1 20/65) __$
             | Guardia alla Frontiera Strongpoint Suesi (2 47/32, 1 20/65) __$
-            | Guardia alla Frontiera Strongpoint Bir Junes (4 47/32, 3 20/76) ____$$$
+            | Guardia alla Frontiera Strongpoint Bir Junes (4 47/32, 3 20/65) ____$$$
             1st Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
                 | 249th Battery Guardia alla Frontiera (4 75/27) ____
             2nd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
@@ -17,7 +17,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
 
         Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (6) #
             | Guardia alla Frontiera Strongpoint Dahar el Azazi (4 47/32, 2 20/65) ____$$
-            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (4 47/32, 3 20/76) ____$$$
+            | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (4 47/32, 3 20/65) ____$$$
             3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
                 | 247th Battery Guardia alla Frontiera (4 77/28) ____        
             | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____

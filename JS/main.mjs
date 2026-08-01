@@ -6,7 +6,7 @@ var current
 export function setup(){
     createCanvas(windowWidth-50,windowHeight-50)
     setupGraphics(graphics,constants)
-    current=new operation()
+    current=new operation(constants.initialMap)
     window.current=current
 }
 export function draw(){

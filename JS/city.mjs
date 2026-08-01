@@ -98,81 +98,132 @@ export class city{
                     layer.strokeWeight(5*this.fade.main*types.map[this.operation.map].cityScale)
                     layer.noFill()
                     this.connect.primary.forEach(connect=>{
-                        switch(this.name){
-                            case `Gerawla`: case `Hagfet el Hariga`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+50,
-                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+50,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `Mersa Matruh`: case `Byut Fadit`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
-                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+20,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `Maaten Baggush`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
-                                    this.position.x*0.2+connect.position.x*0.8,this.position.y*0.2+connect.position.y*0.8+40,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `Tmimi`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+100,
-                                    this.position.x*0.1+connect.position.x*0.9,this.position.y*0.1+connect.position.y*0.9+50,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `El Mrassas`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+10,
-                                    this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+10,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `Buq Buq`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+50,
-                                    this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+50,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `NAAFI`: case `Qalala`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.7+connect.position.x*0.3-40,this.position.y*0.7+connect.position.y*0.3+10,
-                                    this.position.x*0.3+connect.position.x*0.7-40,this.position.y*0.3+connect.position.y*0.7+10,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `Mersa el Margus`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.7+connect.position.x*0.3-50,this.position.y*0.7+connect.position.y*0.3-10,
-                                    this.position.x*0.3+connect.position.x*0.7-50,this.position.y*0.3+connect.position.y*0.7-10,
-                                    connect.position.x,connect.position.y
-                                )
-                            break
-                            case `Distillation Plant`:
-                                layer.bezier(
-                                    this.position.x,this.position.y,
-                                    this.position.x*0.7+connect.position.x*0.3-100,this.position.y*0.7+connect.position.y*0.3-20,
-                                    this.position.x*0.3+connect.position.x*0.7-100,this.position.y*0.3+connect.position.y*0.7-30,
-                                    connect.position.x,connect.position.y
-                                )
+                        switch(types.map[current.map].id){
+                            case 11:
+                                switch(this.name){
+                                    case `Mersa Matruh`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+60,
+                                            this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+60,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Mersa Brega`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                            this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+20,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `El Fager`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+10,
+                                            this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+10,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Gazala`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.9+connect.position.x*0.1,this.position.y*0.9+connect.position.y*0.1+60,
+                                            this.position.x*0.5+connect.position.x*0.5,this.position.y*0.5+connect.position.y*0.5+40,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Bomba`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.8+connect.position.x*0.2-20,this.position.y*0.8+connect.position.y*0.2,
+                                            this.position.x*0.4+connect.position.x*0.6-20,this.position.y*0.4+connect.position.y*0.6,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    default:
+                                        layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                                    break
+                                }
                             break
                             default:
-                                layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                                switch(this.name){
+                                    case `Gerawla`: case `Hagfet el Hariga`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+50,
+                                            this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+50,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Mersa Matruh`: case `Byut Fadit`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                            this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+20,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Maaten Baggush`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.6+connect.position.x*0.4,this.position.y*0.6+connect.position.y*0.4+20,
+                                            this.position.x*0.2+connect.position.x*0.8,this.position.y*0.2+connect.position.y*0.8+40,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Tmimi`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.4+connect.position.x*0.6,this.position.y*0.4+connect.position.y*0.6+100,
+                                            this.position.x*0.1+connect.position.x*0.9,this.position.y*0.1+connect.position.y*0.9+50,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `El Mrassas`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+10,
+                                            this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+10,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Buq Buq`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.7+connect.position.x*0.3,this.position.y*0.7+connect.position.y*0.3+50,
+                                            this.position.x*0.3+connect.position.x*0.7,this.position.y*0.3+connect.position.y*0.7+50,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `NAAFI`: case `Qalala`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.7+connect.position.x*0.3-40,this.position.y*0.7+connect.position.y*0.3+10,
+                                            this.position.x*0.3+connect.position.x*0.7-40,this.position.y*0.3+connect.position.y*0.7+10,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Mersa el Margus`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.7+connect.position.x*0.3-50,this.position.y*0.7+connect.position.y*0.3-10,
+                                            this.position.x*0.3+connect.position.x*0.7-50,this.position.y*0.3+connect.position.y*0.7-10,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    case `Distillation Plant`:
+                                        layer.bezier(
+                                            this.position.x,this.position.y,
+                                            this.position.x*0.7+connect.position.x*0.3-100,this.position.y*0.7+connect.position.y*0.3-20,
+                                            this.position.x*0.3+connect.position.x*0.7-100,this.position.y*0.3+connect.position.y*0.7-30,
+                                            connect.position.x,connect.position.y
+                                        )
+                                    break
+                                    default:
+                                        layer.line(this.position.x,this.position.y,connect.position.x,connect.position.y)
+                                    break
+                                }
                             break
                         }
                     })

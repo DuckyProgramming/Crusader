@@ -2433,5 +2433,113 @@ reserves=[
             {level:5,type:`Armored Car Company`,team:`British`,desc:`B Squadron, 11th Hussars (Prince Albert's Own)`,name:`B`,designation:`1 KDG`,commander:``},
             {level:5,type:`Armored Car Company`,team:`British`,desc:`C Squadron, 11th Hussars (Prince Albert's Own)`,name:`C`,designation:`1 KDG`,commander:``},
         ],
+    },{
+        level:4,type:[`Infantry`],team:`Guardia alla Frontiera`,
+        desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:`Schellino`,icon:``,
+        pos:[1981,733],
+        elements:[
+            {
+                level:5,type:[`Infantry`],team:`Guardia alla Frontiera`,
+                desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``,
+                pos:[1935,779],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`],team:`Guardia alla Frontiera`,
+                desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                pos:[2055,463],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`],team:`Guardia alla Frontiera`,
+                desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                pos:[2423,643],
+                elements:[
+                    {type:`Infantry Company`},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`31st/B Frontier Guard Subsector`,`XXXI/B Sottosettore Guardia alla Frontiera`],name:`B`,designation:`31`,commander:`Parisi`,icon:``,
+        pos:[3427,746],
+        elements:[
+            {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Strongpoint Gerfan, 31st/A Frontier Guard Subsector`,`Capisaldo Gerfan, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Gerfan`,designation:`31/A`,commander:`Montesanti`},
+            {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Strongpoint Ponticelli, 31st/A Frontier Guard Subsector`,`Capisaldo Ponticelli, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Ponticelli`,designation:`31/A`,commander:`Desideri`},
+        ],
+    },{
+        level:3,type:[`Tank`],team:`Italian`,
+        desc:[`4th Tank Infantry Regiment`,`4° Reggimento Carri`],name:`4`,designation:``,commander:`Aresca`,icon:`4ti`,
+        pos:[3238,791],
+        elements:[
+            {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Giuseppe Locatelli`},
+            {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
+            {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
+        desc:[`10th Corps Artillery Regiment`,`10° Raggruppamento Artiglieria di Corpo d'Armata`],name:`10`,designation:`Corps`,commander:`Infante`,icon:``,
+        pos:[735,1015],
+        elements:[
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`7th Group, 10th Corps Artillery Regiment`,`VII Gruppo, 10° Raggruppamento Artiglieria di Corpo d'Armata`],name:`7`,designation:`10 Corps`,commander:`Polacco`},
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`17th Group, 10th Corps Artillery Regiment`,`XVII Gruppo, 10° Raggruppamento Artiglieria di Corpo d'Armata`],name:`17`,designation:`10 Corps`,commander:`Locarno`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
+        desc:[`22nd Corps Artillery Regiment`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Sardi`,icon:``,
+        pos:[2659,617],
+        elements:[
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, 22nd Corps Artillery Regiment`,`I Gruppo, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`1`,designation:`22 Corps`,commander:`Gallo`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
+        desc:[`25th Corps Artillery Regiment`,`25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`25`,designation:`Corps`,commander:`Bellini`,icon:``,
+        pos:[1821,181],
+        elements:[
+            {level:4,type:`Motorized Small Heavy Artillery`,team:`Italian`,desc:[`105th Group, 25th Corps Artillery Regiment`,`CV Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`105`,designation:`25 Corps`,commander:`Manca`},
+            {level:4,type:`Motorized Small Heavy Artillery`,team:`Italian`,desc:[`130th Group, 25th Corps Artillery Regiment`,`CXXX Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`130`,designation:`25 Corps`,commander:`Sulis`},
+            {level:4,type:`Motorized Small Heavy Artillery`,team:`Italian`,desc:[`148th Group, 25th Corps Artillery Regiment`,`CXLVIII Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`148`,designation:`25 Corps`,commander:`Petitti`},
+            {level:4,type:`Motorized Small Heavy Artillery`,team:`Italian`,desc:[`150th Group, 25th Corps Artillery Regiment`,`CL Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`150`,designation:`25 Corps`,commander:`Lazzarini`},
+        ],
+    },{
+        level:3,type:[`Artillery`,`Motorized`],team:`Italian`,
+        desc:[`55th Artillery Regiment`,`55° Reggimento Artiglieria "Brescia"`],name:`55`,designation:`Brescia`,commander:`Ghiselli`,icon:`brescia`,
+        pos:[652,732],
+        elements:[
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, 55th Artillery Regiment`,`I Gruppo, 55° Reggimento Artiglieria "Brescia"`],name:`1`,designation:`55`,commander:`Como`},
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`2nd Group, 55th Artillery Regiment`,`II Gruppo, 55° Reggimento Artiglieria "Brescia"`],name:`2`,designation:`55`,commander:`Vitale`},
+            {level:4,type:`Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, 55th Artillery Regiment`,`III Gruppo, 55° Reggimento Artiglieria "Brescia"`],name:`3`,designation:`55`,commander:`Montorsi`},
+        ],
+    },{
+        level:7,type:[`Artillery`,`Fortress`],team:`Italian`,
+        desc:[`Mixed Anti-Tank Section`,`Sezione Misto Anticarro`],name:`Misto`,designation:``,commander:``,icon:``,
+        pos:[1142,678],
+        elements:[
+            {
+                level:8,type:[`Anti-Tank`],team:`Italian`,
+                desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``,icon:``,
+                pos:[1392,499],
+                elements:[
+                    {type:`Ruined Single Anti-Tank Company`},
+                ],
+            },{
+                level:8,type:[`Anti-Tank`],team:`Guardia alla Frontiera`,
+                desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``,
+                pos:[763,724],
+                elements:[
+                    {type:`Ruined Single Weak Anti-Tank Company`},
+                ],
+            },
+        ],
+    },{
+        level:7,type:[`Artillery`,`Fortress`],team:`Italian`,
+        desc:[`Mixed Anti-Tank Section`,`Sezione Misto Anticarro`],name:`Misto`,designation:``,commander:``,icon:``,
+        pos:[1392,499],
+        elements:[
+            {level:8,type:`Ruined Single Weak Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``},
+            {level:8,type:`Ruined Single Anti-Tank Company`,team:`Italian`,desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``},
+        ],
     },
 ]

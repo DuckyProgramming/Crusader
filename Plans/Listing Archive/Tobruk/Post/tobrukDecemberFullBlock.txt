@@ -1,5 +1,5 @@
-Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
-    Tobruk Fortress Command (24)
+Eastern Libya Guardia alla Frontiera Command (50) - Umberto Barberis
+    Tobruk Fortress Command (23)
         31st Coverage Sector (10)
             31st/A Subsector (2)
                 | Strongpoint Sidi Daud
@@ -22,7 +22,7 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
             | Strongpoint Bir el Medauuar
             | Strongpoint Es Sehel
             | Strongpoint Umm Cuheil
-        Anti-Tank Raggruppamento (10)
+        Anti-Tank Raggruppamento (9)
             1st Artillery Group (1)
                 | 249th Artillery Battery
             2nd Artillery Group (1)
@@ -31,14 +31,17 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
                 | 247th Artillery Battery
             | Training Battery "Derna"
             | Mixed Training Battery
-            | 47/32 Platoon "q. 71"
-            | 77/28 Section "q. 71"
+            | Mixed Anti-Tank Company "q.71" (1 47/32 Platoon, 1 77/28 Section)
             | Section "Buffolotto"
             | Spare 47/32 Gun
             | Spare 76/40 Gun
-    Tobruk Coastal Sector (12) - Massimiliano Vietina
-        | Naval Battery "Dandolo"
-        | Naval Battery "Tortora"
+    22nd Army Corps Artillery Raggruppamento (4)
+        1st Group (3)
+            | 1st Battery
+            | 2nd Battery
+            | 3rd Battery
+        | 13th Anti-Aircraft Battery
+    Tobruk Coastal Sector (14) - Massimiliano Vietina
         | Naval Battery "Bellotti"
         | Naval Battery "Grasso"
         | Naval Battery "Beiad"
@@ -47,9 +50,13 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
         | Naval Battery "Tordo"
         | Naval Battery "Toro"
         | Naval Battery "Topo"
-        | Naval Battery "Tonno"
-        | Fsloating Battery (Cruiser) "San Giorgio"
-    Loose Units (12)
+        | Formation Naval Battery "Nembo"
+        | Formation Naval Battery "Vittoria"
+        | Floating Battery (Cruiser) "San Giorgio"
+        | Formation Naval Battery "Nembo"
+        | Formation Naval Battery "Vittoria"
+        | Floating Battery (Cruiser) "San Giorgio"
+    Loose Units (9)
         31st Libyan Coastal Battalion (3)
             | 1st Company, 31st Libyan Coastal Battalion
             | 2nd Company, 31st Libyan Coastal Battalion
@@ -61,15 +68,6 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
             | 4th Company, 62nd Replacement Battalion
         | 3rd Company, 62nd Replacement Battalion
         | 63rd Garrison Company
-        | Training Company "Piave"
-            Machine Gun Platoon
-            Machine Gun Platoon
-            Heavy Machine Gun Squad
-            Infantry Platoon
-            Light Mortar Platoon
-            Heavy Mortar Squad
-        | Formation Naval Battery "Nembo"
-        | Formation Naval Battery "Vittoria"
 
         
 
@@ -78,6 +76,8 @@ Field Guns
         Naval Battery "Vittoria" (3)
     2 77/28
         Mixed Training Battery (2)
+    11 100/17
+        1st/22nd Corps Artillery Regiment (11)
     12 120/25
         230th Bis Battery (4)
         231st Bis Battery (4)
@@ -91,7 +91,7 @@ Field Guns
         245th Battery (4)
         Section "Buffolotto" (2)
         Naval Battery "Vittoria" (1)
-    Total: 33
+    Total: 44
 
 Anti-Tank Guns
     10 77/28
@@ -107,11 +107,10 @@ Anti-Tank Guns
         Spare Gun (1)
     1 76/40
         Spare Gun (1)
-    10 20/65
+    18 20/65
+        13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (8)
         Strongpoints (10)
-    1 81/14
-        Training Company "Piave" (1)
-    Total: 49
+    Total: 56
 
 Navy
     8 149/17
@@ -132,7 +131,7 @@ Navy
         Floating Battery "San Giorgio" (4)
     Total: 50
 
-Grand Total: 132
+Grand Total: 150
 
 
 

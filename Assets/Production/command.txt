@@ -1,0 +1,2 @@
+node binaries.js ../[map]/map/water.png ../[map]/data/water.bin
+node secondaryBinaries.js ../[map]/map/fortifications.png ../[map]/data/fortifications.bin

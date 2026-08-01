@@ -429,9 +429,9 @@ export function battalions(){
     let constants={minLevel:4}
     let totals=[0,0,0,0]
     window.current.units.forEach(unit=>{
-        if(unit.active&&!(unit.level==constants.minLevel+1&&unit.parent.level==constants.minLevel)){
+        if(unit.active&&!(unit.level>=constants.minLevel+1&&unit.parent.level==constants.minLevel)){
             //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
-            if(unit.level==constants.minLevel&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level==constants.minLevel+1)){
+            if(unit.level==constants.minLevel&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level>=constants.minLevel+1)){
                 totals[unit.player]++
                 if(unit.player>=1){
                     totals[3]++
@@ -457,33 +457,53 @@ export function companies(){
     window.current.units.forEach(unit=>{
         if(unit.active){
             //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
-            if(unit.level==constants.minLevel+1&&(unit.parent.level==constants.minLevel||unit.parent==-1)){
-                totals[unit.player]++
-                if(unit.player>=1){
-                    totals[3]++
-                }
-            }/*else if(unit.level==constants.minLevel&&unit.contain.trigger&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level==constants.minLevel+1)){
-                totals[unit.player]+=unit.contain.units.length
-                if(unit.player>=1){
-                    totals[3]+=unit.contain.units.length
-                }
-            }*/else if(unit.contain.trigger){
-                unit.contain.units.forEach(contain=>{
-                    switch(contain.level){
-                        case 4:
-                            totals[contain.player]+=4
-                            if(unit.player>=1){
-                                totals[3]+=4
-                            }
-                        break
-                        case 5:
-                            totals[contain.player]++
-                            if(unit.player>=1){
-                                totals[3]++
-                            }
-                        break
+            if(!(unit.level>=constants.minLevel+1&&unit.parent!=-1&&unit.parent.level>=constants.minLevel+1)){
+                if(unit.level>=constants.minLevel+1&&(unit.parent==-1||unit.parent.level>=constants.minLevel)){
+                    totals[unit.player]++
+                    if(unit.player>=1){
+                        totals[3]++
                     }
-                })
+                }/*else if(unit.level==constants.minLevel&&unit.contain.trigger&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level>=constants.minLevel+1)){
+                    totals[unit.player]+=unit.contain.units.length
+                    if(unit.player>=1){
+                        totals[3]+=unit.contain.units.length
+                    }
+                }*/else if(unit.contain.trigger){
+                    if(unit.contain.units.some(contain=>contain.level==unit.level)){
+                        totals[unit.player]++
+                        if(unit.player>=1){
+                            totals[3]++
+                        }
+                    }else{
+                        unit.contain.units.forEach(contain=>{
+                            /*switch(contain.level){
+                                case 4:
+                                    totals[contain.player]+=4
+                                    if(unit.player>=1){
+                                        totals[3]+=4
+                                    }
+                                break
+                                case 5:
+                                    totals[contain.player]++
+                                    if(unit.player>=1){
+                                        totals[3]++
+                                    }
+                                break
+                            }*/
+                            if(contain.level==constants.minLevel){
+                                totals[contain.player]+=4
+                                if(unit.player>=1){
+                                    totals[3]+=4
+                                }
+                            }else if(contain.level>=constants.minLevel+1){
+                                totals[contain.player]++
+                                if(unit.player>=1){
+                                    totals[3]++
+                                }
+                            }
+                        })
+                    }
+                }
             }
         }
     })

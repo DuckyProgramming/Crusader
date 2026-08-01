@@ -1,0 +1,80 @@
+Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (30) - Umberto Barberis
+
+Sector East (12)
+    Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (2) #
+        | Guardia alla Frontiera Strongpoint Suesi
+        | Guardia alla Frontiera Strongpoint Bir Junes
+
+    Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (2) #
+        | Guardia alla Frontiera Strongpoint Dahar el Azazi
+        | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+
+    Position El Adem Crossroads (HQ 64th Replacement Battalion) (3) #
+        | 1st Company, 64th Replacement Battalion
+        | 2nd Company, 64th Replacement Battalion
+        | 4th Company, 64th Replacement Battalion
+
+    31st Guardia alla Frontiera Artillery Artillery Raggruppamento (5) - Guido Baggini
+        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) #
+            | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
+        6th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
+            | 230th Bis Battery Guardia alla Frontiera (4 120/25) ++++
+            | 231st Bis Battery Guardia alla Frontiera (4 120/25) ++++
+        7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
+            | 244th Battery Guardia alla Frontiera (4 149/35) ++++
+            | 245th Battery Guardia alla Frontiera (4 149/35) ++++
+
+Sector West (5)
+    | Guardia alla Frontiera Strongpoint Zeitun
+    | Guardia alla Frontiera Strongpoint Sidi Daud
+    | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga
+    | Guardia alla Frontiera Strongpoint Bir el Medauuar
+    
+    Position Pilastrino (HQ 31st Libyan Coastal Battalion) (1) #
+        | 1st Company, 31st Libyan Coastal Battalion
+
+Coastal Defense Sector (HQ Tobruk Coast Sector) (5) # - Massimiliano Vietina
+    | 2nd Company, 31st Libyan Coastal Battalion
+    | 3rd Company, 31st Libyan Coastal Battalion
+    | 3rd Company, 62nd Replacement Battalion
+    | 3rd Company, 64th Replacement Battalion
+    | 63rd Garrison Company
+
+Anti-Tank Group (7)
+    1st Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+        | 249th Battery Guardia alla Frontiera (4 75/27) ____
+    2nd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+        | 246th Battery Guardia alla Frontiera (4 77/28) ____
+    3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+        | 247th Battery Guardia alla Frontiera (4 77/28) ____        
+    | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
+    | Guardia alla Frontiera Formation Anti-Aircraft Battery (10 20/65) $$$$$$$$$$
+    | Guardia alla Frontiera Formation Anti-Tank Company (9 47/32) _________
+    | Guardia alla Frontiera Formation Anti-Tank Company (8 47/32) ________
+
+| 31st Guardia alla Frontiera Mixed Engineer Unit
+
+
+
+20th Australian Infantry Brigade - John Murray (15)
+    2/13th Australian Infantry Battalion (4) %
+        : A Company, 2/13th Australian Infantry Battalion
+        : B Company, 2/13th Australian Infantry Battalion
+        : C Company, 2/13th Australian Infantry Battalion
+        : D Company, 2/13th Australian Infantry Battalion
+    2/15th Australian Infantry Battalion (4) %
+        : A Company, 2/15th Australian Infantry Battalion
+        : B Company, 2/15th Australian Infantry Battalion
+        : C Company, 2/15th Australian Infantry Battalion
+        : D Company, 2/15th Australian Infantry Battalion
+    2/17th Australian Infantry Battalion (4) %
+        : A Company, 2/17th Australian Infantry Battalion
+        : B Company, 2/17th Australian Infantry Battalion
+        : C Company, 2/17th Australian Infantry Battalion
+        : D Company, 2/17th Australian Infantry Battalion
+    7th Royal Tank Regiment (3) %
+        : A Squadron, 7th Royal Tank Regiment
+        : B Squadron, 7th Royal Tank Regiment
+    : 20th Australian Anti-Tank Company
+
+

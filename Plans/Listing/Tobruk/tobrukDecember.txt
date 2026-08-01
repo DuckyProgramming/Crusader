@@ -1,20 +1,21 @@
-Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (30) - Umberto Barberis
+Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (40) - Umberto Barberis
 
-Sector East (12)
+Sector East (14)
     Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (2) #
-        | Guardia alla Frontiera Strongpoint Suesi
-        | Guardia alla Frontiera Strongpoint Bir Junes
+        | Guardia alla Frontiera Strongpoint Sidi Daud (2 47/32, 1 20/65) __$
+        | Guardia alla Frontiera Strongpoint Suesi (2 47/32, 1 20/65) __$
 
     Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (2) #
-        | Guardia alla Frontiera Strongpoint Dahar el Azazi
-        | Guardia alla Frontiera Strongpoint Bir Umm Haleiga
+        | Guardia alla Frontiera Strongpoint Bir Junes (4 47/32, 2 20/65) ____$$
+        | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (4 47/32, 2 20/65) ____$$
 
-    Position El Adem Crossroads (HQ 64th Replacement Battalion) (3) #
-        | 1st Company, 64th Replacement Battalion
+    Position El Adem Crossroads (HQ 64th Replacement Battalion) (4) #
+        | 1st Company, 64th Replacement Battalion (1 76/40) _
         | 2nd Company, 64th Replacement Battalion
         | 4th Company, 64th Replacement Battalion
+        | Formation Naval Battery "Nembo" (4 120/45) ++++
 
-    31st Guardia alla Frontiera Artillery Artillery Raggruppamento (5) - Guido Baggini
+    31st Guardia alla Frontiera Artillery Artillery Raggruppamento (6) - Guido Baggini
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) #
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
         6th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
@@ -23,24 +24,35 @@ Sector East (12)
         7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
             | 244th Battery Guardia alla Frontiera (4 149/35) ++++
             | 245th Battery Guardia alla Frontiera (4 149/35) ++++
+        | Section "Buffolotto" (2 149/35) ++
 
-Sector West (5)
-    | Guardia alla Frontiera Strongpoint Zeitun
-    | Guardia alla Frontiera Strongpoint Sidi Daud
-    | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga
-    | Guardia alla Frontiera Strongpoint Bir el Medauuar
+Sector West (6)
+    | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga (2 47/32, 1 20/65) __$
+    | Guardia alla Frontiera Strongpoint Bir el Medauuar (4 47/32, 2 20/65) ____$$
+    | Guardia alla Frontiera Strongpoint Es Sehel (1 47/32, 1 20/65) _$
+    | Guardia alla Frontiera Strongpoint Umm Cuheil (1 47/32) _
+    | Formation Naval Battery "Vittoria" (3 76/30, 1 149/35) ++++
     
     Position Pilastrino (HQ 31st Libyan Coastal Battalion) (1) #
         | 1st Company, 31st Libyan Coastal Battalion
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (5) # - Massimiliano Vietina
+Coastal Defense Sector (HQ Tobruk Coast Sector) (14) # - Massimiliano Vietina
     | 2nd Company, 31st Libyan Coastal Battalion
     | 3rd Company, 31st Libyan Coastal Battalion
     | 3rd Company, 62nd Replacement Battalion
     | 3rd Company, 64th Replacement Battalion
     | 63rd Garrison Company
+    | Naval Battery "Bellotti" (4 149/47) ====
+    | Naval Battery "Grasso" (4 149/47) ====
+    | Naval Battery "Beiad" (6 102/35 AA) ======
+    | Naval Battery "Sidi Mahmud" (6 102/35 AA) ======
+    | Naval Battery "Pilastrino" (6 102/35 AA, 1 76/40) =======
+    | Naval Battery "Tordo" (6 76/40 AA) ======
+    | Naval Battery "Toro" (3 76/40 AA) ===
+    | Naval Battery "Topo" (6 76/40 AA) ======
+    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
 
-Anti-Tank Group (7)
+Anti-Tank Group (5)
     1st Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
         | 249th Battery Guardia alla Frontiera (4 75/27) ____
     2nd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
@@ -48,33 +60,93 @@ Anti-Tank Group (7)
     3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
         | 247th Battery Guardia alla Frontiera (4 77/28) ____        
     | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
-    | Guardia alla Frontiera Formation Anti-Aircraft Battery (10 20/65) $$$$$$$$$$
-    | Guardia alla Frontiera Formation Anti-Tank Company (9 47/32) _________
-    | Guardia alla Frontiera Formation Anti-Tank Company (8 47/32) ________
+    | Spare 47/32 Gun (1 47/32) _
 
 | 31st Guardia alla Frontiera Mixed Engineer Unit
 
 
 
-20th Australian Infantry Brigade - John Murray (15)
-    2/13th Australian Infantry Battalion (4) %
-        : A Company, 2/13th Australian Infantry Battalion
-        : B Company, 2/13th Australian Infantry Battalion
-        : C Company, 2/13th Australian Infantry Battalion
-        : D Company, 2/13th Australian Infantry Battalion
-    2/15th Australian Infantry Battalion (4) %
-        : A Company, 2/15th Australian Infantry Battalion
-        : B Company, 2/15th Australian Infantry Battalion
-        : C Company, 2/15th Australian Infantry Battalion
-        : D Company, 2/15th Australian Infantry Battalion
-    2/17th Australian Infantry Battalion (4) %
-        : A Company, 2/17th Australian Infantry Battalion
-        : B Company, 2/17th Australian Infantry Battalion
-        : C Company, 2/17th Australian Infantry Battalion
-        : D Company, 2/17th Australian Infantry Battalion
+16th Australian Infantry Brigade - Arthur Allen (20)
+    2/1st Australian Infantry Battalion (4) %
+        : A Company, 2/1st Australian Infantry Battalion
+        : B Company, 2/1st Australian Infantry Battalion
+        : C Company, 2/1st Australian Infantry Battalion
+        : D Company, 2/1st Australian Infantry Battalion
+    2/2nd Australian Infantry Battalion (4) %
+        : A Company, 2/2nd Australian Infantry Battalion
+        : B Company, 2/2nd Australian Infantry Battalion
+        : C Company, 2/2nd Australian Infantry Battalion
+        : D Company, 2/2nd Australian Infantry Battalion
+    2/3rd Australian Infantry Battalion (4) %
+        : A Company, 2/3rd Australian Infantry Battalion
+        : B Company, 2/3rd Australian Infantry Battalion
+        : C Company, 2/3rd Australian Infantry Battalion
+        : D Company, 2/3rd Australian Infantry Battalion
+    2/1st Field Regiment, Royal Australian Artillery (2) %
+        : 1st Battery, Royal Australian Artillery
+        : 2nd Battery, Royal Australian Artillery
+    2/2nd Field Regiment, Royal Australian Artillery (2) %
+        : 3rd Battery, Royal Australian Artillery
+        : 4th Battery, Royal Australian Artillery
     7th Royal Tank Regiment (3) %
         : A Squadron, 7th Royal Tank Regiment
         : B Squadron, 7th Royal Tank Regiment
-    : 20th Australian Anti-Tank Company
+        : C Squadron, 7th Royal Tank Regiment
+    : 2/1st Field Company, Royal Australian Engineers
+
+
+
+Field Guns
+    3 76/40
+        Naval Battery "Vittoria" (3)
+    12 120/25
+        230th Bis Battery (4)
+        231st Bis Battery (4)
+        242nd Battery (4)
+    4 120/45
+        Naval Battery "Nembo" (4)
+    11 149/35
+        244th Battery (4)
+        245th Battery (4)
+        Section "Buffolotto" (2)
+        Naval Battery "Vittoria" (1)
+    Total: 30
+
+Anti-Tank Guns
+    8 77/28
+        246th Battery (4)
+        247th Battery (4)
+    8 75/27
+        249th Battery (4)
+        Training Battery "Derna" (4)
+    21 47/32
+        Strongpoints (20)
+        Spare Gun (1)
+    1 76/40
+        Spare Gun (1)
+    10 20/65
+        Strongpoints (10)
+    Total: 48
+
+Navy
+    8 149/17
+        Naval Battery "Bellotti" (4)
+        Naval Battery "Grasso" (4)
+    18 102/35
+        Naval Battery "Beiad" (6)
+        Naval Battery "Sidi Mahmud" (6)
+        Naval Battery "Pilastrino" (6)
+    16 76/40
+        Naval Battery "Tordo" (6)
+        Naval Battery "Toro" (6)
+        Naval Battery "Topo" (3)
+        Naval Battery "Pilastrino" (1)
+    4 254/30
+        Floating Battery "San Giorgio" (4)
+    4 190/45
+        Floating Battery "San Giorgio" (4)
+    Total: 50
+
+Grand Total: 128
 
 

@@ -2693,6 +2693,8 @@ By May 1942, though, the division might have returned mostly to normalcy. Its ar
 
 On the 17th of August, 1939, so quite far off, the 31st Mixed Engineer Detachment (part of the GaF, and subordinated to the 31st Coverage Sector) had a strength of 4 officers, 14 NCOs, and 97 enlisted men. (115 total)
 These groups do see to vary in size. The one for Tripoli had a total of 177 men, while the one for Nalut (the middle of nowhere) had just 61. Overall, though, they all seem to be at least on part with company size.
+Honestly, 115 men doesn't even seem like a company after later thought. It might make sense to call it a platoon, in fact, since it doens't seem to have operated independently if at all.
+Actually, no, this was in fact company size. At times even I can completely and utterfly forget the basics and it makes me look stupid. Sorry about that, everyone!
 
 I never realized for while that the numbers given to "points" by the Germans and British are not arbitrary. They simply refer to the altitude of the position, which simplifies decisions for commanders.
 The Italians do similar, although they use the term "quota", abbreviated "q.", but it means the same thing and is used for the exact same purpose.
@@ -3264,6 +3266,7 @@ About the mixed engineer battalions in North Africa, I don't have all that much 
 62nd "Marmarica" Infantry Division: 74th Engineer Company, Mobilized by the 21st Engineer Regiment
 63rd "Cirene" Infantry Division: 75th Engineer Company, Mobilized by the 21st Engineer Regiment
 64th "Catanzaro" Infantry Division: Former blackshirt engineer company
+(This has since been discredited)
 
 The official Italian General Staff Historical Office book about the engineers adds a bit more but doesn't include concrete numbers. But here's what it includes:
 The LXI Mixed Engineer Battalion was initially formed in Bir Ghinea and then transferred to Misurata by 30 April 1938. Until its formation, the Sirte Division had no engineer units.
@@ -4056,6 +4059,8 @@ G.a.F {
     32 47mm
         This is way too many for the G.a.F alone, so I'm guessing that guns given to the fortifications were classified here
         If that did in fact occur, I don't really have a way to figure out which batteries were and weren't counted in this number
+        One more option is that this was a troll typo for 43, which was the actual number of guns there and thus this adds no information whatsoever
+        Since I can't think of any good way for the guns to add up to 32 otherwise, this will be the canonical answer in my head from now on.
     11 100mm
         Hard to say, but I believe this was the I/22 Group
     8 75mm
@@ -4073,5 +4078,21 @@ G.a.F {
     231st Bis Battery
     242nd Battery
 This is a slight improvement over the last time I attempted to go over this map, but it's not too much better.
+
+I missed this previously, but on page 31 of "The First British Offensive", Montanari, relaying a Graziani message, notes that 25th CAR (4 149/13 groups) was meant to be used against the Mersa Matruh defenses.
+Only two of the groups, the 105th and 150th, which were complete except for a few missing trucks, were able to land in Behgazi on the 27th of October.
+The other two had landed their personnel in Benghazi, but all of their equipment was still stuck in Tripoli aboard the ships there. It seems like the delay that kept them there probably cleared up quickly.
+
+This (the gun breakdown above) sucks though, because the fact that the I/22 Group had just 11 100mm guns implies that an extra 100/17 battery existed somewhere. I don't know where it might be.
+Type AS 1940 Divisions had a platoon of 45/5 mortars in each battalion (3 mortars) and a company of 81/14 mortars in each regiment (3 platoons, each 2 squads, each 1 mortar).
+
+In many of my later theories, the 105/28 guns placed as part of the so-called "Mixed" G.a.F. group in the sketches is in fact a section detached from the 22nd CAR.
+If this was true, though, the guns were not part of the G.a.F. It's apparent based on another sketch that these guns, part of "4 pezzi", were not part of the G.a.F or of the 22nd CAR at the time.
+
+The mixed engineer units of the G.a.F. were in fact either companies or independent platoons. The companies would have a platoon for each subsector assigned to its parent sector.
+In the case of the XXXI Mixed Engineer Unit, this implies that it had just two platoons, one for XXXI/A and one for XXXI/B. They were probably of different sizes, but how can you know.
+These platoons were also named according to this system, so their names would've been "A" and "B". It is important to remember that this structure was administrative only and did not apply in combat.
+
+I hate my life. It's spelled "Caposaldo" not "Capisaldo". However, the plural has both of the "o"s replaced by "i"s which creates confusion. I'm still not that familiar with Italian.
 
 

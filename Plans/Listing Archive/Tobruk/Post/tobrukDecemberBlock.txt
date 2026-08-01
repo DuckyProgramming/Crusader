@@ -1,5 +1,5 @@
-Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
-    Tobruk Fortress Command (24)
+Eastern Libya Guardia alla Frontiera Command (50) - Umberto Barberis
+    Tobruk Fortress Command (26)
         31st Coverage Sector (10)
             31st/A Subsector (2)
                 | Strongpoint Sidi Daud
@@ -22,7 +22,7 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
             | Strongpoint Bir el Medauuar
             | Strongpoint Es Sehel
             | Strongpoint Umm Cuheil
-        Anti-Tank Raggruppamento (10)
+        Anti-Tank Raggruppamento (12)
             1st Artillery Group (1)
                 | 249th Artillery Battery
             2nd Artillery Group (1)
@@ -30,17 +30,19 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
             3rd Artillery Group (1)
                 | 247th Artillery Battery
             | Training Battery "Derna"
-            | Mixed Training Battery
+            | Formation 20/65 Battery
+            | Formation 47/32 Company
+            | Formation 47/32 Company
             | 47/32 Platoon "q. 71"
             | 77/28 Section "q. 71"
             | Section "Buffolotto"
             | Spare 47/32 Gun
             | Spare 76/40 Gun
-    Tobruk Coastal Sector (12) - Massimiliano Vietina
+    Tobruk Coastal Sector (15) - Massimiliano Vietina
         | Naval Battery "Dandolo"
-        | Naval Battery "Tortora"
         | Naval Battery "Bellotti"
         | Naval Battery "Grasso"
+        | Naval Battery "Tortora"
         | Naval Battery "Beiad"
         | Naval Battery "Sidi Mahmud"
         | Naval Battery "Pilastrino"
@@ -48,8 +50,12 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
         | Naval Battery "Toro"
         | Naval Battery "Topo"
         | Naval Battery "Tonno"
-        | Fsloating Battery (Cruiser) "San Giorgio"
-    Loose Units (12)
+        | Formation Naval Battery "Nembo"
+        | Formation Naval Battery "Vittoria"
+        Floating Battery (Cruiser) "San Giorgio"
+            | Fore Battery
+            | Broadside Battery
+    Loose Units (9)
         31st Libyan Coastal Battalion (3)
             | 1st Company, 31st Libyan Coastal Battalion
             | 2nd Company, 31st Libyan Coastal Battalion
@@ -61,15 +67,6 @@ Eastern Libya Guardia alla Frontiera Command (48) - Umberto Barberis
             | 4th Company, 62nd Replacement Battalion
         | 3rd Company, 62nd Replacement Battalion
         | 63rd Garrison Company
-        | Training Company "Piave"
-            Machine Gun Platoon
-            Machine Gun Platoon
-            Heavy Machine Gun Squad
-            Infantry Platoon
-            Light Mortar Platoon
-            Heavy Mortar Squad
-        | Formation Naval Battery "Nembo"
-        | Formation Naval Battery "Vittoria"
 
         
 
@@ -103,15 +100,14 @@ Anti-Tank Guns
         Training Battery "Derna" (4)
     19 47/32
         Platoon "q. 71" (2)
-        Strongpoints (16)
+        Formation Company (8)
+        Formation Company (8)
         Spare Gun (1)
     1 76/40
         Spare Gun (1)
     10 20/65
-        Strongpoints (10)
-    1 81/14
-        Training Company "Piave" (1)
-    Total: 49
+        Formation Battery (10)
+    Total: 48
 
 Navy
     8 149/17
@@ -132,35 +128,6 @@ Navy
         Floating Battery "San Giorgio" (4)
     Total: 50
 
-Grand Total: 132
-
-
-
-20th Australian Infantry Brigade - John Murray (5/20)
-    2/13th Australian Infantry Battalion (4) %
-        : A Company, 2/13th Australian Infantry Battalion
-        : B Company, 2/13th Australian Infantry Battalion
-        : C Company, 2/13th Australian Infantry Battalion
-        : D Company, 2/13th Australian Infantry Battalion
-    2/15th Australian Infantry Battalion (4) %
-        : A Company, 2/15th Australian Infantry Battalion
-        : B Company, 2/15th Australian Infantry Battalion
-        : C Company, 2/15th Australian Infantry Battalion
-        : D Company, 2/15th Australian Infantry Battalion
-    2/17th Australian Infantry Battalion (4) %
-        : A Company, 2/17th Australian Infantry Battalion
-        : B Company, 2/17th Australian Infantry Battalion
-        : C Company, 2/17th Australian Infantry Battalion
-        : D Company, 2/17th Australian Infantry Battalion
-    1st Battalion, King's Royal Rifle Corps (4) %
-        : A Company, 1st Battalion, King's Royal Rifle Corps
-        : B Company, 1st Battalion, King's Royal Rifle Corps
-        : C Company, 1st Battalion, King's Royal Rifle Corps
-        : D Company, 1st Battalion, King's Royal Rifle Corps
-    7th Royal Tank Regiment (3) %
-        : A Squadron, 7th Royal Tank Regiment
-        : B Squadron, 7th Royal Tank Regiment
-    : 20th Australian Anti-Tank Company
-    : A Squadron, 6th Australian Divisional Cavalry Regiment
+Grand Total: 131
 
 

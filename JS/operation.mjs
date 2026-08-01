@@ -478,7 +478,7 @@ export class operation{
                             }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&){*/
                             let detach=(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc)&&(this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0
                             let absorb=this.select.unit.contain.trigger?
-                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level==constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level>=constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
                                 this.select.unit.contain.middle?
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
@@ -660,7 +660,7 @@ export class operation{
     control(input){
         if(!this.select.unit.type.includes(27)){
             let absorb=this.select.unit.contain.trigger?
-                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level==constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
+                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level>=constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
                 this.select.unit.contain.middle?(
                     this.select.unit.parent==-1?[]:
                     this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
@@ -762,7 +762,7 @@ export class operation{
                                 this.select.unit.contain.units[0].stats.kills.forEach((num,index,arr)=>arr[index]=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.stats.kills[index],0))
                                 this.select.unit.contain.units=[this.select.unit.contain.units[0]]
                                 this.select.unit.calculateElements()
-                            }else if((this.select.unit.level==constants.minLevel||this.select.unit.level==constants.minLevel+1)&&!this.select.unit.contain.adhoc){
+                            }else if((this.select.unit.level==constants.minLevel||this.select.unit.level>=constants.minLevel+1)&&!this.select.unit.contain.adhoc){
                                 let element=this.select.unit.contain.units[0]
                                 let typing=element.type.map(type=>types.unitType[type].name)
                                 absorb[this.select.unit.order.absorb%absorb.length].contain.units[0].type.forEach(type=>{
@@ -772,7 +772,11 @@ export class operation{
                                 })
                                 let result=new unit(this,{
                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                    level:element.level==constants.minLevel+1&&target.level==constants.minLevel+1||element.level==constants.minLevel&&target.level==constants.minLevel+1||element.level==constants.minLevel+1&&target.level==constants.minLevel?4:[2,3,3][element.player],type:typing,team:element.team,
+                                    level:element.level>=constants.minLevel+1&&target.level>=constants.minLevel+2||element.level>=constants.minLevel+2&&target.level>=constants.minLevel+1?
+                                        constants.minLevel+1:
+                                        element.level>=constants.minLevel+1&&target.level>=constants.minLevel+1||element.level==constants.minLevel&&target.level>=constants.minLevel+1||element.level>=constants.minLevel+1&&target.level==constants.minLevel?
+                                        constants.minLevel:
+                                        [2,3,3][element.player],type:typing,team:element.team,
                                     desc:`${[
                                         `${element.commander!=``?`${element.commander}col`:`Col`}`,
                                         `${options.translate?`Battle Group`:`Kampfgruppe`}${element.commander!=``?` ${element.commander}`:``}`,
@@ -1048,8 +1052,8 @@ export class operation{
             case `main`:
                 if(this.view.scale>0&&types.map[this.map].mapScale>1){
                     img=graphics.load.map[this.map]
-                    this.view.scroll.x=constrain(this.view.scroll.x+move.x*this.view.scale,-img.width*(types.map[this.map].mapScale-1)/2,0)
-                    this.view.scroll.y=constrain(this.view.scroll.y+move.y*this.view.scale,-img.height*(types.map[this.map].mapScale-1)/2,0)
+                    this.view.scroll.x=constrain(this.view.scroll.x+move.x*this.view.scale,-img.width*(types.map[this.map].mapScale-1)/types.map[this.map].mapScale,0)
+                    this.view.scroll.y=constrain(this.view.scroll.y+move.y*this.view.scale,-img.height*(types.map[this.map].mapScale-1)/types.map[this.map].mapScale,0)
                 }
             break
             case `mapAll`:
