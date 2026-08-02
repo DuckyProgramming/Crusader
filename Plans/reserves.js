@@ -2078,7 +2078,7 @@ reserves=[
         ],
     },{
         level:5,type:[`Infantry`],team:`Italian`,
-        desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
+        desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
         pos:[2448,1148],
         elements:[
             {type:`Small Ruined Infantry Company`},
@@ -2541,5 +2541,85 @@ reserves=[
             {level:8,type:`Ruined Single Weak Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``},
             {level:8,type:`Ruined Single Anti-Tank Company`,team:`Italian`,desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``},
         ],
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint El Adem Junction, 64th Replacement Battalion`,`Caposaldo Bivio El Adem, LXIV Battaglione Complementi`],name:`Bivio\nEl Adem`,designation:`64R`,commander:``,icon:`catanzaro`,
+        pos:[1372,628],
+        elements:[
+            {type:`Ruined Infantry Company`,desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`},
+            {level:8,type:`Ruined Single Anti-Tank Company`,team:`Italian`,desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Point 71, 31st Libyan Coastal Infantry Battalion`,`Caposaldo q. 71, XXXI Battaglione Fanteria Libico Costiera`],name:`q. 71`,designation:`31 Libyan`,commander:``,icon:``,
+        pos:[968,389],
+        elements:[
+            {type:`Infantry Company`,desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`},
+            {level:8,type:`1-Gun Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Guardia alla Frontiera Mixed Battery "Buffolotto"`,`Batteria Mista Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`,designation:``,commander:``,icon:``,
+        pos:[1248,789],
+        elements:[
+            {level:7,type:`Ruined Static Artillery Section`,desc:[`Guardia alla Frontiera Section "Buffolotto"`,`Sezione Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`},
+        ],
+    },{
+        level:8,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`149/12 Gun`,`Pezzo da 149/12`],name:`149/12`,designation:``,commander:``,icon:``,
+        pos:[0,0],
+        elements:[
+            {type:`Ruined Static Artillery Piece`},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Fortress`],team:`Italian`,
+        desc:[`Naval Battery "Vittoria"`,`Batteria Navale "Vittoria"`],name:`Vittoria`,designation:`Regia\nMarina`,commander:``,icon:``,
+        pos:[720,621],
+        elements:[
+            {type:`3-Gun Ruined Static Artillery Battery`},
+        ]
+    },{
+        level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+        desc:[`Coastal Artillery Battery "Tonno"`,`Batteria di Artiglieria Costiera "Tonno"`],name:`Tonno`,designation:``,commander:``,icon:``,
+        pos:[1307,221],
+        elements:[
+            {type:`Smallest Static Coastal Artillery Battery`},
+        ],
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Strongpoint Bir Junes, 31st/A Frontier Guard Subsector`,`Caposaldo Bir Junes, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Bir Junes`,designation:`31/A`,commander:`Mosetti`,icon:``,
+        pos:[1487,781],
+        elements:[
+            {type:`Static Machine Gun Company`},
+            {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Caposaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`31/A`,commander:`Proietti`,icon:``,
+        pos:[1321,824],
+        elements:[
+            {type:`Static Machine Gun Company`},
+            {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Caposaldo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`31`,commander:`Ticconi`,icon:``,
+        pos:[865,760],
+        elements:[
+            {type:`Static Machine Gun Company`},
+            {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Strongpoint Sidi Daud, 31st/A Frontier Guard Subsector`,`Caposaldo Sidi Daud, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Sidi Daud`,designation:`31/A`,commander:`Montesanti`,icon:``,
+        pos:[1738,488],
+        elements:[
+            {type:`Static Machine Gun Company`},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
     },
 ]

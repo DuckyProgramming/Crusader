@@ -44,6 +44,7 @@ export class unit{
             select:false,artillery:false,defense:false,facing:random(0,360),
             detach:0,absorb:0,
         }
+        this.orderView={altWidth:0,width:0,height:0,min:false,extend:false}
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
         this.contain={
             units:[],stats:{},trigger:true,middle:false,
@@ -316,7 +317,7 @@ export class unit{
         return this.contain.trigger||this.getCompact()?this.width:max(this.width+10,this.contain.units.reduce((acc,unit)=>acc+unit.getWidth()+10,0))
     }
     getHeight(){
-        return this.contain.trigger||this.getCompact()?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+10,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
+        return this.contain.trigger||this.getCompact()?this.height+5+this.contain.units.reduce((acc,unit)=>acc+unit.height+0,0):this.height+20+this.contain.units.reduce((acc,unit)=>max(acc,unit.getHeight()),0)
     }
     getData(){
         return {
@@ -429,6 +430,30 @@ export class unit{
             this.strength.supply=this.strength.base.supply
         }
     }
+    orderDimensions(){
+        this.contain.units.forEach(unit=>unit.orderDimensions())
+        if(this.parent!=-1&&this.parent.contain.trigger){
+            this.orderView.width=this.width+10
+            this.orderView.height=this.height+10
+            this.orderView.min=true
+        }else if(this.contain.units.length==1&&this.contain.units[0].level==this.level&&this.contain.trigger){
+            this.orderView.width=this.contain.units[0].width+10
+            this.orderView.height=this.contain.units[0].height+10
+            this.orderView.min=true
+        }else{
+            let elem=[
+                this.contain.units.filter(unit=>!unit.orderView.min),
+                this.contain.units.filter(unit=>unit.orderView.min),
+            ]
+            this.orderView.extend=elem[0].length+(elem[1].length>0?1:0)>1
+            this.orderView.altWidth=elem[0].reduce((acc,unit)=>acc+unit.orderView.width,0)+elem[1].reduce((acc,unit)=>max(acc,unit.orderView.width),0)+(elem[0].length>0&&elem[1].length>1?10:0)
+            this.orderView.width=max(this.width+10,this.orderView.altWidth)
+            this.orderView.height=this.height+10+(this.orderView.extend?10:0)+max(
+                elem[0].reduce((acc,unit)=>max(acc,unit.orderView.height),0),
+                elem[1].reduce((acc,unit)=>acc+unit.orderView.height,0)
+            )
+        }
+    }
     display(layer,scene){
         switch(scene){
             case `under`:
@@ -467,7 +492,85 @@ export class unit{
                 layer.pop()
             break
             case `orderView`:
-                let dim={
+                layer.push()
+                if(this.parent==-1){
+                    layer.translate(layer.width/2,layer.height/2)
+                    layer.scale(min(layer.width/this.orderView.width,layer.height/this.orderView.height))
+                    layer.translate(0,-this.orderView.height/2+this.height/2+5)
+                }else{
+                    layer.translate(0,this.height/2+5)
+                }
+                if(this.orderView.min){
+                    layer.scale(this.size/10)
+                    this.displaySub(layer,scene,1)
+                    layer.scale(10/this.size)
+                }else{
+                    layer.stroke(0)
+                    layer.strokeWeight(2)
+                    layer.line(0,0,0,this.height/2+5+(this.orderView.extend?5:0))
+                    let elem=[
+                        this.contain.units.filter(unit=>!unit.orderView.min),
+                        this.contain.units.filter(unit=>unit.orderView.min),
+                    ]
+                    let level=this.height/2+5+(this.orderView.extend?10:0)
+                    let loc=-this.orderView.altWidth/2
+                    let edge=[0,0]
+                    for(let a=0,la=elem[0].length;a<la;a++){
+                        loc+=elem[0][a].orderView.width/2
+                        layer.line(loc,this.height/2+5+(this.orderView.extend?5:0),loc,level+elem[0][a].height/2+5)
+                        edge[0]=min(edge[0],loc)
+                        edge[1]=max(edge[1],loc)
+                        loc+=elem[0][a].orderView.width/2
+                    }
+                    if(elem[1].length>0){
+                        if(elem[0].length>0&&elem[1].length>1){
+                            loc+=5
+                            edge[0]=min(edge[0],loc)
+                            edge[1]=max(edge[1],loc)
+                            layer.line(loc,this.height/2+5+(this.orderView.extend?5:0),loc,level+elem[1].reduce((acc,unit)=>acc+unit.orderView.height,0)-last(elem[1]).orderView.height/2)
+                            let loc2=level
+                            for(let a=0,la=elem[1].length;a<la;a++){
+                                loc2+=elem[1][a].orderView.height/2
+                                layer.line(loc,loc2,loc+elem[1].reduce((acc,unit)=>max(acc,unit.orderView.width),0)/2,loc2)
+                                loc2+=elem[1][a].orderView.height/2
+                            }
+                        }else{
+                            loc+=elem[1].reduce((acc,unit)=>max(acc,unit.orderView.width),0)/2
+                            layer.line(loc,this.height/2+5+(this.orderView.extend?5:0),loc,level+elem[1].reduce((acc,unit)=>acc+unit.orderView.height,0)-last(elem[1]).orderView.height/2-5)
+                            edge[0]=min(edge[0],loc)
+                            edge[1]=max(edge[1],loc)
+                            loc+=elem[1].reduce((acc,unit)=>max(acc,unit.orderView.width),0)/2
+                        }
+                    }
+                    layer.line(edge[0],this.height/2+5+(this.orderView.extend?5:0),edge[1],this.height/2+5+(this.orderView.extend?5:0))
+                    layer.scale(this.size/10)
+                    this.displaySub(layer,scene,1)
+                    layer.scale(10/this.size)
+                    loc=-this.orderView.altWidth/2
+                    for(let a=0,la=elem[0].length;a<la;a++){
+                        loc+=elem[0][a].orderView.width/2
+                        layer.push()
+                        layer.translate(loc,level)
+                        elem[0][a].display(layer,scene)
+                        layer.pop()
+                        loc+=elem[0][a].orderView.width/2
+                    }
+                    if(elem[1].length>0){
+                        loc+=elem[1].reduce((acc,unit)=>max(acc,unit.orderView.width),0)/2+(elem[0].length>0&&elem[1].length>1?10:0)
+                        let loc2=level
+                        for(let a=0,la=elem[1].length;a<la;a++){
+                            loc2+=elem[1][a].orderView.height/2
+                            layer.push()
+                            layer.translate(loc,loc2-elem[1][a].height/2-5)
+                            elem[1][a].display(layer,scene)
+                            layer.pop()
+                            loc2+=elem[1][a].orderView.height/2
+                        }
+                        loc+=elem[1].reduce((acc,unit)=>max(acc,unit.orderView.width),0)/2
+                    }
+                }
+                layer.pop()
+                /*let dim={
                     x:this.getWidth(),
                     y:this.getHeight()
                 }
@@ -533,7 +636,7 @@ export class unit{
                         }
                     }
                 }
-                layer.pop()
+                layer.pop()*/
             break
         }
     }

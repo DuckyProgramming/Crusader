@@ -1,4 +1,4 @@
-Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (40) - Umberto Barberis
+Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (30) - Umberto Barberis
 
 Sector East (14)
     Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (2) #
@@ -10,10 +10,9 @@ Sector East (14)
         | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (3 47/32, 2 20/65) ___$$
 
     Position El Adem Crossroads (HQ 64th Replacement Battalion) (4) #
-        | 1st Company, 64th Replacement Battalion (1 76/40) _
+        | 1st Company, 64th Replacement Battalion
         | 2nd Company, 64th Replacement Battalion
         | 4th Company, 64th Replacement Battalion
-        | Formation Naval Battery "Nembo" (4 120/45) ++++
 
     31st Guardia alla Frontiera Artillery Artillery Raggruppamento (6) - Guido Baggini
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) #
@@ -24,37 +23,25 @@ Sector East (14)
         7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
             | 244th Battery Guardia alla Frontiera (4 149/35) ++++
             | 245th Battery Guardia alla Frontiera (4 149/35) ++++
-        | Mixed Training Battery (1 149/12, 2 77/28) +++
-        . Section Guardia alla Frontiera "Buffolotto" (2 149/35) ++
+        | Section "Buffolotto" (2 149/35) ++
 
 Sector West (6)
     | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga (2 47/32, 1 20/65) __$
     | Guardia alla Frontiera Strongpoint Bir el Medauuar (3 47/32, 2 20/65) ___$$
     | Guardia alla Frontiera Strongpoint Es Sehel (1 47/32, 1 20/65) _$
     | Guardia alla Frontiera Strongpoint Umm Cuheil (1 47/32) _
-    | Formation Naval Battery "Vittoria" (3 76/30) +++
     
     Position Pilastrino (HQ 31st Libyan Coastal Battalion) (1) #
         | 1st Company, 31st Libyan Coastal Battalion
     Position Piave (1)
         | Delaying Action Company "Piave" (2 Heavy Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon, 1 Light Machine Gun Training Squad, 1 Heavy Mortar Training Squad)
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (14) # - Massimiliano Vietina
-    Position Point 71
-        | 2nd Company, 31st Libyan Coastal Battalion (2 77/28, 1 47/32) ___
+Coastal Defense Sector (HQ Tobruk Coast Sector) (5) # - Massimiliano Vietina
+    | 2nd Company, 31st Libyan Coastal Battalion
     | 3rd Company, 31st Libyan Coastal Battalion
     | 3rd Company, 62nd Replacement Battalion
     | 3rd Company, 64th Replacement Battalion
     | 63rd Garrison Company
-    | Naval Battery "Bellotti" (4 149/47) ====
-    | Naval Battery "Grasso" (4 149/47) ====
-    | Naval Battery "Beiad" (6 102/35 AA) ======
-    | Naval Battery "Sidi Mahmud" (6 102/35 AA) ======
-    | Naval Battery "Pilastrino" (6 102/35 AA, 1 76/40) =======
-    | Naval Battery "Tordo" (6 76/40 AA) ======
-    | Naval Battery "Toro" (3 76/40 AA) ===
-    | Naval Battery "Topo" (6 76/40 AA) ======
-    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
 
 Anti-Tank Group (5)
     1st Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
@@ -64,6 +51,7 @@ Anti-Tank Group (5)
     3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
         | 247th Battery Guardia alla Frontiera (4 77/28) ____        
     | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
+    | Mixed Anti-Tank Battery (1 47/32, 1 76/40) __
 
 | 31st Guardia alla Frontiera Mixed Engineer Unit
 
@@ -100,68 +88,32 @@ Anti-Tank Group (5)
 
 
 Field Guns
-    3 76/40
-        Naval Battery "Vittoria" (3)
-    2 77/28
-        Mixed Training Battery (2)
     12 120/25
         230th Bis Battery (4)
         231st Bis Battery (4)
         242nd Battery (4)
-    4 120/45
-        Naval Battery "Nembo" (4)
-    1 149/12
-        Mixed Training Battery (1)
     10 149/35
         244th Battery (4)
         245th Battery (4)
         Section "Buffolotto" (2)
-    Total: 32
+    Total: 22
 
 Anti-Tank Guns
-    10 77/28
+    8 77/28
         246th Battery (4)
         247th Battery (4)
-        Section "q. 71" (2)
+    1 76/40
+        Spare Gun (1)
     8 75/27
         249th Battery (4)
         Training Battery "Derna" (4)
     17 47/32
         Strongpoints (16)
         Spare Gun (1)
-    1 76/40
-        Spare Gun (1)
     10 20/65
         Strongpoints (10)
-    Total: 46
+    Total: 44
 
-Navy
-    8 149/17
-        Naval Battery "Bellotti" (4)
-        Naval Battery "Grasso" (4)
-    18 102/35
-        Naval Battery "Beiad" (6)
-        Naval Battery "Sidi Mahmud" (6)
-        Naval Battery "Pilastrino" (6)
-    16 76/40
-        Naval Battery "Tordo" (6)
-        Naval Battery "Toro" (6)
-        Naval Battery "Topo" (3)
-        Naval Battery "Pilastrino" (1)
-    4 254/30
-        Floating Battery "San Giorgio" (4)
-    4 190/45
-        Floating Battery "San Giorgio" (4)
-    Total: 50
-
-Mortars
-    21 45/5
-        3rd Company, 64th Replacement Battalion (18)
-        Training Company "Piave" (3)
-    1 81/14
-        Training Company "Piave" (1)
-    Total: 22
-
-Grand Total: 150
+Grand Total: 66
 
 

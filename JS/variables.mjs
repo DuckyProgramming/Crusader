@@ -140,6 +140,7 @@ export var types={
         {name:`Large Ruined Artillery Battery`,unitType:[`Artillery`],class:2,damage:[16,5,3,2],armor:0.4,health:5,morale:0.6,num:5,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Larger Ruined Artillery Battery`,unitType:[`Artillery`],class:2,damage:[16,5,3,2],armor:0.4,health:6,morale:0.6,num:6,speed:0.7,artillery:true,engineer:false,recon:false},
         {name:`Static Small Artillery Battery`,unitType:[`Artillery`,`Fortress`],class:2,damage:[16,5,3,2],armor:0.4,health:4,morale:0.8,num:4,speed:0.35,artillery:true,engineer:false,recon:false},
+        {name:`Ruined Static Artillery Piece`,unitType:[`Artillery`,`Fortress`],class:2,damage:[16,5,1,1],armor:0.4,health:1,morale:0.6,num:1,speed:0.35,artillery:true,engineer:false,recon:false},
         {name:`Ruined Static Artillery Section`,unitType:[`Artillery`,`Fortress`],class:2,damage:[16,5,2,1],armor:0.4,health:2,morale:0.6,num:2,speed:0.35,artillery:true,engineer:false,recon:false},
         {name:`3-Gun Ruined Static Artillery Battery`,unitType:[`Artillery`,`Fortress`],class:2,damage:[16,5,2,2],armor:0.4,health:3,morale:0.6,num:3,speed:0.35,artillery:true,engineer:false,recon:false},
         {name:`Ruined Static Artillery Battery`,unitType:[`Artillery`,`Fortress`],class:2,damage:[16,5,3,2],armor:0.4,health:4,morale:0.6,num:4,speed:0.35,artillery:true,engineer:false,recon:false},
@@ -3814,6 +3815,13 @@ export var types={
                                                         {level:5,type:`Ruined Static Heavy Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`245th Frontier Guard Static Heavy Artillery Battery`,`245ª Batteria Cannoni Pesanti da Posizione Guardia alla Frontiera`],name:`245`,designation:`7`,commander:``},
                                                     ],
                                                 },{
+                                                    level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                                    desc:[`Mixed Training Battery`,`Batteria Mista di Formazione`],name:`Mixed`,designation:`Training`,commander:``,icon:``,
+                                                    pos:[678,443],
+                                                    elements:[
+                                                        {type:`3-Gun Ruined Static Artillery Battery`},
+                                                    ]
+                                                },{
                                                     level:7,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                                     desc:[`Guardia alla Frontiera Section "Buffolotto"`,`Sezione Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`,designation:``,commander:``,icon:``,
                                                     pos:[1248,789],
@@ -3833,7 +3841,7 @@ export var types={
                                                     pos:[1738,488],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
-                                                        {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                                        {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                                         {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                                     ]
                                                 },{
@@ -3858,7 +3866,7 @@ export var types={
                                                     pos:[1487,781],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
-                                                        {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                                        {level:6,type:`3-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                                         {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                                     ]
                                                 },{
@@ -3867,7 +3875,7 @@ export var types={
                                                     pos:[1321,824],
                                                     elements:[
                                                         {type:`Static Machine Gun Company`},
-                                                        {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                                        {level:6,type:`3-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                                         {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                                     ]
                                                 },
@@ -3887,7 +3895,7 @@ export var types={
                                             pos:[865,760],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
-                                                {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                                {level:6,type:`3-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                                 {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                             ]
                                         },{
@@ -3945,7 +3953,7 @@ export var types={
                                         },{
                                             level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
                                             desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``,
-                                            pos:[689,466],
+                                            pos:[1062,697],
                                             elements:[
                                                 {type:`Ruined Static Artillery Battery`},
                                             ]
@@ -4048,12 +4056,11 @@ export var types={
                                     pos:[1317,554],
                                     elements:[
                                         {
-                                            level:5,type:[`Fortress`],team:`Italian`,
-                                            desc:[`Strongpoint El Adem Junction, 64th Replacement Battalion`,`Caposaldo Bivio El Adem, LXIV Battaglione Complementi`],name:`Bivio\nEl Adem`,designation:`64R`,commander:``,icon:`catanzaro`,
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`,designation:`64 R`,commander:``,icon:`catanzaro`,
                                             pos:[1372,628],
                                             elements:[
-                                                {type:`Ruined Infantry Company`,desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`},
-                                                {level:8,type:`Ruined Single Anti-Tank Company`,team:`Italian`,desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``,icon:``},
+                                                {type:`Ruined Infantry Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
@@ -4069,6 +4076,13 @@ export var types={
                                             elements:[
                                                 {type:`Ruined Heavy Infantry Company`},
                                             ]
+                                        },{
+                                            level:8,type:[`Anti-Tank`],team:`Italian`,
+                                            desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``,icon:``,
+                                            pos:[1369,569],
+                                            elements:[
+                                                {type:`Ruined Single Anti-Tank Company`},
+                                            ],
                                         },
                                     ],
                                 },{
@@ -4084,18 +4098,31 @@ export var types={
                                                 {type:`Infantry Company`},
                                             ],
                                         },{
-                                            level:5,type:[`Fortress`],team:`Italian`,
-                                            desc:[`Strongpoint Point 71, 31st Libyan Coastal Infantry Battalion`,`Caposaldo q. 71, XXXI Battaglione Fanteria Libico Costiera`],name:`q. 71`,designation:`31 Libyan`,commander:``,icon:``,
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[968,389],
                                             elements:[
-                                                {type:`Infantry Company`,desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`},
-                                                {level:8,type:`1-Gun Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                                {type:`Infantry Company`},
+                                            ],
+                                        },{
+                                            level:7,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+                                            desc:[`77/28 Section`,`Sezione da 77/28`],name:`77/28`,designation:``,commander:``,icon:``,
+                                            pos:[1086,261],
+                                            elements:[
+                                                {type:`Ruined Static Artillery Section`},
+                                            ],
+                                        },{
+                                            level:8,type:[`Anti-Tank`],team:`Guardia alla Frontiera`,
+                                            desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``,
+                                            pos:[928,330],
+                                            elements:[
+                                                {type:`Ruined Single Weak Anti-Tank Company`},
                                             ],
                                         },
                                     ],
                                 },{
                                     level:5,type:[`Infantry`,`Machine Gun`,`Mortar`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[1143,631],
                                     elements:[
                                         {level:6,type:`Small Ruined Infantry Platoon`,team:`Italian`,desc:[`Training Infantry Platoon`,`Plotone di Fanteria di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
@@ -4124,7 +4151,7 @@ export var types={
                                     desc:[`Naval Battery "Vittoria"`,`Batteria Navale "Vittoria"`],name:`Vittoria`,designation:`Regia\nMarina`,commander:``,icon:``,
                                     pos:[720,621],
                                     elements:[
-                                        {type:`Ruined Static Artillery Battery`},
+                                        {type:`3-Gun Ruined Static Artillery Battery`},
                                     ]
                                 },
                             ],
@@ -21643,7 +21670,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[2448,1148],
                                     elements:[
                                         {type:`Small Ruined Infantry Company`},
@@ -22898,7 +22925,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[2448,1148],
                                     elements:[
                                         {type:`Small Ruined Infantry Company`},
@@ -24167,7 +24194,7 @@ export var types={
                                                             ],
                                                         },{
                                                             level:5,type:[`Infantry`],team:`Italian`,
-                                                            desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                                            desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                                             pos:[2448,1148],
                                                             elements:[
                                                                 {type:`Small Ruined Infantry Company`},
@@ -25343,7 +25370,7 @@ export var types={
                                                             ],
                                                         },{
                                                             level:5,type:[`Infantry`],team:`Italian`,
-                                                            desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                                            desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                                             pos:[2448,1148],
                                                             elements:[
                                                                 {type:`Small Ruined Infantry Company`},
@@ -26603,7 +26630,7 @@ export var types={
                                                             ],
                                                         },{
                                                             level:5,type:[`Infantry`],team:`Italian`,
-                                                            desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                                            desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                                             pos:[2448,1148],
                                                             elements:[
                                                                 {type:`Small Ruined Infantry Company`},
@@ -32729,7 +32756,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
-                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Paive"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+                                    desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                     pos:[2448,1148],
                                     elements:[
                                         {type:`Small Ruined Infantry Company`},

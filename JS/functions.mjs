@@ -459,9 +459,11 @@ export function companies(){
             //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
             if(!(unit.level>=constants.minLevel+1&&unit.parent!=-1&&unit.parent.level>=constants.minLevel+1)){
                 if(unit.level>=constants.minLevel+1&&(unit.parent==-1||unit.parent.level>=constants.minLevel)){
-                    totals[unit.player]++
-                    if(unit.player>=1){
-                        totals[3]++
+                    if(unit.level<=constants.minLevel+1){
+                        totals[unit.player]++
+                        if(unit.player>=1){
+                            totals[3]++
+                        }
                     }
                 }/*else if(unit.level==constants.minLevel&&unit.contain.trigger&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level>=constants.minLevel+1)){
                     totals[unit.player]+=unit.contain.units.length
@@ -470,9 +472,11 @@ export function companies(){
                     }
                 }*/else if(unit.contain.trigger){
                     if(unit.contain.units.some(contain=>contain.level==unit.level)||unit.level>=constants.minLevel+1){
-                        totals[unit.player]++
-                        if(unit.player>=1){
-                            totals[3]++
+                        if(unit.level<=constants.minLevel+1){
+                            totals[unit.player]++
+                            if(unit.player>=1){
+                                totals[3]++
+                            }
                         }
                     }else{
                         unit.contain.units.forEach(contain=>{
@@ -495,7 +499,7 @@ export function companies(){
                                 if(unit.player>=1){
                                     totals[3]+=4
                                 }
-                            }else if(contain.level>=constants.minLevel+1){
+                            }else if(contain.level==constants.minLevel+1){
                                 totals[contain.player]++
                                 if(unit.player>=1){
                                     totals[3]++

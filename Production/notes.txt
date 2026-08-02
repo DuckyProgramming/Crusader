@@ -4123,5 +4123,8 @@ This totals 32 guns, a cool number I guess. They are from 7 batteries, a signifi
 
 I've some information (possibly because of mistakes by me) that shows 120/40 guns in Africa. I don't thinks ever happened, least of all in the "Nembo" battery.
 The "Nembo" itself was built not with 120/40 guns but with 120/45. This was a naval model and was effectively never seen on land. The 120/40 itself was generally a pretty normal artillery gun.
+Worse, it would also force me into adding in all the cooked random gun elements, like the 3 75/27 with Point 144, the 2 77/28 and 2 47/32 with Point 71, and others.
+I can almost certainly be sure, though, that the 77/28 section that was acting in an anti-tank role at Point 71 was probably of the G.a.F., since the regular army used these only in the Libyan units.
+Even then, though, it could be a strange semi-organic unit to the 31st Libyan Coastal Battalion, which would honestly be really cool if true but it probably isn't.
 
 

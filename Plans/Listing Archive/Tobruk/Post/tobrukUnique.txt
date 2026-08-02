@@ -1,0 +1,88 @@
+XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
+
+Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Barberis
+    Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (28)
+        | Guardia alla Frontiera Strongpoint Zeitun
+        | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
+        3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+            | 247th Battery Guardia alla Frontiera (4 77/28) ____
+        
+        Sector Rear (HQ 69th Infantry Regiment "Ancona") (14) - Angelo Cascino
+            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (11) - Pietro Aresca
+                1st Medium Tank Battalion (2) #
+                    | 2nd Company, 1st Medium Tank Battalion (16 37/10) ________________
+                    | Composite Company, 21st Light Tank Battalion
+                3rd Battalion, 69th Infantry Regiment (5) #
+                    | 7th Company, 70th Infantry Regiment
+                    | Spare Naval Gun (1 76/40) _
+            Position Ras Beiad (HQ 64th Replacement Battalion) (3) #
+                | 1st Company, 64th Replacement Battalion
+                | 4th Company, 64th Replacement Battalion
+            | 141st Mortar Company (0 81/14)
+
+    Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
+        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) # - Guido Baggini
+            | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
+            | Section, Mixed Battery, 22nd Army Corps Artillery Raggruppamento (2 105/28) ++
+
+    Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (19) - Guido Baggini
+        7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
+            | 244th Battery Guardia alla Frontiera (4 149/35) ++++
+        148th Group, 25th Army Corps Artillery Raggruppamento (4) #
+            | 3rd Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
+            | Guardia alla Frontiera Section "Buffolotto" (2 149/35) ++
+        HQ 15th Anti-Aircraft Group (2) #
+            | 1st Battery, 15th Anti-Aircraft Group (4 75/46) ++++
+        | Naval Battery "Nembo" (4 120/45) ++++
+
+Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
+    Infantry Command (HQ 70th Infantry Regiment "Ancona") (38) - Gaetano Maltese
+        | 4th Company "Derna", Battalion CC.NN. "Volontari della Libia"
+        | 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (8 20/65) $$$$$$$$
+        | Provisional Infantry Gun Battery (5 65/17) _____
+        | Spare Guardia alla Frontiera Gun (1 47/32) _
+        | Provisional Anti-Tank Battery (6 47/32) ______
+
+        Sector Rear (HQ 2nd Battalion, 70th Infantry Regiment) (14) #
+            Position Pilastrino (HQ 61st Machine Gun Battalion) (5) #
+                | 1st Company, 61st Machine Gun Battalion
+                | 61st Mortar Company (6 81/14)
+            Position 144 (HQ 140th Battalion CC.NN. "Aquilia") (2) #
+                | 1st Company, 140th Battalion CC.NN. "Aquilia"
+                | Section Guardia alla Frontiera (3 75/27) ___
+            Position 71 (HQ 31st Libyan Coastal Battalion) (4) #
+                | 1st Company, 31st Libyan Coastal Battalion
+                | 8th Company, 69th Infantry Regiment
+                | Guardia alla Frontiera Section (2 77/28) __
+                | Guardia alla Frontiera Platoon (2 47/32) __
+            Position Piave (1)
+                | Delaying Action Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
+
+    Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (25) - Adolfo de Leone
+        HQ 22nd Army Corps Artillery Raggruppamento (8)
+            Composite Group, 22nd Army Corps Artillery Raggruppamento (4) #
+                | 6th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
+                | 9th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
+            | Naval Battery "Vittoria" (3 76/30, 1 149/35) ++++
+            | Training Battery (2 77/28, 1 149/12) +++
+    
+Rapid Column (8) #
+    | 1st Company, 1st Medium Tank Battalion (7 37/10) _______
+    | 22nd Bersaglieri Motorcycle Company (Motorized)
+    | 3rd Company, 69th Infantry Regiment (Motorized)
+    | 4th Company, 69th Infantry Regiment (Motorized)
+    | 77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia" (10 20/65) (Motorized) $$$$$$$$$$
+    | Guardia alla Frontiera Platoon (2 47/32) (Motorized) __
+
+Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
+    Infantry Command (4)
+        | 3rd Company, 62nd Replacement Battalion (Reinforced with a Carabinieri station)
+    Artillery Command (11)
+        | Naval Battery "Bellotti" (4 149/47) ====
+        | Naval Battery "Sidi Mahmud" (6 102/35) ======
+        | Naval Battery "Pilastrino" (6 102/35, 1 76/40) =======
+        | Naval Battery "Tordo" (6 76/40) ======
+        | Naval Battery "Toro" (3 76/40) ===
+    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
+
+

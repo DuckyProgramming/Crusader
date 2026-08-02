@@ -72,6 +72,7 @@ export class operation{
             this.initialUnits(flat[dev.view].index)
             print(flat[dev.view].unit.name)
         }else if(dev.reserve!=-1){
+            this.loadMap(0)
             this.scene=`orderView`
             if(typeof dev.reserve==`number`){
                 let len=this.units.length
@@ -589,6 +590,7 @@ export class operation{
             break
             case `orderView`:
                 layer.background(200)
+                this.inspect.units[0].orderDimensions()
                 this.inspect.units[0].display(layer,this.scene)
             break
         }

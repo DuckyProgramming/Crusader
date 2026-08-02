@@ -2,25 +2,24 @@ Eastern Libya Guardia alla Frontiera Command (40) - Umberto Barberis
     Tobruk Fortress Command (19)
         31st Coverage Sector (10)
             31st/A Subsector (2)
-                | Strongpoint Sidi Daud (1 47/32, 1 20/65)
+                | Strongpoint Sidi Daud (2 47/32, 1 20/65)
                 | Strongpoint Suesi (2 47/32, 1 20/65)
             31st/B Subsector (2)
-                | Strongpoint Bir Junes (3 47/32, 2 20/65)
-                | Strongpoint Bir Umm Haleiga (3 47/32, 2 20/65)
+                | Strongpoint Bir Junes (4 47/32, 2 20/65)
+                | Strongpoint Bir Umm Haleiga (4 47/32, 2 20/65)
             31st Artillery Raggruppamento (5) - Guido Baggini
                 5th Artillery Group (1)
                     | 242nd Artillery Battery (4 120/25)
                 6th Artillery Group (2)
-                    | 230th Bis Artillery Battery (4 120/25, 2 149/35)
+                    | 230th Bis Artillery Battery (4 120/25)
                     | 231st Bis Artillery Battery (4 120/25)
                 7th Artillery Group (2)
                     | 244th Artillery Battery (4 149/35)
                     | 245th Artillery Battery (4 149/35)
-                | Mixed Training Battery (1 149/12, 2 77/28)
             | 31st Mixed Engineer Unit
         Elements, 32nd Coverage Sector (4)
             | Strongpoint Hagfet Umm Haleiga (2 47/32, 1 20/65)
-            | Strongpoint Bir el Medauuar (3 47/32, 2 20/65)
+            | Strongpoint Bir el Medauuar (4 47/32, 2 20/65)
             | Strongpoint Es Sehel (1 47/32, 1 20/65)
             | Strongpoint Umm Cuheil (1 47/32)
         Anti-Tank Raggruppamento (5)
@@ -31,6 +30,7 @@ Eastern Libya Guardia alla Frontiera Command (40) - Umberto Barberis
             3rd Artillery Group (1)
                 | 247th Artillery Battery (4 77/28)
             | Training Battery "Derna" (4 75/27)
+            | Section "Buffolotto" (2 149/35)
     Tobruk Coastal Sector (9) - Massimiliano Vietina
         | Naval Battery "Bellotti" (4 149/47)
         | Naval Battery "Grasso" (4 149/47)
@@ -44,7 +44,7 @@ Eastern Libya Guardia alla Frontiera Command (40) - Umberto Barberis
     Loose Units (12)
         31st Libyan Coastal Battalion (3)
             | 1st Company, 31st Libyan Coastal Battalion
-            | 2nd Company, 31st Libyan Coastal Battalion (2 77/28, 1 47/32)
+            | 2nd Company, 31st Libyan Coastal Battalion (1 47/32)
             | 3rd Company, 31st Libyan Coastal Battalion
         64th Replacement Battalion (4)
             | 1st Company, 62nd Replacement Battalion (1 76/40)
@@ -61,6 +61,6 @@ Eastern Libya Guardia alla Frontiera Command (40) - Umberto Barberis
             Light Mortar Platoon
             Heavy Mortar Squad
         | Formation Naval Battery "Nembo" (4 120/45)
-        | Formation Naval Battery "Vittoria" (3 76/30)
+        | Formation Naval Battery "Vittoria" (3 76/30, 1 149/35)
 
        
