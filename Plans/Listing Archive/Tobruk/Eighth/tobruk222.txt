@@ -1,4 +1,4 @@
-XXII Army Corps / Tobruk Fortress Garrison (40/150) - Enrico Pitassi Mannella
+XXII Army Corps / Tobruk Fortress Garrison (40/148) - Enrico Pitassi Mannella
 
 Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (58) - Umberto Barberis
     Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (28)
@@ -153,7 +153,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
                 [ Guardia alla Frontiera Section (2 77/28) __ ]
                 [ Guardia alla Frontiera Platoon (2 47/32) __ ]
             Position Piave (1)
-                | Training Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
+                | Delaying Action Company "Piave" (2 Machine Gun Training Platoons, 1 Infantry Training Platoon, 1 Light Mortar Training Platoon)
 
     Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (25) - Adolfo de Leone
         97/97 Guns
@@ -212,14 +212,14 @@ Rapid Column (8) #
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (19) - Massimiliano Vietina
-    Infantry Command (6)
+Coastal Defense Sector (HQ Tobruk Coast Sector) (17) - Massimiliano Vietina
+    Infantry Command (4)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
+
         | 3rd Company, 62nd Replacement Battalion (Reinforced with a Carabinieri station)
+
         | 3rd Company, 64th Replacement Battalion
-        | 63rd Garrison Company
-        | Delaying Action Company (3 Carabinieri Sections and Troops From the 116th Infantry Regiment Depot and Unified Tobruk Guardia alla Frontiera Depot)
     Artillery Command (11)
         | Naval Battery "Dandolo" (0 149/47)
         | Naval Battery "Bellotti" (4 149/47) ====
@@ -242,7 +242,7 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (19) - Massimiliano Vietina
 
 
 
-6th Australian Division (20/75) - Iven McKay
+6th Australian Division (20/74) - Iven McKay
     16th Australian Infantry Brigade - Arthur Allen (19)
         2/1st Australian Infantry Battalion (4) %
             : A Company, 2/1st Australian Infantry Battalion
@@ -336,12 +336,11 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (19) - Massimiliano Vietina
     104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2) %
         : 339th Battery, Royal Horse Artillery
         : 414th Battery, Royal Horse Artillery
-    Commander, Royal Australian Engineers (3)
+    Commander, Royal Australian Engineers (3) %
         : 2/1st Field Company, Royal Australian Engineers
         : 2/2nd Field Company, Royal Australian Engineers
         : 2/8th Field Company, Royal Australian Engineers
     : 1st Light Anti-Aircraft Battery, Royal Artillery
     : A Squadron, 6th Australian Divisional Cavalry Regiment
-    : No. 2 Armoured Car Company, Royal Air Force
 
 

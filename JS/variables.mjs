@@ -13,6 +13,7 @@ export var types={
         {name:`Ruined Infantry Company`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:20,morale:0.8,num:200,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Small Ruined Infantry Company`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:15,morale:0.8,num:150,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Small Ruined Infantry Platoon`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:5,morale:0.8,num:50,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Small Ruined Infantry Section`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:2,morale:0.8,num:20,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Ruined Heavy Infantry Company`,unitType:[`Infantry`,`Heavy`],class:0,damage:[12,3],armor:0,health:20,morale:0.8,num:200,speed:0.9,artillery:false,engineer:false,recon:false},
         {name:`Small Ruined Heavy Infantry Company`,unitType:[`Infantry`,`Heavy`],class:0,damage:[12,3],armor:0,health:15,morale:0.8,num:150,speed:0.9,artillery:false,engineer:false,recon:false},
         {name:`Elite Infantry Company`,unitType:[`Infantry`,`Mixed`],class:0,damage:[15,3],armor:0,health:40,morale:1.5,num:200,speed:1.25,artillery:false,engineer:false,recon:false},
@@ -25962,7 +25963,7 @@ export var types={
                 //mark full
                 {
                     name:`Capture of Tobruk - FULL`,
-                    strength:{name:`Companies`,num:[[74],[0,148]]},partition:[[0],[2]],bonus:1,
+                    strength:{name:`Companies`,num:[[75],[0,150]]},partition:[[0],[2]],bonus:1,
                     set:2,
                     unit:[
                         {
@@ -26676,7 +26677,7 @@ export var types={
                                                                 },
                                                             ],
                                                         },{
-                                                            level:5,type:[`Infantry`],team:`Italian`,
+                                                            level:5,type:[`Infantry`,`Machine Gun`,`Mortar`],team:`Italian`,
                                                             desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
                                                             pos:[2448,1148],
                                                             elements:[
@@ -26924,6 +26925,23 @@ export var types={
                                                 {type:`Infantry Company`},
                                             ],
                                         },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`63rd Garrison Company`,`63ª Compagnia Presidiaria`],name:`63`,designation:`Garrison`,commander:``,icon:`cirene`,
+                                            pos:[2558,760],
+                                            elements:[
+                                                {type:`Small Ruined Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`],team:`Italian`,
+                                            desc:[`Delaying Action Company`,`Compagnia Combattimenti di Arresto`],name:`Arresto`,designation:`Desposito`,commander:``,icon:`marmarica`,
+                                            pos:[2370,585],
+                                            elements:[
+                                                {level:6,type:`Small Ruined Infantry Platoon`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+                                                {level:6,type:`Small Ruined Infantry Platoon`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unified Depot`,`Deposito Unico di Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+                                                {level:7,type:`Small Ruined Infantry Section`,team:`Italian`,desc:[`Carabinieri Station`,`Stazione dei Carabinieri`],name:`Stazione`,designation:`Carabinieri`,commander:``,icon:``},
+                                                {level:7,type:`Small Ruined Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Station`,`Stazione di Guardia alla Frontiera`],name:`Stazione`,designation:``,commander:``,icon:``},
+                                            ],
+                                        },{
                                             level:5,type:[`Machine Gun`,`Coast`],team:`Italian`,
                                             desc:[`Coastal Artillery Battery "Dandolo"`,`Batteria di Artiglieria Costiera "Dandolo"`],name:`Dandolo`,designation:``,commander:``,icon:``,
                                             pos:[2450,305],
@@ -27010,12 +27028,12 @@ export var types={
                                         {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``,icon:`4ti`},
                                         {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``},
                                         {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`},
-                                        {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`AA`,designation:`4 TI`,commander:``,icon:``},
+                                        {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`AA`,designation:`4 TI`,commander:``,icon:`4ti`},
                                         {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`},
                                         {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`},
                                         {level:5,type:`Motorized Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`},
-                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
-                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 69th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 69th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
                                         {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                         {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                     ],
@@ -27034,7 +27052,7 @@ export var types={
                                         },{
                                             level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
                                             desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
-                                            pos:[2370,585],
+                                            pos:[2464,710],
                                             elements:[
                                                 {type:`Mixed Engineer Company`},
                                             ],
@@ -27245,6 +27263,13 @@ export var types={
                                             pos:[3142,1976],
                                             elements:[
                                                 {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
+                                            ],
+                                        },{
+                                            level:5,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
+                                            desc:`No. 2 Armoured Car Company, Royal Air Force`,name:`2`,designation:`RAF`,commander:``,icon:``,
+                                            pos:[3900,1786],
+                                            elements:[
+                                                {type:`Armored Car Company`},
                                             ],
                                         },{
                                             level:5,type:[`Engineer`,`Motorized`],team:`Australian`,

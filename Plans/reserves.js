@@ -2642,5 +2642,42 @@ reserves=[
         elements:[
             {type:`Ruined Artillery Battery`},
         ],
+    },{
+        level:5,type:[`Infantry`],team:`Italian`,
+        desc:[`Delaying Action Company`,`Compagnia Combattimenti di Arresto`],name:`Arresto`,designation:`Carabinieri\nDepot`,commander:``,icon:`marmarica`,
+        pos:[905,508],
+        elements:[
+            {type:`Small Ruined Infantry Company`},
+        ],
+    },{
+        level:5,type:[`Infantry`,`Machine Gun`,`Mortar`],team:`Italian`,
+        desc:[`Delaying Action Company "Piave"`,`Compagnia Combattimenti di Arresto "Piave"`],name:`Piave`,designation:`Arresto`,commander:``,icon:``,
+        desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:``,
+        pos:[1143,631],
+        elements:[
+            {level:6,type:`Small Ruined Infantry Platoon`,team:`Italian`,desc:[`Training Infantry Platoon`,`Plotone di Fanteria di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
+            {level:6,type:`Small Ruined Machine Gun Platoon`,team:`Italian`,desc:[`Training Machine Gun Platoon`,`Plotone di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
+            {level:6,type:`Small Ruined Machine Gun Platoon`,team:`Italian`,desc:[`Training Machine Gun Platoon`,`Plotone di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
+            {level:6,type:`Small Ruined Mortar Platoon`,team:`Italian`,desc:[`Training Mortar Platoon`,`Plotone di Mortai di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
+            {level:8,type:`Small Ruined Machine Gun Squad`,team:`Italian`,desc:[`Training Machine Gun Squad`,`Squadra di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
+            {level:8,type:`Small Ruined Mortar Squad`,team:`Italian`,desc:[`Training Mortar Squad`,`Squadra di Mortai di Formazione`],name:``,designation:`Training`,commander:``,icon:``},
+        ]
+    },{
+        level:4,type:[`Recon`],team:`Italian`,
+        desc:[`Rapid Unit`,`Unità Celere`],name:`Celere`,designation:``,commander:``,icon:``,
+        pos:[2520,881],
+        elements:[
+            {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``,icon:`4ti`},
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``},
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`},
+            {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`AA`,designation:`4 TI`,commander:``,icon:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`},
+            {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`},
+            {level:5,type:`Motorized Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`},
+            {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+            {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+            {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+            {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+        ],
     },
 ]

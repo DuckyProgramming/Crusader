@@ -1506,6 +1506,7 @@ I read a document about the "San Giorgio", honestly this was a very impressive f
 6. The scuttling attempt was apparently unsuccessful to the point that none of the guns were damaged and the ship could be rapidly refloated. Two sailors were killed in the process, though.
 7. Its name references the patron saint and flag of the republic of Genoa.
 8. After Pugliese, the second-in-command was a Lieutenant Commander Pane.
+(I don't know where the 55th Engineer Company could have come from, since the 55th artieri company was with the "Bari" Division. I can only assume this was actually a signalmen unit)
 
 Just to be prudent once again, let's give another consideration to the nonexistance of the three batteries Rostagno missed.
 We have a shortage of 8 120/25, as well as 3 100/27. The latter can be considered relatively inconsequential, but I don't think the same can be said for the former.
@@ -4140,5 +4141,8 @@ Ultimately, though, I elected not to downgrade the 105/28 battery of the 22nd CA
 
 The 63rd Replacement Battalion managed to last long enough to be destroyed at the Derna position. A "training battalion" of the 115th Infantry Regiment's Depot (maybe the 62nd Replacement Battalion).
 In general, the addition of this extra battery has been catalyst for an increase from 144/72 to 145/72. I haven't found any reasonable way to reduce this except by blowing up the "Piave" company.
+
+The 2 77/28 guns at Point 71 are not only mentioned in Montanari's map. Their existence is confirmed by a message from Pitassi Manella calling for them to fire on the troops attacking his headquarters.
+The Free French troops besieging Tobruk, were, according to Montanari, placed under the command of the 7th Support Group. No 7th Armoured Division information yet supports this.
 
 
