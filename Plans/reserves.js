@@ -2621,5 +2621,12 @@ reserves=[
             {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
             {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
         ]
+    },{
+        level:8,type:[`Artillery`],team:`Guardia alla Frontiera`,
+        desc:[`105/28 Gun`,`Pezzo da 105/28`],name:`105/28`,designation:``,commander:``,icon:``,
+        pos:[1086,261],
+        elements:[
+            {type:`Ruined Artillery Piece`},
+        ],
     },
 ]

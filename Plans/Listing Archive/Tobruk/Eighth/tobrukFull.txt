@@ -34,6 +34,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
                     | Composite Company, 21st Light Tank Battalion
                     | Composite Company, 63rd Light Tank Battalion
                 3rd Battalion, 69th Infantry Regiment (5) #
+                    | 7th Company, 70th Infantry Regiment
                     | 9th Company, 69th Infantry Regiment
                     | 10th Company, 69th Infantry Regiment
                     | 11th Company, 69th Infantry Regiment
@@ -49,10 +50,9 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
     Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
         44/44 Guns
         1st Group, 26th Artillery Regiment "Pavia" (3) #
-            | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
-            | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 1st Battery, 26th Artillery Regiment (6 100/17) ++++++
+            | 2nd Battery, 26th Artillery Regiment (6 100/17) ++++++
             | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
-            | 3rd Battery, 12th Artillery Regiment "Sila" (4 100/17) ++++
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) # - Guido Baggini
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
         130th Group, 25th Army Corps Artillery Raggruppamento (3) #
@@ -206,8 +206,6 @@ Rapid Column (8) #
     | 4th Company, 69th Infantry Regiment (Motorized)
     | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) $$$$$$
     | 77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia" (10 20/65) $$$$$$$$$$
-    [ Arditi Platoon, 2nd Battalion, 70th Infantry Regiment ]
-    [ Arditi Platoon, 2nd Battalion, 70th Infantry Regiment ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
 
@@ -231,7 +229,7 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
         | Naval Battery "Toro" (3 76/40 AA) ===
         | Naval Battery "Topo" (6 76/40 AA) ======
         | Naval Battery "Tonno" (0 76/40 AA)
-    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) # - Stefano Pugliese
+    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
 
 
 

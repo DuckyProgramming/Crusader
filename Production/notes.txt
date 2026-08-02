@@ -4127,4 +4127,12 @@ Worse, it would also force me into adding in all the cooked random gun elements,
 I can almost certainly be sure, though, that the 77/28 section that was acting in an anti-tank role at Point 71 was probably of the G.a.F., since the regular army used these only in the Libyan units.
 Even then, though, it could be a strange semi-organic unit to the 31st Libyan Coastal Battalion, which would honestly be really cool if true but it probably isn't.
 
+I originally thought the extra 3 100/17 guns above the 60 that would be expected (as Montanari lists 63) would've just been random guns assigned to random batteries.
+However, I later learned that the G.a.F. had 11 100/17s in early January. This would've been the I/22nd CAR Group, meaning that the +3 guns is not +4 since the I/22nd would be missing one.
+I thus have no choice but to accept that there probably was a bonus battery lying around that I've never accounted for anywhere else. I looked around for any groups that seem to be missing a battery.
+I found the missing battery in the I Group of the 12th "Sila" Artillery Regiment. I can't know its number but we'll go with the 3rd battery being the one that ended up with the I/26th Group.
+
+The old 340-gun number is a little cursed and in current versions I've often ignored it. But there is at least some historical basis for its existence.
+That is, if we ignore the 39 AT guns inside the tanks and add instead the 42 20/65 (or 20mm in general) guns, the total moves from 337 artillery and anti-tank guns to 340.
+
 
