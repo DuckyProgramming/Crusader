@@ -4136,7 +4136,9 @@ The old 340-gun number is a little cursed and in current versions I've often ign
 That is, if we ignore the 39 AT guns inside the tanks and add instead the 42 20/65 (or 20mm in general) guns, the total moves from 337 artillery and anti-tank guns to 340.
 While Niehorster doesn't include this information, the standard Italian artillery battery consisted of a firing battery (platoon level), along with a headquarters and train.
 The firing battery represented about 50% of the strength of the battery as a whole, with 71 out of 128 men. I don't know if the Guardia alla Frontiera followed the same rules.
+Ultimately, though, I elected not to downgrade the 105/28 battery of the 22nd CAR down to a firing battery alone. While it's noted as "4 pezzi" in one sketch, Rostagno calls it a full battery.
 
 The 63rd Replacement Battalion managed to last long enough to be destroyed at the Derna position. A "training battalion" of the 115th Infantry Regiment's Depot (maybe the 62nd Replacement Battalion).
+In general, the addition of this extra battery has been catalyst for an increase from 144/72 to 145/72. I haven't found any reasonable way to reduce this except by blowing up the "Piave" company.
 
 

@@ -25962,7 +25962,7 @@ export var types={
                 //mark full
                 {
                     name:`Capture of Tobruk - FULL`,
-                    strength:{name:`Companies`,num:[[74],[0,146]]},partition:[[0],[2]],bonus:1,
+                    strength:{name:`Companies`,num:[[74],[0,148]]},partition:[[0],[2]],bonus:1,
                     set:2,
                     unit:[
                         {
@@ -27018,6 +27018,27 @@ export var types={
                                         {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
                                         {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                         {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+                                    ],
+                                },{
+                                    level:4,type:[`Engineer`],team:`Italian`,
+                                    desc:[`61st Mixed Engineer Battalion`,`LXI battaglione misto genio`],name:`61`,designation:``,commander:``,icon:`sirte`,
+                                    pos:[2309,661],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Engineer`],team:`Italian`,
+                                            desc:[`35th Engineer Company`,`35ª Compagnia Artieri`],name:`35`,designation:``,commander:``,icon:`sirte`,
+                                            pos:[2211,698],
+                                            elements:[
+                                                {type:`Engineer Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                                            pos:[2370,585],
+                                            elements:[
+                                                {type:`Mixed Engineer Company`},
+                                            ],
+                                        },
                                     ],
                                 },
                             ],

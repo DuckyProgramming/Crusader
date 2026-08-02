@@ -1,6 +1,6 @@
-XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
+XXII Army Corps / Tobruk Fortress Garrison (40/148) - Enrico Pitassi Mannella
 
-Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Barberis
+Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (58) - Umberto Barberis
     Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (28)
         Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (8) #
             | Guardia alla Frontiera Strongpoint Zeitun
@@ -47,9 +47,9 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
             | 141st Mortar Company (0 81/14)
             | 142nd Mortar Company (0 81/14)
 
-    Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
+    Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (11)
         44/44 Guns
-        1st Group, 26th Artillery Regiment "Pavia" (3) #
+        1st Group, 26th Artillery Regiment "Pavia" (4) #
             | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
             | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
             | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
@@ -174,7 +174,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
                 | 9th Battery, 22nd Army Corps Artillery Raggruppamento (3 100/17) +++
                 | 6th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 9th Battery, 43rd Artillery Regiment (4 75/27) ++++
-                [ Mixed Firing Battery, 22nd Army Corps Artillery Raggruppamento (4 105/28) ++++ ]
+                | Mixed Firing Battery, 22nd Army Corps Artillery Raggruppamento (4 105/28) ++++
             | Naval Battery "Vittoria" (3 76/30) +++
             | Training Battery (2 77/28, 1 149/12) +++
 
@@ -212,7 +212,7 @@ Rapid Column (8) #
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
+Coastal Defense Sector (HQ Tobruk Coast Sector) (17) - Massimiliano Vietina
     Infantry Command (4)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
@@ -232,11 +232,17 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
         | Naval Battery "Toro" (3 76/40 AA) ===
         | Naval Battery "Topo" (6 76/40 AA) ======
         | Naval Battery "Tonno" (0 76/40 AA)
-    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) # - Stefano Pugliese
+    Floating Battery (Cruiser) "San Giorgio" (2) # - Stefano Pugliese
+        | Main Battery (4 254/30) ====
+        | Side Battery (4 190/45) ====
+
+61st Mixed Engineer Battalion (2)
+    | 35th Engineer Company
+    | 31st Guardia alla Frontiera Mixed Engineer Unit
 
 
 
-6th Australian Division (20/75) - Iven McKay
+6th Australian Division (20/74) - Iven McKay
     16th Australian Infantry Brigade - Arthur Allen (19)
         2/1st Australian Infantry Battalion (4) %
             : A Company, 2/1st Australian Infantry Battalion
@@ -327,6 +333,9 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) # - Massimiliano Vietina
     51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (2) %
         : 203rd Battery, Royal Artillery
         : 370th Battery, Royal Artillery
+    104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2) %
+        : 339th Battery, Royal Horse Artillery
+        : 414th Battery, Royal Horse Artillery
     Commander, Royal Australian Engineers (3) %
         : 2/1st Field Company, Royal Australian Engineers
         : 2/2nd Field Company, Royal Australian Engineers
