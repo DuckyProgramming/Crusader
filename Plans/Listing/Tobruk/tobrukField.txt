@@ -1,4 +1,4 @@
-XXII Army Corps / Tobruk Fortress Garrison (40/150) - Enrico Pitassi Mannella
+XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
 
 Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (60) - Umberto Barberis
     Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (31)
@@ -29,7 +29,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (60) - Umberto Bar
                 | 5th Company, 69th Infantry Regiment
 
         Sector Rear (HQ 69th Infantry Regiment "Ancona") (14) - Angelo Cascino
-            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (9) - Pietro Aresca
+            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (11) - Pietro Aresca
                 1st Medium Tank Battalion (2) #
                     | 2nd Company, 1st Medium Tank Battalion (16 37/10) ________________
                     | 3rd Company, 1st Medium Tank Battalion (16 37/10) ________________
@@ -51,14 +51,14 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (60) - Umberto Bar
             | 142nd Mortar Company (0 81/14)
 
     Eastern Artillery Raggruppamento (HQ 25th Army Corps Artillery Raggruppamento) (10)
-        45/45 Guns
+        44/44 Guns
         1st Group, 26th Artillery Regiment "Pavia" (3) #
-            | 1st Battery, 26th Artillery Regiment (5 100/17) +++++
-            | 2nd Battery, 26th Artillery Regiment (5 100/17) +++++
-            | 3rd Battery, 26th Artillery Regiment (5 100/17) +++++
+            | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
+            | 3rd Battery, 12th Artillery Regiment "Sila" (4 100/17) ++++
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (1) # - Guido Baggini
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
-            [ Section From Mixed Battery, 22nd Army Corps Artillery Raggruppamento (2 105/28) ++ ]
         130th Group, 25th Army Corps Artillery Raggruppamento (3) #
             | 7th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 8th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
@@ -69,7 +69,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (60) - Umberto Bar
         | 2nd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
 
     Central Artillery Raggruppamento (HQ 31st Guardia alla Frontiera Artillery Raggruppamento) (19) - Guido Baggini
-        78/78 Guns
+        79/79 Guns
         2nd Group, 43rd Artillery Regiment "Sirte" (3) #
             | 4th Battery, 43rd Artillery Regiment (4 75/27) ++++
             | 5th Battery, 43rd Artillery Regiment (4 75/27) ++++
@@ -82,7 +82,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (60) - Umberto Bar
             | 230th Bis Battery Guardia alla Frontiera (4 120/25) ++++
             | 231st Bis Battery Guardia alla Frontiera (4 120/25) ++++
         7th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
-            | 244th Battery Guardia alla Frontiera (4 149/35) ++++
+            | 244th Battery Guardia alla Frontiera (5 149/35) +++++
             | 245th Battery Guardia alla Frontiera (4 149/35) ++++
         105th Group, 25th Army Corps Artillery Raggruppamento (3) #
             | 10th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
@@ -144,7 +144,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
             Position 144 (HQ 140th Battalion CC.NN. "Aquilia") (2) #
                 | 1st Company, 140th Battalion CC.NN. "Aquilia"
                 | 2nd Company, 140th Battalion CC.NN. "Aquilia"
-                [ Section Guardia alla Frontiera (3 75/27) ___ ]
+                [ Guardia alla Frontiera Platoon (3 75/27) ___ ]
             Position Gabr el Abd (HQ 61st Replacement Battalion) (2) #
                 | 3rd Company, 61st Replacement Battalion
                 | 4th Company, 61st Replacement Battalion
@@ -174,11 +174,11 @@ Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
                 | 7th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
                 | 8th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
             Composite Group, 22nd Army Corps Artillery Raggruppamento (4) #
-                | Mixed Battery, 22nd Army Corps Artillery Raggruppamento (2 105/28) ++
-                | 9th Battery, 22nd Army Corps Artillery Raggruppamento (4 100/17) ++++
+                | Mixed Battery, 22nd Army Corps Artillery Raggruppamento (4 105/28) ++++
+                | 9th Battery, 22nd Army Corps Artillery Raggruppamento (3 100/17) +++
                 | 6th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 9th Battery, 43rd Artillery Regiment (4 75/27) ++++
-            | Naval Battery "Vittoria" (3 76/30, 1 149/35) ++++
+            | Naval Battery "Vittoria" (3 76/30) +++
             | Training Battery (2 77/28, 1 149/12) +++
 
         HQ 43rd Artillery Regiment "Sirte" (5) - Gildo Bonfanti
@@ -200,8 +200,8 @@ Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
                 | 5th Battery, 55th Artillery Regiment (4 75/27) ++++
                 | 6th Battery, 55th Artillery Regiment (4 75/27) ++++
             | 3rd Battery, 15th Anti-Aircraft Group (4 75/46) ++++
-
-Rapid Column (8)
+    
+Rapid Column (8) #
     | 1st Company, 1st Medium Tank Battalion (7 37/10) _______
     | 22nd Bersaglieri Motorcycle Company (Motorized)
     | 61st Bersaglieri Motorcycle Company (Motorized)
@@ -210,16 +210,16 @@ Rapid Column (8)
     | 4th Company, 69th Infantry Regiment (Motorized)
     | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) $$$$$$
     | 77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia" (10 20/65) $$$$$$$$$$
+    [ Arditi Platoon, 2nd Battalion, 70th Infantry Regiment ]
+    [ Arditi Platoon, 2nd Battalion, 70th Infantry Regiment ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     [ Guardia alla Frontiera Platoon (2 47/32) __ ]
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (17) - Massimiliano Vietina
+Coastal Defense Sector (HQ Tobruk Coast Sector) (18) # - Massimiliano Vietina
     Infantry Command (4)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
-
-        | 3rd Company, 62nd Replacement Battalion (Reinforced with a Carabinieri station)
-
+        | 3rd Company, 62nd Replacement Battalion
         | 3rd Company, 64th Replacement Battalion
     Artillery Command (11)
         | Naval Battery "Dandolo" (0 149/47)
@@ -233,9 +233,7 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (17) - Massimiliano Vietina
         | Naval Battery "Toro" (3 76/40 AA) ===
         | Naval Battery "Topo" (6 76/40 AA) ======
         | Naval Battery "Tonno" (0 76/40 AA)
-    Floating Battery (Cruiser) "San Giorgio" (2) # - Stefano Pugliese
-        | Fore Battery (4 254/30) ====
-        | Broadside Battery (4 190/45) ====
+    | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) # - Stefano Pugliese
 
 Engineer Command (HQ Detached From XXII Corps HQ) (2)
     61st Mixed Engineer Battalion (1) #
@@ -332,14 +330,10 @@ Engineer Command (HQ Detached From XXII Corps HQ) (2)
     1st Free French Marine Infantry Battalion (2) %
         : 1st Company, 1st Free French Marine Infantry Battalion
         : 2nd Company, 1st Free French Marine Infantry Battalion
-    51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (3) %
+    51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (2) %
         : 203rd Battery, Royal Artillery
-        : 211th (Medium) Battery, Royal Artillery
         : 370th Battery, Royal Artillery
-    104th (Essex Yeomanry) Regiment, Royal Horse Artillery (2) %
-        : 339th Battery, Royal Horse Artillery
-        : 414th Battery, Royal Horse Artillery
-    Commander, Royal Australian Engineers (3)
+    Commander, Royal Australian Engineers (3) %
         : 2/1st Field Company, Royal Australian Engineers
         : 2/2nd Field Company, Royal Australian Engineers
         : 2/8th Field Company, Royal Australian Engineers

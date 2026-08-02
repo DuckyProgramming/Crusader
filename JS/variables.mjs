@@ -25962,7 +25962,7 @@ export var types={
                 //mark full
                 {
                     name:`Capture of Tobruk - FULL`,
-                    strength:{name:`Companies`,num:[[72],[0,144]]},partition:[[0],[2]],bonus:1,
+                    strength:{name:`Companies`,num:[[74],[0,146]]},partition:[[0],[2]],bonus:1,
                     set:2,
                     unit:[
                         {
@@ -26013,6 +26013,13 @@ export var types={
                                                                     pos:[2696,1114],
                                                                     elements:[
                                                                         {
+                                                                            level:5,type:[`Infantry`],team:`Italian`,
+                                                                            desc:[`7th Company, 70th Infantry Regiment`,`7ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`7`,designation:`70`,commander:``,icon:`sirte`,
+                                                                            pos:[2520,1045],
+                                                                            elements:[
+                                                                                {type:`Infantry Company`},
+                                                                            ],
+                                                                        },{
                                                                             level:5,type:[`Infantry`],team:`Italian`,
                                                                             desc:[`9th Company, 69th Infantry Regiment`,`9ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`69`,commander:``,icon:`sirte`,
                                                                             pos:[2589,1158],
@@ -26325,8 +26332,8 @@ export var types={
                                                         {type:`Ruined Static Artillery Battery`},
                                                     ],
                                                 },{
-                                                    level:7,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                    desc:[`Guardia alla Frontiera Section "Buffolotto"`,`Sezione Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`,designation:``,commander:``,icon:``,
+                                                    level:7,type:[`Artillery`,`Fortress`],team:`Italian`,
+                                                    desc:[`Guardia alla Frontiera Section "Buffolotto"`,`Sezione Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`,designation:`Regia\nMarina`,commander:``,icon:``,
                                                     pos:[2496,1578],
                                                     elements:[
                                                         {type:`Ruined Static Artillery Section`},
@@ -26564,7 +26571,7 @@ export var types={
                                                                 },{
                                                                     level:8,type:[`Anti-Tank`],team:`Guardia alla Frontiera`,
                                                                     desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``,
-                                                                    pos:[2061,1058],
+                                                                    pos:[ 2112,1047],
                                                                     elements:[
                                                                         {type:`Ruined Single Weak Anti-Tank Company`},
                                                                     ],
@@ -26591,7 +26598,7 @@ export var types={
                                                                     ],
                                                                 },{
                                                                     level:7,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                                    desc:[`75/27 Platoon`,`Plotone da 75/27`],name:`75/27`,designation:``,commander:``,icon:``,
+                                                                    desc:[`75/27 Section`,`Sezione da 75/27`],name:`75/27`,designation:``,commander:``,icon:``,
                                                                     pos:[2206,1057],
                                                                     elements:[
                                                                         {type:`3-Gun Ruined Static Artillery Battery`},
@@ -26731,10 +26738,10 @@ export var types={
                                                             desc:[`Composite Group, 22nd Corps Artillery Regiment`,`Gruppo di Composizione, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`C`,designation:`22 Corps`,commander:``,icon:``,
                                                             pos:[1531,1450],
                                                             elements:[
-                                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Regiment`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
                                                                 {level:5,type:`Ruined Heavy Artillery Battery`,team:`Italian`,desc:[`1st Battery, 17th Artillery Group`,`1ª Batteria, XVII Gruppo Cannoni Pesanti Campali`],name:`1`,designation:`17 Corps`,commander:``},
                                                                 {level:5,type:`Small Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 1st Artillery Group`,`2ª Batteria, I Gruppo Obici Campali`],name:`2`,designation:`1 Corps`,commander:``},
+                                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Regiment`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
                                                             ],
                                                         },{
                                                             level:5,type:[`Artillery`,`Fortress`],team:`Italian`,
@@ -26862,7 +26869,7 @@ export var types={
                                         },{
                                             level:5,type:[`Anti-Air`],team:`Italian`,
                                             desc:[`13th Anti-Aircraft Battery, 22nd Corps Artillery Regiment`,`13ª Batteria Contraerea, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`13`,designation:`22 Corps`,commander:``,icon:``,
-                                            pos:[1650,1530],
+                                            pos:[1271,1432],
                                             elements:[
                                                 {type:`Anti-Air Company`},
                                             ],
@@ -26881,6 +26888,14 @@ export var types={
                                     pos:[2431,465],
                                     elements:[
                                         {
+                                            level:4,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
+                                            desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
+                                            pos:[2516,519],
+                                            elements:[
+                                                {level:5,type:`Heavy Naval Artillery Battery`,team:`Italian`,desc:[`Fore Battery`,`Batteria di Prua`],name:`Prua`,designation:``,commander:``,icon:``},
+                                                {level:5,type:`Heavy Naval Artillery Battery`,team:`Italian`,desc:[`Side Battery`,`Batteria di Bordo`],name:`Bordo`,designation:``,commander:``,icon:``},
+                                            ],
+                                        },{
                                             level:5,type:[`Infantry`],team:`Italian`,
                                             desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`,
                                             pos:[2617,340],
@@ -26985,13 +27000,6 @@ export var types={
                                             elements:[
                                                 {type:`3-Gun Static Coastal Artillery Battery`},
                                             ],
-                                        },{
-                                            level:5,type:[`Artillery`,`Heavy`,`Naval`],team:`Italian`,
-                                            desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
-                                            pos:[2516,519],
-                                            elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
-                                            ],
                                         },
                                     ],
                                 },{
@@ -27006,8 +27014,8 @@ export var types={
                                         {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`},
                                         {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`},
                                         {level:5,type:`Motorized Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`},
-                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:``,designation:`2/70`,commander:``,icon:`sirte`},
-                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:``,designation:`2/70`,commander:``,icon:`sirte`},
+                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+                                        {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 70th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
                                         {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                         {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                     ],
@@ -27194,6 +27202,14 @@ export var types={
                                             elements:[
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`203rd Battery, Royal Artillery`,name:`203`,designation:`51 RA`,commander:``},
                                                 {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`370th Battery, Royal Artillery`,name:`370`,designation:`51 RA`,commander:``},
+                                            ],
+                                        },{
+                                            level:4,type:[`Artillery`,`Motorized`],team:`British`,
+                                            desc:[`104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`104`,designation:`Royal\nHorse`,commander:`Matthew`,icon:`7a`,
+                                            pos:[3403,1652],
+                                            elements:[
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`339th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`339th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`339`,designation:`104 RHA`,commander:``},
+                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`414th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`414th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`414`,designation:`104 RHA`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Anti-Air`,`Motorized`],team:`British`,
@@ -37382,7 +37398,7 @@ export var types={
         },
     ],
 }
-export var dev={slow:false,begin:-1,view:`Capture of Tobruk - FULL`,reserve:-1}
+export var dev={slow:false,begin:-1,view:-1,reserve:-1}
 export var options={obscureKills:true,translate:false,headquarters:false,moved:false}
 export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}

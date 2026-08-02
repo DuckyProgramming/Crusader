@@ -4134,5 +4134,9 @@ I found the missing battery in the I Group of the 12th "Sila" Artillery Regiment
 
 The old 340-gun number is a little cursed and in current versions I've often ignored it. But there is at least some historical basis for its existence.
 That is, if we ignore the 39 AT guns inside the tanks and add instead the 42 20/65 (or 20mm in general) guns, the total moves from 337 artillery and anti-tank guns to 340.
+While Niehorster doesn't include this information, the standard Italian artillery battery consisted of a firing battery (platoon level), along with a headquarters and train.
+The firing battery represented about 50% of the strength of the battery as a whole, with 71 out of 128 men. I don't know if the Guardia alla Frontiera followed the same rules.
+
+The 63rd Replacement Battalion managed to last long enough to be destroyed at the Derna position. A "training battalion" of the 115th Infantry Regiment's Depot (maybe the 62nd Replacement Battalion).
 
 

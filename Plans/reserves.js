@@ -2628,5 +2628,19 @@ reserves=[
         elements:[
             {type:`Ruined Artillery Piece`},
         ],
+    },{
+        level:6,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`75/27 Platoon`,`Plotone da 75/27`],name:`75/27`,designation:``,commander:``,icon:``,
+        pos:[2206,1057],
+        elements:[
+            {type:`3-Gun Ruined Static Artillery Battery`},
+        ],
+    },{
+        level:6,type:[`Artillery`],team:`Italian`,
+        desc:[`Mixed Battery, 22nd Corps Artillery Regiment`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``,
+        pos:[0,0],
+        elements:[
+            {type:`Ruined Artillery Battery`},
+        ],
     },
 ]
