@@ -2749,5 +2749,13 @@ reserves=[
         elements:[
             {type:`Motorized Engineer Company`},
         ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`,`Motorized`],team:`Italian`,
+        desc:[`11th Bersaglieri Battalion`,`11° Battaglione Bersaglieri`],name:`11`,designation:`Bersaglieri`,commander:`Straziota`,icon:`trento`,
+        pos:[2182,1194],
+        elements:[
+            {level:5,type:`Motorized Machine Gun Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`11`,commander:``},
+            {level:5,type:`Motorized Machine Gun Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`11`,commander:``},
+        ],
     },
 ]
