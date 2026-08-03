@@ -495,7 +495,7 @@ export class unit{
                 layer.push()
                 if(this.parent==-1){
                     layer.translate(layer.width/2,layer.height/2)
-                    layer.scale(min(layer.width/this.orderView.width,layer.height/this.orderView.height))
+                    layer.scale(min(layer.width/(this.orderView.width+10),layer.height/(this.orderView.height+10)))
                     layer.translate(0,-this.orderView.height/2+this.height/2+5)
                 }else{
                     layer.translate(0,this.height/2+5)

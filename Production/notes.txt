@@ -4173,5 +4173,83 @@ The 65/17 was used as a standard mountain gun in World War I. By the second war,
 This is why the 65/17 became an infantry gun, replacing the 37/10 (of M11/39 fame) which had evidently become two weak and obsolete for use in a modern war, though the 65/17 was near obsolete as well.
 
 According to Montanari's maps of Crusader, Amseat was not a single place, but rather, a geographical feature, probably a ridge. This may be why I could never find its precise location.
+The Giovani Fascisti regiment had a 47/32 anti-tank company and 81/41 mortar company formed for it prior to Crusader. I think these units would've been with the regiment/battalion group at Bir el Gubi.
+In my (reduced) world, the Raggruppamento Artiglieria "Sirte" was formed from reforming the remnants of the G.a.F. artillery groups, specifically the 6th and 7th Groups.
+Since these groups would've lost all of their guns in Compass, they would need to be replenished with three fresh artillery batteries each. These would probably be 75/27 or 77/28 groups left by other G.a.F.
+Since in my world these would've been from the Tobruk Fortress and not from the G.a.F. on the Tunisian border (Nalut-Zuara sector), so this would be 77/28 guns (there were no 75/27 in Tripoli).
+
+Here's my attempt to track the reorganization of the Tripoli G.a.F.:
+Original Fortress Tripoli (10 June 1940)
+    33rd Raggruppamento (6/16)
+    34th Raggruppamento (6/15)
+    35th Raggruppamento (3/9)
+    Southeast Raggruppamento (2/6)
+Restructured (5 April 1941)
+    330th Raggruppamento (4/12)
+        332nd Group (2 149/12, 1 210/8, 1 77/28)
+        333rd Group (3 149/35)
+        334th Group (3 77/28)
+        342nd Group (2 77/28)
+    340th Raggruppamento (4/10)
+        335th Group (3 149/12) (823, 835, 852)
+        343rd Group (2 77/28)
+        344th Group (3 77/28)
+        5th Group (2 105/28)
+    350th Raggruppamento (4/9)
+        341st Group (2 149/35)
+        345th Group (2 120/25) (847, 850)
+        351st Group (2 77/28)
+        1st Group (2 120/35, 1 100/17)
+    Eastern Coastal Sector
+        7th Group (2 77/28, 1 149/12)
+        352nd Group (2 77/28) (Dissolved 31 July 1941)
+    300th Raggruppamento (3 Groups)
+    310th Raggruppamento (4 Groups)
+    320th Raggruppamento (3 Groups)
+    The Libyan Sahara also had four 77/28 batteries
+    (These groups share the numbers of the units destroyed in Bardia and Tobruk. They are highly historically questionable.)
+    (But ohw they got here is likely explained by the next restructuring OOB which puts the in Tripoli)
+Restructured Again (1 December 1941)
+    33rd Coverage Sector (Zanzur)
+        33rd/A Subsector (Sidi Bilal)
+        33rd/B Subsector (Castel Lupini)
+        33rd/C Subsector (Castel Sottocasa)
+    34th Coverage Sector (Bir ben Milad)
+        34th/A Subsector (Bir ben Milad)
+        34th/B Subsector (Km 30.5 per Homs)
+    35th Coverage Sector (Castel Benito)
+        35th/A Subsector (Castel Benito)
+        35th/B Subsector (Bir Langar)
+        35th/C Subsector (Suani ben Adem)
+    35th Infantry Battalion G.a.F. (El Hagiarsa) (Coastal Defense)
+    30th Coastal Artillery Raggruppamento (Unknown Subelements)
+    31st Coastal Artillery Raggruppamento (Unknown Subelements)
+    34th Coastal Artillery Raggruppamento (Unknown Subelements)
+    (It's possible that all three of these regiments were wiped out, since we know the 340th Group was lost in Crusader)
+    330th Artillery Raggruppamento (Bir Zarug)
+        332nd Group (
+            821 of 77/28,
+            822, 834 of 75/27,
+            861, 868 of 100/17
+        ) (Km 32 Per Homs)
+    350th Artillery Raggruppamento (Castel Benito)
+        335th Group (823, 835, 852 of 149/12) (Suani ben Adem)
+        (The 823rd Group had been removed or destroyed by the 23rd of December)
+        345th Group (847, 850 of 120/25) (Castel Sait)
+        353rd Group (849, 851, 859 of 120/25) (Bir Tobraz)
+    34rd Mixed Engineer Battalion
+        Artieri Company
+        Signals Company
+        Firefighting Company
+Based on this information, I can't really know anything about the 283rd and 284th Groups that were sent with the Sabratha Division.
+Two groups with these numbers do show up with the 280th Raggruppamento on the 23rd of December (Ascoli page 361), but both of them are given 77/28 guns so they probably aren't the same.
+
+The 580th Reconaissance Company (sometimes incorrectly called a battalion) had a pioneer platoon, armored car platoon, and anti-tank platoon. This was a pretty abnormal organization.
+Other than the 200th and 361st Light Infantry Regiments, Menny during Gazala had the 533rd Coastal Artillery Battalion, the 3rd Company of the 523rd Coastal Artillery Battalion, and the 612th Flak Battalion.
+Some claim that the two infantry regiments also had engineer companies, but I find this hard to believe. There were no such spare engineer companies lying around in the Afrika Korps.
+The panzergrenadier regiments of the 15th and 21st Panzer Divsiions did have a 14th engineer company, but they had three battalions and were the only infantry regiments in their divisions.
+On the other hand, the 90th Light Division was already short of engineers with only the weak 900th Pioneer Battalion and no loose ones that could be grabbed up.
+
+The 3rd Indian Motor Brigade was supported during Sonnenblume by a company from the 2/3rd Australian Anti-Tank Regiment and the 35th Field Squadron, Royal Engineers.
 
 

@@ -424,6 +424,7 @@ export function see(){
         unit.fade.statTrigger=true
     })
     window.current.cities.forEach(city=>city.fade.revealTrigger=true)
+    window.current.units.forEach(unit=>unit.fade.hide=false)
 }
 export function battalions(){
     let constants={minLevel:4}

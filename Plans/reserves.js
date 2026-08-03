@@ -2757,5 +2757,109 @@ reserves=[
             {level:5,type:`Motorized Machine Gun Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`11`,commander:``},
             {level:5,type:`Motorized Machine Gun Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`11`,commander:``},
         ],
+    },{
+        level:3,type:[`Infantry`],team:`German`,
+        desc:[`Fortress Bardia`,`Piazza di Bardia`],name:`Bardia`,designation:``,commander:`Schmitt`,icon:``,
+        pos:[2254,671],
+        elements:[
+            {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 15th Infantry Regiment`,`II Battaglione Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`2`,designation:`15`,commander:`Russo`},
+            {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 16th Infantry Regiment`,`II Battaglione Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`2`,designation:`16`,commander:`Aveta`},
+        ],
+    },{
+        level:5,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
+        desc:`No. 2 Armoured Car Company, Royal Air Force`,name:`2`,designation:`RAF`,commander:``,icon:``,
+        pos:[3900,1786],
+        elements:[
+            {type:`Armored Car Company`},
+        ],
+    },{
+        level:4,type:[`Engineer`],team:`Italian`,
+        desc:[`61st Mixed Engineer Battalion`,`LXI Battaglione Misto gGnio`],name:`61`,designation:``,commander:``,icon:`sirte`,
+        pos:[2309,661],
+        elements:[
+            {
+                level:5,type:[`Engineer`],team:`Italian`,
+                desc:[`35th Engineer Company`,`35ª Compagnia Artieri`],name:`35`,designation:``,commander:``,icon:`sirte`,
+                pos:[2211,698],
+                elements:[
+                    {type:`Engineer Company`},
+                ],
+            },{
+                level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                pos:[2464,710],
+                elements:[
+                    {type:`Mixed Engineer Company`},
+                ],
+            },
+        ],
+    },{
+        level:5,type:[`Infantry`],team:`Italian`,
+        desc:[`63rd Garrison Company`,`63ª Compagnia Presidiaria`],name:`63`,designation:`Presidiaria`,commander:``,icon:`cirene`,
+        pos:[905,508],
+        elements:[
+            {type:`Small Ruined Infantry Company`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Motorized`],team:`Italian`,
+        desc:[`Battalion Regrouping "Giovani Fascisti"`,`Raggruppamento Battaglioni "Giovani Fascisti"`],name:`Giovani\nFascisti`,designation:``,commander:`Nannini`,icon:``,
+        pos:[946,961],
+        elements:[
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`1st Battalion "Giovani Fascisti"`,`I Battaglione "Giovani Fascisti"`],name:`1`,designation:`Giovani\nFascisti`,commander:`Balisti`},
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion "Giovani Fascisti"`,`II Battaglione "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Benedetti`},
+            {level:4,type:`Motorized Militia`,team:`Italian`,desc:[`2nd Battalion "Giovani Fascisti"`,`II Battaglione "Giovani Fascisti"`],name:`2`,designation:`Giovani\nFascisti`,commander:`Baldassari`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`Artillery Regrouping "Sirte"`,`Raggruppamento Artiglieria "Sirte"`],name:`Sirte`,designation:``,commander:`Mascagna`,icon:`sirte`,
+        pos:[221,747],
+        elements:[
+            {
+                level:4,type:[`Artillery`],team:`Italian`,
+                desc:[`6th Group, 31st Frontier Guard Artillery Regiment`,`VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`6`,designation:`31`,commander:`Tramontin`,icon:``,
+                pos:[344,608],
+                elements:[
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`1st Battery, 6th Group, 31st Frontier Guards Artillery Regiment`,`1ª Batteria, VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`6`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 6th Group, 31st Frontier Guards Artillery Regiment`,`2ª Batteria, VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`6`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 6th Group, 31st Frontier Guards Artillery Regiment`,`3ª Batteria, VI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`6`,commander:``},
+                ],
+            },{
+                level:4,type:[`Artillery`],team:`Italian`,
+                desc:[`7th Group, 31st Frontier Guard Artillery Regiment`,`VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`7`,designation:`31`,commander:`Verna`,icon:``,
+                pos:[373,836],
+                elements:[
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`1st Battery, 7th Group, 31st Frontier Guards Artillery Regiment`,`1ª Batteria, VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`1`,designation:`7`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 7th Group, 31st Frontier Guards Artillery Regiment`,`2ª Batteria, VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`2`,designation:`7`,commander:``},
+                    {level:5,type:`Small Fast Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 7th Group, 31st Frontier Guards Artillery Regiment`,`3ª Batteria, VII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`3`,designation:`7`,commander:``},
+                ],
+            },
+        ],
+    },{
+        level:5,type:[`Infantry`],team:`Italian`,
+        desc:[`Delaying Action Company`,`Compagnia Combattimenti di Arresto`],name:`Arresto`,designation:`Desposito`,commander:``,icon:`marmarica`,
+        pos:[2370,585],
+        elements:[
+            {level:6,type:`Small Ruined Infantry Platoon`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+            {level:6,type:`Small Ruined Infantry Platoon`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unified Depot`,`Deposito Unico di Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Italian`,desc:[`Carabinieri Station`,`Stazione dei Carabinieri`],name:`Stazione`,designation:`Carabinieri`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Station`,`Stazione di Guardia alla Frontiera`],name:`Stazione`,designation:``,commander:``,icon:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+        desc:[`61st Machine Gun Battalion`,`LXI Battaglione Mitraglieri`],name:`61`,designation:``,commander:`Pcres`,icon:`sirte`,
+        pos:[1170,545],
+        elements:[
+            {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 61st Machine Gun Battalion`,`1ª Compagnia, LXI Battaglione Mitraglieri`],name:`1`,designation:`61`,commander:``},
+            {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 61st Machine Gun Battalion`,`2ª Compagnia, LXI Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``},
+            {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Company, 61st Machine Gun Battalion`,`3ª Compagnia, LXI Battaglione Mitraglieri`],name:`3`,designation:`61`,commander:``},
+            {level:5,type:`Heavy Machine Gun Company`,team:`Italian`,desc:[`4th Company, 61st Machine Gun Battalion`,`4ª Compagnia, LXI Battaglione Mitraglieri`],name:`4`,designation:`61`,commander:``},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Motorized`,`Tank`],team:`German`,
+        desc:[`10th (Self-Propelled) Battery, 33rd Artillery Regiment`,`10(sfl)./Artillerie-Regiment (mot.) 33`],name:`10`,designation:`33`,commander:``,icon:`15pz`,
+        pos:[0,0],
+        elements:[
+            {type:`Motorized Heavy Artillery Battery`},
+        ],
     },
 ]
