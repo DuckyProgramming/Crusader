@@ -1,4 +1,4 @@
-/The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
+The 7th Bersaglieri Regiment had only two battalions, the 10th and 11th. The 8th was disbanded in September due to losses.
 For the Battleaxe scenario ONLY can this 8th battalion be used. It's worth noting the battalion did attempt to reform, but was destroyed again at Gialo (technically part of Crusader, but very far off.)
 On the other hand, the 9th Bersaglieri Battalion had four battalions. It likely had three back in Italy (which appears on most orders of battle) but received a fourth in Africa.
 Two of them were disbanded or destroyed due to the severe losses suffered by this regiment during Crusader.
@@ -359,6 +359,7 @@ The tank destroyer was a bit of a janky mess, had completely useless 4.5mm armor
 Unluckily, I don't think the "Diana" nickname was ever actually given to the unit during this time. A later production run did use it but I don't think they made it to Africa.
 Also, the nickname may have been given by the British and later adopted by the Germans, which complicates matters.
 So, I think I'm not gonna end up adding this unit after all. It's for a battalion that doesn't exist and is historically quite unclear.
+They also were not present for Crusader, arriving only in January 1942, though they did manage to participate in the battles after that.
 
 For future reference, a standard Italian tank battalion has a much simpler structure than that of any other nation. There are 46 tanks total, in three companies of 15 each, and one command tank.
 Each company had 3 platoons, with 5 tanks each. Later in the war, many companies would receive an additional radio-equipped tank to improve communications, but this wasn't active in 1940.
@@ -1054,6 +1055,17 @@ In May 1942, it was reformed into the 136th Artillery Regiment, with the followi
 Some sources disagree that the 13th Independent Battery had 100/17s, instead claiming that it was the 14th that had this armament.
 Either way, this battery's four guns were lost by friendly fire during Crusader. Some claim a single gun survived but was later lost within a few months.
 The 13th 20/65 battery was renamed the 88th by the time this unit was fully attached to the Giovani Fascisti Armored Divison in January 1943.
+
+The Giovani Fascisti Battalion Group had the following OOB:
+HQ Company
+MG Company
+Transport Company
+81/14 Platoon
+47/32 Platoon
+1st Battalion (3 Companies)
+2nd Battalion (3 Companies)
+1 Light Tank Company (From the 3rd Light Tank Battalion, Bir el Gubi Only)
+Elements of the 8th and 9th Bersaglieri Regiments (Bir el Gubi Only)
 
 So, um, I screwed thsi up. While the RBV order of battle is mostly correct, I made some misplays with the structure of the rest of RECAM. Let's give this another attempt.
 There is no random motorzied machine gun battalion. The Romolo Gessi Battalion was a machine gun unit, as it was possible to mount the MGs on the handlbars of the motorcycles.
@@ -4246,10 +4258,36 @@ Two groups with these numbers do show up with the 280th Raggruppamento on the 23
 
 The 580th Reconaissance Company (sometimes incorrectly called a battalion) had a pioneer platoon, armored car platoon, and anti-tank platoon. This was a pretty abnormal organization.
 Other than the 200th and 361st Light Infantry Regiments, Menny during Gazala had the 533rd Coastal Artillery Battalion, the 3rd Company of the 523rd Coastal Artillery Battalion, and the 612th Flak Battalion.
-Some claim that the two infantry regiments also had engineer companies, but I find this hard to believe. There were no such spare engineer companies lying around in the Afrika Korps.
+These two coastal artillery battalions were two of four that Rommel's corps had received. All were armed with captured 15cm French guns and rarely if ever show up in the narrative.
+
+Some claim that the two (200th and 361st) infantry regiments also had engineer companies, but I find this hard to believe. There were no such spare engineer companies lying around in the Afrika Korps.
 The panzergrenadier regiments of the 15th and 21st Panzer Divsiions did have a 14th engineer company, but they had three battalions and were the only infantry regiments in their divisions.
 On the other hand, the 90th Light Division was already short of engineers with only the weak 900th Pioneer Battalion and no loose ones that could be grabbed up.
 
 The 3rd Indian Motor Brigade was supported during Sonnenblume by a company from the 2/3rd Australian Anti-Tank Regiment and the 35th Field Squadron, Royal Engineers.
+
+For the Polish Independent Carpathian Brigade, unsurprisingly, Polish Wikipedia has a lot more detail about its sub-elements and their commanders than English Wikipedia does.
+It had the following exact structure, all taken from Polish Wikipedia:
+Brigade Headquarters
+Note: the "Carpathian" designation wasn't just a name, the units did actually have a light mountain disposition
+    Brigade Infantry Command - Walenty Peszek (Dowództwo Piechoty Brygady)
+        1st Carpathian Rifle Battalion (1st-4th Companies)
+        2nd Carpathian Rifle Battalion (1st-4th Companies)
+        3rd Carpathian Rifle Battalion (1st-4th Companies)
+            4th Company - Czesław Hanus
+    Independent Heavy Machine Gun Company - Malik Somchjanc (Samodzielna Kompania Ciężkich Karabinów Maszynowych)
+    Carpathian Artillery Regiment - Stanisław Gliwicz
+        1st Light Artillery Squadron - Juliusz Możdżeń (I Dywizjon Artylerii Lekkiej) (3 Batteries of 4 Guns Each)
+        2nd Heavy Artillery Squadron - Franciszek Kikal (II Dywizjon Artylerii Ciężkiej) (3 Batteries of 4 Guns Each)
+        3rd Horse Artillery Squadron - Emil Sikorski (III Dywizjon Artylerii Konnej) (3 Batteries of 4 Guns Each)
+        Note: these different squadron names didn't actually mean anything
+        Note: the batteries were numbered 1-9
+    Carpathian Anti-Tank Artillery Squadron - Cieszkowski (Karpacki Dywizjon Artylerii Przeciwpancernej)
+    Carpathian Uhlans Regiment (Motorized acting as reconaissance)
+        1st Squadron - Stanisław Kałusowski
+        2nd Squadron - Antoni Smodlibowski
+        3rd Squadron - Antoni Kawecki
+    Sapper Squad (Oddział Saperów) - Władysław Rakowski (Company Size)
+    Total: 27 Companies
 
 

@@ -428,19 +428,24 @@ export function see(){
 }
 export function battalions(){
     let constants={minLevel:4}
-    let totals=[0,0,0,0]
+    let totals=[0,0,0]
+    let base=types.map[current.map].unit[current.set].strength.num.flat()
+    if(base[1]>0&&base[2]>0){
+        totals.push(0)
+        base.push(base[1]+base[2])
+    }
     window.current.units.forEach(unit=>{
         if(unit.active&&!(unit.level>=constants.minLevel+1&&unit.parent.level==constants.minLevel)){
             //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
             if(unit.level==constants.minLevel&&unit.contain.units.length>0&&unit.contain.units.every(element=>element.level>=constants.minLevel+1)){
                 totals[unit.player]++
-                if(unit.player>=1){
+                if(unit.player>=1&&totals.length>3){
                     totals[3]++
                 }
             }else if(unit.contain.trigger){
                 unit.contain.units.forEach(contain=>{
                     totals[contain.player]++
-                    if(unit.player>=1){
+                    if(unit.player>=1&&totals.length>3){
                         totals[3]++
                     }
                 })
@@ -448,13 +453,16 @@ export function battalions(){
         }
     })
     let term=[...types.player.map(item=>item.name),`Axis`]
-    let base=types.map[current.map].unit[current.set].strength.num.flat()
-    base.push(base[1]+base[2])
     print(`${totals.map((total,index)=>`${term[index]}: ${total}/${base[index]}`).join(`\n`)}`)
 }
 export function companies(){
     let constants={minLevel:4}
-    let totals=[0,0,0,0]
+    let totals=[0,0,0]
+    let base=types.map[current.map].unit[current.set].strength.num.flat()
+    if(base[1]>0&&base[2]>0){
+        totals.push(0)
+        base.push(base[1]+base[2])
+    }
     window.current.units.forEach(unit=>{
         if(unit.active){
             //unit.contain.units.forEach(contain=>{if(contain.level!=constants.minLevel+1){totals[contain.player]++}})
@@ -462,7 +470,7 @@ export function companies(){
                 if(unit.level>=constants.minLevel+1&&(unit.parent==-1||unit.parent.level>=constants.minLevel)){
                     if(unit.level<=constants.minLevel+1){
                         totals[unit.player]++
-                        if(unit.player>=1){
+                        if(unit.player>=1&&totals.length>3){
                             totals[3]++
                         }
                     }
@@ -475,7 +483,7 @@ export function companies(){
                     if(unit.contain.units.some(contain=>contain.level==unit.level)||unit.level>=constants.minLevel+1){
                         if(unit.level<=constants.minLevel+1){
                             totals[unit.player]++
-                            if(unit.player>=1){
+                            if(unit.player>=1&&totals.length>3){
                                 totals[3]++
                             }
                         }
@@ -497,12 +505,12 @@ export function companies(){
                             }*/
                             if(contain.level==constants.minLevel){
                                 totals[contain.player]+=4
-                                if(unit.player>=1){
+                                if(unit.player>=1&&totals.length>3){
                                     totals[3]+=4
                                 }
                             }else if(contain.level==constants.minLevel+1){
                                 totals[contain.player]++
-                                if(unit.player>=1){
+                                if(unit.player>=1&&totals.length>3){
                                     totals[3]++
                                 }
                             }
@@ -513,12 +521,15 @@ export function companies(){
         }
     })
     let term=[...types.player.map(item=>item.name),`Axis`]
-    let base=types.map[current.map].unit[current.set].strength.num.flat()
-    base.push(base[1]+base[2])
     print(`${totals.map((total,index)=>`${term[index]}: ${total}/${base[index]}`).join(`\n`)}`)
 }
 export function strength(){
-    let totals=[[[0,0],[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0],[0,0]],[[0,0],[0,0],[0,0],[0,0]]]
+    let totals=[
+        [[0,0],[0,0],[0,0],[0,0]],
+        [[0,0],[0,0],[0,0],[0,0]],
+        [[0,0],[0,0],[0,0],[0,0]],
+        [[0,0],[0,0],[0,0],[0,0]]
+    ]
     window.current.units.forEach(unit=>{
         if(unit.contain.trigger&&unit.active){
             unit.calculateElements()
@@ -551,6 +562,12 @@ export function strength(){
         }
     })
     let term=[...types.player.map(item=>item.name),`Axis`]
+    if(
+        totals[1][0][1]==0&&totals[1][1][1]==0&&totals[1][2][1]==0&&totals[1][3][1]==0||
+        totals[2][0][1]==0&&totals[2][1][1]==0&&totals[2][2][1]==0&&totals[2][3][1]==0
+    ){
+        totals.splice(3,1)
+    }
     print(totals.map((total,index)=>`${term[index]}:\n${total.map((set,index)=>`${set[0]}/${set[1]} ${[`Infantry`,`Vehicles`,`Artillery`,`Mortars`][index]}`).join(`\n`)}`).join(`\n\n`))
 }
 export function normalize(){

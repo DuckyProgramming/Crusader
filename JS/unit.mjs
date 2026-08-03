@@ -844,6 +844,9 @@ export class unit{
                     layer.fill(255,fade)
                     layer.textSize(this.rules.size[0])
                     layer.strokeWeight(this.rules.size[0]/5)
+                    if(this.designation.includes(`\n`)){
+                        layer.textLeading(min(2,this.rules.size[0]*1.05))
+                    }
                     layer.text(this.designation,this.rules.pos[0].x,this.rules.pos[0].y)
                     layer.textSize(this.rules.size[1])
                     layer.strokeWeight(max(0.3,this.rules.size[1]/10))

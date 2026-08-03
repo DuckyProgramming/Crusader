@@ -2861,5 +2861,36 @@ reserves=[
         elements:[
             {type:`Motorized Heavy Artillery Battery`},
         ],
+    },{
+        level:2,type:[`Infantry`],team:`Polish`,
+        desc:[`Polish Independent Carpathian Brigade`,`Samodzielna Brygada Strzelców Karpackich`],name:`C`,designation:``,commander:`Kopański`,icon:`70`,
+        pos:[1953,570],
+        elements:[
+            {level:4,type:`Infantry`,team:`Polish`,desc:[`1st Carpathian Rifle Battalion`,`1 Batalion Strzelców Karpackich`],name:`1`,designation:``,commander:`Kopeć`},
+            {level:4,type:`Infantry`,team:`Polish`,desc:[`2nd Carpathian Rifle Battalion`,`2 Batalion Strzelców Karpackich`],name:`2`,designation:``,commander:`Brzósko`},
+            {level:4,type:`Infantry`,team:`Polish`,desc:[`3rd Carpathian Rifle Battalion`,`3 Batalion Strzelców Karpackich`],name:`3`,designation:``,commander:`Sokol`},
+            {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
+            {level:4,type:`Machine Gun`,team:`Polish`,desc:[`Carpathian "Uhlans" Machine Gun Battalion`,`Pułk Ułanów Karpackich`],name:`U`,designation:``,commander:`Bobiński`},
+            {level:4,type:`Artillery`,team:`Polish`,desc:[`Carpathian Artillery Regiment`,`Karpacki Pułk Artylerii`],name:`C`,designation:``,commander:`Gliwicz`},
+            {level:4,type:`Reinforced Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Musaid Garrison`,`Ridotta Musaid`],name:`Musaid`,designation:``,commander:``,icon:`trento`,
+        pos:[1152,670],
+        elements:[
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`11`,commander:``},
+            {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`9th Company, 61st Motorized Infantry Regiment "Sicilia"`,`9ª Compagnia Cannoni Controcarro, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`9`,designation:`61`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`6th Battery, 46th Artillery Regiment`,`6ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`6`,designation:`46`,commander:``},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`German`,
+        desc:[`Defense Point 206`,`Stützpunkt 206`],name:`206`,designation:`3/15`,commander:``,icon:`15pz`,
+        pos:[1038,754],
+        elements:[
+            {level:5,type:`Motorcycle Infantry Company`,team:`German`,desc:[`3rd Company, 15th Motorcycle Battalion`,`3./Kradschützen-Bataillon 15`],name:`3`,designation:`15`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`7th Battery, 46th Artillery Regiment`,`7ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`7`,designation:`46`,commander:``,icon:`trento`},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`8th Battery, 46th Artillery Regiment`,`8ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`8`,designation:`46`,commander:``,icon:`trento`},
+        ],
     },
 ]
