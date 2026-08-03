@@ -4145,4 +4145,21 @@ In general, the addition of this extra battery has been catalyst for an increase
 The 2 77/28 guns at Point 71 are not only mentioned in Montanari's map. Their existence is confirmed by a message from Pitassi Manella calling for them to fire on the troops attacking his headquarters.
 The Free French troops besieging Tobruk, were, according to Montanari, placed under the command of the 7th Support Group. No 7th Armoured Division information yet supports this.
 
+Attempting to build a setup for the AT guns of the western sector.
+They included: 18 20/65, 20 47/32, 13 65/17
+Sector West - 51 AT Guns
+    Subsector A - 22 AT Guns
+        Strongpoint Hagfet Umm Haleiga - 5 AT Guns (3 20/65, 2 47/32)
+        Strongpoint Sidi Cheiralla - 5 AT Guns (3 20/65, 2 47/32)
+        Strongpoint Bir el Faras - 6 AT Guns (2 20/65, 2 47/32, 2 65/17)
+        Strongpoint Bir eg Giasc - 6 AT Guns (2 20/65, 2 47/32, 2 65/17)
+    Subsector B - 19 AT Guns
+        Strongpoint Bir el Medauuar - 7 AT Guns (3 20/65, 2 47/32, 2 65/17)
+        Strongpoint Ras el Medauuar - 6 AT Guns (3 20/65, 2 47/32, 1 65/17)
+        Strongpoint Ras es Sehel - 6 AT Guns (2 20/65, 2 47/32, 2 65/17)
+    Subsector C - 10 AT Guns
+        Strongpoint Es Sehel - 3 AT Guns (2 47/32, 1 65/17)
+        Strongpoint Bir el Meclub - 4 AT Guns (2 47/32, 2 65/17)
+        Strongpoint Umm Cuheil - 3 AT Guns (2 47/32, 1 65/17)
+
 

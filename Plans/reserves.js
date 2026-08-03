@@ -2679,5 +2679,75 @@ reserves=[
             {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
             {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
         ],
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`XXXI`,commander:``,icon:``,
+        pos:[2368,1746],
+        elements:[
+            {type:`Static Machine Gun Company`},
+            {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:``,icon:``,
+        pos:[1532,1601],
+        elements:[
+            {type:`Static Machine Gun Company`},
+            {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:4,type:[`Engineer`],team:`Italian`,
+        desc:[`61st Mixed Engineer Battalion`,`LXI battaglione misto genio`],name:`61`,designation:``,commander:``,icon:`sirte`,
+        pos:[2309,661],
+        elements:[
+            {
+                level:5,type:[`Engineer`],team:`Italian`,
+                desc:[`35th Engineer Company`,`35ª Compagnia Artieri`],name:`35`,designation:``,commander:``,icon:`sirte`,
+                pos:[2211,698],
+                elements:[
+                    {type:`Engineer Company`},
+                ],
+            },{
+                level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                pos:[2464,710],
+                elements:[
+                    {type:`Mixed Engineer Company`},
+                ],
+            },
+        ],
+    },{
+        level:4,type:[`Recon`],team:`Italian`,
+        desc:[`Rapid Unit`,`Unità Celere`],name:`Celere`,designation:``,commander:``,icon:``,
+        pos:[2520,881],
+        elements:[
+            {level:5,type:`Small Medium Tank Company`,team:`Italian`,desc:[`1st Company, 1st Tank Battalion`,`1ª Compagnia, I Battaglione Carri M`],name:`1`,designation:`1`,commander:``,icon:`4ti`},
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``},
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`},
+            {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`AA`,designation:`4 TI`,commander:``,icon:`4ti`},
+            {level:5,type:`Motorized Anti-Air Company`,team:`Italian`,desc:[`10th Battery, 20th Corps Artillery Regiment`,`10ª Batteria, 20° Raggruppamento Artiglieria di Corpo d'Armata`],name:`10`,designation:`20 Corps`,commander:``,icon:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`},
+            {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`},
+            {level:5,type:`Motorized Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`},
+            {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 69th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+            {level:6,type:`Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 2nd Battalion, 69th Infantry Regiment`,`Plotone Arditi, 2ª Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`},
+            {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+            {level:6,type:`Ruined Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+        ],
+    },{
+        level:6,type:[`Infantry`,`Heavy`],team:`Italian`,
+        desc:[`1st Platoon, 4th Company, 70th Infantry Regiment`,`1° Plotone, 4ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`4`,commander:``,icon:`sirte`,
+        pos:[1952,1492],
+        elements:[
+            {type:`Heavy Infantry Platoon`},
+        ],
+    },{
+        level:5,type:[`Engineer`,`Motorized`],team:`Australian`,
+        desc:[`3rd Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/3rd Field Company, Royal Australian Engineers`],name:`2/3`,designation:``,commander:``,icon:`6a`,
+        pos:[3259,1907],
+        elements:[
+            {type:`Motorized Engineer Company`},
+        ],
     },
 ]

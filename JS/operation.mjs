@@ -18,7 +18,7 @@ export class operation{
             bonus:false,partition:[],translate:-1,
             //old:false
         }
-        this.anim={main:0,prep:0,start:[0,0,0],select:0,translate:0,selectTrigger:false}
+        this.anim={main:0,prep:0,start:[0,0,0,0],select:0,translate:0,selectTrigger:false}
         //start:0,startOld:0
         this.hist={time:0,tick:0,limit:45}
         this.inspect={units:[]}
@@ -981,6 +981,9 @@ export class operation{
                                     case `Tobruk Event`:
                                         this.turn.set=2
                                     break
+                                    case `Old Tobruk Event`:
+                                        this.turn.set=3
+                                    break
                                     case `Legacy Modes`:
                                         window.open(`Legacy/Crusader`)
                                     break
@@ -1091,6 +1094,9 @@ export class operation{
                                     break
                                     case `Tobruk Event`:
                                         this.turn.set=2
+                                    break
+                                    case `Old Tobruk Event`:
+                                        this.turn.set=3
                                     break
                                     case `Legacy Modes`:
                                         window.open(`Legacy/Crusader`)
