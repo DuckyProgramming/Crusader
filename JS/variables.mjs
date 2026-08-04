@@ -25207,7 +25207,7 @@ export var types={
                 //mark reduced
                 {
                     name:`Capture of Tobruk - REDUCED`,
-                    strength:{name:`Companies`,num:[[72],[0,128]]},partition:[[0],[2]],bonus:1,
+                    strength:{name:`Companies`,num:[[64],[0,128]]},partition:[[0],[2]],bonus:1,
                     set:2,
                     unit:[
                         {
@@ -26219,32 +26219,6 @@ export var types={
                                                 {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`X Company, 1st Battalion, Royal Northumberland Fusiliers`,name:`X`,designation:`1 RNF`,commander:``},
                                                 {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`Y Company, 1st Battalion, Royal Northumberland Fusiliers`,name:`Y`,designation:`1 RNF`,commander:``},
                                                 {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`Z Company, 1st Battalion, Royal Northumberland Fusiliers`,name:`Z`,designation:`1 RNF`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Infantry`,`Machine Gun`,`Motorized`],team:`British`,
-                                            desc:`1st Battalion, Cheshire Regiment`,name:`1`,designation:`Cheshire`,commander:``,icon:``,
-                                            pos:[3767,1862],
-                                            elements:[
-                                                {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`W Company, 1st Battalion, Cheshire Regiment`,name:`W`,designation:`1 CR`,commander:``},
-                                                {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`X Company, 1st Battalion, Cheshire Regiment`,name:`X`,designation:`1 CR`,commander:``},
-                                                {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`Y Company, 1st Battalion, Cheshire Regiment`,name:`Y`,designation:`1 CR`,commander:``},
-                                                {level:5,type:`Motorized Machine Gun Company`,team:`British`,desc:`Z Company, 1st Battalion, Cheshire Regiment`,name:`Z`,designation:`1 CR`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`51st (Westmoreland and Cumberland) Battalion, Royal Artillery`,`51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery`],name:`51`,designation:`Westmoreland\n& Cumberland`,commander:``,icon:``,
-                                            pos:[3055,1778],
-                                            elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`203rd Battery, Royal Artillery`,name:`203`,designation:`51 RA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:`370th Battery, Royal Artillery`,name:`370`,designation:`51 RA`,commander:``},
-                                            ],
-                                        },{
-                                            level:4,type:[`Artillery`,`Motorized`],team:`British`,
-                                            desc:[`104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`104`,designation:`Royal\nHorse`,commander:`Matthew`,icon:`7a`,
-                                            pos:[3403,1652],
-                                            elements:[
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`339th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`339th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`339`,designation:`104 RHA`,commander:``},
-                                                {level:5,type:`Motorized Artillery Battery`,team:`British`,desc:[`414th Battery, 104th (Essex Yeomanry) Battalion, Royal Horse Artillery`,`414th Battery, 104th (Essex Yeomanry) Regiment, Royal Horse Artillery`],name:`414`,designation:`104 RHA`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Tank`,`Light`],team:`Australian`,
