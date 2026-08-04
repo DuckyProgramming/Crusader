@@ -1,5 +1,5 @@
 import {dev,graphics,constants,inputs,types,options} from './variables.mjs'
-import {see,battalions,companies,strength,normalize,summon,kills,outPos,filterClass,destroy} from './functions.mjs'
+import {see,battalions,companies,strength,normalize,summon,kills,outPos,filterClass,destroy,numLevel} from './functions.mjs'
 import {setupGraphics,displayMain} from './graphics.mjs'
 import {operation} from './operation.mjs'
 var current
@@ -62,3 +62,4 @@ window.kills=kills
 window.outPos=outPos
 window.filterClass=filterClass
 window.destroy=destroy
+window.numLevel=numLevel

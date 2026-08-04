@@ -2766,34 +2766,6 @@ reserves=[
             {level:4,type:`Infantry`,team:`Italian`,desc:[`2nd Battalion, 16th Infantry Regiment`,`II Battaglione Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`2`,designation:`16`,commander:`Aveta`},
         ],
     },{
-        level:5,type:[`Tank`,`Recon`,`Tracked`],team:`British`,
-        desc:`No. 2 Armoured Car Company, Royal Air Force`,name:`2`,designation:`RAF`,commander:``,icon:``,
-        pos:[3900,1786],
-        elements:[
-            {type:`Armored Car Company`},
-        ],
-    },{
-        level:4,type:[`Engineer`],team:`Italian`,
-        desc:[`61st Mixed Engineer Battalion`,`LXI Battaglione Misto gGnio`],name:`61`,designation:``,commander:``,icon:`sirte`,
-        pos:[2309,661],
-        elements:[
-            {
-                level:5,type:[`Engineer`],team:`Italian`,
-                desc:[`35th Engineer Company`,`35ª Compagnia Artieri`],name:`35`,designation:``,commander:``,icon:`sirte`,
-                pos:[2211,698],
-                elements:[
-                    {type:`Engineer Company`},
-                ],
-            },{
-                level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
-                pos:[2464,710],
-                elements:[
-                    {type:`Mixed Engineer Company`},
-                ],
-            },
-        ],
-    },{
         level:5,type:[`Infantry`],team:`Italian`,
         desc:[`63rd Garrison Company`,`63ª Compagnia Presidiaria`],name:`63`,designation:`Presidiaria`,commander:``,icon:`cirene`,
         pos:[905,508],
@@ -2891,6 +2863,17 @@ reserves=[
             {level:5,type:`Motorcycle Infantry Company`,team:`German`,desc:[`3rd Company, 15th Motorcycle Battalion`,`3./Kradschützen-Bataillon 15`],name:`3`,designation:`15`,commander:``},
             {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`7th Battery, 46th Artillery Regiment`,`7ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`7`,designation:`46`,commander:``,icon:`trento`},
             {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`8th Battery, 46th Artillery Regiment`,`8ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`8`,designation:`46`,commander:``,icon:`trento`},
+        ],
+    },{
+        level:5,type:[`Infantry`],team:`Italian`,
+        desc:[`Delaying Action Company`,`Compagnia Combattimenti di Arresto`],name:`Arresto`,designation:`Desposito`,commander:``,icon:`marmarica`,
+        pos:[2370,585],
+        elements:[
+            {level:5,type:`Ruined Infantry Company`,team:`Italian`,desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`},
+            {level:6,type:`Small Ruined Infantry Platoon`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+            {level:6,type:`Small Ruined Infantry Platoon`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unified Depot`,`Deposito Unico Misto della Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Italian`,desc:[`Carabinieri Station`,`Stazione dei Carabinieri`],name:`Stazione`,designation:`Carabinieri`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Station`,`Stazione di Guardia alla Frontiera`],name:`Stazione`,designation:``,commander:``,icon:``},
         ],
     },
 ]

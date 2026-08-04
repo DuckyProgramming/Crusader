@@ -682,7 +682,8 @@ export class operation{
                             let dir=random(0,360)
                             let swivel=floor(random(0,2))*2-1
                             for(let a=0,la=60;a<la;a++){
-                                dir+=a/la*360*swivel
+                                //dir+=a/la*360*swivel
+                                dir+=360/la*swivel
                                 let pos={position:{
                                     x:this.select.unit.position.x+lsin(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1),
                                     y:this.select.unit.position.y+lcos(dir)*(this.select.unit.radius+types.unitLevel[3].size[element.player]+1)
@@ -1162,6 +1163,15 @@ export class operation{
             case `mapAll`:
                 if(key==` `){
                     this.units.forEach(unit=>unit.onClick(layer,this.scene,rel))
+                }else if(key==`|`&&this.units.some(unit=>unit.order.trigger)){
+                    this.transitionManager.begin(`orderView`)
+                    let len=this.units.length
+                    this.inspect.units=[]
+                    this.units.push(new unit(this,this.units.filter(unit=>unit.order.trigger)[0].getData()))
+                    while(this.units.length>len){
+                        this.inspect.units.push(last(this.units))
+                        this.units.splice(this.units.length-1,1)
+                    }
                 }
             break
             case `orderView`:

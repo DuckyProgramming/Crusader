@@ -641,4 +641,64 @@ export function destroy(){
     current.select.unit.calculateElements()
     current.units.forEach(unit=>unit.order.trigger=0)
 }
+export function numLevel(level,rule=0){
+    let constants={minLevel:4}
+    let totals=[[0,0],[0,0],[0,0],[0,0]]
+    window.current.units.forEach(unit=>{
+        if(unit.active){
+            if(unit.level==level||rule==1&&unit.level>level&&(unit.parent==-1||unit.parent.level<level)){
+                totals[unit.player][0]++
+                if(unit.player>=1&&totals.length>3){
+                    totals[3][0]++
+                }
+            }else if(unit.contain.trigger){
+                unit.contain.units.forEach(contain=>{
+                    if(contain.level==level||rule==1&&contain.level>level){
+                        totals[contain.player][0]++
+                        if(unit.player>=1&&totals.length>3){
+                            totals[3][0]++
+                        }
+                    }
+                })
+                if(unit.level==level&&unit.contain.units.every(contain=>contain.level>unit.level)){
+                    totals[unit.player][0]++
+                    if(unit.player>=1&&totals.length>3){
+                        totals[3][0]++
+                    }
+                }
+            }
+        }
+    })
+    let temp=current.reform()
+    temp.units.forEach(unit=>{
+        if(unit.active){
+            if(unit.level==level||rule==1&&unit.level>level&&(unit.parent==-1||unit.parent.level<level)){
+                totals[unit.player][1]++
+                if(unit.player>=1&&totals.length>3){
+                    totals[3][1]++
+                }
+            }else if(unit.contain.trigger){
+                unit.contain.units.forEach(contain=>{
+                    if(contain.level==level||rule==1&&contain.level>level){
+                        totals[contain.player][1]++
+                        if(unit.player>=1&&totals.length>3){
+                            totals[3][1]++
+                        }
+                    }
+                })
+                if(unit.level==level&&unit.contain.units.every(contain=>contain.level>unit.level)){
+                    totals[unit.player][1]++
+                    if(unit.player>=1&&totals.length>3){
+                        totals[3][1]++
+                    }
+                }
+            }
+        }
+    })
+    let term=[...types.player.map(item=>item.name),`Axis`]
+    if(totals[1][1]==0||totals[2][1]==0){
+        totals.splice(3,1)
+    }
+    print(`${totals.map((total,index)=>`${term[index]}: ${total[0]}/${total[1]}`).join(`\n`)}`)
+}
 //tool
