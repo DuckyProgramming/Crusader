@@ -110,6 +110,7 @@ https://apps.dtic.mil/sti/tr/pdf/ADA367611.pdf
 https://archive.org/details/bollettino_202504/2002.Bollettino-n.3-4/page/348/mode/2up
 (Random archival information, often off-topic)
 Unclear Commander:
+(Note: this is now considered unreliable)
 https://cgsc.contentdm.oclc.org/digital/collection/p15040coll6/id/5050/rec/18
 Genova Cavalleria:
 https://web.archive.org/web/20100412231808/https://www.comandosupremo.com/forum/viewtopic.php?f=11&t=953
@@ -132,6 +133,7 @@ https://tanks-encyclopedia.com/autoblinda-ab41-in-polizia-dellafrica-italiana-se
 Giovani Fascisti:
 https://www.ernandes.net/savasta/settimo.htm
 https://www.ernandes.net/savasta/ottavo.htm
+(Note: this website's information seems somewhat unreliable and like a poor reading of Montanari's existing material. I no longer consider it of much use)
 https://wargaming.info/1996/giovani-fascisti-the-qyoung-fascistsq-ggff/
 Bir Ghirba:
 https://1library.net/article/overview-battle-bir-ghirba-november.nzwe231z
@@ -163,6 +165,7 @@ https://web.archive.org/web/20100409175538/http://www.comandosupremo.com/forum/v
 Blackshirts:
 https://www.regioesercito.it/pages/mvsnas40-43.html
 https://www.ernandes.net/savasta/terzo.htm
+(Note: this website's information seems somewhat unreliable and like a poor reading of Montanari's existing material. I no longer consider it of much use)
 Bersaglieri:
 https://www.fanfaralamarmora.it/storia%20del%20corpo.html
 https://www.tapatalk.com/groups/missinglynx/query-regarding-bersagliere-units-on-north-africa--t341867-s10.html?sid=89e968dcbdb10498e58d1a7111463c05

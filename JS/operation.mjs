@@ -23,11 +23,11 @@ export class operation{
         this.hist={time:0,tick:0,limit:45}
         this.inspect={units:[]}
         this.select={unit:0}
-        this.initialMaps()
 
         this.initial()
         this.loadMap(this.map,map==undefined)
         this.initialComponents()
+        this.initialMaps()
 
         constants.init=true
         if(typeof dev.begin==`string`){
@@ -285,8 +285,11 @@ export class operation{
         this.transitionManager=new transitionManager(this)
     }
     initialMaps(){
-        if(!constants.init){
-        }
+        let subj=types.map[findAbstract(`term`,`BigTobruk2`,types.map)]
+        subj.unit[1].unit.push(JSON.parse(JSON.stringify(subj.unit[0].unit[1])))
+        subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[2].unit[0])))
+        subj.unit[2].unit.push(JSON.parse(JSON.stringify(subj.unit[0].unit[0])))
+        subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[1].unit[0])))
     }
     initialComponents(){
         this.cities=[]

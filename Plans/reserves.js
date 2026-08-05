@@ -2875,5 +2875,55 @@ reserves=[
             {level:7,type:`Small Ruined Infantry Section`,team:`Italian`,desc:[`Carabinieri Station`,`Stazione dei Carabinieri`],name:`Stazione`,designation:`Carabinieri`,commander:``,icon:``},
             {level:7,type:`Small Ruined Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Station`,`Stazione di Guardia alla Frontiera`],name:`Stazione`,designation:``,commander:``,icon:``},
         ],
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Defensive System`,`Sistemazione Difensiva`],name:`Sistemazione\nDifensiva`,designation:``,commander:``,icon:`marmarica`,
+        pos:[2335,515],
+        elements:[
+            {level:5,type:`Small Ruined Infantry Company`,team:`Italian`,desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unified Depot`,`Deposito Unico Misto della Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Italian`,desc:[`Carabinieri Station`,`Stazione dei Carabinieri`],name:`Stazione`,designation:`Carabinieri`,commander:``,icon:``},
+            {level:7,type:`Small Ruined Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Station`,`Stazione di Guardia alla Frontiera`],name:`Stazione`,designation:``,commander:``,icon:``},
+        ],
+    },{
+        level:4,type:[`Engineer`],team:`Italian`,
+        desc:[`61st Mixed Engineer Battalion`,`LXI Battaglione Misto gGnio`],name:`61`,designation:``,commander:``,icon:`sirte`,
+        pos:[2309,661],
+        elements:[
+            {
+                level:5,type:[`Engineer`],team:`Italian`,
+                desc:[`35th Engineer Company`,`35ª Compagnia Artieri`],name:`35`,designation:``,commander:``,icon:`sirte`,
+                pos:[2211,698],
+                elements:[
+                    {type:`Engineer Company`},
+                ],
+            },{
+                level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
+                desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
+                pos:[2464,710],
+                elements:[
+                    {type:`Mixed Engineer Company`},
+                ],
+            },
+        ],
+    },{
+        level:2,type:[`Infantry`,`Motorized`],team:`Australian`,
+        desc:`17th Australian Infantry Brigade`,name:`17`,designation:``,commander:`Savige`,icon:`19aubr`,
+        pos:[4228,925],
+        elements:[
+        ],
+    },{
+        level:5,type:[`Infantry`,`Machine Gun`,`Mortar`],team:`Italian`,
+        desc:[`Training Company "Piave"`,`Compagnia di Formazione "Piave"`],name:`Piave`,designation:`Training`,commander:``,icon:`marmarica`,
+        pos:[2448,1148],
+        elements:[
+            {level:6,type:`Small Ruined Infantry Platoon`,team:`Italian`,desc:[`Training Infantry Platoon`,`Plotone di Fanteria di Formazione`],name:``,designation:`Training`,commander:``},
+            {level:6,type:`Small Ruined Machine Gun Platoon`,team:`Italian`,desc:[`Training Machine Gun Platoon`,`Plotone di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``},
+            {level:6,type:`Small Ruined Machine Gun Platoon`,team:`Italian`,desc:[`Training Machine Gun Platoon`,`Plotone di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``},
+            {level:6,type:`Small Ruined Mortar Platoon`,team:`Italian`,desc:[`Training Mortar Platoon`,`Plotone di Mortai di Formazione`],name:``,designation:`Training`,commander:``},
+            {level:8,type:`Small Ruined Machine Gun Squad`,team:`Italian`,desc:[`Training Machine Gun Squad`,`Squadra di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``},
+            {level:8,type:`Small Ruined Mortar Squad`,team:`Italian`,desc:[`Training Mortar Squad`,`Squadra di Mortai di Formazione`],name:``,designation:`Training`,commander:``},
+        ]
     },
 ]

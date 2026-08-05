@@ -1121,7 +1121,7 @@ export class unit{
                         if(distPos(this,this.order)>distance){
                             let hit=false
                             this.operation.units.forEach(target=>{
-                                if(this.active&&target.active&&types.player[this.player].side!=types.player[target.player].side&&distPos({position:moving},target)<this.radius+target.radius){
+                                if(this.active&&target.active&&types.player[this.player].side!=types.player[target.player].side&&distPos({position:moving},target)<this.radius+target.radius&&distPos({position:moving},target)<distPos(this,target)){
                                     if(!target.contain.trigger&&this.contain.trigger){
                                         target.active=false
                                         target.destroy()

@@ -816,6 +816,7 @@ Army:
 12 75/46
 3 76/30
 (I initially thought this was a typo for 76/40, but I now know that the 76/30 was a distinct, albeit obscure, weapon)
+(In fact, the 76/30 was a shortened version of the 76/40 that was used on some ships, or in this case, the "Vittoria" battery, probably)
 2 77/28
 63 100/17
 16 105/28
@@ -1726,7 +1727,7 @@ The 4 groups (7/10th, 1/22nd, 1/26th, 1/55th) were at full strength
 1/43rd had lost a battery at Bardia and maybe another elsewhere, both of which were replenished with GaF guns later
 The remaining 3-7 GaF 100/17 guns were not part of batteries and were given some other kind of task
 
-I don't have proof of where the other 2 companies of 61st Machine Gun Battalion were (the first was at the Pilastrion position) but if it was anything like Bardia, they would've been sent to join the G.a.F. in the fortifications.
+I don't have proof of where the other 2 companies of 61st Machine Gun Battalion were (the first was at the Pilastrino position) but if it was anything like Bardia, they would've been sent to join the G.a.F. in the fortifications.
 
 More important from the above info are the numbers of the guns I've been questioning:
 
@@ -3395,6 +3396,7 @@ It's a shame neither of these were formed in different versions elsewhere or saw
 
 Montanari claims that the 4th Tank Infantry Reigment was reinforced with "long-range and curved-range support weapons". In all honestly I have no idea what these are.
 In his other book a bit of clarification is added but doesn't justify the previous statement. All it includes in the set are 4 81/14 mortars and 12 MGs.
+Actually, when I wrote this I must've sounded pretty stupid. It's pretty apparent that the mortars in question fit this description of long-range and curved-fire weapons (all heavy weapons are "support" to the Italians).
 
 Also, the "Buffolotto" section was entirely a G.a.F. unit. Going back to read through, I couldn't find a single mention of this unit having any actual naval identity.
 But it gets worse. The later book changes its name to "Buffolotti". And neither of these is an actual word in Italian. I'm not joking, they both translate to nothing.
@@ -4289,5 +4291,133 @@ Note: the "Carpathian" designation wasn't just a name, the units did actually ha
         3rd Squadron - Antoni Kawecki
     Sapper Squad (Oddział Saperów) - Władysław Rakowski (Company Size)
     Total: 27 Companies
+
+The 56th Independent Anti-Air Group was probably the largest battalion-level unit I've seen in the Italian Army, with 7 mobile and 14 static batteries.
+Similarly, the G.a.F. Coverage Sector "Dodecaneso" had 18 static machine gun companies, each of which was functionally independent and guarded various islands.
+
+According to the "History of the Artillery", the reason for the confusing and inconsistent number of naval batteries at Tobruk is that different authors and categorizations are counting differently.
+Only 7 batteries were of an anti-ship nature, of the total 11 that were to defend the harbor and its surroundins. Sometimes the San Giorgio is counted in these numbers as well.
+I don't think any of the fortifications surrounding the town ever even had more than one anti-tank gun. That may have been a mistake on the part of the British/Italian mapper.
+The ones facing the Wadi es Sehel also supposedly lacked anti-tank guns, since that area wasn't considered passable to tanks in the first place. The British map also got this wrong.
+The map from "The Operations in North Africa" also supports this, as no anti-tank ditch or mines are marked in that area and that would probably imply a lack of anti-tank weaponry as a whole.
+Each fortification initially also had two machine guns. We know this was still the case by the time the actual attack occurred since the six positions that fell first had 12 MGs between them.
+
+He also notes that 22 47/32 guns out of the 43 total were taken from the "artillery magazine" which may refer to the depots of the G.a.F. or from the strongpoints.
+I'll go over this some more two paragraphs later once I finish reading it. But this does annoy me since it certainly isn't the same number I had previously.
+The 160 men that Vietina had to defend the port did not include the 3rd Battalion, 62nd Replacement Battalion. The grammar Montanari uses in his two books are slightly different on this.
+
+Also, whichever guy on Wikipedia wrote that the 3rd Battalion, 70th Infantry Regiment defended the second-line positions misread the book.
+In reality, this was the 2nd Battalion, 70th Infantry Regiment and it was only responsible for defending one position, that of Pilastrino, alongside the 61st Machine Gun Battalion.
+The 3rd Battalion, 69th Infantry Regiment faced toward Bardia as part of the El Adem Crossroads position, while the elements of the 4th Tank Infantry Regiment mostly faced southward toward El Adem.
+The Bejad position with the 64th Replacement Battalion is noted as containing only a single platoon of machine guns and no mortars, rather than the entire support weapons company.
+The 3rd Battalion, 69th Infantry Regiment was also the one that had the 76/40 gun with it. I guess since the dug-in tanks had weak 37/10 guns of their own, they didn't need extra anit-tank support.
+
+Unlike many other nations, the divisions of the Italian Army did not have any kind of brigade headquarters inside them (such as an infantry, tank, or artillery command).
+To be fair, these divisions were almost brigade-sized anyway, so them having an additional brigade headquarters wouldn't have resulted in much of a benefit to the command structure anyway.
+On page 293 of "The Operations", which discusses the distribution of spare guns found in the Tobruk stores, Montanari links to note 165. It was actually quite difficult to find this.
+Those units found in the stores were:
+254 MGs (Fiat 35), 41 45/5 Mortars, 12 81/14 Mortars
+22 47/32 AT Guns, 18 Guns "From 65/17 to 149/35" (not very helpful, but I'll try to decipher that)
+20 77mm MGs, 30 127mm MGs (taken from inoperable aircraft, ineffective in the ground role)
+Here's my guess as to where the 22 47/32 guns went:
+16 Strongpoints
+4 Rapid Unit
+2 Point 71
+Here's my guess to the identity of the 18 guns:
+5 65/17 (Provisional Battery)
+3 75/27 (Point 144)
+3 76/30 (Vittoria Battery)
+2 77/28 (Point 71)
+4 105/28 (Mixed Battery)
+1 149/35 (Vittoria Battery / Unknown)
+
+Other assorted minor mistakes I made:
+Again, there was no 31st Regiment of G.a.F. Artillery, only a 31st Raggruppamento. The groups were actually formed by the 5th-7th G.a.F. Artillery Regiment depots.
+The 105th Group had a 10th Battery and I just apparently forgot all about this and numbered them 1-3 instead.
+
+I'm also going to make a second attempt to count heavy weapons companies to see if any are missing. I want to know the origin of the troops in the "Piave" strongpoint.
+A standard heavy weapons company had two MG platoons, each armed with 4 MGs. The MG Battalion had three companies with four platoons, each 4 MGs.
+So, the entire Tobruk garrison, not counting the G.a.F., had:
+4/69th Infantry Regiment - 8 MGs
+    Rapid Unit
+8/69th Infantry Regiment - 8 MGs
+    Eastern Sector Interval Troops
+12/69th Infantry Regiment - 8 MGs
+    Strongpoint Sidi Mahmud/Bivio El Adem
+4/70th Infantry Regiment - 8 MGs
+    Strongpoint Point 144
+8/70th Infantry Regiment - 8 MGs
+    Strongpoint Pilastrino
+12/70th Infantry Regiment - 8 MGs
+    Strongpoint Pilastrino
+1/61st Machine Gun Battalion - 16 MGs
+    Strongpoint Bejad (4 + 4 Reinforcement)
+    Strongpoint Bivio El Adem
+2/61st Machine Gun Battalion - 16 MGs
+    Western Sector Strongpoints
+3/61st Machine Gun Battalion - 16 MGs
+    Western Sector Strongpoints
+4/61st Replacement Battalion - 8 MGs
+    Strongpoint Gabr el Abd
+4/64th Replacement Battalion - 8 MGs
+    Point 71
+Total: 112 MGs
+Also, though, if 254 Fiat 35 guns were just found in the warehouse, this kinda makes this whole point irrelevant. Unlucky. I guess we'll just assume all of them were in the fortifications?
+
+Positions (Ignoring 77mm and 127mm guns taken from inoperable aircraft):
+Bejad: 1 Platoon (8 MGs)
+Sidi Mahmud (III/69): 8MGs
+Bivio El Adem: 12 MGs
+
+Western Sector Strongpoints: 2 Companies of the 61st Machine Gun Battalion + 18 MGs
+Piave: 2 Platoons
+Point 144: 8 MGs
+Pilastrino: 12/70th Infantry Regiment (8 MGs) + 8 MGs
+Gabr el Abd: 4/61st Replacement Battalion
+Point 71: 8 MGs
+Rapid Unit: 2 Platoons
+
+Based on the above analysis, I will assume that the elements at the "Piave" strongpoint were distinct training units "di formazione" rather than elements from the Replacement Battalions "complementi".
+So, unless I really need to, no changes in this matter will occur. Otherwise, I don't understand how they were able to find a random rifle platoon there that wasn't mentioned anywhere else.
+
+The Sirte Division's commander in early 1939 was Eduardo Quarra Sito. He then became commander of the Tripoli Fortress which he stayed iin until November 1941.
+At that point, Tripoli's command was instead given to Alberto Mannerini, and Quarra Sito would go on to command some assorted infantry divisions before retiring in 1943.
+
+Attempt 2:
+4/69th Infantry Regiment - 8 MGs
+    Rapid Unit
+8/69th Infantry Regiment - 8 MGs
+    Strongpoint Bivio El Adem
+12/69th Infantry Regiment - 8 MGs
+    Strongpoint Sidi Mahmud
+4/70th Infantry Regiment - 8 MGs
+    Strongpoint Point 144
+8/70th Infantry Regiment - 8 MGs
+    Point 71
+12/70th Infantry Regiment - 8 MGs
+    Strongpoint Pilastrino
+1/61st Machine Gun Battalion - 16 MGs
+    Strongpoint Pilastrino
+2/61st Machine Gun Battalion - 16 MGs
+    Western Sector Strongpoints
+3/61st Machine Gun Battalion - 16 MGs
+    Western Sector Strongpoints
+4/61st Replacement Battalion - 8 MGs
+    Strongpoint Gabr el Abd
+4/64th Replacement Battalion - 8 MGs
+    Strongpoint Piave
+
+Somewhere I've seen claims that the San Giorgio had 147mm guns rather than 254mm guns. I have no idea where this claim originated but it's almost certainly a mistake and can be ignored.
+
+Some things to say about the strength of blackshirt units:
+Volontari della Libia: About 658 men (21 officers, 36 NCOs)
+Libyan Legionary Battalion: 734 men (29 officers, 27 NCOs)
+
+Also, still no information on the 65/17 battery that the 55th Artillery Regiment had. Even its numbers don't help, since at least 1 of its 5 guns came from the Tobruk depot rather than being organic.
+Thus the actual quantity of guns that this battery has is unknown but is probably just 4, and thus there's no real way to know where it came from.
+But I did find something of value. On page 242 of "History of the Artillery", the "23 Marzo" Division and the XXIII Corps each left behind a 65/17 battery. Maybe it's one of these that stayed in Tobruk?
+The "23 Marzo" Division had the 15th and 16th batteries from the Savona Division (to be replaced with the 266th and 267th by Crusader). It could be one of these, but can I find anything to differentiate them?
+It was probably the 15th, though, since the other battery, numerically at least, would have a high chance of being deployed to the 2nd Blackshirt Division's artillery rather than the 1st "23 Marzo"'s.
+There was also a weird 270th 65/17 battery that was either almost entirely or truly entirely lost in combat at Sidi Barrani.
 
 
