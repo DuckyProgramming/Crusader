@@ -1,5 +1,5 @@
 import {types,graphics,constants,dev,options} from './variables.mjs'
-import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens,mergeColor} from './functions.mjs'
+import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens,mergeColor,range} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 export class unit{
     constructor(operation,data){
@@ -387,11 +387,12 @@ export class unit{
             engineer:this.contain.units.some(unit=>types.elementType[unit.elementType].engineer),
             recon:this.contain.units.some(unit=>types.elementType[unit.elementType].recon),
         }
-        this.strength.base.num=[
+        /*this.strength.base.num=[
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==0?types.elementType[unit.elementType].num:0),0),
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==1?types.elementType[unit.elementType].num:0),0),
             this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==2?types.elementType[unit.elementType].num:0),0),
-        ]
+        ]*/
+        this.strength.base.num=range(0,3).map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?types.elementType[unit.elementType].num:0),0))
     }
     updateStrength(type=-1){
         let len=max(1,this.contain.units.length)
@@ -405,7 +406,7 @@ export class unit{
                 this.active=false
                 this.destroy()
             }else{
-                switch(type){
+                /*switch(type){
                     case -1:
                         this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)/len
                         this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/len
@@ -421,6 +422,24 @@ export class unit{
                     break
                     case 2:
                         this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
+                    break
+                }*/
+                switch(type){
+                    case -1:
+                        this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                        this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                        this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                        this.strength.num=[0,1,2,3].map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0))
+                    break
+                    case 0:
+                        this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                        this.strength.num=[0,1,2,3].map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0))
+                    break
+                    case 1:
+                        this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                    break
+                    case 2:
+                        this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
                     break
                 }
             }
@@ -1463,9 +1482,10 @@ export class unit{
             case `main`:
                 if(this.active&&this.operation.turn.partition[this.operation.turn.main].includes(this.player)&&!this.fade.hide){
                     if(this.order.trigger){
-                        if(this.contain.stats.artillery){
+                        /*if(this.contain.stats.artillery){
                             this.order.artillery=this.contain.stats.speed<=0?true:!this.order.artillery
-                        }
+                        }*/
+                        this.order.artillery=this.contain.stats.artillery?(this.contain.stats.speed<=0?true:!this.order.artillery):false
                         if(distPos(mouse,this)<20){
                             this.order.position.x=this.position.x
                             this.order.position.y=this.position.y

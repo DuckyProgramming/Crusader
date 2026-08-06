@@ -486,10 +486,18 @@ export class operation{
                                 this.select.unit.contain.middle?
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
-                            if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))){
+                            if(
+                                !this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&
+                                this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))
+                            ){
                                 absorb.push(-1)
                             }
-                            if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
+                            //if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
+                            if(
+                                this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&
+                                this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class&&!unit.type.includes(27))&&
+                                this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)<=100*types.elementType[this.select.unit.contain.units[0].elementType].num
+                            ){
                                 absorb.push(-2)
                             }
                             layer.fill(150,this.anim.main*this.anim.select)
@@ -671,10 +679,18 @@ export class operation{
                     this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
                 ):
                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
-            if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))){
+            if(
+                !this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&
+                this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))
+            ){
                 absorb.push(-1)
             }
-            if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
+            //if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
+            if(
+                this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&
+                this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class&&!unit.type.includes(27))&&
+                this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)<=100*types.elementType[this.select.unit.contain.units[0].elementType].num
+            ){
                 absorb.push(-2)
             }
             if(this.select.unit.contain.trigger){
@@ -767,9 +783,12 @@ export class operation{
                         case 2:
                             let target=absorb[this.select.unit.order.absorb%absorb.length]
                             if(target==-2){
-                                this.select.unit.contain.units[0].strength.life=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)
+                                /*this.select.unit.contain.units[0].strength.life=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)
                                 this.select.unit.contain.units[0].strength.morale=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.morale,0)/this.select.unit.contain.units.length
-                                this.select.unit.contain.units[0].strength.supply=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/this.select.unit.contain.units.length
+                                this.select.unit.contain.units[0].strength.supply=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/this.select.unit.contain.units.length*/
+                                this.select.unit.contain.units[0].strength.life=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)/types.elementType[this.select.unit.contain.units[0].elementType].num
+                                this.select.unit.contain.units[0].strength.morale=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.morale*types.elementType[unit.elementType].num,0)/this.select.unit.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                                this.select.unit.contain.units[0].strength.supply=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.supply*types.elementType[unit.elementType].num,0)/this.select.unit.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
                                 this.select.unit.contain.units[0].stats.kills.forEach((num,index,arr)=>arr[index]=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.stats.kills[index],0))
                                 this.select.unit.contain.units=[this.select.unit.contain.units[0]]
                                 this.select.unit.calculateElements()
