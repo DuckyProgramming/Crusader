@@ -3989,6 +3989,7 @@ Either way, his disagreements with Montgomery led to several demotions and a tra
 I learned based on a British War Diary (C Battery RHA) that the commander of the 1st Medium Tank Battalion was a Major Ceva. But when I checked, I already had this in the game.
 Which is weird, because nowhere else on this notes document is his name mentioned. So how this could've possibly happened is anyone's guess. Either way, he was probably Locatelli's successor at the battalion.
 I don't have proof he was at Tobruk and in fact it seems like he might have been captured, or maybe only documents about him were captured and he was alive or was killed by some random cause anyway.
+It may be that I found this out on Comando Supremo, where an old forum thread mentions this. But I could've gained it from some other place and just never knew. Strange.
 
 C Battery RHA replaced F Battery RHA for the Tobruk battle and was placed under the command of Mackay. At this time, C Battery was commanded by a G.W. Goschen, with G.H. Thomas as his second in command.
 Before Jock Campbell took control of 4th RHA, it was actually Wilson of 3rd RHA who commanded 4th RHA. The previous commander of 3rd RHA was Latham (probably the same one who lost 2nd Support Group).
@@ -4447,5 +4448,19 @@ Montanari's maps show the following companies: 251st, 254th, 255th, 85th (Motori
 
 Also finally I'm pretty sure that "di Formazione" doesn't necessarily mean a training unit. It can also just mean an ad-hoc unit in general.
 Thus the force at the "Piave" strongpoint probably did not come from training at the depots. Instead, it was just a jumble of platoons and squads of assorted support weapons elements.
+
+Several times I've had doubts about the amount of G.a.F. infantry or strongpoints that were taken forward to replenish the 30th/B Coverage Sector (likely taking the 32nd Coverage Sector HQ with them).
+But this shouldn't be the case. Castagna says both that the original garrisons consisted of four companies of the 150th Blackshirt Battalion and alter has four G.a.F. companies to add to his Libyan units.
+He later reorganized the defensive formation, as by this time many of his Libyan units had shrunk considerably from losses and desertions. Now there were just four strongpoints, each of which had a G.a.F. company.
+
+Based on forum discussion about the tanks in Operation Compass, I've gained some information but nothing that I conclusively need. Here's what I have:
+Earlier, the I Medium Tank Battalion had 40 tanks in three companies. Two of the companies were in Tobruk.
+It moved to Tobruk by orad on the 13th of July 1940 and by the 17th of December, it had just 5 effective tanks at Gazala with the rest, immobilized, left in Tobruk.
+The 39 immobilized tanks and the personnel that hadn't been sent to Bengasi that formed it at Tobruk came from both the 1st and 2nd Medium Tank Battalions.
+In this case, it may make sense for me to apply the composite company formation to these just like I did for the 63rd.
+The parts of the 63rd Light Tank Battalion that weren't at Tobruk were almost entirely destroyed at Tishdida which presumably is near Buq Buq.
+
+While the 75/46 gun used a pretty common (75mm) caliber and was attempting to be produced, and in Tobruk it was used in a sort of anti-tank role, anti-tank ammunition for them was not produced until 1942.
+I do find this a bit weird, though, since many 75/27 or 77/28 guns were also being used in an anti-tank role. It seems possible but very stupid if none of these had any anti-tank ammo either.
 
 
