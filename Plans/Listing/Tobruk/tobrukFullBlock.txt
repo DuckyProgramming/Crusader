@@ -1,0 +1,134 @@
+XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
+
+61st Infantry Division "Sirte" (11/46) - Vincenzo Della Mura
+    69th Infantry Regiment "Ancona" (3/13) - Angelo Cascino
+        1st Battalion (4)
+        2nd Battalion (4)
+        3rd Battalion (4)
+        69th Infantry Gun Company
+    70th Infantry Regiment "Ancona" (3/13) - Gaetano Maltese
+        1st Battalion (4)
+        2nd Battalion (4)
+        3rd Battalion (4)
+        70th Infantry Gun Company
+    43rd Artillery Regiment "Sirte" (3/10) - Gildo Bonfanti
+        1st Group (3)
+        2nd Group (3)
+        3rd Group (3)
+        77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia"
+    61st Machine Gun Battalion (3)
+    61st Replacement Battalion (4)
+    61st Mortar Company
+    61st Anti-Tank Company
+    61st Bersaglieri Motorcycle Company
+
+XXII Army Corps Artillery Commander (13/42) - Adolfo de Leone
+    10th Army Corps Artillery Raggruppamento (2/6)
+        7th Group (3)
+        17th Group (3)
+    22nd Army Corps Artillery Raggruppamento (2/6)
+        1st Group (3)
+        Composite Group (1)
+        13th Anti-Aircraft Battery
+        Provisional Anti-Tank Battery
+    25th Army Corps Artillery Raggruppamento (4/12)
+        105th Group (3)
+        130th Group (3)
+        148th Group (3)
+        150th Group (3)
+    55th Artillery Regiment "Brescia" (3/10) - Giuseppe Tramontin
+        1st Group (3)
+        2nd Group (3)
+        3rd Group (3)
+        Provisional Infantry Gun Battery
+    1st Group, 26th Artillery Regiment "Pavia" (4)
+    15th Anti-Aircraft Group (3)
+    10th Battery, 20th Corps Artillery Raggruppamento
+
+Eastern Libya Guardia Alla Frontiera Command (9/21) - Umberto Barberis
+    31st Coverage Sector (5/11)
+        31st/A Subsector (4)
+        31st/B Subsector (2)
+        31st Frontier Guard Artillery Raggruppamento (3/5) - Guido Baggini
+            5th Group (1)
+            6th Group (2)
+            7th Group (2)
+    Anti-Tank Raggruppamento (3/3)
+        1st Group (1)
+        2nd Group (1)
+        3rd Group (1)
+    31st Libyan Coastal Battalion (3)
+    Strongpoint Hagfet Umm Haleiga
+    Strongpoint Ras el Medauuar
+    Ad Hoc Battery "Derna"
+    Ad Hoc Battery
+
+4th Tank Infantry Regiment (2/6) - Pietro Aresca
+    1st Medium Tank Battalion (3)
+    63rd Light Tank Battalion (2)
+    Anti-Aircraft Battery
+
+Tobruk Coastal Sector (16) - Massimiliano Vietina
+    Naval Battery "Dandolo"
+    Naval Battery "Bellotti"
+    Naval Battery "Grasso"
+    Naval Battery "Tortora"
+    Naval Battery "Beiad"
+    Naval Battery "Sidi Mahmud"
+    Naval Battery "Pilastrino"
+    Naval Battery "Tordo"
+    Naval Battery "Toro"
+    Naval Battery "Topo"
+    Naval Battery "Tonno"
+    Naval Battery "Nembo"
+    Ad Hoc Naval Battery "Nembo"
+    Ad Hoc Naval Battery "Vittoria"
+    Floating Battery (Cruiser) "San Giorgio"
+
+Rapid Unit (2)
+    22nd Bersaglieri Motorcycle Company
+    25th Anti-Tank Company
+
+Loose Units (3/13)
+    2nd CC.NN. Battalion "Volontari della Libia" (4)
+    140th CC.NN. Battalion "Aquilia" (2)
+    64th Replacement Battalion (4)
+    3rd Company, 62nd Replacement Battalion
+    141st Mortar Company
+    142nd Mortar Company
+
+
+
+6th Australian Division (20/72) - Iven McKay
+    16th Australian Infantry Brigade - Arthur Allen (36)
+        2/1st Australian Infantry Battalion (4)
+        2/2nd Australian Infantry Battalion (4)
+        2/3rd Australian Infantry Battalion (4)
+    17th Australian Infantry Brigade - Stanley Savige (12)
+        2/4th Australian Infantry Battalion (4)
+        2/5th Australian Infantry Battalion (4)
+        2/6th Australian Infantry Battalion (4)
+    19th Australian Infantry Brigade - Horace Robertson (12)
+        2/4th Australian Infantry Battalion (4)
+        2/8th Australian Infantry Battalion (4)
+        2/11th Australian Infantry Battalion (4)
+    7th Support Group - William Gott (10)
+        1st Battalion, King's Royal Rifle Corps (4)
+        2nd Battalion, Rifle Brigade (4)
+        M Battery, 3rd Regiment, Royal Horse Artillery
+        C Battery, 4th Regiment, Royal Horse Artillery
+    Commander, Royal Australian Artillery (6)
+        2/1st Field Regiment, Royal Australian Artillery (2)
+        2/2nd Field Regiment, Royal Australian Artillery (2)
+        2/3rd Field Regiment, Royal Australian Artillery (2)
+    Commander, Royal Australian Engineers (3)
+    1st Battalion, Royal Northumberland Fusiliers (4)
+    1st Battalion, Cheshire Regiment (4)
+    7th Royal Tank Regiment (2)
+    1st Free French Marine Infantry Battalion (2)
+    51st (Westmoreland and Cumberland) Field Regiment, Royal Artillery (2)
+    64th (London) Medium Regiment, Royal Artillery (1)
+    1st Light Anti-Aircraft Battery, Royal Artillery
+    A Squadron, 6th Australian Divisional Cavalry Regiment
+
+

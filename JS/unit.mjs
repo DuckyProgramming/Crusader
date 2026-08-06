@@ -1,5 +1,5 @@
 import {types,graphics,constants,dev,options} from './variables.mjs'
-import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens} from './functions.mjs'
+import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens,mergeColor} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 export class unit{
     constructor(operation,data){
@@ -644,17 +644,21 @@ export class unit{
         switch(scene){
             case `main`: case `mapAll`: case `hist`: case `orderView`:
                 if(fade>0){
-                    if(this.team!=-1){
-                        if(fade<1){
-                            layer.tint(255,fade)
-                        }
-                        layer.image(this.img[0],0,0,16,10)
+                    if(options.clean){
+                        layer.stroke(...types.player[this.player].color.map(a=>a*0.4),fade)
                     }else{
-                        layer.fill(200,fade)
-                        layer.noStroke()
-                        layer.rect(0,0,16,10)
+                        if(this.team!=-1){
+                            if(fade<1){
+                                layer.tint(255,fade)
+                            }
+                            layer.image(this.img[0],0,0,16,10)
+                        }else{
+                            layer.fill(200,fade)
+                            layer.noStroke()
+                            layer.rect(0,0,16,10)
+                        }
+                        layer.stroke(40,fade)
                     }
-                    layer.stroke(40,fade)
                     if(options.headquarters&&!this.contain.trigger){
                         layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
                         layer.line(-8,-3.25,8,-3.25)
@@ -823,7 +827,7 @@ export class unit{
                             break
                         }
                     }
-                    if(this.img.length>1&&this.img[1]!=undefined){
+                    if(this.img.length>1&&this.img[1]!=undefined&&!options.clean){
                         let width=this.img[1].width
                         let height=this.img[1].height
                         if(fade<1){
@@ -831,7 +835,7 @@ export class unit{
                         }
                         layer.image(this.img[1],5.5,0,width/max(width,height)*4,height/max(width,height)*4)
                     }
-                    layer.stroke(40+this.fade.order*80,40+this.fade.order*200,40+this.fade.order*40,fade)
+                    layer.stroke(...options.clean?mergeColor(types.player[this.player].color.map(a=>a*0.4),[255,255,255],this.fade.order):[40+this.fade.order*80,40+this.fade.order*200,40+this.fade.order*40],fade)
                     layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
                     layer.noFill()
                     layer.rect(0,0,16,10)

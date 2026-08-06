@@ -2013,9 +2013,9 @@ Since in my world the Sirte Division follows this lineage, what units should I a
 Not Added:
     3rd "San Marco" Battalion
     18th Artillery Group
-    42nd Artillery Group
+    42nd Artillery Group (AA)
 Companies:
-    340th 65/17 Battery
+    340th 65/17 Battery (Former G.a.F?)
     75/46 Battery (Unknown Number)
     German 88mm Battery (Unknown Number)
     14th (76/30) Regia Marina MILMART Battery
@@ -2236,6 +2236,7 @@ The Caposaldo was a company-sized formation, in rough terms, while the Centro wa
 
 I've also found out why there's no static machine gun companies in Tobruk, except for the ambiguous 31st Infantry Battalion and its 3 machine gun companies.
 This is because the static machine gun companies were interval units, meant to defend areas between fortifications. In Tobruk, where the forts were in an unbroken belt among the desert's flat terrain, this was not necessary.
+Also, while Libyan static machine gun companies did exist in decent numbers in Africa, not only were none present in Tobruk, but they weren't part of the G.a.F in the first place and were functionally regular army units.
 Also, some people are disagreeing about whether the XXXI and XXXII sectors were in the west and east, respectively, or the other way around. How this is even a disagreement, I cannot understand.
 
 One more thing. I'm actually going to go insane. While the 5th, 6th, and 7th battalions of the G.a.F. were subject to the 31st Raggruppamento, this was not how they were formed.
@@ -2412,6 +2413,7 @@ Other than that, the only major differences are the loss of the replacement and 
 One other interesting thing to think about, though it's not much use for wargames, is how the "effective" GaF was reconstituted in Cyrenaica after its conquest by Rommel.
 Niehorster is the only source I have about this, but I haven't searched very hard. It seems a brigade-sized unit had become responsible for Tobruk's Garrison as part of a larger Tobruk\Cyrenaica fortress command.
 It contained the 3rd Battalion, 350th GaF Infantry Regiment, 7th Bersaglieri Battalion, 5th Libyan Battalion, 18th Carabinieri Battalion, 345th Coastal Artillery Group (8 120/25), and the 90th Group, 2nd Anti-Aircraft Regiment (12 75/46).
+The 8 120/25 guns that the 345th Group contained could've been the guns from the 230th Bis and 231st Bis batteries of the G.a.F. that were part of the XXXI/6th Group and were destroyed in the same town.
 
 Attemping to count every 120/25 gun challenge: There were 74 operational total according to some claims.
 By December 1941, 5 batteries (847, 849, 850, 851, and 859) still used this gun. These were all from the former Fortress Tripoli.
@@ -2655,6 +2657,7 @@ There is no updated version of "The First Offensive". I painstakingly went back 
 I also looked through "La Guardia alla Frontiera" but didn't find much.
 
 The 251st and 254th GaF batteries weren't at Tobruk but appear to have been part of the defense of either Derna or Benghazi since they reappaer at Berta with the Sabratha Division.
+Actually there were a whole bunch of these, lol.
 
 Part of the Sirte Division's transport to from Tripoli to Benghazi took place aboard the transport "Calitea" in mid-July 1940.
 Tomasso Mosetti, a prisoner from the Sirte Division, was a member of the 2nd Battery, 1st Group, 22nd Corps Artillery Raggruppamento (100/17).
@@ -4318,7 +4321,7 @@ On page 293 of "The Operations", which discusses the distribution of spare guns 
 Those units found in the stores were:
 254 MGs (Fiat 35), 41 45/5 Mortars, 12 81/14 Mortars
 22 47/32 AT Guns, 18 Guns "From 65/17 to 149/35" (not very helpful, but I'll try to decipher that)
-20 77mm MGs, 30 127mm MGs (taken from inoperable aircraft, ineffective in the ground role)
+20 77mm MGs, 30 127mm MGs (taken from inoperable aircraft, ineffective in the ground role but used anyway)
 Here's my guess as to where the 22 47/32 guns went:
 16 Strongpoints
 4 Rapid Unit
@@ -4398,6 +4401,7 @@ Attempt 2:
     Strongpoint Pilastrino
 1/61st Machine Gun Battalion - 16 MGs
     Strongpoint Pilastrino
+    Note: Pilastrino only has 8 additional MGs, so this seems a bit off. If I had to guess, the rest of them were in the western sector.
 2/61st Machine Gun Battalion - 16 MGs
     Western Sector Strongpoints
 3/61st Machine Gun Battalion - 16 MGs
@@ -4406,6 +4410,17 @@ Attempt 2:
     Strongpoint Gabr el Abd
 4/64th Replacement Battalion - 8 MGs
     Strongpoint Piave
+
+Another Attempt 2:
+1 65/17 (Provisional Battery?)
+3 75/27 (Point 144)
+3 76/30 (Vittoria Battery)
+4 77/28 (Point 71, Formation Battery)
+4 105/28 (Mixed Battery)
+1 149/12 (Formation Battery)
+1 149/35 (Vittoria Battery/Unknown)
+Total: 20
+1 76/40 (Sidi Mahmud) (Not counted as it was in the naval stores)
 
 Somewhere I've seen claims that the San Giorgio had 147mm guns rather than 254mm guns. I have no idea where this claim originated but it's almost certainly a mistake and can be ignored.
 
@@ -4418,6 +4433,19 @@ Thus the actual quantity of guns that this battery has is unknown but is probabl
 But I did find something of value. On page 242 of "History of the Artillery", the "23 Marzo" Division and the XXIII Corps each left behind a 65/17 battery. Maybe it's one of these that stayed in Tobruk?
 The "23 Marzo" Division had the 15th and 16th batteries from the Savona Division (to be replaced with the 266th and 267th by Crusader). It could be one of these, but can I find anything to differentiate them?
 It was probably the 15th, though, since the other battery, numerically at least, would have a high chance of being deployed to the 2nd Blackshirt Division's artillery rather than the 1st "23 Marzo"'s.
-There was also a weird 270th 65/17 battery that was either almost entirely or truly entirely lost in combat at Sidi Barrani.
+There was also a weird 270th 65/17 battery that was either almost entirely or truly entirely lost in combat at Sidi Barrani. Maybe this was a G.a.F. unit?
+Further, the Cirene Division initially had four batteries of 65/17, two organic and two reinforcement, the 69th and 70th coming from the Sirte Division. But once it reached Sofafi, it had only three.
+
+It seems that by the Second Battle of El Alamein, the 15th Panzer Division's 33rd Artillery Regiment's 3rd Battalion no longer had 3 batteries of heavy guns. Rather only two of its batteries were heavy.
+I can't implement this, though, since I don't know when this change occurred and it's so minor that researching this would be fairly difficult, even though the Germans are better documented.
+
+The Sirte Division surrendered with about 200 trucks lying around. These were probably enough to motorize the mobile reserve of the Tobruk fortress but not much else.
+Interestingly, the division had many more trucks earlier, hence why it was able to make the journey from the Tunisian border to Tobruk. There, most of the trucks were stripped and given to the 1st Blackshirt Battalion.
+
+Let's talk about the infantry gun units that ended up with the Sabratha Division when it defended the Derna line. It should've had the 85th and 86th batteries at normal formation.
+Montanari's maps show the following companies: 251st, 254th, 255th, 85th (Motorized). Note the curious lack of an 86th company, perhaps it had made it all the way to Tobruk?
+
+Also finally I'm pretty sure that "di Formazione" doesn't necessarily mean a training unit. It can also just mean an ad-hoc unit in general.
+Thus the force at the "Piave" strongpoint probably did not come from training at the depots. Instead, it was just a jumble of platoons and squads of assorted support weapons elements.
 
 

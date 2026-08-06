@@ -4007,21 +4007,21 @@ export var types={
                                     elements:[
                                         {
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`,
+                                            desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia Fucilieri, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`,
                                             pos:[1308,180],
                                             elements:[
                                                 {type:`Small Ruined Infantry Company`},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`3rd Company, 64th Replacement Battalion`,`3ª Compagnia, LXIV Battaglione Complementi`],name:`3`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            desc:[`3rd Company, 64th Replacement Battalion`,`3ª Compagnia Fucilieri, LXIV Battaglione Complementi`],name:`3`,designation:`64 R`,commander:``,icon:`catanzaro`,
                                             pos:[1618,368],
                                             elements:[
                                                 {type:`Ruined Infantry Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[1021,206],
                                             elements:[
                                                 {type:`Infantry Company`},
@@ -4098,21 +4098,21 @@ export var types={
                                     elements:[
                                         {
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia Fucilieri, LXIV Battaglione Complementi`],name:`1`,designation:`64 R`,commander:``,icon:`catanzaro`,
                                             pos:[1372,628],
                                             elements:[
                                                 {type:`Ruined Infantry Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`2nd Company, 64th Replacement Battalion`,`2ª Compagnia, LXIV Battaglione Complementi`],name:`2`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            desc:[`2nd Company, 64th Replacement Battalion`,`2ª Compagnia Fucilieri, LXIV Battaglione Complementi`],name:`2`,designation:`64 R`,commander:``,icon:`catanzaro`,
                                             pos:[1454,495],
                                             elements:[
                                                 {type:`Ruined Infantry Company`},
                                             ]
                                         },{
                                             level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`4th Company, 64th Replacement Battalion`,`4ª Compagnia, LXIV Battaglione Complementi`],name:`4`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                                            desc:[`4th Company, 64th Replacement Battalion`,`4ª Compagnia Armi d'Accompagnamento, LXIV Battaglione Complementi`],name:`4`,designation:`64 R`,commander:``,icon:`catanzaro`,
                                             pos:[1297,632],
                                             elements:[
                                                 {type:`Ruined Heavy Infantry Company`},
@@ -4133,14 +4133,14 @@ export var types={
                                     elements:[
                                         {
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[974,565],
                                             elements:[
                                                 {type:`Infantry Company`},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[968,389],
                                             elements:[
                                                 {type:`Infantry Company`},
@@ -9950,10 +9950,10 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                                    desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``,icon:`trento`,
+                                                    desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``,icon:`trento`,
                                                     pos:[996,905],
                                                     elements:[
-                                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``},
+                                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -9985,10 +9985,10 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                                    desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``,icon:`trento`,
+                                                    desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``,icon:`trento`,
                                                     pos:[1857,404],
                                                     elements:[
-                                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``},
+                                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -10409,7 +10409,7 @@ export var types={
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 16th Infantry Regiment`,`1ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`1`,designation:`16`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 16th Infantry Regiment`,`2ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`2`,designation:`16`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 16th Infantry Regiment`,`3ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`3`,designation:`16`,commander:``},
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 16th Infantry Regiment`,`4ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`4`,designation:`16`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 16th Infantry Regiment`,`4ª Compagnia Armi d'Accompagnamento, 16° Reggimento di Fanteria "Savona"`],name:`4`,designation:`16`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`],team:`Italian`,
@@ -10419,7 +10419,7 @@ export var types={
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 16th Infantry Regiment`,`9ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`9`,designation:`16`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`10th Company, 16th Infantry Regiment`,`10ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`10`,designation:`16`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`11th Company, 16th Infantry Regiment`,`11ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`11`,designation:`16`,commander:``},
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 16th Infantry Regiment`,`12ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`12`,designation:`16`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 16th Infantry Regiment`,`12ª Compagnia Armi d'Accompagnamento, 16° Reggimento di Fanteria "Savona"`],name:`12`,designation:`16`,commander:``},
                                             ],
                                         },{
                                             level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
@@ -10464,7 +10464,7 @@ export var types={
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 61st Motorized Infantry Regiment "Sicilia"`,`1ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`1`,designation:`61`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 61st Motorized Infantry Regiment "Sicilia"`,`2ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`2`,designation:`61`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 61st Motorized Infantry Regiment "Sicilia"`,`3ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`3`,designation:`61`,commander:``},
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`],team:`Italian`,
@@ -10474,7 +10474,7 @@ export var types={
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 61st Motorized Infantry Regiment "Sicilia"`,`5ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`5`,designation:`61`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 61st Motorized Infantry Regiment "Sicilia"`,`6ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`6`,designation:`61`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 61st Motorized Infantry Regiment "Sicilia"`,`7ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`7`,designation:`61`,commander:``},
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Machine Gun`,`Mortar`,`Anti-Tank`],team:`Italian`,
@@ -10500,7 +10500,7 @@ export var types={
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 62nd Motorized Infantry Regiment "Sicilia"`,`1ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`1`,designation:`62`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 62nd Motorized Infantry Regiment "Sicilia"`,`2ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`2`,designation:`62`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 62nd Motorized Infantry Regiment "Sicilia"`,`3ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`3`,designation:`62`,commander:``},
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`],team:`Italian`,
@@ -10510,7 +10510,7 @@ export var types={
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`5ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`5`,designation:`62`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`6ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`6`,designation:`62`,commander:``},
                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`7ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`7`,designation:`62`,commander:``},
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Machine Gun`,`Mortar`,`Anti-Tank`],team:`Italian`,
@@ -12553,28 +12553,28 @@ export var types={
                                     desc:[`1st Company, 61st Motorized Infantry Regiment "Sicilia"`,`1ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`1`,designation:`61`,commander:``,
                                     pos:[1084,199],
                                     elements:[
-                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`5ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`5`,designation:`62`,commander:``},
+                                        {type:`Infantry Company`},
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
                                     desc:[`2nd Company, 61st Motorized Infantry Regiment "Sicilia"`,`2ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`2`,designation:`61`,commander:``,
                                     pos:[1063,276],
                                     elements:[
-                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`6ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`6`,designation:`62`,commander:``},
+                                        {type:`Infantry Company`},
                                     ],
                                 },{
                                     level:5,type:[`Infantry`],team:`Italian`,
                                     desc:[`3rd Company, 61st Motorized Infantry Regiment "Sicilia"`,`3ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`3`,designation:`61`,commander:``,
                                     pos:[1111,356],
                                     elements:[
-                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`7ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`7`,designation:`62`,commander:``},
+                                        {type:`Infantry Company`},
                                     ],
                                 },{
                                     level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                    desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``,
+                                    desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``,
                                     pos:[1196,414],
                                     elements:[
-                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``},
+                                        {type:`Heavy Infantry Company`},
                                     ],
                                 },{
                                     level:4,type:[`Artillery`],team:`Italian`,
@@ -13227,10 +13227,10 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``,icon:`trento`,
+                                            desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``,icon:`trento`,
                                             pos:[1255,666],
                                             elements:[
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``},
                                             ],
                                         },
                                     ],
@@ -13262,10 +13262,10 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``,icon:`trento`,
+                                            desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``,icon:`trento`,
                                             pos:[1196,414],
                                             elements:[
-                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``},
+                                                {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Armi d'Accompagnamento, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`62`,commander:``},
                                             ],
                                         },
                                     ],
@@ -13992,7 +13992,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                                    desc:[`12th Company, 15th Infantry Regiment`,`12ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`12`,designation:`15`,commander:``,icon:`savona`,
+                                                    desc:[`12th Company, 15th Infantry Regiment`,`12ª Compagnia Armi d'Accompagnamento, 15° Reggimento di Fanteria "Savona"`],name:`12`,designation:`15`,commander:``,icon:`savona`,
                                                     pos:[1155,858],
                                                     elements:[
                                                         {type:`Heavy Infantry Company`},
@@ -14001,7 +14001,7 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
-                                            desc:[`8th Company, 15th Infantry Regiment`,`8ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`8`,designation:`15`,commander:``,icon:`savona`,
+                                            desc:[`8th Company, 15th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 15° Reggimento di Fanteria "Savona"`],name:`8`,designation:`15`,commander:``,icon:`savona`,
                                             pos:[1171,741],
                                             elements:[
                                                 {type:`Heavy Infantry Company`},
@@ -14102,7 +14102,7 @@ export var types={
                                         {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 16th Infantry Regiment`,`5ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`5`,designation:`16`,commander:``},
                                         {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 16th Infantry Regiment`,`6ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`6`,designation:`16`,commander:``},
                                         {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 16th Infantry Regiment`,`7ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`7`,designation:`16`,commander:``},
-                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 16th Infantry Regiment`,`8ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`8`,designation:`16`,commander:``},
+                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 16th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 16° Reggimento di Fanteria "Savona"`],name:`8`,designation:`16`,commander:``},
                                     ],
                                 },{
                                     level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
@@ -24319,7 +24319,7 @@ export var types={
                                                             pos:[2967,1591],
                                                             elements:[
                                                                 {type:`Static Machine Gun Company`},
-                                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``},
+                                                                {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`Ad Hoc Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Formazione`,commander:``,icon:``},
                                                                 {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                                                 {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                                             ]
@@ -24663,7 +24663,7 @@ export var types={
                                                             desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:``,icon:``,
                                                             pos:[1941,778],
                                                             elements:[
-                                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``},
+                                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``},
                                                                 {level:5,type:`Small Ruined Infantry Company`,team:`Italian`,desc:[`1st Company, 61st Replacement Battalion`,`1ª Compagnia Fucilieri, LXI Battaglione Complementi`],name:`1`,designation:`61 R`,commander:``,icon:`sirte`},
                                                                 {level:5,type:`Small Ruined Infantry Company`,team:`Italian`,desc:[`2nd Company, 61st Replacement Battalion`,`2ª Compagnia Fucilieri, LXI Battaglione Complementi`],name:`2`,designation:`61 R`,commander:``,icon:`sirte`},
                                                                 {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 70th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 70° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`70`,commander:``,icon:`sirte`},
@@ -24723,7 +24723,7 @@ export var types={
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`6th Battery, 17th Artillery Group`,`6ª Batteria, XVII Gruppo Cannoni Campali`],name:`6`,designation:`17 Corps`,commander:``},
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment "Sirte"`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
-                                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
+                                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
                                                             ],
                                                         },{
                                                             level:5,type:[`Artillery`,`Fortress`],team:`Italian`,
@@ -24734,7 +24734,7 @@ export var types={
                                                             ]
                                                         },{
                                                             level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`Training Battery"`,`Batteria di Formazione`],name:`Formazione`,designation:``,commander:``,icon:``,
+                                                            desc:[`Ad Hoc Battery"`,`Batteria di Formazione`],name:`Formazione`,designation:``,commander:``,icon:``,
                                                             pos:[1287,655],
                                                             elements:[
                                                                 {type:`3-Gun Ruined Static Artillery Battery`},
@@ -24835,14 +24835,14 @@ export var types={
                                             ]
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[1797,451],
                                             elements:[
                                                 {type:`Infantry Company`},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[2145,350],
                                             elements:[
                                                 {type:`Infantry Company`},
@@ -25032,7 +25032,6 @@ export var types={
                                                     elements:[
                                                         {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
                                                         {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
-                                                        {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`C Squadron, 7th Battalion, Royal Tank Regiment`,`C Squadron, 7th Royal Tank Regiment`],name:`C`,designation:`7 RTR`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -25154,6 +25153,13 @@ export var types={
                                                 {level:5,type:`Motorized Heavy Artillery Battery`,team:`British`,desc:[`211th Battery, 64th (London) Medium Battalion, Royal Horse Artillery`,`211th Battery, 64th (London) Medium Regiment, Royal Horse Artillery`],name:`211`,designation:`64 RA`,commander:``},
                                             ],
                                         },{
+                                            level:5,type:[`Anti-Air`,`Motorized`],team:`British`,
+                                            desc:`1st Light Anti-Aircraft Battery, Royal Artillery`,name:`1`,designation:`2 LAA`,commander:``,icon:``,
+                                            pos:[3526,2109],
+                                            elements:[
+                                                {type:`Motorized Anti-Air Company`},
+                                            ],
+                                        },{
                                             level:5,type:[`Tank`,`Light`],team:`Australian`,
                                             desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
                                             pos:[3142,1976],
@@ -25176,7 +25182,7 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Engineer`,`Motorized`],team:`Australian`,
-                                            desc:[`3rd Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/3rd Field Company, Royal Australian Engineers`],name:`2/3`,designation:``,commander:``,icon:`6a`,
+                                            desc:[`8th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/8th Field Company, Royal Australian Engineers`],name:`2/8`,designation:``,commander:``,icon:`6a`,
                                             pos:[3259,1907],
                                             elements:[
                                                 {type:`Motorized Engineer Company`},
@@ -25656,7 +25662,7 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                    desc:[`Training Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Training`,commander:``,icon:``,
+                                                    desc:[`Ad Hoc Battery "Derna"`,`Batteria di Formazione "Derna"`],name:`Derna`,designation:`Formazione`,commander:``,icon:``,
                                                     pos:[3401,741],
                                                     elements:[
                                                         {type:`Ruined Static Artillery Battery`},
@@ -25833,7 +25839,7 @@ export var types={
                                                             desc:[`31st Libyan Coastal Infantry Battalion`,`XXXI Battaglione Fanteria Libico Costiera`],name:`31`,designation:`Libyan\nCoastal`,commander:``,icon:``,
                                                             pos:[1941,778],
                                                             elements:[
-                                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``},
+                                                                {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 31st Libyan Coastal Infantry Battalion`,`1ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`1`,designation:`31 Libyan`,commander:``,icon:``},
                                                                 {level:5,type:`Small Ruined Infantry Company`,team:`Italian`,desc:[`1st Company, 61st Replacement Battalion`,`1ª Compagnia Fucilieri, LXI Battaglione Complementi`],name:`1`,designation:`61 R`,commander:``,icon:`sirte`},
                                                                 {level:5,type:`Small Ruined Infantry Company`,team:`Italian`,desc:[`2nd Company, 61st Replacement Battalion`,`2ª Compagnia Fucilieri, LXI Battaglione Complementi`],name:`2`,designation:`61 R`,commander:``,icon:`sirte`},
                                                                 {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 70th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 70° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`70`,commander:``,icon:`sirte`},
@@ -25872,13 +25878,6 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
-                                                    desc:[`15th Infantry Gun Company`,`15ª Batteria Accompagnamento`],name:`15`,designation:``,commander:``,icon:`savona`,
-                                                    pos:[1404,1495],
-                                                    elements:[
-                                                        {type:`5-Gun Infantry Gun Company`},
-                                                    ],
-                                                },{
-                                                    level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
                                                     desc:[`69th Infantry Gun Battery`,`69ª Batteria Accompagnamento`],name:`69`,designation:``,commander:``,icon:`sirte`,
                                                     pos:[1284,1292],
                                                     elements:[
@@ -25890,6 +25889,13 @@ export var types={
                                                     pos:[1404,1495],
                                                     elements:[
                                                         {type:`Infantry Gun Company`},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
+                                                    desc:[`85th Infantry Gun Company`,`85ª Batteria Accompagnamento`],name:`85`,designation:``,commander:``,icon:`sabratha`,
+                                                    pos:[1404,1495],
+                                                    elements:[
+                                                        {type:`5-Gun Infantry Gun Company`},
                                                     ],
                                                 },{
                                                     level:5,type:[`Anti-Air`],team:`Italian`,
@@ -25949,7 +25955,7 @@ export var types={
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`6th Battery, 17th Artillery Group`,`6ª Batteria, XVII Gruppo Cannoni Campali`],name:`6`,designation:`17 Corps`,commander:``},
                                                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment "Sirte"`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
-                                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
+                                                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
                                                             ],
                                                         },{
                                                             level:5,type:[`Artillery`,`Fortress`],team:`Italian`,
@@ -25960,7 +25966,7 @@ export var types={
                                                             ]
                                                         },{
                                                             level:5,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
-                                                            desc:[`Training Battery"`,`Batteria di Formazione`],name:`Formazione`,designation:``,commander:``,icon:``,
+                                                            desc:[`Ad-Hoc Battery"`,`Batteria di Formazione`],name:`Formazione`,designation:``,commander:``,icon:``,
                                                             pos:[1287,655],
                                                             elements:[
                                                                 {type:`3-Gun Ruined Static Artillery Battery`},
@@ -26061,14 +26067,14 @@ export var types={
                                             ]
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`2nd Company, 31st Libyan Coastal Infantry Battalion`,`2ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`2`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[1797,451],
                                             elements:[
                                                 {type:`Infantry Company`},
                                             ],
                                         },{
                                             level:5,type:[`Infantry`],team:`Italian`,
-                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
+                                            desc:[`3rd Company, 31st Libyan Coastal Infantry Battalion`,`3ª Compagnia Fucilieri, XXXI Battaglione Fanteria Libico Costiera`],name:`3`,designation:`31 Libyan`,commander:``,icon:``,
                                             pos:[2145,350],
                                             elements:[
                                                 {type:`Infantry Company`},
@@ -26514,7 +26520,6 @@ export var types={
                                                     elements:[
                                                         {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`A Squadron, 7th Battalion, Royal Tank Regiment`,`A Squadron, 7th Royal Tank Regiment`],name:`A`,designation:`7 RTR`,commander:``},
                                                         {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`B Squadron, 7th Battalion, Royal Tank Regiment`,`B Squadron, 7th Royal Tank Regiment`],name:`B`,designation:`7 RTR`,commander:``},
-                                                        {level:5,type:`Heavy Tank Company`,team:`British`,desc:[`C Squadron, 7th Battalion, Royal Tank Regiment`,`C Squadron, 7th Royal Tank Regiment`],name:`C`,designation:`7 RTR`,commander:``},
                                                     ],
                                                 },
                                             ],
@@ -26636,6 +26641,13 @@ export var types={
                                                 {level:5,type:`Motorized Heavy Artillery Battery`,team:`British`,desc:[`211th Battery, 64th (London) Medium Battalion, Royal Horse Artillery`,`211th Battery, 64th (London) Medium Regiment, Royal Horse Artillery`],name:`211`,designation:`64 RA`,commander:``},
                                             ],
                                         },{
+                                            level:5,type:[`Anti-Air`,`Motorized`],team:`British`,
+                                            desc:`1st Light Anti-Aircraft Battery, Royal Artillery`,name:`1`,designation:`2 LAA`,commander:``,icon:``,
+                                            pos:[1074,2109],
+                                            elements:[
+                                                {type:`Motorized Anti-Air Company`},
+                                            ],
+                                        },{
                                             level:5,type:[`Tank`,`Light`],team:`Australian`,
                                             desc:[`A Squadron, 6th Australian Division Tank Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
                                             pos:[1458,1976],
@@ -26658,8 +26670,8 @@ export var types={
                                             ],
                                         },{
                                             level:5,type:[`Engineer`,`Motorized`],team:`Australian`,
-                                            desc:[`3rd Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/3rd Field Company, Royal Australian Engineers`],name:`2/3`,designation:``,commander:``,icon:`6a`,
-                                            pos:[1071,1907],
+                                            desc:[`8th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/8th Field Company, Royal Australian Engineers`],name:`2/8`,designation:``,commander:``,icon:`6a`,
+                                            pos:[1341,1907],
                                             elements:[
                                                 {type:`Motorized Engineer Company`},
                                             ],
@@ -45833,7 +45845,7 @@ export var types={
     ],
 }
 export var dev={slow:false,begin:-1,view:-1,reserve:-1}
-export var options={obscureKills:true,translate:false,headquarters:false,moved:false}
+export var options={obscureKills:true,translate:false,headquarters:false,moved:false,clean:false}
 export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}
 export var constants={

@@ -2925,5 +2925,79 @@ reserves=[
             {level:8,type:`Small Ruined Machine Gun Squad`,team:`Italian`,desc:[`Training Machine Gun Squad`,`Squadra di Mitraglieri di Formazione`],name:``,designation:`Training`,commander:``},
             {level:8,type:`Small Ruined Mortar Squad`,team:`Italian`,desc:[`Training Mortar Squad`,`Squadra di Mortai di Formazione`],name:``,designation:`Training`,commander:``},
         ]
+    },{
+        level:4,type:[`Infantry`],team:`Italian`,
+        desc:[`64th Replacement Battalion`,`LXIV Battaglione Complementi`],name:`64`,designation:`Replacement`,commander:``,icon:`catanzaro`,
+        pos:[1317,554],
+        elements:[
+            {
+                level:5,type:[`Infantry`],team:`Italian`,
+                desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                pos:[1372,628],
+                elements:[
+                    {type:`Ruined Infantry Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`],team:`Italian`,
+                desc:[`2nd Company, 64th Replacement Battalion`,`2ª Compagnia, LXIV Battaglione Complementi`],name:`2`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                pos:[1454,495],
+                elements:[
+                    {type:`Ruined Infantry Company`},
+                ]
+            },{
+                level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+                desc:[`4th Company, 64th Replacement Battalion`,`4ª Compagnia, LXIV Battaglione Complementi`],name:`4`,designation:`64 R`,commander:``,icon:`catanzaro`,
+                pos:[1297,632],
+                elements:[
+                    {type:`Ruined Heavy Infantry Company`},
+                ]
+            },{
+                level:8,type:[`Anti-Tank`],team:`Italian`,
+                desc:[`76/40 Gun`,`Pezzo da 76/40`],name:`76/40`,designation:`Regia\nMarina`,commander:``,icon:``,
+                pos:[1369,569],
+                elements:[
+                    {type:`Ruined Single Anti-Tank Company`},
+                ],
+            },
+        ],
+    },{
+        level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+        desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``,icon:`trento`,
+        pos:[996,905],
+        elements:[
+            {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 61st Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`61`,commander:``},
+        ],
+    },{
+        level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+        desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``,icon:`trento`,
+        pos:[1857,404],
+        elements:[
+            {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``},
+        ],
+    },{
+        level:2,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+        desc:[`9th Bersaglieri Regiment`,`9° Reggimento Bersaglieri`],name:`9`,designation:`Bersaglieri`,commander:`Bordoni`,icon:`trieste`,
+        pos:[993,728],
+        elements:[
+            {level:3,type:`Motorcycle Bersaglieri`,team:`Italian`,desc:[`28th Bersaglieri Battalion`,`28° Battaglione Bersaglieri`],name:`28`,designation:`Bersaglieri`,commander:`Blandi`},
+            {level:3,type:`Motorized Bersaglieri`,team:`Italian`,desc:[`30th Bersaglieri Battalion`,`30° Battaglione Bersaglieri`],name:`30`,designation:`Bersaglieri`,commander:`Borghi`},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
+        desc:[`15th Infantry Gun Company`,`15ª Batteria Accompagnamento`],name:`15`,designation:``,commander:``,icon:`savona`,
+        pos:[1404,1495],
+        elements:[
+            {type:`5-Gun Infantry Gun Company`},
+        ],
+    },{
+        level:4,type:[`Artillery`],team:`Italian`,
+        desc:[`1st Artillery Group`,`I Gruppo Obici Campali, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`1`,designation:`22 Corps`,commander:``,icon:``,
+        pos:[1531,1450],
+        elements:[
+            {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
+            {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`6th Battery, 17th Artillery Group`,`6ª Batteria, XVII Gruppo Cannoni Campali`],name:`6`,designation:`17 Corps`,commander:``},
+            {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment "Sirte"`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
+            {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
+        ],
     },
 ]

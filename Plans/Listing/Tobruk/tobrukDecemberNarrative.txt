@@ -1,0 +1,92 @@
+Order of battle for the garrison:
+
+The Guardia alla Frontiera is responsible for the existing garrison. The 31st and 32nd Coverage Sectors were initially in the city, but the 32nd was removed along with some of its personnel to reconstitute other garrisons. Out of the initial 12 strongpoints in the garrison, only 8 remain:
+
+31st Coverage Sector
+    31st/A Subsector
+        Strongpoint Sidi Daud (19 Fortifications)
+        Strongpoint Suesi (6 Fortifications)
+    31st/B Subsector
+        Strongpoint Bir Junes (11 Fortifications)
+        Strongpoint Bir Umm Haleiga (11 Fortifications)
+Elements, 32nd Coverage Sector
+    Strongpoint Hagfet Umm Haleiga (12 Fortifications)
+    Strongpoint Bir el Medauuar  (10 Fortifications)
+    Strongpoint Es Sehel (6 Fortifications)
+    Strongpoint Umm Cuheil (18 Fortifications)
+
+The fortifications that are manned each have 2 outdated Schwarzlose machine guns for a total of 186. However note that these can be supplemented by ones later found in storage. They are covered by thin defenses, consisting of mines, concertina wire, and in some places, a ditch.
+Supporting these Guardia alla Frontiera elements is the 31st Mixed Engineer unit with a company strength of 115 men of various specializations. There's also the following additional infantry:
+
+31st Libyan Coastal Battalion (3 rifle companies without any heavy weapons)
+64th Replacement Battalion (Standard infantry organization of 3 rifle companies and 1 heavy company with 8 machine guns and 18 light mortars)
+3rd Company, 62nd Replacement Battalion
+63rd Garrison Company
+
+While these units are somewhat more mobile than the static Guardia alla Frontiera strongpoints, the entire fortress suffers from fragile communications networks and a lack of any motor vehicles.
+The Guardia alla Frontiera formerly had numerous batteries inside Tobruk, but the vast majority of them have been taken elsewhere. Remaining are five medium-caliber batteries:
+
+5th Artillery Group (1)
+    242nd Artillery Battery (4 120/25)
+6th Artillery Group (2)
+    230th Bis Artillery Battery (4 120/25)
+    231st Bis Artillery Battery (4 120/25)
+7th Artillery Group (2)
+    244th Artillery Battery (4 149/35)
+    245th Artillery Battery (4 149/35)
+
+For anti-tank support, only a single 47/32 anti-tank gun is initially available. There are an additional four batteries of light guns that can also be used either in a field or anti-tank role, although they lack anti-tank ammunition:
+
+1st Artillery Group (1)
+    249th Artillery Battery (4 75/27)
+2nd Artillery Group (1)
+    246th Artillery Battery (4 77/28)
+3rd Artillery Group (1)
+    247th Artillery Battery (4 77/28)
+Ad Hoc Battery "Derna" (4 75/27)
+
+The naval garrison has eleven artillery batteries and the cruiser "San Giorgio" with a total of 73 guns. However, only 50 have firing arcs that can hit targets on land:
+
+Naval Battery "Dandolo" (Cannot fire at land targets)
+Naval Battery "Tortora" (Cannot fire at land targets)
+Naval Battery "Tonno" (Cannot fire at land targets)
+Naval Battery "Bellotti" (4 149/47)
+Naval Battery "Grasso" (4 149/47)
+Naval Battery "Beiad" (6 102/35)
+Naval Battery "Sidi Mahmud" (6 102/35)
+Naval Battery "Pilastrino" (6 102/35, 1 76/40)
+Naval Battery "Tordo" (6 76/40)
+Naval Battery "Toro" (3 76/40)
+Naval Battery "Topo" (6 76/40)
+Cruiser / Floating Battery "San Giorgio" (4 254/30, 4 190/45)
+
+Three depots are located in Tobruk, a unified one for the Guardia alla Frontiera, one for the 116th Infantry Regiment "Marmarica", and one for the navy. The following guns were found in them:
+
+Infantry Weapons:
+    Guardia alla Frontiera:
+        254 Fiat 35 machine guns
+        41 Brixia Model 35 mortars (45/5)
+        12 81/14 mortars
+    Regia Aeronautica:
+        20 77mm machine guns
+        30 127mm machine guns
+
+Artillery:
+    Guardia alla Frontiera:
+        10 20/65 AA/AT machine guns
+        22 47/32 AT guns
+        1 65/17 AT/infantry guns
+        3 75/27 AT/field guns
+        4 77/28 AT/field guns
+        4 105/28 field guns
+        1 149/12 field gun
+        3 149/35 field guns
+    Regia Marina:
+        3 76/30 AT/field guns
+        1 76/40 AT/field guns
+        4 120/45 field guns
+
+The machine guns can be deployed to support the outdated Schwarlose models in the fortifications or be used to support infantry. Note that the machine guns taken from aircraft suffer from poor performances when used by ground personnel due to cooling issues.
+Note that the multipurpose guns of 75mm caliber or larger lack anti-tank ammunition. For the naval guns, personnel from the navy are available to crew them, while makeshift crews will be necessary for the rest. If necessary, about 160 personnel for various duties can be drawn from the depots and the Tobruk Carabinieri Station.
+
+
