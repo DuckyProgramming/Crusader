@@ -4305,6 +4305,8 @@ I don't think any of the fortifications surrounding the town ever even had more 
 The ones facing the Wadi es Sehel also supposedly lacked anti-tank guns, since that area wasn't considered passable to tanks in the first place. The British map also got this wrong.
 The map from "The Operations in North Africa" also supports this, as no anti-tank ditch or mines are marked in that area and that would probably imply a lack of anti-tank weaponry as a whole.
 Each fortification initially also had two machine guns. We know this was still the case by the time the actual attack occurred since the six positions that fell first had 12 MGs between them.
+This book also makes a different mistake, however, in taking Montanari's maps (or the sources he used) literally. When half a group's area is marked as lost, that doesn't mean exactly half of it was lost.
+More likely, either all of it was lost as it was completely overrun, or the entire group managed to survive, for now at least. It wouldn't make sense for the Australians to just leave the rest alone.
 
 He also notes that 22 47/32 guns out of the 43 total were taken from the "artillery magazine" which may refer to the depots of the G.a.F. or from the strongpoints.
 I'll go over this some more two paragraphs later once I finish reading it. But this does annoy me since it certainly isn't the same number I had previously.
@@ -4462,5 +4464,288 @@ The parts of the 63rd Light Tank Battalion that weren't at Tobruk were almost en
 
 While the 75/46 gun used a pretty common (75mm) caliber and was attempting to be produced, and in Tobruk it was used in a sort of anti-tank role, anti-tank ammunition for them was not produced until 1942.
 I do find this a bit weird, though, since many 75/27 or 77/28 guns were also being used in an anti-tank role. It seems possible but very stupid if none of these had any anti-tank ammo either.
+
+Unlike "The First British Offensive", the later published "The Operations in North Africa" series does actually have indexes (indices?) for units rather than just random stuff, though by now they are obsolete due to ctrl+F.
+Worse, even if they were at least somewhat useful in finding stuff, all they tell me is that everything the book has on the topics I care about I have already seen, and that it has nothing new to offer.
+
+I'm now reading through the diaries of a Phil who was in the 2/7th Australian Battalion and was at Tobruk. Here's some things that he notes (though they're probably not the most reliable):
+The artillery at Tobruk was not only greater in quantity than in Bardia but was more accurate and aggressive, maybe due to Pitassi Manella's leadership.
+The Italians built several large rock or concrete structures that were left around in the desert. It was thought these were used for rangefinding and the Australians couldn't destroy them.
+His company was only given 5 posts to capture and then it was placed in reserve. Those were B1-B5, which aren't mentioned according to Italian maps so are probably Australian-given designations.
+The last post they went to (probably not one they were assigned to capture) was very impressively built into the side of a wadi with deeply concealed weapons emplacements.
+Each Italian anti-aircraft gun (20/6) used differently-colored tracer ammunition to track its shots, making them quite pretty against the night sky.
+
+When Tobruk fell, to the Axis this time, the 25th Field Regiment had the 12th/25th, 31st/58th, and 287th Batteries (note that 12/25 and 31/58 are misrepresented by TIK) deployed on the 2nd line around King's Cross.
+Note that only the first 2 batteries, both composite in nature, were from the regiment. The 287th Battery came from the 124th (Northumbrian) Field Regiment from the 50th Division.
+
+Doing a bit of reading from Montanari's writing on the later stages of the desert war, more specifically "The Second Italo-German Counteroffensive" which covers the time between Crusader's end and September 1942.
+Here's what I've gained from that:
+By this point, the Trieste Division had just 4732 men left, plus 1198 drivers. No wonder that its regiments were reduced to a strength of four companies each, in two battalions.
+The original AS 42 infantry division was meant to do the same with its infantry, having a standard strength of either 3373 or 3704 men (depending on source) and 8 infantry companies.
+It was hoped that eventually reinforcements would be fed into the divisions to bring their battalions back up to four companies each and these replacement companies began forming in Italy.
+The Trento Division in the spring of 1942 was badly understrength in artillery, with its four groups having just two batteries apiece.
+The other divisions varied significantly and none met the target strength of 931 men manning 2 75/27 and 1 100/17 groups of two batteries. In June the third battery was readded as a goal.
+
+It also includes a rare OOB for Panzerarmee Afrika on the 20th of January 1942. Here it is:
+Army Troops
+    Kampfgruppe Marcks
+        88mm Battery (3 Guns)
+        Group "Pardi" (3 Unknown Batteries, 1 20/65 Battery)
+        605th Anti-Tank Battalion
+            Signals Platoon
+            "Semovente" Battery (6 76.2mm) (Probably the "Diana")
+            2 Companies (Each 7 47mm and 3 Submachine Guns)
+        104th Motorized Infantry Regiment
+            1st Battalion, 155th Infantry Regiment (4 Companies and 4 76.2mm Guns)
+            2nd Battalion, 155th Infantry Regiment (4 Companies, 1 Heavy Company, 10 76.2mm Guns)
+            1 Heavy Company With 75mm Guns
+            2nd Battalion, 104th Infantry Regiment (4 Companies, 1 Heavy Company)
+    104th Artillery Command
+        408th Artillery Battalion
+            1 210mm Mortar Battery (2 Guns)
+            2 105mm Howitzer Batteries (7 Guns Total)
+            1 105/28 Battery (Italian)
+        Kampfgruppe Nord
+            523rd Battalion
+                1 170mm Battery
+                2 150mm Batteries
+            533rd Battalion
+                2 100mm Batteries
+                Command battery
+            11th Observation Battalion
+                Flash Detection Battery
+                Sound-Ranging Battery
+        221st Artillery Regiment
+            326th Observation Battery
+            2nd Battalion, 115th Artillery Regiment
+                1 210mm Battery
+            528th Battalion
+                1 170mm Battery
+                2 Motorized 105mm Howitzer Batteries (7 Guns Total)
+    Anti-Aircraft Kampfgruppe Hecht (135th Motorized Artillery Regiment)
+        114th Battalion
+            1 20mm Battery (12 Guns)
+            1 50mm Battery (8 Guns)
+            3 88mm Batteries (9 Guns Total) (Each With a 20mm Section)
+        1st Battalion, 33rd Anti-Aircraft (Flak) Regiment
+            2 20mm Batteries (16 Guns Total)
+        1st Battalion, 18th Anti-Aircraft (Flak) Regiment
+            2 20mm Batteries
+            2 88mm Batteries
+    900th Engineer Battalion (2 Companies)
+    6 Radio Stations, 1 Signals Company
+Deutsches Afrika Korps
+    Assigned Army Units
+        475th Signals Battalion
+        580th Reconaissance Company
+        1 20mm Battery (Tracked Vehicles)
+        1 Anti-Tank Company
+        1 Armored Car Company
+        1 Motorized Reconaissance Company
+        606th Anti-Aircraft (Flak) Battalion
+        3 50mm Companies (Probably PAK 38) (Tracked Vehicles)
+    15th Panzer Division
+        General Staff + Command Company (Command Platoon, Motorcycle Platoon (Kradmelde?), MP Section, Mapping Section)
+        8th Panzer Regiment
+            Command Company (Signals Company, Light Tank Company)
+            Workstation
+            2 Panzer Battalions, Each
+                Command Company
+                3 Light Tank Companies
+                1 Medium Tank Company
+        15th Infantry Brigade
+            200th Motorized Infantry Regiment
+                Signals Platoon
+                Motorcycle Platoon
+                15th Motorcycle Battalion
+                    1 Heavy Motorized Company
+                    1 Machine Gun Company
+                    3 Motorcycle Companies
+                2nd Motorized Machine Gun Battalion
+                    1 Heavy Comapny
+                    3 Machine Gun Companies
+                    1 75mm Support Battery (PAK 40?)
+            115th Infantry Regiment
+                Command Company
+                    Signals Platoon
+                    Engineer Platoon
+                    Motorcycle Platoon
+                    Anti-Tank Platoon
+                2 Infantry Battalions, Each
+                    4 Infantry Companies
+                    1 Heavy Company
+        33rd Motorized Artillery Regiment
+            2 105mm Howitzer Battalions (3 Batteries Each)
+            1 Mixed Battalion
+                105mm Battery
+                2 150mm Batteries
+        33rd Reconaissance Battalion
+            Signals Platoon
+            2 Armored Car Companies
+            1 Heavy Motorized Company (1 Engineer Platoon, 2 Anti-Tank Platoons)
+            1 Motorcycle Company
+        33rd Anti-Tank Battalion (3 Companies)
+        33rd Engineer Battalion (3 Companies)
+        Signals Battalion
+            1 Signals Company
+            1 Radio Company
+        33rd Replacement Battalion (3 Companies)
+        Divisional Services
+    21st Panzer Division
+        General Staff + Command Company (Command Platoon, Motorcycle Platoon (Kradmelde?), MP Section, Mapping Section)
+        5th Panzer Regiment
+            Command Company (Signals Company, 2 Light Tank Platoons)
+            Repair Company
+            2 Panzer Battalions, Each
+                Command Company (With 1 Light Tank Platoon)
+                3 Light Tank Companies
+                1 Medium Tank Company
+        8th Motorized Machine Gun Battalion
+            Command Company (Signals Paltoon, 2 Motorcycle Platoons)
+            4 Machine Gun Companies
+            1 Anti-Tank Company
+        155th Motorized Artillery Regiment
+            2 105mm Howitzer Battalions (3 Batteries Each)
+            1 Mixed Battalion
+                105mm Battery
+                2 150mm Batteries
+        3rd Reconaissance Battalion
+            2 Armored Car Companies
+            1 Heavy Motorized Company (1 Engineer Platoon, 2 Anti-Tank Platoons)
+            1 Motorcycle Company
+        39th Anti-Tank Battalion (3 Companies)
+        200th Engineer Battalion (3 Companies)
+        200th Signals Battalion
+            1 Signals Company
+            1 Radio Company
+        200th Replacement Battalion (4 Companies)
+        Divisional Services
+    90th Light "Afrika" Division
+        General Staff + Command Company (Command Platoon, Motorcycle Platoon (Kradmelde?), MP Section, Mapping Section)
+        228th Regiment (ex Daumiller) (This is probably the 288th Sonderverband)
+            3 20mm Platoons
+            2 Engineer Companies
+            1 Company With 2 47mm Platoons (6 Guns)
+            1 Anti-Tank Company
+        Kampfgruppe Burchardt
+            3 Companies (Each 18 SMGs, 2 LMGs, 3 45mm Mortars, 1 81mm Mortar)
+            1 Machine Gun Company (8 HMGs, 4 81mm Mortars, 4 Anti-Tank Rifles)
+            1 Anti-Tank Company (8 37mm Guns, 3 47mm Guns)
+            1 75mm Battery
+            1 Engineer Platoon
+            Workstation
+        1 20mm Battery (6 Guns)
+        368th Anti-Aircraft (Flak) and Anti-Tank Battalion
+            1st Unit: 4 SMGs, 3 LMGs, 4 37mm Guns
+            2nd Unit: 11 SMGs
+            3rd Unit: 4 SMGs, 7 20mm Guns
+            Note: I've never even heard of this unit, maybe it was part of the Sonderverband?
+        361st Infantry Regiment
+            Battalion
+                Command Company (1 81mm Mortar, 1 37mm Gun, 1 Anti-Tank Rifle, 2 LMGs)
+                2 Companies (Each 18 SMGs, 2 LMGs, 4 Light AT Rifles, 2 Heavy AT Rifles, 1 37mm Gun)
+            Battalion
+                Company (14 SMGs, 2 MGs, 3 Light AT Rifles, 1 Heavy AT Rifle, 1 37mm Gun)
+                Company (14 SMGs, 2 MGs,s 3 Light AT Rifles)
+                Company (6 37mm Guns, 2 47mm Guns, 4 81mm Mortar)
+            Battalion
+                Company (9 SMGs, 2 LMGs, 3 Light AT Rifles, 1 Heavy AT Rifle, 3 37mm Guns, 2 81mm Mortars)
+                Company (9 SMGs, 2 LMGs, 3 Light AT Rifles, 1 Heavy AT Rifle, 8 37mm Guns, 1 81mm Mortars, 1 47mm Guns)
+                Company (4 SMGs, 2 LMGs, 1 Light AT Rifles, 1 Heavy AT Rifle, 3 37mm Guns, 1 81mm Mortars)
+        155th Motorized Infantry Regiment (to Kampfgruppe Marcks)
+
+Another OOB included is for the Sabratha Division on the 1st of February 1942. Here it is:
+Organic Elements
+    Divisional Command
+        Commander: Brigader General Mario Soldarelli
+        Chief of Staff: Lieutenant Colonel S. M. Converti
+        General Staff
+        Headquarters
+            105th Mixed Carabinieri Section
+            260th Post Office
+    85th Infantry Regiment
+        Command
+        2 Battalions
+        85th 81/14 Company
+    86th Infantry Regiment
+        Command
+        2 Battalions
+        86th 81/14 Company
+    Raggruppamento Artiglieria
+        Command
+        283rd Group of 75/27 (3 Batteries)
+        284th Group of 75/27 (2 Batteries)
+    60th Mixed Engineer Battalion
+    Divisional Services
+Reinforcements
+    "San Marco" Marine Battalion
+    Raggruppamento Giovani Fascisti
+    340th 65/17 Battery
+    1 Battery, 18th 88/56 Group
+    2 Batteries, 42nd 75/50 Group
+    14th 76/30 Battery
+    32nd Guastatori Battalion
+
+Changes to be made:
+AS 1942 division reorganizations
+III/33rd Artillery Regiment was mixed
+317th Group of 75/27 had just 2 batteries
+
+Unrelated, but Gotti commanded the Trento Division into February 1942 so he should be named in the Rommel's Second Offensive scenario.
+The XXI Corps during Gazala, responsible for defending the sector from the coast to Sidi Breghisc, was reinforced by a German Tank Battalion.
+
+The Afrika Division was not actually completedly inserted into the Tobruk siege lines at the start of Crusader. Rommel made this decision while literally under attack.
+It just goes to show how poorly he handled the battle at its outset, and resulted in the loss of II./IR 255 since it wasn't fully prepared for its defense. Good thing the British were just as bad!
+
+I think it's notable that the general defensive structure that the Italians used to defend Tobruk was almost entirely replicated by the British in the 2nd siege. Here's how similar they were:
+2nd South African Division (HQ Between Fort Solaro and Gabr el Abd)*
+    Eastern Sector (11th Indian Infantry Brigade) (HQ Sidi Mahmud)*
+        (Subsector A)
+            2nd/7th Gurkha Rifles (Strongpoints Sidi Daud, Zeitun)
+            2nd/5th Mahratta Light Infantry (Strongpoints Bir Junes, Suesi)
+        (Subsector B)
+            2nd Cameron Hihglanders (Strongpoint Dahar el Azazi, Half of Bir Umm Haleiga)
+            Beer Group (Half of Strongpoint Bir Umm Haleiga)
+    Western Sector (4th South African Brigade) (HQ Fort Pilastrino)*
+        (Subsector C)
+            Kaffrarian Rifles
+        (Subsector D)
+            Blake Group (Strongpoint Bir el Medauuar)
+            Umvoti Mounted Rifles (Strongpoint Ras el Medauuar)
+            2nd Royal Durban Light Infantry (Ras es Sehel)
+    Northern Sector (6th South African Brigade) (HQ Ras bel Ghemel)
+        (Subsector E)
+            2nd Transvaal Scottish (Strongpoint Es Sehel)
+            2nd South African Police Battalion (Strongpoints Bir el Meclub, Umm Cuheil)
+        (Coastal Sector)
+            1st South African Police Battalion
+* - Parallel to the Italian plan
+
+I also intend to rebuild the Siege of Tobruk event since it's now severley outdated. Here's the changes to make:
+Source 1: this ugly map https://cove.army.gov.au/article/80-years-remembering-rats-tobruk
+Source 2: Montanari, "The First Italo-German Counteroffensive in North Africa"
+Restructure the artillery. In the historical siege there were 3 RHA Field Regiments and 1 RA Field Regiment that were spread mostly evenly across the fortress.
+3rd Armoured Brigade had: 1 Regiment of Armoured Cars, 1 Composite Light Tank Regiment, 1 Composite Cruiser Tank Regiment, 1 Infantry Tank Troop
+Trento Division OOB, attacking strongpoints between the strongpoints from Bir Junes to Zeitun:
+7th Berasglieri Regiment
+    8th Bersaglieri Battalion
+    10th Bersaglieri Battalion
+    11th Bersaglieri Battalion
+    7th Bersaglieri Anti-Tank Company
+2 Infantry Battalions
+    2nd Battalion, 61st Infantry Regiment
+    1st Battalion, 62nd Infantry Regiment
+2 Machine Gun Companies
+    Unknown numbers, from the 551st Machine Gun Battalion
+2 47/32 Companies
+    104th Battery
+    106th Battery
+1.5 20/65 Batteries
+    Irrelevant
+2 Groups of 2 Batteries of 75/27
+    3rd Group
+    4th Group
+
+Also, I completely trolled myself by not realising sooner that all the groups in the motorized divisions had 2 batteries each. Time for a ton of changes...
 
 

@@ -2999,5 +2999,56 @@ reserves=[
             {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment "Sirte"`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
             {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Mixed Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Mista, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Misto`,designation:`22 Corps`,commander:``},
         ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`Artillery Regrouping "Sirte"`,`Raggruppamento Artiglieria "Sirte"`],name:`Sirte`,designation:``,commander:`Mascagna`,icon:`sirte`,
+        pos:[130,1492],
+        elements:[
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`316th Group, 31st Frontier Guard Artillery Regiment`,`CCCXVI Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`316`,designation:`31`,commander:`Tramontin`},
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`317th Group, 31st Frontier Guard Artillery Regiment`,`CCCXVII Gruppo, 31° Raggruppamento Artiglieria Guardia alla Frontiera`],name:`317`,designation:`31`,commander:`Verna`},
+        ],
+    },{
+        level:3,type:[`Artillery`],team:`Italian`,
+        desc:[`46th Artillery Regiment`,`46° Reggimento Artiglieria "Trento"`],name:`46`,designation:`Trento`,commander:`Grati`,icon:`trento`,
+        pos:[130,1562],
+        elements:[
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`1st Group, 46th Artillery Regiment`,`I Gruppo, 46° Reggimento Artiglieria "Trento"`],name:`1`,designation:`46`,commander:`Giannimi`},
+            {level:4,type:`Small Fast Artillery`,team:`Italian`,desc:[`3rd Group, 46th Artillery Regiment`,`III Gruppo, 46° Reggimento Artiglieria "Trento"`],name:`3`,designation:`46`,commander:`Salvo`},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Halfaya Garrison`,`Ridotta Halfaya`],name:`Halfaya`,designation:``,commander:``,icon:`trento`,
+        pos:[1301,834],
+        elements:[
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 10th Bersaglieri Battalion`,`1ª Compagnia, 10° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
+            {level:5,type:`Motorcycle Infantry Company`,team:`German`,desc:[`2nd Company, 15th Motorcycle Battalion`,`2./Kradschützen-Bataillon 15`],name:`2`,designation:`15`,commander:``},
+            {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`1st Company, 551st Mixed Support Battalion`,`1ª Compagnia Cannoni Controcarro, DLI Battaglione Armi d'Accompagnamento`],name:`1`,designation:`551`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`7th Battery, 46th Artillery Regiment`,`7ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`7`,designation:`46`,commander:``},
+        ],
+    },{
+        level:4,type:[`Fortress`],team:`Italian`,
+        desc:[`Musaid Garrison`,`Ridotta Musaid`],name:`Musaid`,designation:``,commander:``,icon:`trento`,
+        pos:[1152,670],
+        elements:[
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`11`,commander:``},
+            {level:5,type:`Small Anti-Tank Company`,team:`Italian`,desc:[`9th Company, 61st Motorized Infantry Regiment "Sicilia"`,`9ª Compagnia Cannoni Controcarro, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`9`,designation:`61`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`8th Battery, 46th Artillery Regiment`,`8ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`8`,designation:`46`,commander:``},
+        ],
+    },{
+        level:4,type:[`Artillery`],team:`Italian`,
+        desc:[`4th Group, 46th Artillery Regiment`,`IV Gruppo, 46° Reggimento Artiglieria "Trento"`],name:`4`,designation:`46`,commander:`Gavazzi`,icon:`trento`,
+        pos:[1189,338],
+        elements:[
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`11th Battery, 46th Artillery Regiment`,`11ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`10`,designation:`46`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`11th Battery, 46th Artillery Regiment`,`11ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`11`,designation:`46`,commander:``},
+            {level:5,type:`Small Artillery Battery`,team:`Italian`,desc:[`12th Battery, 46th Artillery Regiment`,`12ª Batteria, 46° Reggimento Artiglieria "Trento"`],name:`12`,designation:`46`,commander:``},
+        ],
+    },{
+        level:5,type:[`Infantry`,`Motorized`,`Machine Gun`],team:`Italian`,
+        desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`11`,commander:``,icon:`trento`,
+        pos:[1277,677],
+        elements:[
+            {type:`Motorized Bersaglieri Company`},
+        ]
     },
 ]
