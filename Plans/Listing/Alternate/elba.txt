@@ -1,0 +1,15 @@
+Elba Troops Command (5 Battalions, 25 Companies)
+    108th Infantry Regiment (2 Battalions, 10 Companies)
+        1st Battalion (4 Companies)
+        2nd Battalion (4 Companies)
+        Mortar Company
+        Infantry Gun Company
+    520th Static Machine Gun Battalion (5 Companies)
+    27th Militia Artillery Group (6 Companies)
+        3 75/27 Batteries
+        2 149/12 Batteries
+        1 20/65 Battery
+    Independent Blackshirt Battalion "La Ferrigna" (3 Companies)
+    Elba Mixed Engineer Company
+
+

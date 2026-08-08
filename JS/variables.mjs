@@ -185,6 +185,7 @@ export var types={
         {name:`Heavy Artillery Battery`,unitType:[`Artillery`,`Heavy`],class:2,damage:[20,20,3,6],armor:0.5,health:8,morale:0.8,num:4,speed:0.6,artillery:true,engineer:false,recon:false},
         {name:`Heavy Naval Artillery Battery`,unitType:[`Artillery`,`Heavy`,`Naval`],class:2,damage:[20,20,4,8],armor:1,health:10,morale:0.8,num:4,speed:0,artillery:true,engineer:false,recon:false},
         {name:`8-Gun Heavy Naval Artillery Battery`,unitType:[`Artillery`,`Heavy`,`Naval`],class:2,damage:[20,20,4,8],armor:1,health:20,morale:0.8,num:8,speed:0,artillery:true,engineer:false,recon:false},
+        {name:`8-Gun Ruined Heavy Naval Artillery Battery`,unitType:[`Artillery`,`Heavy`,`Naval`],class:2,damage:[20,20,4,8],armor:1,health:16,morale:0.8,num:8,speed:0,artillery:true,engineer:false,recon:false},
         {name:`Fake 12-Gun Heavy Naval Artillery Battery`,unitType:[`Artillery`,`Heavy`,`Naval`],class:2,damage:[20,20,4,8],armor:1,health:20,morale:1.2,num:12,speed:0,artillery:true,engineer:false,recon:false},
         {name:`Static Heavy Artillery`,unitType:[`Artillery`,`Heavy`],class:2,damage:[20,20,10,20],armor:0.5,health:20,morale:0.8,num:12,speed:0.3,artillery:true,engineer:false,recon:false},
         {name:`8-Gun Static Heavy Artillery`,unitType:[`Artillery`,`Heavy`],class:2,damage:[20,20,6,12],armor:0.5,health:15,morale:0.8,num:8,speed:0.3,artillery:true,engineer:false,recon:false},
@@ -942,7 +943,7 @@ export var types={
                             elements:[
                                 {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Locatelli`},
                                 {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
-                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`},
                             ],
                         },{
                             level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
@@ -1431,7 +1432,7 @@ export var types={
                             elements:[
                                 {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Locatelli`},
                                 {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
-                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`},
                             ],
                         },{
                             level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
@@ -1705,7 +1706,7 @@ export var types={
                             elements:[
                                 {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`},
                                 {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`60th Tank Battalion`,`LX Battaglione Carri L`],name:`60`,designation:``,commander:`Trivioli`},
-                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`},
                                 {level:4,type:`Small Heavy Artillery`,team:`Italian`,desc:[`148th Group, 25th Corps Artillery Regiment`,`CXLVIII Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`148`,designation:`25 Corps`,commander:`Petitti`},
                                 {level:4,type:`Small Heavy Artillery`,team:`Italian`,desc:[`150th Group, 25th Corps Artillery Regiment`,`CL Gruppo, 25° Raggruppamento Artiglieria di Corpo d'Armata`],name:`150`,designation:`25 Corps`,commander:`Lazzarini`},
                             ],
@@ -1910,7 +1911,7 @@ export var types={
                             elements:[
                                 {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`},
                                 {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
-                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`},
                             ],
                         },{
                             level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
@@ -2139,7 +2140,7 @@ export var types={
                             elements:[
                                 {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`},
                                 {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
-                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`},
                             ],
                         },{
                             level:2,type:[`Fortress`],team:`Guardia alla Frontiera`,
@@ -2379,7 +2380,7 @@ export var types={
                             elements:[
                                 {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Ceva`},
                                 {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
-                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+                                {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`,icon:`sirte`},
                             ],
                         },{
                             level:1,type:[`Fortress`],team:`Guardia alla Frontiera`,
@@ -4103,7 +4104,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[1258,269],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },{
                                             level:6,type:[`Anti-Tank`,`Fortress`],team:`Guardia alla Frontiera`,
@@ -9327,7 +9328,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[1258,269],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -9771,7 +9772,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[1258,269],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -10466,17 +10467,17 @@ export var types={
                                             desc:[`8th Bersaglieri Battalion`,`8° Battaglione Bersaglieri`],name:`8`,designation:`Bersaglieri`,commander:`Trillini`,icon:`trento`,
                                             pos:[1915,486],
                                             elements:[
-                                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`8`,commander:``},
-                                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`8`,commander:``},
-                                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`3rd Company, 11th Bersaglieri Battalion`,`3ª Compagnia, 11° Battaglione Bersaglieri`],name:`3`,designation:`8`,commander:``},
+                                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 8th Bersaglieri Battalion`,`1ª Compagnia, 8° Battaglione Bersaglieri`],name:`1`,designation:`8`,commander:``},
+                                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 8th Bersaglieri Battalion`,`2ª Compagnia, 8° Battaglione Bersaglieri`],name:`2`,designation:`8`,commander:``},
+                                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`3rd Company, 8th Bersaglieri Battalion`,`3ª Compagnia, 8° Battaglione Bersaglieri`],name:`3`,designation:`8`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`,`Motorized`],team:`Italian`,
                                             desc:[`10th Bersaglieri Battalion`,`10° Battaglione Bersaglieri`],name:`10`,designation:`Bersaglieri`,commander:`Adolfato`,icon:`trento`,
                                             pos:[1379,958],
                                             elements:[
-                                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
-                                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`10`,commander:``},
+                                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 10th Bersaglieri Battalion`,`1ª Compagnia, 10° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
+                                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 10th Bersaglieri Battalion`,`2ª Compagnia, 10° Battaglione Bersaglieri`],name:`2`,designation:`10`,commander:``},
                                             ],
                                         },{
                                             level:4,type:[`Infantry`,`Motorized`],team:`Italian`,
@@ -10505,7 +10506,7 @@ export var types={
                                     ],
                                 },{
                                     level:5,type:[`Anti-Tank`],team:`Italian`,
-                                    desc:[`102nd Anti-Tank Company`,`104ª Compagnia Anticarro`],name:`102`,designation:``,commander:``,icon:`trento`,
+                                    desc:[`102nd Anti-Tank Company`,`102ª Compagnia Anticarro`],name:`102`,designation:``,commander:``,icon:`trento`,
                                     pos:[358,624],
                                     elements:[
                                         {type:`Anti-Tank Company`},
@@ -24658,7 +24659,7 @@ export var types={
                                     desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                     pos:[2516,519],
                                     elements:[
-                                        {type:`8-Gun Heavy Naval Artillery Battery`},
+                                        {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                     ],
                                 },
                             ],
@@ -25913,7 +25914,7 @@ export var types={
                                     desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                     pos:[2516,519],
                                     elements:[
-                                        {type:`8-Gun Heavy Naval Artillery Battery`},
+                                        {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                     ],
                                 },
                             ],
@@ -27252,7 +27253,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[2516,519],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -28505,7 +28506,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[2516,519],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -38093,7 +38094,7 @@ export var types={
                                     desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                     pos:[2516,519],
                                     elements:[
-                                        {type:`8-Gun Heavy Naval Artillery Battery`},
+                                        {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                     ],
                                 },
                             ],
@@ -39355,7 +39356,7 @@ export var types={
                                     desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                     pos:[2516,519],
                                     elements:[
-                                        {type:`8-Gun Heavy Naval Artillery Battery`},
+                                        {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                     ],
                                 },
                             ],
@@ -40592,7 +40593,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[2516,519],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -43272,7 +43273,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[2516,519],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -44544,7 +44545,7 @@ export var types={
                                     desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                     pos:[2516,519],
                                     elements:[
-                                        {type:`8-Gun Heavy Naval Artillery Battery`},
+                                        {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                     ],
                                 },
                             ],
@@ -45593,7 +45594,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[2516,519],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -46802,7 +46803,7 @@ export var types={
                                             desc:[`Cruiser "San Giorgio"`,`Nave "San Giorgio"`],name:`San Giorgio`,designation:``,commander:`Pugliese`,icon:``,
                                             pos:[2516,519],
                                             elements:[
-                                                {type:`8-Gun Heavy Naval Artillery Battery`},
+                                                {type:`8-Gun Ruined Heavy Naval Artillery Battery`},
                                             ],
                                         },
                                     ],
@@ -48028,17 +48029,17 @@ export var types={
                             desc:[`8th Bersaglieri Battalion`,`8° Battaglione Bersaglieri`],name:`8`,designation:`Bersaglieri`,commander:`Trillini`,icon:`trento`,
                             pos:[2182,1194],
                             elements:[
-                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`8`,commander:``},
-                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`8`,commander:``},
-                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`3rd Company, 11th Bersaglieri Battalion`,`3ª Compagnia, 11° Battaglione Bersaglieri`],name:`3`,designation:`8`,commander:``},
+                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 8th Bersaglieri Battalion`,`1ª Compagnia, 8° Battaglione Bersaglieri`],name:`1`,designation:`8`,commander:``},
+                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 8th Bersaglieri Battalion`,`2ª Compagnia, 8° Battaglione Bersaglieri`],name:`2`,designation:`8`,commander:``},
+                                {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`3rd Company, 8th Bersaglieri Battalion`,`3ª Compagnia, 8° Battaglione Bersaglieri`],name:`3`,designation:`8`,commander:``},
                             ],
                         },{
                             level:4,type:[`Infantry`,`Motorized`],team:`Italian`,
                             desc:[`10th Bersaglieri Battalion`,`10° Battaglione Bersaglieri`],name:`10`,designation:`Bersaglieri`,commander:`Adolfato`,icon:`trento`,
                             pos:[2182,1194],
                             elements:[
-                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
-                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`10`,commander:``},
+                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 10th Bersaglieri Battalion`,`1ª Compagnia, 10° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
+                                {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 10th Bersaglieri Battalion`,`2ª Compagnia, 10° Battaglione Bersaglieri`],name:`2`,designation:`10`,commander:``},
                             ],
                         },{
                             level:4,type:[`Infantry`,`Motorized`],team:`Italian`,

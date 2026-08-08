@@ -103,10 +103,40 @@ Anti-Tank Group (4)
     2/2nd Field Regiment, Royal Australian Artillery (2) %
         : 3rd Battery, Royal Australian Artillery
         : 4th Battery, Royal Australian Artillery
-    7th Royal Tank Regiment (3) %
+    7th Royal Tank Regiment (2) %
         : A Squadron, 7th Royal Tank Regiment
         : B Squadron, 7th Royal Tank Regiment
-        : C Squadron, 7th Royal Tank Regiment
     : 2/1st Field Company, Royal Australian Engineers
+    : A Squadron, 6th Australian Divisional Cavalry Regiment
+
+
+
+20th Australian Infantry Brigade - John Murray (20)
+    2/13th Australian Infantry Battalion (4) %
+        : A Company, 2/13th Australian Infantry Battalion
+        : B Company, 2/13th Australian Infantry Battalion
+        : C Company, 2/13th Australian Infantry Battalion
+        : D Company, 2/13th Australian Infantry Battalion
+    2/15th Australian Infantry Battalion (4) %
+        : A Company, 2/15th Australian Infantry Battalion
+        : B Company, 2/15th Australian Infantry Battalion
+        : C Company, 2/15th Australian Infantry Battalion
+        : D Company, 2/15th Australian Infantry Battalion
+    2/17th Australian Infantry Battalion (4) %
+        : A Company, 2/17th Australian Infantry Battalion
+        : B Company, 2/17th Australian Infantry Battalion
+        : C Company, 2/17th Australian Infantry Battalion
+        : D Company, 2/17th Australian Infantry Battalion
+    1st Battalion, King's Royal Rifle Corps (4) %
+        : A Company, 1st Battalion, King's Royal Rifle Corps
+        : B Company, 1st Battalion, King's Royal Rifle Corps
+        : C Company, 1st Battalion, King's Royal Rifle Corps
+        : D Company, 1st Battalion, King's Royal Rifle Corps
+    7th Royal Tank Regiment (2) %
+        : A Squadron, 7th Royal Tank Regiment
+        : B Squadron, 7th Royal Tank Regiment
+    : A Squadron, 6th Australian Divisional Cavalry Regiment
+    : 20th Australian Anti-Tank Company
+
 
 

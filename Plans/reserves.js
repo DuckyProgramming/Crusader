@@ -3050,5 +3050,38 @@ reserves=[
         elements:[
             {type:`Motorized Bersaglieri Company`},
         ]
+    },{
+        level:4,type:[`Infantry`,`Motorcycle`],team:`Italian`,
+        desc:[`8th Bersaglieri Battalion`,`8° Battaglione Bersaglieri`],name:`8`,designation:`Bersaglieri`,commander:`Trillini`,icon:`trento`,
+        pos:[1915,486],
+        elements:[
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`8`,commander:``},
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`8`,commander:``},
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`3rd Company, 11th Bersaglieri Battalion`,`3ª Compagnia, 11° Battaglione Bersaglieri`],name:`3`,designation:`8`,commander:``},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`Italian`,
+        desc:[`10th Bersaglieri Battalion`,`10° Battaglione Bersaglieri`],name:`10`,designation:`Bersaglieri`,commander:`Adolfato`,icon:`trento`,
+        pos:[1379,958],
+        elements:[
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`1st Company, 11th Bersaglieri Battalion`,`1ª Compagnia, 11° Battaglione Bersaglieri`],name:`1`,designation:`10`,commander:``},
+            {level:5,type:`Motorized Bersaglieri Company`,team:`Italian`,desc:[`2nd Company, 11th Bersaglieri Battalion`,`2ª Compagnia, 11° Battaglione Bersaglieri`],name:`2`,designation:`10`,commander:``},
+        ],
+    },{
+        level:5,type:[`Anti-Tank`],team:`Italian`,
+        desc:[`102nd Anti-Tank Company`,`104ª Compagnia Anticarro`],name:`102`,designation:``,commander:``,icon:`trento`,
+        pos:[358,624],
+        elements:[
+            {type:`Anti-Tank Company`},
+        ],
+    },{
+        level:3,type:[`Tank`],team:`Italian`,
+        desc:[`4th Tank Infantry Regiment`,`4° Reggimento Carri`],name:`4`,designation:``,commander:`Aresca`,icon:`4ti`,
+        pos:[3238,791],
+        elements:[
+            {level:4,type:`Medium Tank`,team:`Italian`,desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:`Locatelli`},
+            {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
+            {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
+        ],
     },
 ]

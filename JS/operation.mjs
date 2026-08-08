@@ -772,6 +772,11 @@ export class operation{
                                     }
                                 }
                             }
+                            if(this.select.unit.contain.provisional&&this.select.unit.contain.units.length>0){
+                                let sizes=this.select.unit.contain.units.map(unit=>unit.level).sort((a,b)=>a-b)
+                                this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                this.select.unit.resize()
+                            }
                         break
                         case 1:
                             this.select.unit.order.detach++
@@ -792,6 +797,11 @@ export class operation{
                                 this.select.unit.contain.units[0].stats.kills.forEach((num,index,arr)=>arr[index]=this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.stats.kills[index],0))
                                 this.select.unit.contain.units=[this.select.unit.contain.units[0]]
                                 this.select.unit.calculateElements()
+                                if(this.select.unit.contain.provisional&&this.select.unit.contain.units.length>0){
+                                    let sizes=this.select.unit.contain.units.map(unit=>unit.level).sort((a,b)=>a-b)
+                                    this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                    this.select.unit.resize()
+                                }
                             }else if((this.select.unit.level==constants.minLevel||this.select.unit.level>=constants.minLevel+1)&&!this.select.unit.contain.adhoc){
                                 let element=this.select.unit.contain.units[0]
                                 let typing=element.type.map(type=>types.unitType[type].name)
@@ -802,11 +812,14 @@ export class operation{
                                 })
                                 let result=new unit(this,{
                                     pos:[this.select.unit.position.x,this.select.unit.position.y],
-                                    level:element.level>=constants.minLevel+1&&target.level>=constants.minLevel+2||element.level>=constants.minLevel+2&&target.level>=constants.minLevel+1?
+                                    level:element.level==0||target.level==0?0:element.level==target.level?(element.level==4&&element.player==0?2:element.level-1):min(element.level,target.level),
+                                    //level:this.select.unit.level==0||element.level==0?0:this.select.unit.level==element.level?(this.select.unit.level==4&&this.select.unit.player==0?2:this.select.unit.level-1):min(this.select.unit.level,element.level),
+                                    /*level:element.level>=constants.minLevel+1&&target.level>=constants.minLevel+2||element.level>=constants.minLevel+2&&target.level>=constants.minLevel+1?
                                         constants.minLevel+1:
                                         element.level>=constants.minLevel+1&&target.level>=constants.minLevel+1||element.level==constants.minLevel&&target.level>=constants.minLevel+1||element.level>=constants.minLevel+1&&target.level==constants.minLevel?
                                         constants.minLevel:
-                                        [2,3,3][element.player],type:typing,team:element.team,
+                                        [2,3,3][element.player],*/
+                                    type:typing,team:element.team,
                                     desc:`${[
                                         `${element.commander!=``?`${element.commander}col`:`Col`}`,
                                         `${options.translate?`Battle Group`:`Kampfgruppe`}${element.commander!=``?` ${element.commander}`:``}`,
@@ -815,6 +828,7 @@ export class operation{
                                     icon:element.icon,elements:[],
                                 })
                                 result.contain.adhoc=true
+                                result.contain.provisional=true
                                 result.contain.units.push(element)
                                 result.contain.units.push(target.contain.units[0])
                                 target.active=false
@@ -857,6 +871,11 @@ export class operation{
                                 }
                                 this.select.unit.calculateElements()
                                 this.select.unit.order.artillery=artillery
+                                if(this.select.unit.contain.provisional&&this.select.unit.contain.units.length>0){
+                                    let sizes=this.select.unit.contain.units.map(unit=>unit.level).sort((a,b)=>a-b)
+                                    this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                    this.select.unit.resize()
+                                }
                             }
                         break
                         case 3:

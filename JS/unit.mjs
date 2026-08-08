@@ -49,7 +49,8 @@ export class unit{
         this.contain={
             units:[],stats:{},trigger:true,middle:false,
             temp:int(this.desc[0])!=int(this.desc[0]),
-            adhoc:this.level>=constants.minLevel&&data.elements.length>0&&data.elements.every(element=>element.level>=this.level||element.level==undefined)&&(data.elements.length>1||data.elements.some(element=>element.level>this.level))
+            adhoc:this.level>=constants.minLevel&&data.elements.length>0&&data.elements.every(element=>element.level>=this.level||element.level==undefined)&&(data.elements.length>1||data.elements.some(element=>element.level>this.level)),
+            provisional:false,
         }
         this.logs={main:[],trigger:false,width:0,height:0}
         this.stats={kills:[0,0,0,0],obscure:random(0.6,1.5)}
@@ -448,6 +449,13 @@ export class unit{
             this.strength.morale=this.strength.base.morale
             this.strength.supply=this.strength.base.supply
         }
+    }
+    resize(){
+        this.symbol=types.unitLevel[this.level].symbol
+        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
+        this.width=this.size*1.6
+        this.height=this.size
+        this.radius=this.size
     }
     orderDimensions(){
         this.contain.units.forEach(unit=>unit.orderDimensions())
