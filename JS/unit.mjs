@@ -732,7 +732,8 @@ export class unit{
                                 layer.line(-2,2,2,2)
                             break
                             case 6:
-                                layer.strokeWeight(100/this.size*types.map[this.operation.map].unitScale)
+                                //layer.strokeWeight(100/this.size*types.map[this.operation.map].unitScale)
+                                layer.strokeWeight(3*types.map[this.operation.map].unitScale)
                                 layer.point(0,0)
                             break
                             case 7:
@@ -750,7 +751,8 @@ export class unit{
                                 layer.line(-5.25,1,-5.25,-1)
                             break
                             case 10:
-                                layer.strokeWeight(37.5/this.size*types.map[this.operation.map].unitScale)
+                                //layer.strokeWeight(37.5/this.size*types.map[this.operation.map].unitScale)
+                                layer.strokeWeight(1.125*types.map[this.operation.map].unitScale)
                                 layer.line(-5,-2,5,-2)
                                 layer.line(-5,-2,-5,2)
                                 layer.line(0,-2,0,2)
@@ -763,7 +765,8 @@ export class unit{
                             case 12:
                                 layer.line(6.5,1,5.25,1)
                                 layer.line(5.25,1,5.25,-1)
-                                layer.strokeWeight(100/this.size*types.map[this.operation.map].unitScale)
+                                //layer.strokeWeight(100/this.size*types.map[this.operation.map].unitScale)
+                                layer.strokeWeight(3*types.map[this.operation.map].unitScale)
                                 layer.point(0,0)
                             break
                             case 13:
@@ -789,7 +792,8 @@ export class unit{
                                 layer.line(0,-3,-1,-2)
                                 layer.line(0,-3,1,-2)
                                 layer.line(0,-3,0,0)
-                                layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
+                                //layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
+                                layer.strokeWeight(2.25*types.map[this.operation.map].unitScale)
                                 layer.point(0,0.5)
                             break
                             case 18:
@@ -825,7 +829,8 @@ export class unit{
                                 layer.line(6.25,-5,6.25,5)
                             break
                             case 23:
-                                layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
+                                //layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
+                                layer.strokeWeight(2.25*types.map[this.operation.map].unitScale)
                                 layer.point(0,0)
                             break
                             case 24:

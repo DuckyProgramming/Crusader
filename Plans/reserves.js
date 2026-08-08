@@ -3083,5 +3083,11 @@ reserves=[
             {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`21st Tank Battalion`,`XXI Battaglione Carri L`],name:`21`,designation:``,commander:`Inastasi`},
             {level:4,type:`Terrible Tank`,team:`Italian`,desc:[`61st Tank Battalion`,`LXI Battaglione Carri L`],name:`61`,designation:``,commander:`Annibaldi`},
         ],
+    },{
+        level:3,type:[`Coast`],team:`Italian`,
+        desc:[`Tobruk Coastal Sector`,`Settore Costiero di Tobruch`],name:`Settore\nCostiero`,designation:`Regia\nMarina`,commander:`Vietina`,icon:``,
+        pos:[1190,230],
+        elements:[
+        ],
     },
 ]
