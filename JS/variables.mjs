@@ -1262,7 +1262,7 @@ export var types={
                 {
                     name:`Operation Compass - SMALL`,
                     strength:{name:`Battalions`,num:[[16],[0,36]]},partition:[[2],[0]],bonus:0,
-                    set:-1,
+                    set:1,
                     unit:[
                         {
                             level:1,type:[`Tank`],team:`British`,
@@ -4835,11 +4835,11 @@ export var types={
                                     ],
                                 },{
                                     level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
-                                    desc:[`551st Machine Gun Battalion`,`DLI Battaglione Mitraglieri`],name:`551`,designation:``,commander:`Bobbio`,icon:`trento`,
+                                    desc:[`551st Machine Gun Battalion`,`DLI Battaglione Mitraglieri Motorizzato`],name:`551`,designation:``,commander:`Bobbio`,icon:`trento`,
                                     pos:[486,744],
                                     elements:[
-                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 551st Machine Gun Battalion`,`1ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri`],name:`1`,designation:`551`,commander:``},
-                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 551st Machine Gun Battalion`,`2ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri`],name:`2`,designation:`551`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 551st Machine Gun Battalion`,`1ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri Motorizzato`],name:`1`,designation:`551`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 551st Machine Gun Battalion`,`2ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri Motorizzato`],name:`2`,designation:`551`,commander:``},
                                     ],
                                 },{
                                     level:5,type:[`Anti-Tank`],team:`Italian`,
@@ -14946,7 +14946,7 @@ export var types={
                 },{
                     name:`Operation Brevity - OLD`,
                     strength:{name:`Companies`,num:[[32],[18,14]]},partition:[[0],[1],[2]],bonus:1,
-                    set:1,
+                    set:-1,
                     unit:[
                         {
                             level:1,type:[`Infantry`,`Tank`],team:`British`,
@@ -15565,7 +15565,7 @@ export var types={
                 },{
                     name:`Operation Battleaxe - OLD`,
                     strength:{name:`Companies`,num:[[50],[30,20]]},partition:[[0],[1],[2]],bonus:1,
-                    set:1,
+                    set:-1,
                     unit:[
                         {
                             level:1,type:[`Tank`],team:`British`,
@@ -16654,6 +16654,13 @@ export var types={
                                                     ],
                                                 },{
                                                     level:5,type:[`Infantry`],team:`Italian`,
+                                                    desc:[`10th Company, 15th Infantry Regiment`,`10ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`10`,designation:`15`,commander:``,icon:`savona`,
+                                                    pos:[1255,751],
+                                                    elements:[
+                                                        {type:`Infantry Company`},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`],team:`Italian`,
                                                     desc:[`11th Company, 15th Infantry Regiment`,`11ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`11`,designation:`15`,commander:``,icon:`savona`,
                                                     pos:[1217,834],
                                                     elements:[
@@ -16691,6 +16698,13 @@ export var types={
                                     elements:[
                                         {
                                             level:5,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+                                            desc:[`1st Company, 155st Machine Gun Battalion`,`1ª Compagnia, CLX Battaglione Mitraglieri`],name:`1`,designation:`155`,commander:``,icon:`savona`,
+                                            pos:[1016,753],
+                                            elements:[
+                                                {type:`Machine Gun Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Machine Gun`],team:`Italian`,
                                             desc:[`2nd Company, 155st Machine Gun Battalion`,`2ª Compagnia, CLX Battaglione Mitraglieri`],name:`2`,designation:`155`,commander:``,icon:`savona`,
                                             pos:[904,865],
                                             elements:[
@@ -16699,33 +16713,19 @@ export var types={
                                         },
                                     ],
                                 },{
-                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`8th Independent Coastal Artillery Battery`,`8ª Batteria Autonomo di Artiglieria Costiera`],name:`8`,designation:`Coastal`,commander:``,icon:`savona`,
-                                    pos:[924,802],
+                                    level:5,type:[`Artillery`],team:`Italian`,
+                                    desc:[`5th Battery, 12th Artillery Regiment`,`5° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`5`,designation:`12`,commander:``,icon:`savona`,
+                                    pos:[925,802],
                                     elements:[
-                                        {type:`Tiny Coastal Artillery Battery`},
-                                    ],
+                                        {type:`Artillery Battery`},
+                                    ]
                                 },{
-                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`27th Independent Coastal Artillery Battery`,`27ª Batteria Autonomo di Artiglieria Costiera`],name:`27`,designation:`Coastal`,commander:``,icon:`savona`,
-                                    pos:[1003,756],
+                                    level:5,type:[`Artillery`],team:`Italian`,
+                                    desc:[`6th Battery, 12th Artillery Regiment`,`6° Batteria, 12° Reggimento Artiglieria "Sila"`],name:`6`,designation:`12`,commander:``,icon:`savona`,
+                                    pos:[1103,755],
                                     elements:[
-                                        {type:`Smaller Coastal Artillery Battery`},
-                                    ],
-                                },{
-                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`503rd Independent Coastal Artillery Battery`,`503ª Batteria Autonomo di Artiglieria Costiera`],name:`503`,designation:`Coastal`,commander:``,icon:`savona`,
-                                    pos:[1097,753],
-                                    elements:[
-                                        {type:`Small Coastal Artillery Battery`},
-                                    ],
-                                },{
-                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
-                                    desc:[`504th Independent Coastal Artillery Battery`,`504ª Batteria Autonomo di Artiglieria Costiera`],name:`504`,designation:`Coastal`,commander:``,icon:`savona`,
-                                    pos:[1271,751],
-                                    elements:[
-                                        {type:`Small Coastal Artillery Battery`},
-                                    ],
+                                        {type:`Artillery Battery`},
+                                    ]
                                 },{
                                     level:4,type:[`Oasis Infantry`],team:`German`,
                                     desc:[`300th Special Purpose Battalion Staff "Oasis"`,`Bataillonstab z.b.V. 300 "Oasen"`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Ennecerus`,icon:`90l`,
@@ -16890,7 +16890,7 @@ export var types={
                         },
                     ],
                 },{
-                    name:`Reduction of the Frontier - OLD`,
+                    name:`Reduction of the Frontier - OLD 1`,
                     strength:{name:`Companies`,num:[[26],[3,21]]},partition:[[0],[1],[2]],bonus:0,
                     set:1,
                     unit:[
@@ -17154,6 +17154,270 @@ export var types={
                                     pos:[1071,636],
                                     elements:[
                                         {level:5,type:`Motorized Artillery Battery`,team:`New Zealand`,desc:[`C Battery, 5th New Zealand Artillery Battalion`,`C Battery, 5th New Zealand Field Regiment`],name:`C`,designation:`5`,commander:``},
+                                    ],
+                                },
+                            ],
+                        },
+                    ],
+                },{
+                    name:`Reduction of the Frontier - OLD 2`,
+                    strength:{name:`Companies`,num:[[26],[3,21]]},partition:[[0],[1],[2]],bonus:0,
+                    set:1,
+                    unit:[
+                        {
+                            level:1,type:[`Infantry`],team:`Italian`,
+                            desc:[`55th Infantry Division "Savona"`,`55ª Divisione di Fanteria Autotransportabile "Savona"`],name:`55`,designation:`Savona`,commander:`de Giorgis`,icon:`savona`,
+                            pos:[1142,805],
+                            elements:[
+                                {
+                                    level:3,type:[`Infantry`],team:`Italian`,
+                                    desc:[`15th Infantry Regiment`,`15° Reggimento di Fanteria "Savona"`],name:`15`,designation:`Savona`,commander:`Pedrazzoli`,icon:`savona`,
+                                    pos:[992,799],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Infantry`],team:`Italian`,
+                                            desc:[`3rd Battalion, 15th Infantry Regiment`,`III Battaglione Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`3`,designation:`15`,commander:`Ugolini`,icon:`savona`,
+                                            pos:[1243,791],
+                                            elements:[
+                                                {
+                                                    level:5,type:[`Infantry`],team:`Italian`,
+                                                    desc:[`9th Company, 15th Infantry Regiment`,`9ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`9`,designation:`15`,commander:``,icon:`savona`,
+                                                    pos:[1301,834],
+                                                    elements:[
+                                                        {type:`Infantry Company`},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`],team:`Italian`,
+                                                    desc:[`11th Company, 15th Infantry Regiment`,`11ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`11`,designation:`15`,commander:``,icon:`savona`,
+                                                    pos:[1217,834],
+                                                    elements:[
+                                                        {type:`Infantry Company`},
+                                                    ],
+                                                },{
+                                                    level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+                                                    desc:[`12th Company, 15th Infantry Regiment`,`12ª Compagnia Armi d'Accompagnamento, 15° Reggimento di Fanteria "Savona"`],name:`12`,designation:`15`,commander:``,icon:`savona`,
+                                                    pos:[1155,858],
+                                                    elements:[
+                                                        {type:`Heavy Infantry Company`},
+                                                    ],
+                                                },
+                                            ],
+                                        },{
+                                            level:5,type:[`Infantry`,`Heavy`],team:`Italian`,
+                                            desc:[`8th Company, 15th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 15° Reggimento di Fanteria "Savona"`],name:`8`,designation:`15`,commander:``,icon:`savona`,
+                                            pos:[1171,741],
+                                            elements:[
+                                                {type:`Heavy Infantry Company`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Mortar`],team:`Italian`,
+                                            desc:[`15th Mortar Company`,`15ª Compagnia Mortai`],name:`15`,designation:``,commander:``,icon:`savona`,
+                                            pos:[1061,813],
+                                            elements:[
+                                                {type:`Mortar Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+                                    desc:[`155st Machine Gun Battalion`,`CLX Battaglione Mitraglieri`],name:`155`,designation:``,commander:`Grande`,icon:`savona`,
+                                    pos:[977,850],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+                                            desc:[`2nd Company, 155st Machine Gun Battalion`,`2ª Compagnia, CLX Battaglione Mitraglieri`],name:`2`,designation:`155`,commander:``,icon:`savona`,
+                                            pos:[904,865],
+                                            elements:[
+                                                {type:`Machine Gun Company`},
+                                            ],
+                                        },
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                    desc:[`8th Independent Coastal Artillery Battery`,`8ª Batteria Autonomo di Artiglieria Costiera`],name:`8`,designation:`Coastal`,commander:``,icon:`savona`,
+                                    pos:[924,802],
+                                    elements:[
+                                        {type:`Tiny Coastal Artillery Battery`},
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                    desc:[`27th Independent Coastal Artillery Battery`,`27ª Batteria Autonomo di Artiglieria Costiera`],name:`27`,designation:`Coastal`,commander:``,icon:`savona`,
+                                    pos:[1003,756],
+                                    elements:[
+                                        {type:`Smaller Coastal Artillery Battery`},
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                    desc:[`503rd Independent Coastal Artillery Battery`,`503ª Batteria Autonomo di Artiglieria Costiera`],name:`503`,designation:`Coastal`,commander:``,icon:`savona`,
+                                    pos:[1097,753],
+                                    elements:[
+                                        {type:`Small Coastal Artillery Battery`},
+                                    ],
+                                },{
+                                    level:5,type:[`Artillery`,`Coast`],team:`Italian`,
+                                    desc:[`504th Independent Coastal Artillery Battery`,`504ª Batteria Autonomo di Artiglieria Costiera`],name:`504`,designation:`Coastal`,commander:``,icon:`savona`,
+                                    pos:[1271,751],
+                                    elements:[
+                                        {type:`Small Coastal Artillery Battery`},
+                                    ],
+                                },{
+                                    level:4,type:[`Oasis Infantry`],team:`German`,
+                                    desc:[`300th Special Purpose Battalion Staff "Oasis"`,`Bataillonstab z.b.V. 300 "Oasen"`],name:`300`,designation:`z.b.V.\nOasis`,commander:`Ennecerus`,icon:`90l`,
+                                    pos:[1241,710],
+                                    elements:[
+                                        {
+                                            level:5,type:[`Oasis Infantry`],team:`German`,
+                                            desc:[`6th Oasis Company`,`Oasen Kompanie 6`],name:`6`,designation:`Oasis`,commander:`Lauer`,icon:`90l`,
+                                            pos:[1329,776],
+                                            elements:[
+                                                {type:`Oasis Infantry Company`},
+                                            ]
+                                        },{
+                                            level:5,type:[`Oasis Infantry`],team:`German`,
+                                            desc:[`12th Oasis Company`,`Oasen Kompanie 12`],name:`12`,designation:`Oasis`,commander:`Schön`,icon:`90l`,
+                                            pos:[1266,666],
+                                            elements:[
+                                                {type:`Oasis Infantry Company`},
+                                            ]
+                                        },
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:1,type:[`Infantry`],team:`German`,
+                            desc:[`Bardia Division`,`Division Bardia`],name:`Bardia`,designation:``,commander:`Schmitt`,icon:``,
+                            pos:[1147,269],
+                            elements:[
+                                {
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`2nd Battalion, 15th Infantry Regiment`,`II Battaglione Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`2`,designation:`15`,commander:`Russo`,icon:`savona`,
+                                    pos:[1051,206],
+                                    elements:[
+                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 15th Infantry Regiment`,`5ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`5`,designation:`15`,commander:``},
+                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 15th Infantry Regiment`,`6ª Compagnia Fucilieri, 15° Reggimento di Fanteria "Savona"`],name:`6`,designation:`15`,commander:``},
+                                        {level:5,type:`Infantry Gun Company`,team:`Italian`,desc:[`266th Infantry Gun Company`,`266ª Compagnia Cannoni`],name:`266`,designation:``,commander:``,icon:`savona`},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`],team:`Italian`,
+                                    desc:[`2nd Battalion, 16th Infantry Regiment`,`II Battaglione Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`2`,designation:`16`,commander:`Aveta`,icon:`savona`,
+                                    pos:[1126,356],
+                                    elements:[
+                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 16th Infantry Regiment`,`5ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`5`,designation:`16`,commander:``},
+                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 16th Infantry Regiment`,`6ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`6`,designation:`16`,commander:``},
+                                        {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 16th Infantry Regiment`,`7ª Compagnia Fucilieri, 16° Reggimento di Fanteria "Savona"`],name:`7`,designation:`16`,commander:``},
+                                        {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 16th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 16° Reggimento di Fanteria "Savona"`],name:`8`,designation:`16`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+                                    desc:[`4th Machine Gun Squadrons Group "Genova Cavalleria"`,`IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`4`,designation:`Genova\nCavalleria`,commander:`Pierucci`,icon:`savona`,
+                                    pos:[1196,414],
+                                    elements:[
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`1° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`1`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`2° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`2`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`3rd Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`3° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`3`,designation:`4 GC`,commander:``},
+                                        {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`4th Squadron, 4th Machine Gun Squadrons Group "Genova Cavalleria"`,`4° Squadrone, IV Gruppo Squadroni Mitraglieri "Genova Cavalleria"`],name:`4`,designation:`4 GC`,commander:``},
+                                    ],
+                                },{
+                                    level:5,type:[`Engineer`,`Motorized`],team:`German`,
+                                    desc:[`2nd Company, 39th Engineer Battalion`,`2. Panzer-Pionier-Bataillon 39`],name:`2`,designation:`39`,commander:`Streitz`,icon:`90l`,
+                                    pos:[1065,290],
+                                    elements:[
+                                        {type:`Motorized Engineer Company`},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:1,type:[`Infantry`,`Motorized`],team:`New Zealand`,
+                            desc:[`2nd New Zealand Division`,`The New Zealand Division`],name:`2`,designation:``,commander:`Freyberg`,icon:`2nz`,
+                            pos:[1155,1189],
+                            elements:[
+                                {
+                                    level:2,type:[`Infantry`,`Motorized`],team:`New Zealand`,
+                                    desc:`4th New Zealand Infantry Brigade`,name:`4`,designation:``,commander:`Inglis`,icon:`2nz`,
+                                    pos:[1597,936],
+                                    elements:[
+                                        {
+                                            level:4,type:[`Infantry`,`Motorized`],team:`New Zealand`,
+                                            desc:`18th New Zealand Infantry Battalion`,name:`18`,designation:``,commander:`Peart`,icon:`2nz`,
+                                            pos:[1397,846],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`A Company, 18th New Zealand Infantry Battalion`,name:`A`,designation:`18`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`B Company, 18th New Zealand Infantry Battalion`,name:`B`,designation:`18`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`C Company, 18th New Zealand Infantry Battalion`,name:`C`,designation:`18`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`D Company, 18th New Zealand Infantry Battalion`,name:`D`,designation:`18`,commander:``},
+                                            ]
+                                        },{
+                                            level:4,type:[`Infantry`,`Motorized`],team:`New Zealand`,
+                                            desc:`19th New Zealand Infantry Battalion`,name:`19`,designation:``,commander:`Hartnell`,icon:`2nz`,
+                                            pos:[1057,897],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`A Company, 19th New Zealand Infantry Battalion`,name:`A`,designation:`19`,commander:``},
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`B Company, 19th New Zealand Infantry Battalion`,name:`B`,designation:`19`,commander:``},
+                                            ]
+                                        },{
+                                            level:4,type:[`Infantry`,`Motorized`],team:`New Zealand`,
+                                            desc:`20th New Zealand Infantry Battalion`,name:`20`,designation:``,commander:`Kippenberger`,icon:`2nz`,
+                                            pos:[761,918],
+                                            elements:[
+                                                {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`C Company, 20th New Zealand Infantry Battalion`,name:`C`,designation:`20`,commander:``},
+                                            ]
+                                        },
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Motorized`],team:`Māori`,
+                                    desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
+                                    pos:[1152,670],
+                                    elements:[
+                                        {level:5,type:`Motorized Infantry Company`,team:`Māori`,desc:`A Company, 28th "Māori" New Zealand Infantry Battalion`,name:`A`,designation:`28`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Māori`,desc:`B Company, 28th "Māori" New Zealand Infantry Battalion`,name:`B`,designation:`28`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Māori`,desc:`C Company, 28th "Māori" New Zealand Infantry Battalion`,name:`C`,designation:`28`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`Māori`,desc:`D Company, 28th "Māori" New Zealand Infantry Battalion`,name:`D`,designation:`28`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Artillery`,`Motorized`],team:`New Zealand`,
+                                    desc:[`4th New Zealand Artillery Battalion`,`4th New Zealand Field Regiment`],name:`4`,designation:``,commander:`Duff`,icon:`2nz`,
+                                    pos:[1125,1002],
+                                    elements:[
+                                        {level:5,type:`Motorized Artillery Battery`,team:`New Zealand`,desc:[`A Battery, 4th New Zealand Artillery Battalion`,`A Battery, 4th New Zealand Field Regiment`],name:`A`,designation:`RNZA`,commander:``},
+                                        {level:5,type:`Motorized Artillery Battery`,team:`New Zealand`,desc:[`B Battery, 4th New Zealand Artillery Battalion`,`B Battery, 4th New Zealand Field Regiment`],name:`B`,designation:`RNZA`,commander:``},
+                                        {level:5,type:`Motorized Artillery Battery`,team:`New Zealand`,desc:[`C Battery, 4th New Zealand Artillery Battalion`,`C Battery, 4th New Zealand Field Regiment`],name:`C`,designation:`RNZA`,commander:``},
+                                    ],
+                                },
+                            ],
+                        },{
+                            level:2,type:[`Infantry`,`Motorized`],team:`South African`,
+                            desc:`2nd South African Infantry Brigade`,name:`2`,designation:``,commander:`Poole`,icon:`1sa`,
+                            pos:[844,405],
+                            elements:[
+                                {
+                                    level:4,type:[`Infantry`,`Motorized`],team:`South African`,
+                                    desc:`1st Battalion, Natal Mounted Rifles`,name:`1`,designation:`Natal\nMounted`,commander:``,icon:`1sa`,
+                                    pos:[1204,524],
+                                    elements:[
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`A Company, 1st Battalion, Natal Mounted Rifles`,name:`A`,designation:`1 NM`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`B Company, 1st Battalion, Natal Mounted Rifles`,name:`B`,designation:`1 NM`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`C Company, 1st Battalion, Natal Mounted Rifles`,name:`C`,designation:`1 NM`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`D Company, 1st Battalion, Natal Mounted Rifles`,name:`D`,designation:`1 NM`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Motorized`],team:`South African`,
+                                    desc:`1st Battalion, Cape Town Highlanders`,name:`1`,designation:`Cape Town\nHighlanders`,commander:``,icon:`1sa`,
+                                    pos:[876,162],
+                                    elements:[
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`A Company, 1st Battalion, Cape Town Highlanders`,name:`A`,designation:`1 CTH`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`B Company, 1st Battalion, Cape Town Highlanders`,name:`B`,designation:`1 CTH`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`C Company, 1st Battalion, Cape Town Highlanders`,name:`C`,designation:`1 CTH`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`D Company, 1st Battalion, Cape Town Highlanders`,name:`D`,designation:`1 CTH`,commander:``},
+                                    ],
+                                },{
+                                    level:4,type:[`Infantry`,`Motorized`],team:`South African`,
+                                    desc:`2nd Battalion, Field Force`,name:`2`,designation:`Field\nForce`,commander:``,icon:`1sa`,
+                                    pos:[1000,400],
+                                    elements:[
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`A Company, 2nd Battalion, Field Force`,name:`A`,designation:`2 FF`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`B Company, 2nd Battalion, Field Force`,name:`B`,designation:`2 FF`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`C Company, 2nd Battalion, Field Force`,name:`C`,designation:`2 FF`,commander:``},
+                                        {level:5,type:`Motorized Infantry Company`,team:`South African`,desc:`D Company, 2nd Battalion, Field Force`,name:`D`,designation:`2 FF`,commander:``},
                                     ],
                                 },
                             ],

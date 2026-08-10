@@ -4301,6 +4301,7 @@ Similarly, the G.a.F. Coverage Sector "Dodecaneso" had 18 static machine gun com
 
 According to the "History of the Artillery", the reason for the confusing and inconsistent number of naval batteries at Tobruk is that different authors and categorizations are counting differently.
 Only 7 batteries were of an anti-ship nature, of the total 11 that were to defend the harbor and its surroundins. Sometimes the San Giorgio is counted in these numbers as well.
+I would assume the batteries that couldn't fire on ships were the ones that were inland: Tordo, Toro, Pilastrino, and Sidi Mahmud, since how would they hit a ship anyway?
 I don't think any of the fortifications surrounding the town ever even had more than one anti-tank gun. That may have been a mistake on the part of the British/Italian mapper.
 The ones facing the Wadi es Sehel also supposedly lacked anti-tank guns, since that area wasn't considered passable to tanks in the first place. The British map also got this wrong.
 The map from "The Operations in North Africa" also supports this, as no anti-tank ditch or mines are marked in that area and that would probably imply a lack of anti-tank weaponry as a whole.
@@ -4747,5 +4748,765 @@ Trento Division OOB, attacking strongpoints between the strongpoints from Bir Ju
     4th Group
 
 Also, I completely trolled myself by not realising sooner that all the groups in the motorized divisions had 2 batteries each. Time for a ton of changes...
+
+Here's a bonus number provided by Montanari - 52 guns were facing south (Group Tramontin?)
+    2nd Group, 43rd Artillery Regiment (12 75/27)
+    105th Group, 25th Corps Artillery Raggruppamento (12 149/13)
+    3rd Group, 55th Artillery Regiment (12 75/27)
+    130th Group, 25th Corps Artillery Raggruppamento (12 149/13)
+    2nd Battery, 15th Anti-Aircraft Group (4 75/46)
+
+Elements of the 14th Air Brigade "Rex" were stuck in Tobruk and lost, but the headquarters were not there, and in fact it doesn't seem any administrative elements were actually in the base.
+Instead, by the 1st of April 1941, the brigade was still active, now based in Tripoli, with four groups of squadrons assigned to it, with a total of 123 aircraft.
+Also on the 1st of April 1941, Fortress Tripoli had a total strength of 7936 men, 361 officers, and 474 NCOs for 8771 personnel total. I believe by this point much of it had already been reorganized out.
+Back on the 20th of February, it was slightly weaker, actually, with 7652 men, 343 officers, and 421 NCOs for 8416 personnel total. I don't really get how this happened, where did the 355 men come from?
+
+Also, yes, the carabinieri sections were platoon-sized. The Ariete Division had two when it arrived in Africa and both of them had a strength of 66 men (each).
+
+"The First Italo-German Counteroffensive" also includes a nice 1st of April 1941 OOB:
+
+North Africa Superior Command - Italo Gariboldi
+    General Staff + Headquarters - Alighiero Miele
+
+    Superior Command Royal Carabinieri
+        266th Motorized Section
+        620th Motorized Section
+        621st Motorized Section
+        660th Motorized Section
+        671st Motorized Section
+        675th Motorized Section
+        676th Motorized Section
+        704th Motorized Section
+
+    Superior Command Artillery
+        5th Army Artillery Raggruppamento (to 20th Army Corps)
+            19th Group (149/35)
+            20th Group (149/35)
+            21st Group (149/35)
+            22nd Group (149/35)
+        2nd Corps Artillery Raggruppamento
+            18th Group (88/56)
+            29th Group (88/56)
+            43rd Group (75/48) (to 10th Army Corps)
+            42nd Group (2 Static Batteries 75/48)
+            14th Group (2 Batteries 75/27) (to 10th Army Corps)
+        16th Corps Artillery Raggruppamento (to 10th Army Corps)
+            15th Group (105/28)
+            44th Group (105/28)
+            49th Group (105/28)
+        2nd Fast Artillery Regiment (to 17th Infantry Division "Pavia")
+            1st Group (2 Batteries 75/27)
+            2nd Group (2 Batteries 75/27)
+            3rd Group (3 Batteries 100/17)
+        1st DICAT Group (202nd, 203rd, 204th, 205th, and 206th Batteries) (Used to defend airfields)
+    
+    Superior Command Engineers - Luigi Grosso
+        1st Special Engineer Raggrpupamento
+            2nd Mine Engineer Battalion
+                23rd Mine Engineer Company
+                26th Mine Engineer Company
+                1st Arresting Engineer Company
+                14th Arresting Engineer Company
+                15th Arresting Engineer Company
+            Guastatori Battalion
+                3rd Guastatori Company
+                4th Guastatori Company
+            Water Battalion
+                3rd Water Company
+                4th Water Company
+                6th Water Company
+                10th Water Company
+            Special Battalion
+                3rd Firefighting Company
+                3rd Balloon Company
+                Searchlight Company
+                Cinematography Section
+            27th Engineer Battalion
+                1st Company
+                2nd Company
+        2nd Special Engineer Raggrpupamento
+            4th Signals Battalion
+                119th Telegraph Company
+                120th Telegraph Company
+                110th Radio Company
+                12th Mobile Dovecote
+            65th Signals Battalion
+                126th Telegraph Company
+                127th Telegraph Company
+                113th Radio Company
+                37th Mobile Dovecote
+            11th Signals Battalion
+                117th Telegraph Company
+                127th Radio Company
+                134th Radio Company
+            7th Signals Battalion
+                137th Special Radio Company
+                151st Special Radio Company
+            Superior Command Signals Battalion
+                118th Telegraph Company
+                Superior Command Telegraph Company
+                Superior Command Radio Company
+                Mobile Workshop Unit
+                25th Mobile Dovecote
+                55th PFT Signals Company
+        1st Labor Company Raggruppamento
+            6th Labor Battalion
+                5th Labor Company
+                9th Labor Company
+                10th Labor Company
+                14th Labor Company
+                Searchlight Labor Company
+            7th Labor Battalion
+                17th Labor Company
+                18th Labor Company
+                25th Labor Company
+                27th Labor Company
+                30th Labor Company
+            5th Labor Battalion
+                28th Labor Company
+                29th Labor Company
+                6th Labor Company (Independent)
+                Depot Company (Independent)
+        2nd Labor Company Raggruppamento
+            1st Labor Battalion
+                1st Labor Company
+                2nd Labor Company
+                3rd Labor Company
+                4th Labor Company
+            2nd Labor Battalion
+                7th Labor Company
+                8th Labor Company
+                11th Labor Company
+                12th Labor Company
+                13th Labor Company
+            3rd Labor Battalion
+                15th Labor Company
+                16th Labor Company
+                19th Labor Company
+                20th Labor Company
+                21st Labor Company
+            4th Labor Battalion
+                22nd Labor Company
+                23rd Labor Company
+                24th Labor Company
+                26th Labor Company
+        Special Engineer Vehicle Group
+            1st Vehicle Company
+            2nd Vehicle Company
+            3rd Vehicle Company
+            Service Units
+
+    North Africa Rear Area - Romano Giuseppe
+        General Staff + Headquarters
+            104th Mixed Carabinieri Section
+            105th Mixed Carabinieri Section
+            268th Motorized Carabinieri Section
+            298th Motorized Carabinieri Section
+            1337th Mixed Carabinieri Section
+        North Africa Rear Area Office
+            Medical Directorate
+                [Not Transcribed]
+            Commissariat Directorate
+                [Not Transcribed]
+            Engineer Directorate
+                [Not Transcribed]
+            Transport Directorate
+                [Not Transcribed]
+            Artillery (Ammunition) Directorate
+                [Not Transcribed]
+            Vehicle Directorate
+                [Not Transcribed]
+            Administration Directorate
+                [Not Transcribed]
+            Staging Directorate
+                [Not Transcribed]
+            Postal Directorate
+                [Not Transcribed]
+            Forestry Directorate
+                [Not Transcribed]
+            Veternary Directorate
+                [Not Transcribed]
+            Garrison Services
+                [Not Transcribed]
+
+    Superior Command Vehicle Group
+        8th Vehicle Group
+            24th Heavy Vehicle Unit
+            142nd Heavy Vehicle Unit
+            143rd Heavy Vehicle Unit
+        9th Vehicle Group
+            56th Heavy Vehicle Unit
+            57th Heavy Vehicle Unit
+        1st Caterpillar Vehicle Unit
+
+    132nd Armored Division "Ariete"
+        General Staff + Headquarters
+            70th Motorized Carabinieri Section
+            71st Motorized Carabinieri Section
+        8th Bersaglieri Regiment
+            3rd Motorcycle Bersaglieri Battalion
+            5th Motorized Bersaglieri Battalion
+            12th Motorized Bersaglieri Battalion
+        132nd Anti-Tank Company (47/32)
+        142nd Anti-Tank Company (47/32)
+        72nd Anti-Tank Company (47/32)
+        32nd Tank Infantry Regiment
+            1st Light Tank Battalion
+            2nd Light Tank Battalion
+            3rd Light Tank Battalion
+            7th Medium Tank Battalion
+            8th Medium Tank Battalion (Only Personnel)
+        132nd Artillery Regiment
+            1st Group (3 Batteries 75/27)
+            2nd Group (3 Batteries 75/27)
+            7th 20mm Battery
+            8th 20mm Battery
+            146th 20mm Battery
+        132nd Mixed Engineer Company
+        Service Units
+            [Not Transcribed]
+        Reinforcement Elements
+            From 10th Army Corps
+                10 37/54 Guns
+                1st Group, 24th Corps Artillery Raggruppamento (3 Batteries 105/28)
+            From 25th Infantry Division "Bologna"
+                1st Battalion, 39th Infantry Regiment
+
+    102nd Motorized Division "Trento"
+        General Staff + Headquarters
+            160th Motorized Carabinieri Section
+            161st Motorized Carabinieri Section
+        61st Motorized Infantry Regiment
+        62nd Motorized Infantry Regiment
+        7th Bersaglieri Regiment
+        551st Motorized Machine Gun Battaglione
+        102nd Anti-Tank Company (47/32)
+        104th Anti-Tank Company (47/32)
+        106th Anti-Tank Company (47/32)
+        46th Artillery Regiment
+            1st Group (100/17)
+            2nd Group (75/27)
+            3rd Group (75/27)
+            2 20mm Batteries
+        51st Mixed Engineer Battalion
+            161st Engineer and Park Company
+            96th Signals and Searchlight Company
+            96th Radio Section
+            56th Searchlight Section
+        Service Units
+            [Not Transcribed]
+        Non-Organic Service Units
+            [Not Transcribed]
+
+    10th Army Corps - Alberto Barbieri
+
+        Command
+            General Staff
+                Artillery Command
+                Engineer Command
+                Medical Directorate
+                Commissariat Directorate
+            Headquarters
+            Motorcycle Detachment
+            680th Motorized Carabinieri Section
+            681st Motorized Carabinieri Section
+        
+        Troops
+            4th Light Tank Battallion (to 25th Infantry Division "Bologna")
+            5th Light Tank Battalion (to 17th Infantry Division "Pavia")
+            24th Corps Artillery Raggruppamento
+                1st Group (3 Batteries 105/28) - to 132nd Armored Division "Ariete"
+                2nd Group (3 Batteries 105/28) - to 17th Infantry Division "Pavia"
+                3rd Group (3 Batteries 100/17)
+            10th Signals Battalion
+                89th Transmissions Company
+                10th Signals Workshop
+            10th Special Engineer Battalion
+            Service Units
+                [Not Transcribed]
+        
+        Reinforcement Elements
+            From Superior Command
+                36th Libyan Battalion
+                18th Libyan Battalion
+            From Superior Command Artillery
+                16th Corps Artillery Raggruppamento
+                    44th Group (3 Batteries 105/28)
+                    49th Group (3 Batteries 105/28)
+                    15th Group (105/28) (to 27th Infantry Division "Brescia")
+            From 55th Infantry Division "Savona"
+                16th Infantry Regiment
+                    1st Battalion
+                    3rd Battalion
+                    Mortar Company (81/14)
+            From Detachment, 60th Infantry Division "Sabratha"
+                1st Group, 10th Artillery Regiment "Bologna" (3 Batteries 100/17)
+            From 2nd Corps Artillery Raggruppamento
+                14th Group (2 Batteries 75/48)
+                43rd Group (2 Batteries 75/48) (to 17th Infantry Division "Pavia")
+            From Superior Command Engineers
+                124th Radio Company
+
+        17th Infantry Division "Pavia" - Pietro Zaglio
+            General Staff + Headquarters
+                74th Mixed Carabinieri Section
+                54th Postal Office With Carabinieri Element
+            27th Infantry Regiment
+                1st Battalion
+                2nd Battalion (Minus Support Weapons Company) (to 20th Army Corps) (Fortified Base)
+                3rd Battalion
+                Mortar Company (81/14)
+                36th Infantry Gun Company (65/17)
+                Reinforcements
+                    6 37/45 Guns
+                    12 Schwarzlose Machine Guns
+            28th Infantry Regiment
+                1st Battalion
+                2nd Battalion (Fortified Base)
+                3rd Battalion
+                Mortar Company (81/14)
+                90th Infantry Gun Company (65/17)
+                Reinforcements
+                    6 37/45 Guns
+            101st Anti-Tank Company (47/32)
+            103rd Anti-Tank Company (47/32)
+            105th Anti-Tank Company (47/32)
+            3rd Fast Artillery Regiment
+                2nd Group (2 Batteries 75/27)
+                3rd Group (2 Batteries 75/27)
+                7th 20mm Battery
+                8th 20mm Battery
+                48th 20mm Battery
+            17th Replacements Battalion (to 20th Army Corps) (Fortified Base)
+            17th Mixed Engineer Battalion
+            Service Units
+                [Not Transcribed]
+            Reinforcement Elements
+                From the 10th Army Corps
+                    5th Light Tank Battalion
+                    2nd Group, 24th Corps Artillery Raggruppamento (3 Batteries 105/28)
+                    42nd Group (2 Batteries 75/48)
+                From Superior Command Artillery
+                    2nd Fast Artillery Regiment
+                        1st Group (2 Batteries 75/27)
+                        2nd Group (2 Batteries 75/27)
+                        3rd Group (3 Batteries 100/17)
+                        7th 20mm Battery
+                        8th 20mm Battery
+            Coastal Defense Elements
+                11th Static Battery (75/27)
+                68th Static Battery (75/27) (-1 Section at Buerat)
+                9th Static Machine Gun Company (-1 Platoon at Buerat)
+
+        25th Infantry Division "Bologna"
+            General Staff + Headquarters
+                73rd Mixed Carabinieri Section
+                58th Postal Office With Carabinieri Element
+            39th Infantry Regiment
+                1st Battalion (to 132nd Armored Division "Ariete")
+                2nd Battalion (Minus Support Weapons Company) (to 20th Army Corps) (Fortified Base)
+                3rd Battalion
+                Mortar Company (81/14)
+                29th Infantry Gun Company (65/17)
+                Reinforcements
+                    8 37/45 Guns
+                    2 65/17 Guns
+                    6 Schwarzlose Machine Guns
+                    15 Hotchkiss Machine Guns
+            40th Infantry Regiment
+                1st Battalion (Minus Support Weapons Company) (to 20th Army Corps) (Fortified Base)
+                2nd Battalion
+                3rd Battalion
+                Mortar Company (81/14)
+                91st Infantry Gun Company (65/17)
+                Reinforcements
+                    8 37/45 Guns
+                    1 47/32 Guns
+                    36 Schwarzlose Machine Guns
+            20th Anti-Tank Company (47/32)
+            44th Anti-Tank Company (47/32)
+            73rd Anti-Tank Company (47/32)
+            205th Artillery Regiment
+                1st Group (75/27)
+                2nd Group (75/27)
+                3rd Group (75/27)
+                4th 20mm Battery
+                17th 20mm Battery
+                30th 20mm Battery
+            25th Replacement Battalion (to 20th Army Corps)
+            25th Mixed Engineer Battalion
+            Service Units
+                [Not Transcribed]
+            Reinforcement Elements
+                From 10th Army Corps
+                    4th Light Tank Battalion
+
+        27th Infantry Division "Brescia" - Bortolo Zambon
+            General Staff + Headquarters
+                127th Mixed Carabinieri Section
+                96th Postal Office With Carabinieri Element
+            19th Infantry Regiment
+                1st Battalion
+                2nd Battalion
+                3rd Battalion (Minus Support Weapons Company) (to 20th Army Corps) (Fortified Base)
+                Mortar Company (81/14)
+                34th Infantry Gun Battery "Livorno" (65/17)
+                Reinforcements
+                    3 37/45 Platoons
+                    2 Schwarzlose Machine Gun Platoons
+            20th Infantry Regiment
+                1st Battalion
+                2nd Battalion (Minus Support Weapons Company) (to 20th Army Corps)
+                3rd Battalion
+                Mortar Company (81/14)
+                38th Infantry Gun Battery "Ravenna" (65/17)
+                Reinforcements
+                    3 37/45 Platoons
+                    2 Schwarzlose Machine Gun Platoons
+            5th Anti-Tank Company (47/32)
+            71st Anti-Tank Company (47/32)
+            227th Anti-Tank Company (47/32) (in Preparation)
+            1st Fast Artillery Regiment
+                1st Group (2 Batteries 75/27)
+                2nd Group (2 Batteries 75/27)
+                7th 20mm Battery
+                8th 20mm Battery
+                502nd 20mm Battery
+            27th Replacement Battalion (to 20th Army Corps) (Fortified Base)
+            Service Units
+                [Not Transcribed]
+            Reinforcement Elements
+                From 10th Army Corps
+                    15th Group, 16th Corps Artillery Raggruppamento (3 Batteries 105/28)
+                Temporarily
+                    102nd Anti-Tank Company (47/32) (From 102nd Motorized Division "Trento")
+
+    20th Army Corps - Carlo Spatocco
+        Command
+            General Staff
+                Artillery Command
+                Engineer Command
+                Medical Directorate
+                Commissariat Directorate
+            Headquarters
+                Command Unit
+                677th Motorized Carabinieri Section
+                220th Post Office
+
+        Troops
+            20th Special Engineer Battalion
+                1st Special Engineer Company
+                2nd Special Engineer Company
+            20th Signals Battalion
+                93rd Telegraph Company
+                143rd Radio Company
+            Service Units
+                [Not Transcribed]
+
+        Garian-Nalut Sector
+            55th Infantry Division "Savona" - Pietro Maggiani
+                General Staff + Headquarters
+                    75th Mixed Carabinieri Section
+                    55th Motorcycle Detachment
+                    55th Post Office With Carabinieri Unit
+                15th Infantry Regiment
+                    1st Battalion
+                    2nd Battalion
+                    3rd Battalion
+                    Mortar Company (81/14)
+                    266th Infantry Gun Battery (65/17)
+                    Reinforcements
+                        10 St.Etienne Machine Guns
+                        21 Schwarzlose Machine Guns
+                16th Infantry Regiment
+                    1st Battalion (to 10th Army Corps)
+                    2nd Battalion (to Tobruk Fortress) (Coastal Defence)
+                    3rd Battalion (to 10th Army Corps)
+                    267th Infantry Gun Battery (65/17)
+                12th Artillery Regiment
+                    1st Group (2 Batteries 100/17)
+                    2nd Group (2 Batteries 105/28, 1 Battery 75/27)
+                    27th 20mm Battery
+                    503rd 20mm Battery
+                    504th 20mm Battery
+                255th Anti-Tank Company (47/32) (in Prepration)
+                55th Replacement Battalion (to Tobruk Fortifications)
+                55th Mixed Engineer Battalion
+                    55th Signals Company
+                    127th Signals Company
+                Service Units
+                    [Not Transcribed]
+
+            Nalut Coverage Sector (29th)
+                1000 G.a.F. Infantrymen
+                290th G.a.F. Artillery Raggruppamento
+                    291st Group (2 Batteries 77/28)
+                    292nd Group (2 Batteries 77/28)
+                    293rd Group (2 Batteries 77/28)
+                4th Libyan Static Machine Gun Company
+                5th Libyan Static Machine Gun Company
+                6th Libyan Static Machine Gun Company
+                7th Libyan Static Machine Gun Company
+                4th Spahi Squadrons Group
+                    1st Spahi Squadron
+                    2nd Spahi Squadron
+                    3rd Spahi Squadron
+
+            Chibla Coverage Sector
+                26th Artillery Company (75/32)
+                20th Artillery Battery (77/28)
+                32nd Libyan Battalion
+                2nd Company, 18th Libyan Battalion
+                13th Libyan Static Machine Gun Company
+                50th Libyan Static Machine Gun Company
+                51st Libyan Static Machine Gun Company
+                Irregular Band "della Chibla"
+                Irregular Band "Gialo"
+
+        Zuara Sector - Mario de Meo
+            Zuara Coverage Sector (28th)
+                3500 G.a.F. Infantrymen
+                38th G.a.F. Artillery Raggruppamento
+                    382nd Group (3 Batteries 75/27)
+                    383rd Group (2 Batteries 75/27, 1 Battery 77/28)
+                    384th Group (2 Batteries 75/27)
+                    6th Group (2 Batteries 149/12)
+                    7th Group (2 Batteries 75/27)
+                1st Libyan Static Machine Gun Company
+                2nd Libyan Static Machine Gun Company
+                3rd Libyan Static Machine Gun Company
+                8th Libyan Static Machine Gun Company
+                Libya Cavalry Raggruppamento
+                    1st Spahi Squadron Group
+                        1st Spahi Squadron
+                        2nd Spahi Squadron
+                        3rd Spahi Squadron (to Zavia Coastal Subsector)
+                        4th Spahi Squadron
+                    2nd Spahi Squadron Group
+                        1st Spahi Squadron
+                        5th Spahi Squadron
+                        6th Spahi Squadron
+                        7th Spahi Squadron
+                    3rd Spahi Squadron Group
+                        1st Spahi Squadron
+                        2nd Spahi Squadron
+                        3rd Spahi Squadron
+                    4th Self-Propelled Machine Gun Company
+
+            Coastal Defense
+                Coastal Subsector Zuara
+                    30th Libyan Coastal Battalion
+                    281st Group (2 Batteries 77/28)
+                Coastal Subsector Zavia
+                    2nd Battalion, 20th Infantry Regiment (From 25th Infantry Division "Brescia")
+                    Garrison Company (From 86th Infantry Regiment)
+                    3rd Libyan Cavalry Sauadron (From Cavalry Raggruppamento)
+                    331st Group (2 Batteries 77/28)
+
+        Homs Sector
+            Detachment, 60th Infantry Division "Sabratha" - Guido della Bona
+                General Staff + Headquarters
+                    106th Mixed Carabinieri Section
+                    260th Post Office
+                Formation Infantry Regiment "Sabratha"
+                    1st Battalion, 85th Infantry Regiment
+                        85th Mortar Company (81/14)
+                    1st Battalion, 86th Infantry Regiment
+                        86th Mortar Company (81/14)
+                    257th Infantry Gun Battery (65/17)
+                    264th Infantry Gun Battery (65/17)
+                17th Machine Gun Battalion (From 17th Infantry Division "Pavia")
+                25th Machine Gun Battalion (From 25th Infantry Division "Bologna")
+                60th Machine Gun Battalion (From 60th Infantry Division "Sabratha")
+                260th Anti-Tank Company (47/32)
+                117th Anti-Tank Company (47/32)
+                Elements, 10th Bersaglieri Regiment
+                Elements, 201st Motorized Bersaglieri Company
+                Elements, 202nd Motorized Bersaglieri Company
+                Artillery Raggruppamento
+                    1st Static Group, 14th G.a.F. Artillery Raggruppamento (2 Batteries 100/17)
+                    12th Battery, 20th Corps Artillery Regiment (75/27)
+                    6th Battery, 2nd Group, 26th Artillery Regiment "Pavia" (75/27)
+                    1st Group, 10th Corps Artillery Raggruppamento (100/17)
+                60th Mixed Engineer Battalion
+                    126th Special Engineer Company
+                    60th Signals Company
+                    96th Searchlight Section
+                Service Units
+                    [Not Transcribed]
+
+            Beni Ulid Garrison
+                35th Libyan Battalion
+                    1 Motorized Carabinieri Section
+
+            Coastal Defense
+                Coastal Subsector Homs
+                    2nd Group, 26th Artillery Regiment "Pavia"
+                        4th Battery (75/27)
+                        5th Battery (75/27)
+                    66th Battery (77/28)
+                    3rd Company, 5th Blackshirt Battalion
+                Coastal Subsector Zilten
+                    102nd Coastal Artillery Group
+                        67th Battery (75/27)
+                        63rd Battery (77/28)
+                    11th Libyan Static Machine Gun Company
+                    2nd Replacement Machine Gun Company
+                Coastal Subsector Misurata
+                    From 25th Infantry Division "Bologna"
+                        25th Replacements Battalion
+                        70th Garrison Company
+                    7th Group, 35th G.a.F. Artillery Raggruppamento
+                        58th Battery (77/28)
+                        59th Battery (77/28)
+                        61st Battery (77/28)
+                        65th Battery (75/27)
+
+        Fortified Base Tripoli
+            West Coastal Sector
+                33rd Coverage Sector (Zanzur)
+                    1300 G.a.F. Infantrymen
+                    330th G.a.F. Artillery Raggruppamento
+                        332nd Group (2 Batteries 149/12, 1 Battery 210/8, 1 Battery 77/28)
+                        333rd Group (3 Batteries 149/35)
+                        342nd Group (2 Batteries 77/28)
+                        334th Group (2 Batteries 77/28)
+                    Mixed Engineer Unit
+                    Reinforcement Elements
+                        17th Replacement Battalion (From 17th Infatnry Division "Pavia")
+
+            Central Sector
+                34th Coverage Sector (Suani ben Adem)
+                    1100 G.a.F. Infantrymen
+                    340th G.a.F. Artillery Raggruppamento
+                        335th Group (3 Batteries 149/12)
+                        343rd Group (2 Batteries 77/28)
+                        344th Group (3 Batteries 77/28)
+                        5th Group (2 Batteries 105/28)
+                    Reinforcement Elements
+                        27th Replacement Battalion (From 27th Infantry Division "Brescia")
+                        2nd Battalion, 28th Infantry Regiment (From 17th Infantry Division "Pavia")
+                35th Coverage Sector (Castel Benito)
+                    1000 G.a.F. Infantrymen
+                    350th G.a.F. Artillery Raggruppamento
+                        1st Group (2 Batteries 120/25, 1 Battery 100/17)
+                        351st Group (2 Batteries 77/28)
+                        341st Group (2 Batteries 149/35)
+                        345th Group (2 Batteries 120/25)
+                    Reinforcement Elements
+                        2nd Battalion, 27th Infantry Regiment (From 17th Infantry Division "Pavia")
+
+            Alauna Sector
+                55th Replacement Battalion (From 55th Infantry Division "Savona")
+                2nd Battalion, 39th Infantry Regiment (From 25th Infantry Division "Bologna")
+                3rd Battalion, 19th Infantry Regiment (From 27th Infantry Division "Brescia")
+                4th Machine Gun Squadrons Group "Genova"
+                Formation Artillery Group (2 Batteries 120/25, 1 Battery 149/35, 1 Section, 58th Battery 100/17)
+            
+            East Coastal Sector
+                1st Battalion, 40th Infantry Regiment (From 25th Infantry Division "Bologna")
+                6th Machine Gun Squadrons Gruop "Aosta"
+                5th Army Artillery Raggruppmaento
+                    20th Group (3 Batteries 149/35)
+                    21st Group (3 Batteries 149/35)
+                7th Group, 35th G.a.F. Artillery Raggruppamento (2 Batteries 77/28, 1 Battery 149/12)
+                352nd G.a.F. Artillery Group (2 Batteries 77/28)
+
+        Fortress Tripoli (Edoardo Quarra Sito)
+            Anti-Aircraft Defence
+                30th Coastal and Anti-Aircraft Artillery Raggruppamento
+                    100th Coastal and Anti-Aircraft Group
+                        3 Batteries 76/40 (Coastal and Anti-Aircraft)
+                        1 Battery 77/28 (Anti-Aircraft)
+                    101st Static Group
+                        3 Batteries 77/28 (Anti-Aircraft)
+                        1 Battery 76/40 (Coastal and Anti-Aircraft)
+                    1st Static Blackshirt Anti-Aircraft Group
+                        2 Batteries 76/40 (Anti-Aircraft)
+                        2 Batteries 76/45 (Anti-Aircraft)
+                    1st MILMART Group
+                        3 Batteries 102/35 (Coastal and Anti-Aircraft)
+                    17th Corps Group
+                        3 Batteries 88/56 (Anti-Aircraft)
+                    29th Corps Group
+                        3 Batteries 88/56 (Anti-Aircraft)
+
+            Coastal Defence
+                2nd Battalion, 16th Infantry Regiment (55th Infantry Division "Savona)
+                Fortress Replacement Battalion
+                1st Coastal Blackshirt Battalion
+                5th North African Blackshirt
+                6th North African Blackshirt
+                1st Blackshirt Battalion
+                10th Libyan Static Machine Gun Company
+                12th Libyan Static Machine Gun Company
+                2 Batteries of 190/39 (of the 100th Group)
+                19th Group (3 Batteries 149/35)
+                22nd Group (3 Batteries 149/35)
+
+        Libyan Sahara Command
+            Sector Hon
+                Hon
+                    37th Libyan Battalion
+                    21st Anti-Tank Company (47/32)
+                    58th Libyan Static Machine Gun Company
+                    61st Libyan Static Machine Gun Company
+                    4th Sahariana Company (in Prepration)
+                    5th Sahariana Company (in Prepration)
+                    838th G.a.F. Battery (77/28)
+                    Independent 20mm Machine Gun Unit
+                    Irregular Group "Giofra"
+                    Mixed Engineer Company
+                    6 Ghibli Planes
+                    7 Cr.42 Planes
+                    1 Ca 133 Plane
+                Brak
+                    55th Libyan Static Machine Gun Company
+                    828th G.a.F. Battery (77/28)
+                    6 S.81 Planes
+                    2 Ghibli Planes
+            
+            Sector Ubari-Serdeles-Ghat
+                Ubari
+                    54th Libyan Static Machine Gun Company
+                    1 Platoon, 1st Meharisti Company
+                Serdeles
+                    52nd Libyan Static Machine Gun Company
+                    2nd Meharisti Company "dello Sciati"
+                Ghat
+                    53rd Libyan Static Machine Gun Company
+                    1st Meharisti Company "del Fezzan"
+                    1st Tuareg Camel Group
+
+            Sector Murzuk
+                Murzuk
+                    57th Libyan Static Machine Gun Company
+                    2nd Sahariana Company
+                    829th G.a.F. Battery (77/28)
+                    3rd Meharisti Company "della Chibla"
+                Sebha
+                    56th Libyan Static Machine Gun Company
+                    3rd Sahariana Company
+                    840th G.a.F. Battery (77/28)                    
+                    3 Ghibli Planes
+            
+            Sector Zella
+                Zella
+                    1st Shariana Company
+                    4th Company, 18th Libyan Battalion
+                Tagrifet
+                    1 Platoon, 59th Libyan Static Machine Gun Company
+                    75/27 Battery
+
+Changes to be made/takeaways:
+The DICAT groups (except maybe the 201st) were not destroyed in Tobruk
+The 8th Labor Battalion, if any of its units were at Tobruk, had companies of number 31 or higher (31st and 32nd, maybe)
+551st Machine Gun Battalion was designated "Motorized"
+The Pavia Division had the replacement 36th and 90th 65/17 infantry gun companies
+The Bologna Division had the replacement 29th and 91th 65/17 infantry gun companies
+The 27th, 503rd, and 504th Independent Batteries were actually 20mm companies, so it's time to redo the Savona Division in all existing scenarios
+Mario de Meo was originally from the Zuara Sector before he became commander of RECAM
+The 2nd Group, 26th Artillery Regiment "Pavia" was not destroyed in Compass but stayed behind
+Garrison companies were regular army units that could be formed by regular infantry divisions
 
 

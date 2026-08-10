@@ -3089,5 +3089,13 @@ reserves=[
         pos:[1190,230],
         elements:[
         ],
+    },{
+        level:4,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+        desc:[`551st Machine Gun Battalion`,`DLI Battaglione Mitraglieri`],name:`551`,designation:``,commander:`Bobbio`,icon:`trento`,
+        pos:[486,744],
+        elements:[
+            {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 551st Machine Gun Battalion`,`1ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri`],name:`1`,designation:`551`,commander:``},
+            {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 551st Machine Gun Battalion`,`2ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri`],name:`2`,designation:`551`,commander:``},
+        ],
     },
 ]
