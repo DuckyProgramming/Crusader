@@ -425,7 +425,7 @@ export class unit{
                         this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply,0)/len
                     break
                 }*/
-                switch(type){
+                /*switch(type){
                     case -1:
                         this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
                         this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
@@ -441,6 +441,25 @@ export class unit{
                     break
                     case 2:
                         this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply*types.elementType[unit.elementType].num,0)/this.contain.units.reduce((acc,unit)=>acc+types.elementType[unit.elementType].num,0)
+                    break
+                }*/
+                let getValue=(type)=>types.elementType[type].health*types.elementClass[types.elementType[type].class].value
+                switch(type){
+                    case -1:
+                        this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life*getValue(unit.elementType),0)/this.contain.units.reduce((acc,unit)=>acc+getValue(unit.elementType),0)
+                        this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale*getValue(unit.elementType),0)/this.contain.units.reduce((acc,unit)=>acc+getValue(unit.elementType),0)
+                        this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply*getValue(unit.elementType),0)/this.contain.units.reduce((acc,unit)=>acc+getValue(unit.elementType),0)
+                        this.strength.num=[0,1,2,3].map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0))
+                    break
+                    case 0:
+                        this.strength.life=this.contain.units.reduce((acc,unit)=>acc+unit.strength.life*getValue(unit.elementType),0)/this.contain.units.reduce((acc,unit)=>acc+getValue(unit.elementType),0)
+                        this.strength.num=[0,1,2,3].map(num=>this.contain.units.reduce((acc,unit)=>acc+(types.elementType[unit.elementType].class==num?ceil(types.elementType[unit.elementType].num*unit.strength.life/unit.strength.base.life):0),0))
+                    break
+                    case 1:
+                        this.strength.morale=this.contain.units.reduce((acc,unit)=>acc+unit.strength.morale*getValue(unit.elementType),0)/this.contain.units.reduce((acc,unit)=>acc+getValue(unit.elementType),0)
+                    break
+                    case 2:
+                        this.strength.supply=this.contain.units.reduce((acc,unit)=>acc+unit.strength.supply*getValue(unit.elementType),0)/this.contain.units.reduce((acc,unit)=>acc+getValue(unit.elementType),0)
                     break
                 }
             }

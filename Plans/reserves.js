@@ -3205,5 +3205,93 @@ reserves=[
         elements:[
             {level:5,type:`Motorized Heavy Artillery Battery`,team:`British`,desc:[`211th Battery, 64th (London) Medium Battalion, Royal Horse Artillery`,`211th Battery, 64th (London) Medium Regiment, Royal Horse Artillery`],name:`211`,designation:`64 RA`,commander:``},
         ],
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Strongpoint Hagfet Umm Haleiga, Subsector C`,`Caposaldo Hagfet Umm Haleiga, Sottosettore C`],name:`Hagfet Umm\nHaleiga`,designation:`C`,commander:``,icon:``,
+        pos:[2368,1746],
+        elements:[
+            {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`XXXI`,commander:``,icon:``},
+            {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Sidi Cheiralla, Subsector C`,`Caposaldo Sidi Cheiralla, Sottosettore C`],name:`Sidi\nCheiralla`,designation:`C`,commander:``,icon:``,
+        pos:[2189,1683],
+        elements:[
+            {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 61st Machine Gun Battalion`,`2ª Compagnia, LXI Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``,icon:`sirte`},
+            {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Bir el Faras, Subsector C`,`Caposaldo Bir el Faras, Sottosettore C`],name:`Bir el\nFaras`,designation:`C`,commander:``,icon:``,
+        pos:[2044,1561],
+        elements:[
+            {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 70th Infantry Regiment`,`2ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`70`,commander:``,icon:`sirte`},
+            {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Bir el Giasc, Subsector C`,`Caposaldo Bir el Giasc, Sottosettore C`],name:`Bir el\nGiasc`,designation:`C`,commander:``,icon:``,
+        pos:[1814,1561],
+        elements:[
+            {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 70th Infantry Regiment`,`3ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`70`,commander:``,icon:`sirte`},
+            {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Strongpoint Bir el Medauuar, Subsector D`,`Caposaldo Bir el Medauuar, Sottosettore D`],name:`Bir el\nMedauuar`,designation:`D`,commander:``,icon:``,
+        pos:[1532,1601],
+        elements:[
+            {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:``,icon:``},
+            {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+        ]
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Ras el Medauuar, Subsector D`,`Caposaldo Ras el Medauuar, Sottosettore D`],name:`Ras el\nMedauuar`,designation:`D`,commander:``,icon:``,
+        pos:[1270,1548],
+        elements:[
+            {level:5,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``,icon:`sirte`},
+            {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+            {level:8,type:`1-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Gun`,`Pezzo da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+        ],
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Ras es Sehel, Subsector D`,`Caposaldo Ras es Sehel, Sottosettore D`],name:`Ras es\nSehel`,designation:`D`,commander:``,icon:``,
+        pos:[1204,1331],
+        elements:[
+            {level:5,type:`Infantry Company`,team:`Italian`,desc:[`11th Company, 70th Infantry Regiment`,`11ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`11`,designation:`70`,commander:``,icon:`sirte`},
+            {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:``,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Section`,`Sezione da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+        ],
+    },{
+        level:5,type:[`Fortress`],team:`Italian`,
+        desc:[`Strongpoint Ras el Medauuar, Subsector D`,`Caposaldo Ras el Medauuar, Sottosettore D`],name:`Ras el\nMedauuar`,designation:`D`,commander:``,icon:``,
+        pos:[1270,1548],
+        elements:[
+            {level:5,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``,icon:`sirte`},
+            {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:`13`,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:`Provvisoria`,commander:``,icon:``},
+            {level:7,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Section`,`Sezione da 47/32`],name:`47/32`,designation:`25`,commander:``,icon:`bologna`},
+            {level:8,type:`1-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Gun`,`Pezzo da 65/17`],name:`65/17`,designation:`85`,commander:``,icon:`sabratha`},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
+        desc:[`85th Infantry Gun Company`,`85ª Batteria Accompagnamento`],name:`85`,designation:``,commander:``,icon:`sabratha`,
+        pos:[1404,1495],
+        elements:[
+            {type:`5-Gun Infantry Gun Company`},
+        ],
     },
 ]

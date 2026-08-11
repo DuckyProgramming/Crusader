@@ -774,7 +774,8 @@ export class operation{
                             }
                             if(this.select.unit.contain.provisional&&this.select.unit.contain.units.length>0){
                                 let sizes=this.select.unit.contain.units.map(unit=>unit.level).sort((a,b)=>a-b)
-                                this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                //this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                this.select.unit.level=sizes.length==1?sizes[0]:sizes[0]==sizes[1]?(sizes[0]==0?0:sizes[0]-1):sizes[0]
                                 this.select.unit.resize(true)
                             }
                         break
@@ -799,8 +800,9 @@ export class operation{
                                 this.select.unit.calculateElements()
                                 if(this.select.unit.contain.provisional&&this.select.unit.contain.units.length>0){
                                     let sizes=this.select.unit.contain.units.map(unit=>unit.level).sort((a,b)=>a-b)
-                                    this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
-                                    this.select.unit.resize()
+                                    //this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                    this.select.unit.level=sizes.length==1?sizes[0]:sizes[0]==sizes[1]?(sizes[0]==0?0:sizes[0]-1):sizes[0]
+                                    this.select.unit.resize(true)
                                 }
                             }else if((this.select.unit.level==constants.minLevel||this.select.unit.level>=constants.minLevel+1)&&!this.select.unit.contain.adhoc){
                                 let element=this.select.unit.contain.units[0]
@@ -873,7 +875,8 @@ export class operation{
                                 this.select.unit.order.artillery=artillery
                                 if(this.select.unit.contain.provisional&&this.select.unit.contain.units.length>0){
                                     let sizes=this.select.unit.contain.units.map(unit=>unit.level).sort((a,b)=>a-b)
-                                    this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                    //this.select.unit.level=sizes.length==1?sizes[0]:last(sizes)==sizes[sizes.length-2]?(last(sizes)==0?0:last(sizes)-1):last(sizes)
+                                    this.select.unit.level=sizes.length==1?sizes[0]:sizes[0]==sizes[1]?(sizes[0]==0?0:sizes[0]-1):sizes[0]
                                     this.select.unit.resize(true)
                                 }
                             }

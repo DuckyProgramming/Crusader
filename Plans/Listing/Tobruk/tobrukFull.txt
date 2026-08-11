@@ -106,8 +106,8 @@ Sector West (HQ 61st Infantry Division "Sirte") (61) - Vincenzo Della Mura
             | 3rd Company, 70th Infantry Regiment
             Subsector Anti-Tank Weapons (No HQ) (4)
                 | 61st Anti-Tank Battery (8 47/32) ________
-                | 69th Infantry Gun Battery (4 65/17) ____
-                | 70th Infantry Gun Battery (4 65/17) ____
+                | 39th Infantry Gun Battery (4 65/17) ____
+                | 40th Infantry Gun Battery (4 65/17) ____
                 | 10th Anti-Aircraft Battery, 20th Corps Artillery Raggruppamento (8 20/65) $$$$$$$$
             Subsector Reserve (No HQ) (2)
                 | 1st Company, 70th Infantry Regiment
@@ -120,7 +120,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (61) - Vincenzo Della Mura
             Subsector Anti-Tank Weapons (No HQ) (4)
                 | 25th Anti-Tank Battery (6 47/32) ______
                 | Provisional Anti-Tank Battery (6 47/32) ______
-                | Provisional Infantry Gun Battery (5 65/17) _____
+                | 86th Infantry Gun Battery (5 65/17) _____
                 | 13th Anti-Aircraft Battery, 22nd Corps Artillery Raggruppamento (8 20/65) $$$$$$$$
                 [ Spare Guardia alla Frontiera Gun (1 47/32) _ ]
             Subsector Reserve (No HQ) (1)
@@ -159,7 +159,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (61) - Vincenzo Della Mura
 
     Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (25) - Adolfo de Leone
         97/97 Guns
-        HQ 10th Army Corps Artillery Raggruppamento (5)
+        HQ 10th Army Corps Artillery Raggruppamento (5) - Eugenio Pirisi
             7th Group, 10th Army Corps Artillery Raggruppamento (3) #
                 | 1st Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
                 | 2nd Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++

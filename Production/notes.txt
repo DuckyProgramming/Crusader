@@ -3008,6 +3008,7 @@ The 10th AAR (not CAR) appears to have been originally deployed in France and wa
 The anti-air battery of the artillery regiments often appears numbered in line with the regiment's batteries rather than in total, like using 10th/43rd for the Sirte Division's rather than 61st.
 This took effect only in North Africa, however. Divisions that were used in Europe did not have this, and the North African divisions also began life without this change yet having been made.
 By July, though, the battery appears to have been given away and replaced with the 77th battery, from the Pavia Division.
+This is a bit of a shady thing, since no sources clearly indicate the number of this battery. My only source for this is page 219 of "History of the Artillery", by Carlo Montù.
 Prior to becoming the 136th Regiment, the Giovani Fascisti seem to have been organized only as a Raggruppamento Battaglioni "Giovani Fascisti", so I severely backdated that one. My mistake.
 The 9th Independent Infantry Battalion might have actually been a former G.a.F. unit and was under the command of a Major Gelli who would be killed in combat during the Tunisian Campaign.
 It appears the number change that resulted in all G.a.F. artillery groups getting multiplied by 10 occurred in Spring 1941. Units lost during Compass were unaffected.
@@ -5126,7 +5127,7 @@ North Africa Superior Command - Italo Gariboldi
                 91st Infantry Gun Company (65/17)
                 Reinforcements
                     8 37/45 Guns
-                    1 47/32 Guns
+                    1 47/32 Gun
                     36 Schwarzlose Machine Guns
             20th Anti-Tank Company (47/32)
             44th Anti-Tank Company (47/32)
@@ -5657,6 +5658,92 @@ Some other units like the 12th Field Regiment and 39th Heavy Mortar Battery were
 
 The Luftwaffe is often criticized for its use of ground divisions. Yet it's important to note that the British had Royal Artillery Infantry Brigades as well, the 301st-308th.
 
-Some information 
+Current listing of infantry gun companies:
+1st-6th Libyan - Libyan Divisions (some to CC.NN. Divisions)
+15th "Savona" - Savona Division (to 1st CC.NN. Division)
+16th "Savona" - Savona Division (to 1st CC.NN. Division)
+19th "Brescia" - Brescia Division (to Marmarica Division)
+20th "Brescia" - Brescia Division (to Marmarica Division)
+27th "Pavia" - Pavia Division (to 2nd Libyan Division)
+28th "Pavia" - Pavia Division (to 2nd Libyan Division)
+    29th "Assietta" - Bologna Division reinforcement
+    34th "Livorno" - Brescia Division reinforcement
+    36th "Pistoia" - Pavia Division reinforcement
+    38th "Ravenna" - Brescia Division reinforcement
+39th "Bologna" - Bologna Division
+40th "Bologna" - Bologna Division
+69th "Sirte" - Sirte Division (to Cirene Division)
+70th "Sirte" - Sirte Division (to Cirene Division)
+85th "Sabratha"- Sabratha Division
+86th "Sabratha"- Sabratha Division (Unclear)
+    90th "Salerno"/"Cosseria" - Pavia Division reinforcement
+    91st "Basilicata"/"Superga" - Bologna Division reinforcement
+        Elements, 42nd Sector Artillery Group (G.a.F.)
+            252nd - Sabratha Division reinforcement
+            266th - Savona Division reinforcement
+            [259th, 265th]
+        Elements, 57th Sector Artillery Group (G.a.F.)
+            251st - Sabratha Division reinforcement
+            264th - Sabratha Division reinforcement
+        Elements, 103rd Sector Artillery Group (G.a.F.)
+            254th - Sabratha Division reinforcement
+            255th - Sabratha Division reinforcement
+            256th - Sabratha Division reinforcement
+            257th - Sabratha Division reinforcement
+            [357th]
+        267th - Savona Division reinforcement (Origin Unknown)
+        886th - Trieste Division reinforcement (1943)
+Note: I've read in some places that the Sabratha Division only received 6 of these and not all 7.
+This source also indicates the 86th Infantry Regiment never had an infantry gun company but this seems weird to me.
+
+Based on this, plus other evidence from Carlo Montù's "History of the Artillery", I'm gonna attempt to track down where the 13 65/17 infantry guns that the Tobruk garrison had.
+Firstly, the fortress itself had no infantry guns on the 25th of July. The only source of 5 was from the 1st Libyan Division, and there were 4s and 8s all over the place.
+However, these 5 guns don't appear clearly anywhere else. It's hard for me to know where another 5 guns could've appeared, and at the same time at least one likely came from the Tobruk depot.
+So ultimately I don't think there is anything I can do in this current position. There's no information anywhere about these batteries and I'm not anywhere close to piecing it together. Guess I'll sleep on it...
+
+On the 16th of June ("The Operations in North Africa", page 67), a raggruppamento of 8 65/17 batteries from the XX Army Corps were given to the 10th Army.
+These were likely the 15th and 16th "Savona", 19th and 20th "Brescia", 27th and 28th "Pavia", and 69th and 70th "Sirte". I don't know why it was decided not to move the ones from the Bologna Division as well.
+Since the Bologna Division had its infantry gun batteries replaced by the 29th and 91st, they must've been lost at some point. I think it now makes sense to say they were the ones the Sirte Division got as replacement.
+Its noted that the Libyan Divisions Group (Gallina) and XXI Corps (Spatocco) had a total of 12 65/17 accompanying batteries (so infantry guns, not artillery), and I think they were:
+Libyan Divisions Group
+    1st Libyan Division
+        Unknown Battery, 4th CC.NN. Division
+        Battery, Bardia G.a.F. (Not counted for some reason?)
+    2nd Libyan Division
+        27th "Pavia" Infantry Gun Battery
+        28th "Pavia" Infantry Gun Battery
+XXI Corps
+    63rd "Cirene" Infantry Division
+        69th "Sirte" Infantry Gun Battery
+        70th "Sirte" Infantry Gun Battery
+        157th "Cirene" Infantry Gun Battery
+        158th "Cirene" Infantry Gun Battery
+    64th "Catanzaro" Infantry Division
+        141st "Catanzaro" Infantry Gun Battery
+        142nd "Catanzaro" Infantry Gun Battery
+    Raggruppamento Maletti
+        4th Libyan Group (3 Batteries)
+
+By the way, I was entirely wrong about the initial setup of the 32nd G.a.F. Coverage Sector. Its two subsectors did not cover the two roads. Rather, one of them covered the desert and the other was split in two.
+The initial organization in Tobruk, June 10, was as follows (format: name / base):
+Piazzaforte di Tobruch
+    XXXI Settore di Copertura (Sidi Daud / Sidi Mahmud)
+        XXXI/A Subsector (Sidi Daud)
+            Strongpoint Zeitun
+            Strongpoint Sidi Daud
+            Strongpoint Suesi
+            Strongpoint Bir Junes
+        XXXI/B Subsector (Bivio El Adem / Bir Lasin)
+            Strongpoint Dahar el Azazi
+            Strongpoint Bir Umm Haleiga
+    XXXII Settore di Copertura (Ras el Medauuar / Pilastrino)
+        XXXII/A Subsector (Ras el Medauuar)
+            Strongpoint Umm Cuheil / Bir el Meclub
+            Strongpoint Es Sehel
+            Strongpoint Ras es Sehel
+            Strongpoint Ras el Medauuar / Bir el Medauuar
+        XXXII/B Subsector (Pilastrino / Hagfet el Carmusa)
+            Strongpoint Bir eg Giasc / Bir el Faras
+            Strongpoint Sidi Cheiralla / Hagfet Umm Haleiga
 
 

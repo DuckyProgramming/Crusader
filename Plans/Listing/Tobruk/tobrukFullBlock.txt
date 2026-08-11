@@ -5,12 +5,12 @@ XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
         1st Battalion (4)
         2nd Battalion (4)
         3rd Battalion (4)
-        69th Infantry Gun Company
+        39th Infantry Gun Company
     70th Infantry Regiment "Ancona" (3/13) - Gaetano Maltese
         1st Battalion (4)
         2nd Battalion (4)
         3rd Battalion (4)
-        70th Infantry Gun Company
+        40th Infantry Gun Company
     43rd Artillery Regiment "Sirte" (3/10) - Gildo Bonfanti
         1st Group (3)
         2nd Group (3)
@@ -40,7 +40,7 @@ XXII Army Corps Artillery Commander (13/42) - Adolfo de Leone
         1st Group (3)
         2nd Group (3)
         3rd Group (3)
-        Provisional Infantry Gun Battery
+        86th Infantry Gun Battery
     1st Group, 26th Artillery Regiment "Pavia" (4)
     15th Anti-Aircraft Group (3)
     10th Battery, 20th Corps Artillery Raggruppamento
