@@ -204,7 +204,7 @@ Rapid Column (8)
     Rapid Detachment (3) #
         | 22nd Bersaglieri Motorcycle Company (Motorized)
         | 1st Company, 69th Infantry Regiment (Motorized)
-        | Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) $$$$$$
+        | 304th Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) $$$$$$
         [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     Rapid Detachment (3) #
         | 61st Bersaglieri Motorcycle Company (Motorized)

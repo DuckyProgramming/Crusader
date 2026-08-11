@@ -3097,5 +3097,113 @@ reserves=[
             {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`1st Company, 551st Machine Gun Battalion`,`1ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri`],name:`1`,designation:`551`,commander:``},
             {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 551st Machine Gun Battalion`,`2ª Compagnia Mitraglieri, DLI Battaglione Mitraglieri`],name:`2`,designation:`551`,commander:``},
         ],
+    },{
+        level:5,type:[`Infantry`],team:`Italian`,
+        desc:[`63rd Garrison Company`,`63ª Compagnia Presidiaria`],name:`63`,designation:`Garrison`,commander:``,icon:`cirene`,
+        pos:[905,508],
+        elements:[
+            {type:`Small Ruined Infantry Company`},
+        ],
+    },{
+        level:3,type:[`Infantry`,`Mixed`,`Motorized`],team:`German`,
+        desc:`Sonderverband 288`,name:`288`,designation:``,commander:`Menton`,icon:`90l`,
+        pos:[165,520],
+        elements:[
+            {
+                level:5,type:[`Infantry`,`Mixed`,`Motorized`],team:`German`,
+                desc:[`1st Company, Sonderverband 288`,`1./Sonderverband 288`],name:`1`,designation:`288`,commander:`von Köhnen`,icon:`brandenburger`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Elite Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Mountain`,`Motorized`],team:`German`,
+                desc:[`2nd Company, Sonderverband 288`,`2./Sonderverband 288`],name:`2`,designation:`288`,commander:``,icon:`90l`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:[`3rd Company, Sonderverband 288`,`3./Sonderverband 288`],name:`3`,designation:`288`,commander:``,icon:`90l`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Infantry Company`},
+                ],
+            },{
+                level:5,type:[`Infantry`,`Machine Gun`,`Motorized`],team:`German`,
+                desc:[`4th Company, Sonderverband 288`,`4./Sonderverband 288`],name:`4`,designation:`288`,commander:``,icon:`90l`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Machine Gun Company`},
+                ],
+            },{
+                level:5,type:[`Anti-Tank`,`Motorized`],team:`German`,
+                desc:[`5th Company, Sonderverband 288`,`5./Sonderverband 288`],name:`5`,designation:`288`,commander:``,icon:`90l`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Anti-Tank Company`},
+                ],
+            },{
+                level:5,type:[`Anti-Air`,`Motorized`],team:`German`,
+                desc:[`6th Company, Sonderverband 288`,`6./Sonderverband 288`],name:`6`,designation:`288`,commander:``,icon:`90l`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Anti-Air Company`},
+                ],
+            },{
+                level:5,type:[`Engineer`,`Motorized`],team:`German`,
+                desc:[`7th Company, Sonderverband 288`,`7./Sonderverband 288`],name:`7`,designation:`288`,commander:``,icon:`90l`,
+                pos:[88,1216],
+                elements:[
+                    {type:`Motorized Engineer Company`},
+                ],
+            },
+        ],
+    },{
+        level:5,type:[`Artillery`,`Coast`],team:`German`,
+        desc:[`3rd Company, 523rd Coastal Artillery Battalion`,`3./Heeres-Küsten-Artillerie-Abteilung 523`],name:`3`,designation:`523 Coast`,commander:``,icon:``,
+        pos:[1052,339],
+        elements:[
+            {type:`4-Gun Coastal Artillery Battery`},
+        ],
+    },{
+        level:4,type:[`Recon`],team:`Italian`,
+        desc:[`Rapid Detachment`,`Aliquota Celere`],name:`Celere`,designation:``,commander:``,icon:``,
+        pos:[2595,856],
+        elements:[
+            {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``},
+            {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`},
+            {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`Anti-Aircraft Battery, 4th Tank Infantry Regiment`,`Batteria Contraerea, 4° Reggimento Fanteria Carristi`],name:`AA`,designation:`4 TI`,commander:``,icon:`4ti`},
+            {level:6,type:`Motorized Heavy Infantry Platoon`,team:`Italian`,desc:[`1st Platoon, 4th Company, 69th Infantry Regiment`,`1° Plotone, 4ª Compagnia Armi d'Accompagnamento, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`4/69`,commander:``,icon:`sirte`},
+            {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+        ],
+    },{
+        level:4,type:[`Infantry`,`Motorized`],team:`New Zealand`,
+        desc:`21st New Zealand Infantry Battalion`,name:`21`,designation:``,commander:`Fitzpatrick`,icon:`2nz`,
+        pos:[1204,524],
+        elements:[
+            {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`A Company, 21st New Zealand Infantry Battalion`,name:`A`,designation:`21`,commander:`Trousdale`},
+            {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`B Company, 21st New Zealand Infantry Battalion`,name:`B`,designation:`21`,commander:`Yeoman`},
+            {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`C Company, 21st New Zealand Infantry Battalion`,name:`C`,designation:`21`,commander:`Tongue`},
+            {level:5,type:`Motorized Infantry Company`,team:`New Zealand`,desc:`D Company, 21st New Zealand Infantry Battalion`,name:`D`,designation:`21`,commander:``},
+        ]
+    },{
+        level:4,type:[`Anti-Tank`,`Motorized`],team:`Australian`,
+        desc:[`1st Anti-Tank Battalion, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2/1st Anti-Tank Regiment, Royal Australian Artillery`],name:`2/1`,designation:``,commander:`St. John`,icon:`6a`,
+        pos:[3599,1847],
+        elements:[
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`1st Anti-Tank Battery, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2/1st Anti-Tank Battery, Royal Australian Artillery`],name:`1`,designation:`2/1`,commander:``},
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`2nd Anti-Tank Battery, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2/2nd Anti-Tank Battery, Royal Australian Artillery`],name:`2`,designation:`2/1`,commander:``},
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`3rd Anti-Tank Battery, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2/3rd Anti-Tank Battery, Royal Australian Artillery`],name:`3`,designation:`2/1`,commander:``},
+            {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:[`4th Anti-Tank Battery, Royal Australian Artillery, 2nd Australian Expeditionary Force`,`2/4th Anti-Tank Battery, Royal Australian Artillery`],name:`4`,designation:`2/1`,commander:``},
+        ],
+    },{
+        level:4,type:[`Artillery`,`Heavy`,`Motorized`],team:`British`,
+        desc:[`64th (London) Medium Battalion, Royal Artillery`,`64th (London) Medium Regiment, Royal Artillery`],name:`64`,designation:`London`,commander:``,icon:`13c`,
+        pos:[3403,1652],
+        elements:[
+            {level:5,type:`Motorized Heavy Artillery Battery`,team:`British`,desc:[`211th Battery, 64th (London) Medium Battalion, Royal Horse Artillery`,`211th Battery, 64th (London) Medium Regiment, Royal Horse Artillery`],name:`211`,designation:`64 RA`,commander:``},
+        ],
     },
 ]

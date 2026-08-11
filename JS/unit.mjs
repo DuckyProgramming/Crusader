@@ -450,12 +450,29 @@ export class unit{
             this.strength.supply=this.strength.base.supply
         }
     }
-    resize(){
+    resize(collapse){
         this.symbol=types.unitLevel[this.level].symbol
         this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
         this.width=this.size*1.6
         this.height=this.size
         this.radius=this.size
+        if(collapse&&this.contain.units.length==1&&this.level==this.contain.units[0].level){
+            let element=this.contain.units[0]
+            let result=new unit(this.operation,{
+                pos:[this.position.x,this.position.y],
+                level:element.level,type:element.type.map(type=>types.unitType[type].name),team:element.team,
+                desc:element.desc,name:element.name,designation:element.designation,commander:element.commander,
+                icon:element.icon,elements:[],
+            })
+            result.contain.units.push(element)
+            result.calculateElements()
+            result.fade=JSON.parse(JSON.stringify(this.fade))
+            result.parent=this.parent
+            result.order.trigger=true
+            this.operation.units.push(result)
+            this.operation.select.unit=result
+            this.operation.units.splice(this.operation.units.indexOf(this),1)
+        }
     }
     orderDimensions(){
         this.contain.units.forEach(unit=>unit.orderDimensions())

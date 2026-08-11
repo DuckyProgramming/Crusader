@@ -2440,6 +2440,7 @@ In addition, he notes two 149/35 batteries (238 GaF, 239 GaF) and a 105/28 batte
 Somebody has mentioned a 502nd 20/65 Battery under the command of the Brescia Division. This probably was part of the replacement for its old artillery lost at Tobruk.
 Nobody in the archives responded to him, so I have nothing else to go on. I couldn't find anything on the internet either.
 The numbering is also quite weird. This unit has nothing in common with any of the units in the Brescia Division, so its very existence if so would be an abberation.
+I have now solved this, as it appears that this battery was in fact in the same series as the 503rd and 504th. It was subordinated to the 1st Fast Artillery Regiment.
 
 I haven't mentioned this previously, I believe, but I just thought about how thin the defenders actually were. It's a surprise they even tried.
 On a frontline of 54,000 meters, they had 24,000 men, 340 guns, and 23,000 mines. And only about half of those men would have actually been frontline troops, and many of the mines were defective.
@@ -3216,7 +3217,7 @@ Format: [Artieri] Company: [Division] ([Regiments])
 83rd Company: 51st "Siena" Infantry Division (31, 32, 51)
 [5, Unlikely]
 89th Company: 131st "Centauro" Armored Division (31, 5, 131) (Poor Source)
-[1]
+90th Company: XX Army Corps (Montanari, "The Second Italo-German Counteroffensive", Page 370)
 91st Company: 50th "Regina" Infantry Division (9, 10, 50)
 [2]
 94th Company: 53rd "Arezzo" Infantry Division (225, 226, 53)
@@ -3233,7 +3234,7 @@ Format: [Artieri] Company: [Division] ([Regiments])
 124th Company: 4th "Cuneense" Alpine Division (1A, 2A, 4A)
 125th Company: 5th "Pusteria" Alpine Division (7A, 11A, 5A)
 [1]
-127th Company: 55th "Savona" Type AS Division (15, 16, 12)
+127th Company: 55th "Savona" Type AS Division (15, 16, 12) (Poor Source)
 [2]
 130th Company: 2nd CC.NN. Division "28 Ottobre" (231, 238, 202)
 131st Company: 131st "Centauro" Armored Division (31, 5, 131)
@@ -4288,7 +4289,10 @@ Note: the "Carpathian" designation wasn't just a name, the units did actually ha
         3rd Horse Artillery Squadron - Emil Sikorski (III Dywizjon Artylerii Konnej) (3 Batteries of 4 Guns Each)
         Note: these different squadron names didn't actually mean anything
         Note: the batteries were numbered 1-9
+        Note: under Polish systems, this would've been considered a regiment-level unit, and while the British would say the same, in their terminology that's a battalion
     Carpathian Anti-Tank Artillery Squadron - Cieszkowski (Karpacki Dywizjon Artylerii Przeciwpancernej)
+        Note: this actually had subordinate batteries numbered 1-4, so it was a regiment-level unit by Polish standards and company-level by British standards
+        Note: each of those batteries was armed with 4 guns, so they were troop-level by British standards, and this unit was formed in June 1941
     Carpathian Uhlans Regiment (Motorized acting as reconaissance)
         1st Squadron - Stanisław Kałusowski
         2nd Squadron - Antoni Smodlibowski
@@ -4533,6 +4537,7 @@ Army Troops
         1st Battalion, 18th Anti-Aircraft (Flak) Regiment
             2 20mm Batteries
             2 88mm Batteries
+        Note: these 20mm guns are not the Italian 20/65 but the German 2cm Flak 30 or 38
     900th Engineer Battalion (2 Companies)
     6 Radio Stations, 1 Signals Company
 Deutsches Afrika Korps
@@ -5216,7 +5221,7 @@ North Africa Superior Command - Italo Gariboldi
                     Mortar Company (81/14)
                     266th Infantry Gun Battery (65/17)
                     Reinforcements
-                        10 St.Etienne Machine Guns
+                        10 St. Etienne Machine Guns
                         21 Schwarzlose Machine Guns
                 16th Infantry Regiment
                     1st Battalion (to 10th Army Corps)
@@ -5500,13 +5505,158 @@ North Africa Superior Command - Italo Gariboldi
 
 Changes to be made/takeaways:
 The DICAT groups (except maybe the 201st) were not destroyed in Tobruk
+(Some records actually say that they were taken out of North Africa entirely and redeployed later in March 1941)
 The 8th Labor Battalion, if any of its units were at Tobruk, had companies of number 31 or higher (31st and 32nd, maybe)
 551st Machine Gun Battalion was designated "Motorized"
 The Pavia Division had the replacement 36th and 90th 65/17 infantry gun companies
 The Bologna Division had the replacement 29th and 91th 65/17 infantry gun companies
 The 27th, 503rd, and 504th Independent Batteries were actually 20mm companies, so it's time to redo the Savona Division in all existing scenarios
+The 8th is never mentioned, but since it only had 2 guns it was probably larger caliber than 20mm but still an anti-aircraft unit (75/34?)
+Still, whiel the German information is kinda useless in terms of unit types, the numbers of guns may still be useful information
 Mario de Meo was originally from the Zuara Sector before he became commander of RECAM
 The 2nd Group, 26th Artillery Regiment "Pavia" was not destroyed in Compass but stayed behind
 Garrison companies were regular army units that could be formed by regular infantry divisions
+The 16th Infantry Regiment didn't have a mortar company for some reason
+
+Highly unrelated, but the word for "ships" in Italian, while I never thought about this beforehand, it now makes sense that it's "navi". Kinda funny and interesting for me.
+
+There's also a listing of commanders back on February 20 1941. This includes the following interesting ones:
+Giuseppe Cresmascoli and Mario Marghinotti - Brescia and Savona Divisions (Marghinotti is never mentioned by Wikipedia, perhaps he was temporary)
+Parii Dino - Colonel, commander of some element of the G.a.F.
+Leo Michele - Commander of the Libyan Sahara
+
+Also, the 8th Bersaglieri Battalion of the 7th Bersaglieri Regiment, which was undergoing reformation prior to Crusader, had the following strength of the 27th of October 1941:
+1 Motorized Battalion With 24 Submachine Guns, 10 Anti-Tank Rifles, 6 HMGs, and 8 47/32 Anti-Tank Guns
+It was at Gialo, along with another platoon of 47/32, 2 machine gun platoons of the 18th Libyan Battalion, 1 section of 20/65, and 3 12.7mm machine guns.
+
+Note that on the 1st of April 1941, the Brescia Division had the following gun units:
+
+5th Anti-Tank Company (47/32)
+71st Anti-Tank Company (47/32)
+227th Anti-Tank Company (47/32) (in Preparation)
+1st Fast Artillery Regiment
+    1st Group (2 Batteries 75/27)
+    2nd Group (2 Batteries 75/27)
+    7th 20mm Battery
+    8th 20mm Battery
+    502nd 20mm Battery
+
+But by the 1st of November, it had been reduced to:
+
+1 Anti-Tank Company (47/32) (Number Unknown)
+1st Fast Artillery Regiment
+    1st Group (2 Batteries 100/17) (1 Missing)
+    2nd Group (3 Batteries 100/17)
+    3rd Group (2 Batteries 75/27)
+    4th Group (2 Batteries 75/27)
+    1 20mm Battery (Number Unknown)
+
+The 63rd Garrison Company has reappeared as part of the ARMIR of all places. Here's how it can be found:
+8th Army/ARMIR
+    Directly Dependent Units
+        Intendancy
+            Rear Area (Tappe)
+                Rear Area Directorate
+                    63rd Garrison Company
+                    3 Major Rear Area Commands
+                    6 Secondary Rear Area Commands
+                    11 Special Rear Area Commands
+                    4 Rear Area officers
+                    4 Mobile Territorial Battalions (4 Companies Each)
+                    3 Mobile Territorial Battalions (3 Companies Each)
+                    8 Dismounted Artillery Groups (4 Batteries Each)
+One man from this company was a Sergeant L.J. (only initials can be located) who was interrogated by the CSIR for reasons I will probably never know.
+Back in the days of the CSIR, I don't beleive the 63rd was around, and instead there was a 22nd Garrison Company that was operating in the rear in the Soviet Union.
+
+In general, though the 70th Garrison Company of the Bologna Division and a separate garrison company from the Sabratha Division have appeared, I've haven't gained much about them.
+In fact, almost all information I can find about these units comes almost exclusively from World War I sources which aren't too useful.
+Like, too many of them. It's nearly impossible to find anything from World War II. It's almost as if Italian writers, who are the only ones who cover this, aren't too proud of their nation's performance.
+Also, the 70th Garrison Company even existing is weird given there was never a 70th Division in the first place. But maybe this was actually formed by the 70th Infantry Regiment of the Sirte Division.
+But if that was the case, the 63rd Garrison Company would've been formed not by the 63rd Cirene Division, but by the 59th Cagliari Division's 63rd Infantry Regiment, which was in Greece.
+
+Alternately, it could be the depots of the regiments that formed the companies rather than the regiments themselves. In fact, this possibility seems more likely.
+The Cagliari Division did not exist during the East African Campaign, but the 63rd Infantry Regiment did, and it passed through Cyrenaica to get to Eritrea.
+The depot was also based in Salerno, which isn't too far from North Africa and is where several other units that ended up in Cyrenaica came from.
+Now that this seems quite plausible, I'm gonna make this change. It might not be 100% confirmable as true but it's the best I have for now.
+This isn't a great number, but in World War I, garrison companies had both numbers and letters. Those with numbers 1-94 were from infantry regiment depots. Larger numbers came from special regiments.
+
+When it deployed to Rommel's command on the 22nd and 23rd of January, the Sabratha Division had 7 battalions, no anti-tank armament, and a single 75/27 group.
+
+From "The Second Italo-German Counteroffensive", we get confirmation that the Sabratha Division had just 2 battalions in each of its regiments, with no infantry guns (except for the 340th battery, divisional).
+There's also a slightly cooked OOB for Gazala. It doesn't include specifics for any divisions, so I'll go with just the things I find interesting:
+(Incomplete)
+90th Light Division:
+    1 Platoon, 900th Pioneer Battalion
+    1 Squadron, Unit 621 (621st Radio Interception Unit)
+    3rd Reconaissance Battalion (But not the 33rd)
+C.T.A. (D.A.K.)
+    1 Platoon, Unit 621 (621st Radio Interception Unit)
+    4th and 5th Batteries, 115th Artillery Regiment (From its 2nd Battalion)
+20th Army Corps
+    Assigned Army Units
+        147th Heavy Artillery Group (2 Batteries)
+        131st Heavy Artillery Group (2 Batteries)
+        2nd Group, 24th Corps Artillery Raggruppamento (Duplicated)
+        5th Group, 1st Fast Artillery Regiment (88/56)
+        Engineer Command (Colonel Raffaelli)
+        1st Company, 27th Engineer Battalion
+        90th Engineer Company
+21st Army Corps
+    Corps Units
+        2nd Group, 24th Corps Artillery Raggruppamento (Duplicated)
+        ? Company, 27th Engineer Battalion
+    15th Infantry Brigade
+        200th Light Infantry Regiment
+            708th Heavy Infantry Gun Regiment (Transferred to Panzerarmee Afrika, then to the 90th Light Afrika Division)
+        361st Light Infantry Regiment
+        442nd Battery, 612th Flak Battalion
+        1st Platoon, 900th Pioneer Battalion
+        1st Mixed Communications Platoon (From Army)
+
+Series on AA Batteries:
+0-99 - Divisional Artillery Regiments
+100-299 - Divisional Artillery Regiment Reinforcements
+300-399 - ? (Tank Units) (These have never appeared a single time)
+400-499 - African Reinforcements
+500-599 - Fast Artillery Regiments
+1300-1499 - Static 88mm, Formed in 1943
+1500-1599 - Static 20mm, Formed in 1943
+I made the above tentative chart because pages 431-434 of Montanari's "The Third British Offensive" have a ton of references to the 400-series units.
+This makes me think the 4th Tank Infantry Regiment would've had the 304th, since these are both number series that I can't otherwise find anything about.
+Another 400-series battery, the 437th, can be found with the 205th Artillery Regiment that acted as a replacement for the Bologna Division.
+
+On the 17th of November a major storm hit the Mediterranean from Egypt to Libya. This seemed to me like something of little relevance initially until I read some quotes about its effects.
+German troops of the 15th Panzer Division, then deployed near the entrance to Halfaya Pass, were drowned in mud from the first rains in 60 years. The defenders of Tobruk suffered a similar fate.
+
+A Squadron, 7th Hussars was commanded by a Seymour-Evans, while B Squadron, 7th Hussars was commanded by a Younger, at least according to a Crusader report by Brigadier Davy.
+I'm not sure because this information is slightly less clear but I think a Major Congreve commanded C Squadron of this same unit.
+Seymour-Evans was later injured and was replaced by a Captain R.c. Watson, but he was also injured and command in the squadron collapsed temporarily.
+Another injured commander during this phase was Freddie Byass who commanded the regiment, replaced by a Major Fosdick whose origin is yet unknown to me.
+
+Neumann-Silkow's chief of staff in the 15th Panzer Division was Colonel Rainer Kriebel.
+A major Godson commanded B Squadron, 4th County of London Yeomanry and was a casualty at Bir el Gubi.
+Colonel Bonner Fellers, the "Good Source" was actually at 4th Armoured Brigade HQ early in Crusader. They were unlucky that he wasn't captured.
+One of the artillery batteries subordinated to the 70th Infantry Division in Crusader was commanded by a Lieutenant Hester-Hewitt.
+The company commanders of the 21st New Zealand Battalion were Major Trousdale, Captain Yeoman, Captain Tongue, and the unknown commander of its D Company.
+
+According to Greene and Massignani, Arditi units in North Africa (and possibly in general) were picked men from existing units and were not formed on their own individually.
+So the 2 Arditi platoons of the 2nd Battalion, 69th Infantry Regiment were taken from the best men of that unit (interval troops of the eastern sector) and this wasn't the case for most battalions.
+
+Another thing I was wrong about was the structure of the Australian and New Zealand Artillery.
+Australian regiments had 2 batteries each. Each battery included two 4-gun troops of 18-pounders and a single 4-gun troop of 4.5 inch howitzers. The numbers seem to just count up.
+Batteries were sequentially numbered from the 1st, in the 2/1st Field Regiment. This makes the numbers quite easy to understand though they did become messier after they switched to three-battery regiments.
+The same went for anti-tank regiments and the numbering of their batteries, although each anti-tank regiment had four rather than two batteries.
+New Zealand field regiments all had 3 batteries apiece, and the anti-tank regiment had 4. There were also numerous specialized regiments and a huge amount that stayed in New Zealand.
+However, the battery numbers are often irregular. Those that fought with the 2nd Division in North Africa are:
+4th Field Regiment: 25,26,46
+5th Field Regiment: 27,28,47
+6th Field Regiment: 29,30,48
+7th Anti-Tank Regiment: 31,32,33,34
+14th Light Anti-Aircraft Regiment: 41,42,43
+Some other units like the 12th Field Regiment and 39th Heavy Mortar Battery were at times part of the division but I haven't seen any reference to them in North Africa.
+
+The Luftwaffe is often criticized for its use of ground divisions. Yet it's important to note that the British had Royal Artillery Infantry Brigades as well, the 301st-308th.
+
+Some information 
 
 
