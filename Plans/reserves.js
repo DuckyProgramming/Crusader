@@ -3353,5 +3353,27 @@ reserves=[
                 ],
             },
         ],
+    },{
+        level:1,type:[`Infantry`],team:`German`,
+        desc:[`Special Purpose Divisional Command "Afrika"`,`Divisionskommando z.b.V. Afrika`],name:`A`,designation:`z.b.V.`,commander:`Veith`,icon:`90l`,
+        pos:[50,1422],
+        elements:[
+            {
+                level:3,type:[`Infantry`,`Motorized`],team:`German`,
+                desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Menny`,icon:`90l`,
+                pos:[130,1422],
+                elements:[
+                    {level:4,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
+                    {level:4,type:`Motorized Infantry`,team:`German`,desc:[`2nd Battalion, 115th Rifle Regiment`,`II./Schützen-Regiment 115`],name:`2`,designation:`115`,commander:`Göttman`},
+                ],
+            },{
+                level:4,type:[`Infantry`],team:`German`,
+                desc:[`3rd Battalion, 347th Infantry Regiment`,`III./Infanterie-Regiment 347`],name:`3`,designation:`347`,commander:`Panzenhagen`,icon:`90l`,
+                pos:[200,1422],
+                elements:[
+                    {level:4,type:`Semi-Motorized Infantry`,team:`German`,desc:[`3rd Battalion, 347th Infantry Regiment`,`III./Infanterie-Regiment 347`],name:`3`,designation:`347`,commander:`Panzenhagen`},
+                ],
+            },
+        ],
     },
 ]

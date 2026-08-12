@@ -5576,6 +5576,7 @@ Back in the days of the CSIR, I don't beleive the 63rd was around, and instead t
 
 In general, though the 70th Garrison Company of the Bologna Division and a separate garrison company from the Sabratha Division have appeared, I've haven't gained much about them.
 In fact, almost all information I can find about these units comes almost exclusively from World War I sources which aren't too useful.
+This is partially because all infantry divisions under the standard organization during that war had a garrison company assigned to them. Not sure why it was necessary.
 Like, too many of them. It's nearly impossible to find anything from World War II. It's almost as if Italian writers, who are the only ones who cover this, aren't too proud of their nation's performance.
 Also, the 70th Garrison Company even existing is weird given there was never a 70th Division in the first place. But maybe this was actually formed by the 70th Infantry Regiment of the Sirte Division.
 But if that was the case, the 63rd Garrison Company would've been formed not by the 63rd Cirene Division, but by the 59th Cagliari Division's 63rd Infantry Regiment, which was in Greece.
@@ -5661,6 +5662,8 @@ However, the battery numbers are often irregular. Those that fought with the 2nd
 14th Light Anti-Aircraft Regiment: 41,42,43
 Some other units like the 12th Field Regiment and 39th Heavy Mortar Battery were at times part of the division but I haven't seen any reference to them in North Africa.
 
+South African Field Regiments also had three batteries apiece with 8 guns each. However the batteries were often reorganized, such as at Tobruk in 1942 (2nd, 4th, 5th, 8th, 9th, and 12th) batteries present.
+But at no point in the entire game currently do South African artillery units appear at the company level, so even though I was wrong about this previously, there's no consequences for it.
 The Luftwaffe is often criticized for its use of ground divisions. Yet it's important to note that the British had Royal Artillery Infantry Brigades as well, the 301st-308th.
 
 Current listing of infantry gun companies:
@@ -5834,5 +5837,59 @@ Trento Division HQ (Near Sidi Daud)
 
 At 11:45 on 8/11/26, my VSCode instance broke and screwed up a huge amount of my code. I believe I have no choice but to revert the last five hours of changes in GitHub.
 15 minutes later, I think I got everything under control, although I also probably spent another good 15 minutes just panicking before even writing the above message.
+
+In late March, Rommel submitted requests for reinforcements that were intended to arrive for Gazala. These were mostly used to replace losses taken during Crusader and regularize the divisions.
+For example, a tank company for the 5th Panzer Regiment arrived, as did the 707th Heavy Infantry Gun Company and the 11th (Infantry Gun) Company, 115th Rifle Regiment.
+In addition, the 200th Pioneer Battalion received its 3rd Company, plus Hecker's 778th Landing Engineer Company. There were also many signals units sent.
+Two final units sent over of interest were the headquarters and staff of the 104th Artillery Command and the 2nd Battalion, 115th Artillery Regiment, which may have lacked them previously.
+This full document which also includes requests for reinforcements for the Italian units and other concerns is in "The Second Italo-German Counteroffensive", page 332-335.
+
+Other documents from this book exist but I think I've gotten through most of the value. For instance there are some about British units but they tend to not be the most reliable in their information.
+A good example of this is the Britsih 12th Division that was identified in the delta with the 36th and 37th Infantry Brigades and the 114th Field Regiment. In reality, this division had been disbanded in 1940.
+
+It's worth noting that the Italian units that were operating near Matruh didn't attack it frontally until the encirclement was complete. Thus their losses were nearly nonexistent in this battle.
+The X Corps spent the few days of battle making slow progress through the minefields, while the XXI Corps faced off against the enemy in an artillery duel with the infantry doing little to nothing.
+
+Italian intelligence also made numerous failures prior to Gazala. We know that Rommel's German staff did no better and the whole plan for Operation Venice was poor but the Italians are not blameless.
+For one, they had extremely outdated information regarding the British units, with many of the commanders who had changed in early 1942 not being accounted for. It was so bad that it's honestly comical.
+Some of those mistakes include naming Godwin-Austen for XIII Corps, Brink for 1st South African Division, Lumsden for 7th Armoured Division, andGott for 1st Armoured Division.
+They also wrong about the organization in many places. They thought the armoured divisions still had support groups and didn't realize the army tank brigades weren't just loose tank battalions/regiments.
+
+The command organization between Umberto Barberis and the various 10th Army units is still kind of unclear. Barberis was meant to be commander of the frontier, but also appears as commander of Tobruk Fortress.
+I think the most reasonable assumption for this is that he was initially in command of the frontier garrisons, but was redeployed to command Tobruk Fortress after the frontier was lost in the early war.
+
+"The Italian Army Between the 1st and 2nd World Wars", another book from the Army Historical Office, has a lot of assorted data, charts, and maps from the 10th of June.
+One interesting thing to note is that none of the guns in AFrica were rare. The 149/12 could be found in hundreds as could the 149/13 and 149/35, even though all of these guns were short in Africa.
+On the other hand, the 149/19 was never found in Africa. This makes sense because apparently there was only a single one of these across the entire army. Why not just retire it?
+
+The book also shows that the amount of artillery in the Italian divisions, while never a specialty, increased relative to the quantity of infantry battalions over time.
+This is to challenge the idea that the binary division was a worse organization than the ternary or quaternary division. Artillery support is important and this shows a genuine trend toward better-built divisions.
+Here are the numbers to prove it:
+Quaternary Division (1918): 12 Infantry Battalions, 8 Artillery Batteries (0.67)
+Ternary Division (1926): 9 Infantry Battalions, 12 Artillery Batteries (1.33)
+Binary Division (1938): 6 Infantry Battalions, 9 Artillery Batteries (1.5)
+
+Here are some other nations' 1940 or 1941 (1939 for Poland) divisions for comparison:
+German Division: 9 Infantry Battalions, 9 Artillery Batteries (1)
+Dutch Division: 9 Infantry Battalions, 9 Artillery Batteries (1)
+Hungarian Division: 6 Infantry Battalions, 7 Artillery Batteries (1.17)
+Polish Division: 9 Infantry Battalions, 10.5 Artillery Batteries (11 Batteries, but 2 have only 3 guns) (1.17)
+American Division: 9 Infantry Battalions, 12 Artillery Batteries (1.33)
+Japanese Division: 9 Infantry Battalions, 12 Artillery Batteries (1.33)
+Belgian Division: 9 Infantry Battalions, 12 Artillery Batteries (Reserve divisions had only half as much) (1.33)
+Soviet Division: 9 Infantry Battalions, 15 Artillery Batteries (1.67)
+French Division: 9 Infantry Battalions, 15 Artillery Batteries (1.67)
+Yugoslav Division: 9 Infantry Battalions, 16 Artillery Batteries (1.78)
+British Division: 9 Infantry Battalions, 18 Artillery Troops (same size as an Italian battery) (2)
+
+And some random divisions I ended up reading about anyway even though they didn't participate in the war:
+Latvian Division: 9 Infantry Battalions, 3 Artillery Batteries (0.33)
+Lithuanian Division: 9 Infantry Battalions, 6 Artillery Batteries (0.67)
+Turkish Division: 9 Infantry Battalions, 6 Artillery Batteries (0.67)
+(Yeah, the nations that didn't participate in the war had goods reasons to. Their armies were often underequipped and the lack of aritllery is an example of that)
+
+The binary structure also had other advantages. Each one had 24 guns of 47/32 or 65/17 compared to the 20 that a ternary division would've had. These guns were also hopefully (but not always) more standardized.
+Furthermore, it better fit the intentions of the tactical use of the division. The Italians didn't see it as the base maneuver unit and wanted each division to function more in terms of shock.
+Rather, the corps would act as the basis of maneuver. This also bypassed the issue of poor commanders since divisional commanders were not given the difficult task of running a maneuver division.
 
 

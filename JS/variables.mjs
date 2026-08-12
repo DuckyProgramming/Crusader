@@ -330,7 +330,9 @@ export var types={
         {name:`Mortar`,unitType:[`Mortar`],class:3,damage:[15,5],armor:0,health:30,morale:1,num:24,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Mortar Company`,unitType:[`Mortar`],class:3,damage:[15,5],armor:0,health:10,morale:1,num:8,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Small Mortar Company`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:8,morale:1,num:6,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Small Mortar Platoon`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:3,morale:1,num:2,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Ruined Mortar Company`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:8,morale:0.8,num:6,speed:1,artillery:false,engineer:false,recon:false},
+        {name:`Ruined Mortar Platoon`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:3,morale:0.8,num:2,speed:1,artillery:false,engineer:false,recon:false},
         {name:`5-Gun Ruined Mortar Company`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:6,morale:0.8,num:5,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Small Ruined Mortar Platoon`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:4,morale:0.8,num:3,speed:1,artillery:false,engineer:false,recon:false},
         {name:`Small Ruined Mortar Squad`,unitType:[`Mortar`],class:3,damage:[15,4],armor:0,health:1,morale:0.8,num:1,speed:1,artillery:false,engineer:false,recon:false},
@@ -2940,7 +2942,7 @@ export var types={
                             elements:[
                                 {
                                     level:3,type:[`Infantry`,`Motorized`],team:`German`,
-                                    desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Menny`,icon:`90l`,
+                                    desc:[`115th Rifle Regiment`,`Schützen-Regiment 115`],name:`115`,designation:``,commander:`Menny`,icon:`15pz`,
                                     pos:[130,1422],
                                     elements:[
                                         {level:4,type:`Motorized Infantry`,team:`German`,desc:[`1st Battalion, 115th Rifle Regiment`,`I./Schützen-Regiment 115`],name:`1`,designation:`115`,commander:`von Grolmann`},
@@ -12914,6 +12916,7 @@ export var types={
                                                             pos:[1532,1616],
                                                             elements:[
                                                                 {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:``,icon:``},
+                                                                {level:6,type:`Small Mortar Platoon`,team:`Italian`,desc:[`2nd Platoon, 61st Mortar Company`,`2° Plotone, 61ª Compagnia Mortai`],name:`2`,designation:`61`,commander:``,icon:`sirte`},
                                                                 {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:`Provvisoria`,commander:``,icon:``},
                                                                 {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:`13`,commander:``,icon:``},
                                                                 {level:7,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Section`,`Sezione da 65/17`],name:`65/17`,designation:`86`,commander:``,icon:`sabratha`},
@@ -12924,6 +12927,7 @@ export var types={
                                                             pos:[1254,1568],
                                                             elements:[
                                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`9th Company, 70th Infantry Regiment`,`9ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`9`,designation:`70`,commander:``,icon:`sirte`},
+                                                                {level:6,type:`Small Mortar Platoon`,team:`Italian`,desc:[`3rd Platoon, 61st Mortar Company`,`3° Plotone, 61ª Compagnia Mortai`],name:`3`,designation:`61`,commander:``,icon:`sirte`},
                                                                 {level:6,type:`4-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:`Formazione`,commander:``,icon:``},
                                                                 {level:6,type:`3-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:`13`,commander:``,icon:``},
                                                                 {level:8,type:`1-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`65/17 Gun`,`Pezzo da 65/17`],name:`65/17`,designation:`86`,commander:``,icon:`sabratha`},
@@ -12996,7 +13000,7 @@ export var types={
                                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 70th Infantry Regiment`,`5ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`5`,designation:`70`,commander:``,icon:`sirte`},
                                                                 {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 70th Infantry Regiment`,`6ª Compagnia Fucilieri, 70° Reggimento di Fanteria "Ancona"`],name:`6`,designation:`70`,commander:``,icon:`sirte`},
                                                                 {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`12th Company, 70th Infantry Regiment`,`12ª Compagnia Armi d'Accompagnamento, 70° Reggimento di Fanteria "Ancona"`],name:`12`,designation:`70`,commander:``,icon:`sirte`},
-                                                                {level:5,type:`Small Mortar Company`,team:`Italian`,desc:[`61st Mortar Company`,`61ª Compagnia Mortai`],name:`61`,designation:``,commander:``,icon:`sirte`},
+                                                                {level:6,type:`Small Mortar Platoon`,team:`Italian`,desc:[`1st Platoon, 61st Mortar Company`,`1° Plotone, 61ª Compagnia Mortai`],name:`1`,designation:`61`,commander:``,icon:`sirte`},
                                                                 {level:8,type:`Ruined Single Weak Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                                             ],
                                                         },{
@@ -13283,8 +13287,7 @@ export var types={
                                             elements:[
                                                 {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`22nd Bersaglieri Company`,`22ª Compagnia Bersaglieri`],name:`22`,designation:`Bersaglieri`,commander:`Alessi`,icon:``},
                                                 {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`1st Company, 69th Infantry Regiment`,`1ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`69`,commander:``,icon:`sirte`},
-                                                {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`304th Battery, 4th Tank Infantry Regiment`,`304ª Batteria, 4° Reggimento Fanteria Carristi`],name:`304`,designation:`4 TI`,commander:``,icon:`4ti`,},
-                                                {level:6,type:`Motorized Heavy Infantry Platoon`,team:`Italian`,desc:[`1st Platoon, 4th Company, 69th Infantry Regiment`,`1° Plotone, 4ª Compagnia Armi d'Accompagnamento, 69° Reggimento di Fanteria "Ancona"`],name:`1`,designation:`4/69`,commander:``,icon:`sirte`},
+                                                {level:5,type:`6-Gun Motorized Anti-Air Company`,team:`Italian`,desc:[`304th Battery, 4th Tank Infantry Regiment`,`304ª Batteria, 4° Reggimento Fanteria Carristi`],name:`304`,designation:`4 TI`,commander:``,icon:`4ti`},
                                                 {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                             ],
                                         },{
@@ -13295,7 +13298,6 @@ export var types={
                                                 {level:5,type:`Motorcycle Bersaglieri Company`,team:`Italian`,desc:[`61st Bersaglieri Company`,`61ª Compagnia Bersaglieri`],name:`61`,designation:`Bersaglieri`,commander:`Bonfanti`,icon:`sirte`},
                                                 {level:5,type:`Motorized Infantry Company`,team:`Italian`,desc:[`3rd Company, 69th Infantry Regiment`,`3ª Compagnia Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`3`,designation:`69`,commander:``,icon:`sirte`},
                                                 {level:5,type:`Motorized Anti-Air Company`,team:`Italian`,desc:[`10th Battery, 20th Corps Artillery Regiment`,`10ª Batteria, 20° Raggruppamento Artiglieria di Corpo d'Armata`],name:`10`,designation:`20 Corps`,commander:``,icon:``},
-                                                {level:6,type:`Motorized Heavy Infantry Platoon`,team:`Italian`,desc:[`2nd Platoon, 4th Company, 69th Infantry Regiment`,`2° Plotone, 4ª Compagnia Armi d'Accompagnamento, 69° Reggimento di Fanteria "Ancona"`],name:`2`,designation:`4/69`,commander:``,icon:`sirte`},
                                                 {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
                                             ],
                                         },{
@@ -13305,6 +13307,13 @@ export var types={
                                             elements:[
                                                 {type:`Small Medium Tank Company`},
                                             ]
+                                        },{
+                                            level:5,type:[`Infantry`,`Motorized`,`Heavy`],team:`Italian`,
+                                            desc:[`4th Company, 69th Infantry Regiment`,`4ª Compagnia Armi d'Accompagnamento, 69° Reggimento di Fanteria "Ancona"`],name:`4`,designation:`69`,commander:``,icon:`sirte`,
+                                            pos:[2564,1013],
+                                            elements:[
+                                                {type:`Motorized Heavy Infantry Company`},
+                                            ],
                                         },{
                                             level:6,type:[`Infantry`,`Motorized`],team:`Italian`,
                                             desc:[`Arditi Platoon, 2nd Battalion, 69th Infantry Regiment`,`Plotone Arditi, 2° Battaglione Fucilieri, 69° Reggimento di Fanteria "Ancona"`],name:`Arditi`,designation:`2/70`,commander:``,icon:`sirte`,
@@ -14930,7 +14939,7 @@ export var types={
                 //mark end
                 {
                     name:`Capture of Tobruk - DECEMBER`,
-                    strength:{name:`Companies`,num:[[32],[0,40]]},partition:[[0],[2]],bonus:2,
+                    strength:{name:`Companies`,num:[[30],[0,40]]},partition:[[0],[2]],bonus:2,
                     set:-1,
                     unit:[
                         {
@@ -15028,13 +15037,6 @@ export var types={
                                             pos:[1150,835],
                                             elements:[
                                                 {type:`Static Machine Gun Company`},
-                                            ],
-                                        },{
-                                            level:5,type:[`Engineer`],team:`Guardia alla Frontiera`,
-                                            desc:[`31st Frontier Guard Mixed Engineer Unit`,`XXXI Reparto Misto Genio`],name:`31`,designation:``,commander:``,icon:``,
-                                            pos:[2405,949],
-                                            elements:[
-                                                {type:`Mixed Engineer Company`},
                                             ],
                                         },{
                                             level:8,type:[`Anti-Tank`],team:`Guardia alla Frontiera`,
@@ -15319,14 +15321,27 @@ export var types={
                                         {type:`Small Useless Infantry Company`},
                                     ],
                                 },{
-                                    level:5,type:[`Recon`],team:`Italian`,
+                                    level:4,type:[`Recon`],team:`Italian`,
                                     desc:[`Rapid Unit`,`Unità Celere`],name:`Celere`,designation:``,commander:``,icon:``,
-                                    pos:[2588,1056],
+                                    pos:[2520,881],
                                     elements:[
-                                        {level:6,type:`Motorized Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 64th Replacement Battalion`,`Plotone Arditi, 64° Battaglione Complementi`],name:`Arditi`,designation:`64 R`,commander:``,icon:`sirte`},
-                                        {level:6,type:`Motorized Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 64th Replacement Battalion`,`Plotone Arditi, 64° Battaglione Complementi`],name:`Arditi`,designation:`64 R`,commander:``,icon:`sirte`},
-                                        {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
-                                        {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+                                        {
+                                            level:5,type:[`Recon`],team:`Italian`,
+                                            desc:[`Rapid Detachment`,`Aliquota Celere`],name:`Celere`,designation:``,commander:``,icon:``,
+                                            pos:[2595,856],
+                                            elements:[
+                                                {level:6,type:`Motorized Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 64th Replacement Battalion`,`Plotone Arditi, 64° Battaglione Complementi`],name:`Arditi`,designation:`64 R`,commander:``,icon:`sirte`},
+                                                {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+                                            ],
+                                        },{
+                                            level:5,type:[`Recon`],team:`Italian`,
+                                            desc:[`Rapid Detachment`,`Aliquota Celere`],name:`Celere`,designation:``,commander:``,icon:``,
+                                            pos:[2445,906],
+                                            elements:[
+                                                {level:6,type:`Motorized Elite Infantry Platoon`,team:`Italian`,desc:[`Arditi Platoon, 64th Replacement Battalion`,`Plotone Arditi, 64° Battaglione Complementi`],name:`Arditi`,designation:`64 R`,commander:``,icon:`sirte`},
+                                                {level:6,type:`Motorized Weak Anti-Tank Section`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`},
+                                            ],
+                                        },
                                     ],
                                 },
                             ],
@@ -16634,7 +16649,7 @@ export var types={
         },
     ],
 }
-export var dev={slow:false,begin:-1,view:-1,reserve:-1}
+export var dev={slow:false,begin:-1,view:`Capture of Tobruk - COMPOSITE`,reserve:-1}
 export var options={obscureKills:true,translate:false,headquarters:false,moved:false,clean:false}
 export var graphics={main:0,scale:0,load:{map:[],city:[],team:[],unit:[],water:0,fortifications:0}}
 export var inputs={mouse:{base:{x:0,y:0},rel:{x:0,y:0},previous:{base:{x:0,y:0},rel:{x:0,y:0}}}}
