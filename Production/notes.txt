@@ -4983,9 +4983,12 @@ North Africa Superior Command - Italo Gariboldi
             160th Motorized Carabinieri Section
             161st Motorized Carabinieri Section
         61st Motorized Infantry Regiment
+            [The document doesn't include subelements for some reason]
         62nd Motorized Infantry Regiment
+            [The document doesn't include subelements for some reason]
         7th Bersaglieri Regiment
-        551st Motorized Machine Gun Battaglione
+            [The document doesn't include subelements for some reason]
+        551st Motorized Machine Gun Battalion
         102nd Anti-Tank Company (47/32)
         104th Anti-Tank Company (47/32)
         106th Anti-Tank Company (47/32)
@@ -4993,6 +4996,7 @@ North Africa Superior Command - Italo Gariboldi
             1st Group (100/17)
             2nd Group (75/27)
             3rd Group (75/27)
+            Note: this isn't the standard organization of a motorized artillery regiment, which should have four groups of 2 batteries each
             2 20mm Batteries
         51st Mixed Engineer Battalion
             161st Engineer and Park Company
@@ -5001,6 +5005,7 @@ North Africa Superior Command - Italo Gariboldi
             56th Searchlight Section
         Service Units
             [Not Transcribed]
+            Note: this included many organic truck sections compared to the single one most auto-transportable divisions had
         Non-Organic Service Units
             [Not Transcribed]
 
@@ -5745,5 +5750,89 @@ Piazzaforte di Tobruch
         XXXII/B Subsector (Pilastrino / Hagfet el Carmusa)
             Strongpoint Bir eg Giasc / Bir el Faras
             Strongpoint Sidi Cheiralla / Hagfet Umm Haleiga
+
+One thing I apparently just forgot to do was implement was the 12 81/14 mortars that were found in the depots of the Tobruk base. I implemented the guns of all types, but not the mortars or the MGs.
+As the 61st Mortar Company was at full strength (6), these 12 would be evenly split between the 141st and 142nd. We can assume the quality of those two companies to be questionable but they were not missing any arms.
+
+When the Trento Division's 2nd Battalion, 62nd Infantry Regiment was deployed to the Bardia-Halfaya-Sidi Omar area, it had a 47/32 company and 20/65 section with it of unknown numbers.
+Annoyingly, this is mentioned in several different places in "The First Italo-German Counteroffensive" as well as the 2 47/32 companies investing Tobruk, but none of them ever include numbers.
+
+Notes on the grammar surrounding "Caposaldo", with plural "Capisaldi":
+Location / Point - "di" (e.g. caposaldo di q. 144)
+Named - nothing (e.g. caposaldo "Piave")
+Non-proper location - "del" (e.g. caposaldo del bivio di el Adem)
+For the 16 at Tobruk:
+
+Strongpoint Zeitun
+Strongpoint di Sidi Daud
+Strongpoint ? Suesi
+Strongpoint ? Bir Junes
+Strongpoint di Dahar el Azazi
+Strongpoint di/_? (both have been seen) Bir Umm Haleiga
+
+Strongpoint di Umm Cuheil
+Strongpoint ? Bir el Meclub
+Strongpoint ? Es Sehel
+Strongpoint ? Ras es Sehel
+Strongpoint ? Ras el Medauuar
+Strongpoint ? Bir el Medauuar
+Strongpoint ? Bir eg Giasc
+Strongpoint ? Bir el Faras
+Strongpoint ? Sidi Cheiralla
+Strongpoint Hagfet Umm Haleiga
+
+I've not obtained enough information and the double on Bir Umm Haleiga doesn't help things. Based on the internet the grammatical difference is location vs proper noun.
+But since based on this I don't think I will do anything. After all the strongpoints are all named in a way and it would be utterly pointless to try to determine the differences. This is a dead end.
+Also, at one point, Montanari misspells Umm Cuheil and Umm Chueil, which caused a brief bit of annoyance for me as I had to go check all my sources to make sure it was his mistake that was made and not mine.
+
+This book also includes a potentially more accurate OOB for Operation Battleaxe. There's also some details in the sketches. Here is the transcription:
+Note that the one currently on Wikipedia as of writing this is terrible. If I feel like I have the time I'll go update that page.
+Strongpoint Halfaya (Caposaldo di Halfaya):
+    Italian:
+        1 Company and 1 Mortar Squadron, II/62nd Infantry Regiment
+        1 47/32 Platoon (from the 106th 47/32 Company)
+        1 Mine Engineer Company
+        1 100/17 Battery, 2nd Fast Artillery Regiment
+    German:
+        1 Infantry Battalion
+        1 88mm Battery
+        1 37mm (Pak 36) Anti-Tank Company (Up to 12 Guns)
+        4 20mm AA MGs
+    Total 400 Italians, 500 Germans
+Strongpoint of Upper and Lower Sollum
+    Command, 1 Rifle Company and 1 Mortar Squadron, II/62nd Infantry Regiment
+    1 47/32 Platoon
+    Total 200 Italians
+Strongpoint Musaid
+    1 Rifle Company and 1 Mortar Squadron, II/62nd Infantry Regiment
+    1 47/32 Platoon
+    Total 220 Italians
+Strongpoint Capuzzo
+    Italian:
+        1 Rifle Company, I/61st Infantry Regiment
+    German:
+        2 37mm (Pak 36) Anti-Tank Guns (Platoon-sized element)
+        1 20mm AA MG
+    Total 180 Italians, 30 Germans
+Point 206: No Italian units
+Point 208:
+    3 20mm AA MGs
+    2 37mm (Pak 36) Anti-Tank Platoons (6 Guns)
+    2 Batteries (8 Guns), 2nd Fast Artillery Regiment
+    8 106mm German Guns
+Note that the Trento Division is quite strangely organized at this time, with this being its infantry structure:
+Trento Division HQ (Near Sidi Daud)
+    61st Infantry Regiment HQ (Gambut)
+        2nd Battalion, 61st Infantry Regiment
+        1st Battalion, 62nd Infantry Regiment
+        102nd Anti-Tank Company
+        104th Anti-Tank Company
+    62nd Infantry Regiment HQ (Frontier)
+        1st Battalion, 61st Infantry Regiment
+        2nd Battalion, 62nd Infantry Regiment
+        106th Anti-Tank Company
+
+At 11:45 on 8/11/26, my VSCode instance broke and screwed up a huge amount of my code. I believe I have no choice but to revert the last five hours of changes in GitHub.
+15 minutes later, I think I got everything under control, although I also probably spent another good 15 minutes just panicking before even writing the above message.
 
 

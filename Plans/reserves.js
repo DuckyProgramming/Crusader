@@ -2544,6 +2544,7 @@ reserves=[
     },{
         level:5,type:[`Fortress`],team:`Italian`,
         desc:[`Strongpoint El Adem Junction, 64th Replacement Battalion`,`Caposaldo Bivio El Adem, LXIV Battaglione Complementi`],name:`Bivio\nEl Adem`,designation:`64R`,commander:``,icon:`catanzaro`,
+        desc:[`Strongpoint El Adem Junction, 64th Replacement Battalion`,`Caposaldo del Bivio di el Adem, LXIV Battaglione Complementi`],name:`Bivio\nEl Adem`,designation:`64R`,commander:``,icon:`catanzaro`,
         pos:[1372,628],
         elements:[
             {type:`Ruined Infantry Company`,desc:[`1st Company, 64th Replacement Battalion`,`1ª Compagnia, LXIV Battaglione Complementi`],name:`1`},
@@ -3292,6 +3293,65 @@ reserves=[
         pos:[1404,1495],
         elements:[
             {type:`5-Gun Infantry Gun Company`},
+        ],
+    },{
+        level:4,type:[`Tank`],team:`Italian`,
+        desc:[`1st Tank Battalion`,`I Battaglione Carri M`],name:`1`,designation:``,commander:``,icon:`4ti`,
+        pos:[2766,1177],
+        elements:[
+            {level:5,type:`Larger Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`2nd Company, 1st Tank Battalion`,`2ª Compagnia, I Battaglione Carri M`],name:`2`,designation:`1`,commander:``},
+            {level:5,type:`Large Buried Immobile Medium Tank Company`,team:`Italian`,desc:[`3rd Company, 1st Tank Battalion`,`3ª Compagnia, I Battaglione Carri M`],name:`3`,designation:`1`,commander:``},
+            {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 69th Infantry Regiment`,`8ª Compagnia Armi d'Accompagnamento, 69° Reggimento di Fanteria "Ancona"`],name:`8`,designation:`69`,commander:``,icon:`sirte`},
+            {level:5,type:`Small Mortar Company`,team:`Italian`,desc:[`61st Mortar Company`,`61ª Compagnia Mortai`],name:`61`,designation:``,commander:``,icon:`sirte`},
+            {level:6,type:`3-Tank Semimobile Medium Tank Platoon`,team:`Italian`,desc:[`Mobile Platoon, 1st Tank Battalion`,`Plotone Efficiente, I Battaglione Carri M`],name:`E`,designation:`1`,commander:``},
+        ],
+    },{
+        level:7,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Guardia alla Frontiera Section "Buffolotto"`,`Sezione Guardia alla Frontiera "Buffolotto"`],name:`Buffolotto`,designation:`Regia\nMarina`,commander:``,icon:``,
+        pos:[2496,1578],
+        elements:[
+            {type:`Ruined Static Artillery Section`},
+        ],
+    },{
+        level:5,type:[`Artillery`,`Infantry`],team:`Italian`,
+        desc:[`266th Infantry Gun Company`,`266ª Compagnia Cannoni`],name:`266`,designation:``,commander:``,icon:`savona`,
+        pos:[1877,621],
+        elements:[
+            {type:`Infantry Gun Company`},
+        ],
+    },{
+        level:3,type:[`Infantry`],team:`Italian`,
+        desc:[`62nd Motorized Infantry Regiment "Sicilia"`,`62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`62`,designation:`Sicilia`,commander:`Gatti`,icon:`trento`,
+        pos:[421,908],
+        elements:[
+            {
+                level:4,type:[`Infantry`],team:`Italian`,
+                desc:[`1st Battalion, 62nd Motorized Infantry Regiment "Sicilia"`,`I Battaglione Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`1`,designation:`62`,commander:`Scolli`,icon:`trento`,
+                pos:[448,366],
+                elements:[
+                    {level:5,type:`Infantry Company`,team:`Italian`,desc:[`1st Company, 62nd Motorized Infantry Regiment "Sicilia"`,`1ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`1`,designation:`62`,commander:``},
+                    {level:5,type:`Infantry Company`,team:`Italian`,desc:[`2nd Company, 62nd Motorized Infantry Regiment "Sicilia"`,`2ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`2`,designation:`62`,commander:``},
+                    {level:5,type:`Infantry Company`,team:`Italian`,desc:[`3rd Company, 62nd Motorized Infantry Regiment "Sicilia"`,`3ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`3`,designation:`62`,commander:``},
+                    {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`4th Company, 62nd Motorized Infantry Regiment "Sicilia"`,`4ª Compagnia Fucilieri, 62° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`4`,designation:`62`,commander:``},
+                ],
+            },{
+                level:4,type:[`Infantry`],team:`Italian`,
+                desc:[`2nd Battalion, 61st Motorized Infantry Regiment "Sicilia"`,`II Battaglione Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`2`,designation:`61`,commander:`Menzio`,icon:`trento`,
+                pos:[996,905],
+                elements:[
+                    {level:5,type:`Infantry Company`,team:`Italian`,desc:[`5th Company, 61st Motorized Infantry Regiment "Sicilia"`,`5ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`5`,designation:`61`,commander:``},
+                    {level:5,type:`Infantry Company`,team:`Italian`,desc:[`6th Company, 61st Motorized Infantry Regiment "Sicilia"`,`6ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`6`,designation:`61`,commander:``},
+                    {level:5,type:`Infantry Company`,team:`Italian`,desc:[`7th Company, 61st Motorized Infantry Regiment "Sicilia"`,`7ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`7`,designation:`61`,commander:``},
+                    {level:5,type:`Heavy Infantry Company`,team:`Italian`,desc:[`8th Company, 61st Motorized Infantry Regiment "Sicilia"`,`8ª Compagnia Fucilieri, 61° Reggimento di Fanteria Motorizzato "Sicilia"`],name:`8`,designation:`61`,commander:``},
+                ],
+            },{
+                level:5,type:[`Anti-Tank`],team:`Italian`,
+                desc:[`106th Anti-Tank Company`,`106ª Compagnia Anticarro`],name:`106`,designation:``,commander:``,icon:`trento`,
+                pos:[662,969],
+                elements:[
+                    {type:`Anti-Tank Company`},
+                ],
+            },
         ],
     },
 ]

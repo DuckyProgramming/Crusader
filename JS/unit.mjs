@@ -355,8 +355,7 @@ export class unit{
     }
     calculateElements(){
         if(this.contain.trigger){
-            this.statistifyElements()
-            this.updateStrength()
+            this.statistifyStrength()
             this.radius=this.size
             this.order.artillery=this.contain.stats.artillery
         }else{
@@ -368,6 +367,10 @@ export class unit{
             this.radius=(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale
             this.order.artillery=false
         }
+    }
+    statistifyStrength(){
+        this.statistifyElements()
+        this.updateStrength()
     }
     statistifyElements(){
         let len=max(1,this.contain.units.length)
@@ -491,6 +494,9 @@ export class unit{
             this.operation.units.push(result)
             this.operation.select.unit=result
             this.operation.units.splice(this.operation.units.indexOf(this),1)
+            if(this.parent!=-1){
+                this.parent.contain.units.splice(this.parent.contain.units.indexOf(this),1,result)
+            }
         }
     }
     orderDimensions(){

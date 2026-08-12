@@ -532,7 +532,8 @@ export function strength(){
     ]
     window.current.units.forEach(unit=>{
         if(unit.contain.trigger&&unit.active){
-            unit.calculateElements()
+            //unit.calculateElements()
+            unit.statistifyStrength()
             unit.strength.num.forEach((num,index)=>{
                 totals[unit.player][index][0]+=num
                 if(unit.player>=1){
