@@ -19,16 +19,25 @@ http://www.niehorster.org/000_admin/000oob.htm
 (Unit organizations and a few orders of battle)
 https://achillestheheel.com/wp-content/uploads/2015/06/tobruk-1940-42-4e-1.pdf
 (General book)
-https://cgsc.contentdm.oclc.org/
-(Numerous orders of battle)
 http://electronicsandbooks.com/edt/manual/Publischer/G/German%20Miltary%20WW2/Rommels%20Afrika%20Korps-Tobruk%20To%20ElAlamein%20c20070309%20[99].pdf
 (Book about German organizations and operations)
 https://maps.lib.utexas.edu/maps/ams/north_africa/
+https://nla.gov.au/nla.obj-2673350712/view
 (Maps)
+https://nla.gov.au/nla.obj-234583099/view
+(Map of Sollum area)
 https://www.panzerdivisiongames.com/news/categories/attack-at-dawn-north-africa
 (Simplified Battle Maps)
-https://nla.gov.au/nla.obj-495937453/view
-(Map of Tobruk defenses)
+
+Tobruk Defenses:
+https://nla.gov.au/nla.obj-495938716/view (Clean)
+https://nla.gov.au/nla.obj-495937453/view (1936)
+https://nla.gov.au/nla.obj-233683086/view (December 1940)
+https://nla.gov.au/nla.obj-234054246/view (January 1941)
+https://nla.gov.au/nla.obj-392981029/view (June 1941)
+(Maps of Tobruk defenses)
+https://www.ww2talk.com/index.php?threads/tobruk-defences-1941.24644/
+(Conversation on Tobruk defenses)
 
 Battleaxe:
 https://dn790003.ca.archive.org/0/items/GermanDefensive/GermanDefensive.pdf
@@ -104,6 +113,8 @@ https://archive.org/details/l-esercito-italiano-tra-la-1-e-la-2-gm-nov.-1918-giu
 https://www.regioesercito.it/pages/restoria.html
 https://archive.org/details/l-esercito-italiano-verso-il-2000-vol-i-tomo-1/L%27Esercito%20Italiano-verso%20il%202000%20vol%20II%20tomo2/page/270/mode/2up?q=guardia
 (Unit diaries)
+https://web.archive.org/web/20201107143138/http://www.regioesercito.it/reparti/fanteria/rediv17.htm
+(Pavia division, missing from the above)
 https://nuovadifesa.altervista.org/regio-esercito-nel-1940-africa-grecia/
 (June 10 OOB)
 https://web.archive.org/web/20251114090332/https://comandosupremo.com/forums/index.php?threads%2F1940-ob-in-a-s.982%2F
@@ -116,9 +127,6 @@ https://apps.dtic.mil/sti/tr/pdf/ADA367611.pdf
 (Essay on the army's performance, somewhat unreliable)
 https://archive.org/details/bollettino_202504/2002.Bollettino-n.3-4/page/348/mode/2up
 (Random archival information, often off-topic)
-Unclear Commander:
-(Note: this is now considered unreliable)
-https://cgsc.contentdm.oclc.org/digital/collection/p15040coll6/id/5050/rec/18
 Genova Cavalleria:
 https://web.archive.org/web/20100412231808/https://www.comandosupremo.com/forum/viewtopic.php?f=11&t=953
 https://forum.axishistory.com/viewtopic.php?t=177538&start=15
@@ -150,7 +158,6 @@ XXI/XXXI Libyan Coastal Battalion:
 https://forum.axishistory.com/viewtopic.php?t=234485
 https://www.scribd.com/document/14146559/Gli-Ascari-Di-Dino-Panzera (one image)
 Tobruk:
-https://www.historicalab.it/tobruch.htm
 https://forum.axishistory.com/viewtopic.php?t=260043
 https://italianiinguerra.wordpress.com/2019/01/22/22-gennaio-1941-cade-tobruch/
 https://archiviostoricogalvanin.altervista.org/tobruch-tobruk-battaglia-assedio-1941-1942/
@@ -213,6 +220,10 @@ Acqui Division:
 https://www.academia.edu/38407846/The_Slaughtered_Acqui_Division_Notes_on_Italian_forces_in_the_Ionian_Islands_Greece_April_1941_September_1943
 Garrison Company:
 https://www.freeforumzone.com/mobile/d/11809012/compagnie-presidiarie/discussione.aspx
+MILMART:
+https://web.archive.org/web/20260218150654/https://comandosupremo.com/forums/index.php?threads/organisation.1340/
+Prisoners:
+https://www.zonderwater.com/Richieste/lista.php
 
 NZ:
 https://losthistory.net/rnza/rf/ww2/index.htm
@@ -257,23 +268,41 @@ https://www.historyofwar.org/articles/battles_compass3.html
 https://ww2talk.com/index.php?threads/2nd-light-anti-aircraft-regiment-r-a.44765/#post-528542
 Free French Marine Battalion:
 https://museedelaresistanceenligne.org/media10426-Le-Bataillon-dInfanterie-de-Marine-1940-1942
+https://www.ww2talk.com/index.php?threads/7-armd-div-order-of-battle-sep-1938-to-mar-1941.107888/
+https://www.nytimes.com/1941/01/23/archives/vichy-tags-free-french-explains-forces-aiding-british-at-tobruk-are.html
 Bedfordshire & Hertfordshire Regiment:
 https://rommelsriposte.com/2014/06/05/battalion-kolbeckthe-other-side-of-the-hill/
 South Staffordshire Regiment:
 https://ww2talk.com/index.php?threads/1st-battalion-south-staffordshire-regiment.42831/
 Machine Gun Battalions:
-https://vickersmg.blog/in-use/british-service/the-british-army/mgbn/
+https://vickersmg.blog/in-use/british-service/the-british-army/
+https://www.ww2talk.com/index.php?threads/machine-gun-battalions.60788/
+Motor Battalions:
+https://vickersmg.blog/in-use/british-service/the-british-army/motor-battalion-1944/
+7th Armoured Division OOBs:
+https://www.ww2talk.com/index.php?threads/7-armd-div-order-of-battle-sep-1938-to-mar-1941.107888/
 7th RTR:
 https://www.4and7royaltankregiment.com/1940-1941/
+https://www.ww2talk.com/index.php?threads/7th-royal-tank-regiment.18759/page-6
 7th Armored-Adjacent War Diaries:
 http://desertrats.org.uk/WarDiaries/4th_RHA/4thRHA1941.htm
 http://desertrats.org.uk/WarDiaries/C_Battery/CBattery1940_1941.htm
+2nd Battalion, Rifle Brigade:
+http://www.desertrats.org.uk/orginfantry.htm#KRRC
+https://mail.ww2talk.com/index.php?threads/10795-major-general-james-malcolm-leslie-renton-cb-dso-obe-mid-rifle-brigade.98057/
 
-Australian:
+Australia:
+Official History:
+https://www.awm.gov.au/collection/C1417337
+Frank Berryman:
+https://archive.org/details/architectofvicto0000dean/page/112/mode/2up?q=tobruk
+(This book's pages are blocked but this can be bypassed using the search feature)
 Tobruk:
 http://www.gumrak.net/phil/chapter6.html
 Artillery:
 https://www.artilleryhistory.org/gunners_past_and_present/obituaries/nigel_web/austregt.htm
+2/3rd Field Regiment:
+https://digitize-vwma.s3.amazonaws.com/I/documents/11350/file/BESIER__Henry_Roderick_2_3_Formation.pdf
 
 New Zealand:
 Artillery:
@@ -305,3 +334,21 @@ Sirte Division Postcard:
 https://www.tildosacchinischool.it/archivio-cartoline/mario-murazio-5-giugno-1940/
 Reliability of Nafziger:
 https://web.archive.org/web/20260216051437/http://www.comandosupremo.com/forums/index.php?threads/77-28-skoda-m05-08-in-anti-tank-role.167/
+
+Things to Avoid:
+Various articles:
+https://warfarehistorynetwork.com/article/a-daring-desert-campaign/
+(This site in general has a ton of articles, but many are very poor in quality and perpetuate pop history myths)
+Numerous orders of battle:
+https://cgsc.contentdm.oclc.org/
+(Nafziger worked hard in compiling documents, but his interpretation of them is poor. Always check his sources for better results)
+Unclear Commander:
+https://cgsc.contentdm.oclc.org/digital/collection/p15040coll6/id/5050/rec/18
+(This is a clear example of Nafziger's mistake, not realizing that the "di Bardi" task force was in fact the "Piazza di Bardia" or Bardia Fortress)
+Assorted units:
+https://www.wartimememoriesproject.com/library/index.php
+(I believe this website is broken. Not only is it miserable to look at, but all the information appears to be inaccessible)
+https://nla.gov.au/nla.obj-2673208955/view#child-page
+(This map is a propaganda one and is not comparable in quality to the ones made for actual military purposes)
+https://www.historicalab.it/tobruch.htm
+(This is just a rehash of material from the various other sources here. It straight up plagiarises Montanari at one point, but at least it has some cool pictures)

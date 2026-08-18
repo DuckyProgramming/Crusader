@@ -1687,6 +1687,8 @@ One source claims that the 25th CAR disembarked in Tobruk on the 18th of Decembe
 That said, maybe guns this big were so difficult to move for the paltry Italian logistics that sailing them was the better option. An order for this to happen does seem to have been sent.
 By that time (December 1), the "Volontari della Libia" battalion had already met up with the Sirte Division and probably joined its order of battle, although both were back at Martuba and would take some time to get to Sidi Daud.
 The XV Anti-Aircraft group was also in Appolonia and reached the same fate of the other units. It had what seems to be the longest journey out of all of them, though.
+This area was controlled under "Settore Derna", along with a couple other artillery artillery units including the/a 20mm battery of the Sirte Division.
+It's worth noting that it's labelled as a "gruppo mobile" in contrast to the many static ones that were typcially deployed around Africa.
 (I trolled, the city is actually spelled Apollonia. What I was thinking when I typed this we can never know)
 
 The 63rd Light Tank Battalion managed to retreat all the way from Buq Buq and somehow not become destroyed. While all its tanks were eventually rendered inefficient (inoperable), the fact that the made it to Tobruk at all is impressive.
@@ -3162,7 +3164,7 @@ Format: [Artieri] Company: [Division] ([Regiments])
 24th Company: 6th "Cuneo" Infantry Division (7, 8, 27)
 25th Company: 58th "Legnano" Infantry Division (67, 68, 58)
 26th Company: 7th "Lupi di Toscana" Infantry Division (77, 78, 30)
-27th Company: 60th "Sabratha" Infantry Division (85, 86, 42) (Poor Source)
+27th Company: 60th "Sabratha" Infantry Division (85, 86, 42) (Poor Source, VERY LIKELY incorrect)
 28th Company: 102nd "Trieste" Motorized Division (65, 66, 9, 21)
 29th Company: 44th "Cremona" Infantry Division (21, 22, 7) (Poor Source, 1943 on Only)
 30th Company: 9th "Pasubio" Auto-Transportable Division (79, 80, 8)
@@ -4149,6 +4151,9 @@ This totals 32 guns, a cool number I guess. They are from 7 batteries, a signifi
 
 I've some information (possibly because of mistakes by me) that shows 120/40 guns in Africa. I don't thinks ever happened, least of all in the "Nembo" battery.
 The "Nembo" itself was built not with 120/40 guns but with 120/45. This was a naval model and was effectively never seen on land. The 120/40 itself was generally a pretty normal artillery gun.
+Also note that while some sources will claim that the 120/25 guns were in some way related to the navy, they were not. These guns only appeared as static ones for army or G.a.F. use.
+This model was also one dated all the way back to 1878 and was designed somewhat for siege use. Even though it was completely obsolete by the second world war, the French used them just like the Italians did.
+
 Worse, it would also force me into adding in all the cooked random gun elements, like the 3 75/27 with Point 144, the 2 77/28 and 2 47/32 with Point 71, and others.
 I can almost certainly be sure, though, that the 77/28 section that was acting in an anti-tank role at Point 71 was probably of the G.a.F., since the regular army used these only in the Libyan units.
 Even then, though, it could be a strange semi-organic unit to the 31st Libyan Coastal Battalion, which would honestly be really cool if true but it probably isn't.
@@ -4315,6 +4320,7 @@ This book also makes a different mistake, however, in taking Montanari's maps (o
 More likely, either all of it was lost as it was completely overrun, or the entire group managed to survive, for now at least. It wouldn't make sense for the Australians to just leave the rest alone.
 
 He also notes that 22 47/32 guns out of the 43 total were taken from the "artillery magazine" which may refer to the depots of the G.a.F. or from the strongpoints.
+Previously, 20 47/32 guns that were in stock were sent to Bardia and 18 to Tobruk. I guess this means that there were 4 just lying around in the depot already, which expanded to 22 with the new arrival.
 I'll go over this some more two paragraphs later once I finish reading it. But this does annoy me since it certainly isn't the same number I had previously.
 The 160 men that Vietina had to defend the port did not include the 3rd Battalion, 62nd Replacement Battalion. The grammar Montanari uses in his two books are slightly different on this.
 
@@ -4329,6 +4335,7 @@ To be fair, these divisions were almost brigade-sized anyway, so them having an 
 On page 293 of "The Operations", which discusses the distribution of spare guns found in the Tobruk stores, Montanari links to note 165. It was actually quite difficult to find this.
 Those units found in the stores were:
 254 MGs (Fiat 35), 41 45/5 Mortars, 12 81/14 Mortars
+Note: 254 is close to 256, which would've been the number if two were given to each post. I'm not exactly sure what to make of that since we know the Schwarzlose replaced many of them
 22 47/32 AT Guns, 18 Guns "From 65/17 to 149/35" (not very helpful, but I'll try to decipher that)
 20 77mm MGs, 30 127mm MGs (taken from inoperable aircraft, ineffective in the ground role but used anyway)
 Here's my guess as to where the 22 47/32 guns went:
@@ -5528,8 +5535,10 @@ Highly unrelated, but the word for "ships" in Italian, while I never thought abo
 
 There's also a listing of commanders back on February 20 1941. This includes the following interesting ones:
 Giuseppe Cresmascoli and Mario Marghinotti - Brescia and Savona Divisions (Marghinotti is never mentioned by Wikipedia, perhaps he was temporary)
-Parii Dino - Colonel, commander of some element of the G.a.F.
+Parri Dino - Colonel, commander of some element of the G.a.F.
 Leo Michele - Commander of the Libyan Sahara
+(Later Note: Dino Parri was commander of the frontier guards of the 20th Army Corps until this command was discontinued in early 1942)
+(Parri then became commander of the Pavia Division's infantry and then the deputy commander of the Brescia Division, later becoming the actual commander)
 
 Also, the 8th Bersaglieri Battalion of the 7th Bersaglieri Regiment, which was undergoing reformation prior to Crusader, had the following strength of the 27th of October 1941:
 1 Motorized Battalion With 24 Submachine Guns, 10 Anti-Tank Rifles, 6 HMGs, and 8 47/32 Anti-Tank Guns
@@ -5631,6 +5640,7 @@ Series on AA Batteries:
 I made the above tentative chart because pages 431-434 of Montanari's "The Third British Offensive" have a ton of references to the 400-series units.
 This makes me think the 4th Tank Infantry Regiment would've had the 304th, since these are both number series that I can't otherwise find anything about.
 Another 400-series battery, the 437th, can be found with the 205th Artillery Regiment that acted as a replacement for the Bologna Division.
+A random battery I came across at one point was the 262nd which can be seen at Bardia. This isn't much of a surprise, since it's with its parent Marmarica Division there.
 
 On the 17th of November a major storm hit the Mediterranean from Egypt to Libya. This seemed to me like something of little relevance initially until I read some quotes about its effects.
 German troops of the 15th Panzer Division, then deployed near the entrance to Halfaya Pass, were drowned in mud from the first rains in 60 years. The defenders of Tobruk suffered a similar fate.
@@ -5703,6 +5713,7 @@ Current listing of infantry gun companies:
         886th - Trieste Division reinforcement (1943)
 Note: I've read in some places that the Sabratha Division only received 6 of these and not all 7.
 This source also indicates the 86th Infantry Regiment never had an infantry gun company but this seems weird to me.
+The 27th and 28th "Pavia" infantry gun companies are known to have likely left the 2nd Libyan Division since it appears at Bardia, so it must have managed to avoid destruction with the rest of that division.
 
 Based on this, plus other evidence from Carlo Montù's "History of the Artillery", I'm gonna attempt to track down where the 13 65/17 infantry guns that the Tobruk garrison had.
 Firstly, the fortress itself had no infantry guns on the 25th of July. The only source of 5 was from the 1st Libyan Division, and there were 4s and 8s all over the place.
@@ -5823,14 +5834,18 @@ Point 208:
     2 37mm (Pak 36) Anti-Tank Platoons (6 Guns)
     2 Batteries (8 Guns), 2nd Fast Artillery Regiment
     8 106mm German Guns
-Note that the Trento Division is quite strangely organized at this time, with this being its infantry structure:
+Note that Point 208 is referred to in British sources as Hafid Ridge and sometimes by Italian sources as Bir Hafid.
+
+The Trento Division is quite strangely organized at this time, with this being its infantry structure:
 Trento Division HQ (Near Sidi Daud)
     61st Infantry Regiment HQ (Gambut)
+        These were the elements responsible for surrounding Tobruk, first from the west and then from the east, where they failed to make much progress.
         2nd Battalion, 61st Infantry Regiment
         1st Battalion, 62nd Infantry Regiment
         102nd Anti-Tank Company
         104th Anti-Tank Company
-    62nd Infantry Regiment HQ (Frontier)
+    62nd Infantry Regiment HQ (Bardia)
+        These were the elements responsible for guarding the frontier during both Brevity and Battleaxe. They were eventually replaced by the Afrika and Savona Divisions.
         1st Battalion, 61st Infantry Regiment
         2nd Battalion, 62nd Infantry Regiment
         106th Anti-Tank Company
@@ -5845,7 +5860,7 @@ Two final units sent over of interest were the headquarters and staff of the 104
 This full document which also includes requests for reinforcements for the Italian units and other concerns is in "The Second Italo-German Counteroffensive", page 332-335.
 
 Other documents from this book exist but I think I've gotten through most of the value. For instance there are some about British units but they tend to not be the most reliable in their information.
-A good example of this is the Britsih 12th Division that was identified in the delta with the 36th and 37th Infantry Brigades and the 114th Field Regiment. In reality, this division had been disbanded in 1940.
+A good example of this is the British 12th Division that was identified in the delta with the 36th and 37th Infantry Brigades and the 114th Field Regiment. In reality, this division had been disbanded in 1940.
 
 It's worth noting that the Italian units that were operating near Matruh didn't attack it frontally until the encirclement was complete. Thus their losses were nearly nonexistent in this battle.
 The X Corps spent the few days of battle making slow progress through the minefields, while the XXI Corps faced off against the enemy in an artillery duel with the infantry doing little to nothing.
@@ -5858,6 +5873,18 @@ They also wrong about the organization in many places. They thought the armoured
 The command organization between Umberto Barberis and the various 10th Army units is still kind of unclear. Barberis was meant to be commander of the frontier, but also appears as commander of Tobruk Fortress.
 I think the most reasonable assumption for this is that he was initially in command of the frontier garrisons, but was redeployed to command Tobruk Fortress after the frontier was lost in the early war.
 
+A very strange thing I found on page 74 of Ness's document on the infantry is that the October 1941 Type AS division had a separate infantry HQ of 54 personnel in addition to the divisional HQ of 171 personnel.
+No other chart anywhere else in the document mentions such an HQ and I couldn't find anything about one in an actual division. I can only assume this planned formation was never carried out in any actual divisions.
+Except, it was. Take a look at the Pavia division. Its commander rotated from Antonio Franceschini to Arturo Torriano in March-April of 1942 (which TIK doesn't relay since he doesn't read anything Italian).
+But, note that Giacomo Lombardi was its "divisional infantry commander" in late 1941. And several other divisions, both in and out of Africa, also had such commanders.
+These included:
+    Giacomo Lombardi (above, infantry commander, Pavia Division, ? 1941 - January 1942)
+    Dino Parri (infantry commander, Pavia Division, February 1942 - ? 1942)
+    Predieri Alessandro (infantry commander, Brescia Division, ? 1941 - December 1941)
+    Ugo Buttà (infantry commander, Sabratha Division, ? 1941 - July 1941)
+    Vittorai Braida (infantry commander, Sabratha Division, ? 1941 - January 1942)
+It doesn't seem like any existed before 1941, making me think this position might've been a new one.
+
 "The Italian Army Between the 1st and 2nd World Wars", another book from the Army Historical Office, has a lot of assorted data, charts, and maps from the 10th of June.
 One interesting thing to note is that none of the guns in AFrica were rare. The 149/12 could be found in hundreds as could the 149/13 and 149/35, even though all of these guns were short in Africa.
 On the other hand, the 149/19 was never found in Africa. This makes sense because apparently there was only a single one of these across the entire army. Why not just retire it?
@@ -5865,9 +5892,28 @@ On the other hand, the 149/19 was never found in Africa. This makes sense becaus
 The book also shows that the amount of artillery in the Italian divisions, while never a specialty, increased relative to the quantity of infantry battalions over time.
 This is to challenge the idea that the binary division was a worse organization than the ternary or quaternary division. Artillery support is important and this shows a genuine trend toward better-built divisions.
 Here are the numbers to prove it:
-Quaternary Division (1918): 12 Infantry Battalions, 8 Artillery Batteries (0.67)
-Ternary Division (1926): 9 Infantry Battalions, 12 Artillery Batteries (1.33)
-Binary Division (1938): 6 Infantry Battalions, 9 Artillery Batteries (1.5)
+Quaternary Division (1918):
+    4 Infantry Regiments, Each 3 Battalions
+    1 Artillery Regiment
+        2 Groups of 75/27, Each 4 Batteries
+        1 Heavy Group, With 3 Batteries
+    Total 12 Infantry Battalions, 11 Batteries (0.92)
+Ternary Division (1926):
+    4 Infantry Regiments, Each 3 Battalions
+    1 Artillery Regiment
+        1 Groups of 75/13, Each 3 Batteries
+        2 Groups of 75/27, Each 3 Batteries
+        1 Group of 100/17, With 3 Batteries
+    Total 9 Infantry Battalions, 12 Batteries (1.33)
+Binary Division (1938):
+    2 Infantry Regiments, Each 3 Battalions
+    1 Artillery Regiment
+        1 Groups of 75/13, Each 3 Batteries
+        1 Groups of 75/27, Each 3 Batteries
+        1 Group of 100/17, With 3 Batteries
+    Total 6 Infantry Battalions, 9 Batteries (1.5)
+As you can see, each reform resulted in an increase in the quantity of artillery relative to the infantry in the divisions. This can only be seen as an improvement in firepower.
+There was also no fall in support elements. The quantity of companies of infantry guns and engineers remained the same during these changes, relative to the number of infantry regiments or battalions.
 
 Here are some other nations' 1940 or 1941 (1939 for Poland) divisions for comparison:
 German Division: 9 Infantry Battalions, 9 Artillery Batteries (1)
@@ -5891,5 +5937,444 @@ Turkish Division: 9 Infantry Battalions, 6 Artillery Batteries (0.67)
 The binary structure also had other advantages. Each one had 24 guns of 47/32 or 65/17 compared to the 20 that a ternary division would've had. These guns were also hopefully (but not always) more standardized.
 Furthermore, it better fit the intentions of the tactical use of the division. The Italians didn't see it as the base maneuver unit and wanted each division to function more in terms of shock.
 Rather, the corps would act as the basis of maneuver. This also bypassed the issue of poor commanders since divisional commanders were not given the difficult task of running a maneuver division.
+
+Another often criticism of the binary division structure is that it didn't actually expand the army. This is quite easy to disprove. Let's look at the different branches involved:
+Infantry Regiments: Increased in number from 89 to 100. This was less than in World War I (106) but it was still an expansion nonetheless that replaced past losses.
+Artillery: Increased from 31 regiments (124 groups) to 51 regiments (153 groups). This was a major improvement in artillery numbers, without a drop (but without an increase) in gun quality.
+The Pariani reform also happened at the same time as the G.a.F. was formed. This was a completely new army that previously didn't exist and is another reason while this idea of the army "not actually expanding" is false.
+
+To get a better idea of how well this worked, I'm going to also read a direct transcription of the meeting at the Italian general staff that General Pariana led, resulting in the binary structure's adoption.
+
+Previous triangular divisions were typically literally split into triangular shapes. Two regiments would form the front with the third in reserve. This was no long popular in the binary system.
+Instead, one of the regiments would follow directly behind the other, as a sort of attack column. When a straight front was necessary, such as in Africa, a reserve of mixed units would be utilized.
+This was also potentially why the Autotransportable Type AS divisions had a machine gun battalion. Unlike in the alps a reserve was often necessary, and the machine gun battalion filled this need.
+There were also hopes of allowing effective cooperation between these units. Since a division could operate just as well with two regiments as it could with one, the second could be taken away without consequence.
+In case two divisions were fighting together, this let them mix and match units if necessary. This would further strengthen the artillery as well, which was noted by Pariani to have improved its ratio (above).
+
+Another point Pariani gives is counter to a concern of Mario Arisio. That concern also included an interesting statistic that an average battalion had only 250 pure riflemen. I'm not sure how true this was but it's striking.
+The idea of this third non-regimental element was also something that the officers discussed significantly. This element should be smaller than the other two, so it could be used as a reserve without burdening the division.
+Pariani was ultimately in favor of using corps elements to form this third element, though I have never seen such an element actually implemented. I guess this was before the blackshirts were added.
+There were some reasonable concerns though. The idea that the corps could provide reinforcements as the maneuver unit or provide reserves was challenged as slower than doing the same thing at the divisional level.
+The meeting also saw general agreement in favor of motorization, which is another case where the Italians were not downright incompetent. Rather, they were held back by the lack of trucks, due to industrial weakness.
+
+Another complaint saw General Nicolosi arguing that turning 30 ternary divisions into 45 binary ones would create 15 additional general staffs, which he saw as reducing their effectiveness.
+Again, this is another often criticism of the binary system by later historians, but again, the Italians saw this coming and were aware of the downsides. This wasn't something they overlooked.
+But... even if more divisions and command staffs were necessary, it would've been okay. Because, these staffs were now given lower-level tasks, since many of their maneuver tasks had been given to the corps.
+The replacement of the machine gun battalion in most divisions with a mortar battalion was also discussed, improving offensive capability over defense, since the mortars could couple with storm tactics.
+I don't consider this a mistake at all. The metropolitan divisions may be defending but that task could be given to the G.a.F. And in Africa, this reform wasn't implemented anyway so it had no effect.
+
+The Savona Division had a deputy commander, named Francisco Buttafuoco. I've never seen any mention of him previously, and he was captured alongside di Giorgis at the end of Crusader.
+And similarly to the Sirte Division in 1940, the Marmarica Division also had a deputy commander, in this case a Lorenzo Mugnai, though he was reassigned and the position likely removed on June 15 1940.
+Mario Bignami had also previously held this command, though long before the war. That was it for this division that I could find, so I guess it was just the two of them who held this position.
+Such personnel cannot be found for either the 63rd or 64th (Cirene and Catanzaro), however. It is likely that the information is incomplete but just as likely that these divisions didn't need more command positions.
+I made numerous attempts at researching if either the infantry commander or deputy commander position existed in these divisions in late 1940 or 1941, but for the 61st-64th divisions, nothing has appeared.
+The Sabratha division did end up getting infantry commanders, but not until 1941 and probably only midway into the year, by which the other four divisions of the series had already been destroyed.
+The Africa overall command was referred to as the Comando Superiore FF.AA. This is the title that Graziani, Gariboldi, and Bastico held, and was of variable level since different CSFFAAs existed around the Mediterranean.
+
+Montanari considers the Bignami Column a regiment-sized unit, Vietina's coastal defense a regiment-sized unit, and the Bergonzoli Column a brigade-sized unit. I think these are largely arbitrary choices.
+An image of Sidi Barrani can be found on page 686 of "The Operations in North Africa". It's not a very impressive place, just a small cluster of buildings and a small fort near it.
+Some images of generals are also included, along with images of works and gun positions. However, none of these are relevant to Tobruk in the slightest except for a few images of the 75/46 gun dug into positions.
+
+The strength of the combined XXIII Corps and Libyan Divisions Group was about 50,000 men. This was the force responsible for Operazione E, the invasion of Egypt, much less than the larger number involved in Compass.
+During this time, the 10th CAR was still deployed with the Maneuver Artillery Raggruppamento, as was the 20th CAR. The 22nd CAR appears to have done nothing except stay in Tobruk, and the 25th CAR was on its way to Cirene.
+
+I briefly read through an alternate history scenario regarding Operation Compass. I had previously discussed one where Tobruk held that was posted and became the subject of intense debate on Axis History Forum.
+The one I read this time envisioned a decisive British victory pushing as far as Tripoli. But if I had to be honest, the writer has no idea what he's talking about. I don't think Operation Acrobat was ever possible.
+There simply were not enough resources of any kind. Even if the full strength of Wavell's command were all sent in at once, up to four or five divisions, logistical challenges and Italian resurgence could've stopped them.
+There were some cursed ideas, such as Auchinleck taking command of a corps in Africa when he was already promoted much higher (C-in-C India as early as December 1940 (promoted) or January 1941 (arrived), in fact).
+He also just forgets a lot of stuff since he's not that well versed in the the actual campaign. He doesn't realize autotransportable divisions weren't actual motorized and thinks the Catanzaro Division still existed after Compass.
+
+Strangely, Musaid is discussed in Wikipedia as on the Egyptian side of the border when in reality it's on the Libyan side. This border has been fixed since a treaty in 1925 and did not change during World War II.
+It's said that Musaid was bombarded. Perhaps the British had occupied it temporarily and when the Italians then counterattacked in Operation E they attacked their own previous positions to evict the British from them.
+Another strange thing is that Montanari doesn't include the 1st Field Regiment RA at Sidi Barrani. Based on The Royal Artillery 1939-1945, this was the only one that was certainly there (the other two were probably also).
+This is probably just a minor mistake. "The Operations in North Africa" is notoriously prone to mistakes and this one would easily slip under the radar. If the "51st Bersaglieri Motorcycle Company" got through so can this.
+Actually I'm an idiot. The thing his book was talking about was actually Operation Battleaxe, at which this regiment could've not been present at. Honestly I don't know how I even made such a dumb move.
+
+I've figured out the issue with Musaid. The answer is that, just like Sidi Omar, there were two of them. Regular Musaid is a town on the Libyan side. Fort Musaid is a base on the Egyptian side.
+It is likely this second Musaid that was the site of all the combat during the Second World War. I can't confirm the first Musaid even existed at that time as anything more than a borderpost.
+
+British intelligence made major mistakes in identifying the Italian strength in Libya. They thought that the Type AS divisions were similar to the metropolitan type (in reality they were much leaner).
+The French general in Tunisia did little better. Despite outnumbering the Italians he faced (he had 8 ternary divisions against 9 binary divisions). The British also were quite superior to the 10th Army (just 5 binary divisions).
+Said British elements at the very start were still fragile. 7th Armoured Division had 2 brigades of 2 regiments each, plus a support group. 4th Indian Division had just 2 brigades and was deficient in artillery.
+The New Zealand Division was just a single brigade, 2 cavalry squadrons, the 27th Machine Gun Battalion, and one field regiment. There were also 12 British infantry battalions 2 British field artillery regiments.
+There were 27,500 troops in Palestine from the 1st Cavalry Division and the 6th Australian Division (2 infantry brigades, 2 field regiments, some divisional units). The Egyptian Army existed but would not provide any help.
+
+AS 1942 divisions were actually very strong in anti-tank weaponry. All autotransportable divisions were converted to this including the Trento, while the Trieste got its own motorized establishment (same except for bonus trucks).
+Since I gave German 1942 divisions a buff in anti-tank readiness due to their reorganizations, I think at this point it wouldn't be fair if I didn't give the same to the Italians as well.
+
+I'm currently reading the Australian official history about Tobruk, January 1941. Here are the gains from this reading:
+Australian estimations of Italian strength at Tobruk were imperfect but not too far off. They expected 25,000 men, not far from the actual 22,000. They expected 45 light tanks (actually 32) and 20 medium tanks (actually 39).
+They thought the Italians had 2 additional battalions other than the Sirte and the artillery regiment of the Pavia Division. The first depends on your definitions of battalions that count but the second is mostly wrong.
+They expected 232 field guns (actually 220), 48 heavy anti-aircraft guns (actually 12), 24 anti-tank guns (actually 43 47/32s and many other guns of debatable classification). They raised their medium tank number to 25, still wrong.
+The 2/8th Field Company (engineers) was in fact present at Tobruk and captured some retreating Italians on its way.
+The buried aircraft bombs that the Italians used as discount mines were considered by the Australians as "booby traps" and were somewhat effective in inflicting casualties.
+The 4th Armoured Brigade was responsible for the defense of the area between Acroma and the 6th Australian Division. The 7th Armoured Brigade did NOT face the fortifications.
+Jerram commanded the 7th RTR during January 1941, at both Tobruk and Bardia. He is mentioned in the book but rarely anywhere else, for some reason.
+The plan at Tobruk saw the 16th Brigade's two battalions move along the fortifications while the third cleared the artillery. The 19th Brigade would exploit while the 17th mopped up the east.
+
+Here was his plan for the attack organization.
+16th Infantry Brigade (Allen)
+    2/1st Infantry Battalion (toward Sidi Daud)
+    2/2nd Infantry Battalion (straight ahead)
+    2/3rd Infantry Battalion (toward Bir Umm Haleiga)
+    2/6th Infantry Battalion (reserve)
+    1st Battalion, Royal Northumberland Fusiliers (-1 Company)
+    3 Troops, 6th Australian Divisional Cavalry Regiment
+    J battery, RHA
+    2/1st Field Company, Royal Australian Engineers (Supporting 2/3rd Infantry Battalion)
+    7th Royal Tank Regiment (effectively)
+The 2/7th Infantry Battalion would relieve the 2/1st at Sidi Daud. The 2/5th would be in reserve. Oncethis had happened the 2/6th would revert to the 17th Brigade's control.
+Elements of the 2/5th, plus a company of the machine gunners (probably the missing company above) would distract in front of Strongpoint Zeitun (not mentioned by name lol).
+The artillery was as follows:
+    2/1st Field Regiment RAA (24)
+    2/2nd Field Regiment RAA (24)
+    1 Battery, 2/3rd Field Regiment RAA (12)
+    7th Medium Regiment RA (16)
+    64th Medium Regiment RA (1 Battery) (8)
+    51st Field Regiment RA (24)
+    104th Regiment RHA (16)
+    F Battery, RHA (8)
+    Theoretical Total: 132
+88 guns were said to support the initial breakthrough. 19th Brigade was supported by 78 guns in its advance. Their identity is unknown.
+These two numbers don't sit well with me since they total to 166, not divisible by 4, which is standard troop size. 162 is also much larger than 132.
+Based on another source, the 5th Battery was the one from the 2/3rd Field Regiment that saw action. The 6th Battery remained in training due to shortages.
+
+The commander of the artillery of 6th Division was Edmund Herring, and I'm assuming the above units were consolidated under him. Frank Berryman served as the chief of staff of the division.
+In a moment that should surprise nobody, the prejudices of the Australians were repeated in the pacific. Berryman got to act as an important chief of staff, while Savige became a divisional commander who barely commanded a division.
+I honestly feel bad for Savige. He was repeatedly given unimpressive tasks during the desert war and his brigade headquarters practically had no function. And he was relieved in command in the Pacific due to just being old.
+
+In general, most Australian units seen in the desert war would reappear in the pacific since the panicked Australian government pulled them back. They also appear in some other various theatres like Greece.
+I could gain slightly more information about the Australian units and their lower-level commanders were I to learn about them. This may happen passively, but I don't think it's worth the time to do so intentionally.
+If it wasn't evident by my other statements, I'm not too impressed by the performance of Australian units, their military culture, or the whole ANZAC legacy. It's just very performative and doesn't reflect reality.
+Many of the battalion commanders who were present at Bardia and Tobruk would be promoted to brigade commanders, but I've not seen much of competence from the most of them. It seems they weren't used to this higher command level.
+Allied leadership consistently managed to take months to come up with an incredibly overcomplicated plan only for the combat units to be too slow to obtain their objectives. This was not helped by internal rivalries and greed.
+They also greatly underestimated the enemy multiple times, not realizing the enemy could, in fact, change their strategy on the fly and react to events. The plans rarely accounted for enemy actions.
+One final mistake, more in the case of the Australians than in the responsibility of American generals, was the obsession with elite units like commando companies.
+I've said this before, but when you drain the best men in the army to one place, it weakens the rest. It's no surprise that after New Guinea was mostly captured the Australian role in the war became utterly irrelevant.
+The pacific war is another example of why simply achieving higher casualties afflicted on the opponent is useless in itself. The rate at which the Australians advanced, especially on New Guinea, was quite unimpressive.
+
+In the desert, another thing that I find myself often unimpressed by is the idea of aggressive patrolling. Many times the Australians act like it was some genious maneuver that nobody else could replicate.
+On the other hand, I disagree. It's little more than decent reconaissance. It doesn't often catch out the enemy unless they are especially demoralized or incompetently led.
+In Tobruk, for example, this only drained their strength and their operations against the salient all failed. Even as the defender in a very strong position they took quite severe casualties for little gain.
+Casualties aren't everything, but even the benefit of capturing the enemy wasn't that great when you realize that the enemy could do the same. You would expect the siege of Tobruk a massive victory but the numbers only partially agree.
+
+The 2/1st Field Company supported the 2/3rd Infantry Battalion. It's unknown what the other two engineer companies did. All three participated in some part of the battle, though not necessary the final assault.
+The 1st Battalion, Cheshire Regiment was also available, probably in reserve. One of its companies supported the 2/7th Infantry Battalion. The rest of it looks to have been split up among other Australian units.
+That said, it honestly doesn't seem to have done a lot. I think one of its companies was probably missing and the other was demonstrating against Strongpoint Zeitun. Its contributions to the battle are barely mentioned.
+The A Squadron, 6th Australian Divisional Cavalry Regiment was split into three squadrons: Dingo, Rabbit, and Wombat, one of 6 captured medium tanks and the other two of motorized infantry.
+C Company, 2/3rd Infantry Battalion was commanded by a Major Abbot, while A Company was commanded by Fulton (wounded and later replaced by a MacDougal).
+Two company commanders from the 2/1st Battalion were Hodge and Miller but I can't tell which ones they were.
+Wootten of the 2/2nd Infantry Battalion had been replaced by Chilton by this point. Wrigley of the 2/5th had also been replaced by King.
+Campbell commanded the C Company of the 2/8th Infantry Battalion, while D Company was commanded by Smith. The other two, unknown, were led McDonald and Coombes. Coombes' company was the one to capture Umberto Barberis.
+While Montanari claims that the mobile reserve was fully motorized, the Australians report thats the infantry were mostly on foot.
+On the 22nd, the 2nd Battalion, Rifle Brigade attacked posts R1-S11 (Strongpoint Ras el Medauuar + some of Strongpoint Ras es Sehel) while the 1st Battalion, King's Royal Rifle Corps attacked the Wadi es Sehel area.
+
+Many sources claim that the Northumberland Fusiliers didn't have the "royal" designation. This is incorrect, as George V had granted it in 1935.
+However, it's fair that this status might not be recognized by many officers from dominions or by soldiers who weren't updated on something that had happened just a couple years previous.
+
+Time to do some math on how the 4th Armoured Brigade was organized during this time. The entire 7th Armoured had just 69 cruiser and 126 light tanks.
+I think the best way to go about this is to start with numbers from Derna and increase them proportionally. By Derna there were just 50 cruisers and 95 light tanks, in the following organization:
+2nd RTR: 6 light, 21 cruiser -> 8 light, 29 cruiser
+7th Hussars: 26 Light, 1 Cruiser -> 34.5 light, 1.4 cruiser (counted as 36 light)
+While both of these numbers are quite poor, they still qualify as three squadrons per regiment rather than two.
+D Battery, 3rd RHA was also with the brigade at this time.
+
+As Operazione E was beginning, the 3rd Coldstream Guards was temporarily placed under the command of the 7th Support Group, which in general was tasked with delaying the enemy advance from the frontier.
+It seems like the French Marine Motor Battalion was subordinated directly to the WDF or XIII Corps rather than being part of either division. It's also referred to as a single company in some sources, but I found this doubtful.
+
+Also, the companies of the Cheshire Regiment were A-D, not W-Z like the Royal Northumberland Fusiliers had. I don't get what the difference is, but I guess ok.
+And, in the later stages of the siege of Tobruk, a James Jackman commanded Z Company of the RNF. He was killed during the breakout and received a VC.
+It's no coincidence either that the 7th, 2nd, and 1st Support Groups generated their motorized battalions from the same regiments. These regiments (KRRC and Rifle Brigade) were unique in being tasked with the formation of motor battalions.
+
+I also read the official history for the battle of Bardia, but honestly it wasn't very useful. A lot of stuff was just dramatization, and the companies were often unnamed.
+Two company commanders of the 2/1st Battalion were Moriarty and Dillon. The other two sure participated but their commanders are never named, until later, one is called Travers.
+A Caldwell and a Godbold commanded companies of the 2/2nd Battalion. A third was led by Hendry.
+Meanwhile, the 2/7th had a company commanded by Green. Another was commanded by Savige (not the brigade commander). These two were the first two sent into an attack, and one of the other two in reserve was led by Halliday.
+The fourth uncommitted one would eventually be used, and was apparently led by a McGeoch. Still, no identification of the companies is available.
+The 2/5th Battalion had company commanders named Starr, Smith, and Balcombe Griffiths (stupid name). Again, no identification of their names is given anywhere.
+Godfrey's stupid bonus attack with his 2/6th Battalion had the following company commanders: Muhlhan (likely C Company), Rowan (likely B Company), Little (likely D Company), Kerr (reserve).
+Little would be wounded in this battle, so his replacement Cowie would be in command by Tobruk, most likely (unless Little somehow recovered in two weeks).
+One company commander for the 2/11th Battalion was a Honner. This appears to have been the pretty famous Ralph Honner, and that Wikipedia page tells me his company was C Company.
+
+After all the above fanagling, I ended up with the split of 84/128, summing to 212. I'm not a huge fan of this number, so I updated it to 84/132, reaching 216. However, this also creates an interesting opportunity.
+132 is 6 times 22, the corps number for the Italians. What if I did the same to the British and gave them 6 times 13, or 78, companies? It would be cool, but let's see if I can actually find 6 to remove.
+1. W Company, Northumberland Fusiliers (mentioned as part of Selby Force, and we know at least one company wasn't with the rest of the battalion)
+2. A Company, Cheshire Regiment (same as above)
+3. 1st Light Anti-Aircraft Battery, RA
+4. 2/2nd Field Company RAE
+5. 2/8th Field Company RAE
+6. M Battery, RHA (became a divisional element instead of being part of the 7th Support Group)
+
+I've run across alternate versions of the XIII Corps Tobruk map that was based on maps captured from the Italians. I'm not sure whether these maps are from earlier or later, or if they're better, but they're different for sure.
+Note that similar maps are also avaliable for Bardia and there are lower-resolution ones for the whole of Cyrenaica. A Mersa Matruh map is also available but it's cropped badly so isn't the greatest help.
+
+Here's what I've noticed:
+The XXXI Sector in December 1940 consisted of three subsectors: Sidi Daud, el Adem, and Pilastrino. These corresponded to subsectors A-C. Subsectors D and E were just uncovered.
+Here's the rough organization:
+Note 1: While this is dated to December 1940, it may be from before then. 
+Note 2: The British translations were relatively poor. I've done my best to fix this but they may not be perfect.
+XXXI Coverage Sector
+    Infantry Regiment HQ (Probably not a real thing lol)
+    2 Artillery Regiment HQs
+    Artillery Group HQ
+        6 Medium Batteries
+    Subsector Sidi Daud
+        Infantry "Company" HQ
+        Artillery Group (Likely 1st Group)
+            248th Battery
+            249th Battery
+            258th Battery
+        Artillery Group HQ (Likely 2nd Group)
+            246th Battery
+            246th Bis Battery
+            258th Bis Battery
+        Artillery Group
+            3 Medium Batteries
+    Subsector El Adem
+        Infantry "Company" HQ
+        Artillery Group HQ (Likely 3rd Group)
+            240th Bis Battery
+            247th Battery
+            247th Bis Battery
+    Subsector Pilastrino
+        Infantry "Company" HQ
+        Artillery Group HQ (Likely 4th Group)
+            236th Bis Battery
+            240th Battery
+            241st Battery
+[There's no fourth subsector that should be covering Bir el Medauuar to Umm Cuheil]
+
+Things changed by the January map. Here's what it reports:
+[No information about infantry or the sector organization]
+What looks to be a Group from the 22nd CAR: 3 105/28 Batteries
+    Positions: former 249th, and 1 other battery
+What looks to be the 5th Group: 2 120/25 Batteries, 1 149/12 Battery
+What looks to be the 6th Group: 2 120/25 Batteries, 1 149/35 Battery
+What looks to be the 7th Group: 3 149/35 Batteries
+10 Unidentified 75/27 or 77/28 Batteries (Scattered)
+    Positions: 236th bis, 240th, 240th bis, 241st, 246th, 246th bis, 247th, 247th bis, 248th, 258th bis
+    Removed (appeared in previous map but not this one): 249th, 258th
+    Note that the 246th appears near Strongpoint Bir Junes, the 247th near Dahar el Azazi, and the 249th near Sidi Daud
+A weird 305/42 battery labelled in the harbor. I do not understand where this came from.
+These maps also provide further credence to the idea that the 230th bis and 231st bis Batteries were the 120/25 batteries at Tobruk.
+In no map are these two batteries missing, as while they are never directly named, their caliber never changes and they don't move from their positions.
+
+It also has a slightly updated number of AT guns:
+Sector East - 46 AT Guns
+While 46 isn't equal to 42, which Montanari gives, maybe we can say the 4 guns that left went to the mobile reserve.
+    Subsector A - 25 AT Guns
+        Strongpoint Zeitun - 0 AT Guns
+        Strongpoint Sidi Daud - 8 AT Guns
+            Position Z85 is shown with a gun in some maps and without in others. This one is removable. Arguably, all of the ones here are.
+        Strongpoint Suesi - 6 AT Guns
+        Strongpoint Bur (I)Junes - 11 AT Guns
+    Subsector B - 21 AT Guns
+        Strongpoint Dahar el Azazi - 10 AT Guns
+        Strongpoint Bir Umm Haleiga - 11 AT Guns
+Sector West - 53 AT Guns
+While 53 isn't equal to 51, the number I calculated, there's plenty of ways for 2 guns to randomly go missing.
+    Subsector A - 25 AT Guns
+        [Former Merged Strongpoint - 12 AT Guns]
+            Strongpoint Hagfet Umm Haleiga - 6 AT Guns
+            Strongpoint Sidi Cheiralla - 6 AT Guns
+        [Former Merged Strongpoint - 13 AT Guns]
+            Strongpoint Bir el Faras - 6 AT Guns
+            Strongpoint Bir eg Giasc - 7 AT Guns
+    Subsector B - 26 AT Guns
+        Strongpoint Bir el Medauuar - 8 AT Guns
+        [Former Merged Strongpoint - 18 AT Guns]
+            Strongpoint Ras el Medauuar - 10 AT Guns
+            Strongpoint Ras es Sehel - 8 AT Guns
+    Subsector C - 2 AT Guns
+        Strongpoint Es Sehel - 2 AT Guns
+        [Former Merged Strongpoint - 2 AT Guns]
+            Strongpoint Bir el Meclub - 0 AT Guns
+            Strongpoint Umm Cuheil - 0 AT Guns
+        Like, it's not surprising if they considered these 2 guns to be pointless and sent them elsewhere.
+
+Note that a platoon of 47/32 guns was 2 guns and the section didn't really exist as a concept. The same applied for 20/65 guns. The 65/17 batteries formerly had this but in 1940 they were given firing batteries.
+At that point, I think the battery would follow the same general plan as the field artillery units. The 20/65 and 47/32 guns didn't have such a firing battery, so I think this is a fair indicator
+Here's my implementation of this setup:
+Sector East - 46 AT Guns
+    Subsector A - 25 AT Guns
+        Strongpoint Zeitun - 0 AT Guns
+        Strongpoint Sidi Daud - 4 AT Guns
+            2 75/27, 2 47/32
+        Strongpoint Suesi - 6 AT Guns
+            2 75/27, 2 47/32, 2 20/65
+        Strongpoint Bir (I)Junes - 11 AT Guns
+            2 75/27, 2 77/28, 4 47/32, 3 20/65
+    Subsector B - 21 AT Guns
+        Strongpoint Dahar el Azazi - 10 AT Guns
+            2 75/27, 2 77/28, 4 47/32, 2 20/65
+        Strongpoint Bir Umm Haleiga - 11 AT Guns
+            4 77/28, 4 47/32, 3 20/65
+Sector West - 51 AT Guns
+    Subsector A - 25 AT Guns
+        Strongpoint Hagfet Umm Haleiga - 6 AT Guns
+            2 65/17, 2 47/32, 2 20/65
+        Strongpoint Sidi Cheiralla - 6 AT Guns
+            2 65/17, 2 47/32, 2 20/65
+        Strongpoint Bir el Faras - 6 AT Guns
+            2 65/17, 2 47/32, 2 20/65
+        Strongpoint Bir eg Giasc - 7 AT Guns
+            2 65/17, 2 47/32, 3 20/65
+    Subsector B - 26 AT Guns
+        Strongpoint Bir el Medauuar - 8 AT Guns
+            2 65/17, 4 47/32, 2 20/65
+        Strongpoint Ras el Medauuar - 10 AT Guns
+            1 65/17, 4 47/32, 5 20/65
+        Strongpoint Ras es Sehel - 8 AT Guns
+            2 65/17, 4 47/32, 2 20/65
+    Subsector C
+        Nothing
+
+Now that the maps are starting to disagree on everything, though, I better make sure they all have the correct amount of fortifications.
+
+Montanari:
+Sector East - 66 Fortifications
+    Subsector A - 45 Fortifications
+        Strongpoint Zeitun - 19 Fortifications
+        Strongpoint Sidi Daud - 9 Fortifications
+        Strongpoint Suesi - 6 Fortifications
+        Strongpoint Bir (I)Junes - 11 Fortifications
+    Subsector B - 21 Fortifications
+        Strongpoint Dahar el Azazi - 10 Fortifications
+        Strongpoint Bir Umm Haleiga - 11 Fortifications
+Sector West - 75 Fortifications
+    Subsector A - 26 Fortifications
+        Strongpoint Hagfet Umm Haleiga - 6 Fortifications
+        Strongpoint Sidi Cheiralla - 6 Fortifications
+        Strongpoint Bir el Faras - 8 Fortifications
+        Strongpoint Bir eg Giasc - 6 Fortifications
+    Subsector B - 25 Fortifications
+        Strongpoint Bir el Medauuar - 10 Fortifications
+        Strongpoint Ras el Medauuar - 6 Fortifications
+        Strongpoint Ras es Sehel - 9 Fortifications
+    Subsector C - 24 Fortifications
+        Strongpoint Es Sehel - 6 Fortifications
+        Strongpoint Bir el Meclub - 11 Fortifications
+        Strongpoint Umm Cuheil - 7 Fortifications
+WDF:
+Sector East - 58 Fortifications
+    Subsector A - 37 Fortifications
+        Strongpoint Zeitun - 11 Fortifications
+        Strongpoint Sidi Daud - 9 Fortifications
+        Strongpoint Suesi - 6 Fortifications
+        Strongpoint Bir (I)Junes - 11 Fortifications
+    Subsector B - 21 Fortifications
+        Strongpoint Dahar el Azazi - 10 Fortifications
+        Strongpoint Bir Umm Haleiga - 11 Fortifications
+Sector West - 70 Fortifications
+    Subsector A - 25 Fortifications
+        Strongpoint Hagfet Umm Haleiga - 6 Fortifications
+        Strongpoint Sidi Cheiralla - 6 Fortifications
+        Strongpoint Bir el Faras - 6 Fortifications
+        Strongpoint Bir eg Giasc - 7 Fortifications
+    Subsector B - 26 Fortifications
+        Strongpoint Bir el Medauuar - 8 Fortifications
+        Strongpoint Ras el Medauuar - 10 Fortifications
+        Strongpoint Ras es Sehel - 8 Fortifications
+    Subsector C - 19 Fortifications
+        Strongpoint Es Sehel - 6 Fortifications
+        Strongpoint Bir el Meclub - 7 Fortifications
+        Strongpoint Umm Cuheil - 6 Fortifications
+Total according to sketch in "The First British Offensive": 141
+Total according to WDF maps: 128
+Total according to "The Operations in North Africa": 124 for some reason. Not sure how this happened.
+Total according to the numbers of 3300 total troops and 16 men per fortification: 206
+
+It's not fully clear, but I believe the squadron with light tanks in the 2nd Royal Tank Regiment was the A Squadron. The B Squadron was also slightly smaller than C Squadron.
+That was the initial organization, as eventually the entire regiment was filled with medium tanks. It regained light tanks when it swapped B Squadrons with 3rd Hussars.
+7th Hussars was almost entirely light tanks. There were a couple cruisers, but they were in such a small number that they probably only made up headquarters for the regiment and squadrons.
+Initially only 1 battery of the 3rd and 4th RHA were actually allocated to the Support Group. Both became fully part of the Support Group in March and April 1941.
+7th RTR was organized into A, B, and D! Squadrons upon its arrival. I don't know if all three remained but I'm guessing D would be the one removed when the regiment fell sharply in strength.
+By the time it was at Tobruk it had just 18 tanks, organized into 6 troops of 3 each. These were likely then split into 2 squadrons of 3 troops each. But I'm going to do some research on if this was really true.
+It seems that at Tobruk, however, three troops were independent and there was only one effective squadron that followed the 2/2nd Battalion into the breach.
+
+I believe the organization of 3rd RHA was as follows at this time:
+HQ + M Battery: 7th Armoured Division
+D Battery: 4th Armoured Brigade
+P Battery: 7th Armoured Brigade
+J Battery: 6th Australian Division
+Meanwhile, 4th RHA was either subordinated directly to the divison or to the 7th Support Group, never to the armoured brigades. Part of it was detached to support the Australians, though.
+
+While the 47/32 gun was found in multiple roles, as an infantry gun, anti-tank gun, and mounted on vehicles, all of these were the same gun with only minor modifications.
+The gun was manufactured by Bohler. There was also a 47/40 mod. 39, which wasn't built in very large numbers but was somewhat more powerful compared to the 47/32.
+
+The more I learn about Bergonzoli and Amico's escape the more I end up in disbelief. Rather than take some kind of insane path through the desert, they directly went down the road toward Tobruk, reaching it at Sidi Daud.
+The fact that this road should've been interposed by the British shows a lack of planning in the 7th Armoured Division and its reconaissance units that should've covered this area.
+Another interesting thing I found is that there were actually plenty of anti-torpedo defenses in Tobruk. I know Turbine-class destroyers like the Nembo were lost but I guess the torpedo nets just weren't covering them.
+
+At Bardia, the "switch line", or "doubling" in Italian, was defended by the 63rd Machine Gun Battalion, though portions of it were used to reinforce the G.a.F in the strongpoints.
+The Blackshirt units had their headquarters inside the strongpoints but most of the battalions weren't there. I expect this means the battalions acted as interval troops for the G.a.F. in the posts.
+But it's worth noting that whenever these machine gun units were in these strongpoints, the sketchews always note this with the flags. But I guess if it's individual companies that wouldn't happen.
+So, that begs the question of how things were at Tobruk. Because the 61st Machine Gun Battalion was the only one there, its headquarters were held back but its companies may have moved forward individually.
+To solve this, let's attempt to compile all information I have on this topic at the moment:
+1. The 61st Machine Gun Battalion had 3 companies
+2. One MG company had 200 men total, while battalions had a total of 658 men (AS 1941 had 699 and AS 1942 had only 122 and 436)
+3. One MG company had 16 MGs total, 4 per platoon. Support weapons companies had 2 platoons (8 MGs total) and a mortar platoon
+4. On the sketch of Tobruk, the 61st Machine Gun Battalion is shown entirely in the Pilastrino strongpoint and none of its companies can be seen anywhere
+5. Only 1 company was actually at Pilastrino. The other two were given to the eastern sector with 18 MGs (Fiat 35) as reinforcement
+6. Each machine gun company should have 16 MGs, this means that if it were at full strength with its reinforcements the 2 companies would have 34 MGs, enough to garrison 17 posts (but that's clearly too many, right?)
+7. The areas in question that we don't know how they were garrisoned are as follows: Strongpoint Hagfet Umm Haleiga - 6 Fortifications, Strongpoint Sidi Cheiralla - 6 Fortifications, Strongpoint Bir el Medauuar - 8 Fortifications
+8. At Bardia, the MG units were split up into the strongpoints where they reinforced the G.a.F. This applied both to the army MG Battalions and CC.NN. units, likely
+9. It's worth noting that the CC.NN. Divisions actually had machine gun battalions at the divisional as well as regimental companies, but I couldn't find any information about how they were deployed
+10. At Bardia, the switch line or "Raddoppio" was manned by one of the MG Battalion headquarters and its men, possibly by the G.a.F. as well. Another was in a regular strongpoint
+
+So, all together, not enough to find anything. But there's also some to be gained about the general deployment:
+1. "The Operations in North Africa" says that Subsectors A and B of the Western Sector were each defended by a battalion and reinforced by the G.a.F. It's unclear if this means both were reinforced or just one potentially.
+2. "The First British Offensive" offers absolutely nothing on the topic.
+
+And one more thing... math! In the past I used the 2300/3600 number to examine the quantity of strongpoints still held. But remember, the strongpoints weren't all created equal. What if we used the number of fortified posts instead?
+2300/3600*128 is 82. With 58 posts in the east, that leaves enough men to fill 24 posts in the west. That's enough to occupy all three of the strongpoints that Montanari doesn't mark with a unit.
+An alternate value to use is 3300 men, as some sources claim that the two sectors were unequal in strength (only 1500 for the XXXI). 2300/3300*128 is 89. This gives a range to work with.
+Of course, this still leaves the challenge of how the Giarabub position managed to receive 4 companies. That doesn't make a whole lot of sense with this scheme. I'll look at that in the next section.
+I'll then make an attempt to collect all information I have about how the G.a.F. were removed from Tobruk. Here's what I have:
+1. Castagna says the number of men, weapons, and equipment were unchanged during the replacement.
+2. He also says the replacement only affected the Maddalena and Garn ul Grein garrisons, and not anywhere else (but maybe they were anyway).
+3. Each of Maddalena and Garn ul Grein was garrisoned by a single CC.NN. company from the 150th Battalion. These had a standard strength of 137 men.
+4. This creates some disagreement. Whether just those 2 posts or all 4 companies of the CC.NN. were replaced, they wouldn't total more than about 600 men. But the Tobruk G.a.F. lost a thousand men.
+5. Later, Castagna has 4 companies of G.a.F. in his order of battle. The strength of these companies is unknown, but they maybe could correspond each to half a strongpoint (caposaldo) at Tobruk.
+6. Tobruk initially consisted of the XXXI Sector (2 subsectors of 4 and 2 strongpoints, respectively) and the XXXI Sector (2 subsectors of 4 and 2 strongpoints, respectively).
+7. These 4 subsectors corresponded to commands at Sidi Daud, Bivio el Adem (just called El Adem), Pilastrino, and Ras el Medauuar
+8. By December 1940 reorganizations had occurred. Only the XXXI Coverage Sector remained with merged elements of both. It was noted as "minus 2 strongpoints" of unknown identity.
+9. The first 3 subsectors show up on December 1940 maps under the command of this sector. The Ras el Medauuar subsector disappears and it was likely that the 2 lost strongpoints were from here.
+
+Luigi Adiutori is one of the few people I can track down who actually served in the G.a.F. at Tobruk and survived to tell the tale (or in this case, get a blog post written about him).
+There are other figures, but commanders like Barberis don't seem to have done much else of significance, and no lower-level commanders can really be found.
+And while there are some medal recipients left in records, such as Angelo Pavone, they mostly died and leave nothing to learn, and their citations lack detail about their precise location
+Adiutori not only has actual records about him, but he lived long enough to relay the tale, which could be something of use. Below are the results of reading through this again with a more critical eye:
+1. The G.a.F. reached its peak strength on the 10th of June 1940, when the war began and mobilization had finished. Until then, much of the G.a.F. personnel hadn't actually arrived from Italy.
+2. Each post had 1 officer, 15 infantrymen, and 1 machine gun. I assume this was just only ration strength since the math doesn't really work out with what I have. Alternately, some infantry might have occupied irregular posts.
+3. Adiutori was assigned to the Ras el Medauuar, but was part of the XXXI Sector. I assume the sectors were a little confused by now.
+4. He was deployed to the "fourth stronghold" which probably refers to either R4 or S4 (probably R4 given Montanari's sketch). Both are quite close to each other anyway.
+5. Unrelated to Tobruk, but the Savona Division's 8th Machine Gun Battalion appears there with a couple men from it noted as captured.
+6. The weird independent 149/12 battery that occasionally appears as part of the garrison might not have been nonexistent, though it's still an aberration.
+7. The unsubstantiated numbers of 23 47/32 and 611 Schwarzlose machine guns. These first number makes sense but I don't know its source, the second is pretty insane and I think represents the entirety of Cyrenaica.
+8. The most important thing to know from this, however, is that G.a.F. personnel did in fact occupy posts in the Bir el Medauuar area, at least for S4 or R4.
+9. I believe the mentions of Ras (not Bir) in this document refer to the subsector, not the strongpoint. (or one strongpoint was split)
+
+Cross-referencing this with Montanari:
+1. Montanari disagrees, as while he gives no manpower strength, he says many posts had 2 MG posts and some had an anti-tank gun position
+2. While only the first line of defense posts initially had anti-tank guns, eventually all of them were given positions (albeit scuffed ones)
+3. Most of the Fiat 35 guns were used to double the amount of MGs at the artillery positions from 2 to 4. This could've been anywhere from 120-140 of them based on what counts as a "battery" for this.
+4. The 611 Schwarzlose MGs were not all at Tobruk, but rather numbered for Cyrenaica as a whole. The number at Tobruk was probably closer to 100 (my estimation, not from a book). The same goes for the 23 47/32s.
+5. Montanari also provides information about the 149/12 battery and the 7! 120/25 batteries but not in detail. I don't want to worry about this too much since it's relevance is minor. These were for all of Cyrenaica as well.
+
+I've also made an attempt to research the remaining lower-level commanders at Tobruk:
+Angelo Cascino: Commanded the "Littorio" machine gun battalion during the Spanish Civil War
+Pietro Aresca: Nothing substantial
+Guido Baggini: Appears in Zonderwater prison camp as either Guido Baggiani or ? Baggini
+Gaetano Maltese: Appears in Zonderwater prison camp as ? Maltese
+Giovanni Rocca: Nothing substantial
+Gildo Bonfanti: Nothing susbstantial
+Sebastiano Parisi, who was just some random G.a.F. machine gunner who happened to be written about by a grandson, also appears in the Zonderwater lists.
+
+So, with all this, let's make a final answer for how the G.a.F. actually interacted with anything.
+There were initially two sectors. The XXXI sector was based at Ras el Medauuar and covered down to the el Adem road. From there to the sea the XXXII sector was responsible, based at Sidi Daud.
+Each had an artillery regiment, but in practice they were combined and deployed mostly facing east (the area of responsibility of the XXXII sector). They were medium and light in caliber, respectively.
+By december, major reorganizations had occurred. Tobruk was now exclusively commanded by the XXXI sector and four companies of strength, corresponding to two strongpoints, had been used to restore the frontier garrisons.
+The removed strongpoint was the Ras el Medauuar subsector, with two of its strongpoints lost entirely and the other two moved to reinforce the Pilastrino sector. Also during this time the 12 strongpoints became 16.
 
 

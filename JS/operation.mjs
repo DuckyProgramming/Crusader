@@ -286,11 +286,12 @@ export class operation{
     }
     initialMaps(){
         if(!constants.init){
-            let subj=types.map[findAbstract(`term`,`BigTobruk3`,types.map)]
+            /*let subj=types.map[findAbstract(`term`,`BigTobruk3`,types.map)]
             subj.unit[1].unit.push(JSON.parse(JSON.stringify(subj.unit[0].unit[1])))
             subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[2].unit[0])))
             subj.unit[2].unit.push(JSON.parse(JSON.stringify(subj.unit[0].unit[0])))
-            subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[1].unit[0])))
+            subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[1].unit[0])))*/
+            //the first quadral version of large tobruk
         }
     }
     initialComponents(){
@@ -472,10 +473,10 @@ export class operation{
                         layer.textSize(15)
                         layer.text(this.select.unit.desc,layer.width-80,50,140)
                         layer.text([0,1,2,3].map(num=>floor(this.select.unit.getKills(num))).map((num,index)=>{return {num:num,text:`${num} ${[`Kills`,`Vehicles`,`Artillery`,`Mortars`][index]}`}}).filter(obj=>obj.num>0).map(({text})=>text).join(`\n`),layer.width-80,130,140)
-                        if(!this.select.unit.type.includes(27)){
+                        if(this.select.unit.malleable()){
                             /*if(!this.select.unit.contain.trigger&&this.select.unit.contain.units.length<=0&&(this.select.unit.contain.middle?0:1)){
                                 layer.fill(150,this.anim.main*this.anim.select)
-                                layer.rect(layer.width-340,50,200,60,10)
+                                layer.rect(layer.width-340,50,200,60,10)    
                                 layer.fill(0,this.anim.main*this.anim.select)
                                 layer.textSize(30)
                                 layer.text(this.select.unit.contain.units.length==0?`Disband HQ`:`Disband`,layer.width-340,50,200)
@@ -484,20 +485,20 @@ export class operation{
                             }else if(this.select.unit.contain.middle||this.select.unit.contain.trigger&&){*/
                             let detach=(this.select.unit.level!=constants.minLevel&&this.select.unit.level!=constants.minLevel+1||this.select.unit.contain.adhoc)&&(this.select.unit.contain.trigger||this.select.unit.contain.middle)&&this.select.unit.contain.units.length>0
                             let absorb=this.select.unit.contain.trigger?
-                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level>=constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
+                                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level>=constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&unit.malleable()):
                                 this.select.unit.contain.middle?
                                 this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200):
                                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
                             if(
                                 !this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&
-                                this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))
+                                this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&unit.malleable())
                             ){
                                 absorb.push(-1)
                             }
                             //if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
                             if(
                                 this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&
-                                this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class&&!unit.type.includes(27))&&
+                                this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class&&unit.malleable())&&
                                 this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)<=100*types.elementType[this.select.unit.contain.units[0].elementType].num
                             ){
                                 absorb.push(-2)
@@ -673,9 +674,9 @@ export class operation{
         this.transitionManager.update()
     }
     control(input){
-        if(!this.select.unit.type.includes(27)){
+        if(this.select.unit.malleable()){
             let absorb=this.select.unit.contain.trigger?
-                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level>=constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&!unit.type.includes(27)):
+                this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&(unit.level==constants.minLevel||unit.level>=constants.minLevel+1)&&!unit.contain.adhoc&&distPos(unit,this.select.unit)<150&&types.player[unit.player].side==types.player[this.select.unit.player].side&&unit.malleable()):
                 this.select.unit.contain.middle?(
                     this.select.unit.parent==-1?[]:
                     this.select.unit.parent.contain.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200)
@@ -683,14 +684,14 @@ export class operation{
                 this.units.filter(unit=>unit.active&&unit.fade.main>0&&unit.id!=this.select.unit.id&&distPos(unit,this.select.unit)<200&&unit.parent==-1)
             if(
                 !this.select.unit.contain.trigger&&this.select.unit.contain.units.length>0&&
-                this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&!unit.type.includes(27))
+                this.select.unit.contain.units.every(unit=>distPos(unit,this.select.unit)<150&&unit.contain.trigger&&unit.contain.units.length==1&&unit.malleable())
             ){
                 absorb.push(-1)
             }
             //if(this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class)&&this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life,0)<=100){
             if(
                 this.select.unit.contain.trigger&&this.select.unit.contain.units.length>1&&
-                this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class&&!unit.type.includes(27))&&
+                this.select.unit.contain.units.every(unit=>types.elementType[unit.elementType].class==types.elementType[this.select.unit.contain.units[0].elementType].class&&unit.malleable())&&
                 this.select.unit.contain.units.reduce((acc,unit)=>acc+unit.strength.life*types.elementType[unit.elementType].num,0)<=100*types.elementType[this.select.unit.contain.units[0].elementType].num
             ){
                 absorb.push(-2)

@@ -55,7 +55,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (59) - Umberto Bar
             | 1st Battery, 26th Artillery Regiment (4 100/17) ++++
             | 2nd Battery, 26th Artillery Regiment (4 100/17) ++++
             | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
-        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) # - Guido Baggini
+        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
             | 3rd Battery, 12th Artillery Regiment "Sila" (4 100/17) ++++
         130th Group, 25th Army Corps Artillery Raggruppamento (3) #

@@ -1,5 +1,5 @@
 import {types,graphics,constants,dev,options} from './variables.mjs'
-import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens,mergeColor,range} from './functions.mjs'
+import {smoothAnim,findName,last,inPointBox,distPos,randin,findId,elementArray,evens,mergeColor,range, min} from './functions.mjs'
 import {lsin,lcos} from './graphics.mjs'
 export class unit{
     constructor(operation,data){
@@ -22,7 +22,7 @@ export class unit{
         constants.unitId++
 
         this.symbol=types.unitLevel[this.level].symbol
-        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
+        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale*(this.level==constants.minLevel+3&&data.type.length==1&&data.type[0]==`Fortress`?2/3:1)
         this.width=this.size*1.6
         this.height=this.size
         this.radius=this.size
@@ -31,7 +31,7 @@ export class unit{
             main:0,trigger:false,hide:false,
             hover:0,hoverTrigger:false,
             stat:0,statTrigger:false,
-            logs:0,order:0,
+            logs:0,order:0,statOrder:0,
         }
 
         this.strength={
@@ -42,7 +42,7 @@ export class unit{
         this.order={
             position:{x:this.position.x,y:this.position.y},
             select:false,artillery:false,defense:false,facing:random(0,360),
-            detach:0,absorb:0,
+            detach:0,absorb:0,moved:false,
         }
         this.orderView={altWidth:0,width:0,height:0,min:false,extend:false}
         this.battle={damage:0,active:false,injure:false,broken:false,fortified:false,enemies:[]}
@@ -83,7 +83,7 @@ export class unit{
                 let temp=elements[a]
                 if(temp.pos.length>0){
                     temp.level=temp.level??this.level
-                    temp.type=temp.type??this.type
+                    temp.type=temp.type??this.type.map(type=>types.unitType[type].name)
                     temp.team=temp.team??this.team
                     temp.desc=temp.desc??this.desc
                     temp.name=temp.name??this.name
@@ -194,7 +194,7 @@ export class unit{
         this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale
         this.width=this.size*1.6
         this.height=this.size
-        this.radius=this.contain.trigger?this.size:(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale
+        this.radius=this.contain.trigger?this.size:min(this.size,(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale)
 
         this.fade=composite.fade
         this.strength=composite.strength
@@ -296,6 +296,9 @@ export class unit{
     nearTransientSet(dist,player){
         return this.operation.units.some(unit=>(unit.active||unit.strength.transient)&&player.includes(unit.player)&&distPos(this,unit)<dist*unit.getDistMult())
     }
+    malleable(){
+        return !this.type.includes(27)//&&this.level!=constants.minLevel+5
+    }
     getParentEffectiveness(){
         return this.contain.stats.recon||this.parent==-1?1:!this.parent.active?0.75:constrain(1.25-distPos(this,this.parent)/2000,0.75,1)
     }
@@ -364,7 +367,7 @@ export class unit{
                 speed:this.type.includes(4)?3:this.type.includes(3)||this.type.includes(5)?2.5:this.type.includes(2)?1.75:1,
                 artillery:false,engineer:false,recon:false
             }
-            this.radius=(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale
+            this.radius=min(this.size,(this.level==constants.minLevel?30:40)*types.map[this.operation.map].unitScale)
             this.order.artillery=false
         }
     }
@@ -549,7 +552,7 @@ export class unit{
                     layer.ellipse(this.position.x,this.position.y,this.contain.stats.speed*2*constants.turnTime*(0.75+this.strength.supply/this.strength.base.supply*0.25))
                     if(this.contain.stats.artillery){
                         layer.fill(100,0.25*this.fade.order)
-                        layer.ellipse(this.position.x,this.position.y,constants.artilleryRange*2)
+                        layer.ellipse(this.position.x,this.position.y,constants.artilleryRange*types.map[this.operation.map].rangeScale*2)
                     }
                 }
             break
@@ -729,12 +732,12 @@ export class unit{
                         layer.stroke(40,fade)
                     }
                     if(options.headquarters&&!this.contain.trigger){
-                        layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
+                        layer.strokeWeight(25/max(20,this.size)*types.map[this.operation.map].unitScale)
                         layer.line(-8,-3.25,8,-3.25)
                     }
                     for(let a=0,la=this.type.length;a<la;a++){
                         layer.noFill()
-                        layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
+                        layer.strokeWeight(25/max(20,this.size)*types.map[this.operation.map].unitScale)
                         switch(this.type[a]){
                             case 0:
                                 layer.line(-8,-5,8,5)
@@ -865,10 +868,17 @@ export class unit{
                                 layer.line(-8,-3.25,8,-3.25)
                             break
                             case 22:
-                                layer.line(-8,-3.25,8,-3.25)
-                                layer.line(-8,3.25,8,3.25)
-                                layer.line(-6.25,-5,-6.25,5)
-                                layer.line(6.25,-5,6.25,5)
+                                if(this.radius<20){
+                                    layer.line(-8,-3,8,-3)
+                                    layer.line(-8,3,8,3)
+                                    layer.line(-6,-5,-6,5)
+                                    layer.line(6,-5,6,5)
+                                }else{
+                                    layer.line(-8,-3.25,8,-3.25)
+                                    layer.line(-8,3.25,8,3.25)
+                                    layer.line(-6.25,-5,-6.25,5)
+                                    layer.line(6.25,-5,6.25,5)
+                                }
                             break
                             case 23:
                                 //layer.strokeWeight(75/this.size*types.map[this.operation.map].unitScale)
@@ -910,7 +920,7 @@ export class unit{
                         layer.image(this.img[1],5.5,0,width/max(width,height)*4,height/max(width,height)*4)
                     }
                     layer.stroke(...options.clean?mergeColor(types.player[this.player].color.map(a=>a*0.4),[255,255,255],this.fade.order):[40+this.fade.order*80,40+this.fade.order*200,40+this.fade.order*40],fade)
-                    layer.strokeWeight(25/this.size*types.map[this.operation.map].unitScale)
+                    layer.strokeWeight(25/max(20,this.size)*types.map[this.operation.map].unitScale)
                     layer.noFill()
                     layer.rect(0,0,16,10)
                     layer.fill(0,fade)
@@ -982,16 +992,16 @@ export class unit{
                 }
             break
             case `order`:
-                if(this.fade.stat>0&&!(this.order.position.x==this.position.x&&this.order.position.y==this.position.y)&&!this.order.defense){
+                if(this.fade.statOrder>0&&!(this.order.position.x==this.position.x&&this.order.position.y==this.position.y)&&!this.order.defense){
                     layer.noFill()
-                    layer.stroke(0,this.fade.main*this.fade.stat)
+                    layer.stroke(0,this.fade.main*this.fade.statOrder)
                     layer.strokeWeight(5)
                     layer.line(this.position.x,this.position.y,this.order.position.x,this.order.position.y)
                     layer.line(this.order.position.x-10,this.order.position.y-10,this.order.position.x+10,this.order.position.y+10)
                     layer.line(this.order.position.x-10,this.order.position.y+10,this.order.position.x+10,this.order.position.y-10)
                     if(this.order.artillery){
                         layer.noFill()
-                        layer.stroke(255,0,0,this.fade.main*this.fade.stat)
+                        layer.stroke(255,0,0,this.fade.main*this.fade.statOrder)
                         layer.strokeWeight(2)
                         layer.line(this.position.x,this.position.y,this.order.position.x,this.order.position.y)
                         layer.line(this.order.position.x-10,this.order.position.y-10,this.order.position.x+10,this.order.position.y+10)
@@ -1078,7 +1088,8 @@ export class unit{
 
                 this.fade.main=smoothAnim(this.fade.main,this.fade.trigger&&!this.fade.hide&&this.active,0,1,5)
                 this.fade.hover=smoothAnim(this.fade.hover,this.fade.hoverTrigger,0,1,5)
-                this.fade.stat=smoothAnim(this.fade.stat,this.fade.statTrigger,0,1,5)
+                this.fade.stat=smoothAnim(this.fade.stat,this.fade.statTrigger&&!(!options.viewFull&&this.strength.life>=100&&this.strength.morale>=100&&this.strength.supply>=100&&!this.order.moved),0,1,5)
+                this.fade.statOrder=smoothAnim(this.fade.statOrder,this.fade.statTrigger,0,1,5)
                 this.fade.logs=smoothAnim(this.fade.logs,this.logs.trigger,0,1,5)
                 this.fade.order=smoothAnim(this.fade.order,this.order.trigger,0,1,5)
                 if(this.logs.trigger&&inPointBox(mouse,{position:this.position,width:this.logs.width,height:this.logs.height})){
@@ -1123,6 +1134,7 @@ export class unit{
                             if(!this.logs.main.includes(`Fired artillery`)){
                                 this.logs.main.push(`Fired artillery`)
                             }
+                            this.order.moved=true
                             this.operation.units.forEach(target=>{
                                 if(target.active&&distPos(target,this.order)<20+target.radius&&target.contain.trigger){
                                     let damage=constants.damage[1]*map(
@@ -1515,6 +1527,7 @@ export class unit{
                                 if(!hit){
                                     this.position.x=moving.x
                                     this.position.y=moving.y
+                                    this.order.moved=true
                                     this.contain.units.forEach(unit=>{
                                         unit.strength.supply=max(0,
                                             unit.strength.supply-
@@ -1546,7 +1559,7 @@ export class unit{
                             this.order.position.y=this.position.y
                         }else{
                             let dir=atan2(mouse.position.x-this.position.x,mouse.position.y-this.position.y)
-                            let distance=min(distPos(mouse,this),this.order.artillery?constants.artilleryRange:this.contain.stats.speed*constants.turnTime*(0.75+this.strength.supply/this.strength.base.supply*0.25))
+                            let distance=min(distPos(mouse,this),this.order.artillery?constants.artilleryRange*types.map[this.operation.map].rangeScale:this.contain.stats.speed*constants.turnTime*(0.75+this.strength.supply/this.strength.base.supply*0.25))
                             this.order.position.x=this.position.x+lsin(dir)*distance
                             this.order.position.y=this.position.y+lcos(dir)*distance
                         }
