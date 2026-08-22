@@ -1,27 +1,25 @@
 Order of battle for the garrison:
 
-The Guardia alla Frontiera is responsible for the existing garrison. The 31st and 32nd Coverage Sectors were initially in the city, but the 32nd was removed along with some of its personnel to reconstitute other garrisons. Out of the initial 12 strongpoints in the garrison, only 10 remain:
+The Guardia alla Frontiera is responsible for the existing garrison. The 31st and 32nd Coverage Sectors were initially in the city, but the 32nd was removed along with some of its personnel to reconstitute other garrisons. Out of the initial 12 strongpoints in the garrison, only 8 remain:
 
 31st Coverage Sector
     31st/A Subsector
-        Strongpoint Zeitun (11 Fortifications)
-        Strongpoint Sidi Daud (9 Fortifications)
+        Strongpoint Sidi Daud (19 Fortifications)
         Strongpoint Suesi (6 Fortifications)
-        Strongpoint Bir Junes (11 Fortifications)
     31st/B Subsector
-        Strongpoint Dahar el Azazi (10 Fortifications)
+        Strongpoint Bir Junes (11 Fortifications)
         Strongpoint Bir Umm Haleiga (11 Fortifications)
-    31st/C Subsector
-        Strongpoint Hagfet Umm Haleiga (6 Fortifications)
-        Strongpoint Sidi Cheiralla  (6 Fortifications)
-        Strongpoint Bir el Faras (6 Fortifications)
-        Strongpoint Bir eg Giasc (7 Fortifications)
+Elements, 32nd Coverage Sector
+    Strongpoint Hagfet Umm Haleiga (12 Fortifications)
+    Strongpoint Bir el Medauuar  (10 Fortifications)
+    Strongpoint Es Sehel (6 Fortifications)
+    Strongpoint Umm Cuheil (18 Fortifications)
 
 The fortifications that are manned each have 2 outdated Schwarzlose machine guns for a total of 186. However note that these can be supplemented by ones later found in storage. They are covered by thin defenses, consisting of mines, concertina wire, and in some places, a ditch.
 Supporting these Guardia alla Frontiera elements is the 31st Mixed Engineer unit with a company strength of 115 men of various specializations. There's also the following additional infantry:
 
 31st Libyan Coastal Battalion (3 rifle companies without any heavy weapons)
-64th Replacement Battalion (standard infantry organization of 3 rifle companies and 1 heavy company with 8 machine guns and 18 light mortars)
+64th Replacement Battalion (Standard infantry organization of 3 rifle companies and 1 heavy company with 8 machine guns and 18 light mortars)
 3rd Company, 62nd Replacement Battalion
 63rd Garrison Company
 
@@ -56,10 +54,10 @@ Naval Battery "Bellotti" (4 149/47)
 Naval Battery "Grasso" (4 149/47)
 Naval Battery "Beiad" (6 102/35)
 Naval Battery "Sidi Mahmud" (6 102/35)
-Naval Battery "Pilastrino" (6 102/35)
+Naval Battery "Pilastrino" (6 102/35, 1 76/40)
 Naval Battery "Tordo" (6 76/40)
+Naval Battery "Toro" (3 76/40)
 Naval Battery "Topo" (6 76/40)
-Naval Battery "Toro" (4 76/40)
 Cruiser / Floating Battery "San Giorgio" (4 254/30, 4 190/45)
 
 Three depots are located in Tobruk, a unified one for the Guardia alla Frontiera, one for the 116th Infantry Regiment "Marmarica", and one for the navy. The following guns were found in them:
@@ -77,7 +75,7 @@ Artillery:
     Guardia alla Frontiera:
         10 20/65 AA/AT machine guns
         22 47/32 AT guns
-        3 65/17 AT/infantry guns
+        1 65/17 AT/infantry guns
         3 75/27 AT/field guns
         4 77/28 AT/field guns
         4 105/28 field guns

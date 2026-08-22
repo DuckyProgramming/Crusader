@@ -4028,5 +4028,202 @@ reserves=[
       {level:7,type:[`Fortress`],desc:[`Fortification S43`,`Opera S43`],name:`S43`,designation:`Umm\nCuheil`,pos:[1122,478],elements:[{type:`Static Machine Gun Post`}]},
       {level:7,type:[`Fortress`],desc:[`Fortification S45`,`Opera S45`],name:`S45`,designation:`Umm\nCuheil`,pos:[1174,474],elements:[{type:`Static Machine Gun Post`}]},
     ],
+  },{
+    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`31st Group, 5th Frontier Guard Artillery Regiment`,`XXXI Gruppo, 5° Reggimento Artiglieria Guardia alla Frontiera`],name:`31`,designation:`5`,commander:``,icon:``,
+    pos:[3167,1067],
+    elements:[
+      {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+      {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 12th Artillery Regiment "Sila"`,`3° Batteria Obici Campali, 12° Reggimento Artiglieria "Sila"`],name:`3`,designation:`12`,commander:``,icon:`savona`},
+    ],
+  },{
+    level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Strongpoint Hagfet Umm Haleiga, Subsector C`,`Caposaldo Hagfet Umm Haleiga, Sottosettore C`],name:`Hagfet Umm\nHaleiga`,designation:`C`,commander:``,icon:``,
+    pos:[2368,1726],
+    elements:[
+      {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Independent Strongpoint Hagfet Umm Haleiga, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Hagfet Umm Haleiga, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Hagfet Umm\nHaleiga`,designation:`XXXI`,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`1st Platoon, 39th Infantry Gun Battery`,`1° Plotone, 39ª Batteria Accompagnamento`],name:`1`,designation:`39`,commander:``,icon:`bologna`},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`1st Platoon, 61st Anti-Tank Company`,`1° Plotone, 61ª Compagnia Anticarro`],name:`1`,designation:`61`,commander:``,icon:`sirte`},
+      {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`1st Platoon, 77th Anti-Aircraft Battery, 26th Artillery Regiment`,`1° Plotone, 77ª Batteria Contraerea, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`77`,commander:``,icon:`pavia`},
+    ]
+  },{
+    level:5,type:[`Fortress`],team:`Italian`,
+    desc:[`Strongpoint Sidi Cheiralla, Subsector C`,`Caposaldo Sidi Cheiralla, Sottosettore C`],name:`Sidi\nCheiralla`,designation:`C`,commander:``,icon:``,
+    pos:[2179,1693],
+    elements:[
+      {level:5,type:`Machine Gun Company`,team:`Italian`,desc:[`2nd Company, 61st Machine Gun Battalion`,`2ª Compagnia, LXI Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``,icon:`sirte`},
+      {level:6,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`2nd Platoon, 39th Infantry Gun Battery`,`2° Plotone, 39ª Batteria Accompagnamento`],name:`2`,designation:`39`,commander:``,icon:`bologna`},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`2nd Platoon, 61st Anti-Tank Company`,`2° Plotone, 61ª Compagnia Anticarro`],name:`2`,designation:`61`,commander:``,icon:`sirte`},
+      {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`2nd Platoon, 77th Anti-Aircraft Battery, 26th Artillery Regiment`,`2° Plotone, 77ª Batteria Contraerea, 26° Reggimento Artiglieria "Pavia"`],name:`2`,designation:`77`,commander:``,icon:`pavia`},
+    ]
+  },{
+    level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Strongpoint Bir el Medauuar, Subsector D`,`Caposaldo Bir el Medauuar, Sottosettore D`],name:`Bir el\nMedauuar`,designation:`D`,commander:``,icon:``,
+    pos:[1532,1616],
+    elements:[
+      {level:5,type:`Static Machine Gun Company`,team:`Guardia alla Frontiera`,desc:[`Independent Strongpoint Bir el Medauuar, 31st Frontier Guard Coverage Sector`,`Caposaldo Autonomo Bir el Medauuar, XXXI Settore di Copertura Guardia alla Frontiera`],name:`Bir el\nMedauuar`,designation:`XXXI`,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`1st Platoon, 86th Infantry Gun Battery`,`1° Plotone, 86ª Batteria Accompagnamento`],name:`1`,designation:`86`,commander:``,icon:`sabratha`},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`1st Platoon, Provisional Anti-Tank Company`,`1° Plotone, Compagnia Provvisoria Anticarro`],name:`1`,designation:`Provvisoria`,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`2nd Platoon, Provisional Anti-Tank Company`,`2° Plotone, Compagnia Provvisoria Anticarro`],name:`2`,designation:`Provvisoria`,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`1st Platoon, 13th Anti-Aircraft Battery, 22nd Corps Artillery Regiment`,`1° Plotone, 13ª Batteria Contraerea, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`1`,designation:`13`,commander:``,icon:`pavia`},
+    ],
+  },{
+    level:5,type:[`Infantry`,`Machine Gun`],team:`Italian`,
+    desc:[`2nd Company, 61st Machine Gun Battalion`,`2ª Compagnia, LXI Battaglione Mitraglieri`],name:`2`,designation:`61`,commander:``,icon:`sirte`,
+    pos:[2229,1643],
+    elements:[
+      {level:7,type:[`Fortress`],desc:[`Fortification R24`,`Opera R24`],name:`R24`,designation:`Sidi\nCheiralla`,pos:[2163,1600],elements:[
+        {type:`Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`3rd Squad, 39th Infantry Gun Battery`,`3ª Squadra, 39ª Batteria Accompagnamento`],name:`3`,designation:`39`,commander:``,icon:`bologna`},
+      ]},
+      {level:7,type:[`Fortress`],desc:[`Fortification R25`,`Opera R25`],name:`R25`,designation:`Sidi\nCheiralla`,pos:[2158,1639],elements:[
+        {type:`Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`3rd Squad, 61st Anti-Tank Company`,`3ª Squadra, 61ª Compagnia Anticarro`],name:`3`,designation:`61`,commander:``,icon:`sirte`},
+      ]},
+      {level:7,type:[`Fortress`],desc:[`Fortification R26`,`Opera R26`],name:`R26`,designation:`Sidi\nCheiralla`,pos:[2217,1687],elements:[
+        {type:`Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`3rd Squad, 77th Anti-Aircraft Battery, 26th Artillery Regiment`,`3ª Squadra, 77ª Batteria Contraerea, 26° Reggimento Artiglieria "Pavia"`],name:`3`,designation:`77`,commander:``,icon:`pavia`},
+      ]},
+      {level:7,type:[`Fortress`],desc:[`Fortification R27`,`Opera R27`],name:`R27`,designation:`Sidi\nCheiralla`,pos:[2152,1698],elements:[
+        {type:`Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Infantry Gun Company`,team:`Italian`,desc:[`4th Squad, 39th Infantry Gun Battery`,`4ª Squadra, 39ª Batteria Accompagnamento`],name:`4`,designation:`39`,commander:``,icon:`bologna`},
+      ]},
+      {level:7,type:[`Fortress`],desc:[`Fortification R28`,`Opera R28`],name:`R28`,designation:`Sidi\nCheiralla`,pos:[2261,1717],elements:[
+        {type:`Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Italian`,desc:[`4th Squad, 61st Anti-Tank Company`,`4ª Squadra, 61ª Compagnia Anticarro`],name:`4`,designation:`61`,commander:``,icon:`sirte`},
+      ]},
+      {level:7,type:[`Fortress`],desc:[`Fortification R29`,`Opera R29`],name:`R29`,designation:`Sidi\nCheiralla`,pos:[2218,1735],elements:[
+        {type:`Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Italian`,desc:[`4th Squad, 77th Anti-Aircraft Battery, 26th Artillery Regiment`,`4ª Squadra, 77ª Batteria Contraerea, 26° Reggimento Artiglieria "Pavia"`],name:`4`,designation:`77`,commander:``,icon:`pavia`},
+      ]},
+    ]
+  },{
+    level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Strongpoint Bir el Faras, 31st/C Frontier Guard Subsector`,`Caposaldo Bir el Faras, XXXI/C Sottosettore Guardia alla Frontiera`],name:`Bir el\nFaras`,designation:`XXXI/C`,commander:``,icon:``,
+    pos:[2044,1561],
+    elements:[
+      {type:`Static Machine Gun Company`},
+      {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, 247th Frontier Guard Static Artillery Battery`,`2ª Sezione, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`249`,commander:``},
+      {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+    ],
+  },{
+    level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Strongpoint Bir eg Giasc, 31st/C Frontier Guard Subsector`,`Caposaldo Bir eg Giasc, XXXI/C Sottosettore Guardia alla Frontiera`],name:`Bir eg\nGiasc`,designation:`XXXI/C`,commander:``,icon:``,
+    pos:[1295,1596],
+    elements:[
+      {type:`Static Machine Gun Company`},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+    ],
+  },{
+    level:4,type:[`Artillery`,`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`31st Group, 5th Frontier Guard Artillery Regiment`,`XXXI Gruppo, 5° Reggimento Artiglieria Guardia alla Frontiera`],name:`31`,designation:`5`,commander:``,icon:``,
+    pos:[3167,1067],
+    elements:[
+      {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+      {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`100/17 Ad Hoc Battery"`,`Batteria di Formazione da 100/17`],name:`Formazione`,designation:`100/17`,commander:``,icon:``},
+      {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`105/28 Ad Hoc Battery"`,`Batteria di Formazione da 105/28`],name:`Formazione`,designation:`105/28`,commander:``,icon:``},
+    ],
+  },{
+    level:6,type:[`Fortress`],team:`Italian`,
+    desc:[`Provisional Strongpoint Es Sehel`,`Caposaldo Provvisoria Es Sehel`],name:`Es Sehel`,designation:``,commander:``,icon:``,
+    pos:[1175,1187],
+    elements:[
+      {level:6,type:`Small Static Infantry Platoon`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, Ad Hoc Battery "Derna"`,`2ª Sezione, Batteria di Formazione "Derna"`],name:`2`,designation:`Derna`,commander:``,icon:``},
+    ],
+  },{
+    level:6,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Provisional Strongpoint Bir el Meclub`,`Caposaldo Provvisoria Bir el Meclub`],name:`Bir el\nMeclub`,designation:``,commander:``,icon:``,
+    pos:[1142,839],
+    elements:[
+      {level:6,type:`Small Static Infantry Platoon`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unified Depot`,`Deposito Unico Misto della Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+    ],
+  },{
+    level:5,type:[`Fortress`],team:`Italian`,
+    desc:[`Defensive System`,`Sistemazione Difensiva`],name:`Sistemazione\nDifensiva`,designation:``,commander:``,icon:`marmarica`,
+    pos:[2335,515],
+    elements:[
+      {level:5,type:`Small Ruined Infantry Company`,team:`Italian`,desc:[`3rd Company, 62nd Replacement Battalion`,`3ª Compagnia Fucilieri, LXII Battaglione Complementi`],name:`3`,designation:`62 R`,commander:``,icon:`marmarica`},
+      {level:6,type:`Small Static Infantry Platoon`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+      {level:6,type:`Small Static Infantry Platoon`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unique Depot`,`Deposito Unico Misto della Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+      {level:7,type:`Small Static Infantry Section`,team:`Italian`,desc:[`Carabinieri Station`,`Stazione dei Carabinieri`],name:`Stazione`,designation:`Carabinieri`,commander:``,icon:``},
+      {level:7,type:`Small Static Infantry Section`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Station`,`Stazione di Guardia alla Frontiera`],name:`Stazione`,designation:``,commander:``,icon:``},
+    ],
+  },{
+    level:5,type:[`Fortress`],team:`Italian`,
+    desc:[`Provisional Strongpoint Es Sehel`,`Caposaldo Provvisoria Es Sehel`],name:`Es Sehel`,designation:``,commander:``,icon:``,
+    pos:[1320,1109],
+    elements:[
+      {
+        level:6,type:[`Fortress`],team:`Italian`,
+        desc:[`Provisional Unit 116`,`Reparto Provvisorio 116`],name:`116`,designation:``,commander:``,icon:``,
+        pos:[1175,1187],
+        elements:[
+          {level:6,type:`Small Static Infantry Platoon`,team:`Italian`,desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``},
+          {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+          {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, Ad Hoc Battery "Derna"`,`2ª Sezione, Batteria di Formazione "Derna"`],name:`2`,designation:`Derna`,commander:``,icon:``},
+        ],
+      },{
+        level:6,type:[`Fortress`],team:`Guardia alla Frontiera`,
+        desc:[`Unified Provisional Unit`,`Reparto Provvisorio "Unico Misto"`],name:`Unico\nMisto`,designation:``,commander:``,icon:``,
+        pos:[1142,839],
+        elements:[
+          {level:6,type:`Small Static Infantry Platoon`,team:`Guardia alla Frontiera`,desc:[`Frontier Guard Unified Depot`,`Deposito Unico Misto della Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``},
+        ],
+      },
+    ],
+  },{
+    level:6,type:[`Infantry`,`Fortress`],team:`Italian`,
+    desc:[`116th Infantry Regiment "Treviso" Depot`,`Deposito del 116° Reggimento di Fanteria "Treviso"`],name:`Deposito`,designation:`116`,commander:``,icon:``,
+    pos:[1225,1187],
+    elements:[
+      {level:8,type:[`Fortress`],desc:[`Fortification S7`,`Opera S7`],name:`S7`,designation:`Ras es\nSehel`,pos:[1170,1465],elements:[
+        {type:`Quarter Static Machine Gun Post`},
+        {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`3rd Squad, Ad Hoc Battery "Derna"`,`3ª Squadra, Batteria di Formazione "Derna"`],name:`3`,designation:`Derna`,commander:``},
+      ]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S8`,`Opera S8`],name:`S8`,designation:`Ras es\nSehel`,pos:[1214,1422],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S9`,`Opera S9`],name:`S9`,designation:`Ras es\nSehel`,pos:[1183,1408],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S10`,`Opera S10`],name:`S10`,designation:`Ras es\nSehel`,pos:[1224,1373],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S11`,`Opera S11`],name:`S11`,designation:`Ras es\nSehel`,pos:[1187,1348],elements:[
+        {type:`Quarter Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      ]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S12`,`Opera S12`],name:`S12`,designation:`Ras es\nSehel`,pos:[1239,1242],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S13`,`Opera S13`],name:`S13`,designation:`Ras es\nSehel`,pos:[1193,1287],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S14`,`Opera S14`],name:`S14`,designation:`Es\nSehel`,pos:[1172,1098],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S15`,`Opera S15`],name:`S15`,designation:`Ras es\nSehel`,pos:[1174,1225],elements:[
+        {type:`Quarter Static Machine Gun Post`},
+        {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`4th Squad, Ad Hoc Battery "Derna"`,`4ª Squadra, Batteria di Formazione "Derna"`],name:`4`,designation:`Derna`,commander:``},
+      ]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S16`,`Opera S16`],name:`S16`,designation:`Es\nSehel`,pos:[1165,1017],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S17`,`Opera S17`],name:`S17`,designation:`Es\nSehel`,pos:[1165,1178],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S19`,`Opera S19`],name:`S19`,designation:`Es\nSehel`,pos:[1133,1114],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S21`,`Opera S21`],name:`S21`,designation:`Es\nSehel`,pos:[1125,1077],elements:[
+        {type:`Quarter Static Machine Gun Post`},
+        {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      ]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S23`,`Opera S23`],name:`S23`,designation:`Es\nSehel`,pos:[1133,1007],elements:[{type:`Quarter Static Machine Gun Post`}]},
+    ],
+  },{
+    level:6,type:[`Infantry`,`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Frontier Guard Unified Depot`,`Deposito Unico Misto della Guardia alla Frontiera`],name:`Deposito`,designation:`Unico`,commander:``,icon:``,
+    pos:[1209,837],
+    elements:[
+      {level:8,type:[`Fortress`],desc:[`Fortification S25`,`Opera S25`],name:`S25`,designation:`Bir el\nMeclub`,pos:[1129,969],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S27`,`Opera S27`],name:`S27`,designation:`Bir el\nMeclub`,pos:[1134,925],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S29/3`,`Opera S29/3`],name:`S29/3`,designation:`Bir el\nMeclub`,pos:[1130,887],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S29/4`,`Opera S29/4`],name:`S29/4`,designation:`Bir el\nMeclub`,pos:[1133,855],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S31/4`,`Opera S31/4`],name:`S31/4`,designation:`Bir el\nMeclub`,pos:[1127,822],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S31/5`,`Opera S31/5`],name:`S31/5`,designation:`Bir el\nMeclub`,pos:[1129,789],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S33`,`Opera S33`],name:`S33`,designation:`Bir el\nMeclub`,pos:[1114,746],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S35`,`Opera S35`],name:`S35`,designation:`Umm\nCuheil`,pos:[1094,688],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S37`,`Opera S37`],name:`S37`,designation:`Umm\nCuheil`,pos:[1094,628],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S39`,`Opera S39`],name:`S39`,designation:`Umm\nCuheil`,pos:[1110,553],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S41`,`Opera S41`],name:`S41`,designation:`Umm\nCuheil`,pos:[1115,520],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S43`,`Opera S43`],name:`S43`,designation:`Umm\nCuheil`,pos:[1122,478],elements:[{type:`Quarter Static Machine Gun Post`}]},
+      {level:8,type:[`Fortress`],desc:[`Fortification S45`,`Opera S45`],name:`S45`,designation:`Umm\nCuheil`,pos:[1174,474],elements:[{type:`Quarter Static Machine Gun Post`}]},
+    ],
   },
 ]

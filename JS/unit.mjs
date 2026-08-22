@@ -22,7 +22,7 @@ export class unit{
         constants.unitId++
 
         this.symbol=types.unitLevel[this.level].symbol
-        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale*(this.level==constants.minLevel+3&&data.type.length==1&&data.type[0]==`Fortress`?2/3:1)
+        this.size=types.unitLevel[this.level].size[this.player]*types.map[this.operation.map].unitScale*(this.level>=constants.minLevel+3&&data.type.length==1&&data.type[0]==`Fortress`?2/3:1)
         this.width=this.size*1.6
         this.height=this.size
         this.radius=this.size

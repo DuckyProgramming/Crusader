@@ -22,7 +22,7 @@ XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
     61st Anti-Tank Company
     61st Bersaglieri Motorcycle Company
 
-XXII Army Corps Artillery Commander (13/41) - Adolfo de Leone
+XXII Army Corps Artillery Commander (13/42) - Adolfo de Leone
     10th Army Corps Artillery Raggruppamento (2/6)
         7th Group (3)
         17th Group (3)
@@ -41,11 +41,11 @@ XXII Army Corps Artillery Commander (13/41) - Adolfo de Leone
         2nd Group (3)
         3rd Group (3)
         86th Infantry Gun Battery
-    1st Group, 26th Artillery Regiment "Pavia" (3)
+    1st Group, 26th Artillery Regiment "Pavia" (4)
     15th Anti-Aircraft Group (3)
     10th Battery, 20th Corps Artillery Raggruppamento
 
-Eastern Libya Guardia Alla Frontiera Command (9/22) - Umberto Barberis
+Eastern Libya Guardia Alla Frontiera Command (9/21) - Umberto Barberis
     31st Coverage Sector (5/11)
         31st/A Subsector (4)
         31st/B Subsector (2)
@@ -59,13 +59,12 @@ Eastern Libya Guardia Alla Frontiera Command (9/22) - Umberto Barberis
         3rd Group (1)
     31st Libyan Coastal Battalion (3)
     Strongpoint Hagfet Umm Haleiga
-    Strongpoint Sidi Cheiralla
     Strongpoint Ras el Medauuar
     Ad Hoc Battery "Derna"
     Ad Hoc Battery
 
-4th Tank Infantry Regiment (2/5) - Pietro Aresca
-    1st Medium Tank Battalion (2)
+4th Tank Infantry Regiment (2/6) - Pietro Aresca
+    1st Medium Tank Battalion (3)
     63rd Light Tank Battalion (2)
     304th Anti-Aircraft Battery
 
@@ -90,12 +89,11 @@ Rapid Unit (2)
     22nd Bersaglieri Motorcycle Company
     25th Anti-Tank Company
 
-Loose Units (3/14)
+Loose Units (3/13)
     2nd CC.NN. Battalion "Volontari della Libia" (4)
     140th CC.NN. Battalion "Aquilia" (2)
     64th Replacement Battalion (4)
     3rd Company, 62nd Replacement Battalion
-    63rd Garrison Company
     141st Mortar Company
     142nd Mortar Company
 

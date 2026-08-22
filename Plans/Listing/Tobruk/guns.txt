@@ -1,8 +1,7 @@
 Field Guns
     Eastern Raggruppamento
         16 100/17
-            1st/26th Artillery Regiment (12)
-            3rd/1st/12th Artillery Regiment (4)
+            1st/26th Artillery Regiment (16)
         4 120/25
             242nd Battery (4)
         20 149/13
@@ -39,7 +38,7 @@ Field Guns
             7th/10th Corps Artillery Regiment (12)
             1st/43rd Artillery Regiment (12)
             1st/55th Artillery Regiment (12)
-        14 105/28
+        16 105/28
             17th/10th Corps Artillery Regiment (12)
             Mixed Battery, 22nd Corps Artillery Regiment (4)
         4 75/46
@@ -87,7 +86,7 @@ Field Guns
             244th Battery (5)
             245th Battery (4)
             Section "Buffolotto" (2)
-        3 76/40
+        3 76/30
             Naval Battery "Vittoria" (3)
         Total: 220
 
@@ -136,8 +135,8 @@ Navy
         Naval Battery "Pilastrino" (6)
     16 76/40
         Naval Battery "Tordo" (6)
-        Naval Battery "Toro" (6)
-        Naval Battery "Topo" (3)
+        Naval Battery "Topo" (6)
+        Naval Battery "Toro" (4)
         Naval Battery "Pilastrino" (1)
     4 254/30
         Floating Battery "San Giorgio" (4)

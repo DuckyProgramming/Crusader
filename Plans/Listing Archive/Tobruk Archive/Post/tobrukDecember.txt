@@ -1,15 +1,13 @@
-Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (8/40) - Umberto Barberis
+Tobruk Fortress Garrison (HQ Eastern Libya Guardia Alla Frontiera Command) (10/42) - Umberto Barberis
 
-Sector East (18)
-    Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (4) #
-        | Guardia alla Frontiera Strongpoint Zeitun
-        | Guardia alla Frontiera Strongpoint Sidi Daud (2 47/32, 1 20/65, 1 75/27) ___$
-        | Guardia alla Frontiera Strongpoint Suesi (1 47/32, 1 20/65, 1 77/28) __$
-        | Guardia alla Frontiera Strongpoint Bir Junes (2 47/32, 1 20/65, 1 75/27, 1 77/28) ____$
+Sector East (15)
+    Subsector A (HQ 31st/A Guardia alla Frontiera Subsector) (2) #
+        | Guardia alla Frontiera Strongpoint Sidi Daud (2 47/32, 1 20/65) __$
+        | Guardia alla Frontiera Strongpoint Suesi (2 47/32, 1 20/65) __$
 
     Subsector B (HQ 31st/B Guardia alla Frontiera Subsector) (2) #
-        | Guardia alla Frontiera Strongpoint Dahar el Azazi (2 47/32, 1 20/65, 1 75/27, 1 77/28) ____$
-        | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (2 47/32, 2 20/65, 1 75/27, 1 77/28) ____$$
+        | Guardia alla Frontiera Strongpoint Bir Junes (3 47/32, 2 20/65) ___$$
+        | Guardia alla Frontiera Strongpoint Bir Umm Haleiga (3 47/32, 2 20/65) ___$$
 
     Position El Adem Crossroads (HQ 64th Replacement Battalion) (2) #
         | 1st Company, 64th Replacement Battalion
@@ -21,7 +19,7 @@ Sector East (18)
         . 75/27 Platoon (3) ___
 
     31st Guardia alla Frontiera Artillery Artillery Raggruppamento (9) - Guido Baggini
-        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (3) #
+        5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
             | Ad Hoc Battery (4 105/28) ++++
         6th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
@@ -35,49 +33,51 @@ Sector East (18)
         | Ad Hoc Naval Battery "Vittoria" (3 76/30) +++
         . Guardia alla Frontiera Section "Buffolotto" (2 149/35) ++
 
-Sector West (8)
-    Subsector C (HQ 31st/C Guardia alla Frontiera Subsector) (2) #
-        | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga (1 47/32, 1 20/65, 1 75/27) __$
-        | Guardia alla Frontiera Strongpoint Sidi Cheiralla (1 47/32, 1 20/65, 1 77/28) __$
-        | Guardia alla Frontiera Strongpoint Bir el Faras (1 47/32, 1 20/65, 1 75/27) __$
-        | Guardia alla Frontiera Strongpoint Bir eg Giasc (2 47/32, 1 20/65, 1 77/28) ___$
-
-    | 3rd Company, 31st Libyan Coastal Battalion (3 47/32, 1 75/27, 1 77/28) _____
-    | 3rd Company, 64th Replacement Battalion (3 47/32, 1 75/27, 1 77/28) _____
+Sector West (6)
+    | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga (3 47/32, 2 20/65) ___$$
+    | Guardia alla Frontiera Strongpoint Bir el Medauuar (3 47/32, 2 20/65) ___$$
+    | Guardia alla Frontiera Strongpoint Es Sehel
+    | Guardia alla Frontiera Strongpoint Umm Cuheil
     
     Position Pilastrino (HQ 31st Libyan Coastal Battalion) (1) #
         | 1st Company, 31st Libyan Coastal Battalion
-        . 65/17 Section (3) ___
         . 47/32 Gun (1) _
-    Position Point 71 (1)
+        . 65/17 Gun (1) _
+    Position Point 71
         | 2nd Company, 31st Libyan Coastal Battalion
         . 47/32 Section (2) __
         . 77/28 Section (2) __
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (14) - Massimiliano Vietina
-    Infantry (2)
+Coastal Defense Sector (HQ Tobruk Coast Sector) (13) - Massimiliano Vietina
+    Infantry (4)
+        | 3rd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 62nd Replacement Battalion
+        | 3rd Company, 64th Replacement Battalion
         | 63rd Garrison Company
-    Artillery (11)
-        | Naval Battery "Dandolo" (0 149/47)
+        . 47/32 Platoon (4) ____
+    Artillery (8)
         | Naval Battery "Bellotti" (4 149/47) ====
         | Naval Battery "Grasso" (4 149/47) ====
-        | Naval Battery "Tortora" (0 102/35)
-        | Naval Battery "Beiad" (6 102/35) ======
-        | Naval Battery "Sidi Mahmud" (6 102/35) ======
-        | Naval Battery "Pilastrino" (6 102/35) ======
-        | Naval Battery "Tordo" (6 76/40) ======
-        | Naval Battery "Topo" (6 76/40) ======
-        | Naval Battery "Toro" (4 76/40) ====
-        | Naval Battery "Tonno" (0 76/40)
+        | Naval Battery "Beiad" (6 102/35 AA) ======
+        | Naval Battery "Sidi Mahmud" (6 102/35 AA) ======
+        | Naval Battery "Pilastrino" (6 102/35 AA, 1 76/40) =======
+        | Naval Battery "Tordo" (6 76/40 AA) ======
+        | Naval Battery "Toro" (3 76/40 AA) ===
+        | Naval Battery "Topo" (6 76/40 AA) ======
     | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
 
-Total Guns:
-10 Anti-Air
-48 Anti-Tank
-37 Field
-50 Naval
-145 of All Types
+Anti-Tank Group (4)
+    1st Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+        | 249th Battery Guardia alla Frontiera (4 75/27) ____
+    2nd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+        | 246th Battery Guardia alla Frontiera (4 77/28) ____
+    3rd Group, 32nd Guardia alla Frontiera Artillery Raggruppamento (1) #
+        | 247th Battery Guardia alla Frontiera (4 77/28) ____        
+    | Training Battery Guardia alla Frontiera "Derna" (4 75/27) ____
+
+| 31st Guardia alla Frontiera Mixed Engineer Unit
+
+(Total 143 Guns of All Types)
 
 
 

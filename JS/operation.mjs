@@ -286,6 +286,9 @@ export class operation{
     }
     initialMaps(){
         if(!constants.init){
+            let subj=types.map[findAbstract(`term`,`BigTobruk3`,types.map)]
+            subj.unit[1].unit.push(JSON.parse(JSON.stringify(subj.unit[0].unit[1])))
+            subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[2].unit[1])))
             /*let subj=types.map[findAbstract(`term`,`BigTobruk3`,types.map)]
             subj.unit[1].unit.push(JSON.parse(JSON.stringify(subj.unit[0].unit[1])))
             subj.unit[3].unit.push(JSON.parse(JSON.stringify(subj.unit[2].unit[0])))

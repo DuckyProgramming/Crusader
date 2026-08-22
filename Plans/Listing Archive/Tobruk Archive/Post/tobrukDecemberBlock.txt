@@ -1,32 +1,36 @@
 Eastern Libya Guardia alla Frontiera Command (40) - Umberto Barberis
-    Tobruk Fortress Command (18)
+    Tobruk Fortress Command (19)
         31st Coverage Sector (11)
             31st/A Subsector (2)
-                | Strongpoint Zeitun
                 | Strongpoint Sidi Daud
                 | Strongpoint Suesi
-                | Strongpoint Bir Junes
             31st/B Subsector (2)
-                | Strongpoint Dahar el Azazi
+                | Strongpoint Bir Junes
                 | Strongpoint Bir Umm Haleiga
-            31st/C Subsector (4)
-                | Strongpoint Hagfet Umm Haleiga
-                | Strongpoint Sidi Cheiralla
-                | Strongpoint Bir el Faras
-                | Strongpoint Bir eg Giasc
-            31st Artillery Raggruppamento (9) - Guido Baggini
-                5th Artillery Group (2)
+            31st Artillery Raggruppamento (6) - Guido Baggini
+                5th Artillery Group (1)
                     | 242nd Artillery Battery (4 120/25)
-                    | Ad Hoc Battery (4 105/28) (In Formation)
                 6th Artillery Group (2)
                     | 230th Bis Artillery Battery (4 120/25)
                     | 231st Bis Artillery Battery (4 120/25)
                 7th Artillery Group (2)
                     | 244th Artillery Battery (4 149/35)
                     | 245th Artillery Battery (4 149/35)
-                | Ad Hoc Battery (1 149/12, 2 77/28) (In Formation)
-                | Ad Hoc Naval Battery "Nembo" (4 120/45) (In Formation)
-                | Ad Hoc Naval Battery "Vittoria" (3 76/30) (In Formation)
+                | 1 47/32 Gun
+            | 31st Mixed Engineer Unit
+        Elements, 32nd Coverage Sector (4)
+            | Strongpoint Hagfet Umm Haleiga
+            | Strongpoint Bir el Medauuar
+            | Strongpoint Es Sehel
+            | Strongpoint Umm Cuheil
+        Anti-Tank Raggruppamento (4)
+            1st Artillery Group (1)
+                | 249th Artillery Battery (4 75/27)
+            2nd Artillery Group (1)
+                | 246th Artillery Battery (4 77/28)
+            3rd Artillery Group (1)
+                | 247th Artillery Battery (4 77/28)
+            | Training Battery "Derna" (4 75/27)
     Tobruk Coastal Sector (12) - Massimiliano Vietina
         | Naval Battery "Dandolo" (Ineffective Firing Arc)
         | Naval Battery "Tortora" (Ineffective Firing Arc)
@@ -56,13 +60,12 @@ Eastern Libya Guardia alla Frontiera Command (40) - Umberto Barberis
         Guardia alla Frontiera:
             10 20/65
             22 47/32
-            3 65/17
+            1 65/17
             3 75/27
             4 77/28
-            4 100/17
             4 105/28
             1 149/12
-            1 149/35
+            3 149/35
         Navy:
             3 76/30
             1 76/40

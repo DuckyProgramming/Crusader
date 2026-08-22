@@ -1,4 +1,4 @@
-XXII Army Corps / Tobruk Fortress Garrison (40/144) - Enrico Pitassi Mannella
+XXII Army Corps / Tobruk Fortress Garrison (42/150) - Enrico Pitassi Mannella
 
 Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Barberis
     Infantry Command (HQ 31st Guardia alla Frontiera Coverage Sector) (29)
@@ -26,7 +26,7 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
                 | 5th Company, 69th Infantry Regiment
 
         Sector Rear (HQ 69th Infantry Regiment "Ancona") (14) - Angelo Cascino
-            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (10) - Pietro Aresca
+            Position El Adem Crossroads (HQ 4th Tank Infantry Regiment) (5) - Pietro Aresca
                 1st Medium Tank Battalion (3) #
                     | Non-Operational Tank Company, 1st Medium Tank Battalion (29 37/10) _____________________________
                     | 61st Mortar Company (6 81/14)
@@ -56,7 +56,6 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
             | 3rd Battery, 26th Artillery Regiment (4 100/17) ++++
         5th Group, 31st Guardia alla Frontiera Artillery Raggruppamento (2) #
             | 242nd Battery Guardia alla Frontiera (4 120/25) ++++
-            | 3rd Battery, 12th Artillery Regiment "Sila" (4 100/17) ++++
         130th Group, 25th Army Corps Artillery Raggruppamento (3) #
             | 7th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
             | 8th Battery, 25th Army Corps Artillery Raggruppamento (4 149/13) ++++
@@ -96,8 +95,8 @@ Sector East (HQ Eastern Libya Guardia Alla Frontiera Command) (57) - Umberto Bar
             | 1st Battery, 15th Anti-Aircraft Group (4 75/46) ++++
         | Naval Battery "Nembo" (4 120/45) ++++
 
-Sector West (HQ 61st Infantry Division "Sirte") (62) - Vincenzo Della Mura
-    Infantry Command (HQ 70th Infantry Regiment "Ancona") (37) - Gaetano Maltese
+Sector West (HQ 61st Infantry Division "Sirte") (63) - Vincenzo Della Mura
+    Infantry Command (HQ 70th Infantry Regiment "Ancona") (36) - Gaetano Maltese
         Subsector C (HQ 1st Battalion, 70th Infantry Regiment) (10) #
             | Guardia alla Frontiera Strongpoint Hagfet Umm Haleiga
             | Guardia alla Frontiera Strongpoint Sidi Cheiralla
@@ -157,9 +156,9 @@ Sector West (HQ 61st Infantry Division "Sirte") (62) - Vincenzo Della Mura
             Position Piave (1)
                 | 4th Company, 64th Replacement Battalion
 
-    Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (25) - Adolfo de Leone
+    Western Artillery Raggruppamento (HQ Detached From XXII Corps HQ) (26) - Adolfo de Leone
         97/97 Guns
-        HQ 10th Army Corps Artillery Raggruppamento (5) - Eugenio Pirisi
+        HQ 10th Army Corps Artillery Raggruppamento (6) - Eugenio Pirisi
             7th Group, 10th Army Corps Artillery Raggruppamento (3) #
                 | 1st Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
                 | 2nd Battery, 10th Army Corps Artillery Raggruppamento (4 100/17) ++++
@@ -167,6 +166,7 @@ Sector West (HQ 61st Infantry Division "Sirte") (62) - Vincenzo Della Mura
             17th Group, 10th Army Corps Artillery Raggruppamento (2) #
                 | 4th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
                 | 5th Battery, 10th Army Corps Artillery Raggruppamento (4 105/28) ++++
+            | 10th Specialist Company
 
         HQ 22nd Army Corps Artillery Raggruppamento (6)
             1st Group, 22nd Army Corps Artillery Raggruppamento (4) #
@@ -202,12 +202,12 @@ Sector West (HQ 61st Infantry Division "Sirte") (62) - Vincenzo Della Mura
 
 Rapid Column (8)
     Rapid Detachment (3) #
-        | 22nd Bersaglieri Motorcycle Company (Motorized)
+        | 22nd Bersaglieri Motorcycle Company
         | 1st Company, 69th Infantry Regiment (Motorized)
         | 304th Anti-Aircraft Battery, 4th Tank Infantry Regiment (6 20/65) $$$$$$
         [ Guardia alla Frontiera Platoon (2 47/32) __ ]
     Rapid Detachment (3) #
-        | 61st Bersaglieri Motorcycle Company (Motorized)
+        | 61st Bersaglieri Motorcycle Company
         | 3rd Company, 69th Infantry Regiment (Motorized)
         | 77th Anti-Aircraft Battery, 26th Artillery Regiment "Pavia" (10 20/65) $$$$$$$$$$
         [ Guardia alla Frontiera Platoon (2 47/32) __ ]
@@ -216,8 +216,8 @@ Rapid Column (8)
     [ Arditi Platoon, 2nd Battalion, 70th Infantry Regiment ]
     [ Arditi Platoon, 2nd Battalion, 70th Infantry Regiment ]
 
-Coastal Defense Sector (HQ Tobruk Coast Sector) (16) - Massimiliano Vietina
-    Infantry Command (4)
+Coastal Defense Sector (HQ Tobruk Coast Sector) (17) - Massimiliano Vietina
+    Infantry Command (5)
         | 2nd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 31st Libyan Coastal Battalion
         | 3rd Company, 62nd Replacement Battalion (Reinforced With Carabinieri and Troops From the 116th Infantry Regiment Depot and Unified Tobruk Guardia alla Frontiera Depot)
@@ -236,6 +236,16 @@ Coastal Defense Sector (HQ Tobruk Coast Sector) (16) - Massimiliano Vietina
         | Naval Battery "Toro" (4 76/40) ====
         | Naval Battery "Tonno" (0 76/40)
     | Floating Battery (Cruiser) "San Giorgio" (4 254/30, 4 190/45) ======== - Stefano Pugliese
+
+Engineer Command (HQ Detached From XXII Corps HQ) (5)
+    61st Mixed Engineer Battalion (2) #
+        | 73rd Engineer Company
+        | 61st Signals Company
+    8th Labor Battalion (2) #
+        | 31st Mixed Engineer Detachment
+        | 55th Signals Company
+    | Delaying Action Company
+
 
 
 
