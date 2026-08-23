@@ -1339,7 +1339,8 @@ On the other hand, the reality of the 5th/Mixed Group of the GaF is utterly uncl
 
 I spent like an hour thinking about this and couldn't come to a conclusion. The issue is that Montanari manages to contradict himself not one but two times.
 
-1. On page 182, he mentions the "1 batteria mista del I gruppo del 22o raggruppamento" as part of the artillery complement of one sector for the defense. No elements of the 22o raggruppamento are described in the other sectors. No further mentions of this unit are made in this chapter.
+1. On page 182, he mentions the "1 batteria mista del I gruppo del 22o raggruppamento" as part of the artillery complement of one sector for the defense.
+No elements of the 22o raggruppamento are described in the other sectors. No further mentions of this unit are made in this chapter. The entire book, in fact, rarely mentions this unit.
 These descriptions were dated to January 20 by Montanari, but I don't know where he got the information from.
 
 2. On page 332, a report from XXII Corps Chief of Staff Carlo Rostagno mentions the 22o Raggruppamento consisting of "1o gruppo da 100/17, 1a batteria da 105/28" and some support, anti-aircraft, and provisional units.
@@ -1354,8 +1355,13 @@ Or... maybe it was 124. I'm too lazy to count on my own. Why the confusion?
 I think the confusion stems from the nature of the works. 124 were "built", but there were 144 total. This is because 20 were built into natural caves and thus didn't need to be dug.
 Also, Bardia had 113, so a similar number despite the weaker defenses there. Not the best move if you ask me.
 Other than blowing up bridges to offer support to his positions, Pitassi Manella also had a series of roadblocks built to given his units more time. Maybe they were built by the GaF, actually, but same point.
+These numbers are still up to contention and the 113 number I also don't fully trust. They're honestly kinda whatever and I'm not all that impressed by their sources.
+
+Note that the plan for the defense had been put together by Pietro Pintor, then a Generale di Corpo d'Armata. He would become a general in 1938 and fight in the French campaign.
+Pintor had formerly been the commander of the Tripolitania General HQ's artillery and in 1936 became the commander of the special corps "L B" in North Africa, which was responsible for defending the colony during the Ethiopian Campaign.
 
 I'm also gonna recount artillery for a different number I've received, 198. Maybe this is more useful than the 343 value that includes a lot of less-primary guns.
+Note: yes, it is. We've later discovered that the 343 number was completely baseless from the start and should've been ignored from the first place.
 
 My mind just got blown. Apparently I can't read, because "meno 2 capisaldi" doesn't mean "with 2 strongpoints" but "minus 2 strongpoints".
 So if the XXXI sector was missing 2 strongpoints, what does that mean? Well the sector originally had two subsectors with 4 and 2 strongpoints. The XXXII sector had the same organization.
@@ -6483,5 +6489,29 @@ Also, I still don't have a good answer for the exact identity of the 18 guns "Fr
 One last thing. The 4th Tank Infantry Regiment's two tank battalions actually originally had 2 companies apiece, as they only had 31 and 36 tanks, respectively (Ignoring the 3rd Battalion, of course).
 They were mixed up in Tobruk and the 1st Medium Tank Battalion was left with the ones that couldn't go on. I think as it would have just 2 company headquarters, reorganization would be necessary.
 The change would not be the 3-company structure I had previously, but rather, one mobile and one immobile tank company. This would solve logistical problems while keeping the number of companies the same.
+
+The "Ancona" brigade, which would become the Sirte Division, still consisted of the 69th and 70th Infantry Regiments and was subordinated to the 10th Infantry Division near Turin.
+On the 24th of May 1915 both regiments were equipped with baggage trains, and had three battalions numbered sequentially and 12 companies also numbered sequentially.
+This detail may seem useless, but many Italian units had been sent to the colonies. Battalions sent over were replaced by a whole new battalion while companies sent over were replaced with their bis variant.
+In this case, though, we can know that this did not apply to the Ancona Brigade, with none of its battalions or companies out of the country, though this didn't affect its strength.
+During this war the brigades did not have engineer units. Rather, the engineer (genio, not artieri) companies were given one at a time to the divisions, the corps, and the armies.
+
+R52, R54, R55, R56, R57, and R59 were the first 6 posts that were lost. They had the following total strength: 4 47/32, 1 75/27, 1 20/65, 12 MGs (Fiat 35 / Schwarzlose)
+To be honest, I think the actual placement of the guns was arbitrary. Little information about the specific posts exists other than this one single detail that can be found in different places.
+Despite this, though, I will still try my best to make this apply to the existing Tobruk Composite Ring (a mouthful, I know) scenario, since it should't take more than few couple shuffling changes.
+Here's what I had before:
+R52: 1 77/28
+R54: 1 20/65
+R55: 1 77/28
+R56: 1 77/28
+R57: 1 47/32
+R59: 1 20/65
+Damn, I was quite far off. Here's what I plan to change it to:
+R52: 1 47/32
+R54: 1 20/65
+R55: 1 47/32
+R56: 1 75/27
+R57: 1 47/32
+R59: 1 47/32
 
 

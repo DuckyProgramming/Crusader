@@ -13107,7 +13107,7 @@ export var types={
                       pos:[3311,945],
                       elements:[
                         {
-                          level:5,type:[`Fortress`,`Infantry`,`Machine Gun`],team:`Guardia alla Frontiera`,
+                          level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
                           desc:[`Strongpoint Zeitun, 31st/A Frontier Guard Subsector`,`Caposaldo Zeitun, XXXI/A Sottosettore Guardia alla Frontiera`],name:`Zeitun`,designation:`XXXI/A`,commander:``,icon:``,
                           pos:[3431,851],
                           elements:[
@@ -15125,43 +15125,43 @@ export var types={
                               elements:[
                                 {level:7,type:[`Fortress`],desc:[`Fortification R56`,`Opera R56`],name:`R56`,designation:`Bir\nJunes`,pos:[3169,1509],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Squad, 246th Frontier Guard Static Artillery Battery`,`1ª Squadra, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`1`,designation:`246`,commander:``},
+                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Squad, Ad Hoc Battery "Derna"`,`1ª Squadra, Batteria di Formazione "Derna"`],name:`1`,designation:`Derna`,commander:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R58`,`Opera R58`],name:`R58`,designation:`Bir\nJunes`,pos:[3222,1499],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R59`,`Opera R59`],name:`R59`,designation:`Bir\nJunes`,pos:[3198,1526],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R60`,`Opera R60`],name:`R60`,designation:`Bir\nJunes`,pos:[3303,1478],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Squad, Ad Hoc Battery "Derna"`,`1ª Squadra, Batteria di Formazione "Derna"`],name:`1`,designation:`Derna`,commander:``},
+                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Squad, 246th Frontier Guard Static Artillery Battery`,`1ª Squadra, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`1`,designation:`246`,commander:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R61`,`Opera R61`],name:`R61`,designation:`Bir\nJunes`,pos:[3284,1511],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R62`,`Opera R62`],name:`R62`,designation:`Bir\nJunes`,pos:[3362,1433],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R63`,`Opera R63`],name:`R63`,designation:`Bir\nJunes`,pos:[3348,1471],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Squad, 246th Frontier Guard Static Artillery Battery`,`2ª Squadra, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`246`,commander:``},
+                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Squad, Ad Hoc Battery "Derna"`,`2ª Squadra, Batteria di Formazione "Derna"`],name:`2`,designation:`Derna`,commander:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R64`,`Opera R64`],name:`R64`,designation:`Bir\nJunes`,pos:[3414,1419],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R65`,`Opera R65`],name:`R65`,designation:`Bir\nJunes`,pos:[3415,1452],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R66`,`Opera R66`],name:`R66`,designation:`Bir\nJunes`,pos:[3400,1389],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Squad, Ad Hoc Battery "Derna"`,`2ª Squadra, Batteria di Formazione "Derna"`],name:`2`,designation:`Derna`,commander:``},
+                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Squad, 246th Frontier Guard Static Artillery Battery`,`2ª Squadra, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`246`,commander:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R67`,`Opera R67`],name:`R67`,designation:`Bir\nJunes`,pos:[3448,1391],elements:[
                                   {type:`Static Machine Gun Post`},
@@ -15207,7 +15207,7 @@ export var types={
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R48`,`Opera R48`],name:`R48`,designation:`Dahar el\nAzazi`,pos:[2930,1633],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Squad, 247th Frontier Guard Static Artillery Battery`,`2ª Squadra, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`247`,commander:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R49`,`Opera R49`],name:`R49`,designation:`Dahar el\nAzazi`,pos:[2908,1668],elements:[
                                   {type:`Static Machine Gun Post`},
@@ -15219,11 +15219,11 @@ export var types={
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R51`,`Opera R51`],name:`R51`,designation:`Dahar el\nAzazi`,pos:[2974,1641],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`4th Squad, 246th Frontier Guard Static Artillery Battery`,`4ª Squadra, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`4`,designation:`246`,commander:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R52`,`Opera R52`],name:`R52`,designation:`Dahar el\nAzazi`,pos:[3036,1572],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`4th Squad, 246th Frontier Guard Static Artillery Battery`,`4ª Squadra, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`4`,designation:`246`,commander:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R53`,`Opera R53`],name:`R53`,designation:`Dahar el\nAzazi`,pos:[3030,1609],elements:[
                                   {type:`Static Machine Gun Post`},
@@ -15235,7 +15235,7 @@ export var types={
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R55`,`Opera R55`],name:`R55`,designation:`Dahar el\nAzazi`,pos:[3083,1575],elements:[
                                   {type:`Static Machine Gun Post`},
-                                  {level:8,type:`1-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Squad, 247th Frontier Guard Static Artillery Battery`,`2ª Squadra, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`247`,commander:``},
+                                  {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 ]},
                                 {level:7,type:[`Fortress`],desc:[`Fortification R57`,`Opera R57`],name:`R57`,designation:`Dahar el\nAzazi`,pos:[3140,1563],elements:[
                                   {type:`Static Machine Gun Post`},
