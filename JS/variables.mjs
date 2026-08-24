@@ -3492,7 +3492,7 @@ export var types={
                 {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`1st Carpathian Rifle Battalion`,`1 Batalion Strzelców Karpackich`],name:`1`,designation:``,commander:`Kopeć`},
                 {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`2nd Carpathian Rifle Battalion`,`2 Batalion Strzelców Karpackich`],name:`2`,designation:``,commander:`Brzósko`},
                 {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`3rd Carpathian Rifle Battalion`,`3 Batalion Strzelców Karpackich`],name:`3`,designation:``,commander:`Sokol`},
-                {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
+                {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion - East`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
                 {level:4,type:`Motorized Infantry`,team:`Polish`,desc:[`Carpathian "Uhlans" Battalion`,`Pułk Ułanów Karpackich`],name:`U`,designation:``,commander:`Bobiński`},
                 {level:4,type:`Artillery`,team:`Polish`,desc:[`Carpathian Artillery Regiment`,`Karpacki Pułk Artylerii`],name:`C`,designation:``,commander:`Gliwicz`},
                 {level:4,type:`Reinforced Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
@@ -3690,7 +3690,7 @@ export var types={
                 {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`1st Carpathian Rifle Battalion`,`1 Batalion Strzelców Karpackich`],name:`1`,designation:``,commander:`Kopeć`},
                 {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`2nd Carpathian Rifle Battalion`,`2 Batalion Strzelców Karpackich`],name:`2`,designation:``,commander:`Brzósko`},
                 {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`3rd Carpathian Rifle Battalion`,`3 Batalion Strzelców Karpackich`],name:`3`,designation:``,commander:`Sokol`},
-                {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
+                {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion - East`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
                 {level:4,type:`Motorized Infantry`,team:`Polish`,desc:[`Carpathian "Uhlans" Battalion`,`Pułk Ułanów Karpackich`],name:`U`,designation:``,commander:`Bobiński`},
                 {level:4,type:`Artillery`,team:`Polish`,desc:[`Carpathian Artillery Regiment`,`Karpacki Pułk Artylerii`],name:`C`,designation:``,commander:`Gliwicz`},
                 {level:4,type:`Reinforced Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
@@ -4898,7 +4898,7 @@ export var types={
           ],
         },{
           name:`Breakout From Tobruk`,
-          strength:{name:`Companies`,num:[[40],[4,44]]},partition:[[0],[1],[2]],bonus:1,
+          strength:{name:`Companies`,num:[[42],[4,44]]},partition:[[0],[1],[2]],bonus:1,
           set:0,
           unit:[
             {
@@ -5024,36 +5024,43 @@ export var types={
                       ],
                     },{
                       level:4,type:[`Infantry`],team:`Czechoslovak`,
-                      desc:[`11th Czechoslovak Infantry Battalion`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`,icon:`70`,
+                      desc:[`11th Czechoslovak Infantry Battalion - East`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`,icon:`70`,
                       pos:[1506,584],
                       elements:[
                         {
                           level:5,type:[`Infantry`],team:`Czechoslovak`,
-                          desc:[`A Company, 11th Czechoslovak Infantry Battalion`,`A Společnost, 11. Československý Pěší Prapor — Východní`],name:`A`,designation:`11`,commander:``,icon:`70`,
+                          desc:[`A Company, 11th Czechoslovak Infantry Battalion - East`,`A Společnost, 11. Československý Pěší Prapor — Východní`],name:`A`,designation:`11`,commander:``,icon:`70`,
                           pos:[1383,333],
                           elements:[
                             {type:`Infantry Company`},
                           ],
                         },{
                           level:5,type:[`Infantry`],team:`Czechoslovak`,
-                          desc:[`B Company, 11th Czechoslovak Infantry Battalion`,`B Společnost, 11. Československý Pěší Prapor — Východní`],name:`B`,designation:`11`,commander:``,icon:`70`,
+                          desc:[`B Company, 11th Czechoslovak Infantry Battalion - East`,`B Společnost, 11. Československý Pěší Prapor — Východní`],name:`B`,designation:`11`,commander:``,icon:`70`,
                           pos:[1722,383],
                           elements:[
                             {type:`Infantry Company`},
                           ],
                         },{
                           level:5,type:[`Infantry`],team:`Czechoslovak`,
-                          desc:[`C Company, 11th Czechoslovak Infantry Battalion`,`C Společnost, 11. Československý Pěší Prapor — Východní`],name:`C`,designation:`11`,commander:``,icon:`70`,
+                          desc:[`C Company, 11th Czechoslovak Infantry Battalion - East`,`C Společnost, 11. Československý Pěší Prapor — Východní`],name:`C`,designation:`11`,commander:``,icon:`70`,
                           pos:[1739,489],
                           elements:[
                             {type:`Infantry Company`},
                           ],
                         },{
                           level:5,type:[`Infantry`],team:`Czechoslovak`,
-                          desc:[`D Company, 11th Czechoslovak Infantry Battalion`,`D Společnost, 11. Československý Pěší Prapor — Východní`],name:`D`,designation:`11`,commander:``,icon:`70`,
+                          desc:[`D Company, 11th Czechoslovak Infantry Battalion - East`,`D Společnost, 11. Československý Pěší Prapor — Východní`],name:`D`,designation:`11`,commander:``,icon:`70`,
                           pos:[1707,589],
                           elements:[
                             {type:`Infantry Company`},
+                          ],
+                        },{
+                          level:5,type:[`Infantry`,`Heavy`],team:`Czechoslovak`,
+                          desc:[`S Company, 11th Czechoslovak Infantry Battalion - East`,`S Společnost, 11. Československý Pěší Prapor — Východní`],name:`S`,designation:`11`,commander:``,icon:`70`,
+                          pos:[1610,581],
+                          elements:[
+                            {type:`Heavy Infantry Company`},
                           ],
                         },
                       ],
@@ -5175,6 +5182,13 @@ export var types={
                   pos:[1388,639],
                   elements:[
                     {type:`Small Artillery Battery`},
+                  ],
+                },{
+                  level:5,type:[`Mortar`],team:`British`,
+                  desc:`"Spigot" Mortars`,name:`Spigot`,designation:``,commander:``,icon:``,
+                  pos:[693,418],
+                  elements:[
+                    {type:`Mortar Company`},
                   ],
                 },
               ],
@@ -9724,7 +9738,7 @@ export var types={
                     {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`1st Carpathian Rifle Battalion`,`1 Batalion Strzelców Karpackich`],name:`1`,designation:``,commander:`Kopeć`},
                     {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`2nd Carpathian Rifle Battalion`,`2 Batalion Strzelców Karpackich`],name:`2`,designation:``,commander:`Brzósko`},
                     {level:4,type:`Mountain Infantry`,team:`Polish`,desc:[`3rd Carpathian Rifle Battalion`,`3 Batalion Strzelców Karpackich`],name:`3`,designation:``,commander:`Sokol`},
-                    {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
+                    {level:4,type:`Infantry`,team:`Czechoslovak`,desc:[`11th Czechoslovak Infantry Battalion - East`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`},
                     {level:4,type:`Motorized Infantry`,team:`Polish`,desc:[`Carpathian "Uhlans" Battalion`,`Pułk Ułanów Karpackich`],name:`U`,designation:``,commander:`Bobiński`},
                     {level:4,type:`Artillery`,team:`Polish`,desc:[`Carpathian Artillery Regiment`,`Karpacki Pułk Artylerii`],name:`C`,designation:``,commander:`Gliwicz`},
                   ],
@@ -11155,11 +11169,11 @@ export var types={
                     {level:4,type:`Motorized Artillery`,team:`New Zealand`,desc:[`5th New Zealand Artillery Battalion`,`5th New Zealand Field Regiment`],name:`5`,designation:``,commander:`Fraser`},
                   ],
                 },{
-                  level:4,type:[`Infantry`,`Motorized`],team:`Māori`,
-                  desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`,icon:`2nz`,
+                  level:4,type:[`Infantry`,"Machine Gun"],team:`New Zealand`,
+                  desc:`27th New Zealand Machine Gun Battalion`,name:`27`,designation:``,commander:`Gwilliam`,icon:`2nz`,
                   pos:[1008,870],
                   elements:[
-                    {level:4,type:`Motorized Infantry`,team:`Māori`,desc:`28th "Māori" New Zealand Infantry Battalion`,name:`28`,designation:``,commander:`Dittmer`},
+                    {level:4,type:`Motorized Machine Gun`,team:`New Zealand`,desc:`27th New Zealand Machine Gun Battalion`,name:`27`,designation:``,commander:`Gwilliam`},
                   ],
                 },
               ],

@@ -4321,5 +4321,40 @@ reserves=[
         {level:8,type:`1-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Gun`,`Pezzo da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
       ]},
     ]
+  },{
+    level:4,type:[`Infantry`],team:`Czechoslovak`,
+    desc:[`11th Czechoslovak Infantry Battalion`,`11. Československý Pěší Prapor — Východní`],name:`11`,designation:``,commander:`Klapálek`,icon:`70`,
+    pos:[1506,584],
+    elements:[
+      {
+        level:5,type:[`Infantry`],team:`Czechoslovak`,
+        desc:[`A Company, 11th Czechoslovak Infantry Battalion`,`A Společnost, 11. Československý Pěší Prapor — Východní`],name:`A`,designation:`11`,commander:``,icon:`70`,
+        pos:[1383,333],
+        elements:[
+          {type:`Infantry Company`},
+        ],
+      },{
+        level:5,type:[`Infantry`],team:`Czechoslovak`,
+        desc:[`B Company, 11th Czechoslovak Infantry Battalion`,`B Společnost, 11. Československý Pěší Prapor — Východní`],name:`B`,designation:`11`,commander:``,icon:`70`,
+        pos:[1722,383],
+        elements:[
+          {type:`Infantry Company`},
+        ],
+      },{
+        level:5,type:[`Infantry`],team:`Czechoslovak`,
+        desc:[`C Company, 11th Czechoslovak Infantry Battalion`,`C Společnost, 11. Československý Pěší Prapor — Východní`],name:`C`,designation:`11`,commander:``,icon:`70`,
+        pos:[1739,489],
+        elements:[
+          {type:`Infantry Company`},
+        ],
+      },{
+        level:5,type:[`Infantry`],team:`Czechoslovak`,
+        desc:[`D Company, 11th Czechoslovak Infantry Battalion`,`D Společnost, 11. Československý Pěší Prapor — Východní`],name:`D`,designation:`11`,commander:``,icon:`70`,
+        pos:[1707,589],
+        elements:[
+          {type:`Infantry Company`},
+        ],
+      },
+    ],
   },
 ]

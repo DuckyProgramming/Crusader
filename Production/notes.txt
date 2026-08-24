@@ -5702,6 +5702,7 @@ However, the battery numbers are often irregular. Those that fought with the 2nd
 7th Anti-Tank Regiment: 31,32,33,34
 14th Light Anti-Aircraft Regiment: 41,42,43
 Some other units like the 12th Field Regiment and 39th Heavy Mortar Battery were at times part of the division but I haven't seen any reference to them in North Africa.
+They also had lettered troops, but unlike British troops which were typically just lettered A, B, and C, the New Zealand troops were lettered sequentially with the 33rd Anti-Tank Battery having an L Troop.
 
 South African Field Regiments also had three batteries apiece with 8 guns each. However the batteries were often reorganized, such as at Tobruk in 1942 (2nd, 4th, 5th, 8th, 9th, and 12th) batteries present.
 But at no point in the entire game currently do South African artillery units appear at the company level, so even though I was wrong about this previously, there's no consequences for it.
@@ -6513,5 +6514,26 @@ R55: 1 47/32
 R56: 1 75/27
 R57: 1 47/32
 R59: 1 47/32
+
+Based on various details, it's becoming clear that the Italians didn't consider Acroma or its road very important at all. There's a couple reasons for this.
+First, the road is downright not mentioned often. It's straight up forgotten at times, as unlike the other three, Pitassi Manella didn't have a roadblock built to block it.
+Also, the Ras el Medauuar and Bir el Medauuar strongpoints directly faced this direction, but don't seem to have been reinforced much. Pilastrino behind them was to fill this task, however.
+Finally, remember that one subsector of the G.a.F. was responsible for the defense of the Gazala road and of the Acroma road, while naother subsector sat uselessly in the desert. Really shows its irrelevance.
+Honestly, this does seem a bit weird at times, though, because Acroma wasn't an irrelevant place. Pitassi Manella's headquarters had actually been there at the start of the war, so I'm not sure what changed.
+
+The Tobruk base had a water-producing capability of 850 cubic meters per day. Compared to an ocean or even a pool 850 cubic meters sounds like not that much, but it's more than enough for the battle.
+The math can be rough, but a cubic meter is 1000 litres and that means that the 25,000 man garrison had 3 or more litres per person, per day. It ain't perfect, but you can easily live on that.
+
+While prisoners lost by the Australians in Tobruk are not usually discussed, they were quite high thanks to the ill-advised aggressive patrolling. Sure, they weren't as severe as Italian losses, but they weren't negligible.
+More interestingly, a man from the Royal Corps of Signals, a British unit, was captured somehow. Not much can really be said about him other than that many prisoners died of exposure on the boats.
+
+Also, there's some more TIK misinformation. Eruera Love, whom he claims as the commander of the 28th (Maori) Battalion, didn't take command until May 1942. This time period doesn't include Crusader.
+Rather, the battalion's commander was George Dittmer, later to reach the rank of Brigader. He commanded from November 1939 to February 1942. Between the two, the battalion was led by Humphrey Dyer.
+Love was killed soon after in July 1942, killed by shellfire, despite not being at Minqar Qaim. This was something I got wrong when I put it there. His replacement was Fred Baker. He was then wounded at 2nd El Alamein.
+The battalion might seem like a unique unit but its structure ended up being the same as any other, with four rifle companies organized along tribal lines and a headquarters company, totaling 700 men.
+
+The 11th Czechoslovak Battalion (referred to as East) was originally a regiment, but was barely at strength with just 2 combat companies and 2 consisting of just cadres, so it was always at battalion level.
+The battalion was formed from five companies, 4 rifle and 1 support. This support company was a weapons and support company, not a headquarters one, as the headquarters was a separate unit from any of the companies.
+It became the 200th Light Anti-Aircraft Regiment in March 1942, and increased in personnel strength, but wouldn't see much of any combat for the rest of the war, managing to avoid the destruction of the 4th Anti-Aircraft Brigade.
 
 

@@ -249,9 +249,11 @@ Buffs:
 https://collection.nam.ac.uk/detail.php?acc=2002-02-1077-3
 Mahratta Light Infantry:
 https://www.ww2talk.com/index.php?threads/1st-battalion-5th-mahratta-light-infantry.34006/page-2
-Rifle Brigade:
+2nd Battalion, Rifle Brigade:
 https://www.flamesofwar.com/Default.aspx?tabid=112&art_id=578&kb_cat_id=34
 https://www.ww2talk.com/index.php?threads/s-company-2-rifle-brigade.40636/
+http://www.desertrats.org.uk/orginfantry.htm#KRRC
+https://mail.ww2talk.com/index.php?threads/10795-major-general-james-malcolm-leslie-renton-cb-dso-obe-mid-rifle-brigade.98057/
 Commanders (Unreliable):
 https://2ndbn5thmar.com/wp-content/uploads/2023/09/Br8thArmy1941.pdf
 Highland Light Infantry:
@@ -290,9 +292,8 @@ https://www.ww2talk.com/index.php?threads/7th-royal-tank-regiment.18759/page-6
 7th Armored-Adjacent War Diaries:
 http://desertrats.org.uk/WarDiaries/4th_RHA/4thRHA1941.htm
 http://desertrats.org.uk/WarDiaries/C_Battery/CBattery1940_1941.htm
-2nd Battalion, Rifle Brigade:
-http://www.desertrats.org.uk/orginfantry.htm#KRRC
-https://mail.ww2talk.com/index.php?threads/10795-major-general-james-malcolm-leslie-renton-cb-dso-obe-mid-rifle-brigade.98057/
+Captured Signalman:
+https://portal.sds.ox.ac.uk/articles/online_resource/Taken_as_a_prisoner_of_war_at_the_Siege_of_Tobruk/25939219
 
 Australia:
 Official History:
@@ -310,6 +311,8 @@ https://digitize-vwma.s3.amazonaws.com/I/documents/11350/file/BESIER__Henry_Rode
 New Zealand:
 Artillery:
 https://www.ww2talk.com/index.php?threads/new-zealand-artillery-regiments-ww2.88363/
+Maori Battalion:
+https://28maoribattalion.org.nz/story-of-the-28th/about-the-28th
 
 South Africa:
 https://www.academia.edu/10239842/Sidi_Rezegh_and_Tobruk_two_South_African_military_disasters_revisited_1941_1942?sm=b&rhid=41486562204
@@ -327,7 +330,9 @@ https://ww2talk.com/index.php?threads/major-robert-crisp.88613/page-2
 Artillery:
 https://www.gunners.org.za/wp-content/uploads/2017/03/The-Gunner-book1-1.pdf
 
-Czech Battalion:
+Czech:
+11th Battalion:
+https://web.archive.org/web/20070911020143/http://www.nasenoviny.com/FreeArmyMidEastEN.html
 http://www.rothwell.force9.co.uk/11th.htm
 
 Misc:
