@@ -110,7 +110,7 @@ export var types={
     {name:`Mechanized Infantry Company`,unitType:[`Infantry`,`Mechanized`],class:0,damage:[10,4],armor:0.5,health:25,morale:1,num:200,speed:2.25,artillery:false,engineer:false,recon:false},
 
     {name:`Awful Tank`,unitType:[`Tank`,`Light`],class:1,damage:[9,3],armor:0.6,health:60,morale:0.35,num:50,speed:1.7,artillery:false,engineer:false,recon:false},
-    {name:`Terrible Tank`,unitType:[`Tank`,`Light`],class:1,damage:[10,4],armor:0.6,health:60,morale:0.4,num:50,speed:1.8,artillery:false,engineer:false,recon:false},
+    {name:`Terrible Tank`,unitType:[`Tancompanyk`,`Light`],class:1,damage:[10,4],armor:0.6,health:60,morale:0.4,num:50,speed:1.8,artillery:false,engineer:false,recon:false},
     {name:`Terrible Tank Company`,unitType:[`Tank`,`Light`],class:1,damage:[10,4],armor:0.6,health:20,morale:0.4,num:18,speed:1.8,artillery:false,engineer:false,recon:false},
     {name:`Small Terrible Tank Company`,unitType:[`Tank`,`Light`],class:1,damage:[10,4],armor:0.6,health:3,morale:0.4,num:3,speed:1.8,artillery:false,engineer:false,recon:false},
     {name:`Immobile Terrible Tank Company`,unitType:[`Tank`,`Light`,`Immobile`],class:1,damage:[10,4],armor:0.5,health:15,morale:0.4,num:16,speed:0.2,artillery:false,engineer:false,recon:false},
@@ -126,6 +126,7 @@ export var types={
     {name:`Reduced Medium Tank`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:40,morale:0.6,num:35,speed:1.5,artillery:false,engineer:false,recon:false},
     {name:`Captured Medium Tank`,unitType:[`Tank`],class:1,damage:[11,11],armor:0.75,health:55,morale:0.6,num:50,speed:1.45,artillery:false,engineer:false,recon:false},
     {name:`Captured Medium Tank Company`,unitType:[`Tank`],class:1,damage:[11,11],armor:0.75,health:7,morale:0.6,num:6,speed:1.45,artillery:false,engineer:false,recon:false},
+    {name:`4-Tank Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:4,morale:0.6,num:4,speed:1.5,artillery:false,engineer:false,recon:false},
     {name:`14-Tank Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:15,morale:0.6,num:14,speed:1.5,artillery:false,engineer:false,recon:false},
     {name:`15-Tank Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:16,morale:0.6,num:15,speed:1.5,artillery:false,engineer:false,recon:false},
     {name:`Medium Tank Company`,unitType:[`Tank`],class:1,damage:[12,12],armor:0.8,health:20,morale:0.6,num:19,speed:1.5,artillery:false,engineer:false,recon:false},
@@ -2732,7 +2733,7 @@ export var types={
               pos:[530,504],
               elements:[
                 {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
-                {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
+                {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Marlan`},
                 {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
               ],
             },{
@@ -4639,13 +4640,6 @@ export var types={
                   elements:[
                     {level:5,type:`Motorized Anti-Tank Company`,team:`Australian`,desc:`20th Australian Anti-Tank Company`,name:`20`,designation:``,commander:``},
                   ],
-                },{
-                  level:5,type:[`Engineer`,`Motorized`],team:`Australian`,
-                  desc:[`7th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/7th Field Company, Royal Australian Engineers`],name:`2/7`,designation:``,commander:``,icon:`9a`,
-                  pos:[1196,244],
-                  elements:[
-                    {level:5,type:`Motorized Engineer Company`,team:`Australian`,desc:[`7th Field Company, Royal Australian Engineers, 2nd Australian Expeditionary Force`,`2/7th Field Company, Royal Australian Engineers`],name:`2/7`,designation:``,commander:``},
-                  ],
                 },
               ],
             },{
@@ -4683,10 +4677,10 @@ export var types={
               elements:[
                 {
                   level:5,type:[`Infantry`,`Motorized`],team:`Indian`,
-                  desc:[`A Squadron, 18th Cavalry Battalion "King Edward VII's Own"`,`A Squadron, 18th King Edward VII's Own Cavalry`],name:`A`,designation:`18 KEO`,commander:``,icon:``,
+                  desc:[`A Squadron, 18th Cavalry Battalion "King Edward VII's Own"`,`A Squadron, 18th King Edward VII's Own Cavalry`],name:`A`,designation:`18 KEO`,commander:`Barlow`,icon:``,
                   pos:[1054,364],
                   elements:[
-                    {level:5,type:`Weaker Motorized Infantry Company`,team:`Indian`,desc:[`A Squadron, 18th Cavalry Battalion "King Edward VII's Own"`,`A Squadron, 18th King Edward VII's Own Cavalry`],name:`A`,designation:`18 KEO`,commander:``},
+                    {level:5,type:`Weaker Motorized Infantry Company`,team:`Indian`,desc:[`A Squadron, 18th Cavalry Battalion "King Edward VII's Own"`,`A Squadron, 18th King Edward VII's Own Cavalry`],name:`A`,designation:`18 KEO`,commander:`Barlow`},
                   ],
                 },{
                   level:5,type:[`Infantry`,`Motorized`],team:`Indian`,
@@ -4713,7 +4707,7 @@ export var types={
               ],
             },{
               level:4,type:[`Tank`,`Light`],team:`British`,
-              desc:[`Composite Regiment, 3rd Armored Brigade`,`Composite Regiment, 3rd Armoured Brigade`],name:`C`,designation:`3 AB`,commander:`Carver`,icon:`2a`,
+              desc:[`Composite Regiment, 3rd Armored Brigade`,`Composite Regiment, 3rd Armoured Brigade`],name:`C`,designation:`3 AB`,commander:`Drew`,icon:`2a`,
               pos:[1186,442],
               elements:[
                 {
@@ -4724,18 +4718,25 @@ export var types={
                     {type:`Terrible Tank Company`},
                   ],
                 },{
-                  level:5,type:[`Tank`,`Light`],team:`British`,
+                  level:5,type:[`Tank`],team:`British`,
                   desc:[`Composite Squadron, 5th Battalion, Royal Tank Regiment`,`Composite Squadron, 5th Royal Tank Regiment`],name:`C`,designation:`5 RTR`,commander:``,icon:`2a`,
                   pos:[1317,554],
                   elements:[
-                    {type:`Terrible Tank Company`},
+                    {type:`4-Tank Medium Tank Company`},
                   ],
                 },{
-                  level:5,type:[`Tank`,`Light`],team:`British`,
-                  desc:[`Composite Squadron, 6th Battalion, Royal Tank Regiment`,`Composite Squadron, 6th Royal Tank Regiment`],name:`C`,designation:`6 RTR`,commander:``,icon:`2a`,
+                  level:5,type:[`Infantry`],team:`British`,
+                  desc:[`Dismounted Squadron, 5th Battalion, Royal Tank Regiment`,`Dismounted Squadron, 5th Royal Tank Regiment`],name:`D`,designation:`5 RTR`,commander:``,icon:`2a`,
+                  pos:[999,555],
+                  elements:[
+                    {level:5,type:`Small Ruined Infantry Company`,team:`British`,desc:[`Dismounted Squadron, 5th Battalion, Royal Tank Regiment`,`Dismounted Squadron, 5th Royal Tank Regiment`],name:`C`,designation:`5 RTR`,commander:``},
+                  ],
+                },{
+                  level:5,type:[`Infantry`],team:`British`,
+                  desc:[`Dismounted Squadron, 6th Battalion, Royal Tank Regiment`,`Dismounted Squadron, 6th Royal Tank Regiment`],name:`D`,designation:`6 RTR`,commander:``,icon:`2a`,
                   pos:[1565,375],
                   elements:[
-                    {type:`Terrible Tank Company`},
+                    {level:5,type:`Small Ruined Infantry Company`,team:`British`,desc:[`Dismounted Squadron, 6th Battalion, Royal Tank Regiment`,`Dismounted Squadron, 6th Royal Tank Regiment`],name:`C`,designation:`6 RTR`,commander:``},
                   ],
                 },
               ],

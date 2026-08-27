@@ -6518,8 +6518,12 @@ R59: 1 47/32
 Based on various details, it's becoming clear that the Italians didn't consider Acroma or its road very important at all. There's a couple reasons for this.
 First, the road is downright not mentioned often. It's straight up forgotten at times, as unlike the other three, Pitassi Manella didn't have a roadblock built to block it.
 Also, the Ras el Medauuar and Bir el Medauuar strongpoints directly faced this direction, but don't seem to have been reinforced much. Pilastrino behind them was to fill this task, however.
-Finally, remember that one subsector of the G.a.F. was responsible for the defense of the Gazala road and of the Acroma road, while naother subsector sat uselessly in the desert. Really shows its irrelevance.
+Finally, remember that one subsector of the G.a.F. was responsible for the defense of the Gazala road and of the Acroma road, while another subsector sat uselessly in the desert. Really shows its irrelevance.
 Honestly, this does seem a bit weird at times, though, because Acroma wasn't an irrelevant place. Pitassi Manella's headquarters had actually been there at the start of the war, so I'm not sure what changed.
+Another thing that annoys me at times is that often everything in the Italian army is written lowercase, including the names of the subsectors. I think this looks terrible so I've not been doing it.
+And finally, while Ras el Medauuar, the strongpoint facing this direction, is discussed somewhat, it is also the border between the two series of defenses, R and S, including the origin ones, just called R and S.
+Note that sometimes R or S are entirely forgotten. After all, they are uniquely named positions and don't even get numbers. Still, this makes me a little confused about if they actually existed.
+An alternative explanation for this is that since Ras el Medauuar was a natural high point (impressively high, for the desert), it was naturally easier to defend and so needed less focus.
 
 The Tobruk base had a water-producing capability of 850 cubic meters per day. Compared to an ocean or even a pool 850 cubic meters sounds like not that much, but it's more than enough for the battle.
 The math can be rough, but a cubic meter is 1000 litres and that means that the 25,000 man garrison had 3 or more litres per person, per day. It ain't perfect, but you can easily live on that.
@@ -6535,5 +6539,140 @@ The battalion might seem like a unique unit but its structure ended up being the
 The 11th Czechoslovak Battalion (referred to as East) was originally a regiment, but was barely at strength with just 2 combat companies and 2 consisting of just cadres, so it was always at battalion level.
 The battalion was formed from five companies, 4 rifle and 1 support. This support company was a weapons and support company, not a headquarters one, as the headquarters was a separate unit from any of the companies.
 It became the 200th Light Anti-Aircraft Regiment in March 1942, and increased in personnel strength, but wouldn't see much of any combat for the rest of the war, managing to avoid the destruction of the 4th Anti-Aircraft Brigade.
+
+Similar to the corps artillery numbering, G.a.F. artillery batteries were also numbered semi-sequentially and by caliber. This is not exhaustive, but:
+Batteries 84-99 were of 149/35 and batteries 215-228 were of 105/14. Batteries starting from an unknown number (maybe 201) to 267 were of 65/17. Batteries 329-355 and 359 were of 75/27, and up to 371 were of 100/17.
+
+A while ago, I took a look at the defense plan of the 2nd South African Division and its similarity to the Italian defense plan during the first siege of Tobruk.
+Strangely, though, I never did something similar with the 1st siege and the 9th Australian Infantry Division. I can't really say why I didn't do this, I guess I just didn't think I could do it correctly?
+I might as well also update the version I had for the 2nd siege, since while it hasn't been too long since I made it, there are still some questionable decisions within it that I think should be updated.
+
+After spending a bit of time trying to do this, I think I figured out the reason why I never made an initial version for the Australians. I just couldn't find any information.
+There are a couple maps online but they are close to useless. The same is true of whatever I can find on search engines. The option I have left is to read the official history.
+
+9th Australian Division (HQ Fort Pilastrino)*
+    Eastern Sector (26th Australian Brigade)
+        2/24th Battalion (Subsector E)
+            1 Company of the 2/23rd Battalion
+        2/48th Battalion (Subsector D)
+    Central Sector (20th Australian Brigade)
+        2/17th Battalion (Subsector C)
+        2/13th Battalion (Subsector B)
+    Western Sector (24th Australian Brigade)
+        2/28th Battalion (Strongpoints Bir Junes, Suesi)
+        2/43rd Battalion (Strongpoints Sidi Daud, Zeitun)
+Note: Earlier, only the 18th (later in reserve) and 24th Brigades were there while the other two were still retreating from Cyrenaica. The deployment was probably still similar to this, maybe with the exact boundaries as well.
+2nd South African Division (HQ Between Fort Solaro and Gabr el Abd)*
+    Eastern Sector (11th Indian Infantry Brigade) (HQ Sidi Mahmud)*
+        (Subsector A)
+            2nd/7th Gurkha Rifles (Strongpoints Sidi Daud, Zeitun)
+            2nd/5th Mahratta Light Infantry (Strongpoints Bir Junes, Suesi)
+        (Subsector B)
+            2nd Cameron Highlanders (Strongpoint Dahar el Azazi, Half of Bir Umm Haleiga)
+            Part of the Beer Group (Half of Strongpoint Bir Umm Haleiga)
+    Western Sector (4th South African Brigade) (HQ Fort Pilastrino)*
+        (Subsector C)
+            Part of the Beer Group (Strongpoint Hagfet Umm Haleiga)
+            Kaffrarian Rifles
+        (Subsector D)
+            Blake Group (Strongpoint Bir el Medauuar)
+            Umvoti Mounted Rifles (Strongpoint Ras el Medauuar)
+            2nd Royal Durban Light Infantry (Strongpoint Ras es Sehel)
+    Northern Sector (6th South African Brigade) (HQ Ras bel Ghemel)
+        (Subsector E)
+            2nd Transvaal Scottish (Strongpoint Es Sehel)
+            2nd South African Police Battalion (Strongpoints Bir el Meclub, Umm Cuheil)
+        (Coastal Sector)
+            1st South African Police Battalion
+            7th South African Armored Car Battalion
+* - Parallel to the Italian plan
+Interesting takeaways:
+    1st Siege:
+        Not much to say. The initial defense made use of very few actual troops and thus the line was held thinly but with numerous reserves.
+        This is honestly a mistake, though. It gives up the advantage of the fortifications, one of the few the defender enjoys. Except in this case, because of German incompetence.
+    2nd Siege:
+        The Kaffrarian Rifles getting the entirety of Subsector C is little insane. It's approximate, so maybe the subsector boundaries were edited around slightly to reduce its size.
+        The need for the entire 6th South African Brigade to guard the coast is quite unjustifiable given the Italians never needed anything except for the small coastal sector of Admiral Vietina.
+        Since so much is similar, it proves that Pitassi Manella's deployment wasn't a complete mistake. That said, both of these sieges were ended quite swiftly, so I'm not sure about that.
+
+The formation of the 70th Infantry Division (then the 6th Infantry Division) was a bit of chaos. Since its headquarters, and O'Connor with it, had become the WDF and then 13th Corps, it needed to reform with its brigades.
+Only on the 17th of February 1941 was it fully reformed, though back on the 7th it existed, though was noted as "in the process of formation". It also lacked any artillery guns.
+Similarly, while there were by then three Australian divisions operating in the middle east, they too were lacking in field guns. It seems that maybe packing your divisions with 72 guns each may not be too practical in the desert.
+Mentioned with the other divisions is the Polish brigade, but not mentioned is the 3rd Indian Motor Brigade, even though it was on its way. Maybe since it was in training, it wasn't counted.
+
+One other interesting decision I've seen from the Australian official history is that Wavell actually wanted to send the 9th division to Greece and let the 6th get some rest, as it was already exhausted.
+This was overruled by Thomas Blamey, commander of I Australian Corps, a man who I consider excessively incompetent. He wanted the "best" 6th division there even if it was badly weakened by previous combat.
+Had Wavell's better strategic mind been listened to, this could've been a disaster averted. A better-rested 6th division may have had the power to actually stop Rommel's overextended columsn and the Greek disaster would've been smaller.
+
+The formation of the 9th Division was also chaotic. Most of its subunits had initially been formed for the other divisions and there were loose brigades lying around as well, which it received.
+The I Corps, which rarely fought as a single formation and never did so in the desert, also had two field regiments and two medium regiments formed to act as its corps artillery.
+The 9th division began assembling in the middle east with the loose 18th and 25th brigades, with the planned corps regiments becoming its property (now three field regiments, one converted from medium caliber).
+The remaining infantry brigade, anti-tank regiment, and other support units were newly formed in Australia and sent to the middle east where they were intended to join the rest of the division.
+This was reversed when Blamey heard of it and instead the division swapped units with the 8th division, receiving the 24th brigade from it. Thus the division was actually better than the 8th despite being formed later.
+The 20th Brigade, with the 2/13th, 2/15th, and 2/17th Battalions was the first one to arrive in Cyrenaica, moving in a series of truck convoys. They relieved Savige's 17th Brigade, currently the frontier garisson.
+This was the order of battle on the 8th of March:
+9th Australian Division - Morshead (later to be replaced by 2nd Armoured Division) [Bir el Tombia]
+    Frontier
+        20th Brigade - Murray
+            2/13th Battalion - Burrows [Beda Fomm, Reserve]
+                1 Company [Barce]
+            2/15th Battalion - Marlan [Behind Mersa Brega]
+            2/17th Battalion - Crawford [Mersa Brega]
+        3rd Armoured Brigade - Rimington
+            3rd Hussars (32 Light Tanks)
+            16th Australian Anti-Tank Comapny
+        2nd Support Group
+            1st Free French Motor Battalion (2 Companies)
+        1st King's Dragoon Guards
+    Rear Area
+        Beda Fomm
+            Squadron, 6th Royal Tank Reigment (M13 Tanks)
+        Benghazi
+            1st Battalion, Tower Hamlets Rifles (Only 250 Men Available)
+            1st Battalion, Royal Northumberland Fusiliers
+        Barce
+            9th Division Engineers
+            2/4th Field Company
+        El Adem
+            5th Royal Tank Regiment (Cruiser Tanks)
+            6th Royal Tank Regiment (Minus 1 Squadron)
+        Derna
+            2/1st Pioneer Battalion
+    1st Regiment, Royal Horse Artillery
+    51st Regiment, Royal Artillery
+    104th Regiment, Royal Horse Artillery
+    J Battery, Royal Horse Artillery
+
+Australian historians have a pretty high view of Neame's performance prior to the defeat of Sonnenblume. They talk about his success during the first world war and snubs during the French campaign and Compass.
+The soldiers were also numerologists, in a way. They liked being part of a smaller-numbered unit and having smaller personal numbers. Just like the 1st (Marine), 2nd, and 3rd Divisions in the US are given special treatment.
+As anyone with a brain can tell you, this practice is complete garbage. In war all men are created equal, as are all units only and exactly as good as their subunits. Seniority alone is useless.
+Marlan, the first commander of the 2/15th Battalion, was captured along with about a company of men of his battalion when he was overrun by either German or Italian units (unknown so far) during Sonnenblume.
+Thompson was the South African commander of the Tobruk base during the 1942 battle. During 1941, an Australian was responsible for the base, a Lt.-Col. Cook who would remain as the siege began.
+He was then upgraded to full area commander and it appears he was promoted up to a full colonel as well. Under his leadership engineers repaired base installations and Italian prisoners were cleared out.
+
+The "Bush" guns were not as great in number as I would expect. While it is true that there were a lot of Italian guns available in Tobruk, a lack of maintenance crippled many of them.
+By the time that Rommel had reached Australian positions in Tobruk, while the 1st Tower Hamlets Rifles had not been destroyed, of its companies only a single one was labelled as strong.
+Lavarack was not promoted to be the commander of Tobruk and it doesn't seem like his headquarters were all present. Rather, his task was to command all of Cyrenaica, with Morshead as a subordinate.
+Colonel cook claimed that the blue line existed and this caused Wavell to want to withdraw to it, but Lavarack discovered that it was unfeasible since this inner line didn't really exist.
+
+Here's the exact composition of the 3rd Armoured Brigade as part of the Tobruk Garrison:
+3rd Armoured Brigade - Drew
+    1st Royal Tank Regiment (11 Cruisers, 15 Light)
+    Composite Regiment, 3 Hussars/5th RTR (4 Cruisers, 18 Light)
+    Workshops (22 Cruisers)
+    1st King's Dragoon Guards (Later Attached)
+    4 Infantry Tanks of the 4th RTR (Later Arrived)
+And here's how I intend to implement it:
+Composite Regiment, 3 Hussars/5th RTR (2 Squadrons) - Drew (4 Cruisers, 18 Light)
+
+A company led by a Mason of the 1st Battalion, King's Royal Rifle Corps seems to have been lost when it was cut off at Derna. However the information I have so far about this is sketchy.
+Actually, no. I read some more from a different chapter and Mason actually survived but was split up from the rest of the battalion. Rather than head toward Tobruk, he eventually turned up at Sollum.
+B/O Battery of the 1st Regiment, Royal Horse Artillery was commanded by a Captain Loder-Symonds. At that time de Salis was also already in command of the 1st King's Royal Rifle Corps.
+On the ineffectiveness of the 3rd Armoured Brigade, its 5th Royal Tank Regiment had lost 1 tank to a mine, 9 to the enemy, and 28 to mechanical problems. It realy wasn't just an excuse.
+British (and Australian) demolitions on the retreat were also quite poor. It doesn't seem like they did much to hinder the enemy advance other than remove supplies, but they also got in the way of their own trucks.
+
+Another mistake I would accuse the Australians of making was the refusal to fire or relive officers. There are several examples of this, but several is not enough when in other armies good officers rose quickly.
+Rather, the Australians ended up with a lot of lower commanders rising to higher positions only because of charisma and rarely because of some kind of talent. This is honestly very unimpressive.
+Many top British battalion or brigade commanders could rise to corps command or even higher, with Gott the best example. While he was no genius I think he remains underrated. There's no Australian analogue to this guy.
 
 
