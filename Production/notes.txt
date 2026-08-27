@@ -6521,9 +6521,11 @@ Also, the Ras el Medauuar and Bir el Medauuar strongpoints directly faced this d
 Finally, remember that one subsector of the G.a.F. was responsible for the defense of the Gazala road and of the Acroma road, while another subsector sat uselessly in the desert. Really shows its irrelevance.
 Honestly, this does seem a bit weird at times, though, because Acroma wasn't an irrelevant place. Pitassi Manella's headquarters had actually been there at the start of the war, so I'm not sure what changed.
 Another thing that annoys me at times is that often everything in the Italian army is written lowercase, including the names of the subsectors. I think this looks terrible so I've not been doing it.
+
 And finally, while Ras el Medauuar, the strongpoint facing this direction, is discussed somewhat, it is also the border between the two series of defenses, R and S, including the origin ones, just called R and S.
 Note that sometimes R or S are entirely forgotten. After all, they are uniquely named positions and don't even get numbers. Still, this makes me a little confused about if they actually existed.
 An alternative explanation for this is that since Ras el Medauuar was a natural high point (impressively high, for the desert), it was naturally easier to defend and so needed less focus.
+Still, we know from the German and Italian success there that a bit of a natural advantage was not enough to improve its defenses, as they managed to capture the wedge between R7 and S7 (taking advantage of the split).
 
 The Tobruk base had a water-producing capability of 850 cubic meters per day. Compared to an ocean or even a pool 850 cubic meters sounds like not that much, but it's more than enough for the battle.
 The math can be rough, but a cubic meter is 1000 litres and that means that the 25,000 man garrison had 3 or more litres per person, per day. It ain't perfect, but you can easily live on that.
@@ -6550,47 +6552,77 @@ I might as well also update the version I had for the 2nd siege, since while it 
 After spending a bit of time trying to do this, I think I figured out the reason why I never made an initial version for the Australians. I just couldn't find any information.
 There are a couple maps online but they are close to useless. The same is true of whatever I can find on search engines. The option I have left is to read the official history.
 
-9th Australian Division (HQ Fort Pilastrino)*
-    Eastern Sector (26th Australian Brigade)
-        2/24th Battalion (Subsector E)
-            1 Company of the 2/23rd Battalion
-        2/48th Battalion (Subsector D)
-    Central Sector (20th Australian Brigade)
-        2/17th Battalion (Subsector C)
-        2/13th Battalion (Subsector B)
-    Western Sector (24th Australian Brigade)
-        2/28th Battalion (Strongpoints Bir Junes, Suesi)
-        2/43rd Battalion (Strongpoints Sidi Daud, Zeitun)
-Note: Earlier, only the 18th (later in reserve) and 24th Brigades were there while the other two were still retreating from Cyrenaica. The deployment was probably still similar to this, maybe with the exact boundaries as well.
-2nd South African Division (HQ Between Fort Solaro and Gabr el Abd)*
-    Eastern Sector (11th Indian Infantry Brigade) (HQ Sidi Mahmud)*
-        (Subsector A)
-            2nd/7th Gurkha Rifles (Strongpoints Sidi Daud, Zeitun)
-            2nd/5th Mahratta Light Infantry (Strongpoints Bir Junes, Suesi)
-        (Subsector B)
-            2nd Cameron Highlanders (Strongpoint Dahar el Azazi, Half of Bir Umm Haleiga)
-            Part of the Beer Group (Half of Strongpoint Bir Umm Haleiga)
-    Western Sector (4th South African Brigade) (HQ Fort Pilastrino)*
-        (Subsector C)
-            Part of the Beer Group (Strongpoint Hagfet Umm Haleiga)
-            Kaffrarian Rifles
-        (Subsector D)
-            Blake Group (Strongpoint Bir el Medauuar)
-            Umvoti Mounted Rifles (Strongpoint Ras el Medauuar)
-            2nd Royal Durban Light Infantry (Strongpoint Ras es Sehel)
-    Northern Sector (6th South African Brigade) (HQ Ras bel Ghemel)
-        (Subsector E)
-            2nd Transvaal Scottish (Strongpoint Es Sehel)
-            2nd South African Police Battalion (Strongpoints Bir el Meclub, Umm Cuheil)
-        (Coastal Sector)
-            1st South African Police Battalion
-            7th South African Armored Car Battalion
+1st Siege
+    1st Deployment
+        9th Australian Division (HQ Fort Pilastrino)*
+            Eastern Sector (26th Australian Brigade)
+                2/24th Battalion (Subsector E)
+                    1 Company of the 2/23rd Battalion
+                2/48th Battalion (Subsector D)
+            Central Sector (20th Australian Brigade)
+                2/17th Battalion (Subsector C)
+                2/13th Battalion (Subsector B)
+            Western Sector (24th Australian Brigade)
+                2/28th Battalion (Strongpoints Bir Junes, Suesi)
+                2/43rd Battalion (Strongpoints Sidi Daud, Zeitun)            
+        Note: Earlier, only the 18th (later in reserve) and 24th Brigades were there while the other two were still retreating from Cyrenaica. The deployment was probably still similar to this, maybe with the exact boundaries as well.
+    2nd Deployment
+        9th Australian Division (HQ Between Fort Solaro and Gabr el Abd)*
+            24th Brigade (HQ Sidi Mahmud)*
+                AASC (Strongpoint Zeitun)
+                C Company, 2/43rd Battalion (Strongpoint Sidi Daud)
+                2/28th Battalion (Strongpoints Suesi and Bir Junes)
+                2/32nd Battalion (Reserve Sidi Mahmud)
+            18th Brigade (HQ King's Cross/El Adem Crossroads)*
+                (2/9th Battalion looks to have been transferred)
+                2/10th Battalion (Reserve Pilastrino)
+                2/12th Battalion (Reserve line from Gabr bel Ghemel and Bir Baccara)
+            20th Brigade (HQ Point 144)*
+                2/13th Battalion (Reserve line from Gabr Gasem to the El Adem Road)
+                2/15th Battalion (Subsector C)
+                2/17th Battalion (Subsector B)
+            26th Brigade (HQ Gabr el Abd)*
+                2/9th Battalion (Facing the Salient, Attached)
+                2/23rd Battalion (Strongpoints Ras es Sehel and Es Sehel)
+                2/24th Battalion (Reserve, Facing the Salient)
+                2/48th Battalion (Facing the Salient)
+                2/1st Pioneer Battalion (Facing the Salient)
+                1st Battalion, Royal Northumberland Fusiliers (Facing the Salient)
+            18th Indian Cavalry Regiment (Strongpoints Bir el Meclub and Umm Cuheil)
+2nd Siege
+    2nd South African Division (HQ Between Fort Solaro and Gabr el Abd)*
+        Eastern Sector (11th Indian Infantry Brigade) (HQ Sidi Mahmud)*
+            (Subsector A)
+                2nd/7th Gurkha Rifles (Strongpoints Sidi Daud, Zeitun)
+                2nd/5th Mahratta Light Infantry (Strongpoints Bir Junes, Suesi)
+            (Subsector B)
+                2nd Cameron Highlanders (Strongpoint Dahar el Azazi, Half of Bir Umm Haleiga)
+                Part of the Beer Group (Half of Strongpoint Bir Umm Haleiga)
+        Western Sector (4th South African Brigade) (HQ Fort Pilastrino)*
+            (Subsector C)
+                Part of the Beer Group (Strongpoint Hagfet Umm Haleiga)
+                Kaffrarian Rifles
+            (Subsector D)
+                Blake Group (Strongpoint Bir el Medauuar)
+                Umvoti Mounted Rifles (Strongpoint Ras el Medauuar)
+                2nd Royal Durban Light Infantry (Strongpoint Ras es Sehel)
+        Northern Sector (6th South African Brigade) (HQ Ras bel Ghemel)
+            (Subsector E)
+                2nd Transvaal Scottish (Strongpoint Es Sehel)
+                2nd South African Police Battalion (Strongpoints Bir el Meclub, Umm Cuheil)
+            (Coastal Sector)
+                1st South African Police Battalion
+                7th South African Armored Car Battalion
 * - Parallel to the Italian plan
 Interesting takeaways:
-    1st Siege:
-        Not much to say. The initial defense made use of very few actual troops and thus the line was held thinly but with numerous reserves.
-        This is honestly a mistake, though. It gives up the advantage of the fortifications, one of the few the defender enjoys. Except in this case, because of German incompetence.
-    2nd Siege:
+    1st Siege
+        1st Deployment
+            Not much to say. The initial defense made use of very few actual troops and thus the line was held thinly but with numerous reserves.
+            This is honestly a mistake, though. It gives up the advantage of the fortifications, one of the few the defender enjoys. Except in this case, because of German incompetence.
+        2nd Deployment
+            It's honetly not bad but very uneven. I guess it goes to show that while Australian units were universally touted, many of them didn't end up actually doing much.
+            The large amount of rotations seems like a bad move to me. Sure, you rotate out exhausted troops, but you prevent them from improving their positions as they want.
+    2nd Siege
         The Kaffrarian Rifles getting the entirety of Subsector C is little insane. It's approximate, so maybe the subsector boundaries were edited around slightly to reduce its size.
         The need for the entire 6th South African Brigade to guard the coast is quite unjustifiable given the Italians never needed anything except for the small coastal sector of Admiral Vietina.
         Since so much is similar, it proves that Pitassi Manella's deployment wasn't a complete mistake. That said, both of these sieges were ended quite swiftly, so I'm not sure about that.
@@ -6664,6 +6696,7 @@ Here's the exact composition of the 3rd Armoured Brigade as part of the Tobruk G
     4 Infantry Tanks of the 4th RTR (Later Arrived)
 And here's how I intend to implement it:
 Composite Regiment, 3 Hussars/5th RTR (2 Squadrons) - Drew (4 Cruisers, 18 Light)
+3rd Armoured Brigade's regiments also formed some dismounted infantry units for emergency use in the fortress - two from 5th RTR, one from 6th RTR, and 1 from the KDG.
 
 A company led by a Mason of the 1st Battalion, King's Royal Rifle Corps seems to have been lost when it was cut off at Derna. However the information I have so far about this is sketchy.
 Actually, no. I read some more from a different chapter and Mason actually survived but was split up from the rest of the battalion. Rather than head toward Tobruk, he eventually turned up at Sollum.
@@ -6674,5 +6707,26 @@ British (and Australian) demolitions on the retreat were also quite poor. It doe
 Another mistake I would accuse the Australians of making was the refusal to fire or relive officers. There are several examples of this, but several is not enough when in other armies good officers rose quickly.
 Rather, the Australians ended up with a lot of lower commanders rising to higher positions only because of charisma and rarely because of some kind of talent. This is honestly very unimpressive.
 Many top British battalion or brigade commanders could rise to corps command or even higher, with Gott the best example. While he was no genius I think he remains underrated. There's no Australian analogue to this guy.
+
+During the siege of Tobruk, the 51st Field Regiment had one battery of 12 18-pounder guns and one battery of 4.5 inch howitzers. This was very different from its previous organizations.
+In November 1940 it was made up almost entirely of 25-pounders, plus 4 4.5 inch howitzers. The 18 pounders began arriving only in march along with additional howitzers to form an entire battery.
+Still, in April 1941 this was not yet complete, and the 203rd Battery was in action with all 25-pounders and the 370th Battery was using a mixture of 18-pounders and 4.5 inch howitzers.
+The 18-pounder was much worse of a gun than the 25-pounder and could even be called obsolete. Plans were in to replace them but this didn't happen until August, by which time the regiment had been replaced by Polish artillery.
+
+There was also one of the stupidest arguments over military matters I have ever heard. Plans were drawn up to put Freyberg in charge of a mixed Australian-New Zealand force called "Anzac Corps".
+While this wasn't a bad idea, and would've maybe improved command arrangements in the middle east, it was cancelled because the Australians feared some of their divisions wouldn't be part of this corps.
+These other divisions, they said, also deserved the title of "anzac". That's it. The entire dispute was about the right to hold this name. You see what I mean that legacies can ruin armies?
+
+The 2nd Battalion, 104th Rifle Regiment was responsible for the left of the German defense of the salient at S7 and the 2nd Battalion, 115th Rifle Regiment at the right at R7, the 1st Battalion, with 115th Rifle Regiment between them.
+These three battalions were targetted by a series of unsuccessful attacks by Australian battalions with significant artillery and machine gun support across the siege, and their defensive plans held up strong.
+The Australian attacks came from multiple battalions that were rotated out whenever they were defeated. The final such attack had the 2/28th and 2/48th Battalions, initially in reserve.
+They managed to briefly capture S7 but that was it. The Germans eventually retook the only real lost ground. But actually, the attack had a second phase where the 2/10th Battalion attacked S7, without success.
+An earlier one was led by the 2/23rd Battalion which did at least manage to capture S8, S9, and S10, which were given over the 2/1st Pioneer Battalion for defense. The 20th Brigade had also formerly held this area.
+Actually, maybe they didn't. I think these posts might've changed hands multiple times or might've fallen after the initial assault only to be quickly retaken. The main salient never seems to have cracked.
+
+Having seen an image, post Z84 was not only by the coast, but literally along it. From there you can see the wavy cliffs and the sea below them, all overlooked by gun positions.
+While not part of the Polish Brigade, the 2/13th Battalion was attached because its sector was right next to the Polish. It defended from post R33 to the sea (a very small area, corresponding just to Strongpoint Umm Cuheil).
+The 2 companies of the 2/15th Battalion were not the ones that fought at El Duda, because those two were actually B and C Companies from the 2/13th. The 2/15th's men were work parties near Pilastrino and saw no combat.
+Australian historians praise the New Zealanders as well, but unjustly. Truth be told, their entire division managing to push back the lone 361st Infantry Regiment near Sidi Rezegh was no great accomplishment.
 
 

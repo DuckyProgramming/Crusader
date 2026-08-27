@@ -34,6 +34,7 @@ https://nla.gov.au/nla.obj-495938716/view (Clean)
 https://nla.gov.au/nla.obj-495937453/view (1936)
 https://nla.gov.au/nla.obj-233683086/view (December 1940)
 https://nla.gov.au/nla.obj-234054246/view (January 1941)
+https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070057/document/5519386.PDF (May 1941, midway through document)
 https://nla.gov.au/nla.obj-392981029/view (June 1941)
 (Maps of Tobruk defenses)
 https://www.ww2talk.com/index.php?threads/tobruk-defences-1941.24644/
@@ -302,6 +303,8 @@ https://www.awm.gov.au/collection/C1417161 (Sonnenblume)
 https://www.awm.gov.au/collection/C1417336 (Bardia)
 https://www.awm.gov.au/collection/C1417337 (Capture of Tobruk)
 https://www.awm.gov.au/collection/C1417162 (Siege of Tobruk)
+https://www.awm.gov.au/collection/C1417166 (Relief From Tobruk)
+https://www.awm.gov.au/collection/C1417191 (Breakout From Tobruk)
 Frank Berryman:
 https://archive.org/details/architectofvicto0000dean/page/112/mode/2up?q=tobruk
 (This book's pages are blocked but this can be bypassed using the search feature)
