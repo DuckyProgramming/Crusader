@@ -4356,5 +4356,14 @@ reserves=[
         ],
       },
     ],
+  },{
+    level:3,type:[`Artillery`,`Semi-Motorized`],team:`Italian`,
+    desc:[`43rd Artillery Regiment`,`43° Reggimento Artiglieria "Sirte"`],name:`43`,designation:`Sirte`,commander:`Martorelli`,icon:`sirte`,
+    pos:[2914,727],
+    elements:[
+      {level:4,type:`Semi-Motorized Small Artillery`,team:`Italian`,desc:[`1st Group, 43rd Artillery Regiment`,`I Gruppo, 43° Reggimento Artiglieria "Sirte"`],name:`1`,designation:`43`,commander:`Binacchi`,icon:`ravenna`},
+      {level:4,type:`Semi-Motorized Small Artillery`,team:`Italian`,desc:[`2nd Group, 43rd Artillery Regiment`,`II Gruppo, 43° Reggimento Artiglieria "Sirte"`],name:`2`,designation:`43`,commander:`Tucci`,icon:`brennero`},
+      {level:4,type:`Semi-Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, 43rd Artillery Regiment`,`III Gruppo, 43° Reggimento Artiglieria "Sirte"`],name:`3`,designation:`43`,commander:`Biglino`,icon:`re`},
+    ],
   },
 ]

@@ -2473,6 +2473,10 @@ An opposing source notes the existence of a 33rd and 133rd 20/65 Companies, whic
 Still, a 4th battery does appear, but only as part of Raggruppamento Maletti, and this may have been a Libyan unit of some kind if not from the 4th Tank Infantry Regiment.
 But if this unit was with Maletti, there's no reason to think it made it out alive. Rather, I think there's one more option that I just haven't considered so far yet makes sense.
 This battery might not have been organic. What if it had been transferred from the Sirte Division, say, the 261st battery? That would solve another question at the same time.
+
+However, very little can realistically be found about the 261st Battery, and it is basically never mentioned anywhere, by number at least.
+The same is true of the 61st. In fact, strangely, almost none of the 20mm batteries ever seen to be mentioned by number. It's very annoying, in fact.
+Also, other sources about the Maletti Group do give numbers for its 20mm batteries, 25 and 260, which are from the Bologna and Sabratha Divisions respectively, largely disproving the above notion.
 Of course I'll still have to search for better, but for now, this is legitimately the best option I can imagine and is the one I will be using in future OOBs.
 
 An updated counting of guns is thus probably in order by this point, and may in fact be used to establish my planned final set.
@@ -6728,5 +6732,34 @@ Having seen an image, post Z84 was not only by the coast, but literally along it
 While not part of the Polish Brigade, the 2/13th Battalion was attached because its sector was right next to the Polish. It defended from post R33 to the sea (a very small area, corresponding just to Strongpoint Umm Cuheil).
 The 2 companies of the 2/15th Battalion were not the ones that fought at El Duda, because those two were actually B and C Companies from the 2/13th. The 2/15th's men were work parties near Pilastrino and saw no combat.
 Australian historians praise the New Zealanders as well, but unjustly. Truth be told, their entire division managing to push back the lone 361st Infantry Regiment near Sidi Rezegh was no great accomplishment.
+
+Interesting to mention that the 43rd Artillery Regiment as well as the two infantry regiments of the Sirte Division had been formed from a series of scraps at various times. Let's go over them:
+69th Infantry Regiment - Formed by the 12th Infantry Divsiion "Timavo"
+    2 Battalions From the 151st and 152nd Infantry Regiment "Sassari"
+    Elements of the 12th Infantry Regiment "Casale"
+70th Infantry Regiment - Had fought with the 19th Infantry Division, then called "Gavinana", in the Ethiopian Campaign
+43rd Artillery Regiment - No Depot
+    1st Group - Formed by the Depot of the 3rd Artillery Regiment "Fossalta"
+    2nd Group - Formed by the Depot of the 9th Artillery Regiment "Brennero"
+    3rd Group - Formed by the Depot of the 23rd Artillery Regiment "Timavo"
+
+Another interesting thing is that the 20th and 21st Corps Artillery Raggruppamenti each were armed on formation with two groups of 105/28, one of 75/27, and one 20/65 group.
+This was changed at the beginning of 1938. They received formerly independent units as their new 4th groups and disbanded the 20/65 groups, sending one of their batteries to each division.
+This is thus how the original 4 Type AS divisions managed to start the war each with two batteries of 20/65 guns, while the later divisions converted to the same organization had only one apiece.
+
+A piece of information I've found is that the Tobruk fortress had a total of 480 officers and 11060 other ranks on the 25th of July 1940 for a total of 11540 men.
+Of those 11540, rounded to 11500 due to significance, 3300 were infantrymen in the 31st and 32nd sectors at this time, and about 200 were engineers.
+That leaves 8000, and while many of them are likely services, administration, or command units, the majority, at least 6000 or so, should be artillery men. This checks out given there were two (large) regiments (raggruppamenti) there.
+There were also 10 47/32 guns, later to be augmented by reinforcements that were found from various places to make the 23 the G.a.F would field when Tobruk was under attack.
+Also there 25 75/27s. Since the G.a.F. had just 11 of these guns by later, 14 were lost. I don't know exactly where to, but it makes sense for several batteries to have been taken away, though I don't know where to.
+A possible answer exists in the fact that there were also 10 75mm CK (an AA modification) guns. Taking these together makes 35, so now it makes sense for 24 to have left the fortress's control at various times.
+All other numbers here aren't much of note. There are 78 20/65s, but most of these left probably with DICAT. And there were the known guns of the other G.a.F. batteries as well (77/28, 105/28, 120/25, 149/35).
+
+The chart also includes information for the 22nd Corps headquarters and its corps troops. Their personnel strength was 145 officers and 2357 other ranks for a total of 2502 men, a reasonable number.
+The corps artillery raggruppamento had a total of 12 100/17 and 22 105/28 guns. These numbers ain't perfect since I later have 11 100/17 and no more numbers from 105/28, but there's nothing too wrong with them.
+
+The needed 47/32 guns for the various divisions that were deployed in North Africa were not all there, in fact it was noted that only 60% were actually there. But where were the missing ones actually?
+My guess is that they were with the Pavia and Brescia Divisions, and maybe the Bologna or Savona, that had only an unimpressive platoon of anti-tank guns rather than a full company. Maybe some were also missing elsewhere.
+The Aegean force, while a corps in strength, with a total of 24,140 men, more than double a regular division's strength, is called just a "reinforced division" by Montanari.
 
 
