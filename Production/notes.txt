@@ -3219,7 +3219,7 @@ Format: [Artieri] Company: [Division] ([Regiments])
 57th Company: 52nd "Torino" Infantry Division (81, 82, 52)
 58th Company: 23rd "Ferrara" Infantry Division (47, 48, 14)
 [1]
-60th Company: 65th "Granatieri di Savoia" Infantry Division (10G, 11G, 60)
+60th Company: 65th "Granatieri di Savoia" Infantry Division (10G, 11G, 60) (Another source lists as part of the 25th "Bologna" Infantry Division)
 61st Company: 24th "Pinerolo" Infantry Division (13, 14, 18)
 62nd Company: 25th "Bologna" Infantry Division (39, 40, 10) (Later Transferred to 136th "Giovani Fascisti" Armored Division (136, 8, 136)) (Poor Source)
 [1]
@@ -5677,6 +5677,19 @@ This makes me think the 4th Tank Infantry Regiment would've had the 304th, since
 Another 400-series battery, the 437th, can be found with the 205th Artillery Regiment that acted as a replacement for the Bologna Division.
 A random battery I came across at one point was the 262nd which can be seen at Bardia. This isn't much of a surprise, since it's with its parent Marmarica Division there.
 
+The 205th Artillery Regiment had formed to replace the Bologna Division's 10th Artillery Regiment that had been lost during Crusader. It was actually originally designated for the Savona before this.
+Its place of formation was the depot of the original 10th Artillery Regiment, which is funny since it was originally not meant for the Bologna Division. How things work out sometimes.
+The regiment originally had four groups of guns, two heavy and two light, with the 4th, 17th, and 30th 20/65 batteries, although it only ended up having the 4th when reorganizations were complete.
+Casualties during Crusader were severe. It had ceded the 2nd Group (100/17) in October to replace other regiments' losses, but now it lost the 1st and 4th Groups as well, leaving it with just one group.
+The 12 field guns (4th Group) that had been lost were captured entirely by the 2nd Battalion, Black Watch. The 1st Group at this time had only 10 howitzers left, of 105mm variety (according to British reports).
+Actually, the 1st Group may have been lost in a different area. It appears the 2nd Group, 24th Corps Artillery Raggruppamento was here and that was where the 105mm guns came from.
+
+I've received some further information by some guy online who has a copy of the war diary or some kind of record document for that week of the division's combat.
+I was right the 4/205 was the first group destroyed and 1/205 was also lost at the "Jack" position (or Sidi Scegheilif). 3/205 was under pressure but managed to withdraw to Carmuset Beludeah without much loss.
+Finally, there was a composite artillery group formed from the two corps artillery batteries and 11/205 (4 75/27). These guns were also captured but only on the 26th of November.
+On the 18th of November, the 39th and 40th Infantry Regiments each had a company of 8 47/32 guns. The 39th had the 73rd from the 3rd Bersaglieri Regiment and the 40th had the 44th, probably of normal origin.
+A final anti-tank company, the 20th, also with 8 47/32 guns, can be found as part of the 25th Support Weapons Battalion, along with a machine gun company and a mortar company.
+
 On the 17th of November a major storm hit the Mediterranean from Egypt to Libya. This seemed to me like something of little relevance initially until I read some quotes about its effects.
 German troops of the 15th Panzer Division, then deployed near the entrance to Halfaya Pass, were drowned in mud from the first rains in 60 years. The defenders of Tobruk suffered a similar fate.
 
@@ -6761,5 +6774,59 @@ The corps artillery raggruppamento had a total of 12 100/17 and 22 105/28 guns. 
 The needed 47/32 guns for the various divisions that were deployed in North Africa were not all there, in fact it was noted that only 60% were actually there. But where were the missing ones actually?
 My guess is that they were with the Pavia and Brescia Divisions, and maybe the Bologna or Savona, that had only an unimpressive platoon of anti-tank guns rather than a full company. Maybe some were also missing elsewhere.
 The Aegean force, while a corps in strength, with a total of 24,140 men, more than double a regular division's strength, is called just a "reinforced division" by Montanari.
+
+The strengths of the Axis divisions were very poor by the time they reached the battle of Alam al Halfa. Even though some reinforcements had arrived since July everything was still very weak.
+The Trento Division, despite being a composite with the Sabratha Division, boasted only 5200 men. The Bologna Division had 4800, the Folgore 5200, and the Trieste 5300. I won't list every number.
+The 4th Group of the 46th Artillery Regiment (Trento) still existed by the time of First El Alamein, although I think it was likely destroyed and reformed again sometime between the division's arrival in Africa and the battle.
+It was forced to defend itself with point-blank fire against the 69th Infantry Brigade during the battle, with the infantry ahead of it, the 1st Battalion, 200th Motorized Infantry Regiment and 1st Battalion, 61st Infantry Regiment, overrun.
+While the attack by the 69th Infantry and 24th Australian Brigades was a complete failure in pushing back the enemy, they did obtain a small victory when they captured 115 men from the 1st Battalion, 361st Motorized Infantry Regiment.
+A previous attack by the New Zealanders had also completely failed, with 904 men lost compared to 1000 in the later offensive. Inglis complained about the poor handling of the battle to the still-wounded Freyberg.
+However, he blamed the wrong reason. He wanted tanks under his immediate command, but the reality was that if he had order those tanks forward they would've been wrecked by anti-tank guns and mines. Better planning was the real missing piece.
+
+On the 17th of July, though, there was at least some evidence of British success in inflicting losses on the enemy. In fact the Italian divisions were utterly decrepit in terms of combat units.
+Brescia Division: 1 Infantry Battalion (Note that the other battalions weren't destroyed, just very weak)
+Pavia Division: 2 Infantry Battalions
+Ariete Division: 1 Bersaglieri Battalion, 15 Tanks, 1 Artillery Group
+Littorio Division: 1 Bersaglieri Battalion, 20 Tanks, 1 Gun
+Trieste Division: 3 Infantry Battalions, 1 Artillery Group
+Sabratha Division: Only Stragglers, Company-Sized or Lower
+Trento: Fully operational
+Army Artillery: 1 Battery
+
+Unrelated, I randomly have been thinking somewhat about the number 241. It's the number battery for sure, but there's not much of note to actually say about it, so that's whatever.
+But yes, about the First El-Alamein-inflicted chaos that I put above, I don't think this is enough information to act on since I don't have similar returns for before the battle occurred.
+
+A guy on Axis History Forum has actually responded to my previous post on the order of battle. Honestly I feel a little bad since mine is outdated, but this is also a chance to converse about this topic for real.
+This man, Luca Lacitignola, had a grandfather, Umberto, who was transferred from the 10th CAR to the 22nd CAR on the 15th of September 1940. He was then captured at Tobruk.
+He has asked for a lot of information, but I have very little to provide. There's no information anywhere about the individual batteries of the 22nd CAR or their commanders, or the group commander.
+Here are all the things I plan to send, that I've gathered from here and by doing some more reading. Some of these things I somehow missed the first time around.
+
+1. On the 17th of July 1940, the 22nd Raggruppamento's groups were under the command of the Guardia alla Frontiera at Tobruk. The I Group and 1 105/28 Group were in the eastern sector while the other 105/28 Group was in the west.
+(https://archive.org/details/la-guardia-alla-frontiera/page/198/mode/2up?q=22, Page 198)
+
+2. The commander of the 22nd Raggruppamento on the 25th of July 1940 was Tenente Colonnello Riccardo Vallone. The group initially consisted of the I group of 100/17 howitzers and the XLII and XLIII groups of 105/28.
+(https://archive.org/details/STOR-ART/SDA-vol16/page/222/mode/2up?q=22, Page 222)
+
+3. The XLII Group was sent forward to fight at Sidi Barrani where it was destroyed. The same probably happened to the XLIII Group.
+(https://archive.org/details/STOR-ART/SDA-vol16/page/238/mode/2up?q=22, Page 238)
+
+4. A "Mixed Battery" of the 1st Group of the 22nd Raggruppamento was the only element that Montanari reports at Tobruk.
+(https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29/page/182/mode/2up?q=22)
+
+5. Carlo Rostagno, chief of staff of the XXII Corpo d'Armata, reports that on the 10th of December 1940, the 22nd Raggruppamento consisted of the following units:
+I Group of 100/17
+1 battery of 105/28
+13th Battery of 20mm (8 guns)
+Provisional Company of 47/32 (6 guns)
+10th Company of Artillery Specialists (from the 10th Raggruppamento)
+(https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29/page/332/mode/2up)
+
+6. On Montanari's map, the 1st Group is shown as deployed near Giaida (AKA Macchia Bianca). It has 1 battery of 75/27, 1 of 100/17, and 2 of 105/28. 
+Based on this and the last 2, I think what happened was that most of the I Group's batteries were placed under the command of the I Group, 55th "Brescia" Artillery Regiment.
+The remaining battery of 100/17, the battery of 105/28, and some other batteries (appears like 1 from the III/43 and 1 from the XVII/10) formed the new I/22 Group.
+It looks like all three of the batteries fell on the 22nd, so I don't have enough information to tell which one he was in.
+(https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29%20schizzi/page/n41/mode/2up)
+
+7. I believe that the Raggruppamenti had their batteries numbered sequentially, so the I Group would've had 1st, 2nd, and 3rd Batteries.
 
 

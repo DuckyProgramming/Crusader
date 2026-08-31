@@ -14336,7 +14336,7 @@ export var types={
                           ],
                         },{
                           level:3,type:[`Artillery`],team:`Italian`,
-                          desc:[`22nd Corps Artillery Raggruppamento`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:``,icon:``,
+                          desc:[`22nd Corps Artillery Raggruppamento`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Vallone`,icon:``,
                           pos:[1598,1277],
                           elements:[
                             {
@@ -15886,7 +15886,7 @@ export var types={
                           ],
                         },{
                           level:3,type:[`Artillery`],team:`Italian`,
-                          desc:[`22nd Corps Artillery Raggruppamento`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:``,icon:``,
+                          desc:[`22nd Corps Artillery Raggruppamento`,`22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`22`,designation:`Corps`,commander:`Vallone`,icon:``,
                           pos:[1598,1277],
                           elements:[
                             {
