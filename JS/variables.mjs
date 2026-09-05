@@ -184,6 +184,7 @@ export var types={
     {name:`Small Static Coastal Artillery Battery`,unitType:[`Artillery`,`Coast`],class:2,damage:[14,8,4,2],armor:0.3,health:6,morale:0.8,num:6,speed:0,artillery:true,engineer:false,recon:false},
     {name:`Slightly Small Static Coastal Artillery Battery`,unitType:[`Artillery`,`Coast`],class:2,damage:[14,8,5,2],armor:0.3,health:7,morale:0.8,num:7,speed:0,artillery:true,engineer:false,recon:false},
     {name:`Ruined Artillery Piece`,unitType:[`Artillery`],class:2,damage:[16,5,1,1],armor:0.4,health:1,morale:0.6,num:1,speed:0.7,artillery:true,engineer:false,recon:false},
+    {name:`2-Gun Ruined Artillery Battery`,unitType:[`Artillery`],class:2,damage:[16,5,2,1],armor:0.4,health:2,morale:0.6,num:2,speed:0.7,artillery:true,engineer:false,recon:false},
     {name:`Small Ruined Artillery Battery`,unitType:[`Artillery`],class:2,damage:[16,5,3,2],armor:0.4,health:3,morale:0.6,num:3,speed:0.7,artillery:true,engineer:false,recon:false},
     {name:`Ruined Artillery Battery`,unitType:[`Artillery`],class:2,damage:[16,5,3,2],armor:0.4,health:4,morale:0.6,num:4,speed:0.7,artillery:true,engineer:false,recon:false},
     {name:`Large Ruined Artillery Battery`,unitType:[`Artillery`],class:2,damage:[16,5,4,2],armor:0.4,health:5,morale:0.6,num:5,speed:0.7,artillery:true,engineer:false,recon:false},
@@ -870,7 +871,7 @@ export var types={
                   ],
                 },{
                   level:4,type:[`Tank`,`Light`],team:`Australian`,
-                  desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
+                  desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
                   pos:[3879,2513],
                   elements:[
                     {type:`Light Tank`},
@@ -1358,7 +1359,7 @@ export var types={
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
-                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
                   ],
                 },
               ],
@@ -1598,7 +1599,7 @@ export var types={
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
-                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
                   ],
                 },
               ],
@@ -1813,7 +1814,7 @@ export var types={
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
-                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
                   ],
                 },
               ],
@@ -2056,7 +2057,7 @@ export var types={
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
-                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
                   ],
                 },
               ],
@@ -2290,7 +2291,7 @@ export var types={
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Ogle`},
                     {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
-                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                    {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
                   ],
                 },
               ],
@@ -4348,10 +4349,10 @@ export var types={
               ],
             },{
               level:5,type:[`Tank`,`Light`],team:`Australian`,
-              desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
+              desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``,icon:``,
               pos:[1906,1155],
               elements:[
-                {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
+                {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``},
               ],
             },
           ],
@@ -6170,11 +6171,11 @@ export var types={
                       ],
                     },{
                       level:4,type:[`Tank`,`Light`],team:`Australian`,
-                      desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
+                      desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
                       pos:[778,1115],
                       elements:[
-                        {level:5,type:`14-Tank Light Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
-                        {level:5,type:`14-Tank Light Tank Company`,team:`Australian`,desc:[`B Squadron, 6th Australian Division Reconaissance Battalion`,`B Squadron, 6th Australian Divisional Cavalry`],name:`B`,designation:`6 DC`,commander:``},
+                        {level:5,type:`14-Tank Light Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``},
+                        {level:5,type:`14-Tank Light Tank Company`,team:`Australian`,desc:[`B Squadron, 6th Australian Division Reconaissance Battalion`,`B Squadron, 6th Australian Divisional Cavalry Regiment`],name:`B`,designation:`6 DC`,commander:``},
                       ],
                     },{
                       level:4,type:[`Infantry`,`Anti-Tank`,`Motorized`],team:`British`,
@@ -6382,12 +6383,12 @@ export var types={
                       ],
                     },{
                       level:4,type:[`Tank`,`Light`],team:`Australian`,
-                      desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
+                      desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
                       pos:[1488,965],
                       elements:[
-                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`A Company, 6th Australian Division Reconaissance Battalion`,`A Company, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
-                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`B Company, 6th Australian Division Reconaissance Battalion`,`B Company, 6th Australian Divisional Cavalry`],name:`B`,designation:`6 DC`,commander:``},
-                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`C Company, 6th Australian Division Reconaissance Battalion`,`C Company, 6th Australian Divisional Cavalry`],name:`C`,designation:`6 DC`,commander:``},
+                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`A Company, 6th Australian Division Reconaissance Battalion`,`A Company, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``},
+                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`B Company, 6th Australian Division Reconaissance Battalion`,`B Company, 6th Australian Divisional Cavalry Regiment`],name:`B`,designation:`6 DC`,commander:``},
+                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`C Company, 6th Australian Division Reconaissance Battalion`,`C Company, 6th Australian Divisional Cavalry Regiment`],name:`C`,designation:`6 DC`,commander:``},
                       ],
                     },
                   ],
@@ -6701,11 +6702,11 @@ export var types={
                       ],
                     },{
                       level:4,type:[`Tank`,`Light`],team:`Australian`,
-                      desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
+                      desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`,
                       pos:[778,1115],
                       elements:[
-                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`A Company, 6th Australian Division Reconaissance Battalion`,`A Company, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
-                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`B Company, 6th Australian Division Reconaissance Battalion`,`B Company, 6th Australian Divisional Cavalry`],name:`B`,designation:`6 DC`,commander:``},
+                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`A Company, 6th Australian Division Reconaissance Battalion`,`A Company, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``},
+                        {level:5,type:`Light Tank Company`,team:`Australian`,desc:[`B Company, 6th Australian Division Reconaissance Battalion`,`B Company, 6th Australian Divisional Cavalry Regiment`],name:`B`,designation:`6 DC`,commander:``},
                       ],
                     },{
                       level:4,type:[`Infantry`,`Artillery`,`Motorized`],team:`British`,
@@ -10026,7 +10027,7 @@ export var types={
                   pos:[2540,1420],
                   elements:[
                     {level:4,type:`Motorized Infantry`,team:`British`,desc:`1st Battalion, King's Royal Rifle Corps`,name:`1`,designation:`King's Royal\nRifle Corps`,commander:`de Salis`},
-                    {level:4,type:`Terrible Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                    {level:4,type:`Terrible Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
                     {level:4,type:`Motorized Artillery`,team:`British`,desc:[`60th (North Midland) Battalion, Royal Artillery`,`60th (North Midland) Field Regiment, Royal Artillery`],name:`60`,designation:`North\nMidland`,commander:`Hugo`},
                   ],
                 },{
@@ -11847,7 +11848,7 @@ export var types={
                 {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`13th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/13th Australian Infantry Battalion`],name:`2/13`,designation:``,commander:`Burrows`},
                 {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`15th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/15th Australian Infantry Battalion`],name:`2/15`,designation:``,commander:`Magno`},
                 {level:4,type:`Motorized Infantry`,team:`Australian`,desc:[`17th Infantry Battalion, 2nd Australian Expeditionary Force`,`2/17th Australian Infantry Battalion`],name:`2/17`,designation:``,commander:`Crawford`},
-                {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
+                {level:4,type:`Light Tank`,team:`Australian`,desc:[`6th Australian Division Reconaissance Battalion`,`6th Australian Divisional Cavalry Regiment`],name:`6`,designation:`Divisional\nCavalry`,commander:`Morrison`,icon:`6auc`},
               ],
             },{
               level:4,type:[`Tank`,`Superior`],team:`British`,
@@ -13090,10 +13091,10 @@ export var types={
                   ],
                 },{
                   level:5,type:[`Tank`,`Light`],team:`Australian`,
-                  desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
+                  desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``,icon:``,
                   pos:[3142,1976],
                   elements:[
-                    {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``},
+                    {level:5,type:`Terrible Tank Company`,team:`Australian`,desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``},
                   ],
                 },
               ],
@@ -13929,6 +13930,8 @@ export var types={
                                 {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+                                {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`1st Section, 247th Frontier Guard Static Artillery Battery`,`1ª Sezione, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`1`,designation:`247`,commander:``},
+                                {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, 246th Frontier Guard Static Artillery Battery`,`2ª Sezione, 246ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`246`,commander:``},
                               ]
                             },{
                               level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
@@ -13939,7 +13942,7 @@ export var types={
                                 {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
                                 {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
 																{level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
-                                {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, 247th Frontier Guard Static Artillery Battery`,`2ª Sezione, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`249`,commander:``},
+                                {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, 247th Frontier Guard Static Artillery Battery`,`2ª Sezione, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`247`,commander:``},
                                 {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, Ad Hoc Battery "Derna"`,`2ª Sezione, Batteria di Formazione "Derna"`],name:`2`,designation:`Derna`,commander:``,icon:``},
                                 {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
                               ]
@@ -13957,8 +13960,8 @@ export var types={
                           desc:[`1st Group, 26th Artillery Regiment "Pavia"`,`I Gruppo Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`26`,commander:``,icon:`pavia`,
                           pos:[3367,1038],
                           elements:[
-                            {level:5,type:`Larger Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 26th Artillery Regiment "Pavia"`,`1ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`26`,commander:``},
-                            {level:5,type:`Larger Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 26th Artillery Regiment "Pavia"`,`2ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`2`,designation:`26`,commander:``},
+                            {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 26th Artillery Regiment "Pavia"`,`1ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`26`,commander:``},
+                            {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 26th Artillery Regiment "Pavia"`,`2ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`2`,designation:`26`,commander:``},
                             {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 26th Artillery Regiment "Pavia"`,`3ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`3`,designation:`26`,commander:``},
                           ],
                         },{
@@ -13967,6 +13970,7 @@ export var types={
                           pos:[3167,1067],
                           elements:[
                             {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                            {level:7,type:`2-Gun Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Section, 22nd Corps Artillery Raggruppamento`,`Sezione Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
                           ],
                         },{
                           level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -14320,8 +14324,8 @@ export var types={
                               desc:[`7th Artillery Group`,`VII Gruppo Cannoni Campali`],name:`7`,designation:`10 Corps`,commander:``,icon:``,
                               pos:[2172,1501],
                               elements:[
-                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 7th Artillery Group`,`1ª Batteria, VII Gruppo Cannoni Campali`],name:`1`,designation:`7 Corps`,commander:``},
-                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 7th Artillery Group`,`2ª Batteria, VII Gruppo Cannoni Campali`],name:`2`,designation:`7 Corps`,commander:``},
+                                {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 7th Artillery Group`,`1ª Batteria, VII Gruppo Cannoni Campali`],name:`1`,designation:`7 Corps`,commander:``},
+                                {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 7th Artillery Group`,`2ª Batteria, VII Gruppo Cannoni Campali`],name:`2`,designation:`7 Corps`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 7th Artillery Group`,`3ª Batteria, VII Gruppo Cannoni Campali`],name:`3`,designation:`7 Corps`,commander:``},
                               ],
                             },{
@@ -14347,7 +14351,7 @@ export var types={
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`6th Battery, 17th Artillery Group`,`6ª Batteria, XVII Gruppo Cannoni Campali`],name:`6`,designation:`17 Corps`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment "Sirte"`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
-                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
+                                {level:5,type:`2-Gun Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
                               ],
                             },{
                               level:5,type:[`Artillery`,`Fortress`],team:`Regia Marina`,
@@ -14402,7 +14406,6 @@ export var types={
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 55th Artillery Regiment "Brescia"`,`1ª Batteria Obici Campali, 55° Reggimento Artiglieria "Brescia"`],name:`1`,designation:`55`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 55th Artillery Regiment "Brescia"`,`2ª Batteria Obici Campali, 55° Reggimento Artiglieria "Brescia"`],name:`2`,designation:`55`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 55th Artillery Regiment "Brescia"`,`3ª Batteria Obici Campali, 55° Reggimento Artiglieria "Brescia"`],name:`3`,designation:`55`,commander:``},
-
                               ],
                             },{
                               level:4,type:[`Artillery`],team:`Italian`,
@@ -14858,12 +14861,12 @@ export var types={
                       ],
                     },{
                       level:5,type:[`Tank`],team:`Australian`,
-                      desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry`],name:`A`,designation:`6 DC`,commander:``,icon:``,
+                      desc:[`A Squadron, 6th Australian Division Reconaissance Battalion`,`A Squadron, 6th Australian Divisional Cavalry Regiment`],name:`A`,designation:`6 DC`,commander:``,icon:``,
                       pos:[3142,1976],
                       elements:[
-                        {level:6,type:`Captured Medium Tank Company`,team:`Australian`,desc:[`Dingo Squadron, 6th Australian Division Reconaissance Battalion`,`Dingo Squadron, 6th Australian Divisional Cavalry`],name:`Dingo`,designation:`A`,commander:``},
-                        {level:6,type:`Motorized Infantry Platoon`,team:`Australian`,desc:[`Rabbit Squadron, 6th Australian Division Reconaissance Battalion`,`Rabbit Squadron, 6th Australian Divisional Cavalry`],name:`Rabbit`,designation:`A`,commander:``},
-                        {level:6,type:`Motorized Infantry Platoon`,team:`Australian`,desc:[`Wombat Squadron, 6th Australian Division Reconaissance Battalion`,`Wombat Squadron, 6th Australian Divisional Cavalry`],name:`Wombat`,designation:`A`,commander:``},
+                        {level:6,type:`Captured Medium Tank Company`,team:`Australian`,desc:[`Dingo Squadron, 6th Australian Division Reconaissance Battalion`,`Dingo Squadron, 6th Australian Divisional Cavalry Regiment`],name:`Dingo`,designation:`A`,commander:``},
+                        {level:6,type:`Motorized Infantry Platoon`,team:`Australian`,desc:[`Rabbit Squadron, 6th Australian Division Reconaissance Battalion`,`Rabbit Squadron, 6th Australian Divisional Cavalry Regiment`],name:`Rabbit`,designation:`A`,commander:``},
+                        {level:6,type:`Motorized Infantry Platoon`,team:`Australian`,desc:[`Wombat Squadron, 6th Australian Division Reconaissance Battalion`,`Wombat Squadron, 6th Australian Divisional Cavalry Regiment`],name:`Wombat`,designation:`A`,commander:``},
                       ],
                     },
                   ],
@@ -15321,8 +15324,8 @@ export var types={
                           desc:[`1st Group, 26th Artillery Regiment "Pavia"`,`I Gruppo Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`26`,commander:``,icon:`pavia`,
                           pos:[3367,1038],
                           elements:[
-                            {level:5,type:`Larger Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 26th Artillery Regiment "Pavia"`,`1ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`26`,commander:``},
-                            {level:5,type:`Larger Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 26th Artillery Regiment "Pavia"`,`2ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`2`,designation:`26`,commander:``},
+                            {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 26th Artillery Regiment "Pavia"`,`1ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`1`,designation:`26`,commander:``},
+                            {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 26th Artillery Regiment "Pavia"`,`2ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`2`,designation:`26`,commander:``},
                             {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 26th Artillery Regiment "Pavia"`,`3ª Batteria Obici Campali, 26° Reggimento Artiglieria "Pavia"`],name:`3`,designation:`26`,commander:``},
                           ],
                         },{
@@ -15331,6 +15334,7 @@ export var types={
                           pos:[3167,1067],
                           elements:[
                             {level:5,type:`Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`242nd Frontier Guard Static Artillery Battery`,`242ª Batteria Cannoni da Posizione Guardia alla Frontiera`],name:`242`,designation:`5`,commander:``},
+                            {level:7,type:`2-Gun Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Section, 22nd Corps Artillery Raggruppamento`,`Sezione Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
                           ],
                         },{
                           level:4,type:[`Artillery`,`Heavy`],team:`Italian`,
@@ -15870,8 +15874,8 @@ export var types={
                               desc:[`7th Artillery Group`,`VII Gruppo Cannoni Campali`],name:`7`,designation:`10 Corps`,commander:``,icon:``,
                               pos:[2172,1501],
                               elements:[
-                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 7th Artillery Group`,`1ª Batteria, VII Gruppo Cannoni Campali`],name:`1`,designation:`7 Corps`,commander:``},
-                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 7th Artillery Group`,`2ª Batteria, VII Gruppo Cannoni Campali`],name:`2`,designation:`7 Corps`,commander:``},
+                                {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 7th Artillery Group`,`1ª Batteria, VII Gruppo Cannoni Campali`],name:`1`,designation:`7 Corps`,commander:``},
+                                {level:5,type:`Large Ruined Artillery Battery`,team:`Italian`,desc:[`2nd Battery, 7th Artillery Group`,`2ª Batteria, VII Gruppo Cannoni Campali`],name:`2`,designation:`7 Corps`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`3rd Battery, 7th Artillery Group`,`3ª Batteria, VII Gruppo Cannoni Campali`],name:`3`,designation:`7 Corps`,commander:``},
                               ],
                             },{
@@ -15897,7 +15901,7 @@ export var types={
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`1st Battery, 1st Artillery Group`,`1ª Batteria, I Gruppo Obici Campali`],name:`1`,designation:`1 Corps`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`6th Battery, 17th Artillery Group`,`6ª Batteria, XVII Gruppo Cannoni Campali`],name:`6`,designation:`17 Corps`,commander:``},
                                 {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`9th Battery, 43rd Artillery Regiment "Sirte"`,`9ª Batteria Cannoni Campali, 43° Reggimento Artiglieria "Sirte"`],name:`9`,designation:`43`,commander:``},
-                                {level:5,type:`Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
+                                {level:5,type:`2-Gun Ruined Artillery Battery`,team:`Italian`,desc:[`Provisional Battery, 22nd Corps Artillery Raggruppamento`,`Batteria Provvisoria, 22° Raggruppamento Artiglieria di Corpo d'Armata`],name:`Provvisoria`,designation:`22 Corps`,commander:``},
                               ],
                             },{
                               level:5,type:[`Artillery`,`Fortress`],team:`Regia Marina`,

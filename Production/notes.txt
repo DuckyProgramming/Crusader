@@ -6148,6 +6148,7 @@ One company commander for the 2/11th Battalion was a Honner. This appears to hav
 After all the above fanagling, I ended up with the split of 84/128, summing to 212. I'm not a huge fan of this number, so I updated it to 84/132, reaching 216. However, this also creates an interesting opportunity.
 132 is 6 times 22, the corps number for the Italians. What if I did the same to the British and gave them 6 times 13, or 78, companies? It would be cool, but let's see if I can actually find 6 to remove.
 1. W Company, Northumberland Fusiliers (mentioned as part of Selby Force, and we know at least one company wasn't with the rest of the battalion)
+Note: We don't actually have proof that a W company existed, but I do know that a Y company (Australian Official History, Tobruk/2) and a Z company existed, which makes it seem reasonable that W and X were the other two.
 2. A Company, Cheshire Regiment (same as above)
 3. 1st Light Anti-Aircraft Battery, RA
 4. 2/2nd Field Company RAE
@@ -6337,7 +6338,7 @@ Sector West - 70 Fortifications
         Strongpoint Es Sehel - 6 Fortifications
         Strongpoint Bir el Meclub - 7 Fortifications
         Strongpoint Umm Cuheil - 6 Fortifications
-In addition, 44 rear-line fortifications (these were part of the second line but were likely not all completed)
+In addition, 44 rear-line fortifications (these were part of the second line but were likely not all completed, as they don't appear on Italian maps)
 
 Total according to sketch in "The First British Offensive": 141
 Total according to WDF maps: 128
@@ -6400,6 +6401,8 @@ I'll then make an attempt to collect all information I have about how the G.a.F.
 7. These 4 subsectors corresponded to commands at Sidi Daud, Bivio el Adem (just called El Adem), Pilastrino, and Ras el Medauuar
 8. By December 1940 reorganizations had occurred. Only the XXXI Coverage Sector remained with merged elements of both. It was noted as "minus 2 strongpoints" of unknown identity.
 9. The first 3 subsectors show up on December 1940 maps under the command of this sector. The Ras el Medauuar subsector disappears and it was likely that the 2 lost strongpoints were from here.
+It's still a little questionable which strongpoints were actually garrisoned, even with the 82-89 range which I think is actually quite good, though it may be a bit high if the fortifications were not garrisoned equally.
+This does rule out the light possibility that only Subsector E was not occupied by the G.a.F., since that would leave 109 fortifications for them to man which would be way more than the range would allow.
 
 Luigi Adiutori is one of the few people I can track down who actually served in the G.a.F. at Tobruk and survived to tell the tale (or in this case, get a blog post written about him).
 There are other figures, but commanders like Barberis don't seem to have done much else of significance, and no lower-level commanders can really be found.
@@ -6543,6 +6546,8 @@ And finally, while Ras el Medauuar, the strongpoint facing this direction, is di
 Note that sometimes R or S are entirely forgotten. After all, they are uniquely named positions and don't even get numbers. Still, this makes me a little confused about if they actually existed.
 An alternative explanation for this is that since Ras el Medauuar was a natural high point (impressively high, for the desert), it was naturally easier to defend and so needed less focus.
 Still, we know from the German and Italian success there that a bit of a natural advantage was not enough to improve its defenses, as they managed to capture the wedge between R7 and S7 (taking advantage of the split).
+There was also supposed to be a chain of defenses between the artillery groups in the eastern sector, III/55, II/43, CV/25, and CXXX/25. However it doesn't look like these were manned or did anything impactful.
+A couple more mini defensive positions appeared near the headquarters of the coastal defense sector at Fort Perrone. It doesn't seem like these had any impact on the battle either.
 
 The Tobruk base had a water-producing capability of 850 cubic meters per day. Compared to an ocean or even a pool 850 cubic meters sounds like not that much, but it's more than enough for the battle.
 The math can be rough, but a cubic meter is 1000 litres and that means that the 25,000 man garrison had 3 or more litres per person, per day. It ain't perfect, but you can easily live on that.
@@ -6828,5 +6833,134 @@ It looks like all three of the batteries fell on the 22nd, so I don't have enoug
 (https://archive.org/details/la-prima-offensiva-britannica-in-africa-settentrionale-ott.-1940-feb.-1941/La%20prima%20offensiva%20britannica%20in%20africa%20settentrionale%20%28ott.1940-feb.1941%29%20schizzi/page/n41/mode/2up)
 
 7. I believe that the Raggruppamenti had their batteries numbered sequentially, so the I Group would've had 1st, 2nd, and 3rd Batteries.
+
+Some more information about the 6th Division Cavalry Regiment (it appears this was the official name). The commander of A Squadron was a Major Denzil Macarthur-Onslow.
+The A squadron had 12 M13/40s. They were all captured at Bardia, plus maybe a few M11/39s. However, mechanical issues caused the loss of most of them leaving just the 6 that actually fought at Tobruk.
+Another often-discussed Australian units are the independent commando companies used in the Pacific. While they seem stronger than regular companies in combat, this isn't really a quality thing.
+Rather, these companies were oversized with 273 men total while facing off against enemy companies of 160-180 men. No wonder they usually came out on top. Again, another place where relative unit size can be a distorting factor.
+
+Funilly enough while I trash the quality of Nafziger's archives, the reality is that he as a person was defined by more than just a single project that he conduted late in life.
+As a Napeoleonic historian, for example, his works are considered in high regard and are probably much more accurate in their information than the documents transcribed from other books that he put in the archives.
+
+Another funny unit I recently learned about was that the Germans actually formed a division out of their frontier guards, almost analagous to the G.a.F. Tobruk fortress.
+Here was its structure. The most evident thing based on this is the severe lack of support units. Compared to the G.a.F. in North Africa that was flooded with artillery batteries this division had not a single one.  
+Divisional Staff z.b.V. 538 (Kradmelde, Signals Platoon, Feldgendarmerie Detachment)
+194th Infantry Regiment
+    1st Battalion (3 Comapnies)
+    2nd Battalion (3 Comapnies)
+139th Mountain Regiment
+    1st Battalion (1 Company)
+    2nd Battalion (2 Companies)
+499th Replacement Battalion (2 Companies)
+(194th?) Blocking Engineer Battalion (2 Engineer Companies, 2 Mountain Pack Mule Companies)
+Here was its old organization prior to the reorganizations that turned it into something of an operational division:
+Border Guard Sector Command 20 (Klagenfurt)
+    Border Guard Section 193 (1 Battalion) (Spittal)
+    Border Guard Section 194 (3 Battalions) (Klagenfurt)
+    Border Guard Section 195 (5 Battalions) (Graz)
+    194th Blocking Battalion
+
+
+The intelligence services of Pitassi Manella and the Italian military as a whole struggled a lot with attaining accurate information about their opponents' orders of battle.
+A great example of this is the information Montanari has in "The First British Offensive" about the elements of XIII Corps facing off against XXII Army Corps in Tobruk. Here are the mistakes he made:
+1. The 7th Armored Brigade is noted as 3 regiments with 4 squadrons each, plus motorized infantry. This was its initial strength months ago but it had been greatly weakened by January.
+2. The Support Group is noted as having two battalions of Free French troops, two British battalions, and some armored units. As we know there were only two Free French companies.
+
+On the bright side, though, I'm starting to trust his sketches more and more. To me, with the reorganizations to the various artillery regiments, it's making sense for the Ist/55th Group to have two separate pieces.
+Those two pieces were reasonable since they were of the same caliber (100/17) and relatively close to one another as well. It's not inconcievable that this arrangement was what Pitassi Manella decided on.
+Still, while the group commanded two sets of guns ("batteries" would be the word at a different time but not at this time), they still show up in "The Operations" as separate.
+
+Another tale of distortions in favor of allied strategic minds comes from the aftermath of Tobruk, during which Italian planes that had been sent to support Tobruk mistakenly bombed their own men, now in many prisoner camps.
+This ignores the fact that the British did the same thing many times. As the volume of the Australian Official History about their prisoners notes, many were bombed in their camps near Tripoli.
+But the official history also makes it seem as if the existence of this camp at Tripoli actually contributed to the collapsing supply situation of the axis when it was in reality just a lack of fuel.
+
+With how things are progressing right now, I'd like to talk a little more about this game, Crusader, in relation to the wider state of my work. In fact, there's one thing to do first.
+That is, this is the point where I think the game deserves to be renamed. Operation Crusader, and Operation Crusader alone, was the initial scope, but as you can probably see this has changed greatly.
+Another issue is that the name doesn't have the sort of goofy theming to it that most of my work has. What kind of sane person would name his magnum opus "26" or a game "TheCooker"?
+So, say goodbye to Crusader. From now on, the game will be called "The Campaign For North Africa", a relatively obvious reference. I don't like the connotations associated with the name, but I expect they won't stick.
+It's a bit odd for matters so central to the game to be discussed here, but remember that notes.txt exists as a devlog as well as a research log. I think this is fair game.
+I'd also like to informally consider it as part of the same larger project as the previous history games: Interregnum and Ecorcheur, though TCFNA (the new abbreviation) diffs them both in terms of research.
+But these three games (and Eurosim) I think are still part of the same narrative in my dev career and should be represented as such when I discuss them. That's why I want them considered as one.
+In fact, working on TCFNA has convinced me to go back to the other two and take a look at them. It's not like I forgot about them but I've simply found my interest returning.
+
+Another thing has once again been concerning me, though. It's related to the dispositions of Tobruk, of course, not something serious like the above paragraph.
+It's the fact that there's still a mismatch between batteries drawn in Sketch 18 and batteries that I have recorded. Even if the size of them was irregular, it doesn't explain them not appearing on maps.
+To make an attempt at this, instead of organization guns by their affiliation, we'll start by working with the individually displayed groups and see what we can get out of it.
+Eastern Raggruppamento
+    I/26
+        100/17 (organic)
+        100/17 (organic)
+        100/17 (organic)
+    CXXX/25
+        149/13 (organic)
+        149/13 (organic)
+        149/13 (organic)
+    CL/25
+        149/13 (organic)
+        149/13 (organic)
+    Mixed
+        105/28 (Section Mixed/22?)
+        120/25 (242)
+    2/XV (75/46)
+Central Raggruppamento
+    II/43
+        75/27 (organic)
+        75/27 (organic)
+        75/27 (organic)
+    III/55
+        75/27 (organic)
+        75/27 (organic)
+        75/27 (organic)
+    CV/25
+        149/13 (organic)
+        149/13 (organic)
+        149/13 (organic)
+    XXXI/6
+        120/25 (230bis)
+        120/25 (231bis)
+    XXXI/7
+        149/35 (244)
+        149/35 (245)
+    120 R.M. (Nembo)
+    1/XV (75/46)
+    Section 149/35 (Buffolotto)
+Western Raggruppamento
+    I/43
+        100/17 (organic)
+        100/17 (organic)
+        100/17 (organic)
+    III/43
+        75/27 (organic)
+        75/27 (organic)
+    I/55
+        Gun-Set
+            100/17 (organic)
+            100/17 (organic)
+            100/17 (organic)
+        Gun-Set
+            100/17 (I/22)
+            100/17 (I/22)
+    II/55
+        75/27 (organic)
+        75/27 (organic)
+        75/27 (organic)
+    VII/10
+        100/17 (organic)
+        100/17 (organic)
+        100/17 (organic)
+    XVII/10
+        105/28 (organic)
+        105/28 (organic)
+    I/22
+        75/27? (III/43)
+        100/17 (organic)
+        105/28 (XVII/10)
+        105/28 (Mixed/22)
+    CXLVIII/25
+        149/13 (organic)
+        149/13 (organic)
+        149/13 (organic)
+        149/13 (CL/25)
+    Formation Battery ("Vittoria"?)
 
 

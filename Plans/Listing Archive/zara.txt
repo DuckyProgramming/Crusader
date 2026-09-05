@@ -1,15 +1,40 @@
-Commander of Troops in Zara (13 Battalions, 40 Companies)
+Commander of Troops in Zara (8 Battalions, 28 Companies) (10 June 1940)
 
 Land Front (4 Battalions, 12 Companies)
     Static Machine Gun Battalion "Armando Diaz" (3 Companies)
     Static Machine Gun Battalion "Luigi Cardorna" (3 Companies)
-    Static Machine Gun Volunte Battalion "Francesco Rismondo" (3 Companies)
+    Static Machine Gun Volunteer Battalion "Francesco Rismondo" (3 Companies)
     Motorcycle Bersaglieri Battalion "Zara" (3 Companies)
 
 Sea Front (5 Companies)
     1st Static Machine Gun Company
     2nd Static Machine Gun Company
-    2nd Battery, 3rd Air Defense Militia Group
+    2nd Battery, 3rd Air Defense Militia Group (76/40)
+    Zara Coastal Battery (149/17, 76/40)
+    Naval Battery "Zara" (100/17)
+
+Headquarters Reserve (4 Battalions, 11 Companies)
+    Carabinieri Battalion "Zara" (3 Companies)
+    3rd Air Defense Militia Group (3 Batteries of 76/40) (2 Batteries Detached to the Sea Front)
+    103rd GaF Artillery Group (3 75/27 Batteries)
+    30th "Zara" Mixed Engineer Battalion (1 Engineer Company, 1 Signals Company)
+    Mechanized Company "Zara" (1 Platoon Motorized Infantry, 1 Platoon L5/21 Tanks, 1 Platoon 1 ZM Armored Cars)
+    107th "Zara" CC.NN. Machine Gun Company
+
+
+
+Commander of Troops in Zara (13 Battalions, 40 Companies) (5 April 1941)
+
+Land Front (4 Battalions, 12 Companies)
+    Static Machine Gun Battalion "Armando Diaz" (3 Companies)
+    Static Machine Gun Battalion "Luigi Cardorna" (3 Companies)
+    Static Machine Gun Volunteer Battalion "Francesco Rismondo" (3 Companies)
+    Motorcycle Bersaglieri Battalion "Zara" (3 Companies)
+
+Sea Front (5 Companies)
+    1st Static Machine Gun Company
+    2nd Static Machine Gun Company
+    2nd Battery, 3rd Air Defense Militia Group (76/40)
     Zara Coastal Battery (149/17, 76/40)
     Naval Battery "Zara" (100/17)
 
@@ -21,11 +46,11 @@ Zara Corps Artillery Raggruppamento (3 Battaions, 9 Companies)
 Headquarters Reserve (5 Battalions, 14 Companies)
     Artillery Group "Zara" (3 65/17 Batteries)
     103rd GaF Artillery Group (3 75/27 Batteries)
-    3rd Air Defense Militia Group (2 Batteries) (1 Battery Detached)
+    3rd Air Defense Militia Group (3 Batteries of 76/40) (2 Batteries Detached to the Sea Front)
     Static Machine Gun Battalion "Zara" (3 Companies)
     30th "Zara" Mixed Engineer Battalion (1 Engineer Company, 1 Signals Company)
-    107th CC.NN. Machine Gun Company
-    Light Tank Company "Zara"
+    107th "Zara" CC.NN. Machine Gun Company
+    Light Tank Company "Zara" (12 L3/35)
 
 
 

@@ -119,7 +119,8 @@ export class operation{
         return composite
     }
     saveCol(){
-        saveStrings([JSON.stringify(this.save())],'crusaderSaveFile','json')
+        //saveStrings([JSON.stringify(this.save())],'crusaderSaveFile','json')
+        saveStrings([JSON.stringify(this.save())],'TCFNASaveFile','json')
     }
     async load(result){
         let composite=JSON.parse(result)
@@ -398,7 +399,8 @@ export class operation{
                             }
                             layer.fill(0,anim)
                             layer.textSize(80)
-                            layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*40)
+                            //layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*40)
+                            layer.text(`The Campaign For North Africa`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*40)
                             layer.textSize(40)
                             layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*40)
                             for(let a=0,la=flat.length;a<la;a++){
@@ -427,7 +429,8 @@ export class operation{
                             }
                             layer.fill(0,anim)
                             layer.textSize(80)
-                            layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
+                            //layer.text(`Crusader`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
+                            layer.text(`The Campaign For North Africa`,layer.width/2,layer.height/2-10-ceil(flat.length/columns)*50)
                             layer.textSize(40)
                             layer.text(`DuckyProgramming`,layer.width/2,layer.height/2+40-ceil(flat.length/columns)*50)
                             for(let a=0,la=flat.length;a<la;a++){

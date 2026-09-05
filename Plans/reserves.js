@@ -4365,5 +4365,28 @@ reserves=[
       {level:4,type:`Semi-Motorized Small Artillery`,team:`Italian`,desc:[`2nd Group, 43rd Artillery Regiment`,`II Gruppo, 43° Reggimento Artiglieria "Sirte"`],name:`2`,designation:`43`,commander:`Tucci`,icon:`brennero`},
       {level:4,type:`Semi-Motorized Small Artillery`,team:`Italian`,desc:[`3rd Group, 43rd Artillery Regiment`,`III Gruppo, 43° Reggimento Artiglieria "Sirte"`],name:`3`,designation:`43`,commander:`Biglino`,icon:`re`},
     ],
+  },{
+    level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Strongpoint Dahar el Azazi, 31st/B Frontier Guard Subsector`,`Caposaldo Dahar el Azazi, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Dahar el\nAzazi`,designation:`XXXI/B`,commander:``,icon:``,
+    pos:[2987,1609],
+    elements:[
+      {type:`Static Machine Gun Company`},																
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+    ]
+  },{
+    level:5,type:[`Fortress`],team:`Guardia alla Frontiera`,
+    desc:[`Strongpoint Bir Umm Haleiga, 31st/B Frontier Guard Subsector`,`Caposaldo Bir Umm Haleiga, XXXI/B Sottosettore Guardia alla Frontiera`],name:`Bir Umm\nHaleiga`,designation:`XXXI/B`,commander:``,icon:``,
+    pos:[2674,1693],
+    elements:[
+      {type:`Static Machine Gun Company`},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Tank Company`,team:`Guardia alla Frontiera`,desc:[`47/32 Platoon`,`Plotone da 47/32`],name:`47/32`,designation:``,commander:``,icon:``},
+      {level:6,type:`2-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Platoon`,`Plotone da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+      {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, 247th Frontier Guard Static Artillery Battery`,`2ª Sezione, 247ª Batteria Cannoni Campali da Posizione Guardia alla Frontiera`],name:`2`,designation:`249`,commander:``},
+      {level:7,type:`2-Gun Ruined Static Artillery Battery`,team:`Guardia alla Frontiera`,desc:[`2nd Section, Ad Hoc Battery "Derna"`,`2ª Sezione, Batteria di Formazione "Derna"`],name:`2`,designation:`Derna`,commander:``,icon:``},
+      {level:8,type:`1-Gun Static Small Anti-Air Company`,team:`Guardia alla Frontiera`,desc:[`20/65 Gun`,`Pezzo da 20/65`],name:`20/65`,designation:``,commander:``,icon:``},
+    ]
   },
 ]

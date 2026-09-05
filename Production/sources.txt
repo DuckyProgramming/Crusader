@@ -306,6 +306,7 @@ https://www.awm.gov.au/collection/C1417337 (Capture of Tobruk)
 https://www.awm.gov.au/collection/C1417162 (Siege of Tobruk)
 https://www.awm.gov.au/collection/C1417166 (Relief From Tobruk)
 https://www.awm.gov.au/collection/C1417191 (Breakout From Tobruk)
+https://www.awm.gov.au/collection/C1417197 (Prisoners)
 Frank Berryman:
 https://archive.org/details/architectofvicto0000dean/page/112/mode/2up?q=tobruk
 (This book's pages are blocked but this can be bypassed using the search feature)
@@ -315,6 +316,8 @@ Artillery:
 https://www.artilleryhistory.org/gunners_past_and_present/obituaries/nigel_web/austregt.htm
 2/3rd Field Regiment:
 https://digitize-vwma.s3.amazonaws.com/I/documents/11350/file/BESIER__Henry_Roderick_2_3_Formation.pdf
+6th Division Cavalry Regiment:
+https://www.awm.gov.au/collection/U54268
 
 New Zealand:
 Artillery:
