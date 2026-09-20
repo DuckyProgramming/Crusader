@@ -6988,4 +6988,60 @@ And there were also irregular units, including militia from the factories and di
 As of today (19 September), access to Nafziger's collection has been restricted. The dead internet theory strikes again. As much as I criticize Nafziger, this is a major loss for history.
 I do genuinely hope that the restrictions are lifted and the site becomes fully available again. Quality and quantity matter in equal measure and much quantity has just been taken away.
 
+After this, I've had reason to go back through Nafziger's documents now that I realize just how fragile they really are. I'm using the archived ones at generalstaff.org.
+Some documents (from Nafziger, but reliable and based on NARA records) I've found have strength returns for the Afrika Korps on the 31st of July 1941 (after Battleaxe). Here they are:
+115th Infantry Regiment (HQ 230)
+    1st Battalion (780)
+    2nd Battalion (810)
+2nd Battalion, 104th Infantry Regiment (972)
+2nd Battalion, 33rd Artillery Regiment (570)
+3rd Battery, 523rd Coastal Artillery Battalion (100)
+39th Anti-Tank Battalion (260)
+900th Engineer Battalion (595)
+33rd Field Replacement Battalion (270, demonstrating that these units were often understrength despite supposedly having four companies)
+
+And here are some from the 27th of July 1941 (also NARA):
+3rd Battalion, 241st Infantry Regiment (later 1/155) (345)
+3rd Battalion, 268th Infantry Regiment (840)
+3rd Battalion, 347th Infantry Regiment (795)
+8th Machine Gun Battalion (195)
+523rd Coastal Artillery Battalion (255)
+533rd Coastal Artillery Battalion (329)
+2nd Battalion, 115th Artillery Regiment (450)
+408th Heavy Artillery Battalion (356)
+(200th) Replacement Battalion, 5th Light Division (741, so unlike the 33rd, this one was very wealthy with reinforcement personnel, though it's a month later)
+
+Here are some similar pieces of data for vehicles on the 30th of December 1941 (also NARA):
+15th Panzer Division (0/1)
+    8th Panzer Regiment (67/209)
+    15th Rifle Brigade (0/1)
+        155th Rifle Regiment (10/22)
+        200th Regimental Staff z.b.V. (0/2)
+            15th Motorcycle Battalion (2/12)
+            2nd Machine Gun Battalion (2/10)
+    33rd Artillery Regiment (0/22)
+    33rd Reconaissance Battalion (12/34)
+    33rd Engineer Battalion (0/19)
+    33rd Anti-Tank Battalion (0/2)
+
+Based on more NARA records, here is some data about the remnants of the German infantry on the 25th of February 1942:
+361st Infantry Regiment
+    1st Battalion (2/4 Companies)
+    2nd Battalion (2/4 Companies)
+    3rd Battalion, 347th Infantry Regiment (3/4 Companies)
+And on the 15th of August 1942:
+288th Sonderverband
+    288th Headquarters Company (Armored Car and Reconaissance Platoons)
+    288th Signals Company
+    1st Battalion (4 Companies)
+    2nd Battalion (4 Companies)
+    9th Heavy Company
+    10th Engineer Company
+    11th Flak Company
+
+Stalingrad related information I found here that's interesting:
+1. Standard German Infantry Divisions had a bicycle reconaissance battalion and an anti-tank battalion.
+For former static divisions, these two were formed instead into a merged "fast" (schnelle) battalion with one bicycle company and two companies of anti-tank guns.
+2. 6th Romanian Army Corps had just about 3,000 men on the 14th of December 1942, with 8 AT guns total. This did not include the 18th Division, which was decently strong.
+
 
