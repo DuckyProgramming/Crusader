@@ -2938,6 +2938,7 @@ The Savona's case is probably an anomaly and that order of battle is on the susp
 
 Some say replacement battalions were meant to handle replacement companies. They themselves never replaced anything and were chiefly administrative, and were also entirely permanent and stood in for depots (which were not overseas).
 In contrast, march companies were formed at the replacement battalion from personnel sent from Italy. There, they would be trained and equipped in preparation to join the unit they were replacing.
+Also, nine replacement battalions are noted to have arrived for Messe's use in Tunisia. If and how these were broken up or if they were actually replacement battalions in the strict sense is unknown.
 
 The Savona Division appears to have a single infantry gun company with 5 guns during Crusader, at least according to a German Source. Other places indicate that its artillery regiment had two batteries of 65/17 after rebuilding.
 I believe at least one of the batteries was numbered the 267th, which certainly was a replacement unit and probably hadn't come from any existing infantry regiment.
@@ -6517,6 +6518,9 @@ This detail may seem useless, but many Italian units had been sent to the coloni
 In this case, though, we can know that this did not apply to the Ancona Brigade, with none of its battalions or companies out of the country, though this didn't affect its strength.
 During this war the brigades did not have engineer units. Rather, the engineer (genio, not artieri) companies were given one at a time to the divisions, the corps, and the armies.
 
+The "Ancona" Brigade had originally been formed on the 1st of August 1962 with its two infantry regiments, both of which were also newly formed. It seems to have done little in the Italian Wars of Unification.
+In the First World War, however, it fought at several battles against the Austrians following the fortunes of the wider army and culminating in success at Vittorio Veneto.
+
 R52, R54, R55, R56, R57, and R59 were the first 6 posts that were lost. They had the following total strength: 4 47/32, 1 75/27, 1 20/65, 12 MGs (Fiat 35 / Schwarzlose)
 To be honest, I think the actual placement of the guns was arbitrary. Little information about the specific posts exists other than this one single detail that can be found in different places.
 Despite this, though, I will still try my best to make this apply to the existing Tobruk Composite Ring (a mouthful, I know) scenario, since it should't take more than few couple shuffling changes.
@@ -6841,6 +6845,8 @@ Rather, these companies were oversized with 273 men total while facing off again
 
 Funilly enough while I trash the quality of Nafziger's archives, the reality is that he as a person was defined by more than just a single project that he conduted late in life.
 As a Napeoleonic historian, for example, his works are considered in high regard and are probably much more accurate in their information than the documents transcribed from other books that he put in the archives.
+In fact, I myself have read some articles about Napoleonic warfare based on his books (which I have a tangential interest in) and the military organizations used during that period, and they seem up to a high standard.
+Just goes to show what can happen if you attach your name to things carelessly. This man was undoubtably a pretty great historian but putting his name on the collection sours me on him as a person.
 
 Another funny unit I recently learned about was that the Germans actually formed a division out of their frontier guards, almost analagous to the G.a.F. Tobruk fortress.
 Here was its structure. The most evident thing based on this is the severe lack of support units. Compared to the G.a.F. in North Africa that was flooded with artillery batteries this division had not a single one.  
@@ -6962,5 +6968,24 @@ Western Raggruppamento
         149/13 (organic)
         149/13 (CL/25)
     Formation Battery ("Vittoria"?)
+In all honesty, this was a necessary exercise since I hadn't worked on this topic for at least two months, at least not in detail. But I'm still disappointed by the lack of conclusions.
+
+This is entirely unrelated to Tobruk or to the North African Campaign as a whole, but since I've included other stuff that's only tangentially related I'd like to discuss something I found about Stalingrad.
+More specifically, it's about Group Gorokhov, which held out in isolation in the villages north of Stalingrad, Rynok and Spartakovka, surviving several assaults.
+The source I have is a little poor. While it does have a lot of detail and nothing in it stands out as incorrect or propagandistic, the translation from Russian is terrible.
+Still, what's interesting about this unit is that it didn't "harden" or become better at fighting. Instead it, like all Soviet units inside Stalingrad, was simply reinforced more than the enemy.
+On the 11th of September, Group Gorokhov, with the 115th, 124th, and 149th Rifle Brigades, plus the 282nd NKVD Regiment, had 13837 men, more than a regular division.
+Until the 1st of October, the Germans didn't do too much in this sector but attritional fighting remained. The group's strength was reduced to 11844 men, but probably wasn't reinforced much.
+By the 5th of October, the Germans had closed the Orlovka salient, inflicting crippling casualties on the 115th Rifle Brigade and 282nd NKVD Regiment. Total group strength was now just 7211 men.
+Weeks later, Paulus's third offensive went in with Group Jaenecke leading the assault. The Soviet line folded and Group Gorokhov's southern flank was completely overrun. It now had 2640 men in one brigade.
+By November 20, though, its strength had risen to 2898 men. Soviet reinforcements to this sector were now outpacing the rate of sustaining casualties. Despite constant defeat, they won the attritional battle.
+
+It's possible, however, that I am misreading the 2640 number. It may be the case that Group Gorokhov had been reorganized as a unit and thus the other brigades were no longer counted.
+By this point, Gorokhov's command was no longer an arbitrarily defined sector of the frontline inside Stalingrad but rather was a distinctive pocket that was disconnected from the rest of the army.
+Also note that they received other random reinforcements, like the 99th Tank Brigade, 32nd Volga Marine Battalion, 38th Separate Motorized Rifle Brigade, and a company of the 1051st Regiment, 300th Rifle Division.
+And there were also irregular units, including militia from the factories and districts and a battalion of "rifle repair", whatever that means.
+
+As of today (19 September), access to Nafziger's collection has been restricted. The dead internet theory strikes again. As much as I criticize Nafziger, this is a major loss for history.
+I do genuinely hope that the restrictions are lifted and the site becomes fully available again. Quality and quantity matter in equal measure and much quantity has just been taken away.
 
 

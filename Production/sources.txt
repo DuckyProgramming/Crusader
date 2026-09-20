@@ -132,6 +132,8 @@ https://apps.dtic.mil/sti/tr/pdf/ADA367611.pdf
 (Essay on the army's performance, somewhat unreliable)
 https://archive.org/details/bollettino_202504/2002.Bollettino-n.3-4/page/348/mode/2up
 (Random archival information, often off-topic)
+https://archive.org/details/l-esercito-e-i-suoi-corpi-vol-i/L%27Esercito%20e%20i%20suoi%20Corpi%20vol%20III/page/n513/mode/2up?q=sirte
+(Information about various units, often repeated)
 Genova Cavalleria:
 https://web.archive.org/web/20100412231808/https://www.comandosupremo.com/forum/viewtopic.php?f=11&t=953
 https://forum.axishistory.com/viewtopic.php?t=177538&start=15
@@ -353,6 +355,8 @@ Sirte Division Postcard:
 https://www.tildosacchinischool.it/archivio-cartoline/mario-murazio-5-giugno-1940/
 Reliability of Nafziger:
 https://web.archive.org/web/20260216051437/http://www.comandosupremo.com/forums/index.php?threads/77-28-skoda-m05-08-in-anti-tank-role.167/
+Nafziger Napoleonic:
+https://www.napoleon-series.org/resources/the-nafziger-collection-of-napoleonic-orders-of-battle/#1600852372347-6ef10778-4847
 
 Things to Avoid:
 Various articles:
