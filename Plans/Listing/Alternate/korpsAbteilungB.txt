@@ -1,0 +1,36 @@
+Corps Detachment B
+    Staff (112th Divisional Staff Elements)
+    112th Division Group
+        Staff Company
+        110th Regimental Group (4 Companies)
+        258th Regimental Group (4 Companies)
+        13th/110th Infantry Gun Company
+        14th/110th Anti-Tank Company
+    255th Divisional Group
+        Staff Company
+        465th Regimental Group (4 Companies)
+        475th Regimental Group (4 Companies)
+        13th/465th Infantry Gun Company
+        14th/465th Anti-Tank Company
+    332nd Divisional Group
+        Staff Company
+        677th Regimental Group (4 Companies)
+        678th Regimental Group (4 Companies)
+        13th/677th Infantry Gun Company
+        14th/677th Anti-Tank Company
+    112th Fusilier Battalion (4 Companies)
+    112th Anti-Tank Battalion (2 Companies)
+    86th Artillery Regimental
+        Staff Battery
+        1st Battalion (Staff + 3 Batteries)
+        2nd Battalion (Staff + 3 Batteries)
+        3rd Battalion (Staff + 3 Batteries)
+        4th Battalion (Staff + 3 Batteries)
+    112th Engineer Battalion (2 Companies)
+    112th Signals Battalion (2 Companies)
+    112th Field Replacement Battalion (5 Companies)
+    Service Troops
+
+Despite being a very unique type of unit, in reality its organization was nearly identical to that of any other infantry division
+
+
