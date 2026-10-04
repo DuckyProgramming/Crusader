@@ -1,0 +1,102 @@
+10th Area Army
+    9th Division
+        7th Infantry Regiment
+        19th Infantry Regiment
+        35th Infantry Regiment
+        9th Mountain Artillery Regiment
+        9th Cavalry Regiment (Battalion)
+        9th Engineer Regiment (Battalion)
+        9th Signal Unit (Company)
+    12th Division
+        24th Infantry Regiment
+        46th Infantry Regiment
+        48th Infantry Regiment
+        12th Division Tank Unit (Company)
+        12th Artillery Group Command
+            24th Artillery Regiment
+        18th Engineer Regiment (Battalion)
+        12th Signal Unit (Company)
+    50th Division
+        301st Infantry Regiment
+        302nd Infantry Regiment
+        303rd Infantry Regiment
+        50th Artillery Regiment
+        50th Reconaissance Regiment (Battalion)
+        50th Engineer Regiment (Battalion)
+        50th Signal Unit (Company)
+    66th Division
+        249th Infantry Regiment
+        304th Infantry Regiment
+        305th Infantry regiment
+        66th Artillery Regiment
+        66th Engineer Regiment (Battalion)
+        66th Signal Unit (Company)
+    71th Division
+        87th Infantry Regiment
+        88th Infantry Regiment
+        140th Infantry regiment
+        71st Mountain Artillery Regiment
+        171st Cavalry Regiment (Battalion)
+        71st Engineer Regiment (Battalion)
+        71st Signal Unit (Company)
+    61st Independent Mixed Brigade
+    75th Independent Mixed Brigade
+    76th Independent Mixed Brigade
+    100th Independent Mixed Brigade
+    102nd Independent Mixed Brigade
+    103rd Independent Mixed Brigade
+    112th Independent Mixed Brigade
+Attached Units
+    42nd Independent Mixed Regiment
+
+    1st Independent Raiding Battalion
+    9th Independent Raiding Battalion
+
+    7th Independent Machine Gun Battalion
+    8th Independent Machine Gun Battalion
+    24th Independent Machine Gun Battalion
+
+    4th Independent Rapid Cannon Battalion
+    16th Independent Rapid Cannon Battalion
+    29th Independent Rapid Cannon Company
+    30th Independent Rapid Cannon Company
+
+    5th Independent Field Artillery Battalion
+
+    16th Heavy Field Artillery Battalion
+
+    161st Anti-Aircraft Artillery Regiment
+    162nd Anti-Aircraft Artillery Regiment
+    92nd Anti-Aircraft Artillery Battalion
+    93rd Anti-Aircraft Artillery Battalion
+
+    56th Field Machine Cannon Company
+    57th Field Machine Cannon Company
+    58th Field Machine Cannon Company
+    59th Field Machine Cannon Company
+    60th Field Machine Cannon Company
+    61st Field Machine Cannon Company
+    86th Field Machine Cannon Company
+    87th Field Machine Cannon Company
+    88th Field Machine Cannon Company
+    89th Field Machine Cannon Company
+    90th Field Machine Cannon Company
+    91st Field Machine Cannon Company
+    92nd Field Machine Cannon Company
+    93rd Field Machine Cannon Company
+
+    56th Special Machine Cannon Unit
+
+    10th Area Army Air Intelligence Unit
+
+    42nd Independent Engineer Regiment
+    64th Independent Engineer Battalion
+
+    33rd Signal Regiment
+    34th Signal Regiment
+
+    501st-524th Special Guard Companies
+    501st-541st,551st,552nd,560th-566th Special Guard Battalions
+    507th-518th Special Guard Engineer Units
+
+

@@ -7054,4 +7054,28 @@ At one point, they also glued a tank to the bottom of a plane. This was extremel
 I misread some claims regarding the supposed Colonel Roske who commanded either the 115th Rifle Regiment, or its 2nd Battalion, and was captured early during Gazala.
 I would check these myself, but I'm unable to find a free copy of Mellenthin's book, though I guess I could borrow it from Internet Archive if I had an account.
 
+Another source gives the following OOB for the German units attacking Ras el Medauuar on the 30th of April 1941:
+Kampfgruppe Kirchheim (Regimental Staff z.b.V. 200)
+    2nd Machine Gun Battalion
+    200th Engineer Battalion
+    1st Battalion, 5th Panzer Regiment
+    1 Battery, 1st Battalion, 75th Artillery Regiment
+    1 Platoon, 39th Anti-Tank Battalion
+    Portion, 606th Flak Battalion
+Shock (Stoss) Regiment Holtzendorff (104th Rifle Regiment)
+    1st Battalion, 104th Rifle Regiment
+    2nd Battalion, 104th Rifle Regiment
+    1st Battalion, 115th Rifle Regiment
+    15th Motorcycle Battalion
+    2nd Battalion, 33rd Motorized Artillery Regiment
+    33rd Motorized Engineer Battalion
+    2 Italian Artillery Battalions
+        According to Montanari: 1 105/28 Group (corps), 1 100/17 Group (Trento Division)
+Reserve
+    5th Panzer Regiment
+        1st Battalion, 5th Panzer Regiment
+        2nd Battalion, 5th Panzer Regiment
+    Portion, 606th Flak Battalion
+    605th Anti-Tank Battalion
+Note that this (almost all of it, in fact) highly disagrees with Montanari's claims, so I'm not sure who to believe here.
 
