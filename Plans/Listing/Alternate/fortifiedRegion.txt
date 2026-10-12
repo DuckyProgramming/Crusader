@@ -1,0 +1,20 @@
+Fortified Region
+    3 Machine Gun - Artillery Battalions
+        Battalion Headquarters
+        Signals Platoon
+        Pioneer Squad
+        4 Machine Gun Artillery Companies
+            Company Headquarters
+            4 Machine Gun Platoons
+            Anti-Tank Rifle Platoon
+            Mortar Platoon
+        Artillery Battery
+            Battery Headquarters
+            Anti-Tank Gun Platoon
+            Field Gun Platoon
+
+Notes:
+Organization was very small in manpower, without any riflemen to cover the MGs and artillery
+Also, while companies had headquarters, the platoons rarely if ever
+
+
