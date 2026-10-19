@@ -354,8 +354,6 @@ http://www.rothwell.force9.co.uk/11th.htm
 Misc:
 Group Gorokhov:
 https://clever-geek.imtqy.com/articles/6173815/index.html
-Stumpfeld Division:
-https://www.generalstaff.org/NAF/Pt_I_1941-1942/942gldd.pdf
 Sirte Division Postcard:
 https://www.tildosacchinischool.it/archivio-cartoline/mario-murazio-5-giugno-1940/
 Reliability of Nafziger:
@@ -371,6 +369,9 @@ Numerous orders of battle:
 https://cgsc.contentdm.oclc.org/
 https://www.generalstaff.org/NAF/Nafziger_FA_1941-1942.htm
 (Nafziger worked hard in compiling documents, but his interpretation of them is poor. Always check his sources for better results)
+Stumpfeld Division:
+https://www.generalstaff.org/NAF/Pt_I_1941-1942/942gldd.pdf
+(This is another Nafziger document that horribly misses the mark, as it misinterprets Kampfgruppe Stumpfeld as a Division inside Stalingrad)
 Unclear Commander:
 https://cgsc.contentdm.oclc.org/digital/collection/p15040coll6/id/5050/rec/18
 (This is a clear example of Nafziger's mistake, not realizing that the "di Bardi" task force was in fact the "Piazza di Bardia" or Bardia Fortress)

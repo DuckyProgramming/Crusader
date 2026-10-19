@@ -1,0 +1,72 @@
+Division von Stumpfeld
+    Infantry Regiment Schmid (1402 Men)
+        Infantry Battalion Schöne (145 Men)
+            2 Infantry Companies
+                German: 3 LMGs, 2 75mm Guns, 1 50mm Gun
+        Infantry Battalion Kamenberg (424 Men)
+            3 Infantry and 1 Reserve Companies 
+                German: 9 LMGs, 3 HMGs, 1 88mm Gun, 1 75mm Gun, 1 50mm Gun 3 20mm Guns, 1 81mm Mortar
+                Soviet: 2 82mm Mortars, 2 50mm Mortars
+        Infantry Battalion Lindner (247 Men)
+            2 Infantry Companies
+                German: 2 HMGs, 1 75mm Gun
+                Soviet: 8 LMGs, 2 45mm Guns, 4 82mm Mortars
+        Infantry Battalion Eisenacker (186 Men)
+            2 Infantry Companies
+        Infantry Battalion Korherr (400 Men)
+            2 Infantry and 1 Reserve Companies, 2 Motorized Platoons
+                German: 9 LMGs, 2 88mm Guns, 1 75mm Gun, 2 20mm Guns, 2 50mm Mortars
+                Soviet: 10 LMGs
+        AT Rifles: 11 German, 42 Soviet
+    Infantry Regiment Stelle
+        Engert Battalion
+            4 Infantry Companies
+        von Saddnebruck Battalion
+            4 Infantry Companies
+        Guns:
+            German: 1 150mm Howitzer, 4 88mm Guns, 1 75mm Gun, 6 20mm Gun
+            Soviet: 5 100mm Guns, 2 47mm Guns
+    Kharkov II Battalion
+        12 Battalions, 5 LMGs, 2 75mm Guns, 2 50mm Guns, 1 37mm Gun
+    Morossovskaya IV Battalion
+        3 Infantry Companies
+            16 LMGs, 2 88mm Guns, 2 37mm Guns, 2 20mm Guns
+    Stumpfeld Detachment, 9th Flak Division
+        2 88mm Guns, 9 20mm Guns
+    Abrendroth Panzer Company (3 T-34s, 2 T-70s)
+    Artillery Battery (1 French 105mm Gun, 2 German 105mm Guns)
+
+
+
+The very existence of this unit is questionable. Rather, it seems to be a very poor misinterpretation of Kampfgruppe Stumpfeld.
+Rather than Scmid and Stelle "Infantry Regiments", this was actually KG Selle and KG Schidt. Herbert Selle was the 6th Army's engineer commander.
+Saddnebruck also seems to be a typo for Saddenbruck or even Sauerbruck, if those are the same person.
+
+It was also probably not formed out of Soviet deserters but by alarm, rear services, and stragglers from the 6th Army.
+The only possible Ost unit there was a supposed "Est Schuma Battalion 36 'Arensburg'" which I have no information about.
+The Kharkov and Morossovskaya battalions were not formed from Russians or Cossacks either, but by Germans in the service units in those areas.
+The Morossovskaya/Morrosowskaja Battalion may also be named the II rather than the IV.
+More at: https://forum.axishistory.com/viewtopic.php?t=82773, https://www.feldgrau.net/forum/viewtopic.php?t=7123 (Abrendroth), https://www.feldgrau.net/forum/viewtopic.php?t=8220&start=30
+The originally document that the above was misinterpreted from can also be found, at: https://forum.axishistory.com/download/file.php?id=393335&t=1.
+
+
+Another document gives the following organization and strength, on the 3rd of December:
+Kampfgruppe von Stumpfeld (5930) (Division)
+    Kampfgruppe Selle (1022) (Regiment)
+        Detachment, 14th Panzer Division (202)
+        Kharkov I Battalion (550)
+        Stalino I Battalion (270)
+    Kampfgruppe Adam (2750) (Brigade)
+        Kampfgruppe Erdmann (450)
+        Kampfgruppe Göbel (800)
+        Morosowskaja I Battalion (300)
+        Kampfgruppe Tzschökell (600) (Regiment)
+        Kampfgruppe Mikosch (600) (Regiment)
+    Kampfgruppe Schmidt (1300)
+        Panzer Company Abrendroth (5 Tanks)
+        Front Battalion 36 (300)
+        Kampfgruppe Urlauber (1000)
+    Kampfgruppe Heilmanm (528)
+    Kharkov II Battalion (330, Reserve)
+
+
