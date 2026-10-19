@@ -909,6 +909,11 @@ export class unit{
                                 layer.line(-6,-1.5,-6,0.25)
                                 layer.point(-6,1.5)
                             break
+                            case 29:
+                                layer.line(0,5,-1,3.5)
+                                layer.line(0,5,1,3.5)
+                                layer.arc(0,3.5,2,1,-180,0)
+                            break
                         }
                     }
                     if(this.img.length>1&&this.img[1]!=undefined&&!options.clean){

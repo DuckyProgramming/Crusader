@@ -1,5 +1,5 @@
 10th Area Army
-    9th Division
+    9th Division (Taipei)
         7th Infantry Regiment
         19th Infantry Regiment
         35th Infantry Regiment
@@ -7,7 +7,7 @@
         9th Cavalry Regiment (Battalion)
         9th Engineer Regiment (Battalion)
         9th Signal Unit (Company)
-    12th Division
+    12th Division (Hsinchu)
         24th Infantry Regiment
         46th Infantry Regiment
         48th Infantry Regiment
@@ -16,7 +16,7 @@
             24th Artillery Regiment
         18th Engineer Regiment (Battalion)
         12th Signal Unit (Company)
-    50th Division
+    50th Division (Kaohsiung)*
         301st Infantry Regiment
         302nd Infantry Regiment
         303rd Infantry Regiment
@@ -24,14 +24,14 @@
         50th Reconaissance Regiment (Battalion)
         50th Engineer Regiment (Battalion)
         50th Signal Unit (Company)
-    66th Division
+    66th Division (Keelung)
         249th Infantry Regiment
         304th Infantry Regiment
         305th Infantry regiment
         66th Artillery Regiment
         66th Engineer Regiment (Battalion)
         66th Signal Unit (Company)
-    71th Division
+    71st Division (Pagan Island)
         87th Infantry Regiment
         88th Infantry Regiment
         140th Infantry regiment
@@ -39,13 +39,13 @@
         171st Cavalry Regiment (Battalion)
         71st Engineer Regiment (Battalion)
         71st Signal Unit (Company)
-    61st Independent Mixed Brigade
-    75th Independent Mixed Brigade
-    76th Independent Mixed Brigade
-    100th Independent Mixed Brigade
-    102nd Independent Mixed Brigade
-    103rd Independent Mixed Brigade
-    112th Independent Mixed Brigade
+    61st Independent Mixed Brigade (Babuyan Islands)
+    75th Independent Mixed Brigade (Hsinchu)
+    76th Independent Mixed Brigade (Keelung)
+    100th Independent Mixed Brigade (Kaohsiung)*
+    102nd Independent Mixed Brigade (Hualien)*?
+    103rd Independent Mixed Brigade (Taipei)
+    112th Independent Mixed Brigade (Yilan)
 Attached Units
     42nd Independent Mixed Regiment
 

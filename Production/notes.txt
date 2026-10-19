@@ -3251,7 +3251,7 @@ Format: [Artieri] Company: [Division] ([Regiments])
 101st Company: 1st "Eugenio di Savoia" Cavalry Division (12, 14, 11, 1) (Later Transferred to 6th "Alpi Graie" Alpine Division (3AG, 4AG, 6A))
 102nd Company: 2nd "Emanuele Filiberto Testa di Ferro" Cavalry Division (1, 2, 1, 2->134) (Later Transferred to 80th "La Spezia" Air-Transportable Division (125, 126, 80))
 [1]
-104th Company: 4th "Cuneense" Alpine Division (1A, 2A, 4A) (Poor Source)
+104th Company: 4th "Cuneense" Alpine Division (1A, 2A, 4A) (Poor Source, This seems to have actually been from a battalion, but why it has such a high number is unclear)
 105th Company: 3rd "Amedeo Duca d'Aosta" Cavalry Division (3, 5, 3, 3->120)
 [15, Unlikely]
 121st Company: 1st "Taurinense" Alpine Division (3A, 4A, 1A)
@@ -3293,10 +3293,12 @@ Format: [Artieri] Company: [Division] ([Regiments])
 Not Included:
 40th "Cacciatori d'Africa" Infantry Division (African Engineer Company)
 Artieri Battalions - they had their own internal companies
+There are actually a lot of such battalions but I have only ever seen them with organic companies. The 15th Engineer Regiment actually formed a ton (1st, 2nd, 4th, 9th, 10th, 11th, 13th).
 Blackshirt Divisions - unknown, if I were to guess they were numbered 200+
 For example the 4th Artieri Battalion had 1st, 2nd, and 3rd Companies, and the 15th Artieri Battalion had the 1st, 2nd, and 104th Companies. The Alpini Corps also had its own specialized battalion.
 
 This is for the companies only, which were assigned to the divisions. Each (most) corps had a raggruppamento of engineers including a battalion of artieri.
+Also, it's kinda useless. I even tried looking at division numbers and orders but I couldn't find anything. The two divisions with regiment numbers adjacent to the Sirte Division, the 38th and 58th, don't help.
 
 The commander of the 3rd Company, 28th "Pavia" Infantry Regiment was a Francesco Coco. He was killed during the siege of Tobruk on 30 November 1941.
 The commander of the 203rd Artillery Regiment which was part of the 64th "Catanzaro" Infantry Division was an Ermenegildo Farfaneti, killed on 11 December 1940.
@@ -7078,4 +7080,18 @@ Reserve
     Portion, 606th Flak Battalion
     605th Anti-Tank Battalion
 Note that this (almost all of it, in fact) highly disagrees with Montanari's claims, so I'm not sure who to believe here.
+
+It's been some time since I've updated this file, but one thing that absolutely frustrates me right now is trying to read anything on reddit. Maybe I should get off this platform.
+Other than the general historical misunderstandings, like thinking Genghis Khan alone was responsible for literally every accomplishment the Mongol Empire ever obtained.
+But that's beyond the point, and what's even worse is the understanding of players in subreddits like that for HOI4. The game's not perfect but it's not even good.
+There's also a million different instances of Stalingrad misinformation lying around, and it doesn't help that the battle has obtained a million misrepresentations in media.
+
+I've also been looking at a ton of random stuff. For example, Japanese units in Taiwan and the Kuril Islands, Soviet Fortified Regions, and other weird units.
+Speaking of weird units, I find it quite cool that even today the legacy of the Fortiifed Regions lives on in modern Russian Machine Gun-Artillery Divisions, which have been seen in Ukraine.
+I also made a map of Japanese unit locations on Operation Downfall. Most of this was easy, but there were some things I ended up not being able to trust Wikipedia on.
+One is the 115th Independent Mixed Brigade. This brigade was located in one place but surrendered elsewhere, confusing historians: https://min.news/en/history/b21d29672b92695cd3e9feeb6a995cc7.html.
+That map ultimately isn't at all relevant to Crusader, so unfortunately I will be having to leave it outside of the repository.
+However, I did end up uploading it to Wikimedia Commons, even though its quality is terrible, since a similar map does not yet exist. Here it is: https://commons.wikimedia.org/wiki/File:Downfall.png.
+When I get around to making an equivalent map for Tobruk, if that ever does happen, it'll go here as well. Maybe I'll leave some more units in the files as well.
+
 

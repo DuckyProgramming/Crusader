@@ -28,6 +28,7 @@ export var types={
     {name:`Small Ruined Heavy Infantry Company`,unitType:[`Infantry`,`Heavy`],class:0,damage:[12,3],armor:0,health:16,morale:0.8,num:160,speed:0.9,artillery:false,engineer:false,recon:false},
     {name:`Elite Infantry Company`,unitType:[`Infantry`,`Mixed`],class:0,damage:[15,3],armor:0,health:40,morale:1.5,num:200,speed:1.25,artillery:false,engineer:false,recon:false},
     {name:`Elite Infantry Platoon`,unitType:[`Infantry`,`Mixed`],class:0,damage:[15,3],armor:0,health:10,morale:1.5,num:50,speed:1.25,artillery:false,engineer:false,recon:false},
+    {name:`Parachute Infantry Company`,unitType:[`Infantry`,`Parachute`],class:0,damage:[15,1],armor:0,health:40,morale:1.5,num:200,speed:1.25,artillery:false,engineer:false,recon:false},
     {name:`Weak Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:0.9,num:700,speed:1,artillery:false,engineer:false,recon:false},
     {name:`Small Infantry`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:90,morale:1,num:700,speed:1,artillery:false,engineer:false,recon:false},
     {name:`Small Infantry Company`,unitType:[`Infantry`],class:0,damage:[10,2],armor:0,health:22,morale:1,num:175,speed:1,artillery:false,engineer:false,recon:false},
@@ -296,6 +297,7 @@ export var types={
     
     {name:`Motorized Anti-Tank`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,24],armor:0.1,health:40,morale:1,num:24,speed:2.5,artillery:false,engineer:false,recon:false},
     {name:`Motorized Anti-Tank Company`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,24],armor:0.1,health:15,morale:1,num:8,speed:2.5,artillery:false,engineer:false,recon:false},
+    {name:`4-Gun Motorized Anti-Tank Company`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,24],armor:0.1,health:8,morale:1,num:4,speed:2.5,artillery:false,engineer:false,recon:false},
     {name:`Motorized Weak Anti-Tank Section`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,12],armor:0.1,health:2,morale:0.8,num:2,speed:2,artillery:false,engineer:false,recon:false},
     {name:`Motorized Bersaglieri Anti-Tank Company`,unitType:[`Anti-Tank`,`Motorized`],class:2,damage:[4,24],armor:0.1,health:15,morale:1.2,num:8,speed:2.5,artillery:false,engineer:false,recon:false},
     
@@ -310,6 +312,9 @@ export var types={
     {name:`3-Gun Static Small Anti-Tank Company`,unitType:[`Anti-Tank`,`Fortress`],class:2,damage:[4,12],armor:0.1,health:6,morale:1,num:3,speed:0.5,artillery:false,engineer:false,recon:false},
     {name:`4-Gun Static Small Anti-Tank Company`,unitType:[`Anti-Tank`,`Fortress`],class:2,damage:[4,12],armor:0.1,health:8,morale:1,num:4,speed:0.5,artillery:false,engineer:false,recon:false},
     {name:`Static Small Anti-Tank Company`,unitType:[`Anti-Tank`,`Fortress`],class:2,damage:[4,12],armor:0.1,health:15,morale:1,num:8,speed:0.5,artillery:false,engineer:false,recon:false},
+
+    {name:`Tank Destroyer`,unitType:[`Anti-Tank`,`Tank`],class:2,damage:[4,24],armor:0.4,health:30,morale:1,num:12,speed:0.8,artillery:false,engineer:false,recon:false},
+    {name:`Tank Destroyer Company`,unitType:[`Anti-Tank`,`Tank`],class:2,damage:[4,24],armor:0.4,health:10,morale:1,num:4,speed:0.8,artillery:false,engineer:false,recon:false},
 
     {name:`Flak`,unitType:[`Anti-Air`],class:2,damage:[6,30,6,30],armor:0.1,health:20,morale:1,num:8,speed:0.8,artillery:true,engineer:false,recon:false},
     {name:`Motorized Flak`,unitType:[`Anti-Air`,`Motorized`],class:2,damage:[6,30,6,30],armor:0.1,health:20,morale:1,num:8,speed:2,artillery:true,engineer:false,recon:false},
@@ -389,6 +394,7 @@ export var types={
     {name:`Immobile`},
     {name:`Naval`},
     {name:`Alarm`},
+    {name:`Parachute`},
   ],unitLevel:[
     {name:`Corps`,symbol:`XXX`,size:[65,65,65]},
     {name:`Division`,symbol:`XX`,size:[55,55,55]},
@@ -793,6 +799,7 @@ export var types={
         {name:`Blackshirt`,term:`blackshirt`,player:2,quality:0.6},
         {name:`Guardia alla Frontiera`,term:`guardia alla frontiera`,player:2,quality:0.7},
         {name:`Regia Marina`,term:`regia marina`,player:2,quality:0.75},
+        {name:`SS`,term:`ss`,player:1,quality:1.1},
       ],player:[
         {name:`British`,color:[0,100,250],side:0},
         {name:`German`,color:[150,50,0],side:1},
@@ -17300,6 +17307,73 @@ export var types={
             {level:5,type:`Armored Car Company`,team:`Italian`,desc:[`1st Armored Car Company, Italian Africa Police`,`1ª Compagnia Carri, Polizia dell’Africa Italiana`],name:`1`,designation:``,commander:`Orlando`},
             {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`2nd Motorcycle Company, Italian Africa Police`,`2ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`2`,designation:``,commander:`Marini`},
             {level:5,type:`Motorcycle Machine Gun Company`,team:`Italian`,desc:[`3rd Motorcycle Company, Italian Africa Police`,`3ª Compagnia Motociclisti, Polizia dell’Africa Italiana`],name:`3`,designation:``,commander:`Ciani`},
+          ],
+        },
+      ],
+    },{
+      level:2,type:[`Infantry`,`Tank`],team:`German`,
+      desc:[`Kampfgruppe 1001 Nights`,`Kampfgruppe 1001 Nacht`],name:`1001 Nacht`,designation:`9`,commander:`Blancbois`,icon:``,
+      pos:[993,728],
+      elements:[
+        {
+          level:3,type:[`Infantry`],team:`German`,
+          desc:[`2nd March Regiment`,`Marschregiment 2`],name:`2`,designation:`Sultan`,commander:``,icon:``,
+          pos:[130,1422],
+          elements:[
+            {level:5,type:`Infantry Company`,team:`German`,desc:[`1st Company, 2nd March Regiment`,`1./Marschregiment 2`],name:`1`,designation:`2`,commander:``},
+            {level:5,type:`Infantry Company`,team:`German`,desc:[`2nd Company, 2nd March Regiment`,`2./Marschregiment 2`],name:`2`,designation:`2`,commander:``},
+            {level:5,type:`Infantry Company`,team:`German`,desc:[`3rd Company, 2nd March Regiment`,`3./Marschregiment 2`],name:`3`,designation:`2`,commander:``},
+          ],
+        },{
+          level:4,type:[`Anti-Tank`],team:`SS`,
+          desc:[`560th SS Anti-Tank Battalion`,`SS-Panzerjäger-Abteilung 560`],name:`560`,designation:`Suleika`,commander:`Wöst`,icon:``,
+          pos:[1251,710],
+          elements:[
+            {
+              level:5,type:[`Anti-Tank`],team:`SS`,
+              desc:[`1st Company, 560th SS Anti-Tank Battalion`,`1./SS-Panzerjäger-Abteilung 560`],name:`1`,designation:`560`,commander:``,icon:``,
+              pos:[1329,776],
+              elements:[
+                {type:`Anti-Tank Company`},
+              ]
+            },{
+              level:5,type:[`Anti-Tank`],team:`SS`,
+              desc:[`2nd Company, 560th SS Anti-Tank Battalion`,`2./SS-Panzerjäger-Abteilung 560`],name:`2`,designation:`560`,commander:``,icon:``,
+              pos:[1329,776],
+              elements:[
+                {type:`Anti-Tank Company`},
+              ]
+            },{
+              level:5,type:[`Anti-Tank`],team:`SS`,
+              desc:[`3rd Company, 560th SS Anti-Tank Battalion`,`3./SS-Panzerjäger-Abteilung 560`],name:`3`,designation:`560`,commander:``,icon:``,
+              pos:[1329,776],
+              elements:[
+                {type:`Anti-Tank Company`},
+              ]
+            },{
+              level:5,type:[`Anti-Tank`,`Tank`],team:`SS`,
+              desc:[`7th Company, 27th SS Anti-Tank Battalion`,`7./SS-Panzerjäger-Abteilung 27`],name:`6`,designation:`27`,commander:``,icon:`langemarck`,
+              pos:[1329,776],
+              elements:[
+                {type:`Tank Destroyer Company`},
+              ]
+            },{
+              level:5,type:[`Infantry`,`Parachute`],team:`SS`,
+              desc:[`3rd Company, 600th SS Parachute Battalion`,`3./SS-Fallschirmjägerbataillon 600`],name:`3`,designation:`600`,commander:``,icon:``,
+              pos:[1329,776],
+              elements:[
+                {type:`Parachute Infantry Company`},
+              ]
+            },
+          ],
+        },{
+          level:4,type:[`Tank`,`Recon`,`Tracked`],team:`German`,
+          desc:[`Panzer Reconnaissance Battalion Speer`,`Panzer-Aufklärungs-Abteilung Speer`],name:`Speer`,designation:`Harem`,commander:``,icon:``,
+          pos:[305,1502],
+          elements:[
+            {level:5,type:`Motorcycle Reconnaissance Company`,team:`German`,desc:[`1st Company, Panzer Reconnaissance Battalion Speer`,`1./Panzer-Aufklärungs-Abteilung Speer`],name:`1`,designation:`Speer`,commander:``},
+            {level:5,type:`Armored Car Company`,team:`German`,desc:[`2nd Company, Panzer Reconnaissance Battalion Speer`,`2./Panzer-Aufklärungs-Abteilung Speer`],name:`2`,designation:`Speer`,commander:``},
+            {level:6,type:`4-Gun Motorized Anti-Tank Company`,team:`German`,desc:[`Anti-Tank Platoon, Panzer Reconnaissance Battalion Speer`,`Panzerjäger-Zug, Panzer-Aufklärungs-Abteilung Speer`],name:`AT`,designation:`Speer`,commander:``},
           ],
         },
       ],
