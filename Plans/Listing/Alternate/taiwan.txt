@@ -31,7 +31,8 @@
         66th Artillery Regiment
         66th Engineer Regiment (Battalion)
         66th Signal Unit (Company)
-    71st Division (Pagan Island)
+    71st Division (Chiayi)*?
+        Task Force 5 (Pagan Island)
         87th Infantry Regiment
         88th Infantry Regiment
         140th Infantry regiment
@@ -44,7 +45,7 @@
     76th Independent Mixed Brigade (Keelung)
     100th Independent Mixed Brigade (Kaohsiung)*
     102nd Independent Mixed Brigade (Hualien)*?
-    103rd Independent Mixed Brigade (Taipei)
+    103rd Independent Mixed Brigade (Taipei (Tamsui))
     112th Independent Mixed Brigade (Yilan)
 Attached Units
     42nd Independent Mixed Regiment

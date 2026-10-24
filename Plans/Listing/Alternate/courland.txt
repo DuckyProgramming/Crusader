@@ -1,0 +1,525 @@
+16th Army (Kirchensittenbach)
+    6th SS Army Corps (Krüger)
+        12th Panzer Division (Usedom)
+            29th Panzer Regiment
+                | 2nd Battalion
+            5th Panzergrenadier Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            25th Panzergrenadier Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 12th Reconaissance Battalion
+            2nd Panzer Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 303rd Army Flak Battalion
+            | 2nd Anti-Tank Battalion
+            | 32nd Panzer Engineer Battalion
+        15th SS Grenadier Division (Burk)
+            32nd SS Grenadier Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            33rd SS Grenadier Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            34th SS Grenadier Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 15th SS Fusilier Battalion
+            15th SS Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 15th SS Flak Battalion
+            | 15th SS Engineer Battalion
+        19th SS Grenadier Division (Streckenbach)
+            42nd SS Grenadier Regiment "Valdemars Veiss"
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            43rd SS Grenadier Regiment "Hinrich Schuldt"
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            44th SS Grenadier Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 19th SS Fusilier Battalion
+            19th SS Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 19th SS Anti-Tank Battalion
+            | 19th SS Engineer Battalion
+        24th Infantry Division
+            31st Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            32nd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            102nd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 24th Fusilier Battalion
+            24th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 1st Battalion, 60th (Heavy) Artillery Regiment
+            | 24th Anti-Tank Battalion
+            | 24th Engineer Battalion
+            | 307th Security Battalion
+        Kampfgruppe 1001 Nights
+            | Suleika Unit (560th SS Tank Destroyer Battalion)
+            | Harem Unit (Panzer Reconaissance Detachment Speer)
+            Sultan Unit (2nd March Regiment)
+                | 1st Battalion
+    16th Army Corps (Weber)
+        21st Luftwaffe Field Division (Barth)
+            41st Luftwaffe Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            42nd Luftwaffe Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            43rd Luftwaffe Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 21st Luftwaffe Fusilier Battalion
+            21st Luftwaffe Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 21st Luftwaffe Anti-Tank Battalion
+            | 21st Luftwaffe Engineer Battalion
+        81st Infantry Division (Bentivegni)
+            161st Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            174th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            189th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 61st Fusilier Battalion
+            181st Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 181st Anti-Tank Battalion
+            | 181st Engineer Battalion
+        205th Infantry Division (Giese)
+            335th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            353rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            358th Infantry Regiment
+                | 2nd Battalion
+                | 3rd Battalion
+            | 205th Fusilier Battalion
+            205th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 205th Anti-Tank Battalion
+            | 205th Engineer Battalion
+        218th Infantry Division (Ranck)
+            323rd Infantry Regiment
+                | 2nd Battalion
+                | 3rd Battalion
+            386th Infantry Regiment
+                | 2nd Battalion
+                | 3rd Battalion
+            397th Infantry Regiment
+                | 1st Battalion
+                | 3rd Battalion
+            | 218th Fusilier Battalion
+            218th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 218th Anti-Tank Battalion
+            | 218th Engineer Battalion
+        Infantry Division z.b.V. 300 (13th Luftwaffe Field Division) (Eberth)
+            2nd Estonian Border Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            4th Estonian Border Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            5th Estonian Border Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            6th Estonian Border Regiment
+                | 1st Battalion
+                | 2nd Battalion
+    38th Panzer Corps (Mellenthin)
+        122th Infantry Division (Schatz)
+            409th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            410th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            411th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 122nd Fusilier Battalion
+            122nd Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 122nd Anti-Tank Battalion
+            | 122nd Engineer Battalion
+        329th Infantry Division (Menkel)
+            551st Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            552nd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 329th Fusilier Battalion
+            329th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 4th Battalion
+            | 329th Anti-Tank Battalion
+            | 329th Engineer Battalion
+18th Army (Boege)
+    1st Army Corps (Usinger)
+        132nd Infantry Division (Demme)
+            436th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            437th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            438th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 132nd Fusilier Battalion
+            132nd Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 132nd Anti-Tank Battalion
+            | 132nd Engineer Battalion
+        225th Infantry Division
+            333rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            376th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            377th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            225th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 225th Anti-Tank Battalion
+            | 225th Engineer Battalion
+    2nd Army Corps (Gause)
+        87th Infantry Division (Strachwitz)
+            173rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            185th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            187th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 87th Fusilier Battalion
+            87th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 187th Anti-Tank Battalion
+            | 187th Engineer Battalion
+        126th Infantry Division (Höhling)
+            422nd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            424th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            426th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 126th Fusilier Battalion
+            126th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 126th Anti-Tank Battalion
+            | 126th Engineer Battalion
+        263rd Infantry Division
+            463rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            483rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            485rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 263rd Fusilier Battalion
+            263rd Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 263rd Anti-Tank Battalion
+            | 263rd Engineer Battalion
+        563rd Infantry Division (Neumann)
+            1147th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            1148th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            1149th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            1563rd Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 1563rd Anti-Tank Battalion
+            | 1563rd Engineer Battalion
+    10th Army Corps (Thomaschki)
+        30th Infantry Division (Henze)
+            6th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            26th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            46th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 39th Fusilier Battalion
+            30th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 1st Battalion, 66th (Heavy) Artillery Regiment
+            | 39th Anti-Tank Battalion
+            | 30th Engineer Battalion
+        121st Infantry Division (Hansen)
+            405th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            407th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            408th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 121st Fusilier Battalion
+            121st Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 1st Battalion, 48th (Heavy) Artillery Regiment
+            | 121st Anti-Tank Battalion
+            | 121st Engineer Battalion
+    50th Army Corps (Bodenhausen)
+        11th Infantry Division (Feyerabend)
+            2nd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            23rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            44th Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 11th Fusilier Battalion
+            11th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+            | 1st Battalion, 47th (Heavy) Artillery Regiment
+            | 11th Anti-Tank Battalion
+            | 11th Engineer Battalion
+        290th Infantry Division (Hemmann)
+            501st Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            502nd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            503rd Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 290th Fusilier Battalion
+            290th Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+                | 3rd Battalion
+                | 4th Battalion
+            | 290th Anti-Tank Battalion
+            | 290th Engineer Battalion
+    14th Panzer Division (Grössel)
+        36th Panzer Regiment
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+        103rd Panzergrenadier Regiment
+            | 1st Battalion
+            | 2nd Battalion
+        108th Panzergrenadier Regiment
+            | 1st Battalion
+            | 2nd Battalion
+        | 14th Reconaissance Battalion
+        4th Panzer Artillery Regiment
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+            | 4th Battalion
+        | 276th Army Flak Battalion
+        | 4th Panzer Anti-Tank Battalion
+        | 13th Panzer Engineer Battalion
+    Kampfgruppe Stumpfeld
+        Kampfgruppe Selle
+            | Kharkov I Battalion
+            | Stalino Battalion
+        Kampfgruppe Adam
+            | Erdmann Battalion
+            | Göbel Battalion
+            | Morosovskaya Battalion
+            | Tzschökell Battalion
+            | Mikosch Battalion
+        Kampfgruppe Schmidt
+            | Front 36 Battalion
+            | Urlauber Battalion
+        | Heilmann Battalion
+        | Kharkov II Battalion
+Rear Reserve Units
+    52nd Security Division
+        | Liepāja Fortress Battalion
+    201st Security Division
+        | Ventspils Fortress Battalion
+    207th Security Division
+        | Riga Fortress Battalion
+    | Kz (Kazakiri) Battalion
+Army of Taiwan
+    50th Division (Ishimoto)
+        301st Infantry Regiment (Okunaka)
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+        302nd Infantry Regiment (Nagano)
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+        303rd Infantry Regiment
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+        50th Mountain Artillery Regiment (Tanaka)
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+        | 50th Reconaissance Regiment (Battalion)
+        | 50th Engineer Regiment (Battalion) (Miyamoto)
+    100th Independent Mixed Brigade (Murata)
+        30th Independent Mixed Regiment (Obosakichi)
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+        | 51st Guard Battalion (Kuga)
+        16th Heavy Artillery Regiment
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+Duck Army Detachment Support
+    3rd Duck Airborne Corps
+        5th Duck Airborne Brigade
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+            | Mixed Support Battalion
+        6th Duck Airborne Brigade
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+            | Mixed Support Battalion
+        212th Duck Airborne Brigade
+            | 1st Battalion
+            | 2nd Battalion
+            | 3rd Battalion
+            | Mixed Support Battalion
+    6th Duck Support Group
+        26th Duck Shotgun Regiment
+            51st Duck Shotgun Division
+                | 1st Battalion
+                | 2nd Battalion
+            52nd Duck Shotgun Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 26th Duck Artillery Battalion
+            | 26th Duck Reconaissance Battalion
+        96th Duck Tank Brigade
+            | 1st Tank Battalion
+            | 2nd Tank Battalion
+            | 3rd Infantry Battalion
+            | 4th Reconaissance Battalion
+        27th Duck Antitank Brigade
+            | 1st Anti-Tank Battalion
+            | 2nd Anti-Tank Battalion
+            | 3rd Infantry Battalion
+            | 4th Reconaissance Battalion
+        28th Duck Antitank Brigade
+            | 1st Anti-Tank Battalion
+            | 2nd Anti-Tank Battalion
+            | 3rd Infantry Battalion
+            | 4th Reconaissance Battalion
+    126th Duck Army Corps
+        169th Duck Infantry Division
+            337th Duck Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            338th Duck Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            169th Duck Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 169th Duck Reconaissance Battalion
+        546th Duck Infantry Division
+            1091st Duck Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            1092nd Duck Infantry Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            546th Duck Artillery Regiment
+                | 1st Battalion
+                | 2nd Battalion
+            | 546th Duck Reconaissance Battalion
+
+Progress: 365/365

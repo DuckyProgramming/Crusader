@@ -7094,4 +7094,10 @@ That map ultimately isn't at all relevant to Crusader, so unfortunately I will b
 However, I did end up uploading it to Wikimedia Commons, even though its quality is terrible, since a similar map does not yet exist. Here it is: https://commons.wikimedia.org/wiki/File:Downfall.png.
 When I get around to making an equivalent map for Tobruk, if that ever does happen, it'll go here as well. Maybe I'll leave some more units in the files as well.
 
+The Festungs-Artillerie-Regiment is one of the strangest units the Wehrmacht ever formed. There were several all numbered above 1000, largely arbitrarily.
+All were formed in late 1944 or 1945 and did little to nothing as they were too late into the war. Most held the German frontier areas like the Rhine or occupied Czechia.
+There were honestly not that many of each individual type of panic unit, but there were numerous variants. They're all there on the Lexikon if you want to see them all.
+Also, something else I just recently found out about the organization of Lexikon der Wehrmacht is that a listing exists there for the garrison units, across a large geographic area.
+https://www.lexikon-der-wehrmacht.de/inhaltsverzeichnisKasernen.htm is where this can be found. Note however that its information on Africa doesn't consist of much more than Luftwaffe and Flak units.
+
 

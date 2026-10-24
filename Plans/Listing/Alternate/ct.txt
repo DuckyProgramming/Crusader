@@ -1,0 +1,221 @@
+Army Group Courland
+    16th Army (Kirchensittenbach)
+        563rd Anti-Tank Battalion |
+        Staff, 6th Flak Regiment
+            1st Battalion, 13th Flak Regiment |
+            1st Battalion, 411th Flak Regiment |
+            2nd Battalion, 84th Flak Regiment |
+        753rd Light Flak Battalion |
+        1st Battalion, 3rd Rocket Regiment |
+        2nd Army Corps (Gause)            
+            87th Infantry Division (Strachwitz)
+                173rd Infantry Regiment (3 Battalions) |||
+                185th Infantry Regiment (3 Battalions) |||
+                187th Infantry Regiment (3 Battalions) |||
+                87th Artillery Regiment (4 Battalions) ||||
+                87th Fusilier Battalion |
+                187th Anti-Tank Battalion |
+                187th Engineer Battalion |
+            126th Infantry Division (Höhling)
+                422nd Infantry Regiment (3 Battalions) |||
+                424th Infantry Regiment (3 Battalions) |||
+                426th Infantry Regiment (3 Battalions) |||
+                126th Artillery Regiment (4 Battalions) ||||
+                126th Fusilier Battalion |
+                126th Anti-Tank Battalion |
+                126th Engineer Battalion |
+            263rd Infantry Division
+                463rd Infantry Regiment (3 Battalions) |||
+                483rd Infantry Regiment (3 Battalions) |||
+                485rd Infantry Regiment (3 Battalions) |||
+                263rd Artillery Regiment (4 Battalions) ||||
+                263rd Fusilier Battalion |
+                263rd Anti-Tank Battalion |
+                263rd Engineer Battalion |
+        50th Army Corps (Bodenhausen)
+            Staff, 787th Artillery Regiment
+                1st Battalion, 818th Artillery Regiment |
+                2nd Battalion, Artillery Training Regiment |
+                850th Artillery Battalion |
+            81st Infantry Division (Bentivegni)
+                161st Infantry Regiment (3 Battalions) |||
+                174th Infantry Regiment (3 Battalions) |||
+                189th Infantry Regiment (3 Battalions) |||
+                181st Artillery Regiment (4 Battalions) ||||
+                61st Fusilier Battalion |
+                181st Anti-Tank Battalion |
+                181st Engineer Battalion |
+            205th Infantry Division (Giese)
+                335th Infantry Regiment (3 Battalions) |||
+                353rd Infantry Regiment (3 Battalions) |||
+                358th Infantry Regiment (3 Battalions) |||
+                205th Artillery Regiment (4 Battalions) ||||
+                205th Fusilier Battalion |
+                205th Anti-Tank Battalion |
+                205th Engineer Battalion |
+            218th Infantry Division (Ranck)
+                323rd Infantry Regiment (3 Battalions) (von Vietinghoff) |||
+                386th Infantry Regiment (3 Battalions) |||
+                397th Infantry Regiment (3 Battalions) |||
+                218th Artillery Regiment (4 Battalions) ||||
+                218th Fusilier Battalion |
+                218th Anti-Tank Battalion |
+                218th Engineer Battalion |
+    18th Army (Boege)
+        202nd Assault Gun Battalion |
+        909th Assault Gun Battalion |
+        912th Assault Gun Battalion |
+        Staff, 519th Engineer Regiment
+            566th Bridging Engineer Battalion |
+        Staff, 541st Engineer Regiment
+            674th Bridging Engineer Battalion |
+        Staff, 49th Artillery Regiment
+            514th Artillery Battalion |
+            526th Artillery Battalion |
+            538th Artillery Battalion |
+            542nd Artillery Battalion |
+            629th Artillery Battalion |
+            639th Artillery Battalion |
+            833rd Artillery Battalion |
+        6th SS Army Corps (Krüger)
+            Staff, 802nd Artillery Regiment
+                1st Battalion, SS Police Artillery Regiment |
+                4th Battalion, 269th Artillery Regiment |
+                3rd Battalion, 169th Artillery Regiment |
+                536th Artillery Battalion |
+                511th Artillery Battalion |
+            Staff, 1016st Artillery Regiment z.b.V.
+                1st Battalion, 60th Artillery Regiment |
+                2nd Battalion, 24th Artillery Regiment |
+                3rd Battalion, 24th Artillery Regiment |
+                537th Artillery Battalion |
+                544th Artillery Battalion |
+                636th Artillery Battalion |
+            15th SS Grenadier Division (Burk)
+                32nd SS Grenadier Regiment (3 Battalions) |||
+                33rd SS Grenadier Regiment (3 Battalions) |||
+                34th SS Grenadier Regiment (3 Battalions) |||
+                15th SS Artillery Regiment (4 Battalions) ||||
+                15th SS Fusilier Battalion |
+                15th SS Flak Battalion |
+                15th SS Engineer Battalion |
+            19th SS Grenadier Division (Streckenbach)
+                42nd SS Grenadier Regiment "Valdemars Veiss" (3 Battalions) |||
+                43rd SS Grenadier Regiment "Hinrich Schuldt" (3 Battalions) |||
+                44th SS Grenadier Regiment (3 Battalions) |||
+                19th SS Artillery Regiment (4 Battalions) ||||
+                19th SS Fusilier Battalion |
+                19th SS Anti-Tank Battalion |
+                19th SS Engineer Battalion |
+            Infantry Division z.b.V. 300 (13th Luftwaffe Field Division) (Eberth)
+                2nd Estonian Border Regiment (3 Battalions) |||
+                4th Estonian Border Regiment (3 Battalions) |||
+                5th Estonian Border Regiment (3 Battalions) |||
+                6th Estonian Border Regiment (3 Battalions) |||
+            Kampfgruppe 1001 Nights (Blancbois)
+                Suleika Unit (560th SS Tank Destroyer Battalion) |
+                Harem Unit (Panzer Reconaissance Detachment Speer) |
+                Sultan Unit (2nd March Regiment) (3 Battalions) |||
+        10th Army Corps (Thomaschki)
+            Staff, 781st Artillery Regiment
+                2nd Battalion, 814th Artillery Regiment |
+                436th Artillery Battalion |
+                541st Artillery Battalion |
+                626th Artillery Battalion |
+                917th Artillery Battalion |
+            122th Infantry Division (Schatz)
+                409th Infantry Regiment (3 Battalions) |||
+                410th Infantry Regiment (3 Battalions) |||
+                411th Infantry Regiment (3 Battalions) |||
+                122nd Artillery Regiment (4 Battalions) ||||
+                122nd Fusilier Battalion |
+                122nd Anti-Tank Battalion |
+                122nd Engineer Battalion |
+            329th Infantry Division (Menkel)
+                551st Infantry Regiment (3 Battalions) |||
+                552nd Infantry Regiment (3 Battalions) |||
+                329th Artillery Regiment (3 Battalions) |||
+                329th Fusilier Battalion |
+                329th Anti-Tank Battalion |
+                329th Engineer Battalion |
+            21st Luftwaffe Field Division (Barth)
+                41st Luftwaffe Infantry Regiment (3 Battalions) |||
+                42nd Luftwaffe Infantry Regiment (3 Battalions) |||
+                43rd Luftwaffe Infantry Regiment (3 Battalions) |||
+                21st Luftwaffe Artillery Regiment (4 Battalions) ||||
+                21st Luftwaffe Fusilier Battalion |
+                21st Luftwaffe Anti-Tank Battalion |
+                21st Luftwaffe Engineer Battalion |
+        38th Panzer Corps (Mellenthin)
+            Staff, 785th Artillery Regiment
+                615th Heavy Artillery Battalion |
+                633rd Heavy Artillery Battalion |
+                815th Heavy Artillery Battalion |
+                850th Heavy Artillery Battalion |
+            92nd Light Flak Battalion |
+            253rd Army Flak Battalion |
+            303rd Army Flak Battalion |
+            12th Panzer Division (Usedom)
+                2nd Battalion, 29th Panzer Regiment |
+                5th Panzergrenadier Regiment (2 Battalions) ||
+                25th Panzergrenadier Regiment (2 Battalions) ||
+                2nd Panzer Artillery Regiment (3 Battalions) |||
+                12th Reconaissance Battalion |
+                2nd Anti-Tank Battalion |
+                32nd Panzer Engineer Battalion |
+            14th Panzer Division (Grössel)
+                36th Panzer Regiment (3 Battalions) |||
+                103rd Panzergrenadier Regiment (2 Battalions) ||
+                108th Panzergrenadier Regiment (2 Battalions) ||
+                4th Panzer Artillery Regiment (3 Battalions) |||
+                14th Reconaissance Battalion |
+                4th Panzer Anti-Tank Battalion |
+                13th Panzer Engineer Battalion |
+            Courland Panzer Brigade (Rittbert)
+                Courland Panzergrenadier Battalion |
+                655th Engineer Battalion |
+                656th Engineer Battalion |
+                666th Army Anti-Tank Battalion |
+                751st Army Anti-Tank Battalion |
+        Taiwan Corps
+            50th 'Artemisia' Division (Ishimoto)
+                302nd Infantry Regiment (Nagano) (3 Battalions) |||
+                303rd Infantry Regiment (3 Battalions) |||
+                50th Reconaissance Regiment (Battalion) |
+                50th Engineer Regiment (Battalion) (Miyamoto) |
+            100th Independent Mixed Brigade (Murata)
+                30th Independent Mixed Regiment (Obosakichi) (3 Battalions) |||
+                16th Heavy Artillery Regiment (3 Battalions) |||
+                51st Guard Battalion (Kuga) |
+            2nd 'Lira' Volunteer Battalion |
+    583rd Rear Area Command
+        Provisional Artillery Battalion 'Pavilosta' |
+        Provisional Artillery Battalion 'Talsi' |
+        Fortress Libau (Staff, 52nd Security Division)
+            10th Naval Artillery Regiment
+                508th Coastal Artillery Battalion |
+                7th Naval Reserve Artillery Battalion |
+                534th Naval Artillery Battalion |
+            321st Naval Fortress Engineer Regiment
+                772nd Landing Engineer Battalion |
+            307th Security Battalion |
+        Fortress Windau (Staff, 201st Security Division)
+            530th Naval Artillery Battalion |
+            513th Coastal Artillery Battalion |
+            493rd Security Battalion |
+            772nd Territorial Defense Battalion |
+            861st Territorial Defense Battalion |
+            321st Fortress Battalion |
+        Fortress Roja (Staff, 207th Security Division)
+            530th Naval Artillery Battalion |
+            532nd Naval Artillery Battalion |
+            515th Coastal Artillery Battalion |
+            683rd Security Battalion |
+            868th Security Battalion |
+        6th Flak Division (Anton)
+            239th Naval Flak Battalion |
+            711th Naval Flak Battalion |
+            712th Naval Flak Battalion |
+            771st Naval Flak Battalion |
+
+
