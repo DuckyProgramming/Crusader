@@ -19,7 +19,9 @@ http://www.niehorster.org/000_admin/000oob.htm
 (Unit organizations and a few orders of battle)
 https://achillestheheel.com/wp-content/uploads/2015/06/tobruk-1940-42-4e-1.pdf
 (General book)
-http://electronicsandbooks.com/edt/manual/Publischer/G/German%20Miltary%20WW2/Rommels%20Afrika%20Korps-Tobruk%20To%20ElAlamein%20c20070309%20[99].pdf
+http://electronicsandbooks.com/edt/manual/Publischer/G/German%20Miltary%20WW2/Rommels%20Afrika%20Korps-Tobruk%20To%20ElAlamein%20c20070309%20[99].pdf (This was the original one but is now down)
+https://api.pageplace.de/preview/DT0400.9781472800817_A26610533/preview-9781472800817_A26610533.pdf (This is still up but contains only 10 pages)
+https://annas-archive.gd/md5/a11e6af4a3aedc24adc5b7bd31b48538?&check=1 (This is I think a mostly permanent source)
 (Book about German organizations and operations)
 https://maps.lib.utexas.edu/maps/ams/north_africa/
 https://nla.gov.au/nla.obj-2673350712/view
@@ -364,6 +366,9 @@ Reliability of Nafziger:
 https://web.archive.org/web/20260216051437/http://www.comandosupremo.com/forums/index.php?threads/77-28-skoda-m05-08-in-anti-tank-role.167/
 Nafziger Napoleonic:
 https://www.napoleon-series.org/resources/the-nafziger-collection-of-napoleonic-orders-of-battle/#1600852372347-6ef10778-4847
+300th z.b.V. Division:
+https://portal.ehri-project.eu/units/de-002525-rh_26_300
+https://feldgrau.net/forum/viewtopic.php?t=6336
 
 Things to Avoid:
 Various articles:
