@@ -181,6 +181,29 @@ export class operation{
     reform(){
         return new operation(this.map)
     }
+    reserve(reserve){
+        dev.reserve=reserve
+        this.units=[]
+        this.inspect.units=[]
+        this.loadMap(0)
+        this.scene=`orderView`
+        if(typeof dev.reserve==`number`){
+            let len=this.units.length
+            this.units.push(new unit(this,types.reserve[dev.reserve]))
+            while(this.units.length>len){
+                this.inspect.units.push(last(this.units))
+                this.units.splice(this.units.length-1,1)
+            }
+        }else{
+            let flat=flatMap(types.map,-1)
+            let len=this.units.length
+            this.units.push(new unit(this,flat[dev.reserve[0]].unit.unit[dev.reserve[1]]))
+            while(this.units.length>len){
+                this.inspect.units.push(last(this.units))
+                this.units.splice(this.units.length-1,1)
+            }
+        }
+    }
     startTurn(){
         this.units.forEach(unit=>{
             unit.fade.trigger=false
