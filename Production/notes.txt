@@ -7129,4 +7129,99 @@ The full formation of all three occured within the next few days at various loca
 The next three were all formed in April of the same year. By the end of 1944 the 1st and 4th had been disbanded. To support these units a replacement regiment was also formed but it didn't do much.
 Rudolf Höfer was the original commander of the division. He left on the 20th of January 1945 and by March became commander of Fortress Division Stettin. His replacement was Anton Eberth from the 201st Security Division.
 
+I don't have an exact source on this, but I have read in places that Courland saw the highest concentration of German army artillery units across the entire front.
+I guess it makes sense, then, that I gave my version of Courland a very artillery-focused identity. Obviously the whole idea of a static doctrine despite numeric inferiority is strange but the artillery part at least makes sense.
+As for numbers, Army Group Courland had a total of 189112 men taken prisoner by Leningrad Front in the first week, with a later total of 273513, plus 6193 between the 1st and 9th of May.
+Note that these are official Soviet numbers, so they are not quite reliable. Other sources give 276678 instead. The total strength of the Army Group on the 1st of April had been 274532 but some men might've escaped or been miscounted.
+Part of the different may be due to evacuations. The 11th Infantry Division with its 2nd and 44th Grenadier Regiments and 11th Engineer and Anti-Tank Battalions left on May 8th, while the 23rd Grenadier Regiment and 11th Artillery Regiment were left behind.
+Back in January, there were over 339,000 men, but arguably more based on various counts. So people who say that there was no evacuation are just wrong; more than 50,000 men did manage to escape.
+
+A 393rd Assault Gun Brigade existed within Army Group Courland, in addition to the two known brigades, the 202nd and 912th. This is from a full document dated 11/5/45, transcribed below:
+Units of Army Group Courland, 7/5/45
+Divisions
+    12th, 14th Panzer
+    Panzer Brigade Courland
+    11th, 24th, 30th, 81st, 87th, 121st, 122nd, 126th, 132nd, 205th, 218th, 225th, 263rd, 290th, 329th Infantry
+    563rd Volksgrenadier
+    Courland FAD (Labor Service)
+    300th z.b.V. (Alarm Units)
+    21st Luftwaffe Field (Alarm Units)
+    19th Waffen SS
+Army Troops
+    202nd, 393rd, 912th Assault Gun Brigades
+    Courland Anti-Tank Group (666th, 667th Battalions)
+    4th Company, 510th Heavy Panzer Battalion (Selbst.Pz.Abt.4./510?)
+    731st, 751st, 752nd, 753rd Army Anti-Tank Battalions
+    26th Armored Trade Platoon
+    143rd, 289th, 531st, 538th, 708th, 810th, 910th, 914th (4 Companies), 928th 1001st, 1004th Army Artillery Battalions
+    436th, 526th, 536th, 615st, 624th, 633rd, 636th, 768th, 833rd, 850th Artillery Battalions
+    2nd/58th, 2nd/84th, 2nd/814th Artillery Battalions
+    2nd Battalion, 2nd Artillery Training Regiment
+    44th, 327th, 652th, 656th, 660th, 671st, 672nd (Latvian) Engineer Battalions
+    "Sperr" (Halting) Engineer Battalion (2nd Company, 671st Engineer Battalion, 1 Company of the 121st Construction Battalion)
+    70th Rocket Regiment
+    10th Grenade-Rocket Regiment
+Note that various corps units also existed which are not noted here. This includes, for example, the 410th Corps Machine Gun Battalion, which had two surviving companies.
+And here's a list of divisions that had been evacuated: 23rd, 31st, 32nd, 83rd, 215th, 227th, 389th, and 11th SS (all infantry divisions). The 4th Panzer Division also left.
+Another OOB I could find, this time for 8/5/45, but less detailed, is the following:
+16th Army
+    16th Army Corps
+        81st Infantry Division
+        21st Luftwaffe Field Division
+        300th z.b.V. Division
+    38th Army Corps
+        122nd Infantry Division
+        290th Infantry Division
+        329th Infantry Division
+    50th Army Corps
+        24th Infantry Division
+        218th Infantry Division
+    6th SS Corps
+        19th SS Division
+        205th Infantry Division
+    202nd Assault Gun Brigade
+    293rd Assault Gun Brigade
+    15 Artillery Battalions
+    3 Flak Battalions
+    15 Engineer Battalions
+    3 Construction Battalions
+18th Army
+    1st Army Corps
+        87th Infantry Division
+        225th Infantry Division
+    2nd Army Corps
+        263rd Infantry Division
+        563rd Volksgrenadier Division
+    10th Army Corps
+        30th Infantry Division
+        126th Infantry Division
+        132nd Infantry Division
+    912th Assault Gun Brigade
+    Panzer Battalion Kurland
+    8 Artillery Battalions
+    1 Flak Battalion
+    2 Engineer Battalions
+    3 Construction Battalions
+    1 Naval Battalions
+Army Reserve
+    12th Panzer Division
+    14th Panzer Division
+    11th Infantry Division
+    16 Construction Battalions
+    7 Engineer Regiments
+    3 Construction Regiments
+    1 Bridging Battalion
+
+Another interesting unit in this area was Division Group von Gise, which was in the very far west of the line in Courland. It had the following organization:
+Kampfgruppe 130 (130th Security Regiment, organization unknown - maybe just an HQ)
+    126th Fusilier Battalion (Captain Hummerich)
+    F/13 Lithuanian Police Battalion (Captain Semaška)
+    2 Companies of Landesschützen
+There was also a gunless artillery unit in the area, possibly from the 126th Artillery Regiment. Little else is known about this unit and its contributions.
+
+Another weird unit is the historically unclear Kampfgruppe Rusmanis, consisting of 2500 men of the Latvian SS. I couldn't find much of anything about it, though it seems to have made it to the end of the war.
+It also seems to have been subordinated to the 19th (Latvian) SS Division. Some sources claim that it was formed using fresh depot personnel rather than within the division, but I can't find conclusive proof.
+Yet another apocryphal unit I've heard of is the Courland Training Division, composed of the 639th and 640th Training Regiments, each with three battalions. They later became normal infantry.
+Subordinate to the 6th Flak Division was a 127th Flak Battalion, with 54 guns in 6 batteries, 4 searchlight units, and crews that were partially Estonian.
+
 
