@@ -212,7 +212,6 @@ Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalio
 
 
 
-
     So how do I intend to implement this in my version?
     Well, the staff, mapping detachment, and signals troops aren't typically recorded as they aren't combat units, so we'll ignore them.
     The Oasis Battalion and 3rd Battalion, 347th Infantry Regiemnt will be in as normal.
@@ -221,6 +220,8 @@ Streitz was almost certainly not the commander of 200th z.b.V. Engineer Battalio
     Therefore, the 33rd Reconaissance Battalion should be in as normal, and the Afrika Division should recieve 1/3 of a battalion, or a company - its own 580th Reconaissance Company!
     Because we don't do companies here, I ended up attaching that one to the Oasis Battalion.
     It also has a battalion attached from the 15th Panzer Division, but that's not in its normal organization so we can ignore it.
+    
+    Note: Other sources I have (Rommel's Afrika Korps book) says that the headquarters didn't actually take its subunits under command until the 15th of October 1941.
 ]
 
 Meanwhile, Crusader`'s 15th Panzer Division is based on its September 20, 1941 organization. It's about what you'd expect, with two panzer battalions, four infantry in a brigade, and some support units.
@@ -7107,11 +7108,13 @@ The vast majority of the Japanese army spent the entire war stuck in China inste
 People also talk a lot about The Campaign For North Africa, as in the board game, not my game. I think this is still an interesting topic to discuss but unluckily almost nobody actually knows anything about the game and only know pop trivia.
 
 Based on something I managed to find, the 4 Estonian border guard regiments of the 300th z.b.V. had three battalions each. Some say they were the 2nd, 4th, 5th, and 6th, others say there was a 3rd Regiment.
-There was also a 1st at some point, however it seems to have been downgraded to three separate battalions, the Estonian Police Battalions F/286, F/288, and F/292.
-There were also a couple random units:
+There was also a 1st at some point, however it seems to have been downgraded to three separate battalions, the Estonian Police Battalions F/286, F/288 (some say F/287), and F/292.
+Before these regiments were mostly moved to the command of this division, many of them were instead under the 207th Security Division. So, it's pretty apparent they weren't the best trained soldiers in the world.
+There were also a couple random units:x
 Artillery Regiment Staff z.b.V. 1018 (Hans Klemmer)
         Some sources say this was 1016 but this is probably an error
         It seems this unit was formerly the 13th (Luftwaffe) Artillery Regiment Staff
+        Its existing battalions were battered and ended up being given to other divisions, being replaced by just the two units below, according to some sources:
     2nd/84th Artillery Cannon Battalion
     683rd Artillery Cannon Battalion
 13th (Luftwaffe) Engineer Battalion Staff (Jordan)
@@ -7121,8 +7124,11 @@ Penal Labor Company Estonia
 Artillery Alarm Company
 Naval Deployment Company
 Scheer Unit
+Others claim more, saying that it actually had up to four artillery battalions and two brigade headquarters to command its four regiments, plus a jager battalion for each brigade, and recon companies.
+Also note that Tessin's index, while incomplete in some regards, shows many of the above units as not existing.
 
-Later, alarm units would appear around the division staff, with three companies named A, B, and Schmidt.
+Later, alarm units would appear around the division staff, with three companies named A, B, and Schmidt. I don't think this happened at the same time as the old organization with the border guard regiments.
+Rather, it appears the division was pretty much entirely annihilated back in Estonia. By the time it ended up in Courland, I doubt any of the above units were left, replaced by alarm elements.
 
 It appears that as early as January 31, 1944, the first three regiments were formed, simply numbered 1-3. Their commanders were, respectively, Vaska, Jaanson, and Lilleleht.
 The full formation of all three occured within the next few days at various locations. There's a lot of information that I found on a forum post but I won't take the time to put it all here.
@@ -7223,5 +7229,57 @@ Another weird unit is the historically unclear Kampfgruppe Rusmanis, consisting 
 It also seems to have been subordinated to the 19th (Latvian) SS Division. Some sources claim that it was formed using fresh depot personnel rather than within the division, but I can't find conclusive proof.
 Yet another apocryphal unit I've heard of is the Courland Training Division, composed of the 639th and 640th Training Regiments, each with three battalions. They later became normal infantry.
 Subordinate to the 6th Flak Division was a 127th Flak Battalion, with 54 guns in 6 batteries, 4 searchlight units, and crews that were partially Estonian.
+
+I never paid attention to it much, but there was a unit (Verband) named for its commander, Ablöscher, of two batteries of captured British GUns that saw combat at Second El Alamein.
+A while ago (line 4544), I saw an OOB for the 104th Artillery Command, which was also known as Artillery Command Afrika according to some sources.
+It was from January, however, so below is my read for how things were different back in November and December.
+104th Artillery Command
+    HQ, 221st Artillery Regiment
+    2nd Battalion, 115th Artillery Regiment
+        1 210mm Mortar Battery (3 210mm Guns)
+        4th Battery, 149th Army Coastal Artillery Battalion
+        2 150mm Batteries (8 Guns Total)
+    408th Artillery Battalion
+        1 210mm Mortar Battery (3 210mm Guns)
+        2 100mm Howitzer Batteries (8 Guns Total)
+        1 76.2mm Battery (4 Captured Soviet Guns)
+    528th Battalion
+        2 Motorized 150mm Howitzer Batteries (8 Guns Total)
+    6th Battery, 115th Artillery Regiment (3 210mm Guns)
+    362nd Artillery Battery (?)
+    533rd Battery (4 87.6mm British Guns)
+    902nd Battery (3 170mm Guns)
+
+And without the complete disorganization:
+104th Artillery Command
+    221st Artillery Regiment
+        408th Heavy Artillery Battalion (4 Batteries)
+        2nd Battalion, 115th Artillery Regiment (3 Batteries)
+        362nd Artillery Battery
+        364th Artillery Battery
+        4th Battery, 149th Army Coastal Artillery Battalion
+    528th Heavy Artillery Battalion (2 Batteries)
+    533rd Artillery Battery
+    902nd Artillery Battery
+I don't have full information about this, but it looks like the 2nd Battalion, 115th Artillery Regiment has 9 210mm Howitzers and the 408th Heavy Artillery Battalion had 12 105mm Guns.
+There were also 38 150mm guns that seem to be mostly from the various coastal battalions, though I don't have the numbers for all of them.
+In the actual battle, the 408th Heavy Artillery Battalion actually did a lot. In fact, not only did they fight near Sidi Rezegh, but part of the unit went on the "Dash to the Wire" with 21st Panzer Division.
+
+I'm disappointed by the news that field Divisions z.b.V. and Division Staffs z.b.V. were actually pretty much the same, both consisting of HQs with no organic units except maybe a signals company.
+On the other hand, the replacement army did also have Divisions z.b.V. that existed to handle militia units. Most of these became Divisions Nr. in 1942, likely to avoid confusion.
+
+Theres not much doubt that during Crusader, British artillery tended to outperform their axis counterparts. The impact of, for example, the 33rd Artillery Regiment doesn't match with how many losses it took.
+I've seen this variously attributed to better tactics, greater numbers, more utilization, and better guns. Against the Italians, maybe 3/4 of these are true, but against the Germans I think only one is true.
+That being the greater numbers. A single regiment having 24 guns rather than 12, giving a full division often more than 100 guns total of all types, is just too powerful.
+While many of the British guns were quite good, the 6-inch howitzers and 4.5-inch guns actually didn't have the greatest range in the world, and a well-functioning German battery could outrange them.
+
+It looks like the 2nd Battalion, 255th Infantry Regiment, from the 110th Infantry Division, had itself been formed from another battalion. In this case, it was the 1st Battalion, 400th Infantry Regiment.
+The 15th Motorcycle Battalion had five companies, however it appears that the 2nd Company, which had been placed somewhere on the frontier, surrendered to the British once its position was surrounded.
+I've found an Order of Battle of Kampfgruppe Schütte which participated in the Sommernachtstraum battle. It seems another unit of the same name was later formed in Tunisia but we'll ignore that. Here it is:
+605th Anti-Tank Battalion (-1 Company)
+8th Machine Gun Battalion
+606th Flak Battalion (-1 Company)
+1 Company, 200th Engineer Battalion
+Support Vehicle Columns
 
 

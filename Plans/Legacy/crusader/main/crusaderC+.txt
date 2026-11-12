@@ -1,0 +1,68 @@
+Deutsches Afrika Korps (66 Companies)
+
+15th Panzer Division (59 Companies)
+    8th Panzer Regiment (11 Companies)
+        | Repair Company
+        1st Battalion (5 Companies)
+            | Staff Company
+            ||| 3 Light Companies
+            | 1 Medium Company
+        2nd Battalion (5 Companies)
+            | Staff Company
+            ||| 3 Light Companies
+            | 1 Medium Company
+    15th Rifle Brigade (23 Companies)
+        115th Rifle Regiment (12 Companies)
+            | Staff Company
+            1st Battalion (5 Companies)
+                ||| 3 Rifle Companies
+                | 1 Machine Gun Company
+                | 1 Heavy Company
+            2nd Battalion (5 Companies)
+                ||| 3 Rifle Companies
+                | 1 Machine Gun Company
+                | 1 Heavy Company
+            | Infantry Gun Company
+        200th Regimental Staff z.b.V. (11 Companies)
+            2nd Machine Gun Battalion (6 Companies)
+                | Staff Company
+                ||| 3 Machine Gun Companies
+                | 1 Heavy Company
+                | 1 Engineer Comapny
+            15th Motorcycle Battalion (5 Companies)
+                ||| 3 Rifle Companies
+                | 1 Machine Gun Company
+                | 1 Heavy Company
+    33rd Artillery Regiment (11 Companies)
+        | Staff Battery
+        1st Battalion (3 Companies)
+            ||| 3 Batteries
+        2nd Battalion (3 Companies)
+            ||| 3 Batteries
+        3rd Battalion (3 Companies)
+            ||| 3 Heavy Batteries
+        | 326th Observation Battery
+    33rd Reconaissance Battalion (3 Companies)
+        | 1 Armored Car Company
+        | 1 Motorcycle Company
+        | 1 Heavy Company
+    33rd Anti-Tank Battalion (3 Companies)
+        ||| 3 Companies
+    33rd Engineer Battalion (3 Companies)
+        ||| 3 Companies
+    78th Signals Battalion (2 Companies)
+        | 1 Telephone Company
+        | 1 Radio Company
+    33rd Field Replacement Battalion (3 Companies)
+        ||| 3 Companies
+
+90th Light Afrika Division (7 Companies)
+    3rd Battalion, 347th Infantry Regiment (4 Companies)
+        ||| 3 Rifle Companies
+        | 1 Heavy Company
+    300th Oasis Battalion z.b.V. (2 Companies)
+        | 6th Oasis Company
+        | 12th Oasis Company
+    | Signals Company z.b.V. Afrika
+
+

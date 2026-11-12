@@ -1,0 +1,56 @@
+Deutsches Afrika Korps (54 Companies)
+
+15th Panzer Division (47 Companies)
+    8th Panzer Regiment (8 Companies)
+        1st Battalion (4 Companies)
+            ||| 3 Light Companies
+            | 1 Medium Company
+        2nd Battalion (4 Companies)
+            ||| 3 Light Companies
+            | 1 Medium Company
+    15th Rifle Brigade (21 Companies)
+        115th Rifle Regiment (11 Companies)
+            1st Battalion (5 Companies)
+                ||| 3 Rifle Companies
+                | 1 Machine Gun Company
+                | 1 Heavy Company
+            2nd Battalion (5 Companies)
+                ||| 3 Rifle Companies
+                | 1 Machine Gun Company
+                | 1 Heavy Company
+            | Infantry Gun Company
+        200th Regimental Staff z.b.V. (10 Companies)
+            2nd Machine Gun Battalion (5 Companies)
+                ||| 3 Machine Gun Companies
+                | 1 Heavy Company
+                | 1 Engineer Comapny
+            15th Motorcycle Battalion (5 Companies)
+                ||| 3 Rifle Companies
+                | 1 Machine Gun Company
+                | 1 Heavy Company
+    33rd Artillery Regiment (9 Companies)
+        1st Battalion (3 Companies)
+            ||| 3 Batteries
+        2nd Battalion (3 Companies)
+            ||| 3 Batteries
+        3rd Battalion (3 Companies)
+            ||| 3 Heavy Batteries
+    33rd Reconaissance Battalion (3 Companies)
+        | 1 Armored Car Company
+        | 1 Motorcycle Company
+        | 1 Heavy Company
+    33rd Anti-Tank Battalion (3 Companies)
+        ||| 3 Companies
+    33rd Engineer Battalion (3 Companies)
+        ||| 3 Companies
+
+90th Light Afrika Division (6 Companies)
+    3rd Battalion, 347th Infantry Regiment (4 Companies)
+        ||| 3 Rifle Companies
+        | 1 Heavy Company
+    300th Oasis Battalion z.b.V. (2 Companies)
+        | 6th Oasis Company
+        | 12th Oasis Company
+    | 580th Reconaissance Comapny
+
+
