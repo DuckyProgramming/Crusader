@@ -1,5 +1,5 @@
 Swiss Observation Corps (37)
-    11th Coverage Sector "Varese" (23)
+    11th Coverage Sector "Varese" (23) [Laghi]
         11th/A Subsector "Domodossola" (5)
             Alpini Company "Val Toce", 4th Alpini Regiment
             29th Blackshirt Mountain Battalion "Arona" (4)
@@ -18,7 +18,8 @@ Swiss Observation Corps (37)
             616th Static Machine Gun Company
             617th Static Machine Gun Company
         11th Mixed Engineer Unit
-    12th Coverage Sector "Sondrio" (14)
+        Depots - Legnano, Como, Domodossola
+    12th Coverage Sector "Sondrio" (14) [Sondrio-Valtellina]
         12nd/A Subsector "Chiavenna" (5)
             511th Static Machine Gun Company
             9th Blackshirt Mountain Battalion "Sondrio" (4)
@@ -30,5 +31,14 @@ Swiss Observation Corps (37)
             521st Static Battery (149/35)
             522nd Static Battery (120/40)
         12th Mixed Engineer Unit
+        Depots - Bervio, Bormio, Colico
+
+
+
+The Swiss Observation Corps of the Italian Army was a force that covered the Swiss border, consisting of the 11th and 12th Coverage Sectors of the G.a.F.
+While a very small force, it was backed up by the 10th and 13th Coverage Sectors that each had a bit of the Swiss Border. The Corps HQ was formed from the 16th Army Corps.
+While barely a corps in strength, the Italians had earlier considered even upgrading it in strength to an army, simply designated "S", though it doesn't seem like this ever happened.
+For more on the structure and planned implementation of these units, see pages 175 and 176 of Ascoli's "La Guardia alla Frontiera". The graphs are hard to read but very detailed.
+More units were also planned in various directives to be deployed to the area, but I seriously doubt many of them ever actually made it, such as the 39th and 57th Artillery Groups.
 
 

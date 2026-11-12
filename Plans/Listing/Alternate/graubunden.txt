@@ -1,0 +1,59 @@
+12th Mountain Brigade
+    35th Mountain Regiment (Flims-Ilanz-Brigels)
+        |||| 58th Mountain Battalion (4 Companies)
+        |||| 85th Mountain Battalion (4 Companies)
+        |||| 111th Territorial Mountain Battalion (4 Companies)
+    36th Mountain Regiment
+        ||||| 91st Mountain Battalion (5 Companies)
+        ||||| 93rd Mountain Battalion (5 Companies) (Thusis)
+    60th Territorial Border Regiment (Thusis)
+        |||| 235th Territorial Mountain Border Battalion (4 Companies) (Splügen-Misox)
+        ||||| 236th Territorial Mountain Border Battalion (5 Companies, 1 Artillery Company) (Andder-Thusis)
+    61st Territorial Border Regiment (Engadin)
+        |||| 237th Territorial Mountain Border Battalion (4 Companies) (Maloja)
+        ||||| 238th Territorial Mountain Border Battalion (5 Companies) (Pontresina)
+        |||| 239th Territorial Mountain Border Battalion (4 Companies) (Splügen)
+        |||| 240th Territorial Mountain Border Battalion (4 Companies) (Albula)
+    62nd Territorial Border Regiment (Davos)
+        |||||| 241st Territorial Mountain Border Battalion (6 Companies) (Davos)
+        |||||| 242nd Territorial Mountain Border Battalion (6 Companies) (Schuls)
+        ||| 258th Territorial Mountain Border Battalion (3? Companies) (Zemez)
+    69th Territorial Border Regiment (Küblis)
+        |||| 92nd Mountain Battalion (4 Companies) (Chur)
+        | 1st Company, 259th Territorial Mountain Border Battalion (Klosters-Platz)
+        | 2nd Company, 259th Territorial Mountain Border Battalion (Klosters-Dorf)
+        | 3rd Company, 259th Territorial Mountain Border Battalion (Küblis)
+    28th Motorized Artillery Battalion (Davos)
+        | 79th Motorized Artillery Battery (75mm)
+        | 80th Motorized Artillery Battery (75mm)
+    6th Mountain Artillery Battalion (Arosa)
+        | 111th Mountain Artillery Battery (75mm Mountain)
+        | 112th Mountain Artillery Battery (75mm Mountain)
+    12th Heavy Artillery Battalion (Thusis)
+        | 124th Heavy Artillery Battery (105mm)
+        | 125th Heavy Artillery Battery (105mm)
+    ||| 12th Mountain Combat Engineer Battalion (3 Companies)
+    | 42nd Independent Bicycle Company
+    | 12th Motorcycle Company
+    | 12th Motorized Infantry Gun Company
+    | 12th Motorized Heavy Machine Gun Company
+    | 12th Vounteer Border Guard Company
+Attached:
+    |||| 193rd Territorial Rifle Battalion (4 Companies)
+
+
+
+12th Coverage Sector "Sondrio"
+    12nd/A Subsector "Chiavenna"
+        : 511th Static Machine Gun Company
+        :::: 9th Blackshirt Mountain Battalion "Sondrio" (4 Companies)
+    12nd/B Subsector "Madonna di Tirano"
+        : 512th Static Machine Gun Company
+        :::: 41st Blackshirt Mountain Battalion "Trento" (4 Companies)
+    40th Sector Artillery Group (3)
+        : 520th Static Battery (149/35)
+        : 521st Static Battery (149/35)
+        : 522nd Static Battery (120/40)
+    : 12th Mixed Engineer Unit
+
+

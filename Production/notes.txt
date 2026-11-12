@@ -5571,6 +5571,10 @@ And then I instantly proved myself wrong. "The Operations in North Africa" actua
 2. (Page 31) There were only 30 labor companies, totaling 7500 men (250 men per company). Since all companies can be seen after Compass, we can't prove any were destroyed (if they were they could've been reformed).
 3. Thus, the 8th Labor Battalion in Tobruk was a joke of a unit, without its commander or any companies. It was literally just a headquarters supervising works that weren't happening.
 
+I now disagree with #2. There's clear evidence that a 32nd Labor Company existed, as one of its men was captured. His records could be found in an AHF post that I linked in the sources file.
+He was captured at Sidi Barrani, so I don't think this company could've made it into Tobruk. But this does mean a 31st company existed which I have no information on.
+Since the book cites the 30 labor companies only as sometime around 1939-1940, it's not impossible for another two companies to have been formed. Or maybe, there were even more, though there's no reason to think that.
+
 Highly unrelated, but the word for "ships" in Italian, while I never thought about this beforehand, it now makes sense that it's "navi". Kinda funny and interesting for me.
 
 There's also a listing of commanders back on February 20 1941. This includes the following interesting ones:
@@ -7281,5 +7285,8 @@ I've found an Order of Battle of Kampfgruppe Schütte which participated in the 
 606th Flak Battalion (-1 Company)
 1 Company, 200th Engineer Battalion
 Support Vehicle Columns
+
+Meanwhile, 53rd and 64th Garrison Companies have appeared in mainland Italy, at Asti and Susa respectively (Ascoli 342), so I'm starting to think the numbers had nothing to do with division numbers.
+Except this was a known fact. In fact, I already have the 63rd Garrison Company as part of the Cagliari Division rather than the Cirene. So I don't think this is anything new. But it's nice to not be wrong.
 
 
